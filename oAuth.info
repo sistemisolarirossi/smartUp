@@ -1,0 +1,15 @@
+oAuth tokens:
+
+Google
+-------------------------------------------------------------------------------
+Client ID
+    742163678307-sev85r05uditjh1vf3t2006c7pfl16p0.apps.googleusercontent.com
+Email address
+    742163678307-sev85r05uditjh1vf3t2006c7pfl16p0@developer.gserviceaccount.com 
+Client secret
+    KC1CTcOK_hUQxju0_-DBqEzw
+Redirect URIs
+        https://auth.firebase.com/auth/google/callback
+Javascript Origins
+        https://auth.firebase.com
+-------------------------------------------------------------------------------

@@ -1,0 +1,50 @@
+<div class="container orderview-page">
+
+  <div class="order row">
+    <!--
+    <div class="col-xs-1">
+      <div class="vote up"><span ng-hide="downVoted(order)" ng-click="upVoteOrder(orderId, upVoted(order))">&#x25B2;</span></div>
+
+      <div class="vote down"><span ng-hide="upVoted(order)" ng-click="downVoteOrder(orderId, downVoted(order))">&#x25BC;</span></div>
+    </div>
+    -->
+    <div class="col-md-9 col-xs-11">
+      Order:
+      <span class="info">
+        <a href="{{ order.url }}">{{ order.title }} <span class="url">({{ order.url | hostnameFromUrl }})</span></a>
+      </span>
+      <span class="owner">
+        by <a href="#/users/{{ order.owner }}">{{ order.owner }}</a>
+      </span>
+    </div>
+    <div class="col-md-2">
+    </div>
+
+  </div>
+
+  <br />
+
+  <div ng-repeat="(itemId, item) in order.items" class="row item">
+    <div class="col-md-12">
+      <span>{{ item.text }}</span>
+      <span class="owner">by <a href="#/users/{{ item.username }}">{{ item.username }}</a></span>
+      <span class="commands">
+        &nbsp; <a ng-click="deleteItem(item, itemId)" ng-show="signedIn() && item.username === currentUser.username"><span class="glyphicon glyphicon-trash" title="remove item"></span></a>
+      </span>
+    </div>
+  </div>
+
+  <div class="item-form">
+    <div ng-hide="signedIn()">
+      <span><a href="#/login">Sign in</a> to add an item to the order</span>
+    </div>
+
+    <form ng-show="signedIn()">
+      <textarea ng-model="item.text" placeholder="" class="form-control"></textarea><br />
+      <input type="submit" ng-click="addItem()" value="Add item" class="btn btn-primary" />
+    </form>
+  </div>
+
+  <a href="#/orders" class="btn pull-right"><span class="glyphicon glyphicon-chevron-left"></span> Back to Orders</a>
+
+</div>

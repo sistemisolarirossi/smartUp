@@ -1,0 +1,14 @@
+<div class="container customers-page">
+
+  <div ng-show="signedIn()" ng-controller="CustomersCtrl">
+    Users
+
+    <img ng-show="user.md5_hash" ng-src="http://www.gravatar.com/avatar/{{ user.md5_hash }}" class="nav-pic-user NO-BIG-img-profile" />
+
+    <br>
+    <div ng-show="hasRole(CFG.ROLES.ADMIN)">Current user is administrator</div>
+    <div ng-hide="hasRole(CFG.ROLES.ADMIN)">Current user is not administrator</div>
+    <div ng-show="hasRole(CFG.ROLES.EDIT_CUSTOMERS)">Current user can edit customers</div>
+    <div ng-hide="hasRole(CFG.ROLES.EDIT_CUSTOMERS)">Current user can not edit customers</div>
+  </div>
+</div>

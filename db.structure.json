@@ -1,0 +1,33 @@
+smartup: {
+  customers: {
+    address: "",
+    dateCreation: "",
+    email: "",
+    name: "",
+    phone: "",
+    piva: ""
+  },
+  orders: {
+    customerId: "",   /* TODO: customer => customerId */
+    dateCreation: "", /* TODO: date => dateCreation */
+    dateDelivery: "",
+    owner: "",
+    title: ""
+  },
+  servicereports: {
+    customerId: "",   /* TODO: customer => customerId */
+    dateCreation: "",
+    dateIn: "",
+    dateOut: "",
+    duration: "",
+    location: "",
+    notes: "",
+    number: "",
+    operator: "",
+    owner: ""         /* TODO: remove this */
+  },
+  users: {
+    md5_hash: "",
+    username: ""
+  }
+}

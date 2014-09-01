@@ -1,0 +1,47 @@
+TODO:
+
+ - add toastr's (see teamPlayerRating...)
+ - add security features (https://www.firebase.com/docs/security/security-rules.html)
+    to prevent users from being able to delete orders they do not own
+ - add loading spinner (spinnerFactory from teamPlayerRating?)
+ - add more auth methods (google, fb, twitter) ?
+ - hide timepicker chevrons: added class 'hide' to chevron tr's
+    in 'bower_components/angular-bootstrap/ui-bootstrap-tpls.js'
+    (see 'template/timepicker/timepicker.html'); use something more solid...
+ - remove custom roles system, use Firebase roles, something like this:
+    {
+      "rules": {
+        ".read": true,
+      "users": {
+        ".write": "root.child('users').child(auth.uid).child('role').val() == 'admin'"
+      }
+    }
+
+
+
+
+Authentication system
+--------------------------------------------
+ User
+   Username (univocal)
+   Email    (univocal)
+   ...
+   Group, ...
+   Role, ...
+
+ Group
+   Name     (univocal)
+   Role, ...
+
+ Role
+   Name     (univocal)
+   Value    (univocal)
+ 
+ roles list (fixed):
+   name          | value
+  -------------------------------------------
+   administrator | ROLE_ADMINISTRATOR (1)
+   operator      | ROLE_OPERATOR      (2)
+   customer      | ROLE_CUSTOMER      (4)
+   supplier      | ROLE_SUPPLIER      (8)
+   guest         | ROLE_GUEST         (1024)
