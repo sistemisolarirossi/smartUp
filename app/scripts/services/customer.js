@@ -1,7 +1,7 @@
 'use strict';
 
 /* jshint unused: false */
-app.factory('Customer', function ($firebase, CFG, User) {
+app.factory('Customer', function ($firebase, CFG, User, $q) {
   // N.B.: User injection is necessary to mantain current user across hard page loads...
   var ref = new Firebase(CFG.FIREBASE_URL + 'customers');
   var customers = $firebase(ref);
@@ -34,9 +34,23 @@ app.factory('Customer', function ($firebase, CFG, User) {
     },
     delete: function (customerId) {
       var customer = Customer.find(customerId);
+      if (!customer.name) {
+        var deferred = $q.defer();
+        deferred.resolve('NO SUCH CUSTOMER ID');
+        return deferred.promise;
+      }
       customer.deleted = true;
-      customersByName.$remove(customer.name.toLowerCase());
-      customers.$child(customerId).$set(customer);
+      return customers.$child(customerId).$set(customer).then(
+        function(success) {
+          console.info('remove - then - success', success, customer);
+          customersByName.$remove(customer.name.toLowerCase());
+          return null;
+        },
+        function(error) {
+          console.info('remove - then - error:', error.code);
+          return error.code;
+        }
+      );
     }
   };
 

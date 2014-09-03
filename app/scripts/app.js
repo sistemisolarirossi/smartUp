@@ -104,10 +104,12 @@ app.config(function(ngQuickDateDefaultsProvider) {
 
 app.constant('CFG', {
   FIREBASE_URL: 'https://smartup.firebaseio.com/',
+/*
   ROLES: {
     ADMIN:              1,
     EDIT_CUSTOMERS:     2
   }
+*/
 });
 
 /*

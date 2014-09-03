@@ -19,7 +19,7 @@ app.factory('Auth', function ($firebaseSimpleLogin, CFG, $rootScope) {
       return false;
     },
     hasRole: function (roles) {
-      console.info('hasRole()');
+      //console.info('hasRole()', roles);
       if ((auth.user !== null) && $rootScope.currentUser && $rootScope.currentUser.roles) {
         /* jslint bitwise: true */
         if ((roles & CFG.ROLES.ADMIN) && $rootScope.currentUser.roles.admin) {
@@ -47,7 +47,8 @@ app.factory('Auth', function ($firebaseSimpleLogin, CFG, $rootScope) {
       return auth.$login('password', {
         email: user.email,
         password: user.password,
-        rememberMe: true
+        rememberMe: true,
+        debug: true // TODO: make it dynamical, checking some global debug/production flag...
       });
       /**/
     },

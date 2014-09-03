@@ -1,6 +1,6 @@
 <div class="container customers-page">
 
-  <div ng-show="signedIn() && hasRole(CFG.ROLES.EDIT_CUSTOMERS)" ng-controller="CustomersCtrl">
+  <div ng-show="signedIn() && currentUserCanRead()" ng-controller="CustomersCtrl">
 
     <form class="form-horizontal" ng-hide="printMode || addMode || editMode">
       <div class="form-group" style="margin-bottom: 0;">
@@ -66,6 +66,7 @@
             <button
               title="Edit customer"
               class="btn btn-primary btn-xs glyphicon glyphicon-pencil"
+              ng-disabled="!currentUserCanWrite()"
               ng-click="editCustomer(customer)"
             ></button>
             <button
@@ -76,6 +77,7 @@
             <button
               title="Delete customer" 
               class="btn btn-primary btn-xs glyphicon glyphicon-trash"
+              ng-disabled="!currentUserCanWrite()"
               really-message="Are you really sure to remove customer <i>{{customer.name}}</i> ?" really-click="deleteCustomer(customer)"
             ></button>
           </td>

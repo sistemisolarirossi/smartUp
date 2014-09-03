@@ -66,13 +66,53 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
 */
 
   $scope.deleteCustomer = function (customer) {
-    var id = customer.$id;
-    Customer.delete(id);
+    Customer.delete(customer.$id).then(
+      function(error) {
+        if (!error) {
+          console.info('deleteCustomer - success');
+          toastr.info('Customer deleted');
+        } else {
+          console.info('deleteCustomer - error', error.replace(/_/, ' '));
+          toastr.error('Customer not deleted: ' + error.replace(/_/, ' '));
+        }
+      }
+    );
   };
 
   $scope.addCustomer = function () {
     $scope.initCustomer();
     $scope.addMode = true;
+  };
+
+  $scope.currentUserCanRead = function () {
+    console.info('currentUserCanRead');
+    if ($rootScope.currentUser) {
+      console.info('currentUserCanRead - currentUser is set');
+      console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
+      console.info('currentUserCanRead - currentUser.roles.read.customers:', $rootScope.currentUser.roles.read.customers);
+      console.info('currentUserCanRead - retval:',
+        $rootScope.currentUser.roles.read.all ||
+        $rootScope.currentUser.roles.read.customers
+      );
+      return $rootScope.currentUser.roles.read.all ||
+             $rootScope.currentUser.roles.read.customers
+      ;
+    }
+    console.info('currentUserCanRead - returning FALSE');
+    return false;
+  };
+
+  $scope.currentUserCanWrite = function () {
+    console.info('currentUserCanWrite');
+    if ($rootScope.currentUser) {
+      console.info('currentUserCanWrite - currentUser is set');
+      console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
+      return $rootScope.currentUser.roles.write.all ||
+             $rootScope.currentUser.roles.write.customers
+      ;
+    }
+    console.info('currentUserCanWrite - returning FALSE');
+    return false;
   };
 
   $scope.editCustomer = function (customer) {

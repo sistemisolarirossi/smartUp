@@ -6,7 +6,7 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
  
   var User = {
     create: function (authUser, username) {
-console.info('authUser:', authUser);
+      console.info('authUser:', authUser);
       /* jshint camelcase: false */
       users[username] = {
         md5_hash: authUser.md5_hash, // we need this for gravatars
@@ -45,8 +45,7 @@ console.info('authUser:', authUser);
     var query = $firebase(ref.startAt(authUser.uid).endAt(authUser.uid));
      
     query.$on('loaded', function () {
-      //console.info('query.$on("loaded" ...:', authUser.uid);
-      console.info('query.$on("loaded" ...:', query.$getIndex()[0]);
+      //console.info('query.$on("loaded" ...:', query.$getIndex()[0]);
       setCurrentUser(query.$getIndex()[0]);
     });
   });

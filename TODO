@@ -13,9 +13,11 @@ TODO:
       "rules": {
         ".read": true,
       "users": {
-        ".write": "root.child('users').child(auth.uid).child('role').val() == 'admin'"
+        ".write": "root.child('users').child(auth.uid).child('role').val() == 'administrator'"
       }
     }
+ - implement error handling as in services/customer/delete()
+ - implement role checks in views (to disable actions if current user can't write that view)
 
 
 
