@@ -31,10 +31,8 @@
 
       <li class="dropdown">
         <a class="dropdown-toggle" ng-click="$event.stopPropagation()">Setup <b class="caret"></b></a>
-        <ul class="nav navbar-nav navbar-inverse dropdown-menu" style="">
-          <li role="presentation">
-            <a role="menuitem" tabindex="-1" ng-click="isCollapsed = !isCollapsed" ng-href="#/users">Users</a>
-          </li>
+        <ul role="menu" class="dropdown-menu inverse-dropdown">
+          <li role="presentation"><a ng-click="isCollapsed = !isCollapsed" ng-href="#/users">Users</a></li>
         </ul>
       </li>
 
@@ -62,7 +60,10 @@
         <a class="btn btn-primary" href="#/register"><span class="glyphicon glyphicon-user" title="Register if you have not an account already"></span>&emsp;<span>Register</span></a>
       </span>
       <span>
-        <a class="btn btn-primary" href="#/login"><span class="glyphicon glyphicon-log-in" title="Log in with your credentials"></span>&emsp;<span>Login</span></a>
+        <a class="btn btn-primary" href="#/login"><span class="glyphicon glyphicon-log-in" title="Log in with your credentials"></span>&emsp;<span>Sign in</span></a>
+      </span>
+      <span>
+        <a class="btn btn-primary" href="#/login/google+"><span title="Log in with your Google accout"><span><img src="icons/signin-google+.png">&emsp;Sign in</span></a>
       </span>
     </div>
     <div class="alignclearboth"></div>
@@ -74,7 +75,7 @@
       </span>
     </div>
     <div class="nav-alignright">
-      {{ currentUser }}
+      <!-- {{ currentUser }} -->
       <span>
         <a href="#/users/{{ currentUser.username }}">
           <img class="nav-pic-user" ng-src="http://www.gravatar.com/avatar/{{ currentUser.md5_hash }}" title="logged user: {{ currentUser.username }}" />

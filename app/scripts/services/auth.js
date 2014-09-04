@@ -1,9 +1,10 @@
 'use strict';
  
-app.factory('Auth', function ($firebaseSimpleLogin, CFG, $rootScope) {
+app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) {
   var ref = new Firebase(CFG.FIREBASE_URL);
-
   var auth = $firebaseSimpleLogin(ref);
+  var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
+  var users = $firebase(refUsers);
 
   var Auth = {
     register: function (user) {
@@ -42,8 +43,19 @@ app.factory('Auth', function ($firebaseSimpleLogin, CFG, $rootScope) {
       return null;
     },
     login: function (user) {
-      //return auth.$login('password', user);
-      /**/
+      if (user.usernameOrEmail && user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
+        console.log('user inserted value looks like an email');
+        user.email = user.usernameOrEmail; // set user email with user inserted value
+      } else { // user value doesn't look like an email
+        // try matching user value against user names
+        console.log('user inserted value doesn\'t look like an email');
+        var existingUser = users.$child(user.usernameOrEmail);
+        console.log('existingUser:', existingUser);
+        if (existingUser) { // user email is found as a user name
+          user.email = existingUser.email; // set user email with found user email field
+          console.log('found user.email:', user.email);
+        }
+      }
       return auth.$login('password', {
         email: user.email,
         password: user.password,

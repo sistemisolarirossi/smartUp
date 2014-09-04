@@ -10,6 +10,7 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
       /* jshint camelcase: false */
       users[username] = {
         md5_hash: authUser.md5_hash, // we need this for gravatars
+        email: authUser.email, // TODO: check if this poses a security issue (it should not...)
         username: username,
         $priority: authUser.uid
       };

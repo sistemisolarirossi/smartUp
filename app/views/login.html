@@ -11,30 +11,30 @@
     </div>
     <div class="alignclearboth"></div>
 
-    <div class="row" title="Your email">
+    <div class="row" title="Your username or email">
       <div class="col">
-        <input type="text" name="email" class="form-control" ng-model="user.email" ng-change="reset()" placeholder="Email" autocomplete="on" auto-fill-sync required />
+        <input type="text" name="usernameOrEmail" class="form-control" ng-model="user.usernameOrEmail" ng-change="reset()" placeholder="Username / Email" autocomplete="on" auto-fill-sync required tabindex="1" />
       </div>
     </div>
 
     <div class="row" title="Your password">
       <div class="col">
-        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" auto-fill-sync required />
+        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" auto-fill-sync required tabindex="2" />
       </div>
     </div>
 
     <div class="row" title="Reset your password">
       <div class="col">
-        <span style="font-size: 75%; text-decoration: underline; float: right;">
+        <span style="font-size: 75%; NOtext-decoration: underline; float: right;">
           <!-- onclick="toastr.warning('email sent successully...');" -->
-          <a href="javascript:void(0)" ng-click="sendPasswordResetEmail(user.email)">I forgot my password</a>
+          <a href="javascript:void(0)" ng-click="sendPasswordResetEmail(user.usernameOrEmail)" tabindex="4">I forgot my password</a>
         </span>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <button type="submit" class="btn btn-primary" ng-disabled="error" ng-click="login()">
+        <button type="submit" class="btn btn-primary" ng-disabled="error" ng-click="login()" tabindex="3">
           Log in
         </button>
       </div>

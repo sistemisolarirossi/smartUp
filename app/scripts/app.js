@@ -18,12 +18,12 @@ var app = angular.module('smartUpApp', [
     'ngTouch',
     
     // in bower.json:
-    "dependencies": {
+    'dependencies": {
       ...
-      "angular-resource": "1.2.16",
-      "angular-cookies": "1.2.16",
-      "angular-animate": "1.2.16",
-      "angular-touch": "1.2.16",
+      'angular-resource": "1.2.16",
+      'angular-cookies": "1.2.16",
+      'angular-animate": "1.2.16",
+      'angular-touch": "1.2.16",
       ...
     },
   */
@@ -44,6 +44,10 @@ app.config(function ($routeProvider) {
       controller: 'AuthCtrl'
     })
     .when('/login', {
+      templateUrl: 'views/login.html',
+      controller: 'AuthCtrl'
+    })
+    .when('/login/:authtype', {
       templateUrl: 'views/login.html',
       controller: 'AuthCtrl'
     })
@@ -104,12 +108,12 @@ app.config(function(ngQuickDateDefaultsProvider) {
 
 app.constant('CFG', {
   FIREBASE_URL: 'https://smartup.firebaseio.com/',
-/*
+/* TODO: REMOVE THESE... */
   ROLES: {
     ADMIN:              1,
     EDIT_CUSTOMERS:     2
   }
-*/
+/* ********************* */
 });
 
 /*
@@ -147,11 +151,31 @@ app.run(function (stateFactory) {
 });
 */
 
-app.run(function () {
+/**
+ * Override template cache
+ */
+app.run(['$templateCache', function($templateCache) {
+
+  /* hide timepicker up/down arrows */
+  $templateCache.put('template/timepicker/timepicker.html',
+    '<table>' +
+    ' <tbody>' +
+    '   <tr>' +
+    '     <td style="width: 3.0em;" class="form-group" ng-class="{\'has-error\': invalidHours}">' +
+    '       <input type="text" ng-model="hours" ng-change="updateHours()" class="form-control text-center" ng-mousewheel="incrementHours()" ng-readonly="readonlyInput" maxlength="2">' +
+    '     </td>' +
+    '     <td></td>' +
+    '     <td style="width: 3.0em;" class="form-group" ng-class="{\'has-error\': invalidMinutes}">' +
+    '       <input type="text" ng-model="minutes" ng-change="updateMinutes()" class="form-control text-center" ng-readonly="readonlyInput" maxlength="2">' +
+    '     </td>' +
+    '     <td ng-show="showMeridian"><button type="button" class="btn btn-default text-center" ng-click="toggleMeridian()">{{meridian}}</button></td>' +
+    '   </tr>' +
+    ' </tbody>' +
+    '</table>'
+  );
+}]);
+
 /*
-  $('.nav a').on('click', function() {
-    //$(".btn-navbar").click();
-    $(".navbar-toggle").click();
-  });
-*/
+app.run(function () {
 });
+*/

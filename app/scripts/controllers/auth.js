@@ -1,10 +1,16 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $location, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User) {
   if (Auth.signedIn()) {
   	//console.info('signedIn');
     $location.path('/');
   }
+
+    console.info('AuthCtrl - $routeParams:', $routeParams);
+    if ($routeParams.authtype === 'google+') {
+      toastr.info('Google Login');
+      $location.path('/');
+    }
 
   $scope.$on('$firebaseSimpleLogin:login', function () {
     //console.info('*** $firebaseSimpleLogin:login did fire, redirecting to /');
@@ -15,21 +21,36 @@ app.controller('AuthCtrl', function ($scope, $location, Auth, User) {
   $scope.info = null;
 
   $scope.login = function () {
-  	//console.info('$scope.login() - $scope.user:', $scope.user);
-    if ($scope.user) {
+  	console.info('$scope.login() - $scope.user:', $scope.user);
+    if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {
       Auth.login($scope.user).then(function () {
         //console.info('Auth.login() returned - $scope.user:', $scope.user);
         $location.path('/');
       }, function (error) {
-        console.info($scope.error);
+        var cause = null;
         if (error.code === 'INVALID_PASSWORD') {
-          $scope.error = 'Wrong password'; // $scope.error.toString();
+          cause = 'wrong password';
         } else {
-          $scope.error = 'Login failed. Please retry'; // $scope.error.toString();
+          if (error.code === 'INVALID_EMAIL') {
+            cause = 'wrong email';
+          } else {
+            cause = error.code.replace(/_/, ' ');
+          }
         }
+        $scope.error = 'Login failed (' + cause + ')';
       });
     } else {
-      $scope.error = 'Please specify a user name and a password';
+      if (!$scope.user) {
+        $scope.error = 'Please specify a username/email and password';
+      } else {
+        if (!$scope.user.usernameOrEmail) {
+          $scope.error = 'Please specify a username/email';
+        } else {
+          if (!$scope.user.password) {
+            $scope.error = 'Please specify a password';
+          }
+        }
+      }
     }
   };
 
@@ -47,7 +68,7 @@ app.controller('AuthCtrl', function ($scope, $location, Auth, User) {
         $location.path('/');
       }, function (error) {
         if (error.code === 'INVALID_EMAIL') {
-          $scope.error = 'Please, specify a valid email';
+          $scope.error = 'Please specify a valid email';
         } else {
           if (error.code === 'EMAIL_TAKEN') {
             $scope.error = 'Sorry, email is already registered';
@@ -55,7 +76,7 @@ app.controller('AuthCtrl', function ($scope, $location, Auth, User) {
             if (error.code === 'AUTHENTICATION_DISABLED') {
               $scope.error = 'Sorry, authentication is currently disabled. Contact administrators.';
             } else {
-              $scope.error = error.code + 'Sorry, could not register user. Retry later.';
+              $scope.error = 'Sorry, could not register user (' + error.code.replace(/_/, ' ') + '). Please retry later.';
             }
           }
         }
@@ -67,21 +88,27 @@ app.controller('AuthCtrl', function ($scope, $location, Auth, User) {
 
   $scope.sendPasswordResetEmail = function (email) {
     $scope.reset();
+    /*
     if (!email) {
-      $scope.info = 'Please, insert your email, first';
+      $scope.info = 'Please insert your email, first';
     }
+    */
     Auth.sendPasswordResetEmail(email).then(function(error) {
       if (typeof error === 'undefined') {
         //console.info('Password reset email sent successfully');
         $scope.info =
-          'An email with a temporary password has been sent to your email.' +
-          'Use it to login and then change it.';
+          'An email with a temporary password has been sent to your email: ' +
+          'use it to login and then change it.';
       } else {
         //console.info('Error sending password reset email:', error);
         if (error.code === 'INVALID_EMAIL') {
-          $scope.error = 'Please, specify a valid email';
+          $scope.error = 'Please specify a valid email';
         } else {
-          $scope.error = 'Sorry, could not send password email. Retry later';
+          if (error.code === 'INVALID_USER') {
+            $scope.error = 'Sorry, this is not a registered email';
+          } else {
+            $scope.error = 'Sorry, could not send password email (' + error.code + '). Please retry later.';
+          }
         }
       }
     });
@@ -90,7 +117,7 @@ app.controller('AuthCtrl', function ($scope, $location, Auth, User) {
   $scope.reset = function() {
     $scope.error = null;
     $scope.info = null;
-    console.info('reset error:', $scope.error);
+    //console.info('reset error:', $scope.error);
   };
 
   $scope.reset();
