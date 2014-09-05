@@ -47,3 +47,4 @@ Authentication system
    customer      | ROLE_CUSTOMER      (4)
    supplier      | ROLE_SUPPLIER      (8)
    guest         | ROLE_GUEST         (1024)
+
