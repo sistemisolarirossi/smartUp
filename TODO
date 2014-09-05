@@ -48,3 +48,4 @@ Authentication system
    supplier      | ROLE_SUPPLIER      (8)
    guest         | ROLE_GUEST         (1024)
 
+
