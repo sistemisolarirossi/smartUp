@@ -47,7 +47,7 @@ app.config(function ($routeProvider) {
       templateUrl: 'views/login.html',
       controller: 'AuthCtrl'
     })
-    .when('/login/:authtype', {
+    .when('/login/:authType', {
       templateUrl: 'views/login.html',
       controller: 'AuthCtrl'
     })

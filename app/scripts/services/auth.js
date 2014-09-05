@@ -64,6 +64,13 @@ app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) 
       });
       /**/
     },
+    loginWithGoogle: function () {
+      return auth.$login('google', {
+        rememberMe: true,
+        scope: null, //'https://www.googleapis.com/auth/plus.login', // a comma-delimited list of requested extended permissions (see https://developers.google.com/+/api/oauth)
+        preferRedirect: true // true redirects to google, instead of using a popup
+      });
+    },
     logout: function () {
       auth.$logout();
     },

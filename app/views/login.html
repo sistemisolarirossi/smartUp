@@ -1,4 +1,4 @@
-<div class="auth-forms" style="max-width: 20.0em;">
+<div class="auth-forms" style="max-width: 20.0em;" ng-show="!params.authType">
 
   <h3>Log In</h3>
 
@@ -19,13 +19,13 @@
 
     <div class="row" title="Your password">
       <div class="col">
-        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" auto-fill-sync required tabindex="2" />
+        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" autocomplete="off" auto-fill-sync required tabindex="2" />
       </div>
     </div>
 
     <div class="row" title="Reset your password">
       <div class="col">
-        <span style="font-size: 75%; NOtext-decoration: underline; float: right;">
+        <span style="font-size: 75%; float: right;">
           <!-- onclick="toastr.warning('email sent successully...');" -->
           <a href="javascript:void(0)" ng-click="sendPasswordResetEmail(user.usernameOrEmail)" tabindex="4">I forgot my password</a>
         </span>

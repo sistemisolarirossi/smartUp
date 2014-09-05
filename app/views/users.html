@@ -3,7 +3,7 @@
   <div ng-show="signedIn()" ng-controller="CustomersCtrl"><!-- TODO... -->
     Users
 
-    <img ng-show="user.md5_hash" ng-src="http://www.gravatar.com/avatar/{{ user.md5_hash }}" class="nav-pic-user NO-BIG-img-profile" />
+    <img ng-show="user.md5_hash" ng-src="http://www.gravatar.com/avatar/{{ user.md5Hash }}" class="nav-pic-user NO-BIG-img-profile" />
 
     <br>
     <div ng-show="hasRole(CFG.ROLES.ADMIN)">Current user is administrator</div>

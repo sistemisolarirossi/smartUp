@@ -6,16 +6,15 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
     $location.path('/');
   }
 
-    console.info('AuthCtrl - $routeParams:', $routeParams);
-    if ($routeParams.authtype === 'google+') {
-      toastr.info('Google Login');
-      $location.path('/');
-    }
+  $scope.params = $routeParams;
 
+
+/*
   $scope.$on('$firebaseSimpleLogin:login', function () {
     //console.info('*** $firebaseSimpleLogin:login did fire, redirecting to /');
     $location.path('/');
   });
+*/
 
   $scope.error = null;
   $scope.info = null;
@@ -23,8 +22,8 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
   $scope.login = function () {
   	console.info('$scope.login() - $scope.user:', $scope.user);
     if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {
-      Auth.login($scope.user).then(function () {
-        //console.info('Auth.login() returned - $scope.user:', $scope.user);
+      Auth.login($scope.user).then(function (authUser) {
+        console.info('Auth.login() returned authUser:', authUser);
         $location.path('/');
       }, function (error) {
         var cause = null;
@@ -54,12 +53,30 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
     }
   };
 
+  $scope.loginWithGoogle = function () {
+    Auth.loginWithGoogle().then(function (authUser) {
+      console.info('Auth.loginWithGoogle() returned authUser:', authUser);
+      $location.path('/');
+     }, function (error) {
+      var cause = null;
+      if (error.code === 'USER_DENIED') {
+        cause = 'utente non autorizzato';
+      } else {
+        if (error.code === 'UNKNOWN_ERROR') {
+          cause = 'errore sconosciuto durante la fase di autorizzazione'; // (possibly user did not authorize)
+        } else {
+          cause = error.code.replace(/_/, ' ');
+        }
+      }
+      $scope.error = 'Login with Google failed (' + cause + ')';
+    });
+  };
+
   $scope.register = function (valid) {
     $scope.formRegisterSubmitted = true; // allow validation errors to be shown
     if (!valid) {
       return;
     }
-
     if ($scope.user) {
       Auth.register($scope.user).then(function (authUser) {
         User.create(authUser, $scope.user.username);
@@ -120,5 +137,12 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
     //console.info('reset error:', $scope.error);
   };
 
+
   $scope.reset();
+
+  console.info('AuthCtrl - params:', $scope.params);
+  if ($scope.params.authType === 'google+') {
+    $scope.loginWithGoogle();
+  }
+
 });

@@ -9,12 +9,16 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
       console.info('authUser:', authUser);
       /* jshint camelcase: false */
       users[username] = {
-        md5_hash: authUser.md5_hash, // we need this for gravatars
+        md5Hash: authUser.md5_hash, // email MD5 hash (we need this for gravatars)
         email: authUser.email, // TODO: check if this poses a security issue (it should not...)
-        username: username,
-        $priority: authUser.uid
+        username: username, // TODO: do we really really need this field?
+        provider: authUser.provider, // auth provider
+        id: authUser.id, // user id
+        uid: authUser.uid,// user uid (unique id among auth providers)
+        isTemporaryPassword: authUser.isTemporaryPassword, // is password temporary?
+        firebaseAuthToken: authUser.firebaseAuthToken // TODO: how to use this value?
       };
-
+console.info('users[username]:', users[username]);
       users.$save(username).then(function () {
         setCurrentUser(username);
       });
