@@ -1,3 +1,3 @@
-<h1>Small Business README</h1>
+<h1>SmartUp README</h1>
 
 TODO...
