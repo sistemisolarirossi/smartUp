@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, Auth, md5, User) {
   if (Auth.signedIn()) {
   	//console.info('signedIn');
     $location.path('/');
@@ -55,7 +55,14 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
 
   $scope.loginWithGoogle = function () {
     Auth.loginWithGoogle().then(function (authUser) {
+      $scope.user = angular.copy(authUser);
+      $scope.user.username = 'no_username_google_signin';
+      /* jshint camelcase: false */
+      $scope.user.md5Hash = md5.createHash(authUser.email);
+      //$scope.register(true);
+      $rootScope.currentUser = $scope.user;
       console.info('Auth.loginWithGoogle() returned authUser:', authUser);
+      console.info('Auth.loginWithGoogle() $rootScope.currentUser:', $rootScope.currentUser);
       $location.path('/');
      }, function (error) {
       console.info('Auth.loginWithGoogle() returned error:', error);
@@ -98,6 +105,7 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
             }
           }
         }
+        console.error('Register error:', $scope.error);
       });
     } else {
       $scope.error = 'Please specify user\'s data';

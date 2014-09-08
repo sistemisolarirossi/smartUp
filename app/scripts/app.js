@@ -31,7 +31,8 @@ var app = angular.module('smartUpApp', [
   'ngRoute',
   'ngAutocomplete',
   'firebase',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'angular-md5'
 ]); 
 app.config(function ($routeProvider) {
   $routeProvider
