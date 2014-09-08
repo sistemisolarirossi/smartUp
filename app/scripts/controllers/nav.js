@@ -8,6 +8,7 @@ app.controller('NavCtrl', function ($scope, $rootScope, $location, Auth) {
     //console.info('logout...');
     $rootScope.formLabel = '';
     Auth.logout();
+    $location.path('/');
   };
 
 });

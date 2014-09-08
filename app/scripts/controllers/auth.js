@@ -58,6 +58,7 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
       console.info('Auth.loginWithGoogle() returned authUser:', authUser);
       $location.path('/');
      }, function (error) {
+      console.info('Auth.loginWithGoogle() returned error:', error);
       var cause = null;
       if (error.code === 'USER_DENIED') {
         cause = 'utente non autorizzato';
@@ -140,9 +141,10 @@ app.controller('AuthCtrl', function ($scope, $routeParams, $location, Auth, User
 
   $scope.reset();
 
+/*
   console.info('AuthCtrl - params:', $scope.params);
   if ($scope.params.authType === 'google+') {
     $scope.loginWithGoogle();
   }
-
+*/
 });
