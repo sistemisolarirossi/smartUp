@@ -19,6 +19,7 @@ TODO:
  - implement error handling as in services/customer/delete()
  - implement role checks in views (to disable actions if current user can't write that view)
  - test multiple SSH keys on github
+ - always use 'check-not-empty' for 'required' in validations (probable collision with HTML5...)
 
 
 

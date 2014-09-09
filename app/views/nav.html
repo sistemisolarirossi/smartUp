@@ -63,7 +63,7 @@
         <a class="btn btn-primary" href="#/login"><span class="glyphicon glyphicon-log-in" title="Log in with your credentials"></span>&emsp;<span>Sign in</span></a>
       </span>
       <span ng-controller="AuthCtrl">
-        <a class="btn btn-primary" NOhref="#/login/google+" ng-click="loginWithGoogle()"><span title="Log in with your Google accout"><span><img src="icons/signin-google+.png">&emsp;Sign in 2</span></a>
+        <a class="btn btn-primary" ng-click="loginWithGoogle()"><span title="Log in with your Google accout"><span><img src="icons/signin-google+.png">&emsp;Sign in</span></a>
       </span>
     </div>
     <div class="alignclearboth"></div>
@@ -75,7 +75,6 @@
       </span>
     </div>
     <div class="nav-alignright">
-      cU: {{ currentUser }}
       <span>
         <a href="#/users/{{ currentUser.username }}">
           <img class="nav-pic-user" ng-src="http://www.gravatar.com/avatar/{{ currentUser.md5Hash }}" title="logged user: {{ currentUser.username }}" />

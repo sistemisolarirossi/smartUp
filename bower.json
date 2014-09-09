@@ -8,12 +8,13 @@
     "bootstrap": "~3.2.0",
     "angular-route": "1.2.16",
     "angular-sanitize": "1.2.16",
-    "firebase": "~1.0.17",
+    "firebase": "~1.0.21",
     "angularfire": "~0.7.1",
     "angular-bootstrap": "~0.11.0",
     "toastr": "~2.0.3",
     "ngAutocomplete": "~1.0.0",
-    "angular-md5": "~0.1.7"
+    "angular-md5": "~0.1.7",
+    "firebase-simple-login": "~1.6.3"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",

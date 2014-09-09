@@ -39,7 +39,7 @@ console.info('users[username]:', users[username]);
 
   function setCurrentUser (username) {
     $rootScope.currentUser = User.findByUsername(username);
-    //console.log('setCurrentUser('+username+') - $rootScope.currentUser:', $rootScope.currentUser);
+console.log('setCurrentUser('+username+') - $rootScope.currentUser:', $rootScope.currentUser);
   }
 
   function resetCurrentUser () {
@@ -47,11 +47,16 @@ console.info('users[username]:', users[username]);
   }
 
   $rootScope.$on('$firebaseSimpleLogin:login', function (e, authUser) {
-    var query = $firebase(ref.startAt(authUser.uid).endAt(authUser.uid));
-     
+console.info('$on($firebaseSimpleLogin:login authUser:', authUser);
+    var query = $firebase(ref.startAt(authUser.uid).endAt(authUser.uid));  
     query.$on('loaded', function () {
-      //console.info('query.$on("loaded" ...:', query.$getIndex()[0]);
-      setCurrentUser(query.$getIndex()[0]);
+      var username = query.$getIndex()[0];
+      if (!username) { // social provider, username not present
+        username = authUser.displayName; // TODO: what do we use ad username for social providers?
+      }
+      //console.info('query.$on("loaded" ...:', username);
+console.info('$on($firebaseSimpleLogin:login setCurrentUser(', username, ')');
+      setCurrentUser(username);      
     });
   });
 

@@ -56,11 +56,14 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.loginWithGoogle = function () {
     Auth.loginWithGoogle().then(function (authUser) {
       $scope.user = angular.copy(authUser);
-      $scope.user.username = 'no_username_google_signin';
+      $scope.user.username = authUser.displayName; // do we have displayName for all providers?
       /* jshint camelcase: false */
-      $scope.user.md5Hash = md5.createHash(authUser.email);
+      $scope.user.md5_hash = md5.createHash(authUser.email);
       //$scope.register(true);
-      $rootScope.currentUser = $scope.user;
+      //$rootScope.currentUser = $scope.user;
+      User.create($scope.user, $scope.user.username);
+      console.info('loginWithGoogle() - User.create():', authUser);
+
       console.info('Auth.loginWithGoogle() returned authUser:', authUser);
       console.info('Auth.loginWithGoogle() $rootScope.currentUser:', $rootScope.currentUser);
       $location.path('/');

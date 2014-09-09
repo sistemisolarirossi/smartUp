@@ -22,11 +22,11 @@
 
     <div class="row" title="Your user name" style="margin-top: 1.5em;">
       <div class="col">
-        <input type="text" name="username" ng-model="user.username" ng-change="reset()" placeholder="Username" class="form-control" autocomplete="off" required check-user-name>
+        <input type="text" name="username" ng-model="user.username" ng-change="reset()" placeholder="Username" class="form-control" autocomplete="off" check-not-empty check-user-name>
       </div>
     </div>
     <div class="error-container" ng-show="formRegister.username.$invalid && formRegisterSubmitted">
-      <small class="error" ng-show="formRegister.username.$error.required">
+      <small class="error" ng-show="formRegister.username.$error.notempty">
         A user name is required
       </small>
       <small class="error" ng-show="formRegister.username.$error.invalid">

@@ -22,6 +22,24 @@ function formatDuration(text) {
   return value;
 }
 
+app.directive('checkNotEmpty', function() {
+  return {
+    require: 'ngModel',
+    link: function(scope, elm, attrs, model) {
+      var retval;
+      model.$parsers.unshift(function(viewValue) {
+        if (viewValue && viewValue !== '') {
+          model.$setValidity('notempty', true);
+          retval = viewValue;
+        } else { // customer name is not valid
+          model.$setValidity('notempty', false);
+        }
+        return retval;
+      });
+    }
+  };
+});
+
 app.directive('checkUserName', function(User) {
   return {
     require: 'ngModel',
