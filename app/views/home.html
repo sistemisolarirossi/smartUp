@@ -19,17 +19,17 @@
          title="Log in with your credentials">
          <i class="fa fa-sign-in"></i>&nbsp; Log in
       </a>
-      <a class="btn btn-google-plus"
+      <a class="btn btn-block btn-social btn-google-plus"
          ng-click="loginSocial('google')"
-         title="Connect with your Google+ accout">
-         <i class="fa fa-google-plus"></i>&nbsp; Connect with Google+
-       </a>
-      <a class="btn btn-facebook"
+         title="Connect with your Google accout">
+        <i class="fa fa-google-plus"></i> Connect with Google+
+      </a>
+      <a class="btn btn-block btn-social btn-facebook"
          ng-click="loginSocial('facebook')"
          title="Connect with your Facebook accout">
          <i class="fa fa-facebook"></i>&nbsp; Connect with Facebook
       </a>
-      <a class="btn btn-twitter"
+      <a class="btn btn-block btn-social btn-twitter"
          ng-click="loginSocial('twitter')"
          title="Connect with your Twitter accout">
          <i class="fa fa-twitter"></i>&nbsp; Connect with Twitter
@@ -38,10 +38,12 @@
 
     <div class="jumbotron centered">
       Questa è la home page di <em>smartUp</em> per gli utenti non registrati. <br />
-      <br />
-      Loggarsi come <i>demo@mail.com</i> / <i>demo</i>, oppure <br />
-      registrare un nuovo account e loggarsi <br />
-      per utilizzare la parte amministrativa. <br />
+      Connettersi utilizzando un proprio account "social", oppure loggarsi con queste credenziali: <br />
+      <small>
+        username: <i>demo</i><br />
+        password: <i>demo</i><br />
+      </small>
+      oppure registrare un nuovo account ed effettuare il log in.<br />
     </div>
   </div>
   <div ng-show="signedIn()">

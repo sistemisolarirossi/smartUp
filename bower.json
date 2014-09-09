@@ -14,7 +14,8 @@
     "toastr": "~2.0.3",
     "ngAutocomplete": "~1.0.0",
     "angular-md5": "~0.1.7",
-    "firebase-simple-login": "~1.6.3"
+    "firebase-simple-login": "~1.6.3",
+    "bootstrap-social": "~4.7.0"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
