@@ -1,5 +1,41 @@
 <div class="container orders-page" ng-controller="HomeCtrl">
   <div ng-hide="signedIn()">
+
+<!--
+<button class="btn btn-google-plus"><i class="fa fa-google-plus"></i>&emsp; Connect with Google+</button>
+<button class="btn btn-twitter"><i class="fa fa-twitter"></i>&emsp; Connect with Facebook</button>
+<button class="btn btn-facebook"><i class="fa fa-facebook"></i>&emsp; Connect with Facebook</button>
+<br><br>
+-->
+
+    <div class="btn-group-vertical pull-right btn-group-vertical-spaced" ng-controller="AuthCtrl">
+      <a class="btn btn-primary"
+         ng-href="#/register"
+         title="Register if you have not an account already">
+         <i class="fa fa-user"></i>&nbsp; Register
+      </a>
+      <a class="btn btn-primary"
+         ng-href="#/login"
+         title="Log in with your credentials">
+         <i class="fa fa-sign-in"></i>&nbsp; Log in
+      </a>
+      <a class="btn btn-google-plus"
+         ng-click="loginSocial('google')"
+         title="Connect with your Google+ accout">
+         <i class="fa fa-google-plus"></i>&nbsp; Connect with Google+
+       </a>
+      <a class="btn btn-facebook"
+         ng-click="loginSocial('facebook')"
+         title="Connect with your Facebook accout">
+         <i class="fa fa-facebook"></i>&nbsp; Connect with Facebook
+      </a>
+      <a class="btn btn-twitter"
+         ng-click="loginSocial('twitter')"
+         title="Connect with your Twitter accout">
+         <i class="fa fa-twitter"></i>&nbsp; Connect with Twitter
+      </a>
+    </div>
+
     <div class="jumbotron centered">
       Questa è la home page di <em>smartUp</em> per gli utenti non registrati. <br />
       <br />

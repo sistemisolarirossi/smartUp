@@ -68,7 +68,22 @@ app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) 
       return auth.$login('google', {
         rememberMe: true,
         scope: null, //'https://www.googleapis.com/auth/plus.login', // a comma-delimited list of requested extended permissions (see https://developers.google.com/+/api/oauth)
-        preferRedirect: true // true redirects to google (doesn't work properly...), instead of using a popup
+        preferRedirect: false // true redirects to google (doesn't work properly...), instead of using a popup
+      });
+    },
+    loginSocial: function (provider) {
+      return auth.$login(provider, { // TODO: test usage with wrong provider...
+        rememberMe: true,
+        scope:
+          (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
+          (provider === 'facebook') ? 'email' :
+          null, // a comma-delimited list of requested extended permissions
+          // google: 'https://www.googleapis.com/auth/plus.login' (see https://developers.google.com/+/api/oauth)
+          // facebook: 'user_friends,email' (see https://developers.facebook.com/docs/reference/login/#permissions)
+          // twitter: 'user_friends,email' (see https://developers.facebook.com/docs/reference/login/#permissions)
+        /* jshint camelcase: false */
+        oauth_token: (provider === 'twitter') ? 'true' : null, // skip the OAuth popup-dialog and create a user session directly using an existing twitter session
+        preferRedirect: false // true redirects to google (doesn't work properly...), instead of using a popup
       });
     },
     logout: function () {

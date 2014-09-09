@@ -55,6 +55,7 @@
         {{ formLabel }}
       </span>
     </div>
+<!--
     <div class="nav-alignright">
       <span>
         <a class="btn btn-primary" href="#/register"><span class="glyphicon glyphicon-user" title="Register if you have not an account already"></span>&emsp;<span>Register</span></a>
@@ -67,6 +68,7 @@
       </span>
     </div>
     <div class="alignclearboth"></div>
+-->
   </div>
   <div ng-show="signedIn()">
     <div class="nav-alignleft">
@@ -78,6 +80,7 @@
       <span>
         <a href="#/users/{{ currentUser.username }}">
           <img class="nav-pic-user" ng-src="http://www.gravatar.com/avatar/{{ currentUser.md5Hash }}" title="logged user: {{ currentUser.username }}" />
+      <!--<img class="nav-pic-user" ng-src="{{ currentUser.imageUrl }}" title="logged user: {{ currentUser.username }}" />-->
             <span title="logged user: {{ currentUser.username }}"><i>{{ currentUser.username }}</i></span>
         </a>
       </span>

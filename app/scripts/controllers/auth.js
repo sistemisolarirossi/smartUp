@@ -83,6 +83,51 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     });
   };
 
+  $scope.loginSocial = function (provider) {
+    Auth.loginSocial(provider).then(function (authUser) {
+      console.info('Auth.loginSocial('+provider+') authUser:', authUser);
+      $scope.user = angular.copy(authUser);
+      $scope.user.username = authUser.displayName; // TODO: check if do we have displayName for all providers?
+      /* jshint camelcase: false */
+      if (provider === 'facebook') {
+        $scope.user.email = authUser.thirdPartyUserData.email;
+      }
+      if ($scope.user.email) { // twitter does not returns user's email
+        $scope.user.md5_hash = md5.createHash($scope.user.email);
+      }
+      if (provider === 'google') {
+        $scope.user.imageUrl = authUser.thirdPartyUserData.picture;
+      }
+      if (provider === 'facebook') {
+        $scope.user.imageUrl = authUser.thirdPartyUserData.picture.data.url;
+      }
+      if (provider === 'twitter') {
+        $scope.user.imageUrl = authUser.thirdPartyUserData.entities.profile_image_url/*_https*/;
+      }
+      if (!$scope.user.imageUrl) { // do we need gravatars?
+        $scope.user.imageUrl = 'http://www.gravatar.com/avatar/' + $scope.user.md5_hash;
+      }
+      //$scope.register(true);
+      //$rootScope.currentUser = $scope.user;
+      User.create($scope.user, $scope.user.username);
+      console.info('Auth.loginSocial('+provider+') $scope.user:', $scope.user);
+      $location.path('/');
+     }, function (error) {
+      console.info('Auth.loginSocial('+provider+') returned error:', error);
+      var cause = null;
+      if (error.code === 'USER_DENIED') {
+        cause = 'utente non autorizzato';
+      } else {
+        if (error.code === 'UNKNOWN_ERROR') {
+          cause = 'errore sconosciuto durante la fase di autorizzazione'; // (possibly user did not authorize)
+        } else {
+          cause = error.code.replace(/_/, ' ');
+        }
+      }
+      $scope.error = 'loginSocial('+provider+') failed (' + cause + ')';
+    });
+  };
+
   $scope.register = function (valid) {
     $scope.formRegisterSubmitted = true; // allow validation errors to be shown
     if (!valid) {

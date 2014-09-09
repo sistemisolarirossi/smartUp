@@ -115,6 +115,16 @@ body[orient="landscape"] { min-height: 360px; }
   color: #bbb;
 }
 
+/* vertical spaced button group */
+.btn-group-vertical-spaced {
+  margin-top: 0.7em;
+  margin-right: 0.7em;
+}
+.btn-group-vertical-spaced > a {
+  margin-bottom: 0.3em;
+  border-radius: 3px !important;
+}
+
 /* columns of same height styles */
 .container-xs-height {
   display: table;
