@@ -30,7 +30,9 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
       return customers.$child(customerId);
     },
     findByName: function (customerName) {
-      return customersByName[customerName.toLowerCase()];
+      if (customerName) {
+        return customersByName[customerName.toLowerCase()];
+      }
     },
     delete: function (customerId) {
       var customer = Customer.find(customerId);

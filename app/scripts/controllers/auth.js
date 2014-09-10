@@ -178,15 +178,19 @@ console.info('&&&& USERNAME: ', $scope.user.username);
   };
 
   $scope.register = function (valid) {
+    console.info('controller - register');
     $scope.formRegisterSubmitted = true; // allow validation errors to be shown
     if (!valid) {
       return;
     }
+    console.info('controller - register - valid', $scope.user);
     if ($scope.user) {
-      Auth.register($scope.user).then(function (authUser) {
-        User.create(authUser, $scope.user.username);
-        console.info('registered user:', authUser);
-        //$scope.formRegister = false;
+      Auth.register($scope.user).then(function (auth) {
+        auth.user.username = $scope.user.username;
+        console.info('registered user:', auth.user);
+        User.create(auth.user).then(function () {
+          // TODO: check this (is always undefined???) ...
+        });
         $location.path('/');
       }, function (error) {
         if (error.code === 'INVALID_EMAIL') {

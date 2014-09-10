@@ -1,20 +1,35 @@
 'use strict';
  
-app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) {
+app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG) {
   var ref = new Firebase(CFG.FIREBASE_URL);
   var auth = $firebaseSimpleLogin(ref);
   var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
   var users = $firebase(refUsers);
+  //var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
+  //var usersByName = $firebase(refUsersByName);
 
   var Auth = {
     register: function (user) {
-      if (user !== null) {
-        return auth.$createUser(user.email, user.password);
+      return auth.$createUser(user.email, user.password);
+/*
+        return auth.$createUser(user.email, user.password).then(function (auth) {
+          if (auth.user) {
+            console.info('OK creating user [', auth.user, ']', user);
+            usersByName.$child(user.username.toLowerCase()).$set(auth.user.uid);
+            return null;
+          } else {
+            console.error('Error creating user: ', user); // TODO: better handle error codes...
+            toastr.error('Error creating user: ', user);
+            return false;
+          }
+        });
       }
+*/
     },
     signedIn: function () {
+      console.log(' ###! auth.user:', auth.user, '$rootScope.currentUser:', $rootScope.currentUser);
       if (auth.user !== null) {
-        //console.log('auth.user:', auth.user, '$rootScope.currentUser:', $rootScope.currentUser);
+        console.log(' ### auth.user:', auth.user, '$rootScope.currentUser:', $rootScope.currentUser);
         return true;
       }
       return false;

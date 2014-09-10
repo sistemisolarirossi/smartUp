@@ -1,18 +1,20 @@
 'use strict';
  
 app.factory('User', function ($rootScope, $firebase, CFG) {
-  var ref = new Firebase(CFG.FIREBASE_URL + 'users');
-  var users = $firebase(ref);
- 
+  var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
+  var users = $firebase(refUsers);
+  var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
+  var usersByName = $firebase(refUsersByName);
+
   var User = {
-    create: function (user, username) {
+    create: function (user) {
       console.info('***** user:', user);
       /* jshint camelcase: false */
-      users[username] = {
+      users[user.uid] = {
         imageUrl: user.imageUrl, // image url
         md5Hash: user.md5_hash, // email MD5 hash (we need this for gravatars) (TODO: use imgeUrl...)
         email: user.email, // TODO: check if this poses a security issue (it should not...)
-        username: username, // TODO: do we really really need this field?
+        username: user.username, // TODO: do we really really need this field?
         provider: user.provider, // auth provider
         id: user.id, // user id
         uid: user.uid,// user uid (unique id among auth providers)
@@ -20,21 +22,18 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
         firebaseAuthToken: user.firebaseAuthToken, // TODO: how to use this value?
         roles: {} // TODO: handle default roles...
       };
-console.info('users[username]:', users[username]);
-/*
-      users.$save(username).then(function () {
-        // TODO: how to use setCurrentUser() here ? (see http://stackoverflow.com/questions/25760227/angular-factory-how-to-use-method-in-object-being-declared)
-        / * setCurrentUser(username); * /
-      });
-*/
+console.info('users[user.uid]:', users[user.uid]);
 console.info('---- User.setCurrentUser BEFORE', $rootScope.currentUser);
-User.setCurrentUser(username);
+User.setCurrentUser(user);
 console.info('---- User.setCurrentUser AFTER', $rootScope.currentUser);
-      return users.$save(username);
+      usersByName.$child(user.username.toLowerCase()).$set(user.uid);
+      return users.$save(user.uid);
     },
     findByUsername: function (username) {
       if (username) {
-        return users.$child(username);
+        return usersByName[username.toLowerCase()];
+      } else {
+        return null;
       }
     },
     getCurrent: function () {
@@ -44,9 +43,9 @@ console.info('---- User.setCurrentUser AFTER', $rootScope.currentUser);
       //console.info('$rootScope.currentUser:', $rootScope.currentUser);
       return $rootScope.currentUser !== undefined;
     },
-    setCurrentUser: function (username) {
-      $rootScope.currentUser = User.findByUsername(username);
-      console.log('method setCurrentUser('+username+') - $rootScope.currentUser:', $rootScope.currentUser);
+    setCurrentUser: function (user) {
+      $rootScope.currentUser = user; //User.findByUsername(username);
+      console.log('method setCurrentUser('+user.uid+') - $rootScope.currentUser:', $rootScope.currentUser.uid);
     },
     resetCurrentUser: function () {
       delete $rootScope.currentUser;

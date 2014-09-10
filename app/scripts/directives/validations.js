@@ -46,9 +46,13 @@ app.directive('checkUserName', function(User) {
     link: function(scope, elm, attrs, model) {
       var USERNAME_REGEXP = /^[^.$\[\]#\/\s]+$/;
       model.$parsers.unshift(function(viewValue) {
-        console.log('User.findByUsername(viewValue):', User.findByUsername(viewValue));
+        var user;
+        if (viewValue) {
+          user = User.findByUsername(viewValue);
+          console.log('User.findByUsername('+viewValue+'):', user);
+        }
         if (USERNAME_REGEXP.test(viewValue)) {
-          if (/*!scope.addMode || */User.findByUsername(viewValue).$getIndex().length === 0) {
+          if (!user/*User.findByUsername(viewValue).$getIndex().length === 0*/) {
             model.$setValidity('taken', true);
             model.$setValidity('invalid', true);
             return viewValue;
@@ -180,8 +184,7 @@ app.directive('checkPassword', function() {
     link: function(scope, elm, attrs, model) {
       model.$parsers.unshift(function(viewValue) {
         // TODO: better check password strength
-        console.info('viewValue:', viewValue);
-        if (viewValue.length >= 8) {
+        if (viewValue.length >= 1/*8*/) { // TODO: reset to 8...
           model.$setValidity('invalid', true);
           return viewValue;
         } else {
