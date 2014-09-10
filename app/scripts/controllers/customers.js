@@ -86,6 +86,8 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
 
   $scope.currentUserCanRead = function () {
     console.info('currentUserCanRead');
+return true;
+/*
     if ($rootScope.currentUser) {
       console.info('currentUserCanRead - currentUser is set');
       console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
@@ -100,10 +102,13 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
     }
     console.info('currentUserCanRead - returning FALSE');
     return false;
+*/
   };
 
   $scope.currentUserCanWrite = function () {
     console.info('currentUserCanWrite');
+return true;
+/*
     if ($rootScope.currentUser) {
       console.info('currentUserCanWrite - currentUser is set');
       console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
@@ -113,6 +118,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
     }
     console.info('currentUserCanWrite - returning FALSE');
     return false;
+*/
   };
 
   $scope.editCustomer = function (customer) {

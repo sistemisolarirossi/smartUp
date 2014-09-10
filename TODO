@@ -21,6 +21,7 @@ TODO:
  - test multiple SSH keys on github
  - always use 'check-not-empty' for 'required' in validations (probable collision with HTML5...)
  - avoided filerev on all fonts to allow awesome fonts to be found (any problem with caching?)
+ - autoFillSync => autofillFix
 
 
 Authentication system

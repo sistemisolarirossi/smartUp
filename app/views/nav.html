@@ -48,7 +48,7 @@
 
 </nav>
 
-<div ng-controller="NavCtrl" class="no-print">
+<div NOng-controller="NavCtrl" ng-controller="AuthCtrl" class="no-print">
   <div ng-hide="signedIn()">
     <div class="nav-alignleft">
       <span class="nav-alignleft breadcrumb" ng-show="formLabel">
@@ -79,9 +79,9 @@
     <div class="nav-alignright">
       <span>
         <a href="#/users/{{ currentUser.username }}">
-          <img class="nav-pic-user" ng-src="http://www.gravatar.com/avatar/{{ currentUser.md5Hash }}" title="logged user: {{ currentUser.username }}" />
-      <!--<img class="nav-pic-user" ng-src="{{ currentUser.imageUrl }}" title="logged user: {{ currentUser.username }}" />-->
-            <span title="logged user: {{ currentUser.username }}"><i>{{ currentUser.username }}</i></span>
+      <!--<img class="nav-pic-user" ng-src="http://www.gravatar.com/avatar/{{ currentUser.md5Hash }}" title="logged user: {{ currentUser.username }}" />-->
+          <img class="pic-circular" ng-src="{{ currentUser.imageUrl }}" title="logged user: {{ currentUser.username }}" />
+          <span title="logged user: {{ currentUser.username }}"><i>{{ currentUser.username }}</i></span>
         </a>
       </span>
       &emsp;

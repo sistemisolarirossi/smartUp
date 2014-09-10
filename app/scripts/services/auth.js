@@ -51,9 +51,10 @@ app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) 
         console.log('user inserted value doesn\'t look like an email');
         var existingUser = users.$child(user.usernameOrEmail);
         console.log('existingUser:', existingUser);
-        if (existingUser) { // user email is found as a user name
+        if (existingUser && existingUser.email) { // user email is found as a user name
           user.email = existingUser.email; // set user email with found user email field
-          console.log('found user.email:', user.email);
+        } else {
+          user.email = null; // no user.email set, auth.$login will fail...
         }
       }
       return auth.$login('password', {
@@ -62,8 +63,8 @@ app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) 
         rememberMe: true,
         debug: true // TODO: make it dynamical, checking some global debug/production flag...
       });
-      /**/
     },
+    /*
     loginWithGoogle: function () {
       return auth.$login('google', {
         rememberMe: true,
@@ -71,6 +72,7 @@ app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) 
         preferRedirect: false // true redirects to google (doesn't work properly...), instead of using a popup
       });
     },
+    */
     loginSocial: function (provider) {
       return auth.$login(provider, { // TODO: test usage with wrong provider...
         rememberMe: true,
@@ -87,6 +89,7 @@ app.factory('Auth', function ($firebaseSimpleLogin, $firebase, CFG, $rootScope) 
       });
     },
     logout: function () {
+      console.info('Auth.logout()');
       auth.$logout();
     },
     removeUser: function (user) { // TODO: test this

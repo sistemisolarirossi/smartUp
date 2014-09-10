@@ -7,6 +7,6 @@
  * # HomeCtrl
  * Controller of the smartUpApp
  */
-app.controller('HomeCtrl', function (/*$scope, */$rootScope) {
+app.controller('HomeCtrl', function ($rootScope) {
   $rootScope.formLabel = '';
 });

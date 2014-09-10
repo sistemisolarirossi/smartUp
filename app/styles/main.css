@@ -42,8 +42,13 @@ body[orient="landscape"] { min-height: 360px; }
 .url {
   font-size: 90%;
 }
-.nav-pic-user {
-  max-height: 28px;
+.pic-circular {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  height: 32px;
+  width: auto;
 }
 .list-inline-left {
   margin-top: -0.5em;

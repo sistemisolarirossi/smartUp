@@ -2,7 +2,7 @@
 
   <h3>Log In</h3>
 
-  <form mame="formLogin">
+  <form name="formLogin">
 
     <div style="float: left;">
       <div ng-hide="error || info" class="login-error">&nbsp;</div>
@@ -13,13 +13,13 @@
 
     <div class="row" title="Your username or email">
       <div class="col">
-        <input type="text" name="usernameOrEmail" class="form-control" ng-model="user.usernameOrEmail" ng-change="reset()" placeholder="Username / Email" autocomplete="on" auto-fill-sync required tabindex="1" />
+        <input type="text" name="usernameOrEmail" class="form-control" ng-model="user.usernameOrEmail" ng-change="reset()" placeholder="Username / Email" autocomplete="on" NOauto-fill-sync required tabindex="1" />
       </div>
     </div>
 
     <div class="row" title="Your password">
       <div class="col">
-        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" autocomplete="off" auto-fill-sync required tabindex="2" />
+        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" autofill-fix required tabindex="2" />
       </div>
     </div>
 
