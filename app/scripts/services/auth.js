@@ -1,15 +1,16 @@
 'use strict';
  
-app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG) {
+app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, User) {
   var ref = new Firebase(CFG.FIREBASE_URL);
   var auth = $firebaseSimpleLogin(ref);
-  var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
-  var users = $firebase(refUsers);
+  //var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
+  //var users = $firebase(refUsers);
   //var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
   //var usersByName = $firebase(refUsersByName);
 
   var Auth = {
     register: function (user) {
+      console.info('REGISTER:', user);
       return auth.$createUser(user.email, user.password);
 /*
         return auth.$createUser(user.email, user.password).then(function (auth) {
@@ -27,7 +28,6 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG) 
 */
     },
     signedIn: function () {
-      console.log(' ###! auth.user:', auth.user, '$rootScope.currentUser:', $rootScope.currentUser);
       if (auth.user !== null) {
         console.log(' ### auth.user:', auth.user, '$rootScope.currentUser:', $rootScope.currentUser);
         return true;
@@ -64,7 +64,8 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG) 
       } else { // user value doesn't look like an email
         // try matching user value against user names
         console.log('user inserted value doesn\'t look like an email');
-        var existingUser = users.$child(user.usernameOrEmail);
+        var existingUser = User.findByUsername(user.usernameOrEmail); //users.$child(user.usernameOrEmail);
+        console.info('.......... existingUser:', existingUser);
         console.log('existingUser:', existingUser);
         if (existingUser && existingUser.email) { // user email is found as a user name
           user.email = existingUser.email; // set user email with found user email field

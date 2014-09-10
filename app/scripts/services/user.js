@@ -31,7 +31,7 @@ console.info('---- User.setCurrentUser AFTER', $rootScope.currentUser);
     },
     findByUsername: function (username) {
       if (username) {
-        return usersByName[username.toLowerCase()];
+        return users[usersByName[username.toLowerCase()]];
       } else {
         return null;
       }

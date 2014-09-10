@@ -49,7 +49,7 @@ app.directive('checkUserName', function(User) {
         var user;
         if (viewValue) {
           user = User.findByUsername(viewValue);
-          console.log('User.findByUsername('+viewValue+'):', user);
+          console.log('checkUserName - User.findByUsername('+viewValue+'):', user);
         }
         if (USERNAME_REGEXP.test(viewValue)) {
           if (!user/*User.findByUsername(viewValue).$getIndex().length === 0*/) {

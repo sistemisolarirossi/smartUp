@@ -43,8 +43,9 @@ console.info('[&&&&] USERNAME: ', $scope.user.username);
           $scope.user.username = $scope.user.usernameOrEmail; // set user username with user inserted value
         }
         delete $scope.user.usernameOrEmail;
-console.info('&&&& USERNAME: ', $scope.user.username);
-        User.setCurrentUser($scope.user.username);
+console.info('&&&& USERNAME: <BEFORE></BEFORE>', $scope.user.username);
+        User.setCurrentUser($scope.user);
+console.info('&&&& USERNAME AFTER: ', $scope.user.username);
         $location.path('/');
       }, function (error) {
         var cause = null;
