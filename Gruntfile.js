@@ -411,24 +411,25 @@ module.exports = function (grunt) {
       }
     },
 
+/*
     // remove logging (log and info) for production
     removelogging: {
       dist: {
         //src: 'js/application.js',
         //dest: 'js/application-clean.js',
-        src: 'dist/**/*.js', // each file will be overwritten with the output
+        src: 'dist/**XXX/*.js', // each file will be overwritten with the output
         options: {
           methods: [ 'log', 'info' ] // keep 'warn' and 'error'
+          verbose: true
         }
       }
     }
-
+*/
   });
-
-
 
   grunt.loadNpmTasks('grunt-auto-install');
   grunt.loadNpmTasks('grunt-favicons');
+//grunt.loadNpmTasks("grunt-remove-logging");
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
@@ -477,35 +478,9 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
-  grunt.registerTask('build-production', [
-    'auto_install',
-    'clean:dist',
-    'favicons',
-    'wiredep',
-    'useminPrepare',
-    'concurrent:dist',
-    'autoprefixer',
-    'concat',
-    'ngmin',
-    'copy:dist',
-    'cdnify',
-    'cssmin',
-    'uglify',
-    'filerev',
-    'removelogging', // production
-    'usemin',
-    'htmlmin'
-  ]);
-
   grunt.registerTask('default', [
     'newer:jshint',
     'test',
     'build'
-  ]);
-
-  grunt.registerTask('production', [
-    'newer:jshint',
-    'test',
-    'build-production'
   ]);
 };
