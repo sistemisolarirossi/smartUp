@@ -10,29 +10,14 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
 
   var Auth = {
     register: function (user) {
-      console.info('REGISTER:', user);
+      //console.info('REGISTER:', user);
       return auth.$createUser(user.email, user.password);
-/*
-        return auth.$createUser(user.email, user.password).then(function (auth) {
-          if (auth.user) {
-            console.info('OK creating user [', auth.user, ']', user);
-            usersByName.$child(user.username.toLowerCase()).$set(auth.user.uid);
-            return null;
-          } else {
-            console.error('Error creating user: ', user); // TODO: better handle error codes...
-            toastr.error('Error creating user: ', user);
-            return false;
-          }
-        });
-      }
-*/
     },
     signedIn: function () {
       if (auth.user !== null) {
-        console.log(' ### auth.user:', auth.user, '$rootScope.currentUser:', $rootScope.currentUser);
         return true;
       }
-      return false;
+      //return false;
     },
     hasRole: function (roles) {
       //console.info('hasRole()', roles);
@@ -48,25 +33,23 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
           return true;
         }
       }
-      //console.info('hasRole() false');
       return false;
     },
     currentUser: function () {
       if (auth.user !== null) {
         return $rootScope.currentUser;
       }
-      return null;
+      //return null;
     },
     login: function (user) {
+      /* decide if user did pass a username or an email */
       if (user.usernameOrEmail && user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
-        console.log('user inserted value looks like an email');
+        //console.log('user inserted value looks like an email');
         user.email = user.usernameOrEmail; // set user email with user inserted value
       } else { // user value doesn't look like an email
         // try matching user value against user names
-        console.log('user inserted value doesn\'t look like an email');
+        //console.log('user inserted value looks like an username');
         var existingUser = User.findByUsername(user.usernameOrEmail); //users.$child(user.usernameOrEmail);
-        console.info('.......... existingUser:', existingUser);
-        console.log('existingUser:', existingUser);
         if (existingUser && existingUser.email) { // user email is found as a user name
           user.email = existingUser.email; // set user email with found user email field
         } else {
@@ -77,18 +60,9 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
         email: user.email,
         password: user.password,
         rememberMe: true,
-        debug: true // TODO: make it dynamical, checking some global debug/production flag...
+        debug: CFG.DEBUG
       });
     },
-    /*
-    loginWithGoogle: function () {
-      return auth.$login('google', {
-        rememberMe: true,
-        scope: null, //'https://www.googleapis.com/auth/plus.login', // a comma-delimited list of requested extended permissions (see https://developers.google.com/+/api/oauth)
-        preferRedirect: false // true redirects to google (doesn't work properly...), instead of using a popup
-      });
-    },
-    */
     loginSocial: function (provider) {
       return auth.$login(provider, { // TODO: test usage with wrong provider...
         rememberMe: true,

@@ -79,37 +79,6 @@ console.info('&&&& USERNAME AFTER: ', $scope.user.username);
     }
   };
 
-/*
-  $scope.loginWithGoogle = function () {
-    Auth.loginWithGoogle().then(function (authUser) {
-      $scope.user = angular.copy(authUser);
-      $scope.user.username = authUser.displayName; // do we have displayName for all providers?
-      / * jshint camelcase: false * /
-      $scope.user.md5_hash = md5.createHash(authUser.email);
-      //$scope.register(true);
-      //$rootScope.currentUser = $scope.user;
-      User.create($scope.user, $scope.user.username);
-      console.info('loginWithGoogle() - User.create():', authUser);
-      console.info('Auth.loginWithGoogle() returned authUser:', authUser);
-      console.info('Auth.loginWithGoogle() $rootScope.currentUser:', $rootScope.currentUser);
-      $location.path('/');
-     }, function (error) {
-      console.info('Auth.loginWithGoogle() returned error:', error);
-      var cause = null;
-      if (error.code === 'USER_DENIED') {
-        cause = 'utente non autorizzato';
-      } else {
-        if (error.code === 'UNKNOWN_ERROR') {
-          cause = 'errore sconosciuto durante la fase di autorizzazione'; // (possibly user did not authorize)
-        } else {
-          cause = error.code.replace(/_/, ' ');
-        }
-      }
-      $scope.error = 'Login with Google failed (' + cause + ')';
-    });
-  };
-*/
-
   $scope.loginSocial = function (provider) {
     Auth.loginSocial(provider).then(function (authUser) {
       console.info('!!!!!!!! Auth.loginSocial(' + provider + ') authUser:', authUser);
@@ -142,11 +111,11 @@ console.info('&&&& USERNAME AFTER: ', $scope.user.username);
       //$scope.register(true);
       //$rootScope.currentUser = $scope.user;
       console.info('++++++ Auth.loginSocial() - $scope.user:', $scope.user);
-      User.create($scope.user, $scope.user.username).then(
+      User.create($scope.user).then(
         function () {
           console.info('Auth.loginSocial('+provider+') $scope.user:', $scope.user);
           /***********************************************/
-          User.setCurrentUser($scope.user.username);
+          User.setCurrentUser($scope.user);
           /***********************************************/
         },
         function (error) {

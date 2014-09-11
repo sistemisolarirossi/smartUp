@@ -9,6 +9,7 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
   var User = {
     create: function (user) {
       console.info('***** user:', user);
+      // TODO: check if user already exists (social logins, for example) before overwriting...
       /* jshint camelcase: false */
       users[user.uid] = {
         imageUrl: user.imageUrl, // image url
@@ -22,68 +23,53 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
         firebaseAuthToken: user.firebaseAuthToken, // TODO: how to use this value?
         roles: {} // TODO: handle default roles...
       };
-console.info('users[user.uid]:', users[user.uid]);
-console.info('---- User.setCurrentUser BEFORE', $rootScope.currentUser);
-User.setCurrentUser(user);
-console.info('---- User.setCurrentUser AFTER', $rootScope.currentUser);
+      User.setCurrentUser(user);
       usersByName.$child(user.username.toLowerCase()).$set(user.uid);
       return users.$save(user.uid);
     },
     findByUsername: function (username) {
       if (username) {
         return users[usersByName[username.toLowerCase()]];
-      } else {
-        return null;
+//    } else {
+//      return null;
+      }
+    },
+    findByUid: function (uid) {
+      if (uid) {
+        return users[uid];
       }
     },
     getCurrent: function () {
       return $rootScope.currentUser;
     },
     signedIn: function () {
-      //console.info('$rootScope.currentUser:', $rootScope.currentUser);
+      //$log.info('$rootScope.currentUser:', $rootScope.currentUser);
       return $rootScope.currentUser !== undefined;
     },
     setCurrentUser: function (user) {
       $rootScope.currentUser = user; //User.findByUsername(username);
-      console.log('method setCurrentUser('+user.uid+') - $rootScope.currentUser:', $rootScope.currentUser.uid);
+      //$log.log('method setCurrentUser('+user.uid+') - $rootScope.currentUser:', $rootScope.currentUser.uid);
     },
     resetCurrentUser: function () {
       delete $rootScope.currentUser;
-      //console.log('method resetCurrentUser()', $rootScope.currentUser);
+      //$log.log('method resetCurrentUser()', $rootScope.currentUser);
     }
 
   };
 
-/*
-  function setCurrentUser (username) {
-    $rootScope.currentUser = User.findByUsername(username);
-    console.log('setCurrentUser('+username+') - $rootScope.currentUser:', $rootScope.currentUser);
-  }
-  function resetCurrentUser () {
-    delete $rootScope.currentUser;
-  }
-*/
-
-/*
   $rootScope.$on('$firebaseSimpleLogin:login', function (e, authUser) {
-console.info('$on($firebaseSimpleLogin:login authUser:', authUser);
-    var query = $firebase(ref.startAt(authUser.uid).endAt(authUser.uid));  
+    var query = $firebase(refUsers.startAt(authUser.username).endAt(authUser.username));
     query.$on('loaded', function () {
-      var username = query.$getIndex()[0];
-      if (!username) { // social provider, username not present
-        username = authUser.displayName; // TODO: what do we use ad username for social providers?
-      }
-      //console.info('query.$on("loaded" ...:', username);
-console.info('$on($firebaseSimpleLogin:login setCurrentUser(', username, ')');
-      setCurrentUser(username);
+      var uid = query.$getIndex()[0];
+      var user = User.findByUid(uid);
+      User.setCurrentUser(user);
     });
   });
-*/
-/*
+
   $rootScope.$on('$firebaseSimpleLogin:logout', function() {
-    //console.info('Logout fired...');
-    resetCurrentUser();
+    User.resetCurrentUser();
   });
-*/
+
   return User;
+
 });

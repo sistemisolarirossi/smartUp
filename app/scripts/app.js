@@ -34,6 +34,18 @@ var app = angular.module('smartUpApp', [
   'ui.bootstrap',
   'angular-md5'
 ]); 
+
+app.constant('CFG', {
+  FIREBASE_URL:         'https://smartup.firebaseio.com/',
+/* TODO: REMOVE THESE... */
+  ROLES: {
+    ADMIN:              1,
+    EDIT_CUSTOMERS:     2
+  },
+/* ********************* */
+  DEBUG:                true
+});
+
 app.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
@@ -103,19 +115,6 @@ app.config(function(ngQuickDateDefaultsProvider) {
   });
 });
 */
-
-// TODO: ALWAYS USE CFG, REMOVE THIS...
-//app.constant('FIREBASE_URL', 'https://smartup.firebaseio.com/');
-
-app.constant('CFG', {
-  FIREBASE_URL: 'https://smartup.firebaseio.com/',
-/* TODO: REMOVE THESE... */
-  ROLES: {
-    ADMIN:              1,
-    EDIT_CUSTOMERS:     2
-  }
-/* ********************* */
-});
 
 /*
   .config(function ($httpProvider) {
