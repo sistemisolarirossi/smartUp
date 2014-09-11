@@ -1,9 +1,9 @@
 'use strict';
 
-app.directive('autoFocus', function ($timeout) {
+app.directive('autofocus', function ($timeout) {
   return {
     scope: {
-      trigger: '=autoFocus'
+      trigger: '=autofocus'
     },
     link: function (scope, element) {
       scope.$watch('trigger',

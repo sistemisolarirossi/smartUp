@@ -1,11 +1,11 @@
 TODO:
 
- - add toastr's (see teamPlayerRating...)
  - add security features (https://www.firebase.com/docs/security/security-rules.html)
     to prevent users from being able to delete orders they do not own
+ - implement role checks in views (to disable actions if current user can't write that view)
  - add loading spinner (spinnerFactory from teamPlayerRating?)
- - add more auth methods (google, fb, twitter) ?
- - hide timepicker chevrons: added class 'hide' to chevron tr's
+ V add more auth methods (google, facebook, twitter) ?
+ V hide timepicker chevrons: added class 'hide' to chevron tr's
     in 'bower_components/angular-bootstrap/ui-bootstrap-tpls.js'
     (see 'template/timepicker/timepicker.html'); use something more solid...
  - remove custom roles system, use Firebase roles, something like this:
@@ -17,9 +17,6 @@ TODO:
       }
     }
  - implement error handling as in services/customer/delete()
- - implement role checks in views (to disable actions if current user can't write that view)
- - test multiple SSH keys on github
- - always use 'check-not-empty' for 'required' in validations (probable collision with HTML5...)
  - avoided filerev on all fonts to allow awesome fonts to be found (any problem with caching?)
  - autoFillSync => autofillFix
 

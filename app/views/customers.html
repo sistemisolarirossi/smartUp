@@ -90,10 +90,11 @@
         <div class="col-xs-6 col-sm-2 col-lg-2">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-            <input type="text" name="name" class="form-control" ng-model="customer.name" placeholder="Name" auto-focus="addMode || editMode" autocomplete="off" required check-customer-name customer-id="{{customer.$id}}" key-escape="cancelCustomer()" />
+            <input type="text" name="name" class="form-control" ng-model="customer.name" placeholder="Name" autofocus="addMode || editMode" autocomplete="off" ng-required NOcheck-not-empty check-customer-name customer-id="{{customer.$id}}" key-escape="cancelCustomer()" />
           </div>
         </div>
-        <div class="col-xs-1 small" ng-show="formAddEdit.name.$valid">
+     <!--<div class="col-xs-1 small" ng-show="formAddEdit.name.$valid">-->
+        <div class="col-xs-1 small" ng-show="formAddEdit.name.$error.required">
           <span class="glyphicon glyphicon-ok checkmark checkmark-ok"></span>
         </div>
         <div class="error-container" ng-show="formAddEdit.name.$invalid && formAddEditSubmitted">
@@ -112,7 +113,7 @@
         <div class="col-xs-9 col-sm-4 col-lg-3">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-credit-card"></span></span>
-            <input type="text" name="cfpiva" class="form-control" ng-model="customer.cfpiva" placeholder="Codice Fiscale / P.IVA" autocomplete="off" required check-cf-or-piva key-escape="cancelCustomer()" />
+            <input type="text" name="cfpiva" class="form-control" ng-model="customer.cfpiva" placeholder="Codice Fiscale / P.IVA" autocomplete="off" check-not-empty check-cf-or-piva key-escape="cancelCustomer()" />
           </div>
         </div>
         <div class="col-xs-1 small" ng-show="formAddEdit.cfpiva.$valid">
@@ -140,7 +141,7 @@
         <div class="col-xs-9 col-sm-4 col-lg-3">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-phone-alt"></span></span>
-            <input type="text" name="phone" class="form-control" ng-model="customer.phone" placeholder="Phone number" autocomplete="off" required check-phone key-escape="cancelCustomer()" />
+            <input type="text" name="phone" class="form-control" ng-model="customer.phone" placeholder="Phone number" autocomplete="off" check-not-empty check-phone key-escape="cancelCustomer()" />
           </div>
         </div>
         <div class="col-xs-1 small" ng-show="formAddEdit.phone.$valid">
@@ -159,7 +160,7 @@
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-            <input type="text" name="email" class="form-control" ng-model="customer.email" placeholder="Email address" autocomplete="off" required check-email key-escape="cancelCustomer()" />
+            <input type="text" name="email" class="form-control" ng-model="customer.email" placeholder="Email address" autocomplete="off" check-not-empty check-email key-escape="cancelCustomer()" />
           </div>
         </div>
         <div class="col-xs-1 small" ng-show="formAddEdit.email.$valid">
@@ -178,7 +179,7 @@
         <div class="col-xs-12 col-sm-8 col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
-            <input type="text" name="address" class="form-control" ng-model="customer.address" ng-autocomplete="autocompleteAddressResult" details="autocompleteAddressDetails" options="autocompleteAddressOptions" placeholder="Address" required key-escape="cancelCustomer()" />
+            <input type="text" name="address" class="form-control" ng-model="customer.address" ng-autocomplete="autocompleteAddressResult" details="autocompleteAddressDetails" options="autocompleteAddressOptions" placeholder="Address" check-not-empty key-escape="cancelCustomer()" />
           </div>
         </div>
         <div class="col-xs-1 small">

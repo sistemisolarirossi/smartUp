@@ -8,7 +8,7 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
 
   var User = {
     create: function (user) {
-      console.info('***** user:', user);
+      //console.info('user:', user);
       // TODO: check if user already exists (social logins, for example) before overwriting...
       /* jshint camelcase: false */
       users[user.uid] = {
@@ -41,6 +41,12 @@ app.factory('User', function ($rootScope, $firebase, CFG) {
     },
     getCurrent: function () {
       return $rootScope.currentUser;
+    },
+    delete: function (uid) {
+      console.info('deleting user', uid);
+      // TODO: implement it...
+      //delete users[uid]
+      //delete usersByName[uid]
     },
     signedIn: function () {
       //$log.info('$rootScope.currentUser:', $rootScope.currentUser);

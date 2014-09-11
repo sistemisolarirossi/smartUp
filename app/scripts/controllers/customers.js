@@ -85,40 +85,42 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
   };
 
   $scope.currentUserCanRead = function () {
-    console.info('currentUserCanRead');
-return true;
-/*
+    //console.info('currentUserCanRead - $rootScope.currentUser:', $rootScope.currentUser);
     if ($rootScope.currentUser) {
-      console.info('currentUserCanRead - currentUser is set');
-      console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
-      console.info('currentUserCanRead - currentUser.roles.read.customers:', $rootScope.currentUser.roles.read.customers);
-      console.info('currentUserCanRead - retval:',
-        $rootScope.currentUser.roles.read.all ||
-        $rootScope.currentUser.roles.read.customers
-      );
-      return $rootScope.currentUser.roles.read.all ||
-             $rootScope.currentUser.roles.read.customers
-      ;
+      //console.info('currentUserCanRead - currentUser is set');
+      //console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
+      if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.customers) {
+        //console.info('currentUserCanRead - currentUser.roles.read.customers:', $rootScope.currentUser.roles.customers.read);
+        //console.info('currentUserCanRead - retval:', $rootScope.currentUser.roles.customers.read);
+        return $rootScope.currentUser.roles.customers.read;
+      } else {
+        //console.info('currentUserCanRead - returning FALSE (no customer roles on user)');
+        return false;
+      }
     }
-    console.info('currentUserCanRead - returning FALSE');
+    //console.info('currentUserCanRead - returning FALSE');
     return false;
-*/
   };
 
   $scope.currentUserCanWrite = function () {
+    if (1) {
+      return true;
+    }
     console.info('currentUserCanWrite');
-return true;
-/*
     if ($rootScope.currentUser) {
       console.info('currentUserCanWrite - currentUser is set');
       console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
-      return $rootScope.currentUser.roles.write.all ||
-             $rootScope.currentUser.roles.write.customers
-      ;
+      if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.customers) {
+        console.info('currentUserCanWrite - currentUser.roles.write.customers:', $rootScope.currentUser.roles.write.customers);
+        console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.write.customers);
+        return $rootScope.currentUser.roles.write.customers;
+      } else {
+        console.info('currentUserCanWrite - returning FALSE (no customers roles on user)');
+        return false;
+      }
     }
     console.info('currentUserCanWrite - returning FALSE');
     return false;
-*/
   };
 
   $scope.editCustomer = function (customer) {

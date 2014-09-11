@@ -22,6 +22,7 @@ function formatDuration(text) {
   return value;
 }
 
+// TODO: don't use it, use ng-required
 app.directive('checkNotEmpty', function() {
   return {
     require: 'ngModel',

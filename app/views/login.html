@@ -13,13 +13,13 @@
 
     <div class="row" title="Your username or email">
       <div class="col">
-        <input type="text" name="usernameOrEmail" class="form-control" ng-model="user.usernameOrEmail" ng-change="reset()" placeholder="Username / Email" autocomplete="on" auto-focus autofill-fix required tabindex="1" />
+        <input type="text" name="usernameOrEmail" class="form-control" ng-model="user.usernameOrEmail" ng-change="reset()" placeholder="Username / Email" autocomplete="on" autofocus="true" autofill-fix check-not-empty tabindex="1" />
       </div>
     </div>
 
     <div class="row" title="Your password">
       <div class="col">
-        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" autofill-fix required tabindex="2" />
+        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" autofill-fix check-not-empty tabindex="2" />
       </div>
     </div>
 

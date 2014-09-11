@@ -42,6 +42,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
       //return null;
     },
     login: function (user) {
+      // TODO: move this in controller //////////////////////
       /* decide if user did pass a username or an email */
       if (user.usernameOrEmail && user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
         //console.log('user inserted value looks like an email');
@@ -56,6 +57,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
           user.email = null; // no user.email set, auth.$login will fail...
         }
       }
+      //////////////////////////////////////////////////////
       return auth.$login('password', {
         email: user.email,
         password: user.password,
@@ -79,15 +81,15 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
       });
     },
     logout: function () {
-      console.info('Auth.logout()');
       auth.$logout();
     },
-    removeUser: function (user) { // TODO: test this
+    delete: function (user) { // TODO: test this
       auth.$removeUser(user.email, user.password, function(error) { // password is password_hash ?
         if (error === null) {
-          console.log('User removed successfully');
+          console.info('User removed successfully');
         } else {
-          console.log('Error removing user:', error);
+          toastr.log('Error removing user: ' + error.message);
+          console.error('Error removing user:', error);
         }
         return error;
       });
