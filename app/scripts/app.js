@@ -43,6 +43,7 @@ app.constant('CFG', {
     EDIT_CUSTOMERS:     2
   },
 /* ********************* */
+  SYSTEM_EMAIL:         'sistemisolarirossi@gmail.com',
   DEBUG:                true
 });
 

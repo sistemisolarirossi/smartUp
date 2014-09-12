@@ -50,10 +50,12 @@ app.directive('checkUserName', function(User) {
         var user;
         if (viewValue) {
           user = User.findByUsername(viewValue);
-          console.log('checkUserName - User.findByUsername('+viewValue+'):', user);
+          if (user) {
+            console.warn('checkUserName directive FOUND User.findByUsername('+viewValue+'):', user);
+          }
         }
         if (USERNAME_REGEXP.test(viewValue)) {
-          if (!user/*User.findByUsername(viewValue).$getIndex().length === 0*/) {
+          if (!user) {
             model.$setValidity('taken', true);
             model.$setValidity('invalid', true);
             return viewValue;
@@ -68,12 +70,14 @@ app.directive('checkUserName', function(User) {
           return undefined;
         }
       });
+/*
       elm.bind('blur', function() {
         if (model.$viewValue) { // capitalize all words in value
           model.$viewValue = capitalizeAllWords(model.$viewValue);
           model.$render();
         }
       });
+*/
     }
   };
 });

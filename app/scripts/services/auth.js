@@ -1,6 +1,6 @@
 'use strict';
  
-app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, User) {
+app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, CFG, User) {
   var ref = new Firebase(CFG.FIREBASE_URL);
   var auth = $firebaseSimpleLogin(ref);
   //var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
@@ -14,7 +14,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
       return auth.$createUser(user.email, user.password);
     },
     signedIn: function () {
-      if (auth.user !== null) {
+      if (auth.user !== null && $rootScope.currentUser) {
         return true;
       }
       //return false;
@@ -54,7 +54,14 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, CFG, 
         if (existingUser && existingUser.email) { // user email is found as a user name
           user.email = existingUser.email; // set user email with found user email field
         } else {
-          user.email = null; // no user.email set, auth.$login will fail...
+          
+          //user.email = null; // no user.email set, auth.$login will fail...
+          console.warn('return defer error');
+          
+          // return deferred null
+          var deferred = $q.defer();
+          deferred.resolve(null);
+          return deferred.promise;
         }
       }
       //////////////////////////////////////////////////////
