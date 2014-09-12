@@ -1,16 +1,176 @@
-<div class="container customers-page">
+<div class="container users-page">
 
-  <div ng-show="signedIn()" ng-controller="CustomersCtrl">
-    TODO...<br />
+  <div ng-show="signedIn() && currentUserCanRead()" NONSERVEng-controller="UsersCtrl">
 
-    Users
+    <form class="form-horizontal" ng-hide="printMode || addMode || editMode">
+      <div class="form-group" style="margin-bottom: 0;">
+        <div class="row">
+          <div class="col-xs-3" title="Add new user">
+            <button type="submit" class="btn btn-primary" ng-show="!(addMode || editMode)" ng-click="addUser()">
+              <i class="glyphicon glyphicon-plus"></i>&nbsp;New user
+            </button>
+          </div>
+          <div class="col-xs-4">
+          </div>
+          <div class="col-xs-5" title="Filter Users">
+            <div class="right-inner-addon">
+              <i class="glyphicon glyphicon-search"></i>
+              <input type="text" ng-model="search" class="form-control form-control-search" s_tyle="min-width: 8.0em;">
+            </div>
+          </div>  
+        </div>
+      </div>
+    </form>
 
-    <img ng-show="user.md5_hash" ng-src="http://www.gravatar.com/avatar/{{ user.md5Hash }}" class="nav-pic-user NO-BIG-img-profile" />
+    <div ng-hide="printMode || addMode || editMode" class="scrollable" spring="footer">
+      <table ng-table="tableParams" class="table">
+        <tr>
+          <th>
+            <span ng-click="orderby = '-username'">Username</span>
+            <a ng-click="orderby = 'username'"><small><i ng-show="orderby === '-username'" class="glyphicon glyphicon-chevron-up"></i></small></a>
+            <a ng-click="orderby = '-username'"><small><i ng-show="orderby === 'username'" class="glyphicon glyphicon-chevron-down"></i></small></a>
+          </th>
+          <th class="phone-hide">
+            <span ng-click="orderby = '-email'">Email</span>
+            <a ng-click="orderby = 'email'"><small><i ng-show="orderby === '-email'" class="glyphicon glyphicon-chevron-up"></i></small></a>
+            <a ng-click="orderby = '-email'"><small><i ng-show="orderby === 'email'" class="glyphicon glyphicon-chevron-down"></i></small></a>
+          </th>
+          <th>
+            <span ng-click="orderby = '-provider'">Provider</span>
+            <a ng-click="orderby = 'provider'"><small><i ng-show="orderby === '-provider'" class="glyphicon glyphicon-chevron-up"></i></small></a>
+            <a ng-click="orderby = '-provider'"><small><i ng-show="orderby === 'provider'" class="glyphicon glyphicon-chevron-down"></i></small></a>
+          </th>
+          <th class="tablet-hide">
+            Id
+          </th>
+          <th>
+            Avatar
+          </th>
+          <th>
+            Roles
+          </th>
+          <th>
+            <!-- command buttons -->
+          </th>
+        </tr>
+        <tr ng-repeat="user in users | orderByPriority | filter:search | orderBy: orderby" NOng-if="!user.hasOwnProperty('deleted')">
+          <td title="User name" sortable="'username'" class="condensed">
+            {{ user.username }}
+          </td>
+          <td title="Email" sortable="'email'" class="condensed phone-hide">
+            {{ user.email }}
+          </td>
+          <td title="Social connect provider" sortable="'provider'" class="condensed">
+            {{ user.provider }}
+          </td>
+          <th title="Identifier" class="condensed tablet-hide">
+            <div ng-bind-html="user.id.substr(0, 5) + '&hellip;'"></div>
+          </th>
+          <td title="Avatar image" class="condensed">
+            <img title="Avatar image" class="pic-circular-small" ng-src="{{ user.imageUrl }}" />
+          </td>
+          <td title="Authorized roles" class="condensed">
+            {{ user.rolesX }}
+            <span style="border:1px solid #ccc">
+              U
+              <span style="color:black;font-size:9px;position:relative;left:-2px;top:-6px;">r</span>
+              <span style="color:blue;font-size:9px;position:relative;left:-11px;top:1px;">w</span>
+            </span>
+          </td>
+          <td class="condensed">
+            <button
+              title="Edit user"
+              class="btn btn-primary btn-xs glyphicon glyphicon-pencil"
+              ng-disabled="!currentUserCanWrite()"
+              ng-click="editUser(user)"
+            ></button>
+            <button
+              title="Print user"
+              class="btn btn-primary btn-xs glyphicon glyphicon-print"
+              ng-click="preprintUser(user)"
+            ></button>
+            <button
+              title="Delete user" 
+              class="btn btn-primary btn-xs glyphicon glyphicon-trash"
+              ng-disabled="!currentUserCanWrite()"
+              really-message="Are you really sure to remove user <i>{{user.username}}</i> ?" really-click="deleteUser(user)"
+            ></button>
+          </td>
+        </tr>
+      </table>  
+    </div>
 
-    <br>
-    <div ng-show="hasRole(CFG.ROLES.ADMIN)">Current user is administrator</div>
-    <div ng-hide="hasRole(CFG.ROLES.ADMIN)">Current user is not administrator</div>
-    <div ng-show="hasRole(CFG.ROLES.EDIT_CUSTOMERS)">Current user can edit customers</div>
-    <div ng-hide="hasRole(CFG.ROLES.EDIT_CUSTOMERS)">Current user can not edit customers</div>
+    <form name="formAddEdit" ng-show="addMode || editMode" novalidate class="user form-horizontal">
+      <div class="row" title="User name">
+        <div class="col-xs-6 col-sm-2 col-lg-2">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+            <input type="text" name="name" class="form-control" ng-model="user.name" placeholder="Name" autofocus="addMode || editMode" autocomplete="off" ng-required NOcheck-not-empty check-user-name user-id="{{user.$id}}" key-escape="cancelUser()" />
+          </div>
+        </div>
+     <!--<div class="col-xs-1 small" ng-show="formAddEdit.name.$valid">-->
+        <div class="col-xs-1 small" ng-show="formAddEdit.name.$error.required">
+          <span class="glyphicon glyphicon-ok checkmark checkmark-ok"></span>
+        </div>
+        <div class="error-container" ng-show="formAddEdit.name.$invalid && formAddEditSubmitted">
+          <small class="error" ng-show="formAddEdit.name.$error.required">
+            A user name is required
+          </small>
+          <small class="error" ng-show="formAddEdit.name.$error.invalid">
+            User name is not valid
+          </small>
+          <small class="error" ng-show="formAddEdit.name.$error.taken">
+            This user name is already present
+          </small>
+        </div>
+      </div>
+      <div class="row" title="User email address">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+            <input type="text" name="email" class="form-control" ng-model="user.email" placeholder="Email address" autocomplete="off" check-not-empty check-email key-escape="cancelUser()" />
+          </div>
+        </div>
+        <div class="col-xs-1 small" ng-show="formAddEdit.email.$valid">
+          <span class="glyphicon glyphicon-ok checkmark checkmark-ok"></span>
+        </div>
+        <div class="error-container" ng-show="formAddEdit.email.$invalid && formAddEditSubmitted">
+          <small class="error" ng-show="formAddEdit.email.$error.required">
+            An email address is required
+          </small>
+          <small class="error" ng-show="formAddEdit.email.$error.invalid">
+            Email address is not valid
+          </small>
+        </div>
+      </div>
+      <div class="row" title="User street address">
+        <div class="col-xs-12 col-sm-8 col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
+            <input type="text" name="address" class="form-control" ng-model="user.address" ng-autocomplete="autocompleteAddressResult" details="autocompleteAddressDetails" options="autocompleteAddressOptions" placeholder="Address" check-not-empty key-escape="cancelUser()" />
+          </div>
+        </div>
+        <div class="col-xs-1 small">
+          <span ng-show="formAddEdit.address.$valid" class="glyphicon glyphicon-ok" style="color: green; margin-top: 10px;"></span>
+        </div>
+        <div class="error-container" ng-show="formAddEdit.address.$invalid && formAddEditSubmitted">
+          <small class="error" ng-show="formAddEdit.address.$error.required">
+            A street address is required
+          </small>
+        </div>
+      </div>
+      <div class="user row no-print" style="margin-top: 1.0em;">
+        <div class="col">
+          <button type="submit" class="btn btn-primary" ng-click="submitUser(formAddEdit.$valid)">
+            <i class="glyphicon glyphicon-save"></i>&nbsp;Save
+          </button>
+          &emsp;
+          <button type="text" class="btn btn-default" ng-click="cancelUser()">
+            <i class="glyphicon glyphicon-remove"></i>&nbsp;cancel
+          </button>
+        </div>
+      </div>
+    </form>
+
   </div>
 </div>

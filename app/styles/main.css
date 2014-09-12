@@ -50,6 +50,14 @@ body[orient="landscape"] { min-height: 360px; }
   height: 32px;
   width: auto;
 }
+.pic-circular-small {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  height: 24px;
+  width: auto;
+}
 .list-inline-left {
   margin-top: -0.5em;
   float: left;

@@ -9,6 +9,7 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
   var avatarsBaseUrl = 'http://www.gravatar.com/avatar/';
 
   var User = {
+    all: users,
     create: function (user) {
       console.info('User - create() - user:', user);
       if (!user.uid) { // TODO: defer error...
@@ -49,6 +50,10 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
       var roles = {};
       if (user.email === CFG.SYSTEM_EMAIL) { //
         roles = {
+          'users': {
+            'read': true,
+            'write': true
+          },
           'customers': {
             'read': true,
             'write': true
@@ -111,6 +116,13 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
       toastr.error('Error logging in user');
       console.error('login fired with an authorized user with no uid!', authUser);
       return User.resetCurrentUser();
+    }
+
+    var user = User.findByUid(authUser.uid);
+    if (user) { 
+      User.setCurrentUser(user);
+    } else {
+      // first social login, user not yet created
     }
   });
 
