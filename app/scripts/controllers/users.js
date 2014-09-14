@@ -4,6 +4,21 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
 
   $rootScope.formLabel = 'Users';
 
+  /*
+  $scope.roles = {
+   'u': 'users',
+   'c': 'customers',
+   'o': 'orders',
+   's': 'service reports'
+  };
+  */
+  $scope.roles = [
+    { key: 'u', desc: 'users' },
+    { key: 'c', desc: 'customers' },
+    { key: 'o', desc: 'orders' },
+    { key: 's', desc: 'service reports' }
+  ];
+
   if ($routeParams.username) {
     $scope.user = User.findByUsername($routeParams.username);
   } else {

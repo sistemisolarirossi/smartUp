@@ -378,6 +378,30 @@ form.form-search:before {
   background-color: #000;
 }
 
+/* users roles */
+.role {
+  font-family: courier new;
+  border: 1px solid #333;
+  color: #000;
+  margin: -1px;
+  padding: 0 2px;
+          border-radius: 4px;
+   -khtml-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.role-rw {
+  background-color: #7be513;
+}
+.role-r {
+  background-color: #ffda2f;
+}
+.role-w {
+  background-color: #2f2fff;
+}
+.role-nn {
+  background-color: #e51a13;
+}
+
 /* service report print */
 .print-report {
   margin: 0;

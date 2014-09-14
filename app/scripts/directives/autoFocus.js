@@ -2,11 +2,9 @@
 
 app.directive('autofocus', function ($timeout) {
   return {
-    scope: {
-      trigger: '=autofocus'
-    },
-    link: function (scope, element) {
-      scope.$watch('trigger',
+    replace: false,
+    link: function (scope, element, attr) {
+      scope.$watch(attr.autofocus,
         function (value) {
           if (value) {
             $timeout(function () {

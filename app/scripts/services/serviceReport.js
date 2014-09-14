@@ -15,7 +15,7 @@ app.factory('Servicereport', function ($firebase, CFG, User) {
         
         return servicereports.$add(servicereport).then(function (ref) {
           var servicereportId = ref.name(); 
-          user.$child('servicereports').$child(servicereportId).$set(true);
+          //user.$child('servicereports').$child(servicereportId).$set(true);
           return servicereportId;
         });
       }

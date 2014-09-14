@@ -110,7 +110,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
       if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.customers) {
         console.info('currentUserCanWrite - currentUser.roles.write.customers:', $rootScope.currentUser.roles.customers.write);
         console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.customers.write);
-        return $rootScope.currentUser.rolescustomers.write;
+        return $rootScope.currentUser.roles.customers.write;
       } else {
         console.info('currentUserCanWrite - returning FALSE (no customers roles on user)');
         return false;

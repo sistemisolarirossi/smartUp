@@ -44,6 +44,9 @@ app.directive('checkNotEmpty', function() {
 app.directive('checkUserName', function(User) {
   return {
     require: 'ngModel',
+    scope: {
+      value: '=ngModel'
+    },
     link: function(scope, elm, attrs, model) {
       var USERNAME_REGEXP = /^[^.$\[\]#\/\s]+$/;
       model.$parsers.unshift(function(viewValue) {
@@ -70,14 +73,12 @@ app.directive('checkUserName', function(User) {
           return undefined;
         }
       });
-/*
       elm.bind('blur', function() {
         if (model.$viewValue) { // capitalize all words in value
           model.$viewValue = capitalizeAllWords(model.$viewValue);
           model.$render();
         }
       });
-*/
     }
   };
 });
@@ -85,6 +86,9 @@ app.directive('checkUserName', function(User) {
 app.directive('checkDuration', function() {
   return {
     require: 'ngModel',
+    scope: {
+      value: '=ngModel'
+    },
     link: function(scope, elm, attrs, model) {
       var POSITIVE_INTEGER_REGEXP = /^\d+$/;
       var DURATION_REGEXP = /^\d+[:.]\d+$/;
@@ -120,6 +124,7 @@ app.directive('checkDuration', function() {
           model.$render();
         }
       });
+
     }
   };
 });
@@ -127,6 +132,9 @@ app.directive('checkDuration', function() {
 app.directive('checkCustomerName', function(Customer) {
   return {
     require: 'ngModel',
+    scope: {
+      value: '=ngModel'
+    },
     link: function(scope, elm, attrs, model) {
       //var CUSTOMERNAME_REGEXP = /^[^\[\]\{\}\/#]+$/; // TODO: find a better regexp...
       var CUSTOMERNAME_REGEXP = /^([ \u00c0-\u01ffa-zA-Z'\-])+$/;
@@ -162,6 +170,9 @@ app.directive('checkCustomerName', function(Customer) {
 app.directive('checkEmail', function() {
   return {
     require: 'ngModel',
+    scope: {
+      value: '=ngModel'
+    },
     link: function(scope, elm, attrs, model) {
       var EMAIL_REGEXP = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
       model.$parsers.unshift(function(viewValue) {
@@ -204,6 +215,9 @@ app.directive('checkPassword', function() {
 app.directive('checkPhone', function() {
   return {
     require: 'ngModel',
+    scope: {
+      value: '=ngModel'
+    },
     link: function(scope, elm, attrs, model) {
       var PHONE_REGEXP = /^[\s()+-]*([0-9][\s()+-]*){6,20}$/;
       //var PHONE_REGEXP = /^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$/;
@@ -239,6 +253,9 @@ app.directive('checkPhone', function() {
 app.directive('checkCfOrPiva', function() {
   return {
     require: 'ngModel',
+    scope: {
+      value: '=ngModel'
+    },
     link: function(scope, elm, attrs, model) {
       var CF_LENGTH = 16;
       var PIVA_LENGTH = 11;

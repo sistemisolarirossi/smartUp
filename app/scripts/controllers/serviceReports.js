@@ -31,8 +31,8 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Se
   $scope.initServicereport = function () {
     //$scope.servicereport.number = null;
     $scope.servicereport.operator = $scope.currentUser ? $scope.currentUser.username : null;
-    $scope.servicereport.dateIn = new Date();
-    $scope.servicereport.dateOut = $scope.servicereport.dateIn;
+    $scope.servicereport.dateIn = new Date(); // put this in dateInit() ?
+    $scope.servicereport.dateOut = $scope.servicereport.dateIn; // put this in dateInit() ?
     $scope.servicereport.duration = null;
     $scope.servicereport.location = null;
     $scope.servicereport.notes = null;
@@ -140,6 +140,13 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Se
     $scope.hourStep = 1;
     $scope.minuteStep = 1;
     $scope.showMeridian = false;
+
+    $scope.servicereport.dateIn = new Date(); // put this here?
+    $scope.servicereport.dateOut = $scope.servicereport.dateIn; // put this here?
+    $scope.timeIn = $scope.servicereport.dateIn; // why timeIn and not servicereport.timeIn?
+    $scope.servicereport.dateIn.setHours($scope.timeIn.getHours());
+    $scope.servicereport.dateIn.setMinutes($scope.timeIn.getMinutes());
+    $scope.servicereport.dateIn.setSeconds(0);
 
     $scope.dateDisabled = function(/*date, mode*/) {
       //return ( mode === 'day' && ( date.getDay() === 0 || date.getDay() === 6 ) );

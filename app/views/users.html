@@ -63,18 +63,27 @@
           <td title="Social connect provider" sortable="'provider'" class="condensed">
             {{ user.provider }}
           </td>
-          <th title="Identifier" class="condensed tablet-hide">
-            <div ng-bind-html="user.id.substr(0, 5) + '&hellip;'"></div>
+          <th ng-attr-title="{{ 'Authentication id: ' + user.id }}" class="condensed tablet-hide">
+            <div ng-bind-html="user.id.length > 5 ? user.id.substr(0, 5) + '&hellip;' : user.id"></div>
           </th>
           <td title="Avatar image" class="condensed">
             <img title="Avatar image" class="pic-circular-small" ng-src="{{ user.imageUrl }}" />
           </td>
-          <td title="Authorized roles" class="condensed">
-            {{ user.rolesX }}
-            <span style="border:1px solid #ccc">
-              U
-              <span style="color:black;font-size:9px;position:relative;left:-2px;top:-6px;">r</span>
-              <span style="color:blue;font-size:9px;position:relative;left:-11px;top:1px;">w</span>
+          <td NOtitle="Authorized roles" class="condensed">
+            <span ng-repeat="role in roles">
+              <span ng-class="{
+                'role': true,
+                'role-rw':  user.roles.users.read &&  user.roles.users.write,
+                'role-r':   user.roles.users.read && !user.roles.users.write,
+                'role-w':  !user.roles.users.read &&  user.roles.users.write,
+                'role-nn': !user.roles.users.read && !user.roles.users.write
+              }" ng-attr-title="{{ 'This user can ' + (
+                 user.roles.users.read && user.roles.users.write ? 'read and write' :
+                 user.roles.users.read && !user.roles.users.write ? 'read' :
+                !user.roles.users.read && user.roles.users.write  ? 'write' :
+                                                                    'not read nor write'
+                ) + ' ' + role.desc
+              }}">{{ role.key }}</span>
             </span>
           </td>
           <td class="condensed">

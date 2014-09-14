@@ -89,8 +89,12 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
         }
       );
     }, function (error) {
-      $scope.error = 'loginSocial('+provider+') failed (' + error.message + ')';
-    });
+      console.error = 'loginSocial('+provider+') failed (' + error.message + ')';
+      toastr.error = 'loginSocial('+provider+') failed (' + error.message + ')';
+    })/*.catch(error) {
+      console.error = 'CATCHED loginSocial('+provider+') failed (' + error + ')';
+      toastr.error = 'CATCHED loginSocial('+provider+') failed (' + error.message + ')';      
+    }*/;
   };
 
   $scope.logout = function () {
