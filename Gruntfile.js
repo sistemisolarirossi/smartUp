@@ -443,7 +443,7 @@ module.exports = function (grunt) {
             'views/*.html',
             '*.html',
         ],
-        dest: 'appcache.manifest'
+        dest: 'app/appcache.manifest'
       }
     }
 
