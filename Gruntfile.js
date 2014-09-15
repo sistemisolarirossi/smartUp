@@ -485,6 +485,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'auto_install',
     'clean:dist',
+    'manifest',
     'favicons',
     'wiredep',
     'useminPrepare',
@@ -498,8 +499,7 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin',
-    'manifest'
+    'htmlmin'
   ]);
 
   grunt.registerTask('default', [
