@@ -425,11 +425,34 @@ module.exports = function (grunt) {
       }
     }
 */
+
+    manifest: {
+      generate: {
+        options: {
+          basePath: 'app/',
+          network: ['http://*', 'https://*'],
+          fallback: ['/ /offline.html'],
+          exclude: [],
+          preferOnline: true,
+          timestamp: true
+        },
+        src: [
+            'icons/**/*',
+            'scripts/**/*.js',
+            'styles/**/*.css',
+            'views/*.html',
+            '*.html',
+        ],
+        dest: 'appcache.manifest'
+      }
+    }
+
   });
 
   grunt.loadNpmTasks('grunt-auto-install');
   grunt.loadNpmTasks('grunt-favicons');
 //grunt.loadNpmTasks("grunt-remove-logging");
+  grunt.loadNpmTasks('grunt-manifest');
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
@@ -475,7 +498,8 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'manifest'
   ]);
 
   grunt.registerTask('default', [
