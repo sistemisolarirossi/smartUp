@@ -45,7 +45,7 @@ function logEvent (e) {
     message += ', event: ' + type;
     message += ', status: ' + status;
     if (type === 'error' && navigator.onLine) {
-        message+= ' (probably a syntax error in manifest)';
+        message += ' (probably a syntax error in manifest)';
     }
     console.log(message);
 }
