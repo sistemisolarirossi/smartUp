@@ -311,7 +311,7 @@ module.exports = function (grunt) {
             '*.{txt}',
             '.htaccess',
             '*.html',
-            '*.manifest',
+            '*.appcache',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
             'icons/{,*/}*.{ico,png}',
@@ -430,7 +430,7 @@ module.exports = function (grunt) {
     manifest: {
       generate: {
         options: {
-          basePath: 'app/',
+          basePath: '<%= yeoman.dist %>',
           network: ['http://*', 'https://*'],
           fallback: ['/ /offline.html'],
           exclude: [],
@@ -438,13 +438,14 @@ module.exports = function (grunt) {
           timestamp: true
         },
         src: [
-            'icons/**/*',
-            'scripts/**/*.js',
-            'styles/**/*.css',
-            'views/*.html',
-            '*.html',
+          'scripts/**/*.js',
+          'views/*.html',
+          'styles/**/*.css',
+          'icons/**/*',
+          'fonts/**/*.css',
+          '*.html',
         ],
-        dest: 'app/appcache.manifest'
+        dest: '<%= yeoman.dist %>/manifest.appcache'
       }
     }
 
@@ -486,7 +487,6 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'auto_install',
     'clean:dist',
-    'manifest',
     'favicons',
     'wiredep',
     'useminPrepare',
@@ -500,7 +500,8 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'manifest'
   ]);
 
   grunt.registerTask('default', [
