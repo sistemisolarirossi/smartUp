@@ -68,5 +68,5 @@ window.applicationCache.addEventListener(
     false
 );
 
-setInterval(function () { cache.update(); }, 5000);
+setInterval(function () { cache.update(); }, 15000);
 ////////////////////////////////////////////////////////////////////////////////////

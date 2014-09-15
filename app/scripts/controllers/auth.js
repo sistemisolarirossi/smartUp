@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, CFG, Auth, User) {
   $rootScope.formLabel = '';
 
   if (Auth.signedIn()) {
@@ -10,6 +10,10 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.params = $routeParams;
   $scope.error = null;
   $scope.info = null;
+  
+  $scope.test = 1;
+  $scope.debug = CFG.DEBUG;
+  console.log($scope.debug);
 
   $scope.register = function (valid) {
     console.info('controller - register');

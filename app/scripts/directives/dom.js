@@ -73,8 +73,6 @@ app.directive('showDeviceClass', function ($window) {
           'width: ' + windowWidth + 'px' +
           '&emsp;' +
           'device: ' + deviceClass +
-          '&emsp;&emsp;' +
-
           '</span>'
         );
       }, true);
