@@ -431,7 +431,7 @@ module.exports = function (grunt) {
       generate: {
         options: {
           basePath: '<%= yeoman.app %>',
-          network: ['http://*', 'https://*'],
+          network: [ '*' ], // [ 'http://*', 'https://*' ],
           fallback: ['/ offline.html'],
           exclude: [],
           preferOnline: true,

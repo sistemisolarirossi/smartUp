@@ -62,8 +62,8 @@ cache.addEventListener('updateready', logEvent, false);
 window.applicationCache.addEventListener(
   'updateready', 
   function(){
-    //window.applicationCache.swapCache();
-    console.log('swap cache has NOT been called');
+    window.applicationCache.swapCache();
+    console.log('swap cache has been called');
   }, 
   false
 );
