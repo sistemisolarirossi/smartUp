@@ -15,8 +15,8 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   ////console.log('version: ', version.tag, version.date)
   //$scope.online = $rootScope.online;
   $rootScope.$watch($rootScope.online, function () {
-    console.log('****************** changed online status ******************');
     $scope.online = $rootScope.online;
+    console.log('****************** changed online status: ' + $scope.online + ' ******************');
   });
 
   $scope.register = function (valid) {
