@@ -193,4 +193,13 @@ app.run(function($window, $rootScope) {
       $rootScope.online = true;
     });
   }, false);
+
+  /* TODO: verify if this is a better check for online mode... */
+  $window.applicationCache.addEventListener('error', function (error) {
+    console.info('************* PROBABLY GONE OFFLINE ************* Error fetching manifest: a good chance we are offline', error);
+    $rootScope.$apply(function() {
+      $rootScope.online = false;
+    });
+  }, false);
+
 });
