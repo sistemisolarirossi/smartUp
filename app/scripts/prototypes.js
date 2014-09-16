@@ -37,17 +37,17 @@ cacheStatusValues[5] = 'obsolete';
 var cache = window.applicationCache;
 
 function logEvent (e) {
-    var online, status, type, message;
-    online = (navigator.onLine) ? 'yes' : 'no';
-    status = cacheStatusValues[cache.status];
-    type = e.type;
-    message = 'online: ' + online;
-    message += ', event: ' + type;
-    message += ', status: ' + status;
-    if (type === 'error' && navigator.onLine) {
-        message += ' (probably a syntax error in manifest)';
-    }
-    console.log(message);
+  var online, status, type, message;
+  online = (navigator.onLine) ? 'yes' : 'no';
+  status = cacheStatusValues[cache.status];
+  type = e.type;
+  message = 'online: ' + online;
+  message += ', event: ' + type;
+  message += ', status: ' + status;
+  if (type === 'error' && navigator.onLine) {
+    message += ' (probably a syntax error in manifest)';
+  }
+  console.log(message);
 }
 
 cache.addEventListener('cached', logEvent, false);
@@ -60,13 +60,13 @@ cache.addEventListener('progress', logEvent, false);
 cache.addEventListener('updateready', logEvent, false);
 
 window.applicationCache.addEventListener(
-    'updateready', 
-    function(){
-        window.applicationCache.swapCache();
-        console.log('swap cache has been called');
-    }, 
-    false
+  'updateready', 
+  function(){
+    //window.applicationCache.swapCache();
+    console.log('swap cache has NOT been called');
+  }, 
+  false
 );
 
-setInterval(function () { cache.update(); }, 15000);
+setInterval(function () { cache.update(); }, 5000);
 ////////////////////////////////////////////////////////////////////////////////////

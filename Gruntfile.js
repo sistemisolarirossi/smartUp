@@ -430,12 +430,13 @@ module.exports = function (grunt) {
     manifest: {
       generate: {
         options: {
-          basePath: '<%= yeoman.dist %>',
+          basePath: '<%= yeoman.app %>',
           network: ['http://*', 'https://*'],
           fallback: ['/ offline.html'],
           exclude: [],
           preferOnline: true,
-          timestamp: true
+          timestamp: true,
+          verbose: true
         },
         src: [
           'scripts/**/*.js',
@@ -445,8 +446,8 @@ module.exports = function (grunt) {
           'fonts/**/*.css',
           '*.html',
         ],
-        dest: '<%= yeoman.dist %>/manifest.appcache'
-      }
+        dest: '<%= yeoman.app %>/manifest.appcache'
+      },
     }
 
   });
@@ -507,6 +508,6 @@ module.exports = function (grunt) {
   grunt.registerTask('default', [
     'newer:jshint',
     'test',
-    'build'
+    'build',
   ]);
 };

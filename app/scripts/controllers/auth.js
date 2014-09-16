@@ -11,6 +11,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.error = null;
   $scope.info = null;
   $scope.debug = CFG.DEBUG;
+  $scope.online = $rootScope.online;
 
   $scope.register = function (valid) {
     console.info('controller - register');
