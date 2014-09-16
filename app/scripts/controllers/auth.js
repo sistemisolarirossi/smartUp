@@ -14,11 +14,13 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.version = version;
   ////console.log('version: ', version.tag, version.date)
   //$scope.online = $rootScope.online;
+  /*
   $rootScope.$watch($rootScope.online, function () {
     $scope.online = $rootScope.online;
     console.log('****************** changed online status: ' + $scope.online + ' ******************');
   });
-
+  */
+  
   $scope.register = function (valid) {
     console.info('controller - register');
     $scope.$broadcast('autofillFix:update');

@@ -9,5 +9,4 @@
  */
 app.controller('HomeCtrl', function ($rootScope) {
   $rootScope.formLabel = '';
-  console.log('version: ', version.tag, version.date);
 });
