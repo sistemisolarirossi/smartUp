@@ -69,9 +69,9 @@ app.directive('showDeviceClass', function ($window) {
           deviceClass = 'custom';
         }
         element.html(
-          '<span style="color:darkgreen;font-style:italic;">' +
+          '<span class="debug">' +
           'width: ' + windowWidth + 'px' +
-          '&emsp;' +
+          '&nbsp;' +
           'device: ' + deviceClass +
           '</span>'
         );

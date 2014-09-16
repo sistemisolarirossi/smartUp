@@ -448,6 +448,12 @@ module.exports = function (grunt) {
         ],
         dest: '<%= yeoman.app %>/manifest.appcache'
       },
+    },
+
+    exec: {
+      gitExportLastCommitVersion: {
+        cmd: '( echo "var version = {};"; echo -ne "version.tag = \'"; git describe | tr -d \'\\n\'; echo "\';"; echo -ne "version.date = \'"; git log -1 --format="%ci" | cut -c1-19 | tr -d \'\\n\'; echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
+      },
     }
 
   });
@@ -456,6 +462,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-favicons');
 //grunt.loadNpmTasks("grunt-remove-logging");
   grunt.loadNpmTasks('grunt-manifest');
+  grunt.loadNpmTasks('grunt-exec');
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
@@ -488,6 +495,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'auto_install',
     'clean:dist',
+    'exec:gitExportLastCommitVersion',
     'favicons',
     'wiredep',
     'useminPrepare',

@@ -7,6 +7,12 @@
 
   <span>&emsp;</span>
 
+  <span class="debug" ng-show="debug">
+    version: {{ version.tag + ', ' + version.date }}
+  </span>
+
+  <span>&emsp;</span>
+
   <!-- TODO: is-online in main.css (img width: 16) -->
   <span class="is-online">
     <span ng-show="online"><img src="icons/online.png" width="18" title="You are online" /></span>

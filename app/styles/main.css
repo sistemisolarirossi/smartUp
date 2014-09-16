@@ -360,6 +360,11 @@ form.form-search:before {
   overflow: auto;
 }
 
+.debug {
+  color: darkgreen;
+  font-style: italic;
+}
+
 /* inverse dropdown menu item */
 .inverse-dropdown {
   font-size: 95%;
