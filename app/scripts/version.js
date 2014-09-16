@@ -1,3 +1,3 @@
 var version = {};
-version.tag = '0.2-18-g9ed7645';
-version.date = '2014-09-16 12:50:56';
+version.tag = '0.2-19-ga8bc9b4';
+version.date = '2014-09-16 16:08:00';

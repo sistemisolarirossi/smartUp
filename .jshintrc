@@ -22,7 +22,6 @@
     "app": false,
     "angular": false,
     "Firebase": false,
-    "toastr": false,
-    "version": false
+    "toastr": false
   }
 }
