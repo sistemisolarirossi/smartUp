@@ -23,8 +23,8 @@
     <span ng-show="appcache.status === 'obsolete'"   ><img src="icons/round-button-gray.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
     <span ng-show="appcache.status === 'progress'"   ><img src="icons/round-button-cyan.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
     <span ng-show="appcache.status === 'updateready'">
-      <a ng-really-message="An update is ready: do you want to load it now?" ng-really-click="appcacheUpdate()">
-        <img src="icons/round-button-blue.png" width="12" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      <a ng-really-message="An update is ready: do you want to load it now?" ng-really-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'">
+        <img src="icons/round-button-blue.png" width="12" />
       </a>
     </span>
   </span>
