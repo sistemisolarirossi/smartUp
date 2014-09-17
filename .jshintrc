@@ -23,6 +23,6 @@
     "angular": false,
     "Firebase": false,
     "toastr": false,
-    "version": true
+    "lastBuildDate": true
   }
 }

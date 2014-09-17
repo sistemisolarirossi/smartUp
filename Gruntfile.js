@@ -452,7 +452,8 @@ module.exports = function (grunt) {
 
     exec: {
       gitExportLastCommitVersion: {
-        cmd: '( /bin/echo "var version = {};"; /bin/echo -ne "version.tag = \'"; git describe --always | tr -d \'\\n\'; /bin/echo "\';"; /bin/echo -ne "version.date = \'"; git log -1 --format="%ci" | cut -c1-19 | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
+      //cmd: '( /bin/echo "var version = {};"; /bin/echo -ne "version.tag = \'"; git describe --always | tr -d \'\\n\'; /bin/echo "\';"; /bin/echo -ne "version.date = \'"; git log -1 --format="%ci" | cut -c1-19 | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
+        cmd: '( /bin/echo -n "var lastBuildDate = \'"; date +"%Y-%m-%d %H:%M:%S" | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
       },
     }
 

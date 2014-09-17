@@ -11,7 +11,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.error = null;
   $scope.info = null;
   $scope.debug = CFG.DEBUG;
-  $scope.version = version;
+  $scope.lastBuildDate = lastBuildDate;
   ////console.log('version: ', version.tag, version.date)
   //$scope.online = $rootScope.online;
   $scope.$watch($rootScope.online, function () {

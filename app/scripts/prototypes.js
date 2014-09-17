@@ -26,6 +26,7 @@ window.onafterprint = afterPrint;
 ////////////////////////////////////////////////////////////////////////////////////
 // appcache debug
 ////////////////////////////////////////////////////////////////////////////////////
+/*
 var cacheStatusValues = [];
 cacheStatusValues[0] = 'uncached';
 cacheStatusValues[1] = 'idle';
@@ -62,11 +63,16 @@ cache.addEventListener('updateready', logEvent, false);
 window.applicationCache.addEventListener(
   'updateready', 
   function () {
-    window.applicationCache.swapCache();
-    console.log('swap cache has been called');
+    console.info('An update is ready');
+    if (confirm("An update is ready. Press OK to use it now.")) {
+      location.reload();
+      //window.applicationCache.swapCache();
+      //console.log('swap cache has been called');
+    }
   }, 
   false
 );
 
 setInterval(function () { cache.update(); }, 5000);
+*/
 ////////////////////////////////////////////////////////////////////////////////////
