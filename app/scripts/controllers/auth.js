@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, /*$route, */$routeParams, $location, $window, CFG, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, Auth, User) {
   $rootScope.formLabel = '';
 
   if (Auth.signedIn()) {
@@ -33,8 +33,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, /*$route, */$routeParam
     console.info('appcacheUpdate()');
     if ($rootScope.appcache.status === 'updateready') { 
       $window.applicationCache.swapCache();
-      $location.reload();
-      //$route.reload();
+      $window.location.reload();
     } else {
       toastr.info('Cache status is "' + $rootScope.appcache.status + '"');
     }

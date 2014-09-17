@@ -428,31 +428,54 @@ module.exports = function (grunt) {
 */
 
     manifest: {
-      generate: {
-        options: {
-          basePath: '<%= yeoman.dist %>',
-          network: [ '*' ], // [ 'http://*', 'https://*' ],
-          fallback: ['/ offline.html'],
-          exclude: [],
-          preferOnline: true,
-          timestamp: true,
-          verbose: true
+      local: {
+        generate: {
+          options: {
+            basePath: '<%= yeoman.app %>',
+            network: [ '*' ], // [ 'http://*', 'https://*' ],
+            fallback: ['/ offline.html'],
+            exclude: [],
+            preferOnline: true,
+            timestamp: true,
+            verbose: true
+          },
+          src: [
+            'scripts/**/*.js',
+            'views/*.html',
+            'styles/**/*.css',
+            'icons/**/*',
+            'fonts/**/*.css',
+            '*.html',
+          ],
+          dest: '<%= yeoman.app %>/manifest.appcache'
         },
-        src: [
-          'scripts/**/*.js',
-          'views/*.html',
-          'styles/**/*.css',
-          'icons/**/*',
-          'fonts/**/*.css',
-          '*.html',
-        ],
-        dest: '<%= yeoman.dist %>/manifest.appcache'
+      },
+      dist: {
+        generate: {
+          options: {
+            basePath: '<%= yeoman.dist %>',
+            network: [ '*' ], // [ 'http://*', 'https://*' ],
+            fallback: ['/ offline.html'],
+            exclude: [],
+            preferOnline: true,
+            timestamp: true,
+            verbose: true
+          },
+          src: [
+            'scripts/**/*.js',
+            'views/*.html',
+            'styles/**/*.css',
+            'icons/**/*',
+            'fonts/**/*.css',
+            '*.html',
+          ],
+          dest: '<%= yeoman.dist %>/manifest.appcache'
+        },
       },
     },
 
     exec: {
       gitExportLastCommitVersion: {
-      //cmd: '( /bin/echo "var version = {};"; /bin/echo -ne "version.tag = \'"; git describe --always | tr -d \'\\n\'; /bin/echo "\';"; /bin/echo -ne "version.date = \'"; git log -1 --format="%ci" | cut -c1-19 | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
         cmd: '( /bin/echo "/* exported lastBuildDate */"; /bin/echo -n "var lastBuildDate = \'"; date +"%Y-%m-%d %H:%M:%S" | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
       },
     }
@@ -471,6 +494,7 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
+      'manifest:local',
       'clean:server',
       'wiredep',
       'concurrent:server',
@@ -511,7 +535,7 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin',
-    'manifest'
+    'manifest:dist'
   ]);
 
   grunt.registerTask('default', [
