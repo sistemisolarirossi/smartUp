@@ -26,7 +26,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     return $rootScope.appcache;
   }, function() {
     $scope.appcache = $rootScope.appcache;
-    console.log('changed appcache status to ' + $scope.appcache);
+    console.log('changed appcache status to ', $scope.appcache.status);
   }, true);
   
   $scope.register = function (valid) {
