@@ -196,15 +196,17 @@ app.run(function($window, $rootScope) {
   }, false);
 
   $window.applicationCache.addEventListener('error', function (error) {
-    if ($rootScope.online) {
-      console.info('Error fetching manifest: a good chance we are offline', error);
-      console.info('************* PROBABLY GONE OFFLINE *************');
+    //if ($rootScope.online) {
+      //console.info('Error fetching manifest: a good chance we are offline', error);
+      //console.info('************* PROBABLY GONE OFFLINE *************');
       $rootScope.$apply(function() {
-        $rootScope.online = false;
+        //$rootScope.online = false;
+        $rootScope.appcache.status = 'error';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %', error);
       });
-    } else {
-      // we are already offline, ignore errors...
-    }
+    //} else {
+    //  // we are already offline, ignore errors...
+    //}
   }, false);
 
   $window.applicationCache.addEventListener('cached', function () {
