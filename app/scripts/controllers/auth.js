@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $route, $routeParams, $location, $window, CFG, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, /*$route, */$routeParams, $location, $window, CFG, Auth, User) {
   $rootScope.formLabel = '';
 
   if (Auth.signedIn()) {
@@ -30,8 +30,10 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $route, $routeParams, $
   }, true);
   
   $scope.appcacheUpdate = function () {
+    console.info('appcacheUpdate()');
     $window.applicationCache.swapCache();
-    $route.reload();
+    $location.reload();
+    //$route.reload();
   };
 
   $scope.register = function (valid) {
