@@ -20,6 +20,14 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.online = $rootScope.online;
     console.log('changed online status to ' + $scope.online);
   }, true);
+
+  // watch rootScope appcache status variable
+  $scope.$watch(function() {
+    return $rootScope.appcache;
+  }, function() {
+    $scope.appcache = $rootScope.appcache;
+    console.log('changed appcache status to ' + $scope.appcache);
+  }, true);
   
   $scope.register = function (valid) {
     console.info('controller - register');
