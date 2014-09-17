@@ -15,15 +15,43 @@
 
   <!-- TODO: appcache in main.css (img width: 16) -->
   <span class="appcache">
-    <span ng-show="appcache.status === 'error'"      ><img src="icons/round-button-red.png"    width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
-    <span ng-show="appcache.status === 'cached'"     ><img src="icons/round-button-green.png"  width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
-    <span ng-show="appcache.status === 'checking'"   ><img src="icons/round-button-yellow.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
-    <span ng-show="appcache.status === 'downloading'"><img src="icons/round-button-orange.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
-    <span ng-show="appcache.status === 'noupdate'"   ><img src="icons/round-button-purple.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
-    <span ng-show="appcache.status === 'obsolete'"   ><img src="icons/round-button-gray.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
-    <span ng-show="appcache.status === 'progress'"   ><img src="icons/round-button-cyan.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
+    <span ng-show="appcache.status === 'error'"      >
+      <a href>
+        <img src="icons/round-button-red.png"    width="14" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      </a>
+    </span>
+    <span ng-show="appcache.status === 'cached'"     >
+      <a href ng-click="appcacheUpdate()">
+        <img src="icons/round-button-green.png"  width="14" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      </a>
+    </span>
+    <span ng-show="appcache.status === 'checking'"   >
+      <a href>
+        <img src="icons/round-button-yellow.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      </a>
+    </span>
+    <span ng-show="appcache.status === 'downloading'">
+      <a href>
+        <img src="icons/round-button-orange.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      </a>
+    </span>
+    <span ng-show="appcache.status === 'noupdate'"   >
+      <a href>
+        <img src="icons/round-button-purple.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      </a>
+    </span>
+    <span ng-show="appcache.status === 'obsolete'"   >
+      <a href>
+        <img src="icons/round-button-gray.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      </a>
+    </span>
+    <span ng-show="appcache.status === 'progress'"   >
+      <a href>
+        <img src="icons/round-button-cyan.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" />
+      </a>
+    </span>
     <span ng-show="appcache.status === 'updateready'">
-      <a ng-really-message="An update is ready: do you want to load it now?" ng-really-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'">
+      <a href ng-really-message="An update is ready: do you want to load it now?" ng-really-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'">
         <img src="icons/round-button-blue.png" width="12" />
       </a>
     </span>
