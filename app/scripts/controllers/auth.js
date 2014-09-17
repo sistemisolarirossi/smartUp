@@ -37,7 +37,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, /*$route, */$routeParam
       //$route.reload();
     } else {
       toastr.info('Cache status is "' + $scope.appcache.status + '"');
-      console.log('shouldn\'t happen: clicked button is not updateready ...');
     }
   };
 
