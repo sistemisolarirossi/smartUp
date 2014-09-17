@@ -256,6 +256,7 @@ app.run(function($window, $rootScope) {
       $rootScope.appcache.status = 'updateready';
       console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       if ($window.confirm('An update is ready. Press OK to use it now.')) {
+        $window.applicationCache.swapCache();
         location.reload();
       }
     });
