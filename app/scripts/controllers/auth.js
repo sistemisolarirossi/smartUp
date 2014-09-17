@@ -31,12 +31,12 @@ app.controller('AuthCtrl', function ($scope, $rootScope, /*$route, */$routeParam
   
   $scope.appcacheUpdate = function () {
     console.info('appcacheUpdate()');
-    if ($scope.appcache.status === 'updateready') { 
+    if ($rootScope.appcache.status === 'updateready') { 
       $window.applicationCache.swapCache();
       $location.reload();
       //$route.reload();
     } else {
-      toastr.info('Cache status is "' + $scope.appcache.status + '"');
+      toastr.info('Cache status is "' + $rootScope.appcache.status + '"');
     }
   };
 
