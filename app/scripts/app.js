@@ -256,10 +256,12 @@ app.run(function($window, $rootScope) {
       $rootScope.appcache.status = 'updateready';
       console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       // TODO: use something async to immediately update appcache.status color on view
+/*
       if ($window.confirm('An update is ready. Press OK to use it now.')) {
         $window.applicationCache.swapCache();
         location.reload();
       }
+*/
     });
   }, false);
 
