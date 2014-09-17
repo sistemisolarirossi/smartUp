@@ -14,6 +14,7 @@
   <span>&emsp;</span>
 
   <!-- TODO: appcache in main.css (img width: 16) -->
+  {{ appcache.status }}
   <span class="appcache">
     <span ng-show="appcache.status === 'cached'"     ><img src="icons/round-button-blue.png"   width="18" ng-title="Cache status is '{{appcache.status}}'" /></span>
     <span ng-show="appcache.status === 'checking'"   ><img src="icons/round-button-yellow.png" width="18" ng-title="Cache status is '{{appcache.status}}'" /></span>
