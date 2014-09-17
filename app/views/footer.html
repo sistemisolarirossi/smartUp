@@ -15,6 +15,7 @@
 
   <!-- TODO: appcache in main.css (img width: 16) -->
   <span class="appcache">
+    <a ng-really-message="An update is ready: do you want to load it now?" ng-really-click="if (appcache.status === 'updateready') { appcacheUpdate(); }" href="#">
     <span ng-show="appcache.status === 'cached'"     ><img src="icons/round-button-green.png"  width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
     <span ng-show="appcache.status === 'checking'"   ><img src="icons/round-button-yellow.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
     <span ng-show="appcache.status === 'downloading'"><img src="icons/round-button-orange.png" width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
@@ -23,6 +24,7 @@
     <span ng-show="appcache.status === 'progress'"   ><img src="icons/round-button-cyan.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
     <span ng-show="appcache.status === 'updateready'"><img src="icons/round-button-blue.png"   width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
     <span ng-show="appcache.status === 'error'"      ><img src="icons/round-button-red.png"    width="14" ng-attr-title="Cache status is '{{appcache.status}}'" /></span>
+    </a>
   </span>
 
   <span>&emsp;</span>
