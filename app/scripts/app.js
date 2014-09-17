@@ -181,6 +181,7 @@ app.run(['$templateCache', function($templateCache) {
  */
 app.run(function($window, $rootScope) {
   $rootScope.online = navigator.onLine;
+  $rootScope.appcache = {};
   $window.addEventListener('offline', function () {
     console.info('************* GONE OFFLINE *************');
     $rootScope.$apply(function() {
@@ -194,12 +195,78 @@ app.run(function($window, $rootScope) {
     });
   }, false);
 
-  /* TODO: verify if this is a better check for online mode... */
   $window.applicationCache.addEventListener('error', function (error) {
-    console.info('************* PROBABLY GONE OFFLINE ************* Error fetching manifest: a good chance we are offline', error);
+    if ($rootScope.online) {
+      console.info('Error fetching manifest: a good chance we are offline', error);
+      console.info('************* PROBABLY GONE OFFLINE *************');
+      $rootScope.$apply(function() {
+        $rootScope.online = false;
+      });
+    } else {
+      // we are already offline, ignore errors...
+    }
+  }, false);
+
+  $window.applicationCache.addEventListener('cached', function () {
     $rootScope.$apply(function() {
-      $rootScope.online = false;
+      $rootScope.appcache.status = 'cached';
+      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
     });
   }, false);
 
+  $window.applicationCache.addEventListener('checking', function () {
+    $rootScope.$apply(function() {
+      $rootScope.appcache.status = 'checking';
+      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+    });
+  }, false);
+
+  $window.applicationCache.addEventListener('downloading', function () {
+    $rootScope.$apply(function() {
+      $rootScope.appcache.status = 'downloading';
+      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+    });
+  }, false);
+
+  $window.applicationCache.addEventListener('noupdate', function () {
+    $rootScope.$apply(function() {
+      $rootScope.appcache.status = 'cached';
+      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+    });
+  }, false);
+
+  $window.applicationCache.addEventListener('obsolete', function () {
+    $rootScope.$apply(function() {
+      $rootScope.appcache.status = 'cached';
+      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+    });
+  }, false);
+
+  $window.applicationCache.addEventListener('progress', function () {
+    $rootScope.$apply(function() {
+      $rootScope.appcache.status = 'progress';
+      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+    });
+  }, false);
+
+  $window.applicationCache.addEventListener('updateready', function () {
+    $rootScope.$apply(function() {
+      $rootScope.appcache.status = 'updateready';
+      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+      if ($window.confirm('An update is ready. Press OK to use it now.')) {
+        location.reload();
+      }
+    });
+  }, false);
+
+/*
+cache.addEventListener('cached', logEvent, false);
+cache.addEventListener('checking', logEvent, false);
+cache.addEventListener('downloading', logEvent, false);
+cache.addEventListener('noupdate', logEvent, false);
+cache.addEventListener('obsolete', logEvent, false);
+cache.addEventListener('progress', logEvent, false);
+cache.addEventListener('updateready', logEvent, false);
+cache.addEventListener('error', logEvent, false);
+*/
 });

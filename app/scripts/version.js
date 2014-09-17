@@ -1,2 +1,2 @@
-/* exported attrs */
-var lastBuildDate = '2014-09-17 11:01:00';
+/* exported lastBuildDate */
+var lastBuildDate = '2014-09-17 12:24:10';

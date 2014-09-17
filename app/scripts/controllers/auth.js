@@ -13,17 +13,12 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.debug = CFG.DEBUG;
   $scope.lastBuildDate = lastBuildDate;
 
-/*
-  $scope.$watch($rootScope.online, function () {
-    $scope.online = $rootScope.online;
-    console.log('****************** changed online status: ' + $scope.online + ' ******************');
-  });
-*/
+  // watch rootScope online status variable
   $scope.$watch(function() {
     return $rootScope.online;
   }, function() {
     $scope.online = $rootScope.online;
-    console.log('****************** changed online status: ' + $scope.online + ' ******************');
+    console.log('changed online status to ' + $scope.online);
   }, true);
   
   $scope.register = function (valid) {
