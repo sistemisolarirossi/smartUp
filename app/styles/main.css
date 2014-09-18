@@ -45,7 +45,6 @@ body[orient="landscape"] { min-height: 360px; }
   font-size: 10px;
   line-height: 1.2;
   border-radius: 2px;
-  background-color: #ddd;
 }
 .url {
   font-size: 90%;
