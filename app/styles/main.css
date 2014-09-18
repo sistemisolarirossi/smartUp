@@ -39,6 +39,13 @@ body[orient="landscape"] { min-height: 360px; }
   color: #555;
   border-top: 1px solid #ccc;
 }
+.btn-xxs,
+.btn-group-xxs > .btn {
+  padding: 1px 4px;
+  font-size: 10px;
+  line-height: 1.2;
+  border-radius: 2px;
+}
 .url {
   font-size: 90%;
 }
