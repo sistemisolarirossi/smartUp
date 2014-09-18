@@ -29,13 +29,21 @@ module.exports = function (grunt) {
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
+      always: {
+        files: [
+          '<%= yeoman.app %>/{,*/}*.html', '<%= yeoman.app %>/views/{,*/}*.html',
+          '<%= yeoman.app %>/scrips/{,*/}*.js', '<%= yeoman.app %>/styles/{,*/}*.css',
+          '<%= yeoman.app %>/icons/{,*/}*', '<%= yeoman.app %>/fonts/{,*/}*.js',
+        ],
+        tasks: ['manifest:generate'],
+      },
       bower: {
         files: ['bower.json'],
         tasks: ['wiredep']
       },
       js: {
         files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
-        tasks: ['newer:jshint:all'],
+        tasks: ['newer:jshint:all', 'manifest:generate'],
         options: {
           livereload: '<%= connect.options.livereload %>'
         }
@@ -328,6 +336,11 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>'
         }, {
           expand: true,
+          cwd: 'bower_components/open-sans-fontface',
+          src: 'fonts/**/*',
+          dest: '<%= yeoman.dist %>/styles'
+        }, {
+          expand: true,
           cwd: 'bower_components/font-awesome',
           src: 'fonts/*',
           dest: '<%= yeoman.dist %>'
@@ -443,7 +456,7 @@ module.exports = function (grunt) {
           'views/*.html',
           'styles/**/*.css',
           'icons/**/*',
-          'fonts/**/*.css',
+          'fonts/**/*',
           '*.html',
         ],
         dest: '<%= yeoman.app %>/manifest.appcache'
@@ -463,7 +476,7 @@ module.exports = function (grunt) {
           'views/*.html',
           'styles/**/*.css',
           'icons/**/*',
-          'fonts/**/*.css',
+          'fonts/**/*',
           '*.html',
         ],
         dest: '<%= yeoman.dist %>/manifest.appcache'
@@ -490,7 +503,7 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
-      'manifest:generate',
+      //'manifest:generate',
       'clean:server',
       'wiredep',
       'concurrent:server',

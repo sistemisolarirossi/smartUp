@@ -182,7 +182,7 @@ app.run(['$templateCache', function($templateCache) {
 app.run(function($window, $rootScope) {
   $rootScope.online = navigator.onLine;
   $rootScope.appcache = {};
-  $rootScope.appcache.status = '';
+  $rootScope.appcache.status = 'initializing';
   $window.addEventListener('offline', function () {
     console.info('************* GONE OFFLINE *************');
     $rootScope.$apply(function() {

@@ -33,7 +33,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     console.info('appcacheUpdate()');
     var msg;
     switch ($rootScope.appcache.status) {
-      case '':
+      case 'initializing':
         msg = 'Cache is being initialized';
         break;
       case 'error':
@@ -61,7 +61,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
         //msg = 'An update is ready';
         $window.applicationCache.swapCache();
         $window.location.reload();
-        //$rootScope.appcache.status = ''; // TODO: FF needs this... why?
+        //$rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
         break;
       default: // shouldn't happen
         msg = 'Cache is in unknown state "' + $rootScope.appcache.status + '"';

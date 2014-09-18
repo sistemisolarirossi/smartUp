@@ -15,48 +15,32 @@
 
   <!-- TODO: appcache in main.css (img width: 9) -->
   <span class="appcache">
-    <span ng-show="appcache.status === ''">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-black.png" width="9" ng-attr-title="Cache status is 'initializing'" />
-      </button>
+    <span ng-show="appcache.status === 'initializing'">
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:black" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'error'">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-red.png" width="9" ng-attr-title="Cache status is '{{appcache.status}}'" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:red" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'cached'">
       <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:green" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'checking'">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-cyan.png" width="9" ng-attr-title="Cache status is '{{appcache.status}}'" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:cyan" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'downloading'">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-orange.png" width="9" ng-attr-title="Cache status is '{{appcache.status}}'" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:orange" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'noupdate'">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-purple.png" width="9" ng-attr-title="Cache status is '{{appcache.status}}'" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:purple" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'obsolete'">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-gray.png" width="9" ng-attr-title="Cache status is '{{appcache.status}}'" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:gray" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'progress'">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-yellow.png" width="10" ng-attr-title="Cache status is '{{appcache.status}}'" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:yellow" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'updateready'">
-      <button class="btn btn-default btn-xs" really-message="An update is ready: do you want to load it now?" really-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'">
-        <img src="icons/round-button-blue.png" width="10" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:blue" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
   </span>
 
