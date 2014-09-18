@@ -29,15 +29,19 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     console.log('changed appcache status to ' + $scope.appcache.status);
   }, true);
   
-  $scope.appcacheUpdate = function () {
-    console.info('appcacheUpdate()');
+  $scope.appcacheStatus = function () {
+    console.info('appcacheStatus()');
     var msg;
     switch ($rootScope.appcache.status) {
       case 'initializing':
         msg = 'Cache is being initialized';
         break;
       case 'error':
-        msg = 'Cache is not updated (probably the manifest is unreachable)';
+        if ($scope.online) {
+          msg = 'Cache is not updated (probably the manifest is unreachable)';
+        } else {
+          msg = 'Cache is not updated because you are offline';
+        }
         break;
       case 'cached':
         msg = 'Cache is up-to-date';
@@ -58,18 +62,20 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
         msg = 'Downloading an update';
         break;
       case 'updateready':
-        //msg = 'An update is ready';
+        msg = 'An update is ready';
         $window.applicationCache.swapCache();
         $window.location.reload();
-        //$rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
+        $rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
         break;
       default: // shouldn't happen
         msg = 'Cache is in unknown state "' + $rootScope.appcache.status + '"';
         break;
     }
-    if (msg) {
-      toastr.info(msg);
-    }
+    toastr.info(msg);
+  };
+
+  $scope.appcacheUpdate = function () {
+    console.info('appcacheUpdate()');
   };
 
   $scope.register = function (valid) {

@@ -445,7 +445,7 @@ module.exports = function (grunt) {
         options: {
           basePath: '<%= yeoman.app %>',
           network: [ '*' ], // [ 'http://*', 'https://*' ],
-          fallback: ['/ offline.html'],
+          //fallback: ['/ offline.html'],
           exclude: [],
           preferOnline: true,
           timestamp: true,
@@ -465,7 +465,7 @@ module.exports = function (grunt) {
         options: {
           basePath: '<%= yeoman.dist %>',
           network: [ '*' ], // [ 'http://*', 'https://*' ],
-          fallback: ['/ offline.html'],
+          //fallback: ['/ offline.html'],
           exclude: [],
           preferOnline: true,
           timestamp: true,

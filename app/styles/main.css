@@ -15,6 +15,10 @@ a, a:hover {
   text-decoration: none !important;
 }
 
+.offline {
+   background: url(../icons/noise.jpg);
+}
+
 /* to allow browser's address bar to hide on mobiles...
 body { min-height: 640px; }  
 body[orient="portrait"] { min-height: 640px; }
