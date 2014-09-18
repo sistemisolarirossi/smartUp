@@ -12,17 +12,20 @@ html, body {
 }
 
 /* to hide addressbar on mobiles */
+/* TODO: only if mobile... */
 body { min-height:540px; }     
 body[orient="portrait"] { min-height:540px; }
 body[orient="landscape"] { min-height:400px; }
+/* ************************************************ */
+
+/* offlline style */
+.offline {
+  background: url(../icons/noise.jpg);
+}
 
 a, a:hover {
   outline: 0 !important;
   text-decoration: none !important;
-}
-
-.offline {
-  background: url(../icons/noise.jpg);
 }
 
 /* to allow browser's address bar to hide on mobiles...
