@@ -34,6 +34,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     if ($rootScope.appcache.status === 'updateready') { 
       $window.applicationCache.swapCache();
       $window.location.reload();
+      $rootScope.appcache.status = '';
     } else {
       toastr.info('Cache status is "' + $rootScope.appcache.status + '"');
     }
