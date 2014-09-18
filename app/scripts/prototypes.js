@@ -79,8 +79,8 @@ setInterval(function () { cache.update(); }, 5000);
 
 /* hide address bar on mobile */
 function hideAddressBar() {
-  if (document.documentElement.scrollHeight<window.outerHeight / window.devicePixelRatio) {
-    document.documentElement.style.height = (window.outerHeight / window.devicePixelRatio) + 'px';
+  if (document.documentElement.scrollHeight < ((window.outerHeight + 60) / window.devicePixelRatio)) {
+    document.documentElement.style.height = ((window.outerHeight + 60) / window.devicePixelRatio) + 'px';
   }
   setTimeout(window.scrollTo(1, 1), 0);
 }
