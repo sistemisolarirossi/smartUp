@@ -13,9 +13,11 @@ html, body {
 
 /* to hide addressbar on mobiles */
 /* TODO: only if mobile... */
+/*
 body { min-height:540px; }     
 body[orient="portrait"] { min-height:540px; }
 body[orient="landscape"] { min-height:400px; }
+*/
 /* ************************************************ */
 
 /* offlline style */
