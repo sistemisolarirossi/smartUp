@@ -428,29 +428,6 @@ module.exports = function (grunt) {
 */
 
     manifest: {
-      local: {
-        generate: {
-          options: {
-            basePath: '<%= yeoman.app %>',
-            network: [ '*' ], // [ 'http://*', 'https://*' ],
-            fallback: ['/ offline.html'],
-            exclude: [],
-            preferOnline: true,
-            timestamp: true,
-            verbose: true
-          },
-          src: [
-            'scripts/**/*.js',
-            'views/*.html',
-            'styles/**/*.css',
-            'icons/**/*',
-            'fonts/**/*.css',
-            '*.html',
-          ],
-          dest: '<%= yeoman.app %>/manifest.appcache'
-        },
-      },
-      dist: {
         generate: {
           options: {
             basePath: '<%= yeoman.dist %>',
@@ -471,7 +448,6 @@ module.exports = function (grunt) {
           ],
           dest: '<%= yeoman.dist %>/manifest.appcache'
         },
-      },
     },
 
     exec: {
