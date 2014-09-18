@@ -32,11 +32,44 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.appcacheUpdate = function () {
     console.info('appcacheUpdate()');
     if ($rootScope.appcache.status === 'updateready') { 
-      $window.applicationCache.swapCache();
-      $window.location.reload();
-      $rootScope.appcache.status = '';
     } else {
-      toastr.info('Cache status is "' + $rootScope.appcache.status + '"');
+      var msg;
+      switch ($rootScope.appcache.status) {
+        case '':
+          msg = 'Cache is being initialized';
+          break;
+        case 'error':
+          msg = 'Cache is not updated (probably the manifest is unreachable)';
+          break;
+        case 'cached':
+          msg = 'Cache is up-to-date';
+          break;
+        case 'checking':
+          msg = 'Checking for the presence of an update';
+          break;
+        case 'downloading':
+          msg = 'Preparing the downloading an update';
+          break;
+        case 'noupdate':
+          msg = 'No update is present';
+          break;
+        case 'obsolete':
+          msg = 'Cache is obsolete';
+          break;
+        case 'progress':
+          msg = 'Downloading an update';
+          break;
+        case 'updateready':
+          //msg = 'An update is ready';
+          $window.applicationCache.swapCache();
+          $window.location.reload();
+          $rootScope.appcache.status = ''; // TODO: FF needs this... why?
+          break;
+        default: // shouldn't happen
+          msg = 'Cache is in unknown state "' + $rootScope.appcache.status + '"';
+          break;
+      }
+      toastr.info(msg);
     }
   };
 
