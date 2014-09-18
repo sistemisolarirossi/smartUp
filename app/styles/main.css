@@ -41,10 +41,10 @@ body[orient="landscape"] { min-height: 360px; }
 }
 .btn-xxs,
 .btn-group-xxs > .btn {
-  padding: 1px 4px;
-  font-size: 10px;
-  line-height: 1.2;
-  border-radius: 2px;
+  padding: 3px 4px 0px 4px;
+  font-size: 11px;
+  line-height: 1.1;
+  border-radius: 3px;
 }
 .url {
   font-size: 90%;

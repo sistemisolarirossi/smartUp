@@ -17,7 +17,7 @@
   <span class="appcache">
     <span ng-show="appcache.status === ''">
       <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-empty.png" width="9" ng-attr-title="Cache status is 'initializing'" />
+        <img src="icons/round-button-black.png" width="9" ng-attr-title="Cache status is 'initializing'" />
       </button>
     </span>
     <span ng-show="appcache.status === 'error'">
@@ -26,9 +26,7 @@
       </button>
     </span>
     <span ng-show="appcache.status === 'cached'">
-      <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">
-        <img src="icons/round-button-green.png" width="9" ng-attr-title="Cache status is '{{appcache.status}}'" />
-      </button>
+      <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:green" ng-click="appcacheUpdate()" ng-attr-title="Cache status is '{{appcache.status}}'"></button>
     </span>
     <span ng-show="appcache.status === 'checking'">
       <button class="btn btn-default btn-xxs" ng-click="appcacheUpdate()">

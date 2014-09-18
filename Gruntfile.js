@@ -428,26 +428,46 @@ module.exports = function (grunt) {
 */
 
     manifest: {
-        generate: {
-          options: {
-            basePath: '<%= yeoman.dist %>',
-            network: [ '*' ], // [ 'http://*', 'https://*' ],
-            fallback: ['/ offline.html'],
-            exclude: [],
-            preferOnline: true,
-            timestamp: true,
-            verbose: true
-          },
-          src: [
-            'scripts/**/*.js',
-            'views/*.html',
-            'styles/**/*.css',
-            'icons/**/*',
-            'fonts/**/*.css',
-            '*.html',
-          ],
-          dest: '<%= yeoman.dist %>/manifest.appcache'
+      generate: {
+        options: {
+          basePath: '<%= yeoman.app %>',
+          network: [ '*' ], // [ 'http://*', 'https://*' ],
+          fallback: ['/ offline.html'],
+          exclude: [],
+          preferOnline: true,
+          timestamp: true,
+          verbose: true
         },
+        src: [
+          'scripts/**/*.js',
+          'views/*.html',
+          'styles/**/*.css',
+          'icons/**/*',
+          'fonts/**/*.css',
+          '*.html',
+        ],
+        dest: '<%= yeoman.app %>/manifest.appcache'
+      },
+      dist: {
+        options: {
+          basePath: '<%= yeoman.dist %>',
+          network: [ '*' ], // [ 'http://*', 'https://*' ],
+          fallback: ['/ offline.html'],
+          exclude: [],
+          preferOnline: true,
+          timestamp: true,
+          verbose: true
+        },
+        src: [
+          'scripts/**/*.js',
+          'views/*.html',
+          'styles/**/*.css',
+          'icons/**/*',
+          'fonts/**/*.css',
+          '*.html',
+        ],
+        dest: '<%= yeoman.dist %>/manifest.appcache'
+      },
     },
 
     exec: {
@@ -470,7 +490,7 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
-      //'manifest:local',
+      'manifest:generate',
       'clean:server',
       'wiredep',
       'concurrent:server',
@@ -511,8 +531,7 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin',
-    //'manifest:dist'
-    'manifest'
+    'manifest:dist'
   ]);
 
   grunt.registerTask('default', [
