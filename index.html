@@ -1,58 +1,8 @@
-<!DOCTYPE html>
-<html manifest="manifest.appcache" class="no-js">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <title>SmartUp</title>
-    <meta name="description" content="Small Business web app">
-    <meta name="viewport" content="width=device-width">
-    <meta name="mobile-web-app-capable" value="yes">
-    <meta name="msapplication-square70x70logo" content="icons/windows-tile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="icons/windows-tile-150x150.png">
-    <meta name="msapplication-square310x310logo" content="icons/windows-tile-310x310.png">
-    <meta name="msapplication-TileImage" content="icons/windows-tile-144x144.png">
-    <meta name="msapplication-TileColor" content="#782222">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="icons/apple-touch-icon-152x152-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icons/apple-touch-icon-120x120-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="icons/apple-touch-icon-76x76-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="icons/apple-touch-icon-60x60-precomposed.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-touch-icon.png">
-    <link rel="icon" sizes="196x196" href="icons/homescreen-196x196.png">
-    <link rel="shortcut icon" href="icons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="64x64" href="icons/favicon.png">
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="bower_components/toastr/toastr.css" />
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="bower_components/bootstrap-social/bootstrap-social.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/fonts/OpenSans.css">
-    <!-- endbuild -->
-  </head>
-  <body ng-app="smartUpApp">
-    <!-- [if lt IE 7]>
+<!DOCTYPE html> <html manifest="manifest.appcache" class="no-js"> <head> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta charset="utf-8"> <title>SmartUp</title> <meta name="description" content="Small Business web app"> <meta name="viewport" content="width=device-width"> <meta name="mobile-web-app-capable" value="yes"> <meta name="msapplication-square70x70logo" content="icons/windows-tile-70x70.png"> <meta name="msapplication-square150x150logo" content="icons/windows-tile-150x150.png"> <meta name="msapplication-square310x310logo" content="icons/windows-tile-310x310.png"> <meta name="msapplication-TileImage" content="icons/windows-tile-144x144.png"> <meta name="msapplication-TileColor" content="#782222"> <link rel="apple-touch-icon-precomposed" sizes="152x152" href="icons/apple-touch-icon-152x152-precomposed.png"> <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icons/apple-touch-icon-120x120-precomposed.png"> <link rel="apple-touch-icon-precomposed" sizes="76x76" href="icons/apple-touch-icon-76x76-precomposed.png"> <link rel="apple-touch-icon-precomposed" sizes="60x60" href="icons/apple-touch-icon-60x60-precomposed.png"> <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-touch-icon-144x144.png"> <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png"> <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png"> <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-touch-icon.png"> <link rel="icon" sizes="196x196" href="icons/homescreen-196x196.png"> <link rel="shortcut icon" href="icons/favicon.ico"> <link rel="icon" type="image/png" sizes="64x64" href="icons/favicon.png"> <link rel="stylesheet" href="styles/vendor.d684320e.css"> <link rel="stylesheet" href="styles/main.1b9e18ab.css">  <body ng-app="smartUpApp"> <!-- [if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser (< IE7). Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif] -->
-    <!--[if lt IE 9]>
+    <![endif] --> <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser (< IE9). Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <!-- application content -->
-    <div ng-include="'views/nav.html'"></div>
-    <div class="container">
-      <div ng-view=""></div>
-      <div ng-include="'views/footer.html'"></div>
-    </div><!-- /.container -->
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <!--
+    <![endif]--> <!-- application content --> <div ng-include="'views/nav.html'"></div> <div class="container"> <div ng-view=""></div> <div ng-include="'views/footer.html'"></div> </div><!-- /.container --> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <!--
      <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -62,66 +12,6 @@
        ga('create', 'UA-XXXXX-X');
        ga('send', 'pageview');
     </script>
-    -->
-
-    <!-- build:js(.) scripts/oldieshim.js -->
-    <!--[if lt IE 9]>
-    <script src="bower_components/es5-shim/es5-shim.js"></script>
-    <script src="bower_components/json3/lib/json3.min.js"></script>
-    <![endif]-->
-    <!-- endbuild -->
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/json3/lib/json3.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/firebase/firebase.js"></script>
-    <script src="bower_components/firebase-simple-login/firebase-simple-login.js"></script>
-    <script src="bower_components/angularfire/angularfire.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <script src="bower_components/toastr/toastr.js"></script>
-    <script src="bower_components/ngAutocomplete/src/ngAutocomplete.js"></script>
-    <script src="bower_components/angular-md5/angular-md5.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- build:js({.tmp,app}) scripts/scripts.js -->
-    <script src="scripts/app.js"></script>
-    <script src="scripts/version.js"></script>
-    <script src="scripts/prototypes.js"></script>
-    <script src="scripts/controllers/home.js"></script>
-    <script src="scripts/controllers/auth.js"></script>
-    <script src="scripts/controllers/orders.js"></script>
-    <script src="scripts/controllers/customers.js"></script>
-    <script src="scripts/controllers/serviceReports.js"></script>
-    <script src="scripts/controllers/contacts.js"></script>
-    <script src="scripts/controllers/about.js"></script>
-    <script src="scripts/controllers/orderview.js"></script>
-    <script src="scripts/controllers/users.js"></script>
-    <script src="scripts/controllers/modalInstance.js"></script>
-    <script src="scripts/services/auth.js"></script>
-    <script src="scripts/services/order.js"></script>
-    <script src="scripts/services/customer.js"></script>
-    <script src="scripts/services/serviceReport.js"></script>
-    <script src="scripts/services/user.js"></script>
-    <script src="scripts/services/toaster.js"></script>
-    <script src="scripts/services/dateTime.js"></script>
-    <script src="scripts/directives/navCollapse.js"></script>
-    <script src="scripts/directives/autoFillSync.js"></script>
-    <script src="scripts/directives/autoFocus.js"></script>
-    <script src="scripts/directives/equals.js"></script>
-    <script src="scripts/directives/reallyClick.js"></script>
-    <script src="scripts/directives/validations.js"></script>
-    <script src="scripts/directives/keypresses.js"></script>
-    <script src="scripts/directives/dom.js"></script>
-    <script src="scripts/filters/url.js"></script>
-    <script src="scripts/filters/searchServiceReport.js"></script>
-    <!-- endbuild -->
-
-    <script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false" type="text/javascript"></script>
-  </body>
-</html>
+    --> <!--[if lt IE 9]>
+    <script src="scripts/oldieshim.ff90b0fb.js"></script>
+    <![endif]--> <script src="scripts/vendor.9f80460b.js"></script> <script src="scripts/scripts.39318145.js"></script> <script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false" type="text/javascript"></script>  
