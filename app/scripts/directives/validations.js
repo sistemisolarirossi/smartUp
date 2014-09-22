@@ -22,6 +22,76 @@ function formatDuration(text) {
   return value;
 }
 
+// custom submit directive (TODO: review name 'rcSubmit'...)
+app.directive('rcSubmit', function($parse) {
+  return {
+    restrict: 'A',
+    require: ['rcSubmit', '?form'],
+    /* jshint unused: vars */
+    controller: function ($scope) {
+      console.info('rcSubmit() - controller');
+      this.attempted = false;
+      
+      var formController = null;
+      
+      this.setAttempted = function() {
+        this.attempted = true;
+      };
+      
+      this.setFormController = function(controller) {
+        formController = controller;
+      };
+      
+      this.needsAttention = function (fieldModelController) {
+        if (!formController) {
+          return false;
+        }
+        if (fieldModelController) {
+          return fieldModelController.$invalid && (fieldModelController.$dirty || this.attempted);
+        } else {
+          return formController && formController.$invalid && (formController.$dirty || this.attempted);
+        }
+      };
+    },
+    /* jshint unused: vars */
+    compile: function(cElement, cAttributes, transclude) {
+      console.info('rcSubmit() - compile');
+      return {
+        pre: function(scope, formElement, attributes, controllers) {
+          
+          var submitController = controllers[0];
+          var formController = (controllers.length > 1) ? controllers[1] : null;
+          
+          submitController.setFormController(formController);
+          
+          scope.rc = scope.rc || {};
+          scope.rc[attributes.name] = submitController;
+        },
+        post: function(scope, formElement, attributes, controllers) {
+          
+          var submitController = controllers[0];
+          var formController = (controllers.length > 1) ? controllers[1] : null;
+          var fn = $parse(attributes.rcSubmit);
+          
+          formElement.bind('submit', function (event) {
+            submitController.setAttempted();
+            if (!scope.$$phase) {
+              scope.$apply();
+            }
+            if (!formController.$valid) {
+              return false;
+            }
+            scope.$apply(function() {
+              fn(scope, {$event:event});
+            });
+          });
+        }
+      };
+    }
+  };
+});
+
+/*
 // TODO: don't use it, use ng-required
 app.directive('checkNotEmpty', function() {
   return {
@@ -40,6 +110,7 @@ app.directive('checkNotEmpty', function() {
     }
   };
 });
+*/
 
 app.directive('checkUserName', function(User) {
   return {
@@ -144,14 +215,17 @@ app.directive('checkCustomerName', function(Customer) {
           var current = attrs.customerId;
           var exists = Customer.findByName(viewValue);
           if (exists && exists !== current) { // customer name exists
+            console.log('checkCustomerName(): customer name is taken');
             model.$setValidity('taken', false);
             model.$setValidity('invalid', true);
           } else { // customer name does not exist
+            console.log('checkCustomerName(): customer name OK');
             model.$setValidity('taken', true);
             model.$setValidity('invalid', true);
             retval = viewValue;
           }
         } else { // customer name is not valid
+          console.log('checkCustomerName(): customer name is not valid');
           model.$setValidity('taken', true);
           model.$setValidity('invalid', false);
         }

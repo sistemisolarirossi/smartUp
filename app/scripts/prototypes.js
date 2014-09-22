@@ -1,5 +1,5 @@
-'use strict';
-
+//'use strict';
+/*
 ////////////////////////////////////////////////////////////////////////////////////
 // onbeforeprint / onafterprint compatibility stub
 ////////////////////////////////////////////////////////////////////////////////////
@@ -22,11 +22,12 @@ if (window.matchMedia) {
 window.onbeforeprint = beforePrint;
 window.onafterprint = afterPrint;
 ////////////////////////////////////////////////////////////////////////////////////
+*/
 
+/*
 ////////////////////////////////////////////////////////////////////////////////////
 // appcache debug
 ////////////////////////////////////////////////////////////////////////////////////
-/*
 var cacheStatusValues = [];
 cacheStatusValues[0] = 'uncached';
 cacheStatusValues[1] = 'idle';
@@ -74,10 +75,11 @@ window.applicationCache.addEventListener(
 );
 
 setInterval(function () { cache.update(); }, 5000);
-*/
 ////////////////////////////////////////////////////////////////////////////////////
+*/
 
-/* hide address bar on mobile */
+/*
+// hide address bar on mobile (TODO: must be further investigated...)
 function hideAddressBar() {
   if (document.documentElement.scrollHeight < ((window.outerHeight + 60) / window.devicePixelRatio)) {
     document.documentElement.style.height = ((window.outerHeight + 60) / window.devicePixelRatio) + 'px';
@@ -86,3 +88,4 @@ function hideAddressBar() {
 }
 window.addEventListener('load', function() { hideAddressBar(); });
 window.addEventListener('orientationchange', function() { hideAddressBar(); });
+*/

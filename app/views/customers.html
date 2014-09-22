@@ -22,6 +22,108 @@
       </div>
     </form>
 
+<form name="userForm">
+  <div class="field">
+    <label for="emailAddress">Enter your email address:</label>
+    <input type="email" name="emailAddress" ng-model="data.email" required />
+
+    <div ng-messages="userForm.emailAddress.$error">
+      <div ng-message="required">
+        You forgot to enter your email address...
+      </div>
+      <div ng-message="email">
+        You did not enter your email address correctly...
+      </div>
+    </div>
+  </div>
+
+  <input type="submit" />
+</form>
+
+<style>
+.help-block-small {
+  font-style: italic;
+  font-size: 70%;
+  margin: 0 0 0 1.0em;
+}
+</style>
+<form name="formAddEditNew" NEWng-show="addMode || editMode" novalidate ng-submit="submitCustomerNew()" class="customer form-horizontal">
+  <div class="row" title="Customer name">
+    <div class="col-xs-6 col-sm-2 col-lg-2">
+      <div class="form-group"
+     NOng-class="{'has-error': formAddEditNew.needsAttention(formAddEditNew.customername)}"
+       ng-class="{'has-error': formAddEditNew.customername.$dirty &&
+        formAddEditNew.customername.$error.required ||
+        formAddEditNew.customername.$error.invalid ||
+        formAddEditNew.customername.$error.taken
+                 }">
+        <div class="input-group">
+          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+          <input type="text" name="customername" class="form-control" ng-model="customer.name" placeholder="Customer name" autofocus="addMode || editMode" autocomplete="off" required check-customer-name customer-id="{{customer.$id}}" key-escape="cancelCustomer()" />
+        </div>
+        $error:{{ formAddEditNew.customername.$error }}
+        <div ng-messages="formAddEditNew.customername.$error" class="help-block help-block-small">
+          <div ng-message="required">This field is required</div>
+          <div ng-message="invalid">This name is not valid</div>
+          <div ng-message="taken">This name is already in use</div>
+        </div>
+<!--
+          <input type="text" name="username" class="form-control" ng-model="session.username" placeholder="Username" required />
+          <span class="help-block" 
+           ng-show="formAddEditNew.username.$error.required">This field is required</span>
+-->
+      </div>
+    </div>
+  </div>
+  <div class="customer row no-print" style="margin-top: 1.0em;">
+    <div class="col">
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" NOng-click="submitCustomerNew()">
+          <i class="glyphicon glyphicon-save"></i>&nbsp;Save
+        </button>
+        &emsp;
+        <button type="text" class="btn btn-default" ng-click="cancelCustomer()">
+          <i class="glyphicon glyphicon-remove"></i>&nbsp;cancel
+        </button>
+      </div>
+    </div>
+  </div>
+<!--
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary pull-right" 
+      value="Submit" title="Submit">
+      <span>Submit</span>
+    </button>
+  </div>
+-->
+</form>
+<!--
+<form name="formAddEdit" ng-show="addMode || editMode" novalidate class="customer form-horizontal">
+  <div class="row" title="Customer name">
+    <div class="col-xs-6 col-sm-2 col-lg-2">
+      <div class="input-group">
+        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+        <input type="text" name="name" class="form-control" ng-model="customer.name" placeholder="Name" autofocus="addMode || editMode" autocomplete="off" ng-required NOcheck-not-empty check-customer-name customer-id="{{customer.$id}}" key-escape="cancelCustomer()" />
+      </div>
+    </div>
+    <div class="col-xs-1 small" ng-show="formAddEdit.name.$error.required">
+      <span class="glyphicon glyphicon-ok checkmark checkmark-ok"></span>
+    </div>
+    <div class="error-container" ng-show="formAddEdit.name.$invalid && formAddEditSubmitted">
+      <small class="error" ng-show="formAddEdit.name.$error.required">
+        A customer name is required
+      </small>
+      <small class="error" ng-show="formAddEdit.name.$error.invalid">
+        Customer name is not valid
+      </small>
+      <small class="error" ng-show="formAddEdit.name.$error.taken">
+        This customer name is already present
+      </small>
+    </div>
+  </div>
+</form>
+-->
+
     <div ng-hide="printMode || addMode || editMode" class="scrollable" spring="footer">
       <table ng-table="tableParams" class="table">
         <tr>

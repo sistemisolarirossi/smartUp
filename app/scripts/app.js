@@ -44,6 +44,7 @@ app.constant('CFG', {
   },
 /* ********************* */
   SYSTEM_EMAIL:         'sistemisolarirossi@gmail.com',
+  APPCACHE:             false,
   DEBUG:                true
 });
 
@@ -177,12 +178,10 @@ app.run(['$templateCache', function($templateCache) {
 }]);
 
 /**
- * Watch for on/off-line status
+ * Watch for on/off-line status 
  */
 app.run(function($window, $rootScope) {
   $rootScope.online = navigator.onLine;
-  $rootScope.appcache = {};
-  $rootScope.appcache.status = 'initializing';
   $window.addEventListener('offline', function () {
     console.info('************* GONE OFFLINE *************');
     $rootScope.$apply(function() {
@@ -195,85 +194,101 @@ app.run(function($window, $rootScope) {
       $rootScope.online = true;
     });
   }, false);
+});
 
-  $window.applicationCache.addEventListener('error', function (error) {
-    //if ($rootScope.online) {
-      //console.info('Error fetching manifest: a good chance we are offline', error);
-      //console.info('************* PROBABLY GONE OFFLINE *************');
+/**
+ * Watch for app-cache status 
+ */
+app.run(function($window, $rootScope, CFG) {
+  if (CFG.APPCACHE) {
+    $rootScope.appcache = {};
+    $rootScope.appcache.status = 'initializing';
+  
+    $window.applicationCache.addEventListener('error', function (error) {
+      //if ($rootScope.online) {
+        //console.info('Error fetching manifest: a good chance we are offline', error);
+        //console.info('************* PROBABLY GONE OFFLINE *************');
+        $rootScope.$apply(function() {
+          //$rootScope.online = false;
+          $rootScope.appcache.status = 'error';
+          console.info('% appcache status: ' + $rootScope.appcache.status + ' %', error);
+        });
+      //} else {
+      //  // we are already offline, ignore errors...
+      //}
+    }, false);
+  
+    $window.applicationCache.addEventListener('cached', function () {
       $rootScope.$apply(function() {
-        //$rootScope.online = false;
-        $rootScope.appcache.status = 'error';
-        console.info('% appcache status: ' + $rootScope.appcache.status + ' %', error);
+        $rootScope.appcache.status = 'cached';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
-    //} else {
-    //  // we are already offline, ignore errors...
-    //}
-  }, false);
+    }, false);
+  
+    $window.applicationCache.addEventListener('checking', function () {
+      $rootScope.$apply(function() {
+        $rootScope.appcache.status = 'checking';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+      });
+    }, false);
+  
+    $window.applicationCache.addEventListener('downloading', function () {
+      $rootScope.$apply(function() {
+        $rootScope.appcache.status = 'downloading';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+      });
+    }, false);
+  
+    $window.applicationCache.addEventListener('noupdate', function () {
+      $rootScope.$apply(function() {
+        $rootScope.appcache.status = 'cached';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+      });
+    }, false);
+  
+    $window.applicationCache.addEventListener('obsolete', function () {
+      $rootScope.$apply(function() {
+        $rootScope.appcache.status = 'cached';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+      });
+    }, false);
+  
+    $window.applicationCache.addEventListener('progress', function () {
+      $rootScope.$apply(function() {
+        $rootScope.appcache.status = 'progress';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+      });
+    }, false);
+  
+    $window.applicationCache.addEventListener('updateready', function () {
+      $rootScope.$apply(function() {
+        $rootScope.appcache.status = 'updateready';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
+      });
+    }, false);
+  }
+});
 
-  $window.applicationCache.addEventListener('cached', function () {
-    $rootScope.$apply(function() {
-      $rootScope.appcache.status = 'cached';
-      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
-    });
-  }, false);
-
-  $window.applicationCache.addEventListener('checking', function () {
-    $rootScope.$apply(function() {
-      $rootScope.appcache.status = 'checking';
-      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
-    });
-  }, false);
-
-  $window.applicationCache.addEventListener('downloading', function () {
-    $rootScope.$apply(function() {
-      $rootScope.appcache.status = 'downloading';
-      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
-    });
-  }, false);
-
-  $window.applicationCache.addEventListener('noupdate', function () {
-    $rootScope.$apply(function() {
-      $rootScope.appcache.status = 'cached';
-      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
-    });
-  }, false);
-
-  $window.applicationCache.addEventListener('obsolete', function () {
-    $rootScope.$apply(function() {
-      $rootScope.appcache.status = 'cached';
-      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
-    });
-  }, false);
-
-  $window.applicationCache.addEventListener('progress', function () {
-    $rootScope.$apply(function() {
-      $rootScope.appcache.status = 'progress';
-      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
-    });
-  }, false);
-
-  $window.applicationCache.addEventListener('updateready', function () {
-    $rootScope.$apply(function() {
-      $rootScope.appcache.status = 'updateready';
-      console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
-      // TODO: use something async to immediately update appcache.status color on view
-/*
-      if ($window.confirm('An update is ready. Press OK to use it now.')) {
-        $window.applicationCache.swapCache();
-        location.reload();
+/**
+ * onbeforeprint / onafterprint compatibility stub
+ */
+app.run(function($window) {
+  var beforePrint = function() {
+    console.log('Functionality to run before printing');
+  };
+  var afterPrint = function() {
+    console.log('Functionality to run after printing');
+  };
+  if ($window.matchMedia) {
+    var mediaQueryList = $window.matchMedia('print');
+    mediaQueryList.addListener(function(mql) {
+      if (mql.matches) {
+        beforePrint();
+      } else {
+        afterPrint();
       }
-*/
     });
-  }, false);
-
-/*
-cache.addEventListener('cached', logEvent, false);
-cache.addEventListener('checking', logEvent, false);
-cache.addEventListener('downloading', logEvent, false);
-cache.addEventListener('noupdate', logEvent, false);
-cache.addEventListener('obsolete', logEvent, false);
-cache.addEventListener('progress', logEvent, false);
-cache.addEventListener('updateready', logEvent, false);
-cache.addEventListener('error', logEvent, false);
-*/
+  }
+  $window.onbeforeprint = beforePrint;
+  $window.onafterprint = afterPrint;
 });

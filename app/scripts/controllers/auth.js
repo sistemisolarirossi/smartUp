@@ -21,58 +21,60 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     console.log('changed online status to ' + $scope.online);
   }, true);
 
-  // watch rootScope appcache status variable
-  $scope.$watch(function() {
-    return $rootScope.appcache;
-  }, function() {
-    $scope.appcache = $rootScope.appcache;
-    console.log('changed appcache status to ' + $scope.appcache.status);
-  }, true);
-  
-  $scope.appcacheStatus = function () {
-    console.info('appcacheStatus()');
-    var msg;
-    switch ($rootScope.appcache.status) {
-      case 'initializing':
-        msg = 'Cache is being initialized';
-        break;
-      case 'error':
-        if ($scope.online) {
-          msg = 'Cache is not updated (probably the manifest is unreachable)';
-        } else {
-          msg = 'Cache is not updated because you are offline';
-        }
-        break;
-      case 'cached':
-        msg = 'Cache is up-to-date';
-        break;
-      case 'checking':
-        msg = 'Checking for the presence of an update';
-        break;
-      case 'downloading':
-        msg = 'Preparing the downloading an update';
-        break;
-      case 'noupdate':
-        msg = 'No update is present';
-        break;
-      case 'obsolete':
-        msg = 'Cache is obsolete';
-        break;
-      case 'progress':
-        msg = 'Downloading an update';
-        break;
-      case 'updateready':
-        msg = 'An update is ready';
-        $window.applicationCache.swapCache();
-        $window.location.reload();
-        $rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
-        break;
-      default: // shouldn't happen
-        msg = 'Cache is in unknown state "' + $rootScope.appcache.status + '"';
-        break;
-    }
-    toastr.info(msg);
-  };
+  if (CFG.APPCACHE) {
+    // watch rootScope appcache status variable
+    $scope.$watch(function() {
+      return $rootScope.appcache;
+    }, function() {
+      $scope.appcache = $rootScope.appcache;
+      console.log('changed appcache status to ' + $scope.appcache.status);
+    }, true);
+    
+    $scope.appcacheStatus = function () {
+      console.info('appcacheStatus()');
+      var msg;
+      switch ($rootScope.appcache.status) {
+        case 'initializing':
+          msg = 'Cache is being initialized';
+          break;
+        case 'error':
+          if ($scope.online) {
+            msg = 'Cache is not updated (probably the manifest is unreachable)';
+          } else {
+            msg = 'Cache is not updated because you are offline';
+          }
+          break;
+        case 'cached':
+          msg = 'Cache is up-to-date';
+          break;
+        case 'checking':
+          msg = 'Checking for the presence of an update';
+          break;
+        case 'downloading':
+          msg = 'Preparing the downloading an update';
+          break;
+        case 'noupdate':
+          msg = 'No update is present';
+          break;
+        case 'obsolete':
+          msg = 'Cache is obsolete';
+          break;
+        case 'progress':
+          msg = 'Downloading an update';
+          break;
+        case 'updateready':
+          msg = 'An update is ready';
+          $window.applicationCache.swapCache();
+          $window.location.reload();
+          $rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
+          break;
+        default: // shouldn't happen
+          msg = 'Cache is in unknown state "' + $rootScope.appcache.status + '"';
+          break;
+      }
+      toastr.info(msg);
+    };
+  }
 
   $scope.appcacheUpdate = function () {
     console.info('appcacheUpdate()');

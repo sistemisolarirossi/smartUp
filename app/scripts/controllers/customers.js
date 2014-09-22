@@ -33,6 +33,11 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
     $scope.autocompleteAddressDetails = '';
   };
 
+//$scope.session = {};
+$scope.submitCustomerNew = function () {
+  console.info('Submitting a validated form!');
+};
+
   $scope.submitCustomer = function (valid) {
     $scope.formAddEditSubmitted = true; // allow validation errors to be shown
     if (!valid) {
@@ -94,29 +99,29 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
         //console.info('currentUserCanRead - retval:', $rootScope.currentUser.roles.customers.read);
         return $rootScope.currentUser.roles.customers.read;
       } else {
-        //console.info('currentUserCanRead - returning FALSE (no customer roles on user)');
+        console.info('currentUserCanRead - returning FALSE - no customer roles on user', currentUser);
         return false;
       }
     }
-    //console.info('currentUserCanRead - returning FALSE');
+    console.info('currentUserCanRead - returning FALSE');
     return false;
   };
 
   $scope.currentUserCanWrite = function () {
-    console.info('currentUserCanWrite');
+    //console.info('currentUserCanWrite');
     if ($rootScope.currentUser) {
-      console.info('currentUserCanWrite - currentUser is set');
-      console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
+      //console.info('currentUserCanWrite - currentUser is set');
+      //console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
       if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.customers) {
-        console.info('currentUserCanWrite - currentUser.roles.write.customers:', $rootScope.currentUser.roles.customers.write);
-        console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.customers.write);
+        //console.info('currentUserCanWrite - currentUser.roles.write.customers:', $rootScope.currentUser.roles.customers.write);
+        //console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.customers.write);
         return $rootScope.currentUser.roles.customers.write;
       } else {
-        console.info('currentUserCanWrite - returning FALSE (no customers roles on user)');
+        //console.info('currentUserCanWrite - returning FALSE (no customers roles on user)');
         return false;
       }
     }
-    console.info('currentUserCanWrite - returning FALSE');
+    //console.info('currentUserCanWrite - returning FALSE');
     return false;
   };
 
