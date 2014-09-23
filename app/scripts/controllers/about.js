@@ -7,6 +7,6 @@
  * # AboutCtrl
  * Controller of the smartUpApp
  */
-app.controller('AboutCtrl', function (/*$scope, */$rootScope) {
+app.controller('AboutCtrl', function ($rootScope) {
   $rootScope.formLabel = 'About';
 });
