@@ -22,96 +22,6 @@ function formatDuration(text) {
   return value;
 }
 
-// custom submit directive (TODO: review name 'rcSubmit'...)
-app.directive('rcSubmit', function($parse) {
-  return {
-    restrict: 'A',
-    require: ['rcSubmit', '?form'],
-    /* jshint unused: vars */
-    controller: function ($scope) {
-      console.info('rcSubmit() - controller');
-      this.attempted = false;
-      
-      var formController = null;
-      
-      this.setAttempted = function() {
-        this.attempted = true;
-      };
-      
-      this.setFormController = function(controller) {
-        formController = controller;
-      };
-      
-      this.needsAttention = function (fieldModelController) {
-        if (!formController) {
-          return false;
-        }
-        if (fieldModelController) {
-          return fieldModelController.$invalid && (fieldModelController.$dirty || this.attempted);
-        } else {
-          return formController && formController.$invalid && (formController.$dirty || this.attempted);
-        }
-      };
-    },
-    /* jshint unused: vars */
-    compile: function(cElement, cAttributes, transclude) {
-      console.info('rcSubmit() - compile');
-      return {
-        pre: function(scope, formElement, attributes, controllers) {
-          
-          var submitController = controllers[0];
-          var formController = (controllers.length > 1) ? controllers[1] : null;
-          
-          submitController.setFormController(formController);
-          
-          scope.rc = scope.rc || {};
-          scope.rc[attributes.name] = submitController;
-        },
-        post: function(scope, formElement, attributes, controllers) {
-          
-          var submitController = controllers[0];
-          var formController = (controllers.length > 1) ? controllers[1] : null;
-          var fn = $parse(attributes.rcSubmit);
-          
-          formElement.bind('submit', function (event) {
-            submitController.setAttempted();
-            if (!scope.$$phase) {
-              scope.$apply();
-            }
-            if (!formController.$valid) {
-              return false;
-            }
-            scope.$apply(function() {
-              fn(scope, {$event:event});
-            });
-          });
-        }
-      };
-    }
-  };
-});
-
-/*
-// TODO: don't use it, use ng-required
-app.directive('checkNotEmpty', function() {
-  return {
-    require: 'ngModel',
-    link: function(scope, elm, attrs, model) {
-      var retval;
-      model.$parsers.unshift(function(viewValue) {
-        if (viewValue && viewValue !== '') {
-          model.$setValidity('notempty', true);
-          retval = viewValue;
-        } else { // customer name is not valid
-          model.$setValidity('notempty', false);
-        }
-        return retval;
-      });
-    }
-  };
-});
-*/
-
 app.directive('checkUserName', function(User) {
   return {
     require: 'ngModel',
@@ -122,27 +32,30 @@ app.directive('checkUserName', function(User) {
       var USERNAME_REGEXP = /^[^.$\[\]#\/\s]+$/;
       model.$parsers.unshift(function(viewValue) {
         var user;
+        var retval;
         if (viewValue) {
           user = User.findByUsername(viewValue);
           if (user) {
             console.warn('checkUserName directive FOUND User.findByUsername('+viewValue+'):', user);
           }
+        } else {
+          model.$setValidity('required', false);
+          retval = null;
         }
         if (USERNAME_REGEXP.test(viewValue)) {
           if (!user) {
             model.$setValidity('taken', true);
             model.$setValidity('invalid', true);
-            return viewValue;
+            retval = viewValue;
           } else {
             model.$setValidity('taken', false);
             model.$setValidity('invalid', true);
-            return undefined;
           }
         } else {
           model.$setValidity('taken', true);
           model.$setValidity('invalid', viewValue === '');
-          return undefined;
         }
+        return retval;
       });
       elm.bind('blur', function() {
         if (model.$viewValue) { // capitalize all words in value
@@ -163,6 +76,7 @@ app.directive('checkDuration', function() {
     link: function(scope, elm, attrs, model) {
       var POSITIVE_INTEGER_REGEXP = /^\d+$/;
       var DURATION_REGEXP = /^\d+[:.]\d+$/;
+      var retval;
       model.$parsers.unshift(function(viewValue) {
         var hh = -1;
         var mm = -1;
@@ -182,12 +96,12 @@ app.directive('checkDuration', function() {
         var m = (hh * 60) + mm;
         if (m > 0) { // it is valid, set it and return viewValue
           model.$setValidity('duration', true);
-          return viewValue;
+          retval = viewValue;
         } else {
           // it is invalid, return undefined (no model update)
           model.$setValidity('duration', false);
-          return undefined;
         }
+        return retval;
       });
       elm.bind('blur', function() {
         if (model.$viewValue) { // capitalize all words in value
@@ -208,26 +122,30 @@ app.directive('checkCustomerName', function(Customer) {
     },
     link: function(scope, elm, attrs, model) {
       //var CUSTOMERNAME_REGEXP = /^[^\[\]\{\}\/#]+$/; // TODO: find a better regexp...
-      var CUSTOMERNAME_REGEXP = /^([ \u00c0-\u01ffa-zA-Z'\-])+$/;
+      var CUSTOMERNAME_REGEXP = /^([ \u00c0-\u01ffa-zA-Z0-9\'\.\,\-\/\&])+$/;
       var retval;
       model.$parsers.unshift(function(viewValue) {
         if (CUSTOMERNAME_REGEXP.test(viewValue)) {
           var current = attrs.customerId;
           var exists = Customer.findByName(viewValue);
           if (exists && exists !== current) { // customer name exists
-            console.log('checkCustomerName(): customer name is taken');
+            //console.log('checkCustomerName(): customer name is taken');
             model.$setValidity('taken', false);
             model.$setValidity('invalid', true);
           } else { // customer name does not exist
-            console.log('checkCustomerName(): customer name OK');
+            //console.log('checkCustomerName(): customer name does not exist');
             model.$setValidity('taken', true);
             model.$setValidity('invalid', true);
             retval = viewValue;
           }
         } else { // customer name is not valid
-          console.log('checkCustomerName(): customer name is not valid');
+          //console.log('checkCustomerName(): customer name is not valid');
           model.$setValidity('taken', true);
           model.$setValidity('invalid', false);
+          if (!viewValue) {
+            model.$setValidity('required', false);
+            retval = viewValue;
+          }
         }
         return retval;
       });
@@ -249,14 +167,19 @@ app.directive('checkEmail', function() {
     },
     link: function(scope, elm, attrs, model) {
       var EMAIL_REGEXP = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+      var retval;
       model.$parsers.unshift(function(viewValue) {
         if (EMAIL_REGEXP.test(viewValue)) {
           model.$setValidity('invalid', true);
-          return viewValue;
+          retval = viewValue;
         } else {
           model.$setValidity('invalid', false);
-          return undefined;
+          if (!viewValue) {
+            model.$setValidity('required', false);
+            retval = viewValue;
+          }
         }
+        return retval;
       });
       elm.bind('blur', function() {
         if (model.$viewValue) { // lowercase value
@@ -272,15 +195,16 @@ app.directive('checkPassword', function() {
   return {
     require: 'ngModel',
     link: function(scope, elm, attrs, model) {
+      var retval;
       model.$parsers.unshift(function(viewValue) {
         // TODO: better check password strength
         if (viewValue.length >= 1/*8*/) { // TODO: reset to 8...
           model.$setValidity('invalid', true);
-          return viewValue;
+          retval = viewValue;
         } else {
           model.$setValidity('invalid', false);
-          return undefined;
         }
+        return retval;
       });
     }
   };
@@ -302,6 +226,10 @@ app.directive('checkPhone', function() {
           retval = viewValue;
         } else {
           model.$setValidity('invalid', false);
+        }
+        if (!viewValue) {
+          model.$setValidity('required', false);
+          retval = null;
         }
         return retval;
       });
@@ -337,8 +265,9 @@ app.directive('checkCfOrPiva', function() {
         var error = null;
         var retval;
         var valid, i, c, s;
+        //console.log('viewValue:', viewValue, viewValue.length);
         if (!viewValue || (viewValue.length !== CF_LENGTH && viewValue.length !== PIVA_LENGTH)) { // can't tell if this was a CF or PIVA
-          error = 'norCfNorPiva';
+          error = 'norcfnorpiva';
         } else {
           if (viewValue.length === CF_LENGTH) { // user is probably inserting a CF
             viewValue = viewValue.toUpperCase();
@@ -390,10 +319,14 @@ app.directive('checkCfOrPiva', function() {
             }
           }
         }
+        if (!viewValue) {
+          model.$setValidity('required', false);
+          retval = null;
+        }
         if (error) {
           model.$setValidity(error, false);
         } else {
-          model.$setValidity('norCfNorPiva', true);
+          model.$setValidity('norcfnorpiva', true);
           model.$setValidity('cfinvalidchar', true);
           model.$setValidity('cfcrcwrong', true);
           model.$setValidity('pivainvalidchar', true);

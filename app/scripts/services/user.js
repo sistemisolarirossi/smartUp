@@ -57,6 +57,14 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
           'customers': {
             'read': true,
             'write': true
+          },
+          'orders': {
+            'read': true,
+            'write': true
+          },
+          'servicereports': {
+            'read': true,
+            'write': true
           }
         };
       }

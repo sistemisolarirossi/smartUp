@@ -37,7 +37,7 @@
     <!--<link rel="stylesheet" href="styles/fonts/OpenSans.css">-->
     <!-- endbuild -->
   </head>
-  <body ng-app="smartUpApp">
+  <body ng-app="smartUpApp" ng-class="{ offline: !!!online }">
     <!-- [if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser (< IE7). Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif] -->
@@ -47,7 +47,7 @@
 
     <!-- application content -->
     <div ng-include="'views/nav.html'"></div>
-    <div ng-class="{ container: true, offline: !online }">
+    <div class="container">
       <div ng-view=""></div>
       <div ng-include="'views/footer.html'"></div>
     </div><!-- /.container -->
@@ -87,6 +87,7 @@
     <script src="bower_components/toastr/toastr.js"></script>
     <script src="bower_components/ngAutocomplete/src/ngAutocomplete.js"></script>
     <script src="bower_components/angular-md5/angular-md5.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

@@ -30,6 +30,7 @@ var app = angular.module('smartUpApp', [
   'ngSanitize',
   'ngRoute',
   'ngAutocomplete',
+  'ngMessages',
   'firebase',
   'ui.bootstrap',
   'angular-md5'

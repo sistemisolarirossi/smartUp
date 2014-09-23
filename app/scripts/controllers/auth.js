@@ -85,6 +85,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.$broadcast('autofillFix:update');
     $scope.formRegisterSubmitted = true; // allow validation errors to be shown
     if (!valid) {
+      console.error('not valid', valid);
       return;
     }
     console.info('controller - register - valid', $scope.user);

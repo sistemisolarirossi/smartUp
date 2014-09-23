@@ -30,19 +30,12 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
 
     $scope.autocompleteAddressResult = '';
     $scope.autocompleteAddressOptions = null;
-    $scope.autocompleteAddressDetails = '';
+    $scope.autocompleteAddressDetails = { country: 'en' };
   };
 
-//$scope.session = {};
-$scope.submitCustomerNew = function () {
-  console.info('Submitting a validated form!');
-};
-
-  $scope.submitCustomer = function (valid) {
+  $scope.submitCustomer = function () {
+    /* TODO: use custom validations server side (Firebase) */
     $scope.formAddEditSubmitted = true; // allow validation errors to be shown
-    if (!valid) {
-      return;
-    }
 
     $scope.customer.dateCreation = new Date(); // set customer creation date
 
@@ -99,7 +92,7 @@ $scope.submitCustomerNew = function () {
         //console.info('currentUserCanRead - retval:', $rootScope.currentUser.roles.customers.read);
         return $rootScope.currentUser.roles.customers.read;
       } else {
-        console.info('currentUserCanRead - returning FALSE - no customer roles on user', currentUser);
+        console.info('currentUserCanRead - returning FALSE - no customer roles on user', $rootScope.currentUser);
         return false;
       }
     }
@@ -117,7 +110,7 @@ $scope.submitCustomerNew = function () {
         //console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.customers.write);
         return $rootScope.currentUser.roles.customers.write;
       } else {
-        //console.info('currentUserCanWrite - returning FALSE (no customers roles on user)');
+        //console.info('currentUserCanWrite - returning FALSE (no customers roles on user)', $rootScope.currentUser);
         return false;
       }
     }
