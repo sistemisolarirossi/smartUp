@@ -494,7 +494,7 @@ module.exports = function (grunt) {
     /* jshint camelcase: true */
       pot: {
         files: {
-          'po/template.po': [ 'app/**/*.html', 'app/scripts/**/*.js' ]
+          'po/template.pot': [ 'app/**/*.html', 'app/scripts/**/*.js' ]
         }
       }
     },

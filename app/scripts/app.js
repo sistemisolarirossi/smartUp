@@ -34,7 +34,7 @@ var app = angular.module('smartUpApp', [
   'firebase',
   'ui.bootstrap',
   'angular-md5',
-  //'gettext',
+  'gettext',
   'tmh.dynamicLocale'
 ]); 
 

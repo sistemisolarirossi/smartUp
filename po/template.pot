@@ -6,11 +6,14 @@ msgstr ""
 #: app/views/about.html
 msgid ""
 "<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
-"      It allows the management of customers, orders and invoices.<br>\n"
-"      It is fast, small, modern and mobile.<br>"
+"      It allows the management of customers, orders and service reports.<br>\n"
+"      It is fast, compact, extensible, modern, international and mobile.<br>"
+msgstr ""
+
+#: app/scripts/controllers/about.js
+msgid "About"
 msgstr ""
 
 #: app/views/about.html
-#: app/scripts/controllers/about.js
 msgid "hello"
 msgstr ""
