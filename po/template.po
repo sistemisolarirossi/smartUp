@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: app/views/about.html
+msgid ""
+"<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
+"      It allows the management of customers, orders and invoices.<br>\n"
+"      It is fast, small, modern and mobile.<br>"
+msgstr ""
+
+#: app/views/about.html
+#: app/scripts/controllers/about.js
+msgid "hello"
+msgstr ""

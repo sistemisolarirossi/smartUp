@@ -46,6 +46,12 @@
 
   <span>&nbsp;</span>
 
+  <span class="i18n">
+    <img ng-src="icons/flags/{{currentLanguage}}.png" width="16" ng-attr-title="Current language is {{ supportedLanguages[currentLanguage].name }}" ng-click="nextLanguage(currentLanguage)" /></span>
+  </span>
+
+  <span>&nbsp;</span>
+
   <!-- TODO: is-online in main.css (img width: 16) -->
   <span class="is-online">
     <span ng-show="online"><img src="icons/online.png" width="18" title="You are online" /></span>

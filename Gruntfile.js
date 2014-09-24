@@ -171,7 +171,7 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the app
     wiredep: {
       options: {
-        cwd: '<%= yeoman.app %>'
+        cwd: '<%= yeoman.app %>',
       },
       app: {
         src: ['<%= yeoman.app %>/index.html'],
@@ -487,6 +487,26 @@ module.exports = function (grunt) {
       gitExportLastCommitVersion: {
         cmd: '( /bin/echo "/* exported lastBuildDate */"; /bin/echo -n "var lastBuildDate = \'"; date +"%Y-%m-%d %H:%M:%S" | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
       },
+    },
+
+    /* jshint camelcase: false */
+    nggettext_extract: {
+    /* jshint camelcase: true */
+      pot: {
+        files: {
+          'po/template.po': [ 'app/**/*.html', 'app/scripts/**/*.js' ]
+        }
+      }
+    },
+
+    /* jshint camelcase: false */
+    nggettext_compile: {
+    /* jshint camelcase: true */
+      all: {
+        files: {
+          'app/scripts/translations.js': ['po/*.po']
+        }
+      }
     }
 
   });
@@ -496,6 +516,7 @@ module.exports = function (grunt) {
 //grunt.loadNpmTasks("grunt-remove-logging");
   grunt.loadNpmTasks('grunt-manifest');
   grunt.loadNpmTasks('grunt-exec');
+  grunt.loadNpmTasks('grunt-angular-gettext');
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {

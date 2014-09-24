@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: smartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marco <marcosolari@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: de\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: app/views/about.html
+msgid "hello"
+msgstr "hallo"

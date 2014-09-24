@@ -49,19 +49,15 @@
 </nav>
 
 <div ng-controller="AuthCtrl" class="no-print">
-  <div ng-hide="signedIn()">
-    <div class="nav-alignleft">
-      <span class="nav-alignleft breadcrumb" ng-show="formLabel">
-        {{ formLabel }}
-      </span>
-    </div>
+  <div class="nav-alignleft">
+    <span class="nav-alignleft breadcrumb" ng-show="formLabel">
+      {{ formLabel }}
+    </span>
+  </div>
+  <div ng-show="!signedIn()">
+    <div class="pic-circular"></div> <!-- vertical space keeper -->
   </div>
   <div ng-show="signedIn()">
-    <div class="nav-alignleft">
-      <span class="nav-alignleft breadcrumb" ng-show="formLabel">
-        {{ formLabel }}
-      </span>
-    </div>
     <div class="nav-alignright">
       <span>
         <a href="#/users/{{ currentUser.username }}">
