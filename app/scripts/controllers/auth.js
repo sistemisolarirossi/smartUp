@@ -2,6 +2,7 @@
  
 app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettextCatalog, Auth, User) {
   $rootScope.formLabel = '';
+console.error('AuthCtrl ***************************************');
 
   if (Auth.signedIn()) {
     $location.path('/');
@@ -206,7 +207,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.getCurrentLanguageFlag = function () { return I18N.getCurrentLanguageFlag(); };
   $scope.getCurrentLanguageScript = function () { return I18N.getCurrentLanguageScript(); };
   $scope.setNextLanguage = function () { return I18N.setNextLanguage(); };
-  //$scope.today = $rootScope.today;
+  $rootScope.today1 = new Date();
 
   $scope.reset();
 

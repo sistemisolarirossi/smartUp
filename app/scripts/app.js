@@ -114,10 +114,10 @@ app.config(function (tmhDynamicLocaleProvider) {
  * Initialize app: rottscope, i18n, ...
  */
 app.run(function ($rootScope, CFG, I18N) {
-  I18N.setCurrentLanguage();
   $rootScope.appName = CFG.APP_NAME;
   $rootScope.appLogo = CFG.APP_LOGO;
-  //$rootScope.today = new Date();
+  $rootScope.today1 = new Date();
+  I18N.setCurrentLanguage();
 });
 
 /**

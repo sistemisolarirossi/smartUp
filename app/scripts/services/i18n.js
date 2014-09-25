@@ -2,10 +2,15 @@
  
 app.factory('I18N', function ($rootScope, $window, $route, CFG, gettextCatalog, tmhDynamicLocale) {
   var defaultLanguage = 'en';
+
+  $rootScope.$on('$localeChangeSuccess', function () { $route.reload(); });
+
   var I18N = {
+/*
     t: function(string) {
       return gettextCatalog.getString(string, null);
     },
+*/
     getSupportedLanguages: function() {
       return { /* supported Languages */
         en: {
@@ -54,7 +59,7 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettextCatalog, 
       return this.getSupportedLanguages()[this.getCurrentLanguage()].script;
     },
     setCurrentLanguage: function(language) {
-      //var previousLanguage = this.currentLanguage;
+      var previousLanguage = this.currentLanguage;
       if (language) {
         if (this.getSupportedLanguages()[language]) {
           this.currentLanguage = language;
@@ -75,13 +80,14 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettextCatalog, 
           }
         }
       }
-      //if (previousLanguage !== this.currentLanguage) {
+      if (previousLanguage !== this.currentLanguage) {
         console.info('language:', this.currentLanguage);
         gettextCatalog.debug = CFG.DEBUG;
         gettextCatalog.currentLanguage = this.currentLanguage;
+        //$rootScope.$on('$localeChangeSuccess', function () { $route.reload(); });
         tmhDynamicLocale.set(this.currentLanguage);
         $route.reload();
-      //}
+      }
       return this.currentLanguage;
     },
     setNextLanguage: function () {
@@ -101,6 +107,7 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettextCatalog, 
           break;
         }
       }
+      console.info('setNextLanguage:', nextLanguage);
       return this.setCurrentLanguage(nextLanguage);
     },
   };
