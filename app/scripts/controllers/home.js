@@ -7,8 +7,9 @@
  * # HomeCtrl
  * Controller of the smartUpApp
  */
-app.controller('HomeCtrl', function ($rootScope/*, $scope*/) {
+app.controller('HomeCtrl', function ($rootScope) {
   $rootScope.formLabel = '';
+//$rootScope.appName = CFG.APP_NAME;
 /*
   $scope.online = $rootScope.online;
 

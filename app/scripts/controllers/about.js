@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the smartUpApp
  */
-app.controller('AboutCtrl', function ($rootScope, gettextCatalog) {
-  $rootScope.formLabel = gettextCatalog.getString('About');
-  $rootScope.today = new Date();
+app.controller('AboutCtrl', function ($rootScope) {
+  $rootScope.formLabel = 'About';
+  $rootScope.today = new Date(); // TODO: WHY???
 });

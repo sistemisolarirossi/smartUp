@@ -10,22 +10,11 @@
  * Main module of the application.
  */
 var app = angular.module('smartUpApp', [
-  /*
-    // currently we don't need these modules
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngTouch',
-    
-    // in bower.json:
-    'dependencies": {
-      ...
-      'angular-resource": "1.2.16",
-      'angular-cookies": "1.2.16",
-      'angular-animate": "1.2.16",
-      'angular-touch": "1.2.16",
-      ...
-    },
+  /* currently we don't need these modules:
+    'ngAnimate', // bower.json: "angular-resource": "1.2.16",
+    'ngCookies', // bower.json: "angular-cookies": "1.2.16",
+    'ngResource', // bower.json: "angular-animate": "1.2.16",
+    'ngTouch', // bower.json: "angular-touch": "1.2.16",
   */
   'ngSanitize',
   'ngRoute',
@@ -39,25 +28,19 @@ var app = angular.module('smartUpApp', [
 ]); 
 
 app.constant('CFG', {
-  FIREBASE_URL:         'https://smartup.firebaseio.com/',
-/* TODO: REMOVE THESE... */
-/*
-  ROLES: {
-    ADMIN:              1,
-    EDIT_CUSTOMERS:     2
-  },
-*/
-/* ********************* */
-  SYSTEM_EMAIL:         'sistemisolarirossi@gmail.com',
-  APPCACHE:             false,
-  DEBUG:                true
+  APP_NAME:        'smartUp',
+  APP_LOGO:        'icons/logo.png',
+  FIREBASE_URL:    'https://smartup.firebaseio.com/',
+  SYSTEM_EMAIL:    'sistemisolarirossi@gmail.com',
+  APPCACHE:        true,
+  DEBUG:           true
 });
 
 app.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'views/home.html',
-      controller: 'AuthCtrl' // WITHOUT THIS lINE A HARD PAGE REFRESH LOOSES AUTH USER! ...
+      controller: 'AuthCtrl'
     })
     .when('/register', {
       templateUrl: 'views/register.html',
@@ -101,7 +84,7 @@ app.config(function ($routeProvider) {
     })
     .when('/users/:username', {
       templateUrl: 'views/users.html',
-    //templateUrl: 'views/profile.html',
+      //templateUrl: 'views/profile.html',
       controller: 'UsersCtrl'
     })
     .otherwise({
@@ -118,54 +101,29 @@ app.config(function (datepickerConfig, datepickerPopupConfig) {
 });
 
 /**
- * TmhDynamicLocaleProvider config
+ * Setup i18n (for dynamic reloading)
  */
 app.config(function (tmhDynamicLocaleProvider) {
-  tmhDynamicLocaleProvider.localeLocationPattern('scripts/i18n/angular-locale_{{locale}}.js');
+  var localeLocationPattern = 'scripts/i18n/angular-locale_{{locale}}.js';
+  tmhDynamicLocaleProvider.localeLocationPattern(localeLocationPattern);
 });
 
-/*
-app.config(function (ngQuickDateDefaultsProvider) {
-  return ngQuickDateDefaultsProvider.set({
-    closeButtonHtml: '<i class="glyphicon glyphicon-remove-circle"></i>',
-    buttonIconHtml: '<i class="glyphicon glyphicon-time"></i>&nbsp;',
-    nextLinkHtml: '<i class="glyphicon glyphicon-chevron-right"></i>',
-    prevLinkHtml: '<i class="glyphicon glyphicon-chevron-left"></i>'
-  });
-});
-*/
 
-/*
-  .config(function ($httpProvider) {
-    $httpProvider.responseInterceptors.push('myHttpInterceptor');
-    var spinnerFunction = function (data, headersGetter) {
-      // todo start the spinner here
-      $('#loading').show();
-      return data;
-    };
-    $httpProvider.defaults.transformRequest.push(spinnerFunction);
-  })
-  // register the interceptor as a service, intercepts ALL angular ajax http calls
-  .factory('myHttpInterceptor', function ($q, $window) {
-    return function (promise) {
-      return promise.then(function (response) {
-        // hide the spinner on success
-        $('#loading').hide();
-        return response;
-      }, function (response) {
-        // hide the spinner on error
-        $('#loading').hide();
-        return $q.reject(response);
-      });
-    };
-  })
-*/
+
+/**
+ * Initialize app: rottscope, i18n, ...
+ */
+app.run(function ($rootScope, CFG, I18N) {
+  I18N.setCurrentLanguage();
+  $rootScope.appName = CFG.APP_NAME;
+  $rootScope.appLogo = CFG.APP_LOGO;
+  //$rootScope.today = new Date();
+});
 
 /**
  * Override template cache
  */
 app.run(['$templateCache', function ($templateCache) {
-
   /* hide timepicker up/down arrows */
   $templateCache.put('template/timepicker/timepicker.html',
     '<table>' +
@@ -191,13 +149,13 @@ app.run(['$templateCache', function ($templateCache) {
 app.run(function ($window, $rootScope) {
   $rootScope.online = navigator.onLine;
   $window.addEventListener('offline', function () {
-    console.info('************* GONE OFFLINE *************');
+    console.info('* GONE OFFLINE *');
     $rootScope.$apply(function () {
       $rootScope.online = false;
     });
   }, false);
   $window.addEventListener('online', function () {
-    console.info('************* GONE ONLINE *************');
+    console.info('* GONE ONLINE *');
     $rootScope.$apply(function () {
       $rootScope.online = true;
     });
@@ -213,17 +171,10 @@ app.run(function ($window, $rootScope, CFG) {
     $rootScope.appcache.status = 'initializing';
   
     $window.applicationCache.addEventListener('error', function (error) {
-      //if ($rootScope.online) {
-        //console.info('Error fetching manifest: a good chance we are offline', error);
-        //console.info('************* PROBABLY GONE OFFLINE *************');
-        $rootScope.$apply(function () {
-          //$rootScope.online = false;
-          $rootScope.appcache.status = 'error';
-          console.info('% appcache status: ' + $rootScope.appcache.status + ' %', error);
-        });
-      //} else {
-      //  // we are already offline, ignore errors...
-      //}
+      $rootScope.$apply(function () {
+        $rootScope.appcache.status = 'error';
+        console.info('% appcache status: ' + $rootScope.appcache.status + ' %', error);
+      });
     }, false);
   
     $window.applicationCache.addEventListener('cached', function () {
@@ -299,91 +250,4 @@ app.run(function ($window) {
   }
   $window.onbeforeprint = beforePrint;
   $window.onafterprint = afterPrint;
-});
-
-/**
- * Initialize i18n
- */
-app.run(function ($rootScope, $window, $route, gettextCatalog, tmhDynamicLocale) {
-
-  /* supported Languages */
-  $rootScope.supportedLanguages = {
-    en: {
-      name: 'English',
-      flag: 'app/icons/flag-en.png',
-      angularLocaleScript: 'scripts/18n/angular-locale_en.js',
-    },
-    de: {
-      name: 'German',
-      flag: 'app/icons/flag-de.png',
-      angularLocaleScript: 'scripts/18n/angular-locale_de.js',
-    },
-    es: {
-      name: 'Spanish',
-      flag: 'app/icons/flag-es.png',
-      angularLocaleScript: 'scripts/18n/angular-locale_es.js',
-    },
-    fr: {
-      name: 'French',
-      flag: 'app/icons/flag-fr.png',
-      angularLocaleScript: 'scripts/i18n/angular-locale_fr.js',
-    },
-    it: {
-      name: 'Italian',
-      flag: 'app/icons/flag-it.png',
-      angularLocaleScript: 'scripts/i18n/angular-locale_it.js',
-    }, 
-    ':default:': 'en'
-  };
-
-  $rootScope.nextLanguage = function (currentLanguage) {
-    var language = (
-      currentLanguage === 'en' ? 'de' :
-      currentLanguage === 'de' ? 'es' :
-      currentLanguage === 'es' ? 'fr' :
-      currentLanguage === 'fr' ? 'it' :
-                                 'en'
-    );
-    $rootScope.currentLanguage = language;
-    gettextCatalog.currentLanguage = $rootScope.currentLanguage;
-    tmhDynamicLocale.set($rootScope.currentLanguage);
-    $route.reload();
-  };
-
-  $rootScope.browserLanguage = $window.navigator.userLanguage || $window.navigator.language;
-  console.info('browser language is', $rootScope.browserLanguage);
-  
-  // set current language
-  $rootScope.currentLanguage = $rootScope.supportedLanguages[':default:'];
-  if ($rootScope.browserLanguage) {
-    if ($rootScope.supportedLanguages[$rootScope.browserLanguage]) {
-      $rootScope.currentLanguage = $rootScope.browserLanguage;
-    } else {
-      var language = $rootScope.browserLanguage.replace(/-.*$/, '');
-      if ($rootScope.supportedLanguages[language]) {
-        $rootScope.currentLanguage = language;
-      }
-    }
-  }
-  console.info('current language is', $rootScope.currentLanguage);
-  gettextCatalog.currentLanguage = $rootScope.currentLanguage;
-  if ($rootScope.currentLanguage !== $rootScope.supportedLanguages[':default:']) { // no need to load locale for default language ('en'), I suppose... (TODO: check it...)
-    tmhDynamicLocale.set($rootScope.currentLanguage);
-  }
-
-/*
-
-  Multilingual date formats:
-
-  'medium': equivalent to 'MMM d, y h:mm:ss a' for en_US locale (e.g. Sep 3, 2010 12:05:08 pm)
-  'short': equivalent to 'M/d/yy h:mm a' for en_US locale (e.g. 9/3/10 12:05 pm)
-  'fullDate': equivalent to 'EEEE, MMMM d,y' for en_US locale (e.g. Friday, September 3, 2010)
-  'longDate': equivalent to 'MMMM d, y' for en_US locale (e.g. September 3, 2010)
-  'mediumDate': equivalent to 'MMM d, y' for en_US locale (e.g. Sep 3, 2010)
-  'shortDate': equivalent to 'M/d/yy' for en_US locale (e.g. 9/3/10)
-  'mediumTime': equivalent to 'h:mm:ss a' for en_US locale (e.g. 12:05:08 pm)
-  'shortTime': equivalent to 'h:mm a' for en_US locale (e.g. 12:05 pm)
-*/
-
-  gettextCatalog.debug = true; // TODO: use a constants provider (see http://bahmutov.calepin.co/inject-valid-constants-into-angular.html, Step 4), to use global CFG.DEBUG constant
 });

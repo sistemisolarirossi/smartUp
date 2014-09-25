@@ -7,13 +7,155 @@ msgstr ""
 msgid ""
 "<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
 "      It allows the management of customers, orders and service reports.<br>\n"
-"      It is fast, compact, extensible, modern, international and mobile.<br>"
+"      It is open-source, fast, compact, extensible, resilient, international and mobile.<br>"
 msgstr ""
 
-#: app/scripts/controllers/about.js
+#: app/views/nav.html
 msgid "About"
 msgstr ""
 
-#: app/views/about.html
-msgid "hello"
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr ""
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr ""
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr ""
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr ""
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr ""
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr ""
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Home"
+msgstr ""
+
+#: app/views/home.html
+msgid "Log in"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr ""
+
+#: app/views/home.html
+msgid "Register"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr ""
+
+#: app/views/home.html
+msgid ""
+"This is <em>{{ appName }}</em> home page for non registered users.<br>\n"
+"        Enter using one of your \"social\" accounts, or log in with these credentials: <br>"
+msgstr ""
+
+#: app/views/home.html
+msgid "This is <em>{{ appName }}</em> home page for registerd users."
+msgstr ""
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Users"
+msgstr ""
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr ""
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr ""
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr ""
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr ""
+
+#: app/views/home.html
+msgid "password:"
+msgstr ""
+
+#: app/views/home.html
+msgid "username:"
 msgstr ""

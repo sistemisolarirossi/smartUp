@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Marco Solari <marcosolari@gmail.com>\n"
+"Last-Translator: Marco <marcosolari@gmail.com>\n"
 "Language-Team: \n"
-"MIME-Version: 1.0\n"
 "Language: it\n"
-"X-Generator: Poedit 1.5.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: /var/www/smartUp/app\n"
 "X-Poedit-SearchPath-0: *.html\n"
@@ -21,18 +21,170 @@ msgid ""
 "<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
 "      It allows the management of customers, orders and service reports."
 "<br>\n"
-"      It is fast, compact, extensible, modern, international and mobile.<br>"
+"      It is open-source, fast, compact, extensible, resilient, international "
+"and mobile.<br>"
 msgstr ""
 "<em>smartUp</em> è un'applicazione web per (smart) start-ups.<br>\n"
 "       Consente la gestione di clienti, ordini e rapporti di servizio.<br>\n"
-"       E' veloce, compatta, estendibile, moderna, internazionale e mobile."
-"<br>"
+"       E' open-source, veloce, compatta, estensibile, resiliente, "
+"internazionale e mobile.<br>"
 
-#: app/scripts/controllers/about.js
+#: app/views/nav.html
 msgid "About"
-msgstr "A proposito"
+msgstr "Info"
 
-#: app/views/about.html
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "E' disponibile un aggiornamento: lo si vuole caricare adesso?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "E' disponibile un aggiornamento"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "La cache è inizializzata"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "La cache è in uno stato non previsto"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr ""
+"La cache non è aggiornata (probabilmente il manifesto è irraggiungibile)"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "La cache non è aggiornata perché si è offline"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "La cache è obsoleta"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "La cache è aggiornata"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Lo stato della cache è"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Si controlla la presenza di un aggiornamento"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "Logo aziendale"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Accedi con Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Accedi con Google+"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Accedi con Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "Contatti"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "La lingua attuale è"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "Clienti"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Si scarica un aggiornamento"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Home"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "Accedi"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Nessun aggiornamento presente"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "Ordini"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Si prepara lo scarico di un aggiornamento"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Registrati"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "Rapporti di servizio"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Impostazioni"
+
+#: app/views/home.html
+msgid ""
+"This is <em>{{ appName }}</em> home page for non registered users.<br>\n"
+"        Enter using one of your \"social\" accounts, or log in with these "
+"credentials: <br>"
+msgstr ""
+"Questa è la home page di <em>{{ appName }}</em> per gli utenti non "
+"registrati. <br />        Accedere utilizzando un proprio account \"social"
+"\", oppure loggarsi con queste credenziali: <br />"
+
+#: app/views/home.html
+msgid "This is <em>{{ appName }}</em> home page for registerd users."
+msgstr ""
+"Questa è la home page di <em>{{appName }}</em> per gli utenti registrati."
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "Cambia navigazione"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "Utenti"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Si è offline"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Si è online"
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "utente connesso"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "altrimenti registrare un nuovo account ed accedere."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "password:"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "utente:"
+
 #, fuzzy
-msgid "hello"
-msgstr "ciao"
+#~ msgid "hello"
+#~ msgstr "Ciao"

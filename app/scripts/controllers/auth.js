@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettextCatalog, Auth, User) {
   $rootScope.formLabel = '';
 
   if (Auth.signedIn()) {
@@ -18,7 +18,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     return $rootScope.online;
   }, function() {
     $scope.online = $rootScope.online;
-    console.log('changed online status to ' + $scope.online);
+    //console.log('changed online status to ' + $scope.online);
   }, true);
 
   if (CFG.APPCACHE) {
@@ -27,7 +27,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       return $rootScope.appcache;
     }, function() {
       $scope.appcache = $rootScope.appcache;
-      console.log('changed appcache status to ' + $scope.appcache.status);
+      //console.log('changed appcache status to ' + $scope.appcache.status);
     }, true);
     
     $scope.appcacheStatus = function () {
@@ -35,41 +35,41 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       var msg;
       switch ($rootScope.appcache.status) {
         case 'initializing':
-          msg = 'Cache is being initialized';
+          msg = gettextCatalog.getString('Cache is being initialized');
           break;
         case 'error':
           if ($scope.online) {
-            msg = 'Cache is not updated (probably the manifest is unreachable)';
+            msg = gettextCatalog.getString('Cache is not updated (probably the manifest is unreachable)');
           } else {
-            msg = 'Cache is not updated because you are offline';
+            msg = gettextCatalog.getString('Cache is not updated because you are offline');
           }
           break;
         case 'cached':
-          msg = 'Cache is up-to-date';
+          msg = gettextCatalog.getString('Cache is up-to-date');
           break;
         case 'checking':
-          msg = 'Checking for the presence of an update';
+          msg = gettextCatalog.getString('Checking for the presence of an update');
           break;
         case 'downloading':
-          msg = 'Preparing the downloading an update';
+          msg = gettextCatalog.getString('Preparing the downloading an update');
           break;
         case 'noupdate':
-          msg = 'No update is present';
+          msg = gettextCatalog.getString('No update is present');
           break;
         case 'obsolete':
-          msg = 'Cache is obsolete';
+          msg = gettextCatalog.getString('Cache is obsolete');
           break;
         case 'progress':
-          msg = 'Downloading an update';
+          msg = gettextCatalog.getString('Downloading an update');
           break;
         case 'updateready':
-          msg = 'An update is ready';
+          msg = gettextCatalog.getString('An update is ready');
           $window.applicationCache.swapCache();
           $window.location.reload();
           $rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
           break;
         default: // shouldn't happen
-          msg = 'Cache is in unknown state "' + $rootScope.appcache.status + '"';
+          msg = gettextCatalog.getString('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
           break;
       }
       toastr.info(msg);
@@ -200,6 +200,13 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.error = null;
     $scope.info = null;
   };
+
+  $scope.getCurrentLanguage = function () { return I18N.getCurrentLanguage(); };
+  $scope.getCurrentLanguageName = function () { return I18N.getCurrentLanguageName(); };
+  $scope.getCurrentLanguageFlag = function () { return I18N.getCurrentLanguageFlag(); };
+  $scope.getCurrentLanguageScript = function () { return I18N.getCurrentLanguageScript(); };
+  $scope.setNextLanguage = function () { return I18N.setNextLanguage(); };
+  //$scope.today = $rootScope.today;
 
   $scope.reset();
 

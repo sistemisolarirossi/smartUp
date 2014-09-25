@@ -1,60 +1,59 @@
 <div class="container orders-page" ng-controller="HomeCtrl">
   <div ng-hide="signedIn()">
 
-<!--
-<button class="btn btn-google-plus"><i class="fa fa-google-plus"></i>&emsp; Connect with Google+</button>
-<button class="btn btn-twitter"><i class="fa fa-twitter"></i>&emsp; Connect with Facebook</button>
-<button class="btn btn-facebook"><i class="fa fa-facebook"></i>&emsp; Connect with Facebook</button>
-<br><br>
--->
-
     <div class="btn-group-vertical pull-right btn-group-vertical-spaced" ng-controller="AuthCtrl">
       <a class="btn btn-primary"
          ng-href="#/register"
          title="Register if you have not an account already">
-         <i class="fa fa-user"></i>&nbsp; Register
+         <i class="fa fa-user"></i>&nbsp;<span translate>Register</span>
       </a>
       <a class="btn btn-primary"
          ng-href="#/login"
          title="Log in with your credentials">
-         <i class="fa fa-sign-in"></i>&nbsp; Log in
+         <i class="fa fa-sign-in"></i>&nbsp;<span translate>Log in</span>
       </a>
       <a class="btn btn-block btn-social btn-google-plus"
          ng-click="loginSocial('google')"
          title="Connect with your Google accout">
-        <i class="fa fa-google-plus"></i> Connect with Google+
+        <i class="fa fa-google-plus"></i><span translate>Connect with Google+</span>
       </a>
       <a class="btn btn-block btn-social btn-facebook"
          ng-click="loginSocial('facebook')"
          title="Connect with your Facebook accout">
-         <i class="fa fa-facebook"></i>&nbsp; Connect with Facebook
+         <i class="fa fa-facebook"></i>&nbsp;<span translate>Connect with Facebook</span>
       </a>
       <a class="btn btn-block btn-social btn-twitter"
          ng-click="loginSocial('twitter')"
          title="Connect with your Twitter accout">
-         <i class="fa fa-twitter"></i>&nbsp; Connect with Twitter
+         <i class="fa fa-twitter"></i>&nbsp;<span translate>Connect with Twitter</span>
       </a>
     </div>
 
     <div class="jumbotron centered">
-      Questa è la home page di <em>smartUp</em> per gli utenti non registrati. <br />
-      Connettersi utilizzando un proprio account "social", oppure loggarsi con queste credenziali: <br />
+      <span translate>
+        This is <em>{{ appName }}</em> home page for non registered users.<br />
+        Enter using one of your "social" accounts, or log in with these credentials: <br />
+      </span>
       <center><small>
         <table>
           <tr>
-            <td style="text-align:right">username:</td><td><i>demo</i></td>
+            <td style="text-align:right"><span translate>username:</span></td>
+            <td><i>demo</i></td>
           </tr>
           <tr>
-            <td style="text-align:right">password:</td><td><i>demo</i></td>
+            <td style="text-align:right"><span translate>password:</span></td>
+            <td><i>demo</i></td>
           </tr>
         </table>
       </small></center>
-      oppure registrare un nuovo account ed effettuare il log in.<br />
+      <span translate>otherwise register a new accout and log in.</span>
+      <br />
     </div>
   </div>
   <div ng-show="signedIn()">
     <div class="jumbotron centered">
-      Questa è la home page di <em>smartUp</em> per gli utenti registrati. <br />
+      <span translate>This is <em>{{ appName }}</em> home page for registerd users.</span>
+      <br />
     </div>
   </div>
 </div>
