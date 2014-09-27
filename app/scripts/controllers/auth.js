@@ -2,7 +2,6 @@
  
 app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettextCatalog, Auth, User) {
   $rootScope.formLabel = '';
-console.error('AuthCtrl ***************************************');
 
   if (Auth.signedIn()) {
     $location.path('/');

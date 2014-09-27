@@ -29,9 +29,25 @@ msgstr ""
 "       E' open-source, veloce, compatta, estensibile, resiliente, "
 "internazionale e mobile.<br>"
 
+#: app/views/users.html
+msgid "A street address is required"
+msgstr "Un indirizzo stradale è richiesto"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Un nome utente è richiesto"
+
 #: app/views/nav.html
 msgid "About"
 msgstr "Info"
+
+#: app/views/customers.html
+msgid "Address"
+msgstr "Indirizzo stradale"
+
+#: app/views/users.html
+msgid "An email address is required"
+msgstr "Un indirzzo email è richiesto"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
@@ -40,6 +56,18 @@ msgstr "E' disponibile un aggiornamento: lo si vuole caricare adesso?"
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
 msgstr "E' disponibile un aggiornamento"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Sei veramente sicuro di rimuovere l'utente"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "Avatar"
+
+#: app/views/users.html
+msgid "Avatar image"
+msgstr "Immagine avatar"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -98,21 +126,73 @@ msgstr "Contatti"
 msgid "Current language is"
 msgstr "La lingua attuale è"
 
+#: app/views/customers.html
+msgid "Customer name"
+msgstr "Nome cliente"
+
 #: app/views/nav.html
 msgid "Customers"
 msgstr "Clienti"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "Rimuovi cliente"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "Rimuovi utente"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Si scarica un aggiornamento"
 
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "Modifica il cliente"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "Modifica l'utente"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email"
+msgstr "Email"
+
+#: app/views/users.html
+msgid "Email address is not valid"
+msgstr "L'indirizzo email non è valido"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "Filtra i clienti"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "Filtra gli utenti"
+
 #: app/views/nav.html
 msgid "Home"
 msgstr "Home"
 
+#: app/views/users.html
+msgid "Id"
+msgstr "Id"
+
 #: app/views/home.html
 msgid "Log in"
 msgstr "Accedi"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "Nome"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "Nuovo cliente"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "Nuovo utente"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -122,13 +202,41 @@ msgstr "Nessun aggiornamento presente"
 msgid "Orders"
 msgstr "Ordini"
 
+#: app/views/customers.html
+msgid "P.IVA"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Phone"
+msgstr ""
+
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
 msgstr "Si prepara lo scarico di un aggiornamento"
 
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Stampa il cliente"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "Stampa l'utente"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "Fornitore"
+
 #: app/views/home.html
 msgid "Register"
 msgstr "Registrati"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "Ruoli"
+
+#: app/views/users.html
+msgid "Save"
+msgstr "Salva"
 
 #: app/views/nav.html
 msgid "Service reports"
@@ -137,6 +245,10 @@ msgstr "Rapporti di servizio"
 #: app/views/nav.html
 msgid "Setup"
 msgstr "Impostazioni"
+
+#: app/views/users.html
+msgid "Social connection provider"
+msgstr "Fornitore d'accesso sociale"
 
 #: app/views/home.html
 msgid ""
@@ -153,9 +265,29 @@ msgid "This is <em>{{ appName }}</em> home page for registerd users."
 msgstr ""
 "Questa è la home page di <em>{{appName }}</em> per gli utenti registrati."
 
+#: app/views/users.html
+msgid "This user name is already present"
+msgstr "Questo nome utente è già presente"
+
 #: app/views/nav.html
 msgid "Toggle navigation"
 msgstr "Cambia navigazione"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Indirzzo email"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "Nome utente"
+
+#: app/views/users.html
+msgid "User name is not valid"
+msgstr "Il nome utente non è valido"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "Nome utente"
 
 #: app/views/nav.html
 msgid "Users"
@@ -168,6 +300,10 @@ msgstr "Si è offline"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "Si è online"
+
+#: app/views/users.html
+msgid "cancel"
+msgstr "annulla"
 
 #: app/views/nav.html
 msgid "logged user"
