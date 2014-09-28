@@ -1,7 +1,7 @@
 'use strict';
  
 app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Servicereport, Customer, Auth, DateTime) {
-  $rootScope.formLabel = 'Service Reports';
+  $rootScope.formLabel = 'Service reports';
 
   $scope.servicereport = {};
   $scope.servicereports = Servicereport.all;
@@ -131,7 +131,7 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Se
   $scope.dateInit = function () {
     $scope.dateMin = null;
     $scope.dateMax = null;
-    $scope.dateFormat = 'dd MMMM yyyy';
+    $scope.dateFormat = 'longDate'; // dd MMMM yyyy
     $scope.dateOptions = {
       formatYear: 'yyyy',
       startingDay: 1,

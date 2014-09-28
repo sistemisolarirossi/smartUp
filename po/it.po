@@ -3,18 +3,22 @@ msgstr ""
 "Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Marco <marcosolari@gmail.com>\n"
+"Last-Translator: Marco Solari <marcosolari@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: /var/www/smartUp/app\n"
 "X-Poedit-SearchPath-0: *.html\n"
 "X-Poedit-SearchPath-1: views/*.html\n"
 "X-Poedit-SearchPath-2: scripts/controllers/*.js\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "(hh:mm)"
 
 #: app/views/about.html
 msgid ""
@@ -29,6 +33,17 @@ msgstr ""
 "       E' open-source, veloce, compatta, estensibile, resiliente, "
 "internazionale e mobile.<br>"
 
+#: app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Un nome cliente è richiesto"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+"Una durata deve essere nella forma 'hh' oppure 'hh:mm', ed almeno di un "
+"minuto"
+
 #: app/views/users.html
 msgid "A street address is required"
 msgstr "Un indirizzo stradale è richiesto"
@@ -42,12 +57,20 @@ msgid "About"
 msgstr "Info"
 
 #: app/views/customers.html
+msgid "Add new customer"
+msgstr "Aggiungi nuovo cliente"
+
+#: app/views/customers.html
 msgid "Address"
 msgstr "Indirizzo stradale"
 
 #: app/views/users.html
 msgid "An email address is required"
 msgstr "Un indirzzo email è richiesto"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Un operatore è richiesto"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
@@ -56,6 +79,10 @@ msgstr "E' disponibile un aggiornamento: lo si vuole caricare adesso?"
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
 msgstr "E' disponibile un aggiornamento"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Sei veramente sicuro di rimuovere il rapporto di servizio"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
@@ -102,6 +129,10 @@ msgstr "Lo stato della cache è"
 msgid "Checking for the presence of an update"
 msgstr "Si controlla la presenza di un aggiornamento"
 
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / P.IVA"
+
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Logo aziendale"
@@ -127,16 +158,48 @@ msgid "Current language is"
 msgstr "La lingua attuale è"
 
 #: app/views/customers.html
+msgid "Customer"
+msgstr "Cliente"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Scheda del cliente"
+
+#: app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Indirizzo email del cliente"
+
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
 msgstr "Nome cliente"
+
+#: app/views/serviceReports.html
+msgid "Customer name must be valid"
+msgstr "Il nome del cliente deve essere valido"
+
+#: app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Numero di telefono del cliente"
 
 #: app/views/nav.html
 msgid "Customers"
 msgstr "Clienti"
 
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Date"
+msgstr "Data"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Data di inizio del servizio"
+
 #: app/views/customers.html
 msgid "Delete customer"
 msgstr "Rimuovi cliente"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Rimuovi il rapporto di servizio"
 
 #: app/views/users.html
 msgid "Delete user"
@@ -147,8 +210,20 @@ msgid "Downloading an update"
 msgstr "Si scarica un aggiornamento"
 
 #: app/views/customers.html
+msgid "Duration"
+msgstr "Durata"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Durata del servizio"
+
+#: app/views/customers.html
 msgid "Edit customer"
 msgstr "Modifica il cliente"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Modifica il rapporto di servizio"
 
 #: app/views/users.html
 msgid "Edit user"
@@ -158,13 +233,25 @@ msgstr "Modifica l'utente"
 msgid "Email"
 msgstr "Email"
 
+#: app/views/customers.html
+msgid "Email address"
+msgstr "Indirizzo email"
+
 #: app/views/users.html
 msgid "Email address is not valid"
 msgstr "L'indirizzo email non è valido"
 
 #: app/views/customers.html
+msgid "Fax"
+msgstr "Fax"
+
+#: app/views/customers.html
 msgid "Filter customers"
 msgstr "Filtra i clienti"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Filtra i rapporti di servizio"
 
 #: app/views/users.html
 msgid "Filter users"
@@ -178,9 +265,21 @@ msgstr "Home"
 msgid "Id"
 msgstr "Id"
 
+#: app/views/customers.html
+msgid "Location"
+msgstr "Posizione"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Luogo del servizio"
+
 #: app/views/home.html
 msgid "Log in"
 msgstr "Accedi"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
@@ -190,6 +289,10 @@ msgstr "Nome"
 msgid "New customer"
 msgstr "Nuovo cliente"
 
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "Nuovo rapporto"
+
 #: app/views/users.html
 msgid "New user"
 msgstr "Nuovo utente"
@@ -198,25 +301,61 @@ msgstr "Nuovo utente"
 msgid "No update is present"
 msgstr "Nessun aggiornamento presente"
 
+#: app/scripts/app.js
+msgid "Not yet available..."
+msgstr "Non ancora disponibile..."
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "Note"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "Numero"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Operatore del servizio"
+
 #: app/views/nav.html
 msgid "Orders"
 msgstr "Ordini"
 
 #: app/views/customers.html
+msgid "P.&nbsp;IVA"
+msgstr "P.&nbsp;IVA"
+
+#: app/views/customers.html
 msgid "P.IVA"
-msgstr ""
+msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "Phone"
-msgstr ""
+msgstr "Telefono"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "Numero di telefono"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "Luogo"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
 msgstr "Si prepara lo scarico di un aggiornamento"
 
 #: app/views/customers.html
+msgid "Print"
+msgstr "Stampa"
+
+#: app/views/customers.html
 msgid "Print customer"
 msgstr "Stampa il cliente"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Stampa rapporto di servizio"
 
 #: app/views/users.html
 msgid "Print user"
@@ -234,7 +373,7 @@ msgstr "Registrati"
 msgid "Roles"
 msgstr "Ruoli"
 
-#: app/views/users.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Save"
 msgstr "Salva"
 
@@ -269,6 +408,10 @@ msgstr ""
 msgid "This user name is already present"
 msgstr "Questo nome utente è già presente"
 
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Orario di inizio del servizio"
+
 #: app/views/nav.html
 msgid "Toggle navigation"
 msgstr "Cambia navigazione"
@@ -301,7 +444,7 @@ msgstr "Si è offline"
 msgid "You are online"
 msgstr "Si è online"
 
-#: app/views/users.html
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
 msgstr "annulla"
 
@@ -320,6 +463,12 @@ msgstr "password:"
 #: app/views/home.html
 msgid "username:"
 msgstr "utente:"
+
+#~ msgid "N&deg;"
+#~ msgstr "N&deg;"
+
+#~ msgid "Date of service begin"
+#~ msgstr "Data di inizio del servizio"
 
 #, fuzzy
 #~ msgid "hello"

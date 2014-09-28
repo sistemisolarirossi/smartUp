@@ -12,6 +12,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.info = null;
   $scope.debug = CFG.DEBUG;
   $scope.lastBuildDate = lastBuildDate;
+  $scope.notYetAvailable = $rootScope.notYetAvailable; // TODO: if we could access CFG in js embedded in html, we could avoid all  of this mess...
 
   // watch rootScope online status variable
   $scope.$watch(function() {
@@ -116,7 +117,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.$broadcast('autofillFix:update');
     if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {
       Auth.login($scope.user).then(function (authUser) {
-        console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
+        //console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
         if (authUser) {
           var user = User.findByUid(authUser.uid);
           User.setCurrentUser(user);
@@ -145,8 +146,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.loginSocial = function (provider) {
     Auth.loginSocial(provider).then(function (authUser) {
       //console.warn('Auth.loginSocial(provider).then() RETURNED - authUser:', authUser);
-      //$scope.user = angular.copy(authUser); // TODO: REMOVE THIS (copy useful fields?)
-      //User.create($scope.user).then(
       User.create(authUser).then(
         function () {
           /* success */

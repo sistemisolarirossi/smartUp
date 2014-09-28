@@ -7,11 +7,11 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" style="font-size: 150%;" href="#" ng-click="isCollapsed = true">{{ appName }} <img src="{{ appLogo }}" width="28" align="bottom" /></a>
+    <a class="navbar-brand" style="font-size: 150%;" href="#" ng-click="isCollapsed = true">{{ appName }} <img ng-src="{{ appLogo }}" width="28" align="bottom" /></a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="navbar-collapse" nav-collapse>
+  <div ng-controller="AuthCtrl" class="collapse navbar-collapse" id="navbar-collapse" nav-collapse>
     <ul class="nav navbar-nav navbar-right">
       <li role="presentation">
         <a role="menuitem" tabindex="-1" ng-click="isCollapsed = !isCollapsed" ng-href="#"><span translate>Home</span></a>
@@ -20,7 +20,7 @@
         <a role="menuitem" tabindex="-1" ng-click="isCollapsed = !isCollapsed" ng-href="#/customers"><span translate>Customers</span></a>
       </li>
       <li role="presentation">
-        <a role="menuitem" tabindex="-1" ng-click="isCollapsed = !isCollapsed" disabled-ng-href="#/orders" onclick="toastr.warning('Not yet available...');"><span translate>Orders</span></a>
+        <a role="menuitem" tabindex="-1" ng-click="isCollapsed = !isCollapsed" DISABLED-ng-href="#/orders" ng-click="toastr.warning('a' + notYetAvailable);"><span translate>Orders</span></a>
       </li>
       <li role="presentation">
         <a role="menuitem" tabindex="-1" ng-click="isCollapsed = !isCollapsed" ng-href="#/servicereports"><span translate>Service reports</span></a>

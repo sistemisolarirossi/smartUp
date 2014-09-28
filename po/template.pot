@@ -3,11 +3,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr ""
+
 #: app/views/about.html
 msgid ""
 "<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
 "      It allows the management of customers, orders and service reports.<br>\n"
 "      It is open-source, fast, compact, extensible, resilient, international and mobile.<br>"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
 msgstr ""
 
 #: app/views/users.html
@@ -23,11 +35,19 @@ msgid "About"
 msgstr ""
 
 #: app/views/customers.html
+msgid "Add new customer"
+msgstr ""
+
+#: app/views/customers.html
 msgid "Address"
 msgstr ""
 
 #: app/views/users.html
 msgid "An email address is required"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
 msgstr ""
 
 #: app/views/footer.html
@@ -36,6 +56,10 @@ msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
 msgstr ""
 
 #: app/views/users.html
@@ -82,6 +106,10 @@ msgstr ""
 msgid "Checking for the presence of an update"
 msgstr ""
 
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr ""
+
 #: app/views/footer.html
 msgid "Company logo"
 msgstr ""
@@ -107,7 +135,28 @@ msgid "Current language is"
 msgstr ""
 
 #: app/views/customers.html
+msgid "Customer"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Customer email address"
+msgstr ""
+
+#: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Customer name"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Customer name must be valid"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Customer phone number"
 msgstr ""
 
 #: app/views/nav.html
@@ -115,7 +164,20 @@ msgid "Customers"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr ""
+
+#: app/views/customers.html
 msgid "Delete customer"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
 msgstr ""
 
 #: app/views/users.html
@@ -127,7 +189,19 @@ msgid "Downloading an update"
 msgstr ""
 
 #: app/views/customers.html
+msgid "Duration"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr ""
+
+#: app/views/customers.html
 msgid "Edit customer"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
 msgstr ""
 
 #: app/views/users.html
@@ -139,12 +213,24 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
+#: app/views/customers.html
+msgid "Email address"
+msgstr ""
+
 #: app/views/users.html
 msgid "Email address is not valid"
 msgstr ""
 
 #: app/views/customers.html
+msgid "Fax"
+msgstr ""
+
+#: app/views/customers.html
 msgid "Filter customers"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
 msgstr ""
 
 #: app/views/users.html
@@ -159,8 +245,20 @@ msgstr ""
 msgid "Id"
 msgstr ""
 
+#: app/views/customers.html
+msgid "Location"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr ""
+
 #: app/views/home.html
 msgid "Log in"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "N"
 msgstr ""
 
 #: app/views/customers.html
@@ -171,6 +269,10 @@ msgstr ""
 msgid "New customer"
 msgstr ""
 
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr ""
+
 #: app/views/users.html
 msgid "New user"
 msgstr ""
@@ -179,8 +281,28 @@ msgstr ""
 msgid "No update is present"
 msgstr ""
 
+#: app/scripts/app.js
+msgid "Not yet available..."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr ""
+
 #: app/views/nav.html
 msgid "Orders"
+msgstr ""
+
+#: app/views/customers.html
+msgid "P.&nbsp;IVA"
 msgstr ""
 
 #: app/views/customers.html
@@ -191,12 +313,28 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
+#: app/views/customers.html
+msgid "Phone number"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr ""
+
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
 msgstr ""
 
 #: app/views/customers.html
+msgid "Print"
+msgstr ""
+
+#: app/views/customers.html
 msgid "Print customer"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Print service report"
 msgstr ""
 
 #: app/views/users.html
@@ -215,6 +353,7 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
+#: app/views/serviceReports.html
 #: app/views/users.html
 msgid "Save"
 msgstr ""
@@ -243,6 +382,10 @@ msgstr ""
 
 #: app/views/users.html
 msgid "This user name is already present"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
 msgstr ""
 
 #: app/views/nav.html
@@ -277,6 +420,8 @@ msgstr ""
 msgid "You are online"
 msgstr ""
 
+#: app/views/customers.html
+#: app/views/serviceReports.html
 #: app/views/users.html
 msgid "cancel"
 msgstr ""

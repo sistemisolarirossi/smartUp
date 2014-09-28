@@ -29,6 +29,7 @@ var app = angular.module('smartUpApp', [
 
 app.constant('CFG', {
   APP_NAME:        'smartUp',
+  APP_FULLNAME:    'Sistemi Solari Rossi',
   APP_LOGO:        'icons/logo.png',
   FIREBASE_URL:    'https://smartup.firebaseio.com/',
   SYSTEM_EMAIL:    'sistemisolarirossi@gmail.com',
@@ -113,9 +114,10 @@ app.config(function (tmhDynamicLocaleProvider) {
 /**
  * Initialize app: rottscope, i18n, ...
  */
-app.run(function ($rootScope, CFG, I18N) {
+app.run(function ($rootScope, CFG, I18N, gettextCatalog) {
   $rootScope.appName = CFG.APP_NAME;
   $rootScope.appLogo = CFG.APP_LOGO;
+  $rootScope.notYetAvailable = gettextCatalog.getString('Not yet available...');
   $rootScope.today1 = new Date();
   I18N.setCurrentLanguage();
 });

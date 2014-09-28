@@ -6,12 +6,12 @@
       <div class="form-group">
         <div class="col-xs-3" title="Add new service report">
           <button type="submit" class="btn btn-primary" ng-show="signedIn() && !(addMode || editMode)" ng-click="addServicereport()">
-            <i class="glyphicon glyphicon-plus"></i>&nbsp;New report
+            <i class="glyphicon glyphicon-plus"></i>&nbsp;<span translate>New report</span>
           </button>
         </div>
         <div class="col-xs-4">
         </div>
-        <div class="col-xs-5" title="Filter service reports">
+        <div class="col-xs-5" ng-attr-title="{{ 'Filter service reports' | translate }}">
           <div class="right-inner-addon">
             <i class="glyphicon glyphicon-search"></i>
             <input type="text" ng-model="search" class="form-control form-control-search" style="min-width: 8.0em;">
@@ -25,26 +25,26 @@
        <table ng-table="tableParams" class="table">
         <tr>
           <th>
-            <span ng-click="orderby = '-number'">N&deg;</span>
+            <span ng-click="orderby = '-number'" translate>N</span>&deg;
             <a ng-click="orderby = 'number'"><small><i ng-show="orderby === '-number'" class="glyphicon glyphicon-chevron-up"></i></small></a>
             <a ng-click="orderby = '-number'"><small><i ng-show="orderby === 'number'" class="glyphicon glyphicon-chevron-down"></i></small></a>
           </th>
           <th>
-            <span ng-click="orderby = '-dateIn'">Date</span>
+            <span ng-click="orderby = '-dateIn'" translate>Date</span>
             <a ng-click="orderby = 'dateIn'"><small><span ng-show="orderby === '-dateIn'" class="glyphicon glyphicon-chevron-up"></span></small></a>
             <a ng-click="orderby = '-dateIn'"><small><span ng-show="orderby === 'dateIn'" class="glyphicon glyphicon-chevron-down"></span></small></a>
           </th>
           <th>
-            <span ng-click="orderby = 'customer.name'">Customer name</span>
+            <span ng-click="orderby = 'customer.name'" translate>Customer name</span>
             <a ng-click="orderby = 'customer.name'"><small><span ng-show="orderby === '-customer.name'" class="glyphicon glyphicon-chevron-up"></span></small></a>
             <a ng-click="orderby = '-customer.name'"><small><span ng-show="orderby === 'customer.name'" class="glyphicon glyphicon-chevron-down"></span></small></a>
           </th>
           <th>
-            Place
+            <span translate>Place</span>
           </th>
           <!--
           <th>
-            Notes
+            <span translate>Notes</span>
           </th>
           -->
           <th>
@@ -52,44 +52,39 @@
           </th>
         </tr>
         <tr ng-repeat="(servicereportId, servicereport) in servicereports | orderByPriority | searchServiceReport:customersById:search | orderBy: orderby" ng-if="!servicereport.hasOwnProperty('deleted') && !servicereport.hasOwnProperty('serviceReportNumber')">
-          <td title="Number" sortable="'number'" class="condensed">
+          <td ng-attr-title="{{ 'Number' | translate }}" sortable="'number'" class="condensed">
             {{ servicereport.number }}
           </td>
-          <td title="Date of service begin" sortable="'dateIn'" class="condensed">
+          <td ng-attr-title="{{ 'Date of service start' | translate }}" sortable="'dateIn'" class="condensed">
             {{ servicereport.dateIn | date: 'dd MMMM yyyy HH:mm' }}
           </td>
-          <!--
-          <td title="Date out" sortable="'dateOut'" class="condensed">
-            {{ servicereport.dateOut | date: 'dd MMMM yyyy HH:mm' }}
-          </td>
-          -->
-          <td title="Customer name" sortable="'customer.name'" class="condensed">
+          <td ng-attr-title="{{ 'Customer name' | translate }}" sortable="'customer.name'" class="condensed">
             <!--{{ getCustomerName(servicereport.customerId) }}-->
             {{ customersById[servicereport.customerId].name }}
           </td>
-          <td title="Place" sortable="'place'" class="condensed">
+          <td ng-attr-title="{{ 'Place' | translate }}" sortable="'place'" class="condensed">
             {{ servicereport.location }}
           </td>
           <!--
-          <td title="Notes" sortable="'notes'" class="condensed">
+          <td ng-attr-title="{{ 'Notes' | translate }}" sortable="'notes'" class="condensed">
             {{ servicereport.notes }}
           </td>
           -->
           <td class="condensed">
             <button
-              title="Edit service report"
+              ng-attr-title="{{ 'Edit service report' | translate }}"
               class="btn btn-primary btn-xs glyphicon glyphicon-pencil"
               ng-click="editServicereport(servicereport)"
             ></button>
             <button
-              title="Print service report"
+              ng-attr-title="{{ 'Print service report' | translate }}"
               class="btn btn-primary btn-xs glyphicon glyphicon-print"
               ng-click="preprintServicereport(servicereport)"
             ></button>
             <button
-              title="Delete service report" 
+              ng-attr-title="{{ 'Delete service report' | translate }}" 
               class="btn btn-primary btn-xs glyphicon glyphicon-trash"
-              really-message="Are you really sure to remove service report <i>{{servicereport.number}}</i> ?" really-click="deleteServicereport(servicereport)"
+              really-message="{{ 'Are you really sure to remove service report' | translate }} <i>{{servicereport.number}}</i> ?" really-click="deleteServicereport(servicereport)"
             ></button>
           </td>
         </tr>
@@ -97,7 +92,7 @@
     </div>
 
     <form name="formAddEdit" ng-show="addMode || editMode" novalidate class="servicereport form-horizontal">
-      <div class="row" title="Number">
+      <div class="row" ng-attr-title="{{ 'Number' | translate }}">
         <div class="col-xs-6 col-sm-2 col-lg-2">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-flag"></span></span>
@@ -105,7 +100,7 @@
           </div>
         </div>
       </div>
-      <div class="row" title="Operator of service">
+      <div class="row" ng-attr-title="{{ 'Operator of service' | translate }}">
         <div class="col-xs-8 col-sm-4 col-lg-2">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
@@ -114,35 +109,35 @@
         </div>
         <div class="error-container" ng-show="formAddEdit.operator.$invalid && formAddEditSubmitted">
           <small class="error" ng-show="formAddEdit.operator.$error.required">
-            An operator is required
+            <span translate>An operator is required</span>
           </small>
         </div>
       </div>
-      <div class="row" title="Customer name">
+      <div class="row" ng-attr-title="{{ 'Customer name' | translate }}">
         <div class="col-xs-10 col-sm-5 col-lg-3">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
-            <input type="text" name="customername" class="form-control" ng-model="customer.name" autofocus="addMode || editMode" typeahead="customer.name for customer in getCustomers($viewValue) | orderByPriority | filter: {name: $viewValue} | limitTo:5" typeahead-editable="false" typeahead-on-select="onCustomerSelect($item, $model, $label)" autocomplete="off" placeholder="Customer name" check-not-empty />
+            <input type="text" name="customername" class="form-control" ng-model="customer.name" autofocus="addMode || editMode" typeahead="customer.name for customer in getCustomers($viewValue) | orderByPriority | filter: {name: $viewValue} | limitTo:5" typeahead-editable="false" typeahead-on-select="onCustomerSelect($item, $model, $label)" autocomplete="off" placeholder="{{ 'Customer name' | translate }}" check-not-empty />
           </div>
         </div>
         <div class="error-container" ng-show="formAddEdit.customername.$invalid && formAddEditSubmitted">
           <small class="error" ng-show="formAddEdit.customername.$error.required">
-            A customer name is required
+            <span translate>A customer name is required</span>
           </small>
           <small class="error" ng-show="!formAddEdit.customername.$error.required && formAddEdit.customername.$invalid">
-            Customer name must be valid
+            <span translate>Customer name must be valid</span>
           </small>
         </div>
       </div>
-      <div class="row" title="Location of service">
+      <div class="row" ng-attr-title="{{ 'Location of service' | translate }}">
         <div class="col-xs-12 col-sm-8 col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
-            <input type="text" class="form-control" ng-model="servicereport.location" />
+            <input type="text" class="form-control" ng-model="servicereport.location" placeholder="{{ 'Location of service' | translate }}" />
           </div>
         </div>
       </div>
-      <div class="row" title="Customer phone number">
+      <div class="row" ng-attr-title="{{ 'Customer phone number' | translate }}">
         <div class="col-xs-9 col-sm-4 col-lg-3">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-phone-alt"></span></span>
@@ -150,7 +145,7 @@
           </div>
         </div>
       </div>
-      <div class="row" title="Customer email address">
+      <div class="row" ng-attr-title="{{ 'Customer email address' | translate }}">
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
@@ -158,21 +153,21 @@
           </div>
         </div>
       </div>
-      <div class="row" title="Date of service start">
+      <div class="row" ng-attr-title="{{ 'Date of service start' | translate }}">
         <div class="col-xs-7 col-sm-4 col-lg-3">
           <div class="input-group">
             <span class="input-group-addon" ng-click="dateOpen($event)"><span class="glyphicon glyphicon-calendar"></span></span>
-            <input type="text" class="form-control" ng-click="dateOpen($event)" datepicker-popup="{{dateFormat}}" ng-model="servicereport.dateIn" title="Date of service start" is-open="dateOpened" min-date="dateMin" max-date="dateMax" datepicker-options="dateOptions" date-disabled="dateDisabled(date, mode)" check-not-empty />
+            <input type="text" class="form-control" ng-click="dateOpen($event)" datepicker-popup="{{ dateFormat }}" ng-model="servicereport.dateIn" title="Date of service start" is-open="dateOpened" min-date="dateMin" max-date="dateMax" datepicker-options="dateOptions" date-disabled="dateDisabled(date, mode)" check-not-empty />
           </div>
         </div>
-        <div class="col-xs-5" title="Time of service start">
+        <div class="col-xs-5" ng-attr-title="{{ 'Time of service start' | translate }}">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
             <timepicker ng-model="timeIn" ng-change="timeChanged()" hour-step="hourStep" minute-step="minuteStep" show-meridian="showMeridian" data-template-url="timepicker.tpl.html"></timepicker>
           </div>
         </div>
       </div>
-      <div class="row" title="Duration of service (hh:mm)">
+      <div class="row" ng-attr-title="{{ 'Duration of service' | translate }} {{ '(hh:mm)' | translate }}">
         <div class="col-xs-6 col-sm-3 col-lg-2">
           <div class="input-group">
             <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
@@ -181,25 +176,25 @@
         </div>
         <div class="error-container" ng-show="formAddEdit.duration.$invalid && formAddEditSubmitted">
           <small class="error" ng-show="formAddEdit.duration.$invalid">
-            A duration must be in the form 'hh' or 'hh:mm', and at least one minute long
+            <span translate>A duration must be in the form 'hh' or 'hh:mm', and at least one minute long</span>
           </small>
         </div>
       </div>
-      <div class="row" title="Notes">
+      <div class="row" ng-attr-title="{{ 'Notes' | translate }}">
         <div class="col-xs-12 col-sm-10 col-lg-6">
           <div class="input-group">
-            <textarea cols="80" rows="5" class="form-control" ng-model="servicereport.notes" placeholder="Notes"></textarea>
+            <textarea cols="80" rows="5" class="form-control" ng-model="servicereport.notes" placeholder="{{ 'Notes' | translate }}"></textarea>
           </div>
         </div>
       </div>
       <div class="servicereport row no-print" style="margin-top: 1.0em;">
         <div class="col">
           <button type="submit" class="btn btn-primary" ng-click="submitServicereport(formAddEdit.$valid)">
-            <i class="glyphicon glyphicon-save"></i>&nbsp;Save
+            <i class="glyphicon glyphicon-save"></i>&nbsp;<span translate>Save</span>
           </button>
           &emsp;
           <button type="text" class="btn btn-default" ng-click="cancelServicereport()">
-            <i class="glyphicon glyphicon-remove"></i>&nbsp;cancel
+            <i class="glyphicon glyphicon-remove"></i>&nbsp;<span translate>cancel</span>
           </button>
         </div>
       </div>
