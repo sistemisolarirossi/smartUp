@@ -82,10 +82,10 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettextCatalog, 
       }
       if (previousLanguage !== this.currentLanguage) {
         gettextCatalog.debug = CFG.DEBUG;
-        gettextCatalog.currentLanguage = this.currentLanguage;
-        //$rootScope.$on('$localeChangeSuccess', function () { $route.reload(); });
+        ////gettextCatalog.currentLanguage = this.currentLanguage;
+        gettextCatalog.setCurrentLanguage(this.currentLanguage);
         tmhDynamicLocale.set(this.currentLanguage);
-        $route.reload();
+        //$route.reload();
       }
       return this.currentLanguage;
     },

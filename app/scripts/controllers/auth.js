@@ -12,7 +12,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.info = null;
   $scope.debug = CFG.DEBUG;
   $scope.lastBuildDate = lastBuildDate;
-  $scope.notYetAvailable = $rootScope.notYetAvailable; // TODO: if we could access CFG in js embedded in html, we could avoid all  of this mess...
 
   // watch rootScope online status variable
   $scope.$watch(function() {
@@ -77,9 +76,11 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     };
   }
 
+  /* TODO: do we need this?
   $scope.appcacheUpdate = function () {
     console.info('appcacheUpdate()');
   };
+  */
 
   $scope.register = function (valid) {
     console.info('controller - register');
@@ -205,7 +206,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.getCurrentLanguageFlag = function () { return I18N.getCurrentLanguageFlag(); };
   $scope.getCurrentLanguageScript = function () { return I18N.getCurrentLanguageScript(); };
   $scope.setNextLanguage = function () { return I18N.setNextLanguage(); };
-  $rootScope.today1 = new Date();
 
   $scope.reset();
 

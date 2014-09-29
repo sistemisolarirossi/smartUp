@@ -69,7 +69,7 @@ app.config(function ($routeProvider) {
     })
     .when('/servicereports', {
       templateUrl: 'views/serviceReports.html',
-      //controller: 'ServicereportCtrl'
+      controller: 'ServicereportsCtrl'
     })
     .when('/contacts', {
       templateUrl: 'views/contacts.html',
@@ -114,11 +114,10 @@ app.config(function (tmhDynamicLocaleProvider) {
 /**
  * Initialize app: rottscope, i18n, ...
  */
-app.run(function ($rootScope, CFG, I18N, gettextCatalog) {
+app.run(function ($rootScope, CFG, I18N) {
   $rootScope.appName = CFG.APP_NAME;
   $rootScope.appLogo = CFG.APP_LOGO;
-  $rootScope.notYetAvailable = gettextCatalog.getString('Not yet available...');
-  $rootScope.today1 = new Date();
+  $rootScope.today = new Date();
   I18N.setCurrentLanguage();
 });
 
