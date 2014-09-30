@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Marco Solari <marcosolari@gmail.com>\n"
+"Last-Translator: Marco <marcosolari@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: /var/www/smartUp/app\n"
 "X-Poedit-SearchPath-0: *.html\n"
@@ -33,9 +33,17 @@ msgstr ""
 "       E' open-source, veloce, compatta, estensibile, resiliente, "
 "internazionale e mobile.<br>"
 
-#: app/views/serviceReports.html
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "Un Codice Fiscale o una P.IVA è richiesto"
+
+#: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
 msgstr "Un nome cliente è richiesto"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Una data di inizio del servizio è richiesta"
 
 #: app/views/serviceReports.html
 msgid ""
@@ -44,7 +52,15 @@ msgstr ""
 "Una durata deve essere nella forma 'hh' oppure 'hh:mm', ed almeno di un "
 "minuto"
 
-#: app/views/users.html
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Un luogo del servizio è richiesto"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Un numero di telefono è richiesto"
+
+#: app/views/customers.html app/views/users.html
 msgid "A street address is required"
 msgstr "Un indirizzo stradale è richiesto"
 
@@ -60,11 +76,11 @@ msgstr "Info"
 msgid "Add new customer"
 msgstr "Aggiungi nuovo cliente"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
 msgstr "Indirizzo stradale"
 
-#: app/views/users.html
+#: app/views/customers.html app/views/users.html
 msgid "An email address is required"
 msgstr "Un indirzzo email è richiesto"
 
@@ -133,6 +149,18 @@ msgstr "Si controlla la presenza di un aggiornamento"
 msgid "Codice Fiscale / P.IVA"
 msgstr "Codice Fiscale / P.IVA"
 
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice Fiscale contiene caratteri non validi"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Il codice di controllo del Codice Fiscale non corrisponde"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale o P.IVA del cliente"
+
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Logo aziendale"
@@ -157,7 +185,7 @@ msgstr "Contatti"
 msgid "Current language is"
 msgstr "La lingua attuale è"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Customer"
 msgstr "Cliente"
 
@@ -165,21 +193,25 @@ msgstr "Cliente"
 msgid "Customer Card"
 msgstr "Scheda del cliente"
 
-#: app/views/serviceReports.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
 msgstr "Indirizzo email del cliente"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Nome cliente"
+msgstr "Nome del cliente"
 
-#: app/views/serviceReports.html
-msgid "Customer name must be valid"
-msgstr "Il nome del cliente deve essere valido"
-
-#: app/views/serviceReports.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
 msgstr "Numero di telefono del cliente"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Indirizzo stradale del cliente"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Firma del cliente"
 
 #: app/views/nav.html
 msgid "Customers"
@@ -209,7 +241,7 @@ msgstr "Rimuovi utente"
 msgid "Downloading an update"
 msgstr "Si scarica un aggiornamento"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Duration"
 msgstr "Durata"
 
@@ -229,7 +261,7 @@ msgstr "Modifica il rapporto di servizio"
 msgid "Edit user"
 msgstr "Modifica l'utente"
 
-#: app/views/customers.html app/views/users.html
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
@@ -237,11 +269,11 @@ msgstr "Email"
 msgid "Email address"
 msgstr "Indirizzo email"
 
-#: app/views/users.html
+#: app/views/customers.html app/views/users.html
 msgid "Email address is not valid"
 msgstr "L'indirizzo email non è valido"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
 
@@ -265,7 +297,7 @@ msgstr "Home"
 msgid "Id"
 msgstr "Id"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Location"
 msgstr "Posizione"
 
@@ -276,6 +308,10 @@ msgstr "Luogo del servizio"
 #: app/views/home.html
 msgid "Log in"
 msgstr "Accedi"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "Esci"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -301,10 +337,6 @@ msgstr "Nuovo utente"
 msgid "No update is present"
 msgstr "Nessun aggiornamento presente"
 
-#: app/scripts/app.js
-msgid "Not yet available..."
-msgstr "Non ancora disponibile..."
-
 #: app/views/serviceReports.html
 msgid "Notes"
 msgstr "Note"
@@ -314,8 +346,16 @@ msgid "Number"
 msgstr "Numero"
 
 #: app/views/serviceReports.html
+msgid "Operator"
+msgstr "Operatore"
+
+#: app/views/serviceReports.html
 msgid "Operator of service"
 msgstr "Operatore del servizio"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Firma dell'operatore"
 
 #: app/views/nav.html
 msgid "Orders"
@@ -325,17 +365,29 @@ msgstr "Ordini"
 msgid "P.&nbsp;IVA"
 msgstr "P.&nbsp;IVA"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
 msgstr "P.IVA"
 
 #: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA contiene caratteri non validi"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "Il codice di controllo della P.IVA non corrisponde"
+
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
 msgstr "Telefono"
 
 #: app/views/customers.html
 msgid "Phone number"
 msgstr "Numero di telefono"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Il numero di telefono non è valido"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -345,7 +397,7 @@ msgstr "Luogo"
 msgid "Preparing the downloading an update"
 msgstr "Si prepara lo scarico di un aggiornamento"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
 msgstr "Stampa"
 
@@ -373,9 +425,17 @@ msgstr "Registrati"
 msgid "Roles"
 msgstr "Ruoli"
 
-#: app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
 msgstr "Salva"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "Rapporto di servizio"
+
+#: app/views/serviceReports.html
+msgid "Service report n&deg;"
+msgstr "Rapporto di servizio n&deg;"
 
 #: app/views/nav.html
 msgid "Service reports"
@@ -388,6 +448,14 @@ msgstr "Impostazioni"
 #: app/views/users.html
 msgid "Social connection provider"
 msgstr "Fornitore d'accesso sociale"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Questo nome cliente è già in uso"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Il nome del cliente non è valido"
 
 #: app/views/home.html
 msgid ""
@@ -407,6 +475,10 @@ msgstr ""
 #: app/views/users.html
 msgid "This user name is already present"
 msgstr "Questo nome utente è già presente"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Questo valore non è né un Codice Fiscale né una P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
@@ -463,6 +535,12 @@ msgstr "password:"
 #: app/views/home.html
 msgid "username:"
 msgstr "utente:"
+
+#~ msgid "Customer name must be valid"
+#~ msgstr "Il nome del cliente deve essere valido"
+
+#~ msgid "Not yet available..."
+#~ msgstr "Non ancora disponibile..."
 
 #~ msgid "N&deg;"
 #~ msgstr "N&deg;"

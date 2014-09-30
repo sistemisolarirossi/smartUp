@@ -1,10 +1,12 @@
 'use strict';
  
-app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Servicereport, Customer, Auth, DateTime) {
+app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CFG, Servicereport, Customer, Auth, DateTime) {
   $rootScope.formLabel = 'Service reports';
 
   $scope.servicereport = {};
   $scope.servicereports = Servicereport.all;
+
+  $scope.CFG = CFG; // to access CFG from view
 
   $scope.customersById = {};
   $scope.customers = Customer.all;
@@ -24,9 +26,21 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Se
     }
   }, true);
 
+  $scope.$watch('formAddEdit.$valid', function() {
+    $scope.formAddEditValid = true;
+  });
+
   $scope.servicereports.$on('loaded', function() {
     $scope.servicereport.number = Servicereport.getNumberNext();
   });
+
+/*
+  $('.typeahead').typeahead({
+    hint: true,
+    highlight: true,
+    minLength: 1
+  });
+*/
 
   $scope.initServicereport = function () {
     //$scope.servicereport.number = null;
@@ -39,6 +53,7 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Se
     $scope.servicereport.dateCreation = null;
   
     $scope.customer = null;
+    $scope.formAddEditValid = false;
     $scope.formAddEditSubmitted = false;
     $scope.currentId = null;
     $scope.addMode = false;
@@ -48,9 +63,9 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Se
     $scope.dateInit();
   };
 
-  $scope.submitServicereport = function (valid) {
+  $scope.submitServicereport = function () {
     $scope.formAddEditSubmitted = true; // allow validation errors to be shown
-    if (!valid) {
+    if (!$scope.formAddEditValid) {
       return;
     }
 
@@ -81,14 +96,51 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, Se
   };
 
   $scope.deleteServicereport = function (servicereport) {
-    var id = servicereport.$id;
-    Servicereport.delete(id);
+    //var id = servicereport.$id;
+    //Servicereport.delete(id);
+    Servicereport.delete(servicereport);
   };
 
   $scope.addServicereport = function () {
     $scope.initServicereport();
     $scope.addMode = true;
     $scope.servicereport.number = Servicereport.setNumberNext();
+  };
+
+  $scope.currentUserCanRead = function () {
+    //console.info('currentUserCanRead - $rootScope.currentUser:', $rootScope.currentUser);
+    if ($rootScope.currentUser) {
+      //console.info('currentUserCanRead - currentUser is set');
+      //console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
+      if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.servicereports) {
+        //console.info('currentUserCanRead - currentUser.roles.read.servicereports:', $rootScope.currentUser.roles.servicereports.read);
+        //console.info('currentUserCanRead - retval:', $rootScope.currentUser.roles.servicereports.read);
+        return $rootScope.currentUser.roles.servicereports.read;
+      } else {
+        //console.info('currentUserCanRead - returning FALSE - no servicereports roles on user', $rootScope.currentUser);
+        return false;
+      }
+    }
+    //console.info('currentUserCanRead - returning FALSE');
+    return false;
+  };
+
+  $scope.currentUserCanWrite = function () {
+    //console.info('currentUserCanWrite');
+    if ($rootScope.currentUser) {
+      //console.info('currentUserCanWrite - currentUser is set');
+      //console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
+      if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.servicereports) {
+        //console.info('currentUserCanWrite - currentUser.roles.write.servicereports:', $rootScope.currentUser.roles.servicereports.write);
+        //console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.servicereports.write);
+        return $rootScope.currentUser.roles.servicereports.write;
+      } else {
+        //console.info('currentUserCanWrite - returning FALSE (no servicereports roles on user)', $rootScope.currentUser);
+        return false;
+      }
+    }
+    //console.info('currentUserCanWrite - returning FALSE');
+    return false;
   };
 
   $scope.editServicereport = function (servicereport) {

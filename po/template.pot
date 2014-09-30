@@ -14,14 +14,32 @@ msgid ""
 "      It is open-source, fast, compact, extensible, resilient, international and mobile.<br>"
 msgstr ""
 
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr ""
+
+#: app/views/customers.html
 #: app/views/serviceReports.html
 msgid "A customer name is required"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
 msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
 msgstr ""
 
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr ""
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr ""
+
+#: app/views/customers.html
 #: app/views/users.html
 msgid "A street address is required"
 msgstr ""
@@ -39,9 +57,11 @@ msgid "Add new customer"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Address"
 msgstr ""
 
+#: app/views/customers.html
 #: app/views/users.html
 msgid "An email address is required"
 msgstr ""
@@ -110,6 +130,18 @@ msgstr ""
 msgid "Codice Fiscale / P.IVA"
 msgstr ""
 
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr ""
+
 #: app/views/footer.html
 msgid "Company logo"
 msgstr ""
@@ -135,6 +167,7 @@ msgid "Current language is"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Customer"
 msgstr ""
 
@@ -142,6 +175,7 @@ msgstr ""
 msgid "Customer Card"
 msgstr ""
 
+#: app/views/customers.html
 #: app/views/serviceReports.html
 msgid "Customer email address"
 msgstr ""
@@ -151,12 +185,17 @@ msgstr ""
 msgid "Customer name"
 msgstr ""
 
+#: app/views/customers.html
 #: app/views/serviceReports.html
-msgid "Customer name must be valid"
+msgid "Customer phone number"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Customer street address"
 msgstr ""
 
 #: app/views/serviceReports.html
-msgid "Customer phone number"
+msgid "Customer's signature"
 msgstr ""
 
 #: app/views/nav.html
@@ -189,6 +228,7 @@ msgid "Downloading an update"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Duration"
 msgstr ""
 
@@ -209,6 +249,7 @@ msgid "Edit user"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 #: app/views/users.html
 msgid "Email"
 msgstr ""
@@ -217,11 +258,13 @@ msgstr ""
 msgid "Email address"
 msgstr ""
 
+#: app/views/customers.html
 #: app/views/users.html
 msgid "Email address is not valid"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Fax"
 msgstr ""
 
@@ -246,6 +289,7 @@ msgid "Id"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Location"
 msgstr ""
 
@@ -255,6 +299,10 @@ msgstr ""
 
 #: app/views/home.html
 msgid "Log in"
+msgstr ""
+
+#: app/views/nav.html
+msgid "Log out"
 msgstr ""
 
 #: app/views/serviceReports.html
@@ -281,10 +329,6 @@ msgstr ""
 msgid "No update is present"
 msgstr ""
 
-#: app/scripts/app.js
-msgid "Not yet available..."
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Notes"
 msgstr ""
@@ -294,7 +338,15 @@ msgid "Number"
 msgstr ""
 
 #: app/views/serviceReports.html
+msgid "Operator"
+msgstr ""
+
+#: app/views/serviceReports.html
 msgid "Operator of service"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
 msgstr ""
 
 #: app/views/nav.html
@@ -306,15 +358,29 @@ msgid "P.&nbsp;IVA"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "P.IVA"
 msgstr ""
 
 #: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr ""
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr ""
+
+#: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Phone"
 msgstr ""
 
 #: app/views/customers.html
 msgid "Phone number"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
 msgstr ""
 
 #: app/views/serviceReports.html
@@ -326,6 +392,7 @@ msgid "Preparing the downloading an update"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/serviceReports.html
 msgid "Print"
 msgstr ""
 
@@ -353,9 +420,18 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
+#: app/views/customers.html
 #: app/views/serviceReports.html
 #: app/views/users.html
 msgid "Save"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Service report n&deg;"
 msgstr ""
 
 #: app/views/nav.html
@@ -370,6 +446,14 @@ msgstr ""
 msgid "Social connection provider"
 msgstr ""
 
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr ""
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr ""
+
 #: app/views/home.html
 msgid ""
 "This is <em>{{ appName }}</em> home page for non registered users.<br>\n"
@@ -382,6 +466,10 @@ msgstr ""
 
 #: app/views/users.html
 msgid "This user name is already present"
+msgstr ""
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
 msgstr ""
 
 #: app/views/serviceReports.html

@@ -34,18 +34,16 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
 
   $scope.currentUserCanRead = function () {
     if ($rootScope.currentUser) {
-      //console.info('currentUserCanRead - currentUser is set');
-      //console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
+      console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
       if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.users) {
-        //console.info('currentUserCanRead - currentUser.roles.read.users:', $rootScope.currentUser.roles.users.read);
-        //console.info('currentUserCanRead - retval:', $rootScope.currentUser.roles.users.read);
+        console.info('currentUserCanRead - currentUser.roles.read.users:', $rootScope.currentUser.roles.users.read);
         return $rootScope.currentUser.roles.users.read;
       } else {
-        //console.info('currentUserCanRead - returning FALSE (no user roles on user)');
+        console.info('currentUserCanRead - returning FALSE (no user roles on user)');
         return false;
       }
     }
-    //console.info('currentUserCanRead - returning FALSE');
+    console.info('currentUserCanRead - returning FALSE');
     return false;
   };
 

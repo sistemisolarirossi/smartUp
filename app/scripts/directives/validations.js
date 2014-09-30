@@ -1,12 +1,7 @@
 'use strict';
 
-function capitalizeAllWords(text) {
-  var words = text.split(' ');
-  for (var i = 0; i < words.length; i++) {
-    var j = words[i].charAt(0).toUpperCase();
-    words[i] = j + words[i].substr(1);
-  }
-  return words.join(' ');
+function capitalize(text) {
+  return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
 function formatDuration(text) {
@@ -58,8 +53,8 @@ app.directive('checkUserName', function(User) {
         return retval;
       });
       elm.bind('blur', function() {
-        if (model.$viewValue) { // capitalize all words in value
-          model.$viewValue = capitalizeAllWords(model.$viewValue);
+        if (model.$viewValue) { // capitalize value
+          model.$viewValue = capitalize(model.$viewValue);
           model.$render();
         }
       });
@@ -104,12 +99,11 @@ app.directive('checkDuration', function() {
         return retval;
       });
       elm.bind('blur', function() {
-        if (model.$viewValue) { // capitalize all words in value
+        if (model.$viewValue) { // format duratinon value
           model.$viewValue = formatDuration(model.$viewValue);
           model.$render();
         }
       });
-
     }
   };
 });
@@ -150,8 +144,8 @@ app.directive('checkCustomerName', function(Customer) {
         return retval;
       });
       elm.bind('blur', function() {
-        if (model.$viewValue) { // capitalize all words in value
-          model.$viewValue = capitalizeAllWords(model.$viewValue);
+        if (model.$viewValue) { // capitalize value
+          model.$viewValue = capitalize(model.$viewValue);
           model.$render();
         }
       });

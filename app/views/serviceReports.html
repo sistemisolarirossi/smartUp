@@ -1,6 +1,6 @@
 <div class="container servicereports-page">
 
-  <div ng-show="signedIn()">
+  <div ng-show="signedIn() && currentUserCanRead()">
 
     <form class="form-horizontal" ng-hide="printMode || addMode || editMode">
       <div class="form-group">
@@ -94,96 +94,130 @@
     <form name="formAddEdit" ng-show="addMode || editMode" novalidate class="servicereport form-horizontal">
       <div class="row" ng-attr-title="{{ 'Number' | translate }}">
         <div class="col-xs-6 col-sm-2 col-lg-2">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-flag"></span></span>
-            <input type="text" class="form-control" ng-model="servicereport.number" ng-disabled="true" />
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-flag"></span></span>
+              <input type="text" class="form-control" ng-model="servicereport.number" ng-disabled="true" />
+            </div>
           </div>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Operator of service' | translate }}">
         <div class="col-xs-8 col-sm-4 col-lg-2">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-            <input type="text" name="operator" class="form-control" ng-model="servicereport.operator" check-not-empty />
+          <div class="form-group"
+            ng-class="{ 'has-error':
+              (formAddEditSubmitted && !formAddEdit.operator.$valid)
+            }">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+              <!-- TODO: typeahead on users -->
+              <input type="text" name="operator" class="form-control" ng-model="servicereport.operator" required key-escape="cancelServicereport()" />
+            </div>
+            <div ng-messages="formAddEdit.operator.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
+              <div ng-message="required"><span translate>An operator is required</span></div>
+            </div>
           </div>
-        </div>
-        <div class="error-container" ng-show="formAddEdit.operator.$invalid && formAddEditSubmitted">
-          <small class="error" ng-show="formAddEdit.operator.$error.required">
-            <span translate>An operator is required</span>
-          </small>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Customer name' | translate }}">
         <div class="col-xs-10 col-sm-5 col-lg-3">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
-            <input type="text" name="customername" class="form-control" ng-model="customer.name" autofocus="addMode || editMode" typeahead="customer.name for customer in getCustomers($viewValue) | orderByPriority | filter: {name: $viewValue} | limitTo:5" typeahead-editable="false" typeahead-on-select="onCustomerSelect($item, $model, $label)" autocomplete="off" placeholder="{{ 'Customer name' | translate }}" check-not-empty />
+          <div class="form-group"
+            ng-class="{ 'has-error':
+              (formAddEditSubmitted && !formAddEdit.customername.$valid)
+            }">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-credit-card"></span></span>
+              <input type="text" name="customername" class="form-control" ng-model="customer.name" autofocus="addMode || editMode" typeahead="customer.name for customer in getCustomers($viewValue) | orderByPriority | filter: $viewValue | limitTo:5" typeahead-editable="false" typeahead-on-select="onCustomerSelect($item, $model, $label)" autocomplete="off" placeholder="{{ 'Customer name' | translate }}" required key-escape="cancelServicereport()" />
+            </div>
+            <div ng-messages="formAddEdit.customername.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
+              <div ng-message="required"><span translate>A customer name is required</span></div>
+            </div>
           </div>
-        </div>
-        <div class="error-container" ng-show="formAddEdit.customername.$invalid && formAddEditSubmitted">
-          <small class="error" ng-show="formAddEdit.customername.$error.required">
-            <span translate>A customer name is required</span>
-          </small>
-          <small class="error" ng-show="!formAddEdit.customername.$error.required && formAddEdit.customername.$invalid">
-            <span translate>Customer name must be valid</span>
-          </small>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Location of service' | translate }}">
         <div class="col-xs-12 col-sm-8 col-lg-4">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
-            <input type="text" class="form-control" ng-model="servicereport.location" placeholder="{{ 'Location of service' | translate }}" />
+          <div class="form-group"
+            ng-class="{ 'has-error':
+              (formAddEditSubmitted && !formAddEdit.location.$valid)
+            }">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
+              <input type="text" name="location" class="form-control" ng-model="servicereport.location" placeholder="{{ 'Location of service' | translate }}" required key-escape="cancelServicereport()" />
+            </div>
+            <div ng-messages="formAddEdit.location.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
+              <div ng-message="required"><span translate>A location of service is required</span></div>
+            </div>
           </div>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Customer phone number' | translate }}">
         <div class="col-xs-9 col-sm-4 col-lg-3">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-phone-alt"></span></span>
-            <input type="text" class="form-control" ng-model="customer.phone" disabled />
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-phone-alt"></span></span>
+              <input type="text" class="form-control" ng-model="customer.phone" disabled />
+            </div>
           </div>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Customer email address' | translate }}">
         <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-            <input type="email" class="form-control" ng-model="customer.email" disabled />
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+              <input type="email" class="form-control" ng-model="customer.email" disabled />
+            </div>
           </div>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Date of service start' | translate }}">
         <div class="col-xs-7 col-sm-4 col-lg-3">
-          <div class="input-group">
-            <span class="input-group-addon" ng-click="dateOpen($event)"><span class="glyphicon glyphicon-calendar"></span></span>
-            <input type="text" class="form-control" ng-click="dateOpen($event)" datepicker-popup="{{ dateFormat }}" ng-model="servicereport.dateIn" title="Date of service start" is-open="dateOpened" min-date="dateMin" max-date="dateMax" datepicker-options="dateOptions" date-disabled="dateDisabled(date, mode)" check-not-empty />
+          <div class="form-group"
+            ng-class="{ 'has-error':
+              (formAddEditSubmitted && !formAddEdit.dateIn.$valid)
+            }">
+            <div class="input-group">
+              <span class="input-group-addon" ng-click="dateOpen($event)"><span class="glyphicon glyphicon-calendar"></span></span>
+              <input type="text" name="dateIn" class="form-control" ng-click="dateOpen($event)" datepicker-popup="{{ dateFormat }}" ng-model="servicereport.dateIn" title="Date of service start" is-open="dateOpened" min-date="dateMin" max-date="dateMax" datepicker-options="dateOptions" date-disabled="dateDisabled(date, mode)" required key-escape="cancelServicereport()" />
+            </div>
+            <div ng-messages="formAddEdit.dateIn.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
+              <div ng-message="required"><span translate>A date of service start is required</span></div>
+            </div>
           </div>
         </div>
         <div class="col-xs-5" ng-attr-title="{{ 'Time of service start' | translate }}">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
-            <timepicker ng-model="timeIn" ng-change="timeChanged()" hour-step="hourStep" minute-step="minuteStep" show-meridian="showMeridian" data-template-url="timepicker.tpl.html"></timepicker>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+              <timepicker ng-model="timeIn" ng-change="timeChanged()" hour-step="hourStep" minute-step="minuteStep" show-meridian="showMeridian" data-template-url="timepicker.tpl.html" key-escape="cancelServicereport()"></timepicker>
+            </div>
           </div>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Duration of service' | translate }} {{ '(hh:mm)' | translate }}">
         <div class="col-xs-6 col-sm-3 col-lg-2">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
-            <input type="text" name="duration" class="form-control" ng-model="servicereport.duration" placeholder="hh:mm" autocomplete="off" check-not-empty check-duration />
+          <div class="form-group"
+            ng-class="{ 'has-error':
+              (formAddEditSubmitted && !formAddEdit.duration.$valid) ||
+              formAddEdit.duration.$error.invalid
+            }">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+              <input type="text" name="duration" class="form-control" ng-model="servicereport.duration" placeholder="hh:mm" autocomplete="off" check-duration required key-escape="cancelServicereport()" />
+            </div>
+            <div ng-messages="formAddEdit.duration.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
+              <div ng-message="required"><span translate>A duration must be in the form 'hh' or 'hh:mm', and at least one minute long</span></div>
+            </div>
           </div>
-        </div>
-        <div class="error-container" ng-show="formAddEdit.duration.$invalid && formAddEditSubmitted">
-          <small class="error" ng-show="formAddEdit.duration.$invalid">
-            <span translate>A duration must be in the form 'hh' or 'hh:mm', and at least one minute long</span>
-          </small>
         </div>
       </div>
       <div class="row" ng-attr-title="{{ 'Notes' | translate }}">
         <div class="col-xs-12 col-sm-10 col-lg-6">
-          <div class="input-group">
-            <textarea cols="80" rows="5" class="form-control" ng-model="servicereport.notes" placeholder="{{ 'Notes' | translate }}"></textarea>
+          <div class="form-group">
+            <div class="input-group">
+              <textarea cols="80" rows="5" class="form-control" ng-model="servicereport.notes" placeholder="{{ 'Notes' | translate }}" key-escape="cancelServicereport()"></textarea>
+            </div>
           </div>
         </div>
       </div>
@@ -204,35 +238,35 @@
       <div class="print-report servicereport">
         <div class="row print-row">
           <div class="col-xs-4">
-            <h6><img src="icons/favicon.png">Sistemi Solari Rossi</h6>
+            <h6><img src="icons/favicon.png">{{ CFG.APP_FULLNAME }}</h6>
           </div>
           <div class="col-xs-4 text-right">
-            <h2>Service&nbsp;report</h2>
+            <h2><span translate>Service report</span></h2>
           </div>
           <div class="col-xs-4">
           </div>
         </div>
         <div class="row print-row">
           <div class="col-xs-4">
-            <label>Service&nbsp;report&nbsp;n&deg;</label>
+            <label><span translate>Service report n&deg;</span></label>
             <input type="text" value="{{ servicereport.number }}" disabled="true" />
           </div>
           <div class="col-xs-8">
-            <label>Operator</label>
+            <label><span translate>Operator</span></label>
             <input type="text" value="{{ servicereport.operator }}" disabled="true" />
           </div>
         </div>
         <div class="row print-row">
           <div class="col-xs-4">
-            <label>Date</label>
+            <label><span translate>Date</span></label>
             <input type="text" value="{{ servicereport.dateIn | date: 'dd MMMM yyyy HH:mm' }}" disabled="true"/>
           </div>
           <div class="col-xs-2">
-            <label>Duration</label>
+            <label><span translate>Duration</span></label>
             <input type="text" value="{{ servicereport.duration | date: 'HH:mm' }}" disabled="true"/>
           </div>
           <div class="col-xs-6">
-            <label>Location</label>
+            <label><span translate>Location</span></label>
             <input type="text" value="{{ servicereport.location }}" disabled="true"/>
           </div>
         </div>
@@ -243,29 +277,29 @@
         </div>
         <div class="row print-row">
           <div class="col-xs-3">
-            <label>Customer</label>
+            <label><span translate>Customer</span></label>
             <input type="text" value="{{ customer.name }}" disabled="true" />
           </div>
           <div class="col-xs-3">
-            <label>P.&nbsp;IVA</label>
+            <label><span translate>P.IVA</span></label>
             <input type="text" value="{{ customer.cfpiva }}" disabled="true" />
           </div>
           <div class="col-xs-6">
-            <label>Address</label>
+            <label><span translate>Address</span></label>
             <input type="text" value="{{ customer.address }}" disabled="true" />
           </div>
         </div>
         <div class="row print-row">
           <div class="col-xs-4">
-            <label>Email</label>
+            <label><span translate>Email</span></label>
             <input type="text" value="{{ customer.email }}" disabled="true" />
           </div>
           <div class="col-xs-4">
-            <label>Phone</label>
+            <label><span translate>Phone</span></label>
             <input type="text" value="{{ customer.phone }}" disabled="true" />
           </div>
           <div class="col-xs-4">
-            <label>Fax</label>
+            <label><span translate>Fax</span></label>
             <input type="text" value="{{ customer.fax }}" disabled="true" />
           </div>
         </div>
@@ -276,7 +310,7 @@
         </div>
         <div class="row print-row">
           <div class="col-xs-12">
-            <label>Notes</label>
+            <label><span translate>Notes</span></label>
             <textarea rows="13" disabled="true">{{ servicereport.notes }}</textarea>
           </div>
         </div> 
@@ -287,11 +321,11 @@
         </div>
         <div class="row print-row">
           <div class="col-xs-6">
-            <label>Customer's signature</label>
+            <label><span translate>Customer's signature</span></label>
             <input type="text" value="" disabled="true" style="height: 4.0em;" />
           </div>
           <div class="col-xs-6">
-            <label>Operator's signature</label>
+            <label><span translate>Operator's signature</span></label>
             <input type="text" value="" disabled="true" style="height: 4.0em;" />
           </div>
         </div>
@@ -299,11 +333,11 @@
       <div class="row no-print" style="margin-top: 1.0em;">
         <div class="col">
           <button type="submit" class="btn btn-primary" ng-click="printServicereport()">
-            <i class="glyphicon glyphicon-print"></i>&nbsp;Print
+            <i class="glyphicon glyphicon-print"></i>&nbsp;<span translate>Print</span>
           </button>
           &emsp;
           <button type="text" class="btn btn-default" ng-click="cancelServicereport()">
-            <i class="glyphicon glyphicon-remove"></i>&nbsp;cancel
+            <i class="glyphicon glyphicon-remove"></i>&nbsp;<span translate>cancel</span>
           </button>
         </div>
       </div>

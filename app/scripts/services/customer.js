@@ -34,17 +34,18 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
         return customersByName[customerName.toLowerCase()];
       }
     },
-    delete: function (customerId) {
-      var customer = Customer.find(customerId);
+    delete: function (customer) {
+      //var customer = Customer.find(customer.$id);
+console.info('deleting customer', customer);
       if (!customer.name) {
         var deferred = $q.defer();
         deferred.resolve('NO SUCH CUSTOMER ID');
         return deferred.promise;
       }
-      customer.deleted = true;
-      return customers.$child(customerId).$set(customer).then(
-        function(success) {
-          console.info('remove - then - success', success, customer);
+      //customer.deleted = true;
+      return customers.$child(customer.$id).$child('deleted').$set(true).then(
+        function() {
+          console.info('remove - then - success', customer);
           customersByName.$remove(customer.name.toLowerCase());
           return null;
         },

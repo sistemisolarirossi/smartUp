@@ -5,6 +5,21 @@ app.factory('Util', function () {
   var Util = {
 
    /**
+      * Capitalize all words in text
+      *
+      * Input: text to be capitalized
+      * Output: capitalized text
+      */
+    capitalizeAllWords: function (text) {
+      var words = text.split(' ');
+      for (var i = 0; i < words.length; i++) {
+        var j = words[i].charAt(0).toUpperCase();
+        words[i] = j + words[i].substr(1);
+      }
+      return words.join(' ');
+    },
+
+   /**
       * Check Phone Number
       *
       * Input: value to be checked

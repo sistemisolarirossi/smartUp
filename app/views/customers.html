@@ -3,7 +3,7 @@
   <div ng-show="signedIn() && currentUserCanRead()">
 
     <form class="form-horizontal" ng-hide="printMode || addMode || editMode">
-      <div class="form-group" style="margin-bottom: 0;">
+      <div class="form-group">
         <div class="row">
           <div class="col-xs-3" ng-attr-title="{{ 'Add new customer' | translate }}">
             <button type="submit" class="btn btn-primary" ng-show="!(addMode || editMode)" ng-click="addCustomer()">
@@ -86,7 +86,7 @@
     </div>
 
     <form name="formAddEdit" ng-show="addMode || editMode" novalidate ng-submit="submitCustomer()" class="customer form-horizontal">
-      <div class="row" title="Customer name">
+      <div class="row" ng-attr-title="{{ 'Customer name' | translate }}">
         <div class="col-xs-8 col-sm-4 col-lg-3">
           <div class="form-group"
             ng-class="{ 'has-error':
@@ -98,14 +98,14 @@
               <input type="text" name="customername" class="form-control" ng-model="customer.name" placeholder="{{ 'Customer name' | translate }}" autofocus="addMode || editMode" autocomplete="off" check-customer-name customer-id="{{customer.$id}}" required key-escape="cancelCustomer()" />
             </div>
             <div ng-messages="formAddEdit.customername.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
-              <div ng-message="required">A customer name is required</div>
-              <div ng-message="invalid">This customer name is not valid</div>
-              <div ng-message="taken">This customer name is already in use</div>
+              <div ng-message="required"><span translate>A customer name is required</span></div>
+              <div ng-message="invalid"><span translate>This customer name is not valid</span></div>
+              <div ng-message="taken"><span translate>This customer name is already in use</span></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row" title="Codice Fiscale or P.IVA of the customer">
+      <div class="row" ng-attr-title="{{ 'Codice Fiscale or P.IVA of the customer' | translate }}">
         <div class="col-xs-9 col-sm-4 col-lg-3">
           <div class="form-group"
             ng-class="{ 'has-error':
@@ -121,17 +121,17 @@
               <input type="text" name="cfpiva" class="form-control" ng-model="customer.cfpiva" placeholder="{{ 'Codice Fiscale / P.IVA' | translate }}" autocomplete="off" check-cf-or-piva required key-escape="cancelCustomer()" />
             </div>
             <div ng-messages="formAddEdit.cfpiva.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
-              <div ng-message="required">A Codice Fiscale or a P.IVA is required</div>
-              <div ng-message="norcfnorpiva">This value is nor a Codice Fiscale nor a P. IVA</div>
-              <div ng-message="cfinvalidchar">Codice Fiscale contains invalid character(s)</div>
-              <div ng-message="cfcrcwrong">Codice Fiscale control code doesn't match</div>
-              <div ng-message="pivainvalidchar">P.IVA contains invalid character(s)</div>
-              <div ng-message="pivacrcwrong">P.IVA control code doesn't match</div>
+              <div ng-message="required"><span translate>A Codice Fiscale or a P.IVA is required</span></div>
+              <div ng-message="norcfnorpiva"><span translate>This value is nor a Codice Fiscale nor a P.IVA</span></div>
+              <div ng-message="cfinvalidchar"><span translate>Codice Fiscale contains invalid character(s)</span></div>
+              <div ng-message="cfcrcwrong"><span translate>Codice Fiscale control code doesn't match</span></div>
+              <div ng-message="pivainvalidchar"><span translate>P.IVA contains invalid character(s)</span></div>
+              <div ng-message="pivacrcwrong"><span translate>P.IVA control code doesn't match</span></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row" title="Customer phone number">
+      <div class="row" ng-attr-title="{{ 'Customer phone number' | translate }}">
         <div class="col-xs-9 col-sm-4 col-lg-3">
           <div class="form-group"
             ng-class="{ 'has-error':
@@ -143,13 +143,13 @@
               <input type="text" name="phone" class="form-control" ng-model="customer.phone" placeholder="{{ 'Phone number' | translate }}" autocomplete="off" check-phone required key-escape="cancelCustomer()" />
             </div>
             <div ng-messages="formAddEdit.phone.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
-              <div ng-message="required">A phone number is required</div>
-              <div ng-message="invalid">Phone number is not valid</div>
+              <div ng-message="required"><span translate>A phone number is required</span></div>
+              <div ng-message="invalid"><span translate>Phone number is not valid</span></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row" title="Customer email address">
+      <div class="row" ng-attr-title="{{ 'Customer email address' | translate }}">
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="form-group"
             ng-class="{ 'has-error':
@@ -161,13 +161,13 @@
               <input type="text" name="email" class="form-control" ng-model="customer.email" placeholder="{{ 'Email address' | translate }}" autocomplete="off" check-email required key-escape="cancelCustomer()" />
             </div>
             <div ng-messages="formAddEdit.email.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
-              <div ng-message="required">An email address is required</div>
-              <div ng-message="invalid">Email address is not valid</div>
+              <div ng-message="required"><span translate>An email address is required</span></div>
+              <div ng-message="invalid"><span translate>Email address is not valid</span></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row" title="Customer street address">
+      <div class="row" ng-attr-title="{{ 'Customer street address' | translate }}">
         <div class="col-xs-12 col-sm-8 col-lg-4">
           <div class="form-group"
             ng-class="{ 'has-error':
@@ -178,7 +178,7 @@
               <input type="text" name="address" class="form-control" ng-model="customer.address" ng-autocomplete="autocompleteAddressResult" details="autocompleteAddressDetails" options="autocompleteAddressOptions" placeholder="{{ 'Address' | translate }}" required key-escape="cancelCustomer()" />
             </div>
             <div ng-messages="formAddEdit.address.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
-              <div ng-message="required">A street address is required</div>
+              <div ng-message="required"><span translate>A street address is required</span></div>
             </div>            
           </div>
         </div>
@@ -187,11 +187,11 @@
         <div class="col">
           <div class="form-group">
             <button type="submit" class="btn btn-primary" REMOVE-ME-ng-click="submitCustomer()">
-              <i class="glyphicon glyphicon-save"></i>&nbsp;Save
+              <i class="glyphicon glyphicon-save"></i>&nbsp;<span translate>Save</span>
             </button>
             &emsp;
             <button type="text" class="btn btn-default" ng-click="cancelCustomer()">
-              <i class="glyphicon glyphicon-remove"></i>&nbsp;cancel
+              <i class="glyphicon glyphicon-remove"></i>&nbsp;<span translate>cancel</span>
             </button>
           </div>
         </div>
@@ -202,7 +202,7 @@
       <div class="print-report customer">
         <div class="row print-row">
           <div class="col-xs-4">
-            <h6><img src="icons/favicon.png">Sistemi Solari Rossi</h6><!-- TODO: use CFG.APP_FULLNAME -->
+            <h6><img src="icons/favicon.png">{{ CFG.APP_FULLNAME }}</h6>
           </div>
           <div class="col-xs-7 text-right">
             <h2><span translate>Customer Card</span> (da fare...)</h2>

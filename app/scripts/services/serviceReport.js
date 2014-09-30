@@ -8,17 +8,15 @@ app.factory('Servicereport', function ($firebase, CFG, User) {
   var Servicereport = {
     all: servicereports,
     create: function (servicereport) {
-      if (User.signedIn()) {
-        var user = User.getCurrent();
+      var user = User.getCurrent();
 
-        servicereport.operator = user.username;
-        
-        return servicereports.$add(servicereport).then(function (ref) {
-          var servicereportId = ref.name(); 
-          //user.$child('servicereports').$child(servicereportId).$set(true);
-          return servicereportId;
-        });
-      }
+      servicereport.operator = user.username;
+      
+      return servicereports.$add(servicereport).then(function (ref) {
+        var servicereportId = ref.name(); 
+        //user.$child('servicereports').$child(servicereportId).$set(true);
+        return servicereportId;
+      });
     },
     set: function(servicereportId, servicereport) {
       return servicereports.$child(servicereportId).$set(servicereport);
@@ -45,36 +43,37 @@ app.factory('Servicereport', function ($firebase, CFG, User) {
       servicereports.$child('stash').$set({ 'serviceReportNumber': n });
       return n;
     },
-    /*
-    setAttribute: function (servicereportId, attributeValue) {
-      if (User.signedIn()) {
-        ref.child(servicereportId).attribute.set(attributeValue);
-      }
-    },
-    */
-    delete: function (servicereportId) {
-      if (User.signedIn()) {
-        console.info('DELETE', servicereportId);
-        var servicereport = Servicereport.find(servicereportId);
-        servicereport.$on('loaded', function () {
-          console.info('set delete to true servicereport with id:', servicereportId);
-          var servicereport = Servicereport.find(servicereportId);
-          servicereport.deleted = true;
-          servicereport.$on('loaded', function () {
-            servicereports.$child(servicereportId).$set(servicereport);
-          });
-          /*
-          var user = User.findByUsername(servicereport.operator);
-          servicereports.$remove(servicereportId).then(function () {
-            console.info('removed', servicereportId);
-            if (user) {
-              user.$child('servicereports').$remove(servicereportId);
+    delete: function (servicereport) {
+      console.info('deleting servicereport', servicereport);
+      //var servicereport = Servicereport.find(servicereportId);
+      ///servicereport.$on('loaded', function () {
+        console.info('set delete to true servicereport with id:', servicereport.$id);
+        //servicereport.$on('loaded', function () {
+          return servicereports.$child(servicereport.$id).$child('deleted').$set(true).then(
+            function() {
+              return null;
+            },
+            function(error) {
+              return error.code;
             }
-          });
-          */
-        });
-      }
+          );
+        //});
+      ///};
     },
+    /*
+    delete: function (servicereportId) {
+      console.info('DELETE', servicereportId);
+      var servicereport = Servicereport.find(servicereportId);
+      servicereport.$on('loaded', function () {
+        console.info('set delete to true servicereport with id:', servicereportId);
+        var servicereport = Servicereport.find(servicereportId);
+        servicereport.deleted = true;
+        servicereport.$on('loaded', function () {
+          servicereports.$child(servicereportId).$set(servicereport);
+        });
+      });
+    },
+*/
   };
  
   return Servicereport;

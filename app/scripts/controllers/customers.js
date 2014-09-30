@@ -12,6 +12,9 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
     $scope.customers = Customer.all;
   }
   */
+  $scope.$watch('formAddEdit.$valid', function() {
+    $scope.formAddEditValid = true;
+  });
 
   $scope.initCustomer = function () {
     $scope.customer.name = null;
@@ -21,6 +24,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
     $scope.customer.email = null;
     $scope.customer.dateCreation = null;
   
+    $scope.formAddEditValid = false;
     $scope.formAddEditSubmitted = false;
     $scope.currentId = null;
     $scope.addMode = false;
@@ -30,12 +34,15 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
 
     $scope.autocompleteAddressResult = '';
     $scope.autocompleteAddressOptions = null;
-    $scope.autocompleteAddressDetails = { country: 'en' };
+    $scope.autocompleteAddressDetails = { types : 'establishments' };
   };
 
   $scope.submitCustomer = function () {
     /* TODO: use custom validations server side (Firebase) */
     $scope.formAddEditSubmitted = true; // allow validation errors to be shown
+    if (!$scope.formAddEditValid) {
+      return;
+    }
 
     $scope.customer.dateCreation = new Date(); // set customer creation date
 
@@ -64,7 +71,8 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
 */
 
   $scope.deleteCustomer = function (customer) {
-    Customer.delete(customer.$id).then(
+    console.info('deleteCustomer:', customer);
+    Customer.delete(customer).then(
       function(error) {
         if (!error) {
           console.info('deleteCustomer - success');
@@ -92,11 +100,11 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
         //console.info('currentUserCanRead - retval:', $rootScope.currentUser.roles.customers.read);
         return $rootScope.currentUser.roles.customers.read;
       } else {
-        console.info('currentUserCanRead - returning FALSE - no customer roles on user', $rootScope.currentUser);
+        //console.info('currentUserCanRead - returning FALSE - no customer roles on user', $rootScope.currentUser);
         return false;
       }
     }
-    console.info('currentUserCanRead - returning FALSE');
+    //console.info('currentUserCanRead - returning FALSE');
     return false;
   };
 
