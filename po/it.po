@@ -120,6 +120,10 @@ msgstr "Avatar"
 msgid "Avatar image"
 msgstr "Immagine avatar"
 
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F./P.IVA"
+
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
 msgstr "La cache è inizializzata"
@@ -193,7 +197,7 @@ msgstr "Contatti"
 msgid "Current language is"
 msgstr "La lingua attuale è"
 
-#: app/views/customers.html app/views/serviceReports.html
+#: app/views/serviceReports.html
 msgid "Customer"
 msgstr "Cliente"
 
@@ -225,7 +229,7 @@ msgstr "Firma del cliente"
 msgid "Customers"
 msgstr "Clienti"
 
-#: app/views/customers.html app/views/serviceReports.html
+#: app/views/serviceReports.html
 msgid "Date"
 msgstr "Data"
 
@@ -249,7 +253,7 @@ msgstr "Rimuovi utente"
 msgid "Downloading an update"
 msgstr "Si scarica un aggiornamento"
 
-#: app/views/customers.html app/views/serviceReports.html
+#: app/views/serviceReports.html
 msgid "Duration"
 msgstr "Durata"
 
@@ -281,7 +285,7 @@ msgstr "Indirizzo email"
 msgid "Email address is not valid"
 msgstr "L'indirizzo email non è valido"
 
-#: app/views/customers.html app/views/serviceReports.html
+#: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
 
@@ -305,7 +309,7 @@ msgstr "Home"
 msgid "Id"
 msgstr "Id"
 
-#: app/views/customers.html app/views/serviceReports.html
+#: app/views/serviceReports.html
 msgid "Location"
 msgstr "Luogo"
 
@@ -368,10 +372,6 @@ msgstr "Firma dell'operatore"
 #: app/views/nav.html
 msgid "Orders"
 msgstr "Ordini"
-
-#: app/views/customers.html
-msgid "P.&nbsp;IVA"
-msgstr "P.&nbsp;IVA"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -452,6 +452,10 @@ msgstr "Rapporti di servizio"
 #: app/views/nav.html
 msgid "Setup"
 msgstr "Impostazioni"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "Indirizzo stradale"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -575,6 +579,9 @@ msgstr "aggiornamento disponibile"
 #: app/views/home.html
 msgid "username:"
 msgstr "utente:"
+
+#~ msgid "P.&nbsp;IVA"
+#~ msgstr "P.&nbsp;IVA"
 
 #~ msgid "Service report n&#176;"
 #~ msgstr "Rapporto di servizio  n&#176;"

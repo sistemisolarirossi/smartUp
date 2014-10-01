@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettext, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettext, gettextCatalog, Auth, User) {
   $rootScope.formLabel = '';
 
   if (Auth.signedIn()) {
@@ -72,7 +72,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
           msg = gettext('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
           break;
       }
-      toastr.info(msg);
+      toastr.info(gettextCatalog.getString(msg));
     };
   }
 
@@ -124,6 +124,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
           User.setCurrentUser(user);
           $location.path('/');
         } else {
+          // TODO: handle offline status, here...
           $scope.error = 'Please specify an existing username/email';
         }
       }, function (error) {

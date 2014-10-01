@@ -204,48 +204,21 @@
           <div class="col-xs-4">
             <h6><img src="icons/favicon.png">{{ CFG.APP_FULLNAME }}</h6>
           </div>
-          <div class="col-xs-7 text-right">
-            <h2><span translate>Customer Card</span> (da fare...)</h2>
-          </div>
-          <div class="col-xs-1">
-          </div>
-        </div>
-        <div class="row print-row">
-          <div class="col-xs-12">
-            <label><span translate>Name</span></label>
-            <input type="text" value="{{ customer.name }}" disabled="true" />
-          </div>
-        </div>
-        <div class="row print-row">
-          <div class="col-xs-4">
-            <label><span translate>Date</span></label>
-            <input type="text" value="{{ customer.dateIn | date: 'dd MMMM yyyy HH:mm' }}" disabled="true"/>
-          </div>
-          <div class="col-xs-2">
-            <label><span translate>Duration</span></label>
-            <input type="text" value="{{ customer.duration | date: 'HH:mm' }}" disabled="true"/>
-          </div>
-          <div class="col-xs-6">
-            <label><span translate>Location</span></label>
-            <input type="text" value="{{ customer.location }}" disabled="true"/>
-          </div>
-        </div>
-        <div class="row print-row">
-          <div class="col-xs-12">
-            <hr>
+          <div class="col-xs-8 text-right">
+            <h2><span translate>Customer Card</span></h2>
           </div>
         </div>
         <div class="row print-row">
           <div class="col-xs-3">
-            <label><span translate>Customer</span></label>
+            <label><span translate>Customer name</span></label>
             <input type="text" value="{{ customer.name }}" disabled="true" />
           </div>
           <div class="col-xs-3">
-            <label><span translate>P.&nbsp;IVA</span></label>
+            <label><span translate>C.F./P.IVA</span></label>
             <input type="text" value="{{ customer.cfpiva }}" disabled="true" />
           </div>
           <div class="col-xs-6">
-            <label><span translate>Address</span></label>
+            <label><span translate>Street address</span></label>
             <input type="text" value="{{ customer.address }}" disabled="true" />
           </div>
         </div>
@@ -257,10 +230,6 @@
           <div class="col-xs-4">
             <label><span translate>Phone</span></label>
             <input type="text" value="{{ customer.phone }}" disabled="true" />
-          </div>
-          <div class="col-xs-4">
-            <label><span translate>Fax</span></label>
-            <input type="text" value="{{ customer.fax }}" disabled="true" />
           </div>
         </div>
       </div>

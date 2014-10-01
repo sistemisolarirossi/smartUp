@@ -20,6 +20,7 @@ TODO:
  - avoided filerev on all fonts to allow awesome fonts to be found (any problem with caching?)
  - autoFillSync => autofillFix
  - checkCustomerName directive: capitalize viewValue on blur but not model...
+ - handle password and social authentication when offline...
 
 Authentication system
 --------------------------------------------
