@@ -31,7 +31,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     }, true);
     
     $scope.appcacheStatus = function () {
-      console.info('appcacheStatus()');
+      //console.info('appcacheStatus()');
       var msg;
       switch ($rootScope.appcache.status) {
         case 'initializing':
