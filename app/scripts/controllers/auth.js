@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettextCatalog, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, Auth, User) {
   $rootScope.formLabel = '';
 
   if (Auth.signedIn()) {
@@ -35,41 +35,41 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       var msg;
       switch ($rootScope.appcache.status) {
         case 'initializing':
-          msg = gettextCatalog.getString('Cache is being initialized');
+          msg = I18N.t('Cache is being initialized');
           break;
         case 'error':
           if ($scope.online) {
-            msg = gettextCatalog.getString('Cache is not updated (probably the manifest is unreachable)');
+            msg = I18N.t('Cache is not updated (probably the manifest is unreachable)');
           } else {
-            msg = gettextCatalog.getString('Cache is not updated because you are offline');
+            msg = I18N.t('Cache is not updated because you are offline');
           }
           break;
         case 'cached':
-          msg = gettextCatalog.getString('Cache is up-to-date');
+          msg = I18N.t('Cache is up-to-date');
           break;
         case 'checking':
-          msg = gettextCatalog.getString('Checking for the presence of an update');
+          msg = I18N.t('Checking for the presence of an update');
           break;
         case 'downloading':
-          msg = gettextCatalog.getString('Preparing the downloading an update');
+          msg = I18N.t('Preparing the downloading an update');
           break;
         case 'noupdate':
-          msg = gettextCatalog.getString('No update is present');
+          msg = I18N.t('No update is present');
           break;
         case 'obsolete':
-          msg = gettextCatalog.getString('Cache is obsolete');
+          msg = I18N.t('Cache is obsolete');
           break;
         case 'progress':
-          msg = gettextCatalog.getString('Downloading an update');
+          msg = I18N.t('Downloading an update');
           break;
         case 'updateready':
-          msg = gettextCatalog.getString('An update is ready');
+          msg = I18N.t('An update is ready');
           $window.applicationCache.swapCache();
           $window.location.reload();
           $rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
           break;
         default: // shouldn't happen
-          msg = gettextCatalog.getString('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
+          msg = I18N.t('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
           break;
       }
       toastr.info(msg);

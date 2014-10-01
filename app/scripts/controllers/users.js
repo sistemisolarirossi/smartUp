@@ -16,7 +16,7 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
     { key: 'u', desc: 'users' },
     { key: 'c', desc: 'customers' },
     { key: 'o', desc: 'orders' },
-    { key: 's', desc: 'service reports' }
+    { key: 's', desc: 'servicereports' }
   ];
 
   if ($routeParams.username) {

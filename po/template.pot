@@ -56,6 +56,10 @@ msgstr ""
 msgid "Add new customer"
 msgstr ""
 
+#: app/views/users.html
+msgid "Add new user"
+msgstr ""
+
 #: app/views/customers.html
 #: app/views/serviceReports.html
 msgid "Address"
@@ -84,6 +88,10 @@ msgstr ""
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
+msgstr ""
+
+#: app/views/users.html
+msgid "Authentication provider"
 msgstr ""
 
 #: app/views/users.html
@@ -442,10 +450,6 @@ msgstr ""
 msgid "Setup"
 msgstr ""
 
-#: app/views/users.html
-msgid "Social connection provider"
-msgstr ""
-
 #: app/views/customers.html
 msgid "This customer name is already in use"
 msgstr ""
@@ -490,6 +494,10 @@ msgstr ""
 
 #: app/views/users.html
 msgid "User name is not valid"
+msgstr ""
+
+#: app/views/users.html
+msgid "User street address"
 msgstr ""
 
 #: app/views/users.html

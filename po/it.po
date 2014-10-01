@@ -76,6 +76,11 @@ msgstr "Info"
 msgid "Add new customer"
 msgstr "Aggiungi nuovo cliente"
 
+#: app/views/users.html
+#, fuzzy
+msgid "Add new user"
+msgstr "Aggiungi nuovo cliente"
+
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
 msgstr "Indirizzo stradale"
@@ -103,6 +108,10 @@ msgstr "Sei veramente sicuro di rimuovere il rapporto di servizio"
 #: app/views/users.html
 msgid "Are you really sure to remove user"
 msgstr "Sei veramente sicuro di rimuovere l'utente"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "Fornitore di autenticazione"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -445,10 +454,6 @@ msgstr "Rapporti di servizio"
 msgid "Setup"
 msgstr "Impostazioni"
 
-#: app/views/users.html
-msgid "Social connection provider"
-msgstr "Fornitore d'accesso sociale"
-
 #: app/views/customers.html
 msgid "This customer name is already in use"
 msgstr "Questo nome cliente è già in uso"
@@ -499,6 +504,10 @@ msgstr "Nome utente"
 #: app/views/users.html
 msgid "User name is not valid"
 msgstr "Il nome utente non è valido"
+
+#: app/views/users.html
+msgid "User street address"
+msgstr "Indirizzo stradale dell'utente"
 
 #: app/views/users.html
 msgid "Username"

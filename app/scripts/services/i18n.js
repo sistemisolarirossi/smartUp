@@ -1,16 +1,15 @@
 'use strict';
  
-app.factory('I18N', function ($rootScope, $window, $route, CFG, gettextCatalog, tmhDynamicLocale) {
+app.factory('I18N', function ($rootScope, $window, $route, CFG, gettext, gettextCatalog, tmhDynamicLocale) {
   var defaultLanguage = 'en';
 
   $rootScope.$on('$localeChangeSuccess', function () { $route.reload(); });
 
   var I18N = {
-/*
     t: function(string) {
-      return gettextCatalog.getString(string, null);
+      //return gettextCatalog.getString(string, null);
+      return gettext(string);
     },
-*/
     getSupportedLanguages: function() {
       return { /* supported Languages */
         en: {
