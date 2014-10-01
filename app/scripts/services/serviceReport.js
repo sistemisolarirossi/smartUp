@@ -19,6 +19,7 @@ app.factory('Servicereport', function ($firebase, CFG, User) {
       });
     },
     set: function(servicereportId, servicereport) {
+      delete servicereport.$id; // you can't set an item with a property starting with '$'... TODO: deepen this fact...
       return servicereports.$child(servicereportId).$set(servicereport);
     },
     find: function (servicereportId) {

@@ -33,7 +33,7 @@ app.constant('CFG', {
   APP_LOGO:        'icons/logo.png',
   FIREBASE_URL:    'https://smartup.firebaseio.com/',
   SYSTEM_EMAIL:    'sistemisolarirossi@gmail.com',
-  APPCACHE:        true,
+  APPCACHE:        false,
   DEBUG:           true
 });
 

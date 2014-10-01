@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, User) {
+app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, User, gettext) {
 
   $rootScope.formLabel = 'Users';
 
@@ -13,10 +13,10 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
   };
   */
   $scope.roles = [
-    { key: 'u', desc: 'users' },
-    { key: 'c', desc: 'customers' },
-    { key: 'o', desc: 'orders' },
-    { key: 's', desc: 'servicereports' }
+    { key: 'u', desc: gettext('users') },
+    { key: 'c', desc: gettext('customers') },
+    { key: 'o', desc: gettext('orders') },
+    { key: 's', desc: gettext('servicereports') }
   ];
 
   if ($routeParams.username) {
@@ -65,5 +65,18 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
     return false;
   };
 
+  $scope.userRoleDescription = function (user, role) {
+    if (!user.roles || !user.roles[role.desc]) {
+      return gettext('This user can\'t access');
+    } else {
+      var userrole = user.roles[role.desc];
+      return gettext('This user can') + ' ' + (
+        userrole.read && userrole.write ?  gettext('read and write') :
+        userrole.read && !userrole.write ? gettext('read') :
+        !userrole.read && userrole.write ? gettext('write') :
+                                   gettext('not read nor write')
+      );
+    }
+  };
 
 });

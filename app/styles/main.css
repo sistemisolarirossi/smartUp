@@ -417,6 +417,24 @@ form.form-search:before {
   background-color: #000;
 }
 
+/* custom dropdown menu item */
+.dropdown-custom {
+  font-size: 95%;
+  background-color: #caffca;
+  border-color: #fff;
+}
+.dropdown-custom li > a {
+  color: #000082;
+  background-color: #caffca;
+}
+.dropdown-custom li > a:hover {
+  color: #000082;
+  background-color: #caffca;
+}
+.dropdown-custom-divider {
+  background-color: #fff;
+}
+
 /* users roles */
 .role {
   font-family: courier new;

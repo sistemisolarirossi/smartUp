@@ -149,7 +149,7 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
       $scope.currentId = id;
       $scope.servicereport = Servicereport.find(id);
       $scope.customer = Customer.find($scope.servicereport.customerId);
-      console.info('EDIT $scope.servicereport:', id, $scope.servicereport);
+      //console.info('EDIT $scope.servicereport:', id, $scope.servicereport);
       $scope.editMode = true;
     } else {
       $scope.editMode = false;
@@ -162,7 +162,7 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
       $scope.currentId = id;
       $scope.servicereport = Servicereport.find(id);
       $scope.customer = Customer.find($scope.servicereport.customerId);
-      console.info('Preprint $scope.servicereport:', id, $scope.servicereport);
+      //console.info('Preprint $scope.servicereport:', id, $scope.servicereport);
       $scope.printMode = true;
     } else {
       $scope.printMode = false;
@@ -173,7 +173,7 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
     if ($scope.printMode) {
       $scope.print();
       window.onafterprint = function () {
-        console.log('Printing dialog closed...');
+        //console.log('Printing dialog closed...');
         $scope.printMode = false;
         $scope.$apply();
       };

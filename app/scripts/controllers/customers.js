@@ -38,21 +38,22 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
   };
 
   $scope.submitCustomer = function () {
+    console.info('sumbit customer');
     /* TODO: use custom validations server side (Firebase) */
     $scope.formAddEditSubmitted = true; // allow validation errors to be shown
     if (!$scope.formAddEditValid) {
       return;
     }
 
-    $scope.customer.dateCreation = new Date(); // set customer creation date
-
     if ($scope.editMode) {
-      Customer.set($scope.currentId, $scope.customer).then(function () {
-      });
+      $scope.customer.lastModify = new Date(); // set customer modify date
+      //console.info('sumbit customer in edit mode:', $scope.customer.$id, $scope.customer);
+      Customer.set($scope.customer.$id, $scope.customer).then(function () {});
     }
     if ($scope.addMode) {
-      Customer.create($scope.customer).then(function (/*customerId*/) {
-      });
+      $scope.customer.dateCreation = new Date(); // set customer creation date
+      //console.info('sumbit customer in add mode:', $scope.customer);
+      Customer.create($scope.customer).then(function () {});
     }
     $scope.addMode = $scope.editMode = false;
     $scope.formAddEditSubmitted = false; // forbid validation errors to be shown until next submission

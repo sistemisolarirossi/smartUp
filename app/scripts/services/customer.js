@@ -23,10 +23,13 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
       if (customer.name !== oldname) {
         customersByName.$remove(oldname);
       }
+      console.log('set id 1:', customerId);
       customersByName.$child(customer.name.toLowerCase()).$set(customerId);
+      delete customer.$id; // you can't set an item with a property starting with '$'... TODO: deepen this fact...
       return customers.$child(customerId).$set(customer);
     },
     find: function (customerId) {
+      console.log('Info:', customers.$child(customerId));
       return customers.$child(customerId);
     },
     findByName: function (customerName) {
@@ -35,8 +38,7 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
       }
     },
     delete: function (customer) {
-      //var customer = Customer.find(customer.$id);
-console.info('deleting customer', customer);
+      //console.info('deleting customer', customer);
       if (!customer.name) {
         var deferred = $q.defer();
         deferred.resolve('NO SUCH CUSTOMER ID');

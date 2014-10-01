@@ -73,18 +73,12 @@
           <td class="condensed">
             <span ng-repeat="role in roles">
               <span ng-class="{
-                'role': true,
+                'role':     true,
                 'role-rw':  user.roles[role.desc].read &&  user.roles[role.desc].write,
                 'role-r':   user.roles[role.desc].read && !user.roles[role.desc].write,
                 'role-w':  !user.roles[role.desc].read &&  user.roles[role.desc].write,
                 'role-nn': !user.roles[role.desc].read && !user.roles[role.desc].write
-              }" ng-attr-title="{{ 'This user can ' + (
-                 user.roles[role.desc].read && user.roles[role.desc].write  ? 'read and write' :
-                 user.roles[role.desc].read && !user.roles[role.desc].write ? 'read' :
-                !user.roles[role.desc].read && user.roles[role.desc].write  ? 'write' :
-                                                                    'not read nor write'
-                ) + ' ' + role.desc | translate
-              }}">{{ role.key }}</span>
+              }" ng-attr-title="{{ userRoleDescription(user, role) | translate }} {{ role.desc | translate }}">{{ role.key }}</span>
             </span>
           </td>
           <td class="condensed">
