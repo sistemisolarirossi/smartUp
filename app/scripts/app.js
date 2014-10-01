@@ -166,63 +166,63 @@ app.run(function ($window, $rootScope) {
 /**
  * Watch for app-cache status 
  */
-app.run(function ($window, $rootScope, CFG) {
+app.run(function ($window, $rootScope, gettext, CFG) {
   if (CFG.APPCACHE) {
     $rootScope.appcache = {};
-    $rootScope.appcache.status = 'initializing';
+    $rootScope.appcache.status = gettext('initializing');
   
     $window.applicationCache.addEventListener('error', function (error) {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'error';
+        $rootScope.appcache.status = gettext('error');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %', error);
       });
     }, false);
   
     $window.applicationCache.addEventListener('cached', function () {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'cached';
+        $rootScope.appcache.status = gettext('cached');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
     }, false);
   
     $window.applicationCache.addEventListener('checking', function () {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'checking';
+        $rootScope.appcache.status = gettext('checking');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
     }, false);
   
     $window.applicationCache.addEventListener('downloading', function () {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'downloading';
+        $rootScope.appcache.status = gettext('downloading');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
     }, false);
   
     $window.applicationCache.addEventListener('noupdate', function () {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'cached';
+        $rootScope.appcache.status = gettext('cached');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
     }, false);
   
     $window.applicationCache.addEventListener('obsolete', function () {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'cached';
+        $rootScope.appcache.status = gettext('obsolete');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
     }, false);
   
     $window.applicationCache.addEventListener('progress', function () {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'progress';
+        $rootScope.appcache.status = gettext('progress');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
     }, false);
   
     $window.applicationCache.addEventListener('updateready', function () {
       $rootScope.$apply(function () {
-        $rootScope.appcache.status = 'updateready';
+        $rootScope.appcache.status = gettext('updateready');
         console.info('% appcache status: ' + $rootScope.appcache.status + ' %');
       });
     }, false);

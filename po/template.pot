@@ -516,14 +516,38 @@ msgstr ""
 msgid "You are online"
 msgstr ""
 
+#: app/scripts/app.js
+msgid "cached"
+msgstr ""
+
 #: app/views/customers.html
 #: app/views/serviceReports.html
 #: app/views/users.html
 msgid "cancel"
 msgstr ""
 
+#: app/scripts/app.js
+msgid "checking"
+msgstr ""
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr ""
+
+#: app/scripts/app.js
+msgid "error"
+msgstr ""
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr ""
+
 #: app/views/nav.html
 msgid "logged user"
+msgstr ""
+
+#: app/scripts/app.js
+msgid "obsolete"
 msgstr ""
 
 #: app/views/home.html
@@ -532,6 +556,14 @@ msgstr ""
 
 #: app/views/home.html
 msgid "password:"
+msgstr ""
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr ""
+
+#: app/scripts/app.js
+msgid "updateready"
 msgstr ""
 
 #: app/views/home.html

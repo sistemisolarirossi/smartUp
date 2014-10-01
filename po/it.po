@@ -77,7 +77,6 @@ msgid "Add new customer"
 msgstr "Aggiungi nuovo cliente"
 
 #: app/views/users.html
-#, fuzzy
 msgid "Add new user"
 msgstr "Aggiungi nuovo cliente"
 
@@ -525,13 +524,37 @@ msgstr "Si è offline"
 msgid "You are online"
 msgstr "Si è online"
 
+#: app/scripts/app.js
+msgid "cached"
+msgstr "aggiornato"
+
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
 msgstr "annulla"
 
+#: app/scripts/app.js
+msgid "checking"
+msgstr "in fase di controllo"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "in fase di scarico"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "errore"
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "in fase di inizializzazione"
+
 #: app/views/nav.html
 msgid "logged user"
 msgstr "utente connesso"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "obsoleta"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
@@ -540,6 +563,14 @@ msgstr "altrimenti registrare un nuovo account ed accedere."
 #: app/views/home.html
 msgid "password:"
 msgstr "password:"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "in corso"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "aggiornamento disponibile"
 
 #: app/views/home.html
 msgid "username:"

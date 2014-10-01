@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettext, Auth, User) {
   $rootScope.formLabel = '';
 
   if (Auth.signedIn()) {
@@ -35,41 +35,41 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       var msg;
       switch ($rootScope.appcache.status) {
         case 'initializing':
-          msg = I18N.t('Cache is being initialized');
+          msg = gettext('Cache is being initialized');
           break;
         case 'error':
           if ($scope.online) {
-            msg = I18N.t('Cache is not updated (probably the manifest is unreachable)');
+            msg = gettext('Cache is not updated (probably the manifest is unreachable)');
           } else {
-            msg = I18N.t('Cache is not updated because you are offline');
+            msg = gettext('Cache is not updated because you are offline');
           }
           break;
         case 'cached':
-          msg = I18N.t('Cache is up-to-date');
+          msg = gettext('Cache is up-to-date');
           break;
         case 'checking':
-          msg = I18N.t('Checking for the presence of an update');
+          msg = gettext('Checking for the presence of an update');
           break;
         case 'downloading':
-          msg = I18N.t('Preparing the downloading an update');
+          msg = gettext('Preparing the downloading an update');
           break;
         case 'noupdate':
-          msg = I18N.t('No update is present');
+          msg = gettext('No update is present');
           break;
         case 'obsolete':
-          msg = I18N.t('Cache is obsolete');
+          msg = gettext('Cache is obsolete');
           break;
         case 'progress':
-          msg = I18N.t('Downloading an update');
+          msg = gettext('Downloading an update');
           break;
         case 'updateready':
-          msg = I18N.t('An update is ready');
+          msg = gettext('An update is ready');
           $window.applicationCache.swapCache();
           $window.location.reload();
           $rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
           break;
         default: // shouldn't happen
-          msg = I18N.t('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
+          msg = gettext('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
           break;
       }
       toastr.info(msg);

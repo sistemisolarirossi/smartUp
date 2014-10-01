@@ -494,6 +494,7 @@ module.exports = function (grunt) {
     /* jshint camelcase: false */
     nggettext_extract: {
     /* jshint camelcase: true */
+      //markerName: 't',
       pot: {
         files: {
           'po/template.pot': [ 'app/**/*.html', 'app/scripts/**/*.js' ]
