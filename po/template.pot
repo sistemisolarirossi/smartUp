@@ -431,7 +431,7 @@ msgid "Service report"
 msgstr ""
 
 #: app/views/serviceReports.html
-msgid "Service report n&deg;"
+msgid "Service report n"
 msgstr ""
 
 #: app/views/nav.html

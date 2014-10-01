@@ -299,7 +299,7 @@ msgstr "Id"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Location"
-msgstr "Posizione"
+msgstr "Luogo"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
@@ -434,8 +434,8 @@ msgid "Service report"
 msgstr "Rapporto di servizio"
 
 #: app/views/serviceReports.html
-msgid "Service report n&deg;"
-msgstr "Rapporto di servizio n&deg;"
+msgid "Service report n"
+msgstr "Rapporto di servizio  n"
 
 #: app/views/nav.html
 msgid "Service reports"
@@ -535,6 +535,9 @@ msgstr "password:"
 #: app/views/home.html
 msgid "username:"
 msgstr "utente:"
+
+#~ msgid "Service report n&#176;"
+#~ msgstr "Rapporto di servizio  n&#176;"
 
 #~ msgid "Customer name must be valid"
 #~ msgstr "Il nome del cliente deve essere valido"
