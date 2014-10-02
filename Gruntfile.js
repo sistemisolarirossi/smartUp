@@ -527,6 +527,8 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
+      'nggettext_extract',
+      'nggettext_compile',
       //'manifest:generate',
       'clean:server',
       'wiredep',

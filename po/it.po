@@ -60,7 +60,7 @@ msgstr "Un luogo del servizio è richiesto"
 msgid "A phone number is required"
 msgstr "Un numero di telefono è richiesto"
 
-#: app/views/customers.html app/views/users.html
+#: app/views/customers.html
 msgid "A street address is required"
 msgstr "Un indirizzo stradale è richiesto"
 
@@ -109,16 +109,32 @@ msgid "Are you really sure to remove user"
 msgstr "Sei veramente sicuro di rimuovere l'utente"
 
 #: app/views/users.html
+msgid "Authentication id"
+msgstr "Id di autenticazione"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Id di autenticazione dell'utente"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Id di autenticazione:"
+
+#: app/views/users.html
 msgid "Authentication provider"
 msgstr "Fornitore di autenticazione"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Fornitore di autenticazione per l'utente"
 
 #: app/views/users.html
 msgid "Avatar"
 msgstr "Avatar"
 
 #: app/views/users.html
-msgid "Avatar image"
-msgstr "Immagine avatar"
+msgid "Avatar image of the user"
+msgstr "Immagine avatar dell'utente"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -277,13 +293,21 @@ msgstr "Modifica l'utente"
 msgid "Email"
 msgstr "Email"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/users.html
 msgid "Email address"
 msgstr "Indirizzo email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address is not valid"
 msgstr "L'indirizzo email non è valido"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Indirzzo email dell'utente"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Indirzzo email dell'utente"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -332,6 +356,10 @@ msgstr "N"
 #: app/views/customers.html
 msgid "Name"
 msgstr "Nome"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Nome dell'utente"
 
 #: app/views/customers.html
 msgid "New customer"
@@ -433,6 +461,17 @@ msgstr "Registrati"
 msgid "Roles"
 msgstr "Ruoli"
 
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+"I ruoli dell'utente: il colore verde indica il permesso di lettura e "
+"scrittura, il giallo significa sola lettura, il blu solo scrittura, ed il "
+"rosso nessun permesso. Le sezioni sono: 'u' (utenti), 'c' (clienti), "
+"'o' (ordini), 's' (rapporti di servizio)."
+
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
 msgstr "Salva"
@@ -481,16 +520,32 @@ msgstr ""
 "Questa è la home page di <em>{{appName }}</em> per gli utenti registrati."
 
 #: app/scripts/controllers/users.js
-msgid "This user can"
-msgstr "Questo utente può"
+msgid "This user can nor read nor write"
+msgstr "Questo utente non può né leggere né scrivere"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Questo utente può leggere"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Questo utente può leggere e scrivere"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Questo utente può scrivere"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Questo utente non può accedere a:"
+msgstr "Questo utente non può accedere a"
 
 #: app/views/users.html
-msgid "This user name is already present"
-msgstr "Questo nome utente è già presente"
+msgid "This user name is already in use"
+msgstr "Questo nome utente è già in uso"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Questo nome utente non è valido"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
@@ -511,14 +566,6 @@ msgstr "Indirzzo email"
 #: app/views/users.html
 msgid "User name"
 msgstr "Nome utente"
-
-#: app/views/users.html
-msgid "User name is not valid"
-msgstr "Il nome utente non è valido"
-
-#: app/views/users.html
-msgid "User street address"
-msgstr "Indirizzo stradale dell'utente"
 
 #: app/views/users.html
 msgid "Username"
@@ -568,10 +615,6 @@ msgstr "in fase di inizializzazione"
 msgid "logged user"
 msgstr "utente connesso"
 
-#: app/scripts/controllers/users.js
-msgid "not read nor write"
-msgstr "né leggere né scrivere"
-
 #: app/scripts/app.js
 msgid "obsolete"
 msgstr "obsoleta"
@@ -593,14 +636,6 @@ msgid "progress"
 msgstr "in corso"
 
 #: app/scripts/controllers/users.js
-msgid "read"
-msgstr "leggere"
-
-#: app/scripts/controllers/users.js
-msgid "read and write"
-msgstr "leggere e scrivere"
-
-#: app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "rapporti di servizio"
 
@@ -616,9 +651,26 @@ msgstr "utente:"
 msgid "users"
 msgstr "utenti"
 
-#: app/scripts/controllers/users.js
-msgid "write"
-msgstr "scrivere"
+#~ msgid "This user name is already present"
+#~ msgstr "Questo nome utente è già presente"
+
+#~ msgid "User name is not valid"
+#~ msgstr "Il nome utente non è valido"
+
+#~ msgid "User street address"
+#~ msgstr "Indirizzo stradale dell'utente"
+
+#~ msgid "Avatar image of user"
+#~ msgstr "Immagine avatar dell'utente"
+
+#~ msgid "User email"
+#~ msgstr "Indirzzo email dell'utente"
+
+#~ msgid "read"
+#~ msgstr "leggere"
+
+#~ msgid "write"
+#~ msgstr "scrivere"
 
 #~ msgid "P.&nbsp;IVA"
 #~ msgstr "P.&nbsp;IVA"

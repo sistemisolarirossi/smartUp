@@ -17,22 +17,24 @@ function formatDuration(text) {
   return value;
 }
 
-app.directive('checkUserName', function(User) {
+app.directive('checkUserName', function(/*User*/) {
   return {
     require: 'ngModel',
     scope: {
       value: '=ngModel'
     },
     link: function(scope, elm, attrs, model) {
-      var USERNAME_REGEXP = /^[^.$\[\]#\/\s]+$/;
+      var USERNAME_REGEXP = /^[^.$\[\]#\/]+$/;
       model.$parsers.unshift(function(viewValue) {
         var user;
         var retval;
         if (viewValue) {
-          user = User.findByUsername(viewValue);
+          /* WE DO HAVE MULTIPLE USER NAMES, CAUSED BY SOCIAL LOGINS...
+          user = User.findByUsername(viewValue.toLowerCase());
           if (user) {
             console.warn('checkUserName directive FOUND User.findByUsername('+viewValue+'):', user);
           }
+          */
         } else {
           model.$setValidity('required', false);
           retval = null;

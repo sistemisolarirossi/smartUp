@@ -118,7 +118,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.$broadcast('autofillFix:update');
     if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {
       Auth.login($scope.user).then(function (authUser) {
-        //console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
+        console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
         if (authUser) {
           var user = User.findByUid(authUser.uid);
           User.setCurrentUser(user);
@@ -128,6 +128,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
           $scope.error = 'Please specify an existing username/email';
         }
       }, function (error) {
+        console.warn('Auth.login($scope.user).then() RETURNED ERROR. user was', $scope.user);
         $scope.error = 'Login failed (' + error.message + ')';
       });
     } else {

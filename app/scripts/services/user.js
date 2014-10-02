@@ -5,7 +5,6 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
   var users = $firebase(refUsers);
   var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
   var usersByName = $firebase(refUsersByName);
-
   var avatarsBaseUrl = 'http://www.gravatar.com/avatar/';
 
   var User = {
@@ -87,9 +86,20 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
       }
       return users.$save(user.uid); // save user
     },
-    findByUsername: function (username) {
+    set: function(userId, user) {
+      console.log('set user:', user);
+      /* DO NO HANDLE usersByName, to allow for common username among different users */
+      var oldusername = users.$child(userId).username;
+      if (user.username !== oldusername) {
+        usersByName.$remove(oldusername);
+      }
+      usersByName.$child(user.username.toLowerCase()).$set(userId);
+      delete user.$id; // you can't set an item with a property starting with '$'... TODO: deepen this fact...
+      return users.$child(userId).$set(user);
+    },
+    findByUsername: function (username) { // DO NO HANDLE usersByName, to allow for common username among different users
       if (username) {
-        return users[usersByName[username/*.toLowerCase()*/]];
+        return users[usersByName[username.toLowerCase()]];
       }
     },
     findByUid: function (uid) {

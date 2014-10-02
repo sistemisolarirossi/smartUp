@@ -12,8 +12,9 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
     $scope.customers = Customer.all;
   }
   */
-  $scope.$watch('formAddEdit.$valid', function() {
-    $scope.formAddEditValid = true;
+  $scope.$watch('formAddEdit.$valid', function(value) {
+    console.info('form edit customer is', value);
+    $scope.formAddEditValid = value;
   });
 
   $scope.initCustomer = function () {

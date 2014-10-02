@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, User, gettext) {
+app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, CFG, User, gettext) {
 
   $rootScope.formLabel = 'Users';
 
@@ -31,38 +31,150 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
     $scope.users = User.all;
   }
   */
+  $scope.CFG = CFG; // to access CFG from view
+  /*
+  if ($location.path() === '/users') { // to handle routes like "/users:$id"
+    $scope.users = User.all;
+  }
+  */
+  $scope.$watch('formEdit.$valid', function(value) {
+    console.info('form edit user is', value);
+    $scope.formEditValid = value;
+  });
+
+  $scope.initUser = function () {
+    $scope.user.name = null;
+    $scope.user.phone = null;
+    $scope.user.email = null;
+    $scope.user.dateCreation = null;
+  
+    $scope.formEditValid = false;
+    $scope.formEditSubmitted = false;
+    $scope.currentUid = null;
+    $scope.editMode = false;  
+    $scope.printMode = false;
+    $scope.orderby = 'name';
+  };
+
+  $scope.editUser = function (user) {
+    console.info('editUser', user);
+    if (!$scope.editMode) {
+      var uid = user.uid;
+      $scope.currentUid = uid;
+      $scope.user = User.findByUid(uid);
+      $scope.editMode = true;
+      console.info('editing user:', $scope.user);
+    } else {
+      $scope.editMode = false;
+    }
+  };
+
+  $scope.submitUser = function () {
+    console.info('sumbit User, form is valid?', $scope.formEditValid);
+    /* TODO: use custom validations server side (Firebase) */
+    $scope.formEditSubmitted = true; // allow validation errors to be shown
+    if (!$scope.formEditValid) {
+      return;
+    }
+
+    if ($scope.editMode) {
+      $scope.user.lastModify = new Date(); // set User modify date
+      console.info('sumbit User in edit mode:', $scope.user);
+      User.set($scope.user.uid, $scope.user).then(function () {});
+    }
+    $scope.editMode = false;
+    $scope.formEditSubmitted = false; // forbid validation errors to be shown until next submission
+  };
+
+  $scope.cancelUser = function () {
+    $scope.initUser();
+  };
+
+/*
+  $scope.deleteUserById = function (UserId) { // TODO: do we need this?
+    User.delete(UserId);
+    var id = User.$id;
+    User.delete(id);
+  };
+*/
+
+  $scope.deleteUser = function (user) {
+    console.info('deleteUser:', user);
+    User.delete(user).then(
+      function(error) {
+        if (!error) {
+          console.info('deleteUser - success');
+          toastr.info('User deleted');
+        } else {
+          console.info('deleteUser - error', error.replace(/_/, ' '));
+          toastr.error('User not deleted: ' + error.replace(/_/, ' '));
+        }
+      }
+    );
+  };
 
   $scope.currentUserCanRead = function () {
     if ($rootScope.currentUser) {
-      console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
+      //console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
       if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.users) {
-        console.info('currentUserCanRead - currentUser.roles.read.users:', $rootScope.currentUser.roles.users.read);
+        //console.info('currentUserCanRead - currentUser.roles.read.users:', $rootScope.currentUser.roles.users.read);
         return $rootScope.currentUser.roles.users.read;
       } else {
-        console.info('currentUserCanRead - returning FALSE (no user roles on user)');
+        //console.info('currentUserCanRead - returning FALSE (no user roles on user)');
         return false;
       }
     }
-    console.info('currentUserCanRead - returning FALSE');
+    //console.info('currentUserCanRead - returning FALSE');
     return false;
   };
 
   $scope.currentUserCanWrite = function () {
-    console.info('currentUserCanWrite');
+    //console.info('currentUserCanWrite');
     if ($rootScope.currentUser) {
-      console.info('currentUserCanWrite - currentUser is set');
-      console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
+      //console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
       if ($rootScope.currentUser.roles && $rootScope.currentUser.roles.users) {
-        console.info('currentUserCanWrite - currentUser.roles.write.users:', $rootScope.currentUser.roles.users.write);
-        console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.users.write);
+        //console.info('currentUserCanWrite - currentUser.roles.write.users:', $rootScope.currentUser.roles.users.write);
         return $rootScope.currentUser.roles.users.write;
       } else {
-        console.info('currentUserCanWrite - returning FALSE (no users roles on user)');
+        //console.info('currentUserCanWrite - returning FALSE (no users roles on user)');
         return false;
       }
     }
-    console.info('currentUserCanWrite - returning FALSE');
+    //console.info('currentUserCanWrite - returning FALSE');
     return false;
+  };
+
+  $scope.flipRole = function (user, roledesc) {
+    if (!user.roles || !user.roles[roledesc]) {
+      console.error('user:', user, 'no such roledesc:', roledesc);
+      // TODO: create roles key...
+      return false;
+    }
+    var userrole = user.roles[roledesc];
+    /*
+       RW   => R
+       R    => W
+       W    => none
+       none => RW
+    */
+    if (userrole.read && userrole.write) {
+      user.roles[roledesc].read = true;
+      user.roles[roledesc].write = false;
+    } else {
+      if (userrole.read && !userrole.write) {
+        user.roles[roledesc].read = false;
+        user.roles[roledesc].write = true;
+      } else {
+        if (!userrole.read && userrole.write) {
+          user.roles[roledesc].read = false;
+          user.roles[roledesc].write = false;
+        } else {
+          user.roles[roledesc].read = true;
+          user.roles[roledesc].write = true;
+        }
+      }
+    }
+    return true;
   };
 
   $scope.userRoleDescription = function (user, role) {
@@ -70,12 +182,19 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
       return gettext('This user can\'t access');
     } else {
       var userrole = user.roles[role.desc];
-      return gettext('This user can') + ' ' + (
-        userrole.read && userrole.write ?  gettext('read and write') :
-        userrole.read && !userrole.write ? gettext('read') :
-        !userrole.read && userrole.write ? gettext('write') :
-                                   gettext('not read nor write')
-      );
+      if (userrole.read && userrole.write) {
+        return gettext('This user can read and write');
+      } else {
+        if (userrole.read && !userrole.write) {
+          return gettext('This user can read');
+        } else {
+          if (!userrole.read && userrole.write) {
+            return gettext('This user can write');
+          } else {
+            return gettext('This user can nor read nor write');
+          }
+        }
+      }
     }
   };
 

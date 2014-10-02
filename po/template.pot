@@ -40,7 +40,6 @@ msgid "A phone number is required"
 msgstr ""
 
 #: app/views/customers.html
-#: app/views/users.html
 msgid "A street address is required"
 msgstr ""
 
@@ -91,7 +90,23 @@ msgid "Are you really sure to remove user"
 msgstr ""
 
 #: app/views/users.html
+msgid "Authentication id"
+msgstr ""
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr ""
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr ""
+
+#: app/views/users.html
 msgid "Authentication provider"
+msgstr ""
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
 msgstr ""
 
 #: app/views/users.html
@@ -99,7 +114,7 @@ msgid "Avatar"
 msgstr ""
 
 #: app/views/users.html
-msgid "Avatar image"
+msgid "Avatar image of the user"
 msgstr ""
 
 #: app/views/customers.html
@@ -264,12 +279,21 @@ msgid "Email"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/users.html
 msgid "Email address"
 msgstr ""
 
 #: app/views/customers.html
 #: app/views/users.html
 msgid "Email address is not valid"
+msgstr ""
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr ""
+
+#: app/views/users.html
+msgid "Email of the user"
 msgstr ""
 
 #: app/views/serviceReports.html
@@ -318,6 +342,10 @@ msgstr ""
 
 #: app/views/customers.html
 msgid "Name"
+msgstr ""
+
+#: app/views/users.html
+msgid "Name of the user"
 msgstr ""
 
 #: app/views/customers.html
@@ -423,6 +451,10 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
+#: app/views/users.html
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and read no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
 #: app/views/customers.html
 #: app/views/serviceReports.html
 #: app/views/users.html
@@ -468,7 +500,19 @@ msgid "This is <em>{{ appName }}</em> home page for registerd users."
 msgstr ""
 
 #: app/scripts/controllers/users.js
-msgid "This user can"
+msgid "This user can nor read nor write"
+msgstr ""
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr ""
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr ""
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
 msgstr ""
 
 #: app/scripts/controllers/users.js
@@ -476,7 +520,11 @@ msgid "This user can't access"
 msgstr ""
 
 #: app/views/users.html
-msgid "This user name is already present"
+msgid "This user name is already in use"
+msgstr ""
+
+#: app/views/users.html
+msgid "This user name is not valid"
 msgstr ""
 
 #: app/views/customers.html
@@ -497,14 +545,6 @@ msgstr ""
 
 #: app/views/users.html
 msgid "User name"
-msgstr ""
-
-#: app/views/users.html
-msgid "User name is not valid"
-msgstr ""
-
-#: app/views/users.html
-msgid "User street address"
 msgstr ""
 
 #: app/views/users.html
@@ -557,10 +597,6 @@ msgstr ""
 msgid "logged user"
 msgstr ""
 
-#: app/scripts/controllers/users.js
-msgid "not read nor write"
-msgstr ""
-
 #: app/scripts/app.js
 msgid "obsolete"
 msgstr ""
@@ -582,14 +618,6 @@ msgid "progress"
 msgstr ""
 
 #: app/scripts/controllers/users.js
-msgid "read"
-msgstr ""
-
-#: app/scripts/controllers/users.js
-msgid "read and write"
-msgstr ""
-
-#: app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr ""
 
@@ -603,8 +631,4 @@ msgstr ""
 
 #: app/scripts/controllers/users.js
 msgid "users"
-msgstr ""
-
-#: app/scripts/controllers/users.js
-msgid "write"
 msgstr ""

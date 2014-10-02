@@ -23,7 +23,6 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
       if (customer.name !== oldname) {
         customersByName.$remove(oldname);
       }
-      console.log('set id 1:', customerId);
       customersByName.$child(customer.name.toLowerCase()).$set(customerId);
       delete customer.$id; // you can't set an item with a property starting with '$'... TODO: deepen this fact...
       return customers.$child(customerId).$set(customer);

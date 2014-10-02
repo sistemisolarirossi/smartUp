@@ -85,6 +85,7 @@
       </table>  
     </div>
 
+    form valid: {{ formAddEditValid }}
     <form name="formAddEdit" ng-show="addMode || editMode" novalidate ng-submit="submitCustomer()" class="customer form-horizontal">
       <div class="row" ng-attr-title="{{ 'Customer name' | translate }}">
         <div class="col-xs-8 col-sm-4 col-lg-3">

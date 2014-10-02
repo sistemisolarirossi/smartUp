@@ -27,47 +27,47 @@
       <table ng-table="tableParams" class="table">
         <tr>
           <th>
-            <span ng-click="orderby = '-username'" translate>Username</span>
+            <span ng-click="orderby = '-username'" ng-attr-title="{{ 'Name of the user' | translate }}" translate>Username</span>
             <a ng-click="orderby = 'username'"><small><i ng-show="orderby === '-username'" class="glyphicon glyphicon-chevron-up"></i></small></a>
             <a ng-click="orderby = '-username'"><small><i ng-show="orderby === 'username'" class="glyphicon glyphicon-chevron-down"></i></small></a>
           </th>
           <th class="phone-hide">
-            <span ng-click="orderby = '-email'" translate>Email</span>
+            <span ng-click="orderby = '-email'" ng-attr-title="{{ 'Email address of the user' | translate }}" translate>Email</span>
             <a ng-click="orderby = 'email'"><small><i ng-show="orderby === '-email'" class="glyphicon glyphicon-chevron-up"></i></small></a>
             <a ng-click="orderby = '-email'"><small><i ng-show="orderby === 'email'" class="glyphicon glyphicon-chevron-down"></i></small></a>
           </th>
           <th>
-            <span ng-click="orderby = '-provider'" translate>Provider</span>
+            <span ng-click="orderby = '-provider'" ng-attr-title="{{ 'Authentication provider for the user' | translate }}" translate>Provider</span>
             <a ng-click="orderby = 'provider'"><small><i ng-show="orderby === '-provider'" class="glyphicon glyphicon-chevron-up"></i></small></a>
             <a ng-click="orderby = '-provider'"><small><i ng-show="orderby === 'provider'" class="glyphicon glyphicon-chevron-down"></i></small></a>
           </th>
           <th class="tablet-hide">
-             <span translate>Id</span>
+             <span ng-attr-title="{{ 'Authentication id of the user' | translate }}" translate>Id</span>
           </th>
           <th>
-            <span translate>Avatar</span>
+            <span ng-attr-title="{{ 'Avatar image of the user' | translate }}" translate>Avatar</span>
           </th>
           <th>
-            <span translate>Roles</span>
+            <span ng-attr-title="{{ 'Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and read no permission. Sections are: \'u\' (users), \'c\' (customers), \'o\' (orders), \'s\' (service reports).' | translate }}" translate>Roles</span>
           </th>
           <th>
             <!-- command buttons -->
           </th>
         </tr>
         <tr ng-repeat="user in users | orderByPriority | filter:search | orderBy: orderby" NOng-if="!user.hasOwnProperty('deleted')">
-          <td ng-attr-title="{{ 'User name' | translate }}" sortable="'username'" class="condensed">
+          <td ng-attr-title="{{ 'Name of the user' | translate }}" sortable="'username'" class="condensed">
             {{ user.username }}
           </td>
-          <td ng-attr-title="{{ 'Email' | translate }}" sortable="'email'" class="condensed phone-hide">
+          <td ng-attr-title="{{ 'Email of the user' | translate }}" sortable="'email'" class="condensed phone-hide">
             {{ user.email }}
           </td>
-          <td ng-attr-title="{{ 'Authentication provider' | translate }}" sortable="'provider'" class="condensed">
+          <td ng-attr-title="{{ 'Authentication provider for the user' | translate }}" sortable="'provider'" class="condensed">
             {{ user.provider }}
           </td>
-          <td ng-attr-title="{{ 'Authentication id: ' + user.id | translate }}" class="condensed tablet-hide">
+          <td ng-attr-title="{{ 'Authentication id:' | translate }} {{ user.id }}" class="condensed tablet-hide">
             <div ng-bind-html="user.id.length > 5 ? user.id.substr(0, 5) + '&hellip;' : user.id"></div>
           </td>
-          <td ng-attr-title="{{ 'Avatar image' | translate }}" class="condensed">
+          <td ng-attr-title="{{ 'Avatar image of the user' | translate }}" class="condensed">
             <img class="pic-circular-small" ng-src="{{ user.imageUrl }}" />
           </td>
           <td class="condensed">
@@ -78,7 +78,7 @@
                 'role-r':   user.roles[role.desc].read && !user.roles[role.desc].write,
                 'role-w':  !user.roles[role.desc].read &&  user.roles[role.desc].write,
                 'role-nn': !user.roles[role.desc].read && !user.roles[role.desc].write
-              }" ng-attr-title="{{ userRoleDescription(user, role) | translate }} {{ role.desc | translate }}">{{ role.key }}</span>
+              }" ng-attr-title="{{ userRoleDescription(user, role) | translate }}: {{ role.desc | translate }}">{{ role.key }}</span>
             </span>
           </td>
           <td class="condensed">
@@ -104,67 +104,157 @@
       </table>  
     </div>
 
-    <form name="formAddEdit" ng-show="addMode || editMode" novalidate class="user form-horizontal">
+    <form name="formEdit" ng-show="editMode" novalidate ng-submit="submitUser()" class="user form-horizontal">
+      
+      <div class="row" ng-attr-title="{{ 'User name' | translate }}">
+        <div class="col-xs-8 col-sm-4 col-lg-3">
+          <div class="form-group"
+            ng-class="{ 'has-error':
+              (formEditSubmitted && !formEdit.username.$valid) ||
+              formEdit.username.$error.required ||
+              formEdit.username.$error.invalid ||
+              formEdit.username.$error.taken
+            }">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+              <input type="text" name="username" class="form-control" ng-model="user.username" placeholder="{{ 'User name' | translate }}" autofocus="editMode" autocomplete="off" check-user-name user-id="{{user.$id}}" required key-escape="cancelUser()" />
+            </div>
+            <div ng-messages="formEdit.username.$error" ng-show="formEditSubmitted" class="help-block help-block-small">
+              <div ng-message="required"><span translate>A user name is required</span></div>
+              <div ng-message="invalid"><span translate>This user name is not valid</span></div>
+              <div ng-message="taken"><span translate>This user name is already in use</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--
       <div class="row" ng-attr-title="{{ 'User name' | translate }}">
         <div class="col-xs-6 col-sm-2 col-lg-2">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-            <input type="text" name="name" class="form-control" ng-model="user.name" placeholder="Name" autofocus="addMode || editMode" autocomplete="off" ng-required NOcheck-not-empty check-user-name user-id="{{user.$id}}" key-escape="cancelUser()" />
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+              <input type="text" name="username" class="form-control" ng-model="user.username" user-id="{{user.$id}}" disabled />
+            </div>
           </div>
         </div>
-        <div class="col-xs-1 small" ng-show="formAddEdit.name.$error.required">
-          <span class="glyphicon glyphicon-ok checkmark checkmark-ok"></span>
-        </div>
-        <div class="error-container" ng-show="formAddEdit.name.$invalid && formAddEditSubmitted">
-          <small class="error" ng-show="formAddEdit.name.$error.required" translate>
-            A user name is required
-          </small>
-          <small class="error" ng-show="formAddEdit.name.$error.invalid" translate>
-            User name is not valid
-          </small>
-          <small class="error" ng-show="formAddEdit.name.$error.taken" translate>
-            This user name is already present
-          </small>
-        </div>
       </div>
+-->
+
       <div class="row" ng-attr-title="{{ 'User email address' | translate }}">
         <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-            <input type="text" name="email" class="form-control" ng-model="user.email" placeholder="Email address" autocomplete="off" check-not-empty check-email key-escape="cancelUser()" />
+          <div class="form-group"
+            ng-class="{ 'has-error':
+              (formEditSubmitted && !formEdit.email.$valid) ||
+              formEdit.email.$error.invalid
+            }">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+              <input type="text" name="email" class="form-control" ng-model="user.email" NOautofocus="editMode" placeholder="{{ 'Email address' | translate }}" autocomplete="off" check-email required key-escape="cancelUser()" />
+            </div>
+            <div ng-messages="formEdit.email.$error" ng-show="formEditSubmitted" class="help-block help-block-small">
+              <div ng-message="required"><span translate>An email address is required</span></div>
+              <div ng-message="invalid"><span translate>Email address is not valid</span></div>
+            </div>
           </div>
         </div>
-        <div class="col-xs-1 small" ng-show="formAddEdit.email.$valid">
-          <span class="glyphicon glyphicon-ok checkmark checkmark-ok"></span>
-        </div>
-        <div class="error-container" ng-show="formAddEdit.email.$invalid && formAddEditSubmitted">
-          <small class="error" ng-show="formAddEdit.email.$error.required" translate>
-            An email address is required
-          </small>
-          <small class="error" ng-show="formAddEdit.email.$error.invalid" translate>
-            Email address is not valid
-          </small>
-        </div>
       </div>
-      <div class="row" ng-attr-title="{{ 'User street address' | translate }}">
-        <div class="col-xs-12 col-sm-8 col-lg-4">
-          <div class="input-group">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
-            <input type="text" name="address" class="form-control" ng-model="user.address" ng-autocomplete="autocompleteAddressResult" details="autocompleteAddressDetails" options="autocompleteAddressOptions" placeholder="Address" check-not-empty key-escape="cancelUser()" />
+
+      <div class="row" ng-attr-title="{{ 'Authentication provider' | translate }}">
+        <div class="col-xs-10 col-sm-5 col-lg-3">
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+              <input type="text" name="provider" class="form-control" ng-model="user.provider" disabled />
+            </div>
           </div>
         </div>
-        <div class="col-xs-1 small">
-          <span ng-show="formAddEdit.address.$valid" class="glyphicon glyphicon-ok" style="color: green; margin-top: 10px;"></span>
-        </div>
-        <div class="error-container" ng-show="formAddEdit.address.$invalid && formAddEditSubmitted">
-          <small class="error" ng-show="formAddEdit.address.$error.required" translate>
-            A street address is required
-          </small>
+      </div>
+
+      <div class="row" ng-attr-title="{{ 'Authentication id' | translate }}">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-tag"></span></span>
+              <input type="text" name="id" class="form-control" ng-model="user.id" disabled />
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="row" ng-attr-title="{{ 'Avatar' | translate }}">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-camera"></span></span>
+              <input type="text" name="avatar" class="form-control" ng-model="user.imageUrl" key-escape="cancelUser()" />
+              <span class="input-group-addon"><img class="pic-circular-small-input-group" ng-src="{{ user.imageUrl }}" /></span>
+              <!-- TODO: enable user to choose her own avatar? If yes, oOnly web url or even image upload? ... -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" ng-attr-title="{{ 'Roles' | translate }}">
+        <div class="col-xs-12 col-sm-4 col-lg-2">
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-cog"></span></span>
+              <span class="input-group-addon"><input type="text" name="role-u" value="u" size="1"
+                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
+                ng-class="
+                {
+                  'role':     true,
+                  'role-rw':  user.roles['users'].read &&  user.roles['users'].write,
+                  'role-r':   user.roles['users'].read && !user.roles['users'].write,
+                  'role-w':  !user.roles['users'].read &&  user.roles['users'].write,
+                  'role-nn': !user.roles['users'].read && !user.roles['users'].write
+                }"
+                ng-click="flipRole(user, 'users')"
+                /></span>
+              <span class="input-group-addon"><input type="text" name="role-c" value="c" size="1"
+                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
+                ng-class="
+                {
+                  'role':     true,
+                  'role-rw':  user.roles['customers'].read &&  user.roles['customers'].write,
+                  'role-r':   user.roles['customers'].read && !user.roles['customers'].write,
+                  'role-w':  !user.roles['customers'].read &&  user.roles['customers'].write,
+                  'role-nn': !user.roles['customers'].read && !user.roles['customers'].write
+                }"
+                ng-click="flipRole(user, 'customers')"
+                /></span>
+              <span class="input-group-addon"><input type="text" name="role-o" value="o" size="1"
+                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
+                ng-class="
+                {
+                  'role':     true,
+                  'role-rw':  user.roles['orders'].read &&  user.roles['orders'].write,
+                  'role-r':   user.roles['orders'].read && !user.roles['orders'].write,
+                  'role-w':  !user.roles['orders'].read &&  user.roles['orders'].write,
+                  'role-nn': !user.roles['orders'].read && !user.roles['orders'].write
+                }"
+                ng-click="flipRole(user, 'orders')"
+                /></span>
+              <span class="input-group-addon"><input type="text" name="role-s" value="s" size="1"
+                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
+                ng-class="
+                {
+                  'role':     true,
+                  'role-rw':  user.roles['servicereports'].read &&  user.roles['servicereports'].write,
+                  'role-r':   user.roles['servicereports'].read && !user.roles['servicereports'].write,
+                  'role-w':  !user.roles['servicereports'].read &&  user.roles['servicereports'].write,
+                  'role-nn': !user.roles['servicereports'].read && !user.roles['servicereports'].write
+                }"
+                ng-click="flipRole(user, 'servicereports')"
+                /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="user row no-print" style="margin-top: 1.0em;">
         <div class="col">
-          <button type="submit" class="btn btn-primary" ng-click="submitUser(formAddEdit.$valid)">
+          <button type="submit" class="btn btn-primary">
             <i class="glyphicon glyphicon-save"></i>&nbsp;<span translate>Save</span>
           </button>
           &emsp;
