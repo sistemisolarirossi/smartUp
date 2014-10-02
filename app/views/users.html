@@ -78,7 +78,7 @@
                 'role-r':   user.roles[role.desc].read && !user.roles[role.desc].write,
                 'role-w':  !user.roles[role.desc].read &&  user.roles[role.desc].write,
                 'role-nn': !user.roles[role.desc].read && !user.roles[role.desc].write
-              }" ng-attr-title="{{ userRoleDescription(user, role) | translate }}: {{ role.desc | translate }}">{{ role.key }}</span>
+              }" ng-attr-title="{{ userRoleDescription(user, role) | translate }} {{ role.desc | translate }}">{{ role.key }}</span>
             </span>
           </td>
           <td class="condensed">
@@ -197,10 +197,9 @@
       <div class="row" ng-attr-title="{{ 'Roles' | translate }}">
         <div class="col-xs-12 col-sm-4 col-lg-2">
           <div class="form-group">
-            <div class="input-group">
+            <div class="input-group" ng-attr-title="{{ 'Roles for this user; click to flip all states (RW -> R -> W -> none)' | translate }}">
               <span class="input-group-addon"><span class="glyphicon glyphicon-cog"></span></span>
               <span class="input-group-addon"><input type="text" name="role-u" value="u" size="1"
-                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
                 ng-class="
                 {
                   'role':     true,
@@ -209,10 +208,10 @@
                   'role-w':  !user.roles['users'].read &&  user.roles['users'].write,
                   'role-nn': !user.roles['users'].read && !user.roles['users'].write
                 }"
+                ng-attr-title="{{ userRoleDescription(user, 'users') | translate }} {{ 'users' | translate }}"
                 ng-click="flipRole(user, 'users')"
                 /></span>
               <span class="input-group-addon"><input type="text" name="role-c" value="c" size="1"
-                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
                 ng-class="
                 {
                   'role':     true,
@@ -221,10 +220,10 @@
                   'role-w':  !user.roles['customers'].read &&  user.roles['customers'].write,
                   'role-nn': !user.roles['customers'].read && !user.roles['customers'].write
                 }"
+                ng-attr-title="{{ userRoleDescription(user, 'customers') | translate }} {{ 'customers' | translate }}"
                 ng-click="flipRole(user, 'customers')"
                 /></span>
               <span class="input-group-addon"><input type="text" name="role-o" value="o" size="1"
-                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
                 ng-class="
                 {
                   'role':     true,
@@ -233,10 +232,10 @@
                   'role-w':  !user.roles['orders'].read &&  user.roles['orders'].write,
                   'role-nn': !user.roles['orders'].read && !user.roles['orders'].write
                 }"
+                ng-attr-title="{{ userRoleDescription(user, 'orders') | translate }} {{ 'orders' | translate }}"
                 ng-click="flipRole(user, 'orders')"
                 /></span>
               <span class="input-group-addon"><input type="text" name="role-s" value="s" size="1"
-                ng-attr-title="Roles for this user; ckicl to flip all states (R+W -> R -> W -> none)"
                 ng-class="
                 {
                   'role':     true,
@@ -245,6 +244,7 @@
                   'role-w':  !user.roles['servicereports'].read &&  user.roles['servicereports'].write,
                   'role-nn': !user.roles['servicereports'].read && !user.roles['servicereports'].write
                 }"
+                ng-attr-title="{{ userRoleDescription(user, 'servicereports') | translate }} {{ 'servicereports' | translate }}"
                 ng-click="flipRole(user, 'servicereports')"
                 /></span>
             </div>

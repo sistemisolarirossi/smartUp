@@ -146,9 +146,14 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
 
   $scope.flipRole = function (user, roledesc) {
     if (!user.roles || !user.roles[roledesc]) {
+      /*
       console.error('user:', user, 'no such roledesc:', roledesc);
       // TODO: create roles key...
       return false;
+      */
+      user.roles = {};
+      user.roles[roledesc] = {};
+      // TODO: save to user immediately... (or when creating user, it's better...)
     }
     var userrole = user.roles[roledesc];
     /*
