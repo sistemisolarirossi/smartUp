@@ -84,9 +84,9 @@ msgstr "Aggiungi nuovo cliente"
 msgid "Address"
 msgstr "Indirizzo stradale"
 
-#: app/views/customers.html app/views/users.html
+#: app/views/customers.html
 msgid "An email address is required"
-msgstr "Un indirzzo email è richiesto"
+msgstr "Un indirizzo email è richiesto"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
@@ -297,17 +297,17 @@ msgstr "Email"
 msgid "Email address"
 msgstr "Indirizzo email"
 
-#: app/views/customers.html app/views/users.html
+#: app/views/customers.html
 msgid "Email address is not valid"
 msgstr "L'indirizzo email non è valido"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Indirzzo email dell'utente"
+msgstr "Indirizzo email dell'utente"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Indirzzo email dell'utente"
+msgstr "Indirizzo email dell'utente"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -463,6 +463,13 @@ msgstr "Ruoli"
 
 #: app/views/users.html
 msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+"Ruoli per questo utente; clicca per scorrere tutti gli stati (RW -> R -> W -"
+"> nessuno)"
+
+#: app/views/users.html
+msgid ""
 "Roles of the user: green color indicates permission for read and write, "
 "yellow means only read, blue only write, and read no permission. Sections "
 "are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
@@ -561,7 +568,7 @@ msgstr "Cambia navigazione"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Indirzzo email"
+msgstr "Indirizzo email"
 
 #: app/views/users.html
 msgid "User name"
@@ -595,7 +602,7 @@ msgstr "annulla"
 msgid "checking"
 msgstr "in fase di controllo"
 
-#: app/scripts/controllers/users.js
+#: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
 msgstr "clienti"
 
@@ -619,7 +626,7 @@ msgstr "utente connesso"
 msgid "obsolete"
 msgstr "obsoleta"
 
-#: app/scripts/controllers/users.js
+#: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
 msgstr "ordini"
 
@@ -635,7 +642,7 @@ msgstr "password:"
 msgid "progress"
 msgstr "in corso"
 
-#: app/scripts/controllers/users.js
+#: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "rapporti di servizio"
 
@@ -647,7 +654,7 @@ msgstr "aggiornamento disponibile"
 msgid "username:"
 msgstr "utente:"
 
-#: app/scripts/controllers/users.js
+#: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "utenti"
 

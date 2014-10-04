@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, CFG, User, gettext) {
+app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, CFG, User, Auth, gettext) {
 
   $rootScope.formLabel = 'Users';
 
@@ -37,31 +37,30 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
     $scope.users = User.all;
   }
   */
-  $scope.$watch('formEdit.$valid', function(value) {
-    console.info('form edit user is', value);
-    $scope.formEditValid = value;
+  $scope.$watch('formAddEdit.$valid', function(value) {
+    console.info('form edit validity is', value);
+    $scope.formAddEditValid = value;
   });
 
   $scope.initUser = function () {
-    $scope.user.name = null;
-    $scope.user.phone = null;
-    $scope.user.email = null;
+    $scope.user.username = null;
     $scope.user.dateCreation = null;
   
-    $scope.formEditValid = false;
-    $scope.formEditSubmitted = false;
-    $scope.currentUid = null;
+    $scope.formAddEditValid = false;
+    $scope.formAddEditSubmitted = false;
+    //$scope.currentUid = null;
     $scope.editMode = false;  
     $scope.printMode = false;
     $scope.orderby = 'name';
   };
 
   $scope.editUser = function (user) {
-    console.info('editUser', user);
+    console.log('EDITUSER', user);
     if (!$scope.editMode) {
-      var uid = user.uid;
-      $scope.currentUid = uid;
-      $scope.user = User.findByUid(uid);
+      //var uid = user.uid;
+      //$scope.currentUid = uid;
+      //$scope.user = User.findByUid(uid);
+      $scope.user = User.find(user.uid);
       $scope.editMode = true;
       console.info('editing user:', $scope.user);
     } else {
@@ -70,10 +69,10 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
   };
 
   $scope.submitUser = function () {
-    console.info('sumbit User, form is valid?', $scope.formEditValid);
+    console.info('sumbit User, form is valid?', $scope.formAddEditValid);
     /* TODO: use custom validations server side (Firebase) */
-    $scope.formEditSubmitted = true; // allow validation errors to be shown
-    if (!$scope.formEditValid) {
+    $scope.formAddEditSubmitted = true; // allow validation errors to be shown
+    if (!$scope.formAddEditValid) {
       return;
     }
 
@@ -83,26 +82,20 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
       User.set($scope.user.uid, $scope.user).then(function () {});
     }
     $scope.editMode = false;
-    $scope.formEditSubmitted = false; // forbid validation errors to be shown until next submission
+    $scope.formAddEditSubmitted = false; // forbid validation errors to be shown until next submission
   };
 
   $scope.cancelUser = function () {
     $scope.initUser();
+    console.log('CANCEL - user now is empty:', $scope.user);
   };
-
-/*
-  $scope.deleteUserById = function (UserId) { // TODO: do we need this?
-    User.delete(UserId);
-    var id = User.$id;
-    User.delete(id);
-  };
-*/
 
   $scope.deleteUser = function (user) {
     console.info('deleteUser:', user);
     User.delete(user).then(
       function(error) {
         if (!error) {
+          Auth.delete(user);
           console.info('deleteUser - success');
           toastr.info('User deleted');
         } else {
@@ -111,6 +104,10 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
         }
       }
     );
+  };
+
+  $scope.addUser = function () {
+    $location.path('/register');
   };
 
   $scope.currentUserCanRead = function () {
@@ -146,22 +143,18 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
 
   $scope.flipRole = function (user, roledesc) {
     if (!user.roles || !user.roles[roledesc]) {
-      /*
+      // shouldn't happen...
       console.error('user:', user, 'no such roledesc:', roledesc);
-      // TODO: create roles key...
       return false;
-      */
-      user.roles = {};
-      user.roles[roledesc] = {};
-      // TODO: save to user immediately... (or when creating user, it's better...)
     }
-    var userrole = user.roles[roledesc];
+
     /*
        RW   => R
        R    => W
        W    => none
        none => RW
     */
+    var userrole = user.roles[roledesc];
     if (userrole.read && userrole.write) {
       user.roles[roledesc].read = true;
       user.roles[roledesc].write = false;
@@ -182,11 +175,11 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
     return true;
   };
 
-  $scope.userRoleDescription = function (user, role) {
-    if (!user.roles || !user.roles[role.desc]) {
+  $scope.userRoleDescription = function (user, roledesc) {
+    if (!user.roles || !user.roles[roledesc]) {
       return gettext('This user can\'t access');
     } else {
-      var userrole = user.roles[role.desc];
+      var userrole = user.roles[roledesc];
       if (userrole.read && userrole.write) {
         return gettext('This user can read and write');
       } else {

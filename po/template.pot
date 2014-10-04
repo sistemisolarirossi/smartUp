@@ -65,7 +65,6 @@ msgid "Address"
 msgstr ""
 
 #: app/views/customers.html
-#: app/views/users.html
 msgid "An email address is required"
 msgstr ""
 
@@ -284,7 +283,6 @@ msgid "Email address"
 msgstr ""
 
 #: app/views/customers.html
-#: app/views/users.html
 msgid "Email address is not valid"
 msgstr ""
 
@@ -452,6 +450,10 @@ msgid "Roles"
 msgstr ""
 
 #: app/views/users.html
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and read no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
 msgstr ""
 
@@ -577,6 +579,7 @@ msgstr ""
 msgid "checking"
 msgstr ""
 
+#: app/views/users.html
 #: app/scripts/controllers/users.js
 msgid "customers"
 msgstr ""
@@ -601,6 +604,7 @@ msgstr ""
 msgid "obsolete"
 msgstr ""
 
+#: app/views/users.html
 #: app/scripts/controllers/users.js
 msgid "orders"
 msgstr ""
@@ -617,6 +621,7 @@ msgstr ""
 msgid "progress"
 msgstr ""
 
+#: app/views/users.html
 #: app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr ""
@@ -629,6 +634,7 @@ msgstr ""
 msgid "username:"
 msgstr ""
 
+#: app/views/users.html
 #: app/scripts/controllers/users.js
 msgid "users"
 msgstr ""

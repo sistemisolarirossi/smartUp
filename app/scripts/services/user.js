@@ -1,6 +1,6 @@
 'use strict';
  
-app.factory('User', function ($rootScope, $firebase, CFG, md5) {
+app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
   var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
   var users = $firebase(refUsers);
   var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
@@ -9,7 +9,7 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
 
   var User = {
     all: users,
-    create: function (user) {
+    create: function (user, password) {
       console.info('User - create() - user:', user);
       if (!user.uid) { // TODO: defer error...
         // ...
@@ -45,33 +45,37 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
           user.imageUrl += user.md5Hash;
         }
       }
+      user.password = password; // save password to be able to allow administrators to remove user from firebase...
 
-      var roles = {};
-      if (user.email === CFG.SYSTEM_EMAIL) { //
-        roles = {
-          'users': {
-            'read': true,
-            'write': true
-          },
-          'customers': {
-            'read': true,
-            'write': true
-          },
-          'orders': {
-            'read': true,
-            'write': true
-          },
-          'servicereports': {
-            'read': true,
-            'write': true
-          }
-        };
+      var allow = false;
+      if (user.email === CFG.SYSTEM_EMAIL) {
+        allow = true;
       }
+      var roles = {
+        'users': {
+          'read': allow,
+          'write': allow
+        },
+        'customers': {
+          'read': allow,
+          'write': allow
+        },
+        'orders': {
+          'read': allow,
+          'write': allow
+        },
+        'servicereports': {
+          'read': allow,
+          'write': allow
+        }
+      };
+
       // TODO: check if user already exists (social logins, for example) before overwriting...
       /* jshint camelcase: false */
       users[user.uid] = {
         imageUrl: user.imageUrl,
         email: user.email,
+        password: user.password,
         username: user.username,
         provider: user.provider,
         id: user.id,
@@ -80,6 +84,9 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
         //firebaseAuthToken: user.firebaseAuthToken, // TODO: do we need this value?
         roles: roles
       };
+      // TODO: use this, instead...:
+      // users[user.uid] = user;
+
       //User.setCurrentUser(user); // set current user id done in $rootScope.$on()...
       if (user.username) {
         usersByName.$child(user.username.toLowerCase()).$set(user.uid); // add to usersByName
@@ -102,19 +109,41 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
         return users[usersByName[username.toLowerCase()]];
       }
     },
+    /*
     findByUid: function (uid) {
       if (uid) {
         return users[uid];
       }
     },
+    */
+    find: function (userId) {
+      return users.$child(userId);
+    },
     getCurrent: function () {
       return $rootScope.currentUser;
     },
-    delete: function (uid) {
-      console.info('deleting user', uid);
+    delete: function (user) {
       // TODO: implement it...
       //delete users[uid]
       //delete usersByName[uid]
+      if (!user.$id) {
+        console.error('USER WITHOUT $ID:', user);
+        var deferred = $q.defer();
+        deferred.resolve('No such user');
+        return deferred.promise;
+      }
+      //user.deleted = true;
+      return users.$child(user.$id).$child('deleted').$set(true).then(
+        function() {
+          console.info('remove - then - success', user);
+          usersByName.$remove(user.username.toLowerCase());
+          return null;
+        },
+        function(error) {
+          console.info('remove - then - error:', error.code);
+          return error.code;
+        }
+      );
     },
     signedIn: function () {
       return $rootScope.currentUser !== undefined;
@@ -128,15 +157,16 @@ app.factory('User', function ($rootScope, $firebase, CFG, md5) {
 
   };
 
-  $rootScope.$on('$firebaseSimpleLogin:login', function (error, authUser) {
-    //console.warn('$rootScope.$on($firebaseSimpleLogin:login) FIRED - authUser:', authUser);
+  $rootScope.$on('$firebaseSimpleLogin:login', function (event, authUser) {
+    console.warn('$rootScope.$on($firebaseSimpleLogin:login) FIRED - authUser:', authUser);
     if (!authUser.uid) {
       toastr.error('Error logging in user');
       console.error('login fired with an authorized user with no uid!', authUser);
       return User.resetCurrentUser();
     }
 
-    var user = User.findByUid(authUser.uid);
+    //var user = User.findByUid(authUser.uid);
+    var user = User.find(authUser.uid);
     if (user) { 
       User.setCurrentUser(user);
     } else {

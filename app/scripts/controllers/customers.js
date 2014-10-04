@@ -13,7 +13,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
   }
   */
   $scope.$watch('formAddEdit.$valid', function(value) {
-    console.info('form edit customer is', value);
+    console.info('form addedit validity is', value);
     $scope.formAddEditValid = value;
   });
 
@@ -27,7 +27,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
   
     $scope.formAddEditValid = false;
     $scope.formAddEditSubmitted = false;
-    $scope.currentId = null;
+    //$scope.currentId = null;
     $scope.addMode = false;
     $scope.editMode = false;  
     $scope.printMode = false;
@@ -62,6 +62,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
 
   $scope.cancelCustomer = function () {
     $scope.initCustomer();
+    console.log('CANCEL - customer now is empty:', $scope.customer);
   };
 
 /*
@@ -129,9 +130,10 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
   };
 
   $scope.editCustomer = function (customer) {
+    console.log('EDITCUSTOMER', customer);
     if (!$scope.editMode) {
       var id = customer.$id;
-      $scope.currentId = id;
+      //$scope.currentId = id;
       $scope.customer = Customer.find(id);
       $scope.editMode = true;
     } else {
@@ -149,7 +151,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
   $scope.preprintCustomer = function (customer) {
     var id = customer.$id;
     if (!$scope.printMode) {
-      $scope.currentId = id;
+      //$scope.currentId = id;
       $scope.customer = Customer.find(id);
       console.info('Preprint $scope.customer:', id, $scope.customer);
       $scope.printMode = true;

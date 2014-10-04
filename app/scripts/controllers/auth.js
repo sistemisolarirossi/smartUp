@@ -3,9 +3,14 @@
 app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettext, gettextCatalog, Auth, User) {
   $rootScope.formLabel = '';
 
+/* Commenting this check to allow registering new users for signed-in users...
+   Should allow only administrators?
+*/
+/*   
   if (Auth.signedIn()) {
     $location.path('/');
   }
+*/
 
   $scope.params = $routeParams;
   $scope.error = null;
@@ -95,7 +100,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       Auth.register($scope.user).then(function (auth) {
         console.info('registered user:', auth.user);
         auth.user.username = $scope.user.username;
-        User.create(auth.user).then(
+        User.create(auth.user, $scope.user.password).then(
           function () {
             /* success */
             $location.path('/');
@@ -120,7 +125,8 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       Auth.login($scope.user).then(function (authUser) {
         console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
         if (authUser) {
-          var user = User.findByUid(authUser.uid);
+          //var user = User.findByUid(authUser.uid);
+          var user = User.find(authUser.uid);
           User.setCurrentUser(user);
           $location.path('/');
         } else {
@@ -152,7 +158,8 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       User.create(authUser).then(
         function () {
           /* success */
-          var user = User.findByUid(authUser.uid);
+          //var user = User.findByUid(authUser.uid);
+          var user = User.find(authUser.uid);
           User.setCurrentUser(user);
         },
         function (error) {

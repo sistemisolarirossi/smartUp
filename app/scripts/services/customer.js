@@ -28,7 +28,6 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
       return customers.$child(customerId).$set(customer);
     },
     find: function (customerId) {
-      console.log('Info:', customers.$child(customerId));
       return customers.$child(customerId);
     },
     findByName: function (customerName) {
@@ -38,9 +37,10 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
     },
     delete: function (customer) {
       //console.info('deleting customer', customer);
-      if (!customer.name) {
+      if (!customer.$id) {
+        console.error('CUSTOMER WITHOUT $ID:', customer);
         var deferred = $q.defer();
-        deferred.resolve('NO SUCH CUSTOMER ID');
+        deferred.resolve('No such customer');
         return deferred.promise;
       }
       //customer.deleted = true;

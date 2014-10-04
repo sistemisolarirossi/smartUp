@@ -89,7 +89,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
       auth.$logout();
     },
     delete: function (user) { // TODO: test this
-      auth.$removeUser(user.email, user.password, function(error) { // password is password_hash ?
+      return auth.$removeUser(user.email, user.password, function(error) { // password is password_hash ?
         if (error === null) {
           console.info('User removed successfully');
         } else {
