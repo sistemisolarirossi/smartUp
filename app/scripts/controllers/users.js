@@ -95,7 +95,7 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
     User.delete(user).then(
       function(error) {
         if (!error) {
-          Auth.delete(user);
+          //Auth.delete(user);
           console.info('deleteUser - success');
           toastr.info('User deleted');
         } else {

@@ -24,7 +24,7 @@ app.directive('checkUserName', function(/*User*/) {
       value: '=ngModel'
     },
     link: function(scope, elm, attrs, model) {
-      var USERNAME_REGEXP = /^[^.$\[\]#\/]+$/;
+      var USERNAME_REGEXP = /^[^_.$\[\]#\/][^.$\[\]#\/]*$/;
       model.$parsers.unshift(function(viewValue) {
         var user;
         var retval;

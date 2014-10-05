@@ -7,13 +7,6 @@ msgstr ""
 msgid "(hh:mm)"
 msgstr ""
 
-#: app/views/about.html
-msgid ""
-"<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
-"      It allows the management of customers, orders and service reports.<br>\n"
-"      It is open-source, fast, compact, extensible, resilient, international and mobile.<br>"
-msgstr ""
-
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
 msgstr ""
@@ -294,6 +287,10 @@ msgstr ""
 msgid "Email of the user"
 msgstr ""
 
+#: app/views/home.html
+msgid "Enter using one of your \"social\" accounts, or log in with these credentials:"
+msgstr ""
+
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr ""
@@ -316,6 +313,14 @@ msgstr ""
 
 #: app/views/users.html
 msgid "Id"
+msgstr ""
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr ""
+
+#: app/views/about.html
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
 msgstr ""
 
 #: app/views/serviceReports.html
@@ -492,13 +497,7 @@ msgid "This customer name is not valid"
 msgstr ""
 
 #: app/views/home.html
-msgid ""
-"This is <em>{{ appName }}</em> home page for non registered users.<br>\n"
-"        Enter using one of your \"social\" accounts, or log in with these credentials: <br>"
-msgstr ""
-
-#: app/views/home.html
-msgid "This is <em>{{ appName }}</em> home page for registerd users."
+msgid "This is"
 msgstr ""
 
 #: app/scripts/controllers/users.js
@@ -592,8 +591,20 @@ msgstr ""
 msgid "error"
 msgstr ""
 
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr ""
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr ""
+
 #: app/scripts/app.js
 msgid "initializing"
+msgstr ""
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
 msgstr ""
 
 #: app/views/nav.html

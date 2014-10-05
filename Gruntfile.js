@@ -56,6 +56,14 @@ module.exports = function (grunt) {
         files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'autoprefixer']
       },
+      nggettextExtract: {
+        files: ['<%= yeoman.app %>/**/*.html', '<%= yeoman.app %>/scripts/**/*.js'],
+        tasks: ['nggettext_extract'] //, 'exec:poAutoTranslate']
+      },
+      nggettextCompile: {
+        files: ['po/*.pot', 'po/*.po'],
+        tasks: ['nggettext_compile']
+      },
       gruntfile: {
         files: ['Gruntfile.js']
       },
@@ -489,15 +497,17 @@ module.exports = function (grunt) {
       gitExportLastCommitVersion: {
         cmd: '( /bin/echo "/* exported lastBuildDate */"; /bin/echo -n "var lastBuildDate = \'"; date +"%Y-%m-%d %H:%M:%S" | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
       },
+      poAutoTranslate: {
+        cmd: '( cd local/po-auto-translate; php PoAutoTranslate.php "<%= yeoman.app %>/po" )',
+      },
     },
 
     /* jshint camelcase: false */
     nggettext_extract: {
     /* jshint camelcase: true */
-      //markerName: 't',
       pot: {
         files: {
-          'po/template.pot': [ 'app/**/*.html', 'app/scripts/**/*.js' ]
+          'po/template.pot': [ '<%= yeoman.app %>/**/*.html', '<%= yeoman.app %>/scripts/**/*.js' ]
         }
       }
     },
@@ -527,8 +537,6 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
-      'nggettext_extract',
-      'nggettext_compile',
       //'manifest:generate',
       'clean:server',
       'wiredep',

@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Marco <marcosolari@gmail.com>\n"
+"Last-Translator: Marco Solari <marcosolari@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: /var/www/smartUp/app\n"
 "X-Poedit-SearchPath-0: *.html\n"
@@ -19,19 +19,6 @@ msgstr ""
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
 msgstr "(hh:mm)"
-
-#: app/views/about.html
-msgid ""
-"<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
-"      It allows the management of customers, orders and service reports."
-"<br>\n"
-"      It is open-source, fast, compact, extensible, resilient, international "
-"and mobile.<br>"
-msgstr ""
-"<em>smartUp</em> è un'applicazione web per (smart) start-ups.<br>\n"
-"       Consente la gestione di clienti, ordini e rapporti di servizio.<br>\n"
-"       E' open-source, veloce, compatta, estensibile, resiliente, "
-"internazionale e mobile.<br>"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -309,6 +296,14 @@ msgstr "Indirizzo email dell'utente"
 msgid "Email of the user"
 msgstr "Indirizzo email dell'utente"
 
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+"Accedere utilizzando un proprio account \"social\", oppure accedere con "
+"queste credenziali:"
+
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
@@ -332,6 +327,18 @@ msgstr "Home"
 #: app/views/users.html
 msgid "Id"
 msgstr "Id"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Consente la gestione di clienti, ordini e rapporti di servizio."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+"E' open-source, veloce, compatta, estendibile, resiliente, internazionale e "
+"mobile."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -512,19 +519,8 @@ msgid "This customer name is not valid"
 msgstr "Il nome del cliente non è valido"
 
 #: app/views/home.html
-msgid ""
-"This is <em>{{ appName }}</em> home page for non registered users.<br>\n"
-"        Enter using one of your \"social\" accounts, or log in with these "
-"credentials: <br>"
-msgstr ""
-"Questa è la home page di <em>{{ appName }}</em> per gli utenti non "
-"registrati. <br />        Accedere utilizzando un proprio account \"social"
-"\", oppure loggarsi con queste credenziali: <br />"
-
-#: app/views/home.html
-msgid "This is <em>{{ appName }}</em> home page for registerd users."
-msgstr ""
-"Questa è la home page di <em>{{appName }}</em> per gli utenti registrati."
+msgid "This is"
+msgstr "Questa è"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -614,9 +610,21 @@ msgstr "in fase di scarico"
 msgid "error"
 msgstr "errore"
 
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "home page di per gli utenti non registrati."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "home page di per gli utenti registrati."
+
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "in fase di inizializzazione"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "è un'applicazione per (smart) start-ups."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -657,6 +665,19 @@ msgstr "utente:"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "utenti"
+
+#~ msgid ""
+#~ "<em>smartUp</em> is a web application for (smart) start-ups.<br>\n"
+#~ "      It allows the management of customers, orders and service reports."
+#~ "<br>\n"
+#~ "      It is open-source, fast, compact, extensible, resilient, "
+#~ "international and mobile.<br>"
+#~ msgstr ""
+#~ "<em>smartUp</em> è un'applicazione web per (smart) start-ups.<br>\n"
+#~ "       Consente la gestione di clienti, ordini e rapporti di servizio."
+#~ "<br>\n"
+#~ "       E' open-source, veloce, compatta, estensibile, resiliente, "
+#~ "internazionale e mobile.<br>"
 
 #~ msgid "This user name is already present"
 #~ msgstr "Questo nome utente è già presente"

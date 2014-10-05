@@ -109,13 +109,6 @@ app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
         return users[usersByName[username.toLowerCase()]];
       }
     },
-    /*
-    findByUid: function (uid) {
-      if (uid) {
-        return users[uid];
-      }
-    },
-    */
     find: function (userId) {
       return users.$child(userId);
     },
@@ -123,20 +116,39 @@ app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
       return $rootScope.currentUser;
     },
     delete: function (user) {
-      // TODO: implement it...
-      //delete users[uid]
-      //delete usersByName[uid]
       if (!user.$id) {
         console.error('USER WITHOUT $ID:', user);
         var deferred = $q.defer();
         deferred.resolve('No such user');
         return deferred.promise;
       }
-      //user.deleted = true;
       return users.$child(user.$id).$child('deleted').$set(true).then(
         function() {
           console.info('remove - then - success', user);
+          // we do not delete user by usersByName, we just put a '_' sign before it's name
           usersByName.$remove(user.username.toLowerCase());
+          usersByName.$child('_' + user.username.toLowerCase()).$set(user.uid);
+          return null;
+        },
+        function(error) {
+          console.info('remove - then - error:', error.code);
+          return error.code;
+        }
+      );
+    },
+    undelete: function (user) {
+      if (!user.$id) {
+        console.error('USER WITHOUT $ID:', user);
+        var deferred = $q.defer();
+        deferred.resolve('No such user');
+        return deferred.promise;
+      }
+      return users.$child(user.$id).$remove('deleted').then(
+        function() {
+          console.info('undelete - then - success', user);
+          // we do not delete user by usersByName, we just put a '_' sign before it's name
+          usersByName.$remove('_' + user.username.toLowerCase());
+          usersByName.$child(user.username.toLowerCase()).$set(user.uid);
           return null;
         },
         function(error) {

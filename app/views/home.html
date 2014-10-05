@@ -30,10 +30,14 @@
     </div>
 
     <div class="jumbotron centered">
+      <span translate>This is</span>
+      <em>{{ appName }}</em>
+      <span translate>home page for non registered users.</span>
+      <br />
       <span translate>
-        This is <em>{{ appName }}</em> home page for non registered users.<br />
-        Enter using one of your "social" accounts, or log in with these credentials: <br />
+        Enter using one of your "social" accounts, or log in with these credentials:
       </span>
+      <br />
       <center><small>
         <table>
           <tr>
@@ -52,7 +56,9 @@
   </div>
   <div ng-show="signedIn()">
     <div class="jumbotron centered">
-      <span translate>This is <em>{{ appName }}</em> home page for registerd users.</span>
+      <span translate>This is</span>
+      <em>{{ appName }}</em>
+      <span translate>home page for registerd users.</span>
       <br />
     </div>
   </div>

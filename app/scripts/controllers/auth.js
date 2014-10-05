@@ -111,8 +111,23 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
           }
         );
       }, function (error) {
-        $scope.error = 'Sorry, could not register user (' + error.message + ')';
-        console.error('Register error:', error.message);
+        if (error.message === 'FirebaseSimpleLogin: The specified email address is already in use.') {
+          // email is already present in Firebase: check it's not a deleted account...
+          // deleted users are kept in findByUsername table with a '_' sign before the name
+          var user = User.findByUsername('_' + $scope.user.username);
+          console.log('looked up user:', user);
+          if (user.email.toLowerCase() === $scope.user.email.toLowerCase()) {
+            // username and email overlap
+            if (user.deleted) {// it is a deleted account
+              toastr.error('This account was deleted. Just log-in and it will be restored...');
+              console.info('deleted account');
+              // restore account
+            }
+          }
+        } else {
+          $scope.error = 'Sorry, could not register user (' + error.message + ')';
+          console.error('Register error:', error.message);
+        }
       });
     } else {
       $scope.error = 'Please specify user\'s data';
@@ -125,9 +140,9 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       Auth.login($scope.user).then(function (authUser) {
         console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
         if (authUser) {
-          //var user = User.findByUid(authUser.uid);
           var user = User.find(authUser.uid);
           User.setCurrentUser(user);
+          User.undelete(user); // restore user if it was deleted
           $location.path('/');
         } else {
           // TODO: handle offline status, here...

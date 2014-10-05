@@ -53,13 +53,18 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
         var existingUser = User.findByUsername(user.usernameOrEmail); //users.$child(user.usernameOrEmail);
         if (existingUser && existingUser.email) { // user email is found as a user name
           user.email = existingUser.email; // set user email with found user email field
-        } else { // this happens sometimes for 'administrator': why? only temporary network outages?
-          //user.email = null; // no user.email set, auth.$login will fail...
-          console.warn('return defer error, existingUser undefined or without email:', existingUser);
-          // return deferred null
-          var deferred = $q.defer();
-          deferred.resolve(null);
-          return deferred.promise;
+        } else { // check if user exists but is deleted
+          var existingDeletedUser = User.findByUsername('_' + user.usernameOrEmail); //users.$child(user.usernameOrEmail);
+          if (existingDeletedUser && existingDeletedUser.email) { // user email is found as a user name
+           user.email = existingDeletedUser.email; // set user email with found user email field
+          } else {
+            //user.email = null; // no user.email set, auth.$login will fail...
+            console.warn('return defer error, existingUser undefined or without email:', existingUser);
+            // return deferred null
+            var deferred = $q.defer();
+            deferred.resolve(null);
+            return deferred.promise;
+          }
         }
       }
       //////////////////////////////////////////////////////
