@@ -52,15 +52,15 @@ msgstr "Ein Benutzername ist erforderlich"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "ÃÂÃÂ¼ber"
+msgstr "�ber"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "FÃÂÃÂ¼gen Sie neue Kunden"
+msgstr "F�gen Sie neue Kunden"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Neuen Benutzer hinzufÃÂÃÂ¼gen"
+msgstr "Neuen Benutzer hinzuf�gen"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -72,11 +72,11 @@ msgstr "Eine E-Mail -Adresse ist erforderlich"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Ein Operator wird benÃÂÃÂ¶tigt"
+msgstr "Ein Operator wird ben�tigt"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Ein Update ist verfÃÂÃÂ¼gbar : Wollen Sie es jetzt laden?"
+msgstr "Ein Update ist verf�gbar : Wollen Sie es jetzt laden?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -108,7 +108,7 @@ msgstr "Authentifizierungsanbieter"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Authentifizierungsanbieter fÃÂÃÂ¼r den Nutzer"
+msgstr "Authentifizierungsanbieter f�r den Nutzer"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -152,7 +152,7 @@ msgstr "Cache-Status ist"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "PrÃÂÃÂ¼fung auf das Vorhandensein eines Aktualisierungs"
+msgstr "Pr�fung auf das Vorhandensein eines Aktualisierungs"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -160,7 +160,7 @@ msgstr "Codice Fiscale / P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale enthÃÂÃÂ¤lt ungÃÂÃÂ¼ltige Zeichen ( s )"
+msgstr "Codice Fiscale enth�lt ung�ltige Zeichen ( s )"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -236,15 +236,15 @@ msgstr "Datum der Zustellung Start"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Kunden lÃÂÃÂ¶schen"
+msgstr "Kunden l�schen"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "LÃÂÃÂ¶schen Servicebericht"
+msgstr "L�schen Servicebericht"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Benutzer lÃÂÃÂ¶schen"
+msgstr "Benutzer l�schen"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -280,7 +280,7 @@ msgstr "E-Mail-Addresse"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "E-Mail -Adresse ist ungÃÂÃÂ¼ltig"
+msgstr "E-Mail -Adresse ist ung�ltig"
 
 #: app/views/users.html
 msgid "Email address of the user"
@@ -312,10 +312,6 @@ msgstr "Filter Serviceberichte"
 msgid "Filter users"
 msgstr "Filter Benutzer"
 
-#: app/views/about.html
-msgid "Hello dogs !"
-msgstr "Hallo Hunde!"
-
 #: app/views/nav.html
 msgid "Home"
 msgstr "Zuhause"
@@ -326,7 +322,7 @@ msgstr "Identifikation"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Es ermöglicht die Verwaltung von Kunden, Bestellungen und Serviceberichte ."
+msgstr "Es erm�glicht die Verwaltung von Kunden, Bestellungen und Serviceberichte ."
 
 #: app/views/about.html
 msgid ""
@@ -408,7 +404,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA enthÃÂÃÂ¤lt ungÃÂÃÂ¼ltige Zeichen ( s )"
+msgstr "P.IVA enth�lt ung�ltige Zeichen ( s )"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -424,7 +420,7 @@ msgstr "Telefonnummer"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Telefonnummer ist nicht gÃÂÃÂ¼ltig"
+msgstr "Telefonnummer ist nicht g�ltig"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -504,7 +500,7 @@ msgstr "Diese Kundenname wird bereits verwendet"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Diese Kundenname ist ungÃÂÃÂ¼ltig"
+msgstr "Diese Kundenname ist ung�ltig"
 
 #: app/views/home.html
 msgid "This is"
@@ -516,7 +512,7 @@ msgstr "Dieser Benutzer kann noch lesen noch schreiben"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Dieser Nutzer lesen kÃÂÃÂ¶nnen"
+msgstr "Dieser Nutzer lesen k�nnen"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
@@ -524,7 +520,7 @@ msgstr "Dieser Benutzer kann lesen und schreiben"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Dieser Benutzer schreiben kÃÂÃÂ¶nnen"
+msgstr "Dieser Benutzer schreiben k�nnen"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
@@ -536,7 +532,7 @@ msgstr "Dieser Benutzername ist bereits im Einsatz"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Dieser Benutzername ist nicht gÃÂÃÂ¼ltig"
+msgstr "Dieser Benutzername ist nicht g�ltig"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
@@ -584,7 +580,7 @@ msgstr "stornieren"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "ÃÂÃÂberprÃÂÃÂ¼fung"
+msgstr "�berpr�fung"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
@@ -600,11 +596,11 @@ msgstr "Fehler"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Homepage fÃÂÃÂ¼r nicht registrierte Nutzer."
+msgstr "Homepage f�r nicht registrierte Nutzer."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "Homepage fÃÂÃÂ¼r registerd Nutzer."
+msgstr "Homepage f�r registerd Nutzer."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -612,7 +608,7 @@ msgstr "Initialisierung"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "ist eine Web -Anwendung fÃÂÃÂ¼r ( smart) Start-ups."
+msgstr "ist eine Web -Anwendung f�r ( smart) Start-ups."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -653,6 +649,3 @@ msgstr "Benutzername :"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "Benutzer"
-
-#~ msgid "Hello babe"
-#~ msgstr "Hallo Babe"

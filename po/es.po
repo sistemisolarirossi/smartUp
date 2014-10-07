@@ -15,19 +15,19 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh : mm )"
+msgstr ""
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Se requiere un cÃÂÃÂ³digo fiscal o un P.IVA"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Se requiere un nombre de cliente"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Se requiere una fecha de inicio del servicio"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid ""
@@ -36,259 +36,259 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Se requiere una ubicaciÃÂÃÂ³n de servicio"
+msgstr ""
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Se requiere un nÃÂÃÂºmero de telÃÂÃÂ©fono"
+msgstr ""
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Se requiere una direcciÃÂÃÂ³n de la calle"
+msgstr ""
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "Se requiere un nombre de usuario"
+msgstr ""
 
 #: app/views/nav.html
 msgid "About"
-msgstr "Acerca de"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "AÃÂÃÂ±adir nuevo cliente"
+msgstr ""
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "AÃÂÃÂ±adir un nuevo usuario"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "DirecciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "Se requiere una direcciÃÂÃÂ³n de email"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Se requiere un operador"
+msgstr ""
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Hay disponible una actualizaciÃÂÃÂ³n : QuÃÂÃÂ© quiere cargar ahora ?"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Una actualizaciÃÂÃÂ³n estÃÂÃÂ¡ lista"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "ÃÂÃÂ¿EstÃÂÃÂ¡s realmente seguro de quitar informe de servicio"
+msgstr ""
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "ÃÂÃÂ¿EstÃÂÃÂ¡s realmente seguro de quitar al usuario"
+msgstr ""
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "IdentificaciÃÂÃÂ³n de autenticaciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "IdentificaciÃÂÃÂ³n de autenticaciÃÂÃÂ³n del usuario"
+msgstr ""
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "IdentificaciÃÂÃÂ³n de autenticaciÃÂÃÂ³n:"
+msgstr ""
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "proveedor de autenticaciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Proveedor de autenticaciÃÂÃÂ³n para el usuario"
+msgstr ""
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Imagen de avatar del usuario"
+msgstr ""
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C. F. / P.IVA"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Se inicializa cachÃÂÃÂ©"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "CachÃÂÃÂ© estÃÂÃÂ¡ en estado desconocido"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "CachÃÂÃÂ© no se actualiza (probablemente el manifiesto es inalcanzable )"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "CachÃÂÃÂ© no se actualiza porque estÃÂÃÂ¡ fuera de lÃÂÃÂ­nea"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "CachÃÂÃÂ© es obsoleta"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "CachÃÂÃÂ© es up-to- fecha"
+msgstr ""
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Estado de cachÃÂÃÂ© es"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "ComprobaciÃÂÃÂ³n de la presencia de una actualizaciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "CÃÂÃÂ³digo fiscal / P.IVA"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "CÃÂÃÂ³digo fiscal contiene caracteres no vÃÂÃÂ¡lidos ( s )"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "CÃÂÃÂ³digo de control de cÃÂÃÂ³digo fiscal no coincide"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "CÃÂÃÂ³digo fiscal o P.IVA del cliente"
+msgstr ""
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "logotipo de la empresa"
+msgstr ""
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "ConÃÂÃÂ©ctate con Facebook"
+msgstr ""
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Conecte con Google+"
+msgstr ""
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "ConÃÂÃÂ©ctate con Twitter"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "Contactos"
+msgstr ""
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "El idioma actual es"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "cliente"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Tarjeta Cliente"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "DirecciÃÂÃÂ³n de correo electrÃÂÃÂ³nico del cliente"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "nombre del cliente"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "NÃÂÃÂºmero de telÃÂÃÂ©fono del cliente"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "DirecciÃÂÃÂ³n de la calle al Cliente"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Firma del cliente"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Clientes"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Fecha"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Fecha de inicio del servicio"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "eliminar cliente"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Eliminar informe de servicio"
+msgstr ""
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "eliminar el usuario"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Descarga de una actualizaciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "duraciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "DuraciÃÂÃÂ³n del servicio"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Editar cliente"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Editar informe de servicio"
+msgstr ""
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Editar usuario"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "direcciÃÂÃÂ³n de correo electrÃÂÃÂ³nico"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "DirecciÃÂÃÂ³n de correo electrÃÂÃÂ³nico no es vÃÂÃÂ¡lida"
+msgstr ""
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "DirecciÃÂÃÂ³n de correo electrÃÂÃÂ³nico del usuario"
+msgstr ""
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Correo electrÃÂÃÂ³nico del usuario"
+msgstr ""
 
 #: app/views/home.html
 msgid ""
@@ -298,35 +298,31 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Fax"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Filtrar los clientes"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Informes de los servicios de filtro"
+msgstr ""
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "usuarios filtro"
-
-#: app/views/about.html
-msgid "Hello dogs !"
-msgstr "Hola perros !"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Inicio"
+msgstr ""
 
 #: app/views/users.html
 msgid "Id"
-msgstr "Id"
+msgstr ""
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Permite la gestiÃÂÃÂ³n de clientes, pedidos e informes de servicio ."
+msgstr ""
 
 #: app/views/about.html
 msgid ""
@@ -336,131 +332,131 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "UbicaciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "UbicaciÃÂÃÂ³n del servicio"
+msgstr ""
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "iniciar sesiÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "salir"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "N"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Nombre"
+msgstr ""
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Nombre de usuario"
+msgstr ""
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Nuevo cliente"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Nuevo informe"
+msgstr ""
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Nuevo usuario"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Ninguna actualizaciÃÂÃÂ³n estÃÂÃÂ¡ presente"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Notas"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "NÃÂÃÂºmero"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operador"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Operador de servicio"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Firma del"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "ÃÂÃÂ³rdenes"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
-msgstr "P.IVA"
+msgstr ""
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA contiene caracteres no vÃÂÃÂ¡lidos ( s )"
+msgstr ""
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "CÃÂÃÂ³digo de control P.IVA no coincide"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "TelÃÂÃÂ©fono"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "nÃÂÃÂºmero de telÃÂÃÂ©fono"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "NÃÂÃÂºmero de telÃÂÃÂ©fono no es vÃÂÃÂ¡lido"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "lugar"
+msgstr ""
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "PreparaciÃÂÃÂ³n de la descarga de una actualizaciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "Imprimir"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Imprimir cliente"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Imprimir informe de servicio"
+msgstr ""
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "usuario Imprimir"
+msgstr ""
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Proveedor"
+msgstr ""
 
 #: app/views/home.html
 msgid "Register"
-msgstr "Registro"
+msgstr ""
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Roles"
+msgstr ""
 
 #: app/views/users.html
 msgid ""
@@ -476,183 +472,180 @@ msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "Guardar"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "informe del Servicio de"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Informe del Servicio de n"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "informes de servicio"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "ConfiguraciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "direcciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Este nombre del cliente ya estÃÂÃÂ¡ en uso"
+msgstr ""
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Este nombre del cliente no es vÃÂÃÂ¡lida"
+msgstr ""
 
 #: app/views/home.html
 msgid "This is"
-msgstr "esto es"
+msgstr ""
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Este usuario puede ni leer ni escribir"
+msgstr ""
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Este usuario puede leer"
+msgstr ""
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Este usuario puede leer y escribir"
+msgstr ""
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Este usuario puede escribir"
+msgstr ""
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Este usuario no tiene acceso"
+msgstr ""
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Este nombre de usuario ya estÃÂÃÂ¡ en uso"
+msgstr ""
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Este nombre de usuario no es vÃÂÃÂ¡lida"
+msgstr ""
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Este valor es ni un cÃÂÃÂ³digo fiscal ni un P.IVA"
+msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Hora de inicio del servicio"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "navegaciÃÂÃÂ³n toggle"
+msgstr ""
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "DirecciÃÂÃÂ³n de correo electrÃÂÃÂ³nico del usuario"
+msgstr ""
 
 #: app/views/users.html
 msgid "User name"
-msgstr "nombre de usuario"
+msgstr ""
 
 #: app/views/users.html
 msgid "Username"
-msgstr "Nombre de usuario"
+msgstr ""
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Usuarios"
+msgstr ""
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Usted estÃÂÃÂ¡ fuera de lÃÂÃÂ­nea"
+msgstr ""
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Usted estÃÂÃÂ¡ en lÃÂÃÂ­nea"
+msgstr ""
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "cachÃÂÃÂ©"
+msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "cancelar"
+msgstr ""
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "comprobaciÃÂÃÂ³n"
+msgstr ""
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "clientes"
+msgstr ""
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "descarga"
+msgstr ""
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "error"
+msgstr ""
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "pÃÂÃÂ¡gina de inicio para usuarios no registrados."
+msgstr ""
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "pÃÂÃÂ¡gina de inicio para los usuarios registerd ."
+msgstr ""
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "inicializar"
+msgstr ""
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "es una aplicaciÃÂÃÂ³n web para ( inteligentes) de nueva creaciÃÂÃÂ³n."
+msgstr ""
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "usuario conectado"
+msgstr ""
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "obsoleto"
+msgstr ""
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "ÃÂÃÂ³rdenes"
+msgstr ""
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "de lo contrario registrar un nuevo accout e ingrese ."
+msgstr ""
 
 #: app/views/home.html
 msgid "password:"
-msgstr "contraseÃÂÃÂ±a:"
+msgstr ""
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "progreso"
+msgstr ""
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
-msgstr "servicereports"
+msgstr ""
 
 #: app/scripts/app.js
 msgid "updateready"
-msgstr "updateready"
+msgstr ""
 
 #: app/views/home.html
 msgid "username:"
-msgstr "nombre de usuario :"
+msgstr ""
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "usuarios"
-
-#~ msgid "Hello babe"
-#~ msgstr "Hola nena"
+msgstr ""
