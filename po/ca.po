@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( Hh : mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "Es requereix un codi fiscal o un P.IVA"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Es requereix un nom de client"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Es requereix una data d'inici del servei"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Es requereix una ubicació de servei"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Es requereix un número de telèfon"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "Es requereix una adreça de carrer"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Es requereix un nom d'usuari"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "sobre"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Afegeix nou client"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Afegeix un nou usuari"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "direcció"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Es requereix una adreça de correu electrònic"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Es requereix un operador"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Hi ha disponible una actualització : Què vol carregar ara ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Una actualització està llista"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Estàs realment segur de treure informe de servei"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Estàs realment segur de treure a l'usuari"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "identificació d'autenticació"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Identificació d'autenticació de l'usuari"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Identificació d'autenticació :"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "proveïdor d'autenticació"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Proveïdor d'autenticació per a l'usuari"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Imatge d'avatar de l'usuari"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C. F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "S'inicialitza memòria cau"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Memòria cau està en estat desconegut"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Memòria cau no s'actualitza ( probablement el manifest és inabastable )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Memòria cau no s'actualitza perquè està fora de línia"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Caché és obsoleta"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Memòria cau és up - to - data"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Estat de memòria cau és"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Comprovació de la presència d'una actualització"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codi fiscal / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codi fiscal conté caràcters no vàlids ( s )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codi de control de codi fiscal no coincideix"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codi fiscal o P.IVA del client"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "logotip de l'empresa"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Connecta't amb Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Connecteu amb Google+"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Connecta't amb Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "contactes"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "L'idioma actual és"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "client"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Targeta Client"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Adreça de correu electrònic del client"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "nom del client"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Número de telèfon del client"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Direcció del carrer al Client"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Signatura del client"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "clients"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "data"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Data d'inici del servei"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "eliminar client"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Eliminar informe de servei"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "eliminar l'usuari"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Descàrrega d' una actualització"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "durada"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Durada del servei"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "Edita client"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Edita informe de servei"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "Edita usuari"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "Email"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "adreça de correu electrònic"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Adreça de correu electrònic no és vàlida"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Adreça de correu electrònic de l'usuari"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Correu electrònic de l' usuari"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "fax"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "filtrar els clients"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Informes dels serveis de filtre"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "usuaris filtre"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Inici"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "Aneu"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Permet la gestió de clients , comandes i informes de servei ."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "ubicació"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Ubicació del servei"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "Inicia sessió"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "sortir"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "nom"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Nom d'usuari"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "nou client"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "nou informe"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "nou usuari"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Cap actualització està present"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "notes"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "nombre"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "operador"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Operador de servei"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Signatura del"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "ordres"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA conté caràcters no vàlids ( s )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "Codi de control P.IVA no coincideix"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "telèfon"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "número de telèfon"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Número de telèfon no és vàlid"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "lloc"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Preparació de la descàrrega d'una actualització"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Imprimir"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Imprimir client"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Imprimir informe de servei"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "usuari Imprimir"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "proveïdor"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Registre"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "rols"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "guardar"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "informe del Servei de"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Informe del Servei de n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "informes de servei"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "configuració"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "direcció"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Aquest nom del client ja està en ús"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Aquest nom del client no és vàlida"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "això és"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Aquest usuari pot ni llegir ni escriure"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Aquest usuari pot llegir"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Aquest usuari pot llegir i escriure"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Aquest usuari pot escriure"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Aquest usuari no té accés"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Aquest nom d'usuari ja està en ús"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Aquest nom d'usuari no és vàlida"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Aquest valor és ni un codi fiscal ni 1 P.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Hora d'inici del servei"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "navegació Toggle"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Adreça de correu electrònic de l'usuari"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "nom d'usuari"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "nom d'usuari"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "usuaris"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Vostè està fora de línia"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Vostè està en línia"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "memòria cau"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "cancel · lar"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "comprovació"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "clients"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "descàrrega"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "error"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "pàgina d'inici per usuaris no registrats ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "pàgina d'inici per als usuaris Registerd ."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "inicialitzar"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "és una aplicació web per ( intel · ligents ) de nova creació ."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "usuari connectat"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "obsolet"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "ordres"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "en cas contrari registrar un nou accout i ingressi ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "contrasenya :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "progrés"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "nom d'usuari :"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "usuaris"

@@ -1,6 +1,2 @@
 app/scripts/translations.js
-app/scripts/i18n/angular-locale_en.js
-app/scripts/i18n/angular-locale_es.js
-app/scripts/i18n/angular-locale_de.js
-app/scripts/i18n/angular-locale_fr.js
-app/scripts/i18n/angular-locale_it.js
+app/scripts/i18n/angular-locale_*.js

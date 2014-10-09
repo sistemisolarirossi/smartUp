@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh : mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "Codice Fiscale taiP.IVA tarvitaan"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Asiakkaan nimi tarvitaan"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Jona palvelun käynnistys tarvitaan"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Sijainti huoltoa tarvitaan"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Puhelinnumero tarvitaan"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "Katuosoite vaaditaan"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Käyttäjätunnus vaaditaan"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "Tietoja"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Lisää uusi asiakas"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Lisää uusi käyttäjä"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "osoite"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Sähköpostiosoite tarvitaan"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Operaattorin on"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Päivitys on saatavilla : haluatko ladata sen nyt ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Päivitys on valmis"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Oletko varma poistaa huoltoraportin"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Oletko varma poistaa käyttäjän"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Authentication id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Authentication käyttäjän tunnus"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Authentication id :"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "varmennuksentarjoaja"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Varmennuksentarjoaja käyttäjälle"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Avatar kuvakäyttäjän"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Välimuisti alustetaan"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Kätkö on tuntemattomassa tilassa"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Välimuisti ei ole päivitetty ( luultavastimanifesti on saavuttamaton )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Välimuisti ei ole päivitetty , koska olet offline-tilassa"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Kätkö on vanhentunut"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Kätkö on ajan tasalla"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Välimuistin tila on"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Tarkistetaan läsnäolopäivityksen"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice Fiscale sisältää virheellisiä merkkejä ( t )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codice Fiscale ohjaus koodi ei vastaa"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale tai P.IVA asiakkaan"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "yrityksen logo"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Yhdistä Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Yhdistä Google+"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Yhdistä Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "Yhteydet"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Nykyinen kieli on"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "Asiakaspalvelu"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "asiakaskortti"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Asiakkaan sähköpostiosoite"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "asiakkaan nimi"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Asiakkaan puhelinnumero"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Asiakkaan katuosoite"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Asiakkaan allekirjoitus"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "asiakkaat"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Tiedoksiantopäivä alku"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "deletoida asiakas"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Poista palvelu raportti"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "Poista käyttäjä"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Lataamallapäivitys"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "kesto"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Palvelun kesto"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "Edit asiakas"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Edit huoltoraportin"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "Muokkaa käyttäjää"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "Sähköposti"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "sähköpostiosoite"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Sähköpostiosoite ei kelpaa"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Sähköpostiosoitekäyttäjän"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Sähköposti käyttäjän"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "faksi"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "suodatin asiakkaita"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Suodattimen huoltoa raportit"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "suodatin käyttäjää"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Koti"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "id"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Se mahdollistaahallinnan asiakkaita , tilauksia ja palvelua koskevat kertomukset ."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "Sijainti"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Sijainti, palvelun"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "nimi"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Käyttäjän nimi"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "uusi asiakas"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "uusi raportti"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "uusi käyttäjä"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Ei päivitys on läsnä"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "Huomautuksia"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "numero"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "Operator"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Operaattori palvelu"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Toiminnanharjoittajan allekirjoitus"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "Tilaukset"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA sisältää virheellisiä merkkejä ( t )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "P.IVA ohjaus koodi ei vastaa"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "Puhelin"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "Puhelinnumero"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Puhelinnumero ei kelpaa"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "paikka"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Valmistautuminenlataamallapäivityksen"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Tulosta"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Tulosta asiakas"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Tulosta huoltoraportin"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "Tulosta käyttäjä"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "tarjoaja"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Rekisteröidy"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "roolit"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "Tallenna"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "huoltoraportin"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Huoltoraportin n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "palvelu raportit"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Setup"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "katuosoite"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Tämä asiakkaan nimi on jo käytössä"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Tämä asiakas nimi ei kelpaa"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "Tämä on"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Tämä käyttäjä eikä lukea eikä kirjoittaa"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Tämä käyttäjä voi lukea"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Tämä käyttäjä osaa lukea ja kirjoittaa"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Tämä käyttäjä voi kirjoittaa"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Tämä käyttäjä ei voi käyttää"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Tämä käyttäjätunnus on jo käytössä"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Tämä käyttäjätunnus ei kelpaa"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Tämä arvo on eikäCodice Fiscale eikäP.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Palvelun käynnistys"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "toggle navigointi"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Käyttäjän sähköpostiosoite"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "käyttäjätunnus"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "käyttäjät"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Olet offline-tilassa"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Olet verkossa"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "välimuistissa"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "peruuta"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "tarkkailun"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "asiakkaat"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "lataaminen"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "virhe"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "etusivu ei rekisteröitynyttä käyttäjää ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "kotisivulla registerd käyttäjille ."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "alustetaan"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "onweb- sovellus ( smart) aloituksia ."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "kirjautuneet käyttäjä"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "vanhentunut"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "tilaukset"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "muuten rekisteröidä uuden accout ja kirjaudu sisään ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "salasana :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "edistystä"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "käyttäjätunnus :"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "käyttäjät"

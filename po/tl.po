@@ -1,0 +1,650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marco <marcosolari@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tl\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.9\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh: mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "Ang isang Codice Fiscale o isang P.IVA Kinakailangan"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Ang isang pangalan ng customer ay kinakailangan"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Ang petsa ng pagsisimula ng serbisyo ay kinakailangan"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Ang isang lokasyon ng serbisyo ay kinakailangan"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Ang isang numero ng telepono ay kinakailangan"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "Ang isang address ng kalye Kinakailangan"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Ang isang gumagamit na pangalan ay kinakailangan"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "Tungkol sa"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Magdagdag ng mga bagong customer"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Magdagdag ng bagong user"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "address"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Ang isang email address ay kinakailangan"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Ang isang operator ay kinakailangan"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Isang pag-update ay magagamit : ang gusto mong i-load ito ngayon?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Isang pag-update ay handa na"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Sigurado ka ba talagang Tiyakin na alisin ang ulat na serbisyo"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Sigurado ka ba talagang sigurado na alisin ang user"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Pagpapatotoo id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Id ang pagpapatotoo ng gumagamit"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Pagpapatotoo id:"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "Pagpapatotoo provider"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Pagpapatotoo provider para sa user"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Avatar imahe ng gumagamit"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Cache ay nasimulan"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Cache ay sa hindi kilalang estado"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Cache ay hindi na-update (marahil ang manifest ay hindi maabot )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Cache ay hindi na-update dahil ikaw ay naka-offline"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Cache ay laos na"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Cache ay up- to-date"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Katayuan ng cache ay"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Sinusuri para sa presensiya ng isang update"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice Fiscale naglalaman ng hindi wastong character ( s )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codice Fiscale control code ay hindi tumutugma"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale o P.IVA ng customer"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "logo ng kumpanya"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Kumonekta sa Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Makipag-ugnay sa Google+"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Kumonekta sa Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "Mga Contact"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Kasalukuyang wika ay"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "Customer"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Customer Card"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "E-mail address ng Customer"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "pangalan ng customer"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Numero ng telepono Customer"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Address ng kalye Customer"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Lagda ng Customer"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "Customers"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "petsa"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Petsa ng pagsisimula ng serbisyo"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "Tanggalin ang customer"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Tanggalin ang ulat ng serbisyo"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "Tanggalin ang user"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Nagda-download ng isang update"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "tagal"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Tagal ng serbisyo"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "I-edit ang customer"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "I-edit ang ulat na serbisyo"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "I-edit ang user"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "email"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "Ang email address"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Ang email address ay hindi wasto"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Email address ng user"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Email ng gumagamit"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "fax"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "I-filter ang mga customer"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Ulat serbisyo ng Filter"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "I-filter ang mga user"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Home"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "Id"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Pinapayagan nito ang pamamahala ng mga customer , ang mga order at mga ulat ng serbisyo."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "lokasyon"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Lokasyon ng serbisyo"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "Mag-log in"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "Mag-log out"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "pangalan"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Pangalan ng gumagamit ang"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "bagong customer"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "bagong ulat"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "bagong user"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Walang mga pag-update ay naroroon"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "Mga Tala"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "numero"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "operator"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Operator ng serbisyo"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Lagda Operator ni"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "Mga Order"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA naglalaman ng hindi wastong character ( s )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "P.IVA control code ay hindi tumutugma"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "telepono"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "numero ng telepono"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Ang numero ng telepono ay hindi wasto"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "lugar"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Inihahanda ang pag-download ng update"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "I-print"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Magpa-print ng customer"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Ulat serbisyo Print"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "Magpa-print ng gumagamit"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "provider"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Magrehistro"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "Mga Tungkulin"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "I-save ang"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "ulat serbisyo"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Serbisyo ng ulat n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "mga ulat ng serbisyo"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Setup"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "address ng kalye"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Ito ang pangalan ng customer ay ginagamit na"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Ito ang pangalan ng customer ay hindi wasto"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "ito ay"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Ang user na ito ay maaaring hindi rin basahin o sumulat"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Maaaring magbasa ng user na ito"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Ang user na ito ay maaaring basahin at isulat ang"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Maaari isulat ang user na ito"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Hindi ma-access ang user na ito"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Ang user name ay ginagamit na"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Ito ang pangalan ng user ay hindi wasto"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Ang halagang ito ay hindi rin isang Codice Fiscale o isang P.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Oras ng pagsisimula ng serbisyo"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "I-toggle ang pag-navigate"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Email address ng Gumagamit"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "pangalan ng User"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "username"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "Ang mga gumagamit"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Naka-offline ka"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Kayo ay online"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "naka-cache"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "kanselahin"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "pagsusuri"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "mga customer"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "sa pag-download"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "error"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "home page para sa hindi rehistradong mga gumagamit ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "home page para sa registerd mga gumagamit."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "Sinisimulan"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "ay isang web application para sa ( na smart ) simulan -ups."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "Naka-log ang gumagamit"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "lipas na"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "order"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "kung hindi man magrehistro ng bagong accout at mag-log in."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "password:"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "pag-unlad"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "username:"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "mga gumagamit"

@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( ss: dd )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "Bir Codice Fiscale veya P.IVA gereklidir"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Bir müþteri adý gerekli"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Hizmet baþlangýcýndan bir tarihi gerekli"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Hizmetin bir yer gereklidir"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Bir telefon numarasý gereklidir"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "Bir sokak adresi gerekli"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Bir kullanýcý adý gerekli"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "hakkýnda"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Yeni müþteri ekle"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Yeni kullanýcý ekle"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "Adres"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Bir e-posta adresi gereklidir"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Bir operatöre ihtiyaç duyulur"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Bir güncelleme mevcut : Bunu þimdi yüklemek istiyorsun ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Bir güncelleþtirme hazýr"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Eðer servis raporu kaldýrmak gerçekten emin misiniz"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Eðer kullanýcý kaldýrmak gerçekten emin misiniz"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Kimlik id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Kullanýcý kimlik doðrulama kimliði"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Kimlik id:"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "Kimlik saðlayýcý"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Kullanýcý için kimlik doðrulama saðlayýcýsý"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "Avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Kullanýcý Avatar görüntü"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Önbellek baþlatýldý ediliyor"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Önbellek bilinmeyen durumda"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Önbellek güncellenmiþ deðil (muhtemelenapaçýk eriþilemiyor )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Çevrimdýþý çünkü Önbellek güncellenen deðil"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Önbellek kullanýlmýyor"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Önbellek up- to-date"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Önbellek durumu nedir"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Bir güncellemevarlýðý kontrol"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice Fiscale geçersiz bir karakter içeriyor ( ler )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codice Fiscale kontrol kodu eþleþmiyor"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale veya müþterinin P.IVA"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "Firma logosu"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Facebook ile iletiþime geç"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Google+ ile iletiþime geç"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Twitter ile iletiþime geç"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "Ýletiþim"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Güncel dil"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "Müþteri"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Müþteri Kartý"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Müþteri e-posta adresi"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "Müþteri adý"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Müþteri telefon numarasý"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Müþteri sokak adresi"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Müþterinin imzasý"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "Müþteriler"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "Tarih"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Hizmet baþlangýç tarihi"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "müþteri Sil"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Servis raporu sil"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "kullanýcýyý sil"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Bir güncelleþtirme indiriliyor"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "Süre"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Servis süresi"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "müþteri düzenle"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Düzenleme servis raporu"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "kullanýcý Düzenleme"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "E-posta"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "e"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "E-posta adresi geçerli deðil"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Kullanýcýnýn e-posta adresi"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Kullanýcýnýn e-posta"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "Faks"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "filtre müþteriler"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Filtre hizmet raporlarý"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "filtre kullanýcýlarý"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "kimliði"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Bu müþteriler , sipariþleri ve hizmet raporlarýnyönetimi saðlar ."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "Yer"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Servis Yeri"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "oturum aç"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "Oturumu"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "Ýsim"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Kullanýcý Adý"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "Yeni müþteri"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "Yeni rapor"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "Yeni kullanýcý"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Hiçbir güncelleme mevcut"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "Notlar"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "Sayý"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "operatör"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Hizmet Operatör"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Operatör imzasý"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "Sipariþler"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA geçersiz bir karakter içeriyor ( ler )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "P.IVA kontrol kodu eþleþmiyor"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "Telefon"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "telefon numarasý"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Telefon numarasý geçerli deðil"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "Yer"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Hazýrlanmasýbir güncelleme indirirken"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Yazdýr"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Baský müþteri"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Baský hizmeti raporu"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "Baský kullanýcý"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "Saðlayýcý"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Kayýt"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "rolleri"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "kaydet"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "servis raporu"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Servis raporu n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "servis raporlarý"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Kurulum"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "Açýk adres"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Bu müþteri adý zaten kullanýmda"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Bu müþteri adý geçerli deðil"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "Bu"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Bu kullanýcý ne okuyup yazabilir"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Bu kullanýcý okuyabilirsiniz"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Bu kullanýcý okuma ve yazma"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Bu kullanýcý yazabilirsiniz"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Bu kullanýcý eriþemez"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Bu kullanýcý adý zaten kullanýlýyor"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Bu kullanýcý adý geçerli deðil"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Bu deðer, bir Codice Fiscale ne de , ne de P.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Hizmet baþlangýç zamaný"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "geçiþ navigasyon"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Kullanýcý e-posta adresi"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "Kullanýcý adý"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "Adý"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "kullanýcýlar"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Sen çevrimdýþý"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Sen çevrimiçi"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "önbelleðe"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "iptal"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "kontrol"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "müþteriler"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "indirme"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "hata"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "kayýtlý olmayan kullanýcýlar için ana sayfa ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "registerd kullanýcýlar için ana sayfa ."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "baþlatýlýyor"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "(akýllý ) start- up için bir web uygulamasý."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "Kayýtlý kullanýcý"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "eskimiþ"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "sipariþleri"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "aksi takdirde yeni bir accout kayýt ve oturum açýn."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "þifre:"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "ilerleme"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "kullanýcý adý :"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "kullanýcýlar"

@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ne\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh : mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "एक Codice Fiscale वा एक वैट आवश्यक छ"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "एक ग्राहक नाम आवश्यक छ"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "सेवा सुरु को एक मिति आवश्यक छ"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "सेवा को एक स्थान आवश्यक छ"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "एक फोन नम्बर आवश्यक छ"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "एक सडक ठेगाना आवश्यक छ"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "एक प्रयोगकर्ता नाम आवश्यक छ"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "बारेमा"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "नयाँ ग्राहक थप्नुहोस"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "नयाँ प्रयोगकर्ता थप्नुहोस्"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "ठेगाना"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "एउटा इमेल ठेगाना आवश्यक छ"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "एउटा अपरेटर आवश्यक छ"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "एक अपडेट उपलब्ध छ : तपाईं यसलाई अब लोड गर्न चाहनुहुन्छ ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "एक अद्यावधिक तयार छ"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "तपाईं सेवा रिपोर्ट हटाउन साँच्चै निश्चित हुनुहुन्छ"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "तपाईं प्रयोगकर्ता हटाउन साँच्चै निश्चित हुनुहुन्छ"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "प्रमाणीकरण आईडी"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "प्रयोगकर्ता को प्रमाणीकरण आईडी"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "प्रमाणीकरण आईडी :"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "प्रमाणीकरण प्रो"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "प्रयोगकर्ता लागि प्रमाणीकरण प्रो"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "अवतार"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "प्रयोगकर्ता को अवतार चित्र"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / वैट"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "क्यास आरम्भ भइरहेको छ"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "क्यास अज्ञात अवस्थामा छ"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "क्यास अपडेट गरिएको छैन ( शायद प्रकट पुग्न नसकिने छ )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "तपाईं अफलाईन किनभने क्यास अद्यावधिक छैन"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "क्यास अप्रचलित छ"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "क्यास छ अप- - मिति"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "क्यास अवस्था छ"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "एक अद्यावधिक को उपस्थिति लागि जाँच गर्दै"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / वैट"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice Fiscale अवैध चरित्र पाइन्छ (हरू )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codice Fiscale नियन्त्रण कोड मेल खाँदैन"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale वा ग्राहक को वैट"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "कम्पनी लोगो"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Facebook संग जडान"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Google+ सँग जडान"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "ट्विटर संग जडान"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "सम्पर्क"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "अहिलेको भाषा हो"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "ग्राहक"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "ग्राहक कार्ड"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "ग्राहक इमेल ठेगाना"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "ग्राहक नाम"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "ग्राहक फोन नम्बर"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "ग्राहक सडक ठेगाना"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "ग्राहक हस्ताक्षर"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "ग्राहक"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "मिति"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "सेवा सुरु मिति"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "ग्राहक मेट्नुहोस्"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "सेवा रिपोर्ट मेट्नुहोस्"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "प्रयोगकर्ता मेट्नुहोस्"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "एक अद्यावधिक डाउनलोड"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "अवधि"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "सेवा अवधि"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "सम्पादन ग्राहक"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "सम्पादन सेवा रिपोर्ट"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "प्रयोगकर्ता सम्पादन"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "इमेल"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "इमेल ठेगाना"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "इमेल ठेगाना वैध छैन"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "प्रयोगकर्ता ईमेल ठेगाना"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "प्रयोगकर्ता ईमेल"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "फ्याक्स"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "फिल्टर ग्राहकहरु"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "फिल्टर सेवा रिपोर्ट"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "फिल्टर प्रयोगकर्ताहरु"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "गृह"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "आईडी"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "यो ग्राहकहरु , आदेश र सेवा रिपोर्ट को व्यवस्थापन अनुमति दिन्छ ।"
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "स्थान"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "सेवा को स्थान"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "मा प्रवेश"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "बाहिर लग"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "एन"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "नाम"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "प्रयोगकर्ता को नाम"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "नयाँ ग्राहक"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "नयाँ रिपोर्ट"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "नयाँ प्रयोगकर्ता"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "कुनै अद्यावधिक वर्तमान छ"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "नोट"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "सङ्ख्या"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "अपरेटर"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "सेवा अपरेटर"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "अपरेटर हस्ताक्षर"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "आदेश"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "वैट"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "वैट अवैध चरित्र पाइन्छ (हरू )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "वैट नियन्त्रण कोड मेल खाँदैन"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "फोन"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "फोन नम्बर"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "फोन नम्बर मान्य छैन"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "स्थान"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "तयारी एक अद्यावधिक डाउनलोड"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "छापा"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "छापा ग्राहक"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "छापा सेवा रिपोर्ट"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "छापा प्रयोगकर्ता"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "प्रदायक"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "दर्ता"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "भूमिका"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "बचत"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "सेवा रिपोर्ट"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "सेवा रिपोर्ट n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "सेवा रिपोर्ट"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "सेटअप"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "सडक ठेगाना"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "यस ग्राहक नाम पहिल्यै प्रयोगमा छ"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "यस ग्राहक नाम मान्य छैन"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "यो छ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "यो प्रयोगकर्ता न त पढ्न न त लेख्न सक्छन्"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "यो प्रयोगकर्ता पढ्न सक्नुहुन्छ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "यो प्रयोगकर्ता पढ्न र लेख्न सक्ने"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "यो प्रयोगकर्ता लेख्न सक्छन्"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "यो प्रयोगकर्ता पहुँच गर्न सक्दैन"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "यो प्रयोगकर्ता नाम पहिल्यै प्रयोगमा छ"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "यो प्रयोगकर्ता नाम वैध छैन"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "यो मूल्य एक Codice Fiscale न त एक वैट छ न त"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "सेवा सुरु को समय"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "टगल अन्वेषण"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "प्रयोगकर्ता इमेल ठेगाना"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "प्रयोगकर्ता नाम"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "प्रयोगकर्ता नाम"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "प्रयोगकर्ता"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "तपाईं अफलाइन हुनुहुन्छ"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "तपाईं अनलाइन छन्"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "क्यास गरिएको"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "रद्द"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "जाँच"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "ग्राहकहरु"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "डाउनलोड गर्ने"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "त्रुटि"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "गैर दर्ता प्रयोगकर्ताका लागि गृह पृष्ठ ।"
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "registerd प्रयोगकर्ताका लागि गृह पृष्ठ ।"
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "थालनी"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "( स्मार्ट ) शुरू अप को लागि एक वेब आवेदन छ ।"
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "Logged प्रयोगकर्ता"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "अप्रचलित"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "आदेश"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "अन्यथा एक नयाँ accout दर्ता र मा लग ।"
+
+#: app/views/home.html
+msgid "password:"
+msgstr "पासवर्ड :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "प्रगति"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "प्रयोगकर्ता नाम :"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "प्रयोगकर्ताहरु"

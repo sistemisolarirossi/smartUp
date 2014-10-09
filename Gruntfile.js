@@ -26,6 +26,7 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
+    appName: 'smartUp',
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -57,8 +58,15 @@ module.exports = function (grunt) {
         tasks: ['newer:copy:styles', 'autoprefixer']
       },
       nggettextExtract: {
-        files: ['<%= yeoman.app %>/**/*.html', '<%= yeoman.app %>/scripts/**/*.js'],
-        tasks: ['nggettext_extract'] //, 'exec:poAutoTranslate']
+        files: [
+          '<%= yeoman.app %>/**/*.html',
+          '<%= yeoman.app %>/scripts/**/*.js',
+          '!<%= yeoman.app %>/scripts/translations.js'
+        ],
+        tasks: [
+          'nggettext_extract',
+          'exec:poAutoTranslate',
+        ]
       },
       nggettextCompile: {
         files: ['po/*.pot', 'po/*.po'],
@@ -498,7 +506,7 @@ module.exports = function (grunt) {
         cmd: '( /bin/echo "/* exported lastBuildDate */"; /bin/echo -n "var lastBuildDate = \'"; date +"%Y-%m-%d %H:%M:%S" | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
       },
       poAutoTranslate: {
-        cmd: '( cd local/po-auto-translate; php PoAutoTranslate.php "<%= yeoman.app %>/po" )',
+        cmd: '( cd local/po-auto-translate; php PoAutoTranslate.php "<%= appName %>" "<%= process.cwd() %>")',
       },
     },
 

@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh: mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "A Codice fiscale edo P.IVA bat behar da"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Bezeroaren izena eman behar da"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Zerbitzuaren hasiera -data zehaztu behar da"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Zerbitzuaren kokapen bat behar da"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Telefono zenbakia eman behar da"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "A kalean helbidea beharrezkoa da"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Erabiltzaile -izena eman behar da"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "About"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Gehitu bezero berria"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Gehitu erabiltzaile berria"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "helbidea"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Helbide elektroniko bat eman behar da"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Operadoreak eman behar da"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Eguneratzea erabilgarri dagoen : ez orain, kargatu nahi duzula ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Eguneratze bat prest dago"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Benetan ziur zerbitzu txostena kendu nahi duzula"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Benetan ziur erabiltzaile ezabatu nahi duzula"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Autentifikazioa id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Autentifikazioa erabiltzailearen id"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Autentifikazioa id:"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "autentifikazio-hornitzailea"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Autentifikazio -hornitzaileak"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "Avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Avatar erabiltzaileak irudia"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Cache hasieratu ari da"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Cache egoera ezezaguna da"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Cache eguneratua ez badago (ziurrenik manifestua da dabilela )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Cache eguneratua ez badago , lineaz kanpo zaudenean delako"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Cache zaharkitua dago"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Cache da up -to- data"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Cache status da"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Eguneratze baten presentzia bilatzen"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice fiscale / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice fiscale karaktere baliogabea (k)"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codice fiscale kontrol kodea ez dator"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice fiscale edo bezeroaren P.IVA"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "Enpresaren logo"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Facebook -ekin konektatu"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Google -ekin konektatu"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Twitter -ekin konektatu"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "Kontaktuak"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Oraingo hizkuntza da"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "Customer"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Customer Txartela"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Customer e-posta helbidea"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "bezeroaren izena"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Customer telefono zenbakia"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Customer kalean helbidea"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Bezeroaren sinadura"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "Bezeroak"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "data"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Zerbitzuaren hasiera- data"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "Ezabatu bezeroarentzako"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Ezabatu zerbitzu txostena"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "ezabatu erabiltzaileen"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Eguneratze bat deskargatzen"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "Iraupena"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Zerbitzuaren iraupena"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "Editatu bezeroarentzako"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Editatu zerbitzuaren txostena"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "Editatu erabiltzaileak"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "Email"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "E-posta helbidea"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "E-posta helbidea ez da baliozko"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Erabiltzailearen helbide elektronikoa"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Erabiltzailearen Email"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "Fax"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "Filter bezeroei"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Filter zerbitzuaren txostenak"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "Filter erabiltzaile"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Hasiera"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "id"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Bezeroak , eskaerak eta zerbitzuaren txostenak zuzentzea ahalbidetzen du."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "kokalekua"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Zerbitzuaren Kokapena"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "Sartu"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "Saioa amaitu"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "izena"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Erabiltzaile izena"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "bezero berria"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "txosten berria"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "Erabiltzaile berria"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "No update presente dago"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "Oharrak"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "zenbakia"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "Operator"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Zerbitzuaren Operator"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Operator sinadura"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "Eskariak"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA karaktere baliogabea (k)"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "P.IVA kontrol kodea ez dator"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "Telefonoa"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "Telefono zenbakia"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Telefono zenbakia ez da baliozkoa"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "Lekua"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Prestatzen eguneratze bat deskargatzen"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Inprimatu"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Print bezeroarentzako"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Print zerbitzu txostena"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "Print erabiltzaile"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "Provider"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Izena eman"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "Rolak"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "Save"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "zerbitzua txostena"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Zerbitzua txosten n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "zerbitzua txostenak"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Setup"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "kalean helbidea"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Bezeroaren izen hau dagoeneko erabilita dago"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Bezeroaren izen hau ez da zuzena"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "hau da,"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Erabiltzaile honek ez irakurri ahal ezta idatzi"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Erabiltzaile hau irakur daiteke"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Erabiltzaile hau irakurtzen eta idazten"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Erabiltzaile hau idatzi ahal"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Erabiltzaile hau ezin da sartu"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Erabiltzaile -izen hau dagoeneko erabilita dago"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Erabiltzaile hau ez du balio"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Balio hau Codice fiscale bat ezta P.IVA da ezta"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Zerbitzuaren hasiera Denboraren"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "Toggle nabigazioa"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Erabiltzailearen e-posta helbidea"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "Erabiltzaile izena"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "Username"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "erabiltzaileak"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Offline zaude"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Konektatuta zaude"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "cached"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "bertan behera"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "egiaztapena"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "bezeroak"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "deskargatzea"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "error"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "etxean erroldatuta ez dauden erabiltzaileentzat orria ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "hasiera erregistratzen dute erabiltzaileentzat orria ."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "hasieratzean"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "Web aplikazio bat ( smart ) urbanizazioaren da."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "Sartu Erabiltzaile"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "zaharkituta"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "aginduak"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "bestela accout berria erregistratu eta saioa hasi ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "pasahitza :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "aurrerapena"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "lankide-izena:"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "erabiltzaile"

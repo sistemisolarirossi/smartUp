@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh : mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "A Codice Fiscale nó P.IVA ag teastáil"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Tá an t-ainm do chustaiméirí ag teastáil"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Tá dáta tosaithe tseirbhís a chur"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Tá suíomh na seirbhíse a theastaíonn"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Tá uimhir theileafóin riachtanach"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "Tá ainm na sráide teastáil"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Tá an t-ainm úsáideora ag teastáil"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "Maidir"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Cuir do chustaiméirí nua"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Cuir úsáideoir nua"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "seoladh"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Tá seoladh ríomhphoist ag teastáil"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Tá oibreoir ag teastáil"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Tá nuashonrú ar fáil : ar mhaith leat a luchtú anois ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Tá nuashonrú réidh"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "An bhfuil tú i ndáiríre cinnte tuarascáil seirbhíse a bhaint"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "An bhfuil tú i ndáiríre cinnte úsáideoir a bhaint"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Fíordheimhniú id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Fíordheimhniú id an t-úsáideoir"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Fíordheimhniú id:"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "soláthraí Fíordheimhniú"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Soláthraí fhíordheimhniú don úsáideoir"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "Avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Íomhá Avatar an t-úsáideoir"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Tá Taisce á initialized"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Tá Taisce i stát anaithnid"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Níl Taisce cothrom le dáta (is dócha go bhfuil an léiriú unreachable )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Níl Taisce cothrom le dáta mar go bhfuil tú as líne"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Tá Taisce as feidhm"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Tá Taisce cothrom le dáta"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Tá stádas Taisce"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Seiceáil do láithreacht ar thabhairt cothrom le dáta"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Tá Codice Fiscale carachtar neamhbhailí (í )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Ní cód rialú Codice Fiscale mheaitseáil"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale nó P.IVA an chustaiméara"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "logo Cuideachta"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Ceangail le Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Ceangail le Google +"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Ceangail le Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "Teagmhálacha"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Is teanga reatha"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "Custaiméirí"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Cárta Chustaiméirí"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Seoladh r-phoist do Chustaiméirí"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "ainm Chustaiméirí"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Uimhir theileafóin Chustaiméirí"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Suíomh ainm Chustaiméirí"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Síniú Chustaiméara"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "Custaiméirí"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "Dáta"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Dáta tosaithe na seirbhíse"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "Scrios do chustaiméirí"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Scrios an tuarascáil seirbhíse"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "Scrios úsáideoir"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Thabhairt cothrom le dáta -íosluchtú"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "Fad"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Fad seirbhíse"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "Cuir do chustaiméirí"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Tuarascáil Seirbhís in Eagar"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "úsáideoir Eagar"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "Ríomhphost"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "seoladh ríomhphoist"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Níl an seoladh ríomhphoist bailí"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Seoladh r-phoist an t-úsáideoir"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Ríomhphost t-úsáideoir"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "Facs"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "custaiméirí Scagaire"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Tuarascálacha seirbhíse Scagaire"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "úsáideoirí Scagaire"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Baile"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "Aitheantas"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Ceadaíonn sé bainistiú na gcustaiméirí , orduithe agus tuarascálacha seirbhíse."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "Suíomh"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Suíomh na seirbhíse"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "Logáil isteach"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "Logáil amach"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "Ainm"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Ainm an úsáideoir"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "do chustaiméirí nua"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "tuarascáil nua"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "úsáideoir nua"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Níl aon nuashonrú i láthair"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "Nótaí"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "líon"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "Oibreoir"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Oibreoir seirbhíse"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Síniú oibreora"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "Orduithe"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "Tá P.IVA carachtar neamhbhailí (í )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "Ní cód rialú P.IVA mheaitseáil"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "Fón"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "uimhir Fón"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Níl an uimhir theileafóin bailí"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "Áit"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Ullmhú an íoslódáil cothrom le dáta"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Priontáil"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Priontáil do chustaiméirí"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Tuarascáil Seirbhís Priontáil"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "úsáideoir Priontáil"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "Soláthraí"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Cláraigh"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "Rólanna"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "Sábháil"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "tuarascáil na Seirbhíse"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Tuarascáil Seirbhís n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "tuarascálacha na Seirbhíse"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Socrú"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "seoladh Sráid"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Is é seo an t-ainm do chustaiméirí in úsáid cheana"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Níl an t-ainm do chustaiméirí bailí"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "tá sé seo"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Is féidir úsáideoir seo ná léamh ná scríobh"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Is féidir an úsáideoir seo a léamh"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Is féidir an úsáideoir seo a léamh agus a scríobh"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Is féidir an úsáideoir seo a scríobh"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Ní féidir úsáideoir seo a rochtain"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Is é seo an t-ainm úsáideora in úsáid cheana"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Níl an t-ainm úsáideora bailí"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Is é seo an luach ná Fiscale Codice ná P.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Am tosaithe seirbhíse"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "nascleanúint scoránaigh"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Úsáideoir seoladh ríomhphoist"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "ainm úsáideora"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "Ainm Úsáideora"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "Úsáideoirí"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Tá tú as líne"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Tá tú ar líne"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "dtaisce"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "chur ar ceal"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "seiceáil"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "custaiméirí"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "íoslódáil"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "earráid"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "leathanach baile d'úsáideoirí nach bhfuil cláraithe ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "leathanach baile d'úsáideoirí registerd ."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "initializing"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "Tá iarratas gréasáin ( cliste ) gnólachtaí nuathionscanta ."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "úsáideoir ar-líne"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "as feidhm"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "orduithe"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "chlárú ar shlí eile accout nua agus logáil isteach ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "Focal faire :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "dul chun cinn"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "ainm úsáideora:"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "úsáideoirí"

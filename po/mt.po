@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mt\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh : mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "A Kodi\\u010Bi Fiskali jew P.IVA huwa me\\u0127tie\\u0121"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "A klijent isem huwa me\\u0127tie\\u0121"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "A data tal -bidu tas-servizz hija me\\u0127tie\\u0121a"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "A post tas -servizz tkun me\\u0127tie\\u0121a"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Numru tat-telefon huwa me\\u0127tie\\u0121"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "A indirizz tat-triq hija me\\u0127tie\\u0121a"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "A isem l-utent huwa me\\u0127tie\\u0121"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "dwar"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "\\u017Bid klijent \\u0121did"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "\\u017Bid utent \\u0121did"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "indirizz"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "L-indirizz email hija me\\u0127tie\\u0121a"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Operatur hija me\\u0127tie\\u0121a"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "A\\u0121\\u0121ornament huwa disponibbli : tridu tag\\u0127bija issa ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "A\\u0121\\u0121ornament hija lesta"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Int verament \\u017Cgur li tne\\u0127\\u0127i rapport tas-servizz"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Int verament \\u017Cgur li tne\\u0127\\u0127i l-utent"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "awtentikazzjoni id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Awtentikazzjoni id ta 'l -utent"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Awtentikazzjoni id:"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "fornitur awtentikazzjoni"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Fornitur Awtentikazzjoni g\\u0127all-utent"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "Avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Imma\\u0121ni Avatar tal- utent"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Cache qed ji\\u0121i initialized"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Cache huwa fl-istat mhux mag\\u0127ruf"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Cache ma hux a\\u0121\\u0121ornat ( probabbilment l- manifest huwa unreachable )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Cache ma hux a\\u0121\\u0121ornat g\\u0127aliex inti offline"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Cache hija skaduta"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Cache huwa up -to-data"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Istatus Cache hija"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "I\\u010B\\u010Bekkjar g\\u0127all-pre\\u017Cenza ta 'a\\u0121\\u0121ornament"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Kodi\\u010Bi Fiskali / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Kodi\\u010Bi Fiskali fih karattru invalida ( i )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Kodi\\u010Bi kontroll Kodi\\u010Bi Fiskali ma taqbilx ma '"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Kodi\\u010Bi Fiskali jew P.IVA tal-klijent"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "logo Company"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Wa\\u0127\\u0127al ma Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Wa\\u0127\\u0127al ma Google +"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Wa\\u0127\\u0127al ma Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "kuntatti"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Lingwa\\u0121\\u0121 kurrenti"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "Customer"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Customer Card"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Customer indirizz email"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "isem Customer"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Numru Customer phone"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Indirizz Customer triq"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Firma Klijent"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "klijenti"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "data"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Data tal- bidu tas-servizz"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "\\u0126assar klijent"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "\\u0126assar rapport tas-servizz"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "\\u0126assar utent"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Tni\\u017C\\u017Cil a\\u0121\\u0121ornament"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "Tul"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Tul ta ' servizz"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "klijent Edit"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Rapport tas-servizz Edit"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "utent Edit"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "email"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "indirizz email"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Indirizz Email mhix valida"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Indirizz elettroniku tal- utent"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Email tal -utent"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "fax"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "klijenti Iffiltra"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Rapporti tas-servizz Iffiltra"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "utenti Iffiltra"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Home"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "id"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Hija tippermetti l- \\u0121estjoni tal-klijenti , ordnijiet u rapporti tas-servizz ."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "post"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Post ta 'servizz"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "log in"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "log out"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "isem"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Isem tal -utent"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "klijent \\u0121did"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "rapport \\u0121did"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "utent \\u0121did"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Nru a\\u0121\\u0121ornament huwa pre\\u017Centi"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "noti"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "numru"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "operatur"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Operatur ta 'servizz"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Firma Operatur"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "ordnijiet"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA fih karattru invalida ( i )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "Kodi\\u010Bi kontroll P.IVA ma taqbilx ma '"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "phone"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "numru tat-telefon"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Numru tat-telefon mhix valida"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "post"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "T\\u0127ejjija g\\u0127all- tni\\u017C\\u017Cil a\\u0121\\u0121ornament"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Stampa"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "klijent Stampa"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Rapport tas-servizz Stampa"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "utent Stampa"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "Provider"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "re\\u0121istru"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "rwoli"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "Save"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "rapport Service"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Rapport Service n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "rapporti servizz"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "setup"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "indirizz tat-triq"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Dan l-isem tal-klijent hija di\\u0121à fl-u\\u017Cu"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Dan l-isem tal-klijent ma jkunx validu"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "Dan huwa"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Dan l-utent jista ' lanqas jaqraw u lanqas jiktbu"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Dan l-utent tista 'taqra"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Dan l-utent jistg\\u0127u jaqraw u jiktbu"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Dan l-utent jista 'jikteb"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Dan l-utent ma jistg\\u0127ux ikollhom a\\u010B\\u010Bess"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Dan l-isem l-utent huwa di\\u0121à fl-u\\u017Cu"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Dan l-isem l-utent mhuwiex validu"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Dan il-valur huwa lanqas Fiskali Codice lanqas P.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "\\u0126in tal -bidu tas-servizz"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "navigazzjoni toggle"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Indirizz email User"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "isem l-utent"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "username"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "utenti"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Inti offline"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Inti online"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "Cached"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "tikkan\\u010Bella"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "verifika"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "klijenti"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "tni\\u017C\\u017Cil"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "\\u017Cball"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "home page g\\u0127all-utenti mhux re\\u0121istrati ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "home page g\\u0127all-utenti registerd ."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "initializing"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "hija applikazzjoni web g\\u0127all ( smart ) start- ups ."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "utent lloggjata"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "skaduti"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "ordnijiet"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "inkella tirre\\u0121istra accout \\u0121did u l-log fil ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "password :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "progress"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "username :"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "utenti"

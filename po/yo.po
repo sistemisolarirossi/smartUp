@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: yo\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( HH : mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "A Codice Fiscale tabi a P.IVA ti wa ni ti beere"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "A alabara orukọ ti wa ni ti beere"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "A ọjọ ti awọn iṣẹ ti wa ni ibere ti beere"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "A ti wa ni ipo ti awọn iṣẹ ti beere"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "A nọmba foonu ti wa ni ti beere"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "A ti wa ni ita adirẹsi beere fun"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "A orukọ olumulo ti wa ni ti beere"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "nipa"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Fi titun onibara"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Fi titun olumulo"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "adirẹsi"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Imeeli adirẹsi ti wa ni ti beere"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Ohun ti wa ni oniṣẹ beere fun"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Ohun imudojuiwọn wa : ni o fẹ lati fifuye o bayi ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Ohun imudojuiwọn ti šetan"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Ni o wa ti o daju gan lati yọ iṣẹ Iroyin"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Ni o wa ti o daju gan lati yọ olumulo"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Ijeri id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Ijeri id ti awọn olumulo"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Ijeri id :"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "Ijeri olupese"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Ijeri olupese fun awọn olumulo"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "Afata"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Afata aworan ti awọn olumulo"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Kaṣe ti wa ni a initialized"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Kaṣe jẹ aimọ ni ipinle"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Kaṣe ti a ko ti imudojuiwọn ( jasi awọn hàn ni ọdọ rẹ )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Kaṣe ti a ko ti imudojuiwọn nitori ti o wa ni aisinipo"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Kaṣe jẹ ti atijo"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Kaṣe ni soke - to - ọjọ"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Kaṣe ipo ni"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Yiyewo fun awọn niwaju ohun imudojuiwọn"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice Fiscale ni invalid ohun kikọ ( s )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codice Fiscale Iṣakoso koodu ko ni baramu"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale tabi P.IVA ti awọn onibara"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "ile logo"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Sopọ pẹlu Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Sopọ pẹlu Google+"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Sopọ pẹlu Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "awọn olubasọrọ"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Lọwọlọwọ ede ni"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "onibara"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "onibara Kaadi"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Onibara adirẹsi imeeli"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "onibara orukọ"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Onibara nọmba foonu"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Onibara ita adirẹsi"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Onibara ká Ibuwọlu"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "onibara"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "ọjọ"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Ọjọ ti a ti iṣẹ ibere"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "pa onibara"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Pa iṣẹ Iroyin"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "pa olumulo"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Gbigba ohun imudojuiwọn"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "iye"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Iye ti awọn iṣẹ"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "Ṣatunkọ onibara"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Ṣatunkọ iṣẹ Iroyin"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "Ṣatunkọ olumulo"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "imeeli"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "adirẹsi imeeli"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Adirẹsi imeeli ni ko wulo"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Adirẹsi imeeli ti awọn olumulo"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Imeeli ti awọn olumulo"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "Faksi"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "àlẹmọ onibara"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Àlẹmọ iṣẹ iroyin"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "àlẹmọ awọn olumulo"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Home"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "id"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "O gba awọn isakoso ti awọn onibara , ibere ati iṣẹ iroyin ."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "ibi"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Ipo ti awọn iṣẹ"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "wo ile"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "buwolu jade"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "Name"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Lorukọ ti awọn olumulo"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "titun onibara"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "titun iroyin"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "titun olumulo"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Ko si imudojuiwọn ni bayi"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "awọn akọsilẹ"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "Number"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "onišẹ"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Onišẹ ti awọn iṣẹ"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Oniṣẹ ká Ibuwọlu"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "bibere"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA ni invalid ohun kikọ ( s )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "P.IVA iṣakoso koodu ko ni baramu"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "foonu"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "nomba fonu"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Nọmba foonu ni ko wulo"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "Gbe"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Ngbaradi awọn gbigba ohun imudojuiwọn"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Print"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Print onibara"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Print iṣẹ Iroyin"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "Print olumulo"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "olupese"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Forukọsilẹ"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "ipa"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "Fipamọ"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "Service Iroyin"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Service Iroyin n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "Service iroyin"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "eto"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "adirẹsi opopona"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Yi alabara orukọ jẹ tẹlẹ ni lilo"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Yi alabara orukọ jẹ ko wulo"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "Eleyi jẹ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Olumulo yi le tabi ka tabi kọ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Olumulo yi le ka"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Olumulo yi le ka ki o si kọ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Olumulo yi le kọ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Olumulo yi ko le wọle si awọn"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Olumulo yi jẹ orukọ si tẹlẹ ninu lilo"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Olumulo yi orukọ jẹ ko wulo"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Ipo yi jẹ tabi kan Codice Fiscale tabi kan P.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Akoko ti iṣẹ ibere"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "balu lilọ"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Olumulo imeeli adirẹsi"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "olumulo orukọ"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "olumulo"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "awọn olumulo"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Ti o ba wa aisinipo"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Ti o ba wa online"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "kashi"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "fagilee"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "yiyewo"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "onibara"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "lati ayelujara"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "aṣiṣe"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "ile -iwe fun awọn ti kii aami- olumulo ."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "ile -iwe fun registerd olumulo ."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "initializing"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "ni kan ayelujara elo fun ( smati ) bẹrẹ - soke ."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "ibuwolu wọle olumulo"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "ti atijo"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "bibere"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "bibẹkọ ti forukọsilẹ titun kan ki o si accout wọle ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "ọrọigbaniwọle :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "ilọsiwaju"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "orúkọ oníṣe:"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "awọn olumulo"

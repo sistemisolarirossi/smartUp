@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh : mm )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "A Codice Fiscale a\\u016D P.IVA postulas"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Kliento nomo estas bezonata"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Dato de servo komenco estas bezonata"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "A situo de servo postulas"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "A telefonnumero postulas"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "Strato adreso estas bezonata"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Uzanto nomo estas bezonata"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "Pri"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Aldoni novan klienton"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Aldoni novan uzanton"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "adreso"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Retpo\\u015Dtadreson postulas"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Operatoro postulas"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "\\u011Cisdatigo estas disponebla : \\u0109u vi volas \\u015Dargi \\u011Din nun ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "\\u011Cisdatigo estas preta"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "\\u0108u vi vere certas forigi servo raporto"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "\\u0108u vi vere certas forigi uzanto"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Authentication identigilo"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Authentication identigilo de la uzanto"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Authentication identigilo :"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "Authentication provizanto"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Authentication provizanto por la uzanto"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "avatar"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Avatar bildo de la uzanto"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Ka\\u015Dmemoro estas inicializado"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Cache en nekonata stato"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Cache ne estas \\u011Disdatigita ( probable la manifestoj estas neatingebla )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Cache ne estas \\u011Disdatigita , \\u0109ar vi estas offline"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Cache malaktuala"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Cache supren - \\u011Dis-dato"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Ka\\u015Dmemora statuso estas"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Kontrolanta por la \\u0109eesto de \\u011Disdatigo"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice Fiscale enhavas nevalidan karaktero (j )"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Codice Fiscale kontrolon kodo ne kongruas"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice Fiscale a\\u016D P.IVA de la kliento"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "kompanio logo"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Konekti kun Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Konekti per Google+"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Konekti per Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "kontaktoj"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Nuna lingvo"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "kliento"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "kliento Karto"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Kliento retadreson"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "kliento nomo"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Kliento telefonnumero"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Kliento strato adreso"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Kliento subskribo"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "klientoj"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "dato"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Dato de servo komenco"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "Forigi klienton"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Forigi servo raporto"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "Forigi uzanto"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Downloading \\u011Disdatigo"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "da\\u016Dro"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Da\\u016Dro de servo"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "redakti kliento"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Redakti servo raporto"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "redakti uzanto"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "retpo\\u015Dto"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "retadreso"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Retadreso ne estas valida"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Retadreso de la uzanto"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Retadreso de la uzanto"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "fakso"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "filtrilo klientoj"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Filtrilo servo informoj"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "filtrilo uzantoj"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Hejmo"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "identigilo"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "\\u011Ci permesas la uzadon de la klientoj , ordonoj kaj servo informoj ."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "Loko"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Loko de servo"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "ensaluti"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "elsaluti"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "nomo"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Nomo de la uzanto"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "nova kliento"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "novaj raporto"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "nova uzanto"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Neniu \\u011Disdatigo \\u0109eestas"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "notoj"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "Nombro"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "Telefonisto"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Telefonisto de servo"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Telefonisto subskribo"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "ordoj"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA enhavas nevalidan karaktero (j )"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "P.IVA kontrolon kodo ne kongruas"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "telefono"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "telefonnumero"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Telefonnumero ne validas"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "loko"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Preparante la el\\u015Duto \\u011Disdatigo"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "print"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "print kliento"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Print servo raporto"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "print uzanto"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "provizanto"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Registru"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "roloj"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "Konservi"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "servo raporto"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Servo raporto n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "servo informoj"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Agordi"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "strato adreso"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "\\u0108i kliento nomo jam estas uzata"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "\\u0108i kliento nomo ne estas valida"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "Tio estas"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "\\u0108i tiu uzanto povas nek legi nek skribi"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "\\u0108i tiu uzanto povas legi"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "\\u0108i tiu uzanto povas legi kaj skribi"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "\\u0108i tiu uzanto povas skribi"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "\\u0108i tiu uzanto ne povas konsenti"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Tiu salutnomo estas jam uzata"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Tiu salutnomo estas nevalida"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "\\u0108i tiu valoro estas nek Codice Fiscale nek P.IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Tempo de servo komenco"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "Komuti navigado"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Uzanto retadreson"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "uzantonomo"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "uzantonomo"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "uzantoj"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Vi estas offline"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Vi estas enreta"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "ka\\u015Dmemoro"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "nuligi"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "kontrolanta"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "klientoj"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "el\\u015Dutanta"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "eraro"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "\\u0109efpa\\u011Don por ne registritaj uzantoj."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "\\u0109efpa\\u011Don por registerd uzantoj."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "inicialización"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "Estas apliko retejo por ( inteligenta ) start- ups ."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "ensalutinta uzanto"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "malaktuala"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "ordonoj"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "alie registri novan accout kaj ensaluti ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "pasvorto :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "progreso"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "uzantonomo"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "uzantoj"

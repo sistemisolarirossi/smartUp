@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( hh: mm)"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "Italijos mokesèiø arbaP. IVA reikalingas"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "Kliento vardas reikalingas"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "Paslaugø pradþios data yra reikalaujama"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "Paslaugø vieta yra reikalinga"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "Telefono numeris yra reikalingas"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "Gatvë yra bûtinas"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "Vartotojo vardas bûtinas"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "Viskas"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "Pridëti naujà vartotojà"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "Sukurti naujà vartotojà"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "Adresas"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "Paðto adresas yra bûtinas"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "Operatorius privalo"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "Atnaujinimas yra prieinama : norite ákelti já dabar ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "Atnaujinimas yra pasirengusi"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "Ar tikrai paðalinti paslaugø ataskaità"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "Ar tikrai paðalinti vartotojà"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "Atpaþinimas id"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "Atpaþinimas tapatybës vartotojas"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "Atpaþinimas id:"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "Atpaþinimas teikëjas"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "Atpaþinimas teikëjas vartotojui"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "Avatara"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "Avatar vartotojas"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C. F. / P. IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "Talpykla yra inicializuoti"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "Talpykla yra neþinoma valstybës"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "Cache nëra atnaujinamas ( tikriausiaimanifestas yra nepasiekiamas )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "Talpykla yra atnaujinama ne todël, kad esate neprisijungæs"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "Talpykla yra pasenusi"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "Talpykla yra up- to-data"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "Cache statusas"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "Tikrinimas dël atnaujinimo buvimà"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Italijos mokesèiø / P. IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Italijos mokesèiø yra neleistinø simboliø (s)"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "Italijos mokesèiø kontrolë kodas nesutampa"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Italijos mokesèiø arba P. IVA kliento"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "Ámonës logotipas"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "Susisiekti su Facebook"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "Susisiekti su \\\"Google+\\\""
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "Susisiekti su Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "Kontaktai"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "Dabartinis kalba"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "Klientø"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "Klientø kortelë"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "Klientø paðto adresas"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "Klientø vardas"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "Klientø telefono numeris"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "Klientø gatvë"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "Kliento paraðas"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "Klientai"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "data"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "Áteikimo data pradþios"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "Iðtrinti klientui"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "Iðtrinti paslaugø ataskaità"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "Iðtrinti vartotojà"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "Atsisiøsti atnaujinimà"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "Trukmë"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "Trukmë paslaugø"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "Redaguoti klientas"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "Redaguoti tarnyba ataskaita"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "Redaguoti vartotojà"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "paðtas"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "paðto adresas"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "Paðto adresas negalioja"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "Paðto adresas vartotojas"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "Paðtas vartotojas"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "faksas"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "Filtruoti klientai"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "Filtras paslaugø ataskaitos"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "Filtruoti vartotojai"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "Namai"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "Id"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "Tai leidþia klientams , uþsakymø ir paslaugø ataskaitø valdymà."
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "Vieta"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "Vieta tarnyba"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "Prisijungti"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "Atsijungti"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "N"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "Vardas"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "Vardas vartotojas"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "Naujas klientas"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "Naujas praneðimas"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "Naujas vartotojas"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "Nëra atnaujinimas bûna"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "Pastabos"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "skaièius"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "Operatoriaus"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "Operatoriaus paslaugø"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "Operatoriaus paraðas"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "Uþsakymai"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P. IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P. IVA yra neleistinø simboliø (s)"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "P. IVA kontrolë kodas nesutampa"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "Telefonas"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "Telefonas"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "Telefono numeris negalioja"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "Vieta"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "Pasiruoðimasatsisiøsti atnaujinimà"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "Spausdinti"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "Spausdinti klientas"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "Spausdinti paslauga ataskaita"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "Spausdinti vartotojas"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "teikëjas"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "Registruotis"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "Vaidmenys"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "Iðsaugoti"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "Paslaugø ataskaita"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "Paslaugø ataskaita n"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "Paslaugø praneðimai"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "Sàranka"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "adresas su gatvës pavadinimu"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "Ðis klientas vardas jau naudojamas"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "Ðis klientas vardas negalioja"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "Tai yra"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "Ðis vartotojas negali nei skaityti, nei raðyti"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "Ðis vartotojas gali skaityti"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "Ðis vartotojas gali skaityti ir raðyti"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "Ðis vartotojas gali raðyti"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "Ðis vartotojas negali naudotis"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "Ðis vartotojo vardas jau yra naudojamas"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "Ðis vartotojo vardas negalioja"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "Ði vertë yra neiItalijos mokesèiø neiP. IVA"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "Laikas Paslaugø pradþios"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "Perjungti navigacija"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "Vartotojas paðto adresas"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "Vartotojo vardas"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "Nick"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "Vartotojai"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "Jûs esate neprisijungæs"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "Jûs esate prisijungæs"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "talpyklos"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "atðaukti"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "tikrinti"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "klientø"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "parsisiuntimas"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "klaida"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "namø puslapis ne registruotiems vartotojams."
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "namø puslapis Registerd vartotojams."
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "Inicijuojama"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "yrainterneto paraiðkà ( smart ) steigimui."
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "Prisijungæs vartotojas"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "pasenæs"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "uþsakymai"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "kitaip uþregistruoti naujà accout ir prisijunkite ."
+
+#: app/views/home.html
+msgid "password:"
+msgstr "slaptaþodis:"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "paþanga"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "vardas:"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "Vartotojø"

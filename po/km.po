@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartUp\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: PoAutoTranslate\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: km\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/serviceReports.html
+msgid "(hh:mm)"
+msgstr "( HH: MM )"
+
+#: app/views/customers.html
+msgid "A Codice Fiscale or a P.IVA is required"
+msgstr "មួយ Codice សារពើពន្ធ ឬ P.IVA មួយដែល ត្រូវបានទាមទារ"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "A customer name is required"
+msgstr "ឈ្មោះ របស់អតិថិជន គឺត្រូវ បានទាមទារ"
+
+#: app/views/serviceReports.html
+msgid "A date of service start is required"
+msgstr "កាលបរិច្ឆេទនៃ ការចាប់ផ្តើម សេវា មួយ គឺត្រូវបានទាមទារ"
+
+#: app/views/serviceReports.html
+msgid ""
+"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "A location of service is required"
+msgstr "ទីតាំង នៃសេវាកម្ម គឺត្រូវ បានទាមទារ"
+
+#: app/views/customers.html
+msgid "A phone number is required"
+msgstr "គឺត្រូវបានទាមទារ លេខទូរស័ព្ទ មួយ"
+
+#: app/views/customers.html
+msgid "A street address is required"
+msgstr "អាសយដ្ឋាន ផ្លូវ មួយ គឺត្រូវបានទាមទារ"
+
+#: app/views/users.html
+msgid "A user name is required"
+msgstr "ឈ្មោះ អ្នកប្រើ គឺត្រូវបានទាមទារ"
+
+#: app/views/nav.html
+msgid "About"
+msgstr "អំពី"
+
+#: app/views/customers.html
+msgid "Add new customer"
+msgstr "បន្ថែម អតិថិជន ថ្មី"
+
+#: app/views/users.html
+msgid "Add new user"
+msgstr "បន្ថែម អ្នកប្រើថ្មី"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Address"
+msgstr "អាសយដ្ឋាន"
+
+#: app/views/customers.html
+msgid "An email address is required"
+msgstr "អាសយដ្ឋាន អ៊ីម៉ែល គឺត្រូវបានទាមទារ"
+
+#: app/views/serviceReports.html
+msgid "An operator is required"
+msgstr "ប្រតិបត្តិករ មួយដែល ត្រូវបានទាមទារ"
+
+#: app/views/footer.html
+msgid "An update is available: do you want to load it now?"
+msgstr "ធ្វើឱ្យទាន់សម័យ មួយដែល អាចប្រើបាន : តើ អ្នកចង់ផ្ទុក វាឥឡូវ ?"
+
+#: app/scripts/controllers/auth.js
+msgid "An update is ready"
+msgstr "ធ្វើឱ្យទាន់សម័យ មួយគឺ ត្រៀមខ្លួនជាស្រេច"
+
+#: app/views/serviceReports.html
+msgid "Are you really sure to remove service report"
+msgstr "តើអ្នក ពិតជា ប្រាកដថា ដើម្បីយកចេញ របាយការណ៍ សេវា"
+
+#: app/views/users.html
+msgid "Are you really sure to remove user"
+msgstr "តើអ្នក ពិតជា ប្រាកដថាដើម្បី យក អ្នកប្រើ"
+
+#: app/views/users.html
+msgid "Authentication id"
+msgstr "លេខសម្គាល់ ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"
+
+#: app/views/users.html
+msgid "Authentication id of the user"
+msgstr "លេខសម្គាល់ ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ របស់អ្នកប្រើ"
+
+#: app/views/users.html
+msgid "Authentication id:"
+msgstr "លេខសម្គាល់ ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ :"
+
+#: app/views/users.html
+msgid "Authentication provider"
+msgstr "អ្នកផ្តល់សេវា ផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"
+
+#: app/views/users.html
+msgid "Authentication provider for the user"
+msgstr "អ្នកផ្តល់សេវា ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ សម្រាប់អ្នកប្រើ"
+
+#: app/views/users.html
+msgid "Avatar"
+msgstr "រូបតំនាង"
+
+#: app/views/users.html
+msgid "Avatar image of the user"
+msgstr "រូបភាព រូបតំនាង របស់អ្នកប្រើ"
+
+#: app/views/customers.html
+msgid "C.F./P.IVA"
+msgstr "C.F. / P.IVA"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is being initialized"
+msgstr "ឃ្លាំងសម្ងាត់ ត្រូវបាន ចាប់ផ្ដើម"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is in unknown state"
+msgstr "ឃ្លាំងសម្ងាត់ គឺស្ថិតនៅក្នុង រដ្ឋ ដែលមិនស្គាល់"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated (probably the manifest is unreachable)"
+msgstr "ឃ្លាំងសម្ងាត់ មិនត្រូវបាន ធ្វើឱ្យទាន់សម័យ ( ប្រហែលជា សម្ដែង នោះគឺ មិនអាចទៅដល់ )"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is not updated because you are offline"
+msgstr "ឃ្លាំងសម្ងាត់ មិនត្រូវ បានធ្វើឱ្យទាន់សម័យ ទេព្រោះ អ្នកគឺជាអ្នក ក្រៅបណ្តាញ"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is obsolete"
+msgstr "ឃ្លាំងសម្ងាត់ គឺត្រូវ លែងប្រើ"
+
+#: app/scripts/controllers/auth.js
+msgid "Cache is up-to-date"
+msgstr "ឃ្លាំងសម្ងាត់ គឺមានរហូត ដល់ កាលបរិច្ឆេទ"
+
+#: app/views/footer.html
+msgid "Cache status is"
+msgstr "ស្ថានភាព ឃ្លាំងសម្ងាត់ គឺ"
+
+#: app/scripts/controllers/auth.js
+msgid "Checking for the presence of an update"
+msgstr "ពិនិត្យមើល សម្រាប់ វត្តមាននៃ ភាពទាន់សម័យ មួយ"
+
+#: app/views/customers.html
+msgid "Codice Fiscale / P.IVA"
+msgstr "Codice សារពើពន្ធ / P.IVA"
+
+#: app/views/customers.html
+msgid "Codice Fiscale contains invalid character(s)"
+msgstr "Codice សារពើពន្ធ មាន តួអក្សរ មិនត្រឹមត្រូវ (s) បាន"
+
+#: app/views/customers.html
+msgid "Codice Fiscale control code doesn't match"
+msgstr "កូដ ការបញ្ជា Codice សារពើពន្ធ មិនផ្គូផ្គង"
+
+#: app/views/customers.html
+msgid "Codice Fiscale or P.IVA of the customer"
+msgstr "Codice សារពើពន្ធ ឬ P.IVA របស់ អតិថិជន"
+
+#: app/views/footer.html
+msgid "Company logo"
+msgstr "ស្លាកសញ្ញា របស់ក្រុមហ៊ុន"
+
+#: app/views/home.html
+msgid "Connect with Facebook"
+msgstr "តភ្ជាប់ជាមួយ ហ្វេសប៊ុក"
+
+#: app/views/home.html
+msgid "Connect with Google+"
+msgstr "តភ្ជាប់ជាមួយ Google+"
+
+#: app/views/home.html
+msgid "Connect with Twitter"
+msgstr "តភ្ជាប់ជាមួយ ក្នុង Twitter"
+
+#: app/views/nav.html
+msgid "Contacts"
+msgstr "ទំនាក់ទំនង"
+
+#: app/views/footer.html
+msgid "Current language is"
+msgstr "ភាសា បច្ចុប្បន្ន"
+
+#: app/views/serviceReports.html
+msgid "Customer"
+msgstr "អតិថិជន"
+
+#: app/views/customers.html
+msgid "Customer Card"
+msgstr "កាត របស់អតិថិជន"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer email address"
+msgstr "អាសយដ្ឋាន អ៊ីម៉ែល អតិថិជន"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer name"
+msgstr "ឈ្មោះ អតិថិជន"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Customer phone number"
+msgstr "លេខទូរស័ព្ទ របស់អតិថិជន"
+
+#: app/views/customers.html
+msgid "Customer street address"
+msgstr "អាសយដ្ឋាន ផ្លូវ របស់អតិថិជន"
+
+#: app/views/serviceReports.html
+msgid "Customer's signature"
+msgstr "ហត្ថលេខា របស់អតិថិជន"
+
+#: app/views/nav.html
+msgid "Customers"
+msgstr "អតិថិជន"
+
+#: app/views/serviceReports.html
+msgid "Date"
+msgstr "កាលបរិច្ឆេទ"
+
+#: app/views/serviceReports.html
+msgid "Date of service start"
+msgstr "កាលបរិច្ឆេទនៃ ការចាប់ផ្តើម សេវា"
+
+#: app/views/customers.html
+msgid "Delete customer"
+msgstr "លុប អតិថិជន"
+
+#: app/views/serviceReports.html
+msgid "Delete service report"
+msgstr "លុប របាយការណ៍របស់ សេវាកម្ម"
+
+#: app/views/users.html
+msgid "Delete user"
+msgstr "លុប អ្នកប្រើ"
+
+#: app/scripts/controllers/auth.js
+msgid "Downloading an update"
+msgstr "ទាញយក ភាពទាន់សម័យ"
+
+#: app/views/serviceReports.html
+msgid "Duration"
+msgstr "រយៈពេល"
+
+#: app/views/serviceReports.html
+msgid "Duration of service"
+msgstr "រយៈពេល នៃសេវាកម្ម"
+
+#: app/views/customers.html
+msgid "Edit customer"
+msgstr "កែសម្រួល អតិថិជន"
+
+#: app/views/serviceReports.html
+msgid "Edit service report"
+msgstr "របាយការណ៍របស់ សេវាកម្ម កែសម្រួល"
+
+#: app/views/users.html
+msgid "Edit user"
+msgstr "កែសម្រួល អ្នកប្រើ"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Email"
+msgstr "អ៊ីម៉ែល"
+
+#: app/views/customers.html app/views/users.html
+msgid "Email address"
+msgstr "អាសយដ្ឋាន អ៊ីម៉ែល"
+
+#: app/views/customers.html
+msgid "Email address is not valid"
+msgstr "អាសយដ្ឋានអ៊ីមែល មិនត្រឹមត្រូវ"
+
+#: app/views/users.html
+msgid "Email address of the user"
+msgstr "អាសយដ្ឋានអ៊ីមែល របស់អ្នកប្រើ"
+
+#: app/views/users.html
+msgid "Email of the user"
+msgstr "អ៊ីម៉ែល របស់អ្នកប្រើ"
+
+#: app/views/home.html
+msgid ""
+"Enter using one of your \"social\" accounts, or log in with these "
+"credentials:"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Fax"
+msgstr "ទូរសារ"
+
+#: app/views/customers.html
+msgid "Filter customers"
+msgstr "អតិថិជន តម្រង"
+
+#: app/views/serviceReports.html
+msgid "Filter service reports"
+msgstr "សេចក្តីរាយការណ៍ សេវា តម្រង"
+
+#: app/views/users.html
+msgid "Filter users"
+msgstr "អ្នកប្រើប្រាស់ តម្រង"
+
+#: app/views/nav.html
+msgid "Home"
+msgstr "ទំព័រដើម"
+
+#: app/views/users.html
+msgid "Id"
+msgstr "លេខសម្គាល់"
+
+#: app/views/about.html
+msgid "It allows the management of customers, orders and service reports."
+msgstr "វាអនុញ្ញាតឱ្យ ការគ្រប់គ្រង របស់ អតិថិជន ការបញ្ជាទិញ និងរបាយការណ៍ សេវា។"
+
+#: app/views/about.html
+msgid ""
+"It is open-source, fast, compact, extensible, resilient, international and "
+"mobile."
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "Location"
+msgstr "ទីតាំង"
+
+#: app/views/serviceReports.html
+msgid "Location of service"
+msgstr "ទីតាំង នៃសេវាកម្ម"
+
+#: app/views/home.html
+msgid "Log in"
+msgstr "ចូល"
+
+#: app/views/nav.html
+msgid "Log out"
+msgstr "ចេញ"
+
+#: app/views/serviceReports.html
+msgid "N"
+msgstr "គ្មាន"
+
+#: app/views/customers.html
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+#: app/views/users.html
+msgid "Name of the user"
+msgstr "ឈ្មោះ របស់អ្នកប្រើ"
+
+#: app/views/customers.html
+msgid "New customer"
+msgstr "អតិថិជន ថ្មីមួយ"
+
+#: app/views/serviceReports.html
+msgid "New report"
+msgstr "របាយការណ៍ថ្មី"
+
+#: app/views/users.html
+msgid "New user"
+msgstr "អ្នកប្រើថ្មី"
+
+#: app/scripts/controllers/auth.js
+msgid "No update is present"
+msgstr "គ្មានការ ធ្វើឱ្យទាន់សម័យ មានវត្តមាន"
+
+#: app/views/serviceReports.html
+msgid "Notes"
+msgstr "កំណត់ត្រា"
+
+#: app/views/serviceReports.html
+msgid "Number"
+msgstr "លេខ"
+
+#: app/views/serviceReports.html
+msgid "Operator"
+msgstr "ប្រតិបត្តិករ"
+
+#: app/views/serviceReports.html
+msgid "Operator of service"
+msgstr "ប្រតិបត្តិករ នៃសេវាកម្ម"
+
+#: app/views/serviceReports.html
+msgid "Operator's signature"
+msgstr "ហត្ថលេខា ប្រតិបត្តិករ"
+
+#: app/views/nav.html
+msgid "Orders"
+msgstr "ការបញ្ជាទិញ"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "P.IVA"
+msgstr "P.IVA"
+
+#: app/views/customers.html
+msgid "P.IVA contains invalid character(s)"
+msgstr "P.IVA មាន តួអក្សរ មិនត្រឹមត្រូវ (s) បាន"
+
+#: app/views/customers.html
+msgid "P.IVA control code doesn't match"
+msgstr "កូដ ការត្រួតពិនិត្យ P.IVA មិនផ្គូផ្គង"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Phone"
+msgstr "ទូរស័ព្ទ"
+
+#: app/views/customers.html
+msgid "Phone number"
+msgstr "លេខទូរស័ព្ទ"
+
+#: app/views/customers.html
+msgid "Phone number is not valid"
+msgstr "លេខទូរស័ព្ទ មិនត្រឹមត្រូវ"
+
+#: app/views/serviceReports.html
+msgid "Place"
+msgstr "ទីកន្លែង"
+
+#: app/scripts/controllers/auth.js
+msgid "Preparing the downloading an update"
+msgstr "ការរៀបចំ នេះបាន ទាញយក ភាពទាន់សម័យ"
+
+#: app/views/customers.html app/views/serviceReports.html
+msgid "Print"
+msgstr "បោះពុម្ព"
+
+#: app/views/customers.html
+msgid "Print customer"
+msgstr "បោះពុម្ព អតិថិជន"
+
+#: app/views/serviceReports.html
+msgid "Print service report"
+msgstr "របាយការណ៍ សេវា បោះពុម្ព"
+
+#: app/views/users.html
+msgid "Print user"
+msgstr "អ្នកប្រើ ការបោះពុម្ព"
+
+#: app/views/users.html
+msgid "Provider"
+msgstr "អ្នកផ្តល់សេវា"
+
+#: app/views/home.html
+msgid "Register"
+msgstr "ចុះឈ្មោះ"
+
+#: app/views/users.html
+msgid "Roles"
+msgstr "តួនាទី"
+
+#: app/views/users.html
+msgid ""
+"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr ""
+
+#: app/views/users.html
+msgid ""
+"Roles of the user: green color indicates permission for read and write, "
+"yellow means only read, blue only write, and read no permission. Sections "
+"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr ""
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "Save"
+msgstr "រក្សាទុក"
+
+#: app/views/serviceReports.html
+msgid "Service report"
+msgstr "របាយការណ៍ សេវាកម្ម"
+
+#: app/views/serviceReports.html
+msgid "Service report n"
+msgstr "n របាយការណ៍ សេវាកម្ម"
+
+#: app/views/nav.html
+msgid "Service reports"
+msgstr "របាយការណ៍ ផ្នែកសេវា"
+
+#: app/views/nav.html
+msgid "Setup"
+msgstr "ការដំឡើង"
+
+#: app/views/customers.html
+msgid "Street address"
+msgstr "អាសយដ្ឋានផ្លូវ"
+
+#: app/views/customers.html
+msgid "This customer name is already in use"
+msgstr "ឈ្មោះ របស់អតិថិជន នេះគឺជាការ រួចហើយនៅក្នុង ការប្រើប្រាស់"
+
+#: app/views/customers.html
+msgid "This customer name is not valid"
+msgstr "ឈ្មោះ របស់អតិថិជន នេះគឺជាការ មិនត្រឹមត្រូវ"
+
+#: app/views/home.html
+msgid "This is"
+msgstr "នេះគឺជាការ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can nor read nor write"
+msgstr "អ្នកប្រើ នេះអាច ហើយក៏មិន អាន ក៏មិនមែនជា ការសរសេរ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read"
+msgstr "អ្នកប្រើ នេះអាច អានបាន"
+
+#: app/scripts/controllers/users.js
+msgid "This user can read and write"
+msgstr "អ្នកប្រើ នេះអាច អាននិងសរសេរ"
+
+#: app/scripts/controllers/users.js
+msgid "This user can write"
+msgstr "អ្នកប្រើ នេះអាច សរសេរបាន"
+
+#: app/scripts/controllers/users.js
+msgid "This user can't access"
+msgstr "អ្នកប្រើ នេះមិនអាច ចូលដំណើរការ"
+
+#: app/views/users.html
+msgid "This user name is already in use"
+msgstr "ឈ្មោះអ្នកប្រើ នេះគឺមាន រួចហើយនៅក្នុង ការប្រើប្រាស់"
+
+#: app/views/users.html
+msgid "This user name is not valid"
+msgstr "ឈ្មោះអ្នកប្រើ នេះគឺជាការ មិនត្រឹមត្រូវ"
+
+#: app/views/customers.html
+msgid "This value is nor a Codice Fiscale nor a P.IVA"
+msgstr "តម្លៃនេះ គឺ ក៏មិនមែន ជាការ Codice សារពើពន្ធ ក៏មិនមែនជា P.IVA មួយ"
+
+#: app/views/serviceReports.html
+msgid "Time of service start"
+msgstr "ពេលវេលានៃ ការចាប់ផ្តើម សេវា"
+
+#: app/views/nav.html
+msgid "Toggle navigation"
+msgstr "ការរុករក បិទបើក"
+
+#: app/views/users.html
+msgid "User email address"
+msgstr "អាសយដ្ឋានអ៊ីមែល របស់អ្នកប្រើ"
+
+#: app/views/users.html
+msgid "User name"
+msgstr "ឈ្មោះអ្នកប្រើ"
+
+#: app/views/users.html
+msgid "Username"
+msgstr "ឈ្មោះអ្នកប្រើ"
+
+#: app/views/nav.html
+msgid "Users"
+msgstr "អ្នកប្រើ"
+
+#: app/views/footer.html
+msgid "You are offline"
+msgstr "អ្នកគឺជាអ្នក ក្រៅបណ្តាញ"
+
+#: app/views/footer.html
+msgid "You are online"
+msgstr "អ្នកគឺជាអ្នក នៅលើបណ្ដាញ"
+
+#: app/scripts/app.js
+msgid "cached"
+msgstr "ទុកក្នុងឃ្លាំងសម្ងាត់"
+
+#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+msgid "cancel"
+msgstr "លុបចោល"
+
+#: app/scripts/app.js
+msgid "checking"
+msgstr "ពិនិត្យ"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "customers"
+msgstr "អតិថិជន"
+
+#: app/scripts/app.js
+msgid "downloading"
+msgstr "ទាញយក"
+
+#: app/scripts/app.js
+msgid "error"
+msgstr "កំហុស"
+
+#: app/views/home.html
+msgid "home page for non registered users."
+msgstr "ទំព័រដើម សម្រាប់អ្នកប្រើ ដែលបានចុះឈ្មោះ មិនមែន ។"
+
+#: app/views/home.html
+msgid "home page for registerd users."
+msgstr "ទំព័រដើម សម្រាប់អ្នកប្រើ registerd ។"
+
+#: app/scripts/app.js
+msgid "initializing"
+msgstr "ចាប់ផ្ដើម"
+
+#: app/views/about.html
+msgid "is a web application for (smart) start-ups."
+msgstr "គឺជាកម្មវិធី បណ្តាញមួយ សម្រាប់ ( ឆ្លាត ) បានចាប់ផ្តើម ការ ។"
+
+#: app/views/nav.html
+msgid "logged user"
+msgstr "អ្នកប្រើ ចូល"
+
+#: app/scripts/app.js
+msgid "obsolete"
+msgstr "លែងប្រើ"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "orders"
+msgstr "ការបញ្ជាទិញ"
+
+#: app/views/home.html
+msgid "otherwise register a new accout and log in."
+msgstr "បើមិនដូច្នេះទេ ចុះឈ្មោះ ជាមួយ accout ថ្មីនិង ចូល ។"
+
+#: app/views/home.html
+msgid "password:"
+msgstr "ពាក្យសម្ងាត់ :"
+
+#: app/scripts/app.js
+msgid "progress"
+msgstr "ការរីកចំរើន"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "servicereports"
+msgstr "servicereports"
+
+#: app/scripts/app.js
+msgid "updateready"
+msgstr "updateready"
+
+#: app/views/home.html
+msgid "username:"
+msgstr "ឈ្មោះអ្នកប្រើ :"
+
+#: app/views/users.html app/scripts/controllers/users.js
+msgid "users"
+msgstr "អ្នកប្រើប្រាស់"

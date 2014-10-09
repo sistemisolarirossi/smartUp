@@ -4,32 +4,74 @@
  * Auto translate .po (gettext) files with google translate page
  */
 
+/* TODO: do not touch po files, if not touched... */
   include "PoParser.php";
   
-  $poDirectory = isset($argv[1]) ? $argv[1] : "/var/www/smartUp/po";
+  $version = "0.1";
+
+  $projectName = isset($argv[1]) ? $argv[1] : "defaultAppName";
+  $projectDirectory = isset($argv[2]) ? $argv[2] : getcwd();
+  $poDirectory = $projectDirectory . "/" ."po";
+  $i18nAppDirectory = $projectDirectory . "/" . "app/scripts/i18n";
+  $i18nSrcDirectory = $projectDirectory . "/" . "bower_components/angular-i18n";
+  $translatorName = "PoAutoTranslate";
   $potTemplateFile = "template.pot";
   $sourceLanguage = "en";
   $googleSupportedLanguagesUrl = "https://translate.google.com/?hl=en";
 
+  #echo "**PoAutoTranslate**" . "\n";
 
-
-  echo "*** PoAutoTranslate ***" . "\n";
   $languages = getSupportedLanguages($googleSupportedLanguagesUrl);
 
   foreach ($languages as $language => $languageName) {
+    $language = strtolower($language);
     if ($language == $sourceLanguage) continue; # skip source language
+
+    /* Google does not support unneeded regional code languages...
+    if (strstr($language, "-")) { # skip regional codes, if main language code is present
+      $languageMain = substr($language, 0, strpos($language, "-"));
+      if (isset($languages[$languageMain])) {
+        # main language code is present
+        print "~" . $language . " ";
+        continue;
+      }
+    }
+    */
 
     if ($language == "it") continue; # until this script is not stable, avoid breaking manually translated files
 
-    /*
-     * We currently process only po files existing in source directory;
-     * we could instead handle all Google supported languages;
-     * we would just need to build a new po file for each language
-     * (with the 'Language' tag set), and add flags support in app...
-     */
-    if (!file_exists("$poDirectory/$language.po")) continue;
+    /* if existing, copy angular-locales from source dir to app dir, if not yet present there */
+    if (!file_exists($i18nSrcDirectory. "/" . "angular-locale_" . $language . ".js")) {
+      // source locale does not exist, Angular doesn't support it: skip this language
+      print "!" . $language . " ";
+      continue;
+    } else { // source locale does exist
+      if (!file_exists($i18nAppDirectory. "/" . "angular-locale_" . $language . ".js")) {
+        copy(
+          $i18nSrcDirectory. "/" . "angular-locale_" . $language . ".js",
+          $i18nAppDirectory. "/" . "angular-locale_" . $language . ".js"
+        ) or
+          die("Can't copy source i18n language $language locale file to app");
+      } else {
+        // destination exists already, ignore it
+      }
+    }
 
-    print $language . "\n";
+    print $language . " ";
+
+    /*
+     * We process all Google supported languages;
+     */
+    /* create a new language .po file header for this language, if it doesn't exist yet */
+    if (!file_exists("$poDirectory/$language.po")) {
+      createNewPo($language,
+        array(
+          "poDirectory" => $poDirectory,
+          "projectName" => $projectName,
+          "translatorName" => $translatorName,
+        )
+      );
+    }
 
     /* merge each language po file with templates pot file */
     system("msgmerge --sort-output --update --backup=off --quiet \"$poDirectory/$language.po\" \"$poDirectory/$potTemplateFile\"");
@@ -51,53 +93,71 @@
     foreach ($entries as $entry) {
       for ($i = 0; isset($entry['msgid'][$i]); $i++) {
         $src = $entry['msgid'][$i];
-        $dst = $entry['msgstr'][0]; # ???
-        if ($src && !$dst) { // no translation: translate it
-          $dst = translate($src, $sourceLanguage, $language);
-          $poparser->updateEntry($src, $dst);
+        $dst = $entry['msgstr'][0]; # WAITING FOR AUTHOR ANSWER ABOUT MULTI-LINE ENTRIES...
+        $fuzzy = isset($entry['fuzzy']);
+        if ($src) {
+          if (!$dst or $fuzzy) { // no translation, or fuzzy translation: translate it
+            $dst = translate($src, $sourceLanguage, $language);
+            $dst = str_replace('\\u200B', '', $dst); // remove zero-space blanks (TODO: where do they come from?)
+            $poparser->updateEntry($src, $dst);
+          }
         }
         break; # waiting for author's explanation for multiline entries...
       }
     }
-    $poparser->write("$poDirectory/$language-translated.po");
-
-    /* Sepia PoParser writes iso-8859-1, convert to UTF8 */
-    #system("iconv -f ISO_8859-1 -t UTF-8 \"$poDirectory/$language-translated.po\" > \"$poDirectory/$language.po\" && rm \"$poDirectory/$language-translated.po\"");
-    encodeFile("$poDirectory/$language-translated.po", "ISO-8859-1", "UTF-8");
-    rename("$poDirectory/$language-translated.po", "$poDirectory/$language.po");
+    $translatedFilename = tempnam("/tmp", $language . ".po-"); 
+    $poparser->write($translatedFilename);
+    /* Sepia PoParser writes iso-8859-1: convert to UTF8 */
+    fileEncodeToUTF8($translatedFilename);
+    rename($translatedFilename, "$poDirectory/$language.po");
   }
+  print "\n";
 
 
 
   /**
-    * Create a new language .po file header
+    * Create a new language .po file header, if it doesn't exist yet
     */
-  function createNewPo($language, ... TODO ...) {
-    open $fh, ...
-    print $fh <<<EOT
+  function createNewPo($language, $params) {
+    $filename = $params["poDirectory"] . "/" . $language . ".po";
+    if (!file_exists($filename)) {
+      if (($fh = fopen($filename, "w")) === false) {
+        $lastError = error_get_last();
+        die("Unable to create language file $filename (" . $lastError["message"] . ")");
+      }
+      $projectName = $params["projectName"];
+      $potCreationDate = "";
+      $poRevisionDate = "";
+      $translatorName = $params["translatorName"];
+      $languageTeam = "";
+      $mimeVersion = "1.0";
+      $contentType = "text/plain; charset=UTF-8";
+      $contentTransferEncoding = "8bit";
+      $pluralForms = "nplurals=2; plural=(n > 1);";
+      $po = <<< EOT
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Marco <marcosolari@gmail.com>\n"
-"Language-Team: \n"
-"Language: $language\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.6.9\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Project-Id-Version: $projectName\\n"
+"POT-Creation-Date: $potCreationDate\\n"
+"PO-Revision-Date: $poRevisionDate\\n"
+"Last-Translator: $translatorName\\n"
+"Language-Team: $languageTeam\\n"
+"Language: $language\\n"
+"MIME-Version: $mimeVersion\\n"
+"Content-Type: $contentType\\n"
+"Content-Transfer-Encoding: $contentTransferEncoding\\n"
+"Plural-Forms: $pluralForms\\n"
 EOT;
-     close $fh;
+      fwrite($fh, $po);
+      fclose($fh);
+    }
   }
 
   /**
     * Get all supported languages by google translate
     */
   function getSupportedLanguages($url) {
-    $page = curl($url, [], false);
+    $page = curl($url, array(), false);
     preg_match("/<select id=gt-sl.*?>(.*?)<\/select>/", $page, $matches);
     $options = $matches[1];
     preg_match_all("/<option value=(.*?)>(.*?)<\/option>/", $page, $matches, PREG_SET_ORDER);
@@ -112,8 +172,30 @@ EOT;
   }
 
   /**
-    * Convert encoding of file
+    * Convert encoding of file to UTF-8, if needed
     */
+  function fileEncodeToUTF8($filename) {
+    # read in the contents
+    $data = file_get_contents($filename);
+
+    # convert the contents, if not already UTF-8
+    if (
+      !mb_check_encoding($data, 'UTF-8') or
+      !($data ===
+        mb_convert_encoding(
+          mb_convert_encoding($data, 'UTF-32', 'UTF-8' ),
+          'UTF-8', 'UTF-32')
+        )
+      ) {
+        $data = mb_convert_encoding($data, 'UTF-8'); 
+        file_put_contents($filename, $data);
+    }
+  }
+
+/*
+  / **
+    * Convert encoding of file
+    * /
   function encodeFile($filename, $encodingFrom, $encodingTo) {
     # read in the contents
     $data = file_get_contents($filename);
@@ -138,6 +220,7 @@ EOT;
       |\xF4[\x80-\x8F][\x80-\xBF]{2} # plane 16
       )+%xs', $data);
   }
+*/
 
   /**
     * Retrieve url contents (possibly using cookies)
@@ -168,7 +251,9 @@ EOT;
     curl_setopt($ch, CURLOPT_COOKIEFILE, $ckfile);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
    
-    return curl_exec($ch);
+    $retval = curl_exec($ch);
+    unlink($ckfile);
+    return $retval;
   }
 
   function translate($word, $languageFrom = 'en', $languageTo = 'it') {

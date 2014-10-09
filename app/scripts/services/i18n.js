@@ -11,11 +11,20 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettext, gettext
       return gettext(string);
     },
     getSupportedLanguages: function() {
+      /* TODO:
+       *   instead of a static list, try to support all angular supported locales,
+       *   ignoring languages with sub-regions...
+       */
       return { /* supported Languages */
         en: {
           name: 'English',
           flag: 'icons/flags/en.png',
           angularLocaleScript: 'scripts/18n/angular-locale_en.js',
+        },
+        af: {
+          name: 'Afghan',
+          flag: 'icons/flags/af.png',
+          angularLocaleScript: 'scripts/18n/angular-locale_af.js',
         },
         de: {
           name: 'Deutsch',
@@ -62,8 +71,8 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettext, gettext
       if (language) {
         if (this.getSupportedLanguages()[language]) {
           this.currentLanguage = language;
-        } else {
-          this.currentLanguage = this.getDefaultLanguage(); // unsupported language...
+        } else { // unsupported language, use defauòt
+          this.currentLanguage = this.getDefaultLanguage();
         }
       } else { // no language specified: set current language from browser's language
         this.browserLanguage = this.getBrowserLanguage();
