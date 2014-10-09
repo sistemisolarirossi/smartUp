@@ -22,15 +22,15 @@ msgstr "(hh:mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Un Codice Fiscale o una P.IVA è richiesto"
+msgstr "Un Codice Fiscale o una P.IVA Ã¨ richiesto"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Un nome cliente è richiesto"
+msgstr "Un nome cliente Ã¨ richiesto"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Una data di inizio del servizio è richiesta"
+msgstr "Una data di inizio del servizio Ã¨ richiesta"
 
 #: app/views/serviceReports.html
 msgid ""
@@ -41,19 +41,19 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Un luogo del servizio è richiesto"
+msgstr "Un luogo del servizio Ã¨ richiesto"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Un numero di telefono è richiesto"
+msgstr "Un numero di telefono Ã¨ richiesto"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Un indirizzo stradale è richiesto"
+msgstr "Un indirizzo stradale Ã¨ richiesto"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "Un nome utente è richiesto"
+msgstr "Un nome utente Ã¨ richiesto"
 
 #: app/views/nav.html
 msgid "About"
@@ -73,11 +73,11 @@ msgstr "Indirizzo stradale"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "Un indirizzo email è richiesto"
+msgstr "Un indirizzo email Ã¨ richiesto"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Un operatore è richiesto"
+msgstr "Un operatore Ã¨ richiesto"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
@@ -129,32 +129,31 @@ msgstr "C.F./P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "La cache è inizializzata"
+msgstr "La cache Ã¨ inizializzata"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "La cache è in uno stato non previsto"
+msgstr "La cache Ã¨ in uno stato non previsto"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr ""
-"La cache non è aggiornata (probabilmente il manifesto è irraggiungibile)"
+msgstr "Cache non viene aggiornata ( probabilmente il manifesto non è raggiungibile )"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "La cache non è aggiornata perché si è offline"
+msgstr "La cache non Ã¨ aggiornata perchÃ© si Ã¨ offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "La cache è obsoleta"
+msgstr "La cache Ã¨ obsoleta"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "La cache è aggiornata"
+msgstr "La cache Ã¨ aggiornata"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Lo stato della cache è"
+msgstr "Lo stato della cache Ã¨"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
@@ -198,7 +197,7 @@ msgstr "Contatti"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "La lingua attuale è"
+msgstr "La lingua attuale Ã¨"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -252,6 +251,10 @@ msgstr "Rimuovi il rapporto di servizio"
 msgid "Delete user"
 msgstr "Rimuovi utente"
 
+#: app/views/about.html
+msgid "Dog"
+msgstr "cane"
+
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Si scarica un aggiornamento"
@@ -286,7 +289,7 @@ msgstr "Indirizzo email"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "L'indirizzo email non è valido"
+msgstr "L'indirizzo email non Ã¨ valido"
 
 #: app/views/users.html
 msgid "Email address of the user"
@@ -430,7 +433,7 @@ msgstr "Numero di telefono"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Il numero di telefono non è valido"
+msgstr "Il numero di telefono non Ã¨ valido"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -512,47 +515,47 @@ msgstr "Indirizzo stradale"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Questo nome cliente è già in uso"
+msgstr "Questo nome cliente Ã¨ giÃ  in uso"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Il nome del cliente non è valido"
+msgstr "Il nome del cliente non Ã¨ valido"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Questa è"
+msgstr "Questa Ã¨"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Questo utente non può né leggere né scrivere"
+msgstr "Questo utente non puÃ² nÃ© leggere nÃ© scrivere"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Questo utente può leggere"
+msgstr "Questo utente puÃ² leggere"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Questo utente può leggere e scrivere"
+msgstr "Questo utente puÃ² leggere e scrivere"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Questo utente può scrivere"
+msgstr "Questo utente puÃ² scrivere"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Questo utente non può accedere a"
+msgstr "Questo utente non puÃ² accedere a"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Questo nome utente è già in uso"
+msgstr "Questo nome utente Ã¨ giÃ  in uso"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Questo nome utente non è valido"
+msgstr "Questo nome utente non Ã¨ valido"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Questo valore non è né un Codice Fiscale né una P.IVA"
+msgstr "Questo valore non Ã¨ nÃ© un Codice Fiscale nÃ© una P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
@@ -580,11 +583,11 @@ msgstr "Utenti"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Si è offline"
+msgstr "Si Ã¨ offline"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Si è online"
+msgstr "Si Ã¨ online"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -624,7 +627,7 @@ msgstr "in fase di inizializzazione"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "è un'applicazione per (smart) start-ups."
+msgstr "Ã¨ un'applicazione per (smart) start-ups."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -673,32 +676,26 @@ msgstr "utenti"
 #~ "      It is open-source, fast, compact, extensible, resilient, "
 #~ "international and mobile.<br>"
 #~ msgstr ""
-#~ "<em>smartUp</em> è un'applicazione web per (smart) start-ups.<br>\n"
+#~ "<em>smartUp</em> Ã¨ un'applicazione web per (smart) start-ups.<br>\n"
 #~ "       Consente la gestione di clienti, ordini e rapporti di servizio."
 #~ "<br>\n"
 #~ "       E' open-source, veloce, compatta, estensibile, resiliente, "
 #~ "internazionale e mobile.<br>"
 
-#~ msgid "This user name is already present"
-#~ msgstr "Questo nome utente è già presente"
-
-#~ msgid "User name is not valid"
-#~ msgstr "Il nome utente non è valido"
-
-#~ msgid "User street address"
-#~ msgstr "Indirizzo stradale dell'utente"
-
 #~ msgid "Avatar image of user"
 #~ msgstr "Immagine avatar dell'utente"
 
-#~ msgid "User email"
-#~ msgstr "Indirzzo email dell'utente"
+#~ msgid "Customer name must be valid"
+#~ msgstr "Il nome del cliente deve essere valido"
 
-#~ msgid "read"
-#~ msgstr "leggere"
+#~ msgid "Date of service begin"
+#~ msgstr "Data di inizio del servizio"
 
-#~ msgid "write"
-#~ msgstr "scrivere"
+#~ msgid "N&deg;"
+#~ msgstr "N&deg;"
+
+#~ msgid "Not yet available..."
+#~ msgstr "Non ancora disponibile..."
 
 #~ msgid "P.&nbsp;IVA"
 #~ msgstr "P.&nbsp;IVA"
@@ -706,18 +703,24 @@ msgstr "utenti"
 #~ msgid "Service report n&#176;"
 #~ msgstr "Rapporto di servizio  n&#176;"
 
-#~ msgid "Customer name must be valid"
-#~ msgstr "Il nome del cliente deve essere valido"
+#~ msgid "This user name is already present"
+#~ msgstr "Questo nome utente Ã¨ giÃ  presente"
 
-#~ msgid "Not yet available..."
-#~ msgstr "Non ancora disponibile..."
+#~ msgid "User email"
+#~ msgstr "Indirzzo email dell'utente"
 
-#~ msgid "N&deg;"
-#~ msgstr "N&deg;"
+#~ msgid "User name is not valid"
+#~ msgstr "Il nome utente non Ã¨ valido"
 
-#~ msgid "Date of service begin"
-#~ msgstr "Data di inizio del servizio"
+#~ msgid "User street address"
+#~ msgstr "Indirizzo stradale dell'utente"
 
-#, fuzzy
+#, 
 #~ msgid "hello"
-#~ msgstr "Ciao"
+#~ msgstr "ciao"
+
+#~ msgid "read"
+#~ msgstr "leggere"
+
+#~ msgid "write"
+#~ msgstr "scrivere"

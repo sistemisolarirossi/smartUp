@@ -5,27 +5,27 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( ÷÷: ìì )"
+msgstr "( Ã·Ã·: Ã¬Ã¬ )"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice Fiscale èëèP.IVA òðåáóåòñÿ"
+msgstr "Codice Fiscale Ã¨Ã«Ã¨P.IVA Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Èìÿ êëèåíòà òðåáóåòñÿ"
+msgstr "ÃÃ¬Ã¿ ÃªÃ«Ã¨Ã¥Ã­Ã²Ã  Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Äàòà íà÷àëà îáñëóæèâàíèÿ òðåáóåòñÿ"
+msgstr "ÃÃ Ã²Ã  Ã­Ã Ã·Ã Ã«Ã  Ã®Ã¡Ã±Ã«Ã³Ã¦Ã¨Ã¢Ã Ã­Ã¨Ã¿ Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/serviceReports.html
 msgid ""
@@ -34,87 +34,87 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ðàñïîëîæåíèå ñëóæáû òðåáóåòñÿ"
+msgstr "ÃÃ Ã±Ã¯Ã®Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¥ Ã±Ã«Ã³Ã¦Ã¡Ã» Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Òðåáóåòñÿíîìåð òåëåôîíà"
+msgstr "ÃÃ°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿Ã­Ã®Ã¬Ã¥Ã° Ã²Ã¥Ã«Ã¥Ã´Ã®Ã­Ã "
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Ïî÷òîâûé àäðåñ òðåáóåòñÿ"
+msgstr "ÃÃ®Ã·Ã²Ã®Ã¢Ã»Ã© Ã Ã¤Ã°Ã¥Ã± Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "Èìÿ ïîëüçîâàòåëÿ òðåáóåòñÿ"
+msgstr "ÃÃ¬Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿ Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "îá ýòîì"
+msgstr "Ã®Ã¡ Ã½Ã²Ã®Ã¬"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Äîáàâèòü íîâîãî êëèåíòà"
+msgstr "ÃÃ®Ã¡Ã Ã¢Ã¨Ã²Ã¼ Ã­Ã®Ã¢Ã®Ã£Ã® ÃªÃ«Ã¨Ã¥Ã­Ã²Ã "
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Äîáàâèòü íîâîãî ïîëüçîâàòåëÿ"
+msgstr "ÃÃ®Ã¡Ã Ã¢Ã¨Ã²Ã¼ Ã­Ã®Ã¢Ã®Ã£Ã® Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "Àäðåñ"
+msgstr "ÃÃ¤Ã°Ã¥Ã±"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "Àäðåñ ýëåêòðîííîé ïî÷òû íå òðåáóåòñÿ"
+msgstr "ÃÃ¤Ã°Ã¥Ã± Ã½Ã«Ã¥ÃªÃ²Ã°Ã®Ã­Ã­Ã®Ã© Ã¯Ã®Ã·Ã²Ã» Ã­Ã¥ Ã²Ã°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Òðåáóåòñÿîïåðàòîð"
+msgstr "ÃÃ°Ã¥Ã¡Ã³Ã¥Ã²Ã±Ã¿Ã®Ã¯Ã¥Ã°Ã Ã²Ã®Ã°"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Äîñòóïíî îáíîâëåíèå : òû õî÷åøü , ÷òîáû çàãðóçèòü åãî ñåé÷àñ?"
+msgstr "ÃÃ®Ã±Ã²Ã³Ã¯Ã­Ã® Ã®Ã¡Ã­Ã®Ã¢Ã«Ã¥Ã­Ã¨Ã¥ : Ã²Ã» ÃµÃ®Ã·Ã¥Ã¸Ã¼ , Ã·Ã²Ã®Ã¡Ã» Ã§Ã Ã£Ã°Ã³Ã§Ã¨Ã²Ã¼ Ã¥Ã£Ã® Ã±Ã¥Ã©Ã·Ã Ã±?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Îáíîâëåíèå ãîòîâ"
+msgstr "ÃÃ¡Ã­Ã®Ã¢Ã«Ã¥Ã­Ã¨Ã¥ Ã£Ã®Ã²Ã®Ã¢"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Âû äåéñòâèòåëüíî óâåðåíû , ÷òîáû óäàëèòü îò÷åò ñëóæáû"
+msgstr "ÃÃ» Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã® Ã³Ã¢Ã¥Ã°Ã¥Ã­Ã» , Ã·Ã²Ã®Ã¡Ã» Ã³Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã®Ã²Ã·Ã¥Ã² Ã±Ã«Ã³Ã¦Ã¡Ã»"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Âû äåéñòâèòåëüíî óâåðåíû , ÷òîáû óäàëèòü ïîëüçîâàòåëÿ"
+msgstr "ÃÃ» Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã® Ã³Ã¢Ã¥Ã°Ã¥Ã­Ã» , Ã·Ã²Ã®Ã¡Ã» Ã³Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "ID àóòåíòèôèêàöèè"
+msgstr "ID Ã Ã³Ã²Ã¥Ã­Ã²Ã¨Ã´Ã¨ÃªÃ Ã¶Ã¨Ã¨"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Àóòåíòèôèêàöèÿ èäåíòèôèêàòîð ïîëüçîâàòåëÿ"
+msgstr "ÃÃ³Ã²Ã¥Ã­Ã²Ã¨Ã´Ã¨ÃªÃ Ã¶Ã¨Ã¿ Ã¨Ã¤Ã¥Ã­Ã²Ã¨Ã´Ã¨ÃªÃ Ã²Ã®Ã° Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "ID àóòåíòèôèêàöèè :"
+msgstr "ID Ã Ã³Ã²Ã¥Ã­Ã²Ã¨Ã´Ã¨ÃªÃ Ã¶Ã¨Ã¨ :"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "ïîñòàâùèê àóòåíòèôèêàöèè"
+msgstr "Ã¯Ã®Ã±Ã²Ã Ã¢Ã¹Ã¨Ãª Ã Ã³Ã²Ã¥Ã­Ã²Ã¨Ã´Ã¨ÃªÃ Ã¶Ã¨Ã¨"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Ïîñòàâùèê àóòåíòèôèêàöèè äëÿ ïîëüçîâàòåëÿ"
+msgstr "ÃÃ®Ã±Ã²Ã Ã¢Ã¹Ã¨Ãª Ã Ã³Ã²Ã¥Ã­Ã²Ã¨Ã´Ã¨ÃªÃ Ã¶Ã¨Ã¨ Ã¤Ã«Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Àâàòàð"
+msgstr "ÃÃ¢Ã Ã²Ã Ã°"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Àâàòàð îáðàç ïîëüçîâàòåëåì"
+msgstr "ÃÃ¢Ã Ã²Ã Ã° Ã®Ã¡Ã°Ã Ã§ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¥Ã¬"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -122,35 +122,35 @@ msgstr "C.F. / P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Êýø èíèöèàëèçèðóåòñÿ"
+msgstr "ÃÃ½Ã¸ Ã¨Ã­Ã¨Ã¶Ã¨Ã Ã«Ã¨Ã§Ã¨Ã°Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Êýø íàõîäèòñÿ â íåèçâåñòíîì ñîñòîÿíèè"
+msgstr "ÃÃ½Ã¸ Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã±Ã¿ Ã¢ Ã­Ã¥Ã¨Ã§Ã¢Ã¥Ã±Ã²Ã­Ã®Ã¬ Ã±Ã®Ã±Ã²Ã®Ã¿Ã­Ã¨Ã¨"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Êýø íå îáíîâëÿåòñÿ ( âåðîÿòíî,ïðîÿâëÿåòñÿ íåäîñòóïåí )"
+msgstr "ÃÃ½Ã¸ Ã­Ã¥ Ã®Ã¡Ã­Ã®Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ ( Ã¢Ã¥Ã°Ã®Ã¿Ã²Ã­Ã®,Ã¯Ã°Ã®Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã­Ã¥Ã¤Ã®Ã±Ã²Ã³Ã¯Ã¥Ã­ )"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Êýø íå îáíîâëÿåòñÿ , ïîòîìó ÷òî âû íàõîäèòåñü â àâòîíîìíîì ðåæèìå"
+msgstr "ÃÃ½Ã¸ Ã­Ã¥ Ã®Ã¡Ã­Ã®Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ , Ã¯Ã®Ã²Ã®Ã¬Ã³ Ã·Ã²Ã® Ã¢Ã» Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã¥Ã±Ã¼ Ã¢ Ã Ã¢Ã²Ã®Ã­Ã®Ã¬Ã­Ã®Ã¬ Ã°Ã¥Ã¦Ã¨Ã¬Ã¥"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Êýø ÿâëÿåòñÿ óñòàðåâøèì"
+msgstr "ÃÃ½Ã¸ Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã³Ã±Ã²Ã Ã°Ã¥Ã¢Ã¸Ã¨Ã¬"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Êýø äî ñîâðåìåííûõ"
+msgstr "ÃÃ½Ã¸ Ã¤Ã® Ã±Ã®Ã¢Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã»Ãµ"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Ñòàòóñ êýø"
+msgstr "ÃÃ²Ã Ã²Ã³Ã± ÃªÃ½Ã¸"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Ïðîâåðêà íà íàëè÷èå îáíîâëåíèÿ"
+msgstr "ÃÃ°Ã®Ã¢Ã¥Ã°ÃªÃ  Ã­Ã  Ã­Ã Ã«Ã¨Ã·Ã¨Ã¥ Ã®Ã¡Ã­Ã®Ã¢Ã«Ã¥Ã­Ã¨Ã¿"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -158,115 +158,119 @@ msgstr "Codice Fiscale / P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ñîäåðæèò íåäîïóñòèìûé ñèìâîë (û )"
+msgstr "Codice Fiscale Ã±Ã®Ã¤Ã¥Ã°Ã¦Ã¨Ã² Ã­Ã¥Ã¤Ã®Ã¯Ã³Ã±Ã²Ã¨Ã¬Ã»Ã© Ã±Ã¨Ã¬Ã¢Ã®Ã« (Ã» )"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale óïðàâëåíèÿ êîä íå ñîâïàäàåò"
+msgstr "Codice Fiscale Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿ ÃªÃ®Ã¤ Ã­Ã¥ Ã±Ã®Ã¢Ã¯Ã Ã¤Ã Ã¥Ã²"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale èëè P.IVA çàêàç÷èêà"
+msgstr "Codice Fiscale Ã¨Ã«Ã¨ P.IVA Ã§Ã ÃªÃ Ã§Ã·Ã¨ÃªÃ "
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "ëîãîòèï êîìïàíèè"
+msgstr "Ã«Ã®Ã£Ã®Ã²Ã¨Ã¯ ÃªÃ®Ã¬Ã¯Ã Ã­Ã¨Ã¨"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Ñâÿçàòüñÿ ñ Facebook"
+msgstr "ÃÃ¢Ã¿Ã§Ã Ã²Ã¼Ã±Ã¿ Ã± Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Ñâÿçàòüñÿ ñ Google+"
+msgstr "ÃÃ¢Ã¿Ã§Ã Ã²Ã¼Ã±Ã¿ Ã± Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Ñâÿçàòüñÿ ñ Twitter"
+msgstr "ÃÃ¢Ã¿Ã§Ã Ã²Ã¼Ã±Ã¿ Ã± Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "Êîíòàêòû"
+msgstr "ÃÃ®Ã­Ã²Ã ÃªÃ²Ã»"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Òåêóùèé ÿçûê"
+msgstr "ÃÃ¥ÃªÃ³Ã¹Ã¨Ã© Ã¿Ã§Ã»Ãª"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Çàêàç÷èê"
+msgstr "ÃÃ ÃªÃ Ã§Ã·Ã¨Ãª"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Êëèåíò êàðòû"
+msgstr "ÃÃ«Ã¨Ã¥Ã­Ã² ÃªÃ Ã°Ã²Ã»"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Êëèåíò ýëåêòðîííîé ïî÷òû"
+msgstr "ÃÃ«Ã¨Ã¥Ã­Ã² Ã½Ã«Ã¥ÃªÃ²Ã°Ã®Ã­Ã­Ã®Ã© Ã¯Ã®Ã·Ã²Ã»"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "èìÿ êëèåíòà"
+msgstr "Ã¨Ã¬Ã¿ ÃªÃ«Ã¨Ã¥Ã­Ã²Ã "
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Òåëåôîí íîìåð êëèåíòà"
+msgstr "ÃÃ¥Ã«Ã¥Ã´Ã®Ã­ Ã­Ã®Ã¬Ã¥Ã° ÃªÃ«Ã¨Ã¥Ã­Ã²Ã "
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Óëèöà êëèåíòîâ àäðåñ"
+msgstr "ÃÃ«Ã¨Ã¶Ã  ÃªÃ«Ã¨Ã¥Ã­Ã²Ã®Ã¢ Ã Ã¤Ã°Ã¥Ã±"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Ïîäïèñü çàêàç÷èêà"
+msgstr "ÃÃ®Ã¤Ã¯Ã¨Ã±Ã¼ Ã§Ã ÃªÃ Ã§Ã·Ã¨ÃªÃ "
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Êëèåíòû"
+msgstr "ÃÃ«Ã¨Ã¥Ã­Ã²Ã»"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Äàòà"
+msgstr "ÃÃ Ã²Ã "
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Äàòà íà÷àëà ñëóæáû"
+msgstr "ÃÃ Ã²Ã  Ã­Ã Ã·Ã Ã«Ã  Ã±Ã«Ã³Ã¦Ã¡Ã»"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Óäàëèòü êëèåíòà"
+msgstr "ÃÃ¤Ã Ã«Ã¨Ã²Ã¼ ÃªÃ«Ã¨Ã¥Ã­Ã²Ã "
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Óäàëèòü îò÷åò ñëóæáû"
+msgstr "ÃÃ¤Ã Ã«Ã¨Ã²Ã¼ Ã®Ã²Ã·Ã¥Ã² Ã±Ã«Ã³Ã¦Ã¡Ã»"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Óäàëèòü ïîëüçîâàòåëÿ"
+msgstr "ÃÃ¤Ã Ã«Ã¨Ã²Ã¼ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
+
+#: app/views/about.html
+msgid "Dog"
+msgstr "Ñîáàêà"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Ñêà÷èâàÿ îáíîâëåíèÿ"
+msgstr "ÃÃªÃ Ã·Ã¨Ã¢Ã Ã¿ Ã®Ã¡Ã­Ã®Ã¢Ã«Ã¥Ã­Ã¨Ã¿"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Ïðîäîëæèòåëüíîñòü"
+msgstr "ÃÃ°Ã®Ã¤Ã®Ã«Ã¦Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã®Ã±Ã²Ã¼"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Ïðîäîëæèòåëüíîñòü ñëóæáû"
+msgstr "ÃÃ°Ã®Ã¤Ã®Ã«Ã¦Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã®Ã±Ã²Ã¼ Ã±Ã«Ã³Ã¦Ã¡Ã»"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ðåäàêòèðîâàòü êëèåíòîâ"
+msgstr "ÃÃ¥Ã¤Ã ÃªÃ²Ã¨Ã°Ã®Ã¢Ã Ã²Ã¼ ÃªÃ«Ã¨Ã¥Ã­Ã²Ã®Ã¢"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Îò÷åò Ðåäàêòèðîâàòü ñëóæáà"
+msgstr "ÃÃ²Ã·Ã¥Ã² ÃÃ¥Ã¤Ã ÃªÃ²Ã¨Ã°Ã®Ã¢Ã Ã²Ã¼ Ã±Ã«Ã³Ã¦Ã¡Ã "
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Ðåäàêòèðîâàíèå ïîëüçîâàòåëÿ"
+msgstr "ÃÃ¥Ã¤Ã ÃªÃ²Ã¨Ã°Ã®Ã¢Ã Ã­Ã¨Ã¥ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
@@ -274,19 +278,19 @@ msgstr "E-mail"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "àäðåñ ýëåêòðîííîé ïî÷òû"
+msgstr "Ã Ã¤Ã°Ã¥Ã± Ã½Ã«Ã¥ÃªÃ²Ã°Ã®Ã­Ã­Ã®Ã© Ã¯Ã®Ã·Ã²Ã»"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "Àäðåñ ýëåêòðîííîé ïî÷òû íå ÿâëÿåòñÿ äåéñòâèòåëüíûì"
+msgstr "ÃÃ¤Ã°Ã¥Ã± Ã½Ã«Ã¥ÃªÃ²Ã°Ã®Ã­Ã­Ã®Ã© Ã¯Ã®Ã·Ã²Ã» Ã­Ã¥ Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã»Ã¬"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "E-mail àäðåñ ïîëüçîâàòåëÿ"
+msgstr "E-mail Ã Ã¤Ã°Ã¥Ã± Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "E-mail ïîëüçîâàòåëÿ"
+msgstr "E-mail Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/home.html
 msgid ""
@@ -296,23 +300,23 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Ôàêñ"
+msgstr "ÃÃ ÃªÃ±"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Ôèëüòð êëèåíòû"
+msgstr "ÃÃ¨Ã«Ã¼Ã²Ã° ÃªÃ«Ã¨Ã¥Ã­Ã²Ã»"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Îò÷åòû óñëóã ôèëüòð"
+msgstr "ÃÃ²Ã·Ã¥Ã²Ã» Ã³Ã±Ã«Ã³Ã£ Ã´Ã¨Ã«Ã¼Ã²Ã°"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ïîëüçîâàòåëè ôèëüòð"
+msgstr "Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¨ Ã´Ã¨Ã«Ã¼Ã²Ã°"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Ãëàâíàÿ"
+msgstr "ÃÃ«Ã Ã¢Ã­Ã Ã¿"
 
 #: app/views/users.html
 msgid "Id"
@@ -320,7 +324,7 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ýòî ïîçâîëÿåò óïðàâëÿòü êëèåíòàìè , çàêàçàìè è ñåðâèñíûõ îò÷åòîâ ."
+msgstr "ÃÃ²Ã® Ã¯Ã®Ã§Ã¢Ã®Ã«Ã¿Ã¥Ã² Ã³Ã¯Ã°Ã Ã¢Ã«Ã¿Ã²Ã¼ ÃªÃ«Ã¨Ã¥Ã­Ã²Ã Ã¬Ã¨ , Ã§Ã ÃªÃ Ã§Ã Ã¬Ã¨ Ã¨ Ã±Ã¥Ã°Ã¢Ã¨Ã±Ã­Ã»Ãµ Ã®Ã²Ã·Ã¥Ã²Ã®Ã¢ ."
 
 #: app/views/about.html
 msgid ""
@@ -330,19 +334,19 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Ðàñïîëîæåíèå"
+msgstr "ÃÃ Ã±Ã¯Ã®Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¥"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ðàñïîëîæåíèå îáñëóæèâàíèÿ"
+msgstr "ÃÃ Ã±Ã¯Ã®Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¥ Ã®Ã¡Ã±Ã«Ã³Ã¦Ã¨Ã¢Ã Ã­Ã¨Ã¿"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "âîéòè"
+msgstr "Ã¢Ã®Ã©Ã²Ã¨"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "Âûéòè"
+msgstr "ÃÃ»Ã©Ã²Ã¨"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -350,51 +354,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Èìÿ"
+msgstr "ÃÃ¬Ã¿"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Èìÿ ïîëüçîâàòåëÿ"
+msgstr "ÃÃ¬Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Íîâûé êëèåíò"
+msgstr "ÃÃ®Ã¢Ã»Ã© ÃªÃ«Ã¨Ã¥Ã­Ã²"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Íîâûé îò÷åò"
+msgstr "ÃÃ®Ã¢Ã»Ã© Ã®Ã²Ã·Ã¥Ã²"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Íîâûé ïîëüçîâàòåëü"
+msgstr "ÃÃ®Ã¢Ã»Ã© Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Íèêàêèõ èçìåíåíèé íå ïðèñóòñòâóåò"
+msgstr "ÃÃ¨ÃªÃ ÃªÃ¨Ãµ Ã¨Ã§Ã¬Ã¥Ã­Ã¥Ã­Ã¨Ã© Ã­Ã¥ Ã¯Ã°Ã¨Ã±Ã³Ã²Ã±Ã²Ã¢Ã³Ã¥Ã²"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Ïðèìå÷àíèÿ"
+msgstr "ÃÃ°Ã¨Ã¬Ã¥Ã·Ã Ã­Ã¨Ã¿"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Êîëè÷åñòâî"
+msgstr "ÃÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã®"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Îïåðàòîð"
+msgstr "ÃÃ¯Ã¥Ã°Ã Ã²Ã®Ã°"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Îïåðàòîð ñëóæáû"
+msgstr "ÃÃ¯Ã¥Ã°Ã Ã²Ã®Ã° Ã±Ã«Ã³Ã¦Ã¡Ã»"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Ïîäïèñü îïåðàòîðà"
+msgstr "ÃÃ®Ã¤Ã¯Ã¨Ã±Ã¼ Ã®Ã¯Ã¥Ã°Ã Ã²Ã®Ã°Ã "
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Çàêàçû"
+msgstr "ÃÃ ÃªÃ Ã§Ã»"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -402,59 +406,59 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ñîäåðæèò íåäîïóñòèìûé ñèìâîë (û )"
+msgstr "P.IVA Ã±Ã®Ã¤Ã¥Ã°Ã¦Ã¨Ã² Ã­Ã¥Ã¤Ã®Ã¯Ã³Ã±Ã²Ã¨Ã¬Ã»Ã© Ã±Ã¨Ã¬Ã¢Ã®Ã« (Ã» )"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "Êîíòðîëü P.IVA êîä íå ñîâïàäàåò"
+msgstr "ÃÃ®Ã­Ã²Ã°Ã®Ã«Ã¼ P.IVA ÃªÃ®Ã¤ Ã­Ã¥ Ã±Ã®Ã¢Ã¯Ã Ã¤Ã Ã¥Ã²"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "Òåëåôîí"
+msgstr "ÃÃ¥Ã«Ã¥Ã´Ã®Ã­"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "òåëåôîííûé íîìåð"
+msgstr "Ã²Ã¥Ã«Ã¥Ã´Ã®Ã­Ã­Ã»Ã© Ã­Ã®Ã¬Ã¥Ã°"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Íîìåð òåëåôîíà íå äåéñòâóåò"
+msgstr "ÃÃ®Ã¬Ã¥Ã° Ã²Ã¥Ã«Ã¥Ã´Ã®Ã­Ã  Ã­Ã¥ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã³Ã¥Ã²"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ìåñòî"
+msgstr "ÃÃ¥Ã±Ã²Ã®"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Ïîäãîòîâêàçàãðóçêè îáíîâëåíèé"
+msgstr "ÃÃ®Ã¤Ã£Ã®Ã²Ã®Ã¢ÃªÃ Ã§Ã Ã£Ã°Ã³Ã§ÃªÃ¨ Ã®Ã¡Ã­Ã®Ã¢Ã«Ã¥Ã­Ã¨Ã©"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "Ðàñïå÷àòàòü"
+msgstr "ÃÃ Ã±Ã¯Ã¥Ã·Ã Ã²Ã Ã²Ã¼"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Ðàñïå÷àòàòü"
+msgstr "ÃÃ Ã±Ã¯Ã¥Ã·Ã Ã²Ã Ã²Ã¼"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Îò÷åò ñëóæáû ïå÷àòè"
+msgstr "ÃÃ²Ã·Ã¥Ã² Ã±Ã«Ã³Ã¦Ã¡Ã» Ã¯Ã¥Ã·Ã Ã²Ã¨"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Ðàñïå÷àòàòü ïîëüçîâàòåëü"
+msgstr "ÃÃ Ã±Ã¯Ã¥Ã·Ã Ã²Ã Ã²Ã¼ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Ïðîâàéäåð"
+msgstr "ÃÃ°Ã®Ã¢Ã Ã©Ã¤Ã¥Ã°"
 
 #: app/views/home.html
 msgid "Register"
-msgstr "Çàðåãèñòðèðîâàòüñÿ"
+msgstr "ÃÃ Ã°Ã¥Ã£Ã¨Ã±Ã²Ã°Ã¨Ã°Ã®Ã¢Ã Ã²Ã¼Ã±Ã¿"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Ðîëè"
+msgstr "ÃÃ®Ã«Ã¨"
 
 #: app/views/users.html
 msgid ""
@@ -470,167 +474,167 @@ msgstr ""
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "Ñîõðàíèòü"
+msgstr "ÃÃ®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "îò÷åò ñëóæáà"
+msgstr "Ã®Ã²Ã·Ã¥Ã² Ã±Ã«Ã³Ã¦Ã¡Ã "
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Îò÷åò ñëóæáà í"
+msgstr "ÃÃ²Ã·Ã¥Ã² Ã±Ã«Ã³Ã¦Ã¡Ã  Ã­"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "îò÷åòû Ñåðâèñ"
+msgstr "Ã®Ã²Ã·Ã¥Ã²Ã» ÃÃ¥Ã°Ã¢Ã¨Ã±"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Íàñòðîéêà"
+msgstr "ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ "
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "àäðåñ óëèöû"
+msgstr "Ã Ã¤Ã°Ã¥Ã± Ã³Ã«Ã¨Ã¶Ã»"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ýòî èìÿ êëèåíòà óæå èñïîëüçóåòñÿ"
+msgstr "ÃÃ²Ã® Ã¨Ã¬Ã¿ ÃªÃ«Ã¨Ã¥Ã­Ã²Ã  Ã³Ã¦Ã¥ Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ýòî èìÿ êëèåíòà íå äåéñòâèòåëüíà"
+msgstr "ÃÃ²Ã® Ã¨Ã¬Ã¿ ÃªÃ«Ã¨Ã¥Ã­Ã²Ã  Ã­Ã¥ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã "
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ýòî"
+msgstr "ÃÃ²Ã®"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ïîëüçîâàòåëü ìîæåò íè ÷èòàòü, íè ïèñàòü"
+msgstr "ÃÃ®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼ Ã¬Ã®Ã¦Ã¥Ã² Ã­Ã¨ Ã·Ã¨Ã²Ã Ã²Ã¼, Ã­Ã¨ Ã¯Ã¨Ã±Ã Ã²Ã¼"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ïîëüçîâàòåëü ìîæåò ÷èòàòü"
+msgstr "ÃÃ®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼ Ã¬Ã®Ã¦Ã¥Ã² Ã·Ã¨Ã²Ã Ã²Ã¼"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ïîëüçîâàòåëü ìîæåò ÷èòàòü è ïèñàòü"
+msgstr "ÃÃ®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼ Ã¬Ã®Ã¦Ã¥Ã² Ã·Ã¨Ã²Ã Ã²Ã¼ Ã¨ Ã¯Ã¨Ã±Ã Ã²Ã¼"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ïîëüçîâàòåëü ìîæåò íàïèñàòü"
+msgstr "ÃÃ®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼ Ã¬Ã®Ã¦Ã¥Ã² Ã­Ã Ã¯Ã¨Ã±Ã Ã²Ã¼"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ïîëüçîâàòåëü íå ìîæåò ïîëó÷èòü äîñòóï"
+msgstr "ÃÃ®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼ Ã­Ã¥ Ã¬Ã®Ã¦Ã¥Ã² Ã¯Ã®Ã«Ã³Ã·Ã¨Ã²Ã¼ Ã¤Ã®Ã±Ã²Ã³Ã¯"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ýòî èìÿ ïîëüçîâàòåëÿ óæå èñïîëüçóåòñÿ"
+msgstr "ÃÃ²Ã® Ã¨Ã¬Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿ Ã³Ã¦Ã¥ Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã²Ã±Ã¿"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ýòî èìÿ ïîëüçîâàòåëÿ íå äåéñòâóåò"
+msgstr "ÃÃ²Ã® Ã¨Ã¬Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿ Ã­Ã¥ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã³Ã¥Ã²"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ýòî çíà÷åíèå ÿâëÿåòñÿ íèCodice Fiscale íèP.IVA"
+msgstr "ÃÃ²Ã® Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã­Ã¨Codice Fiscale Ã­Ã¨P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Âðåìÿ íà÷àëà îáñëóæèâàíèÿ"
+msgstr "ÃÃ°Ã¥Ã¬Ã¿ Ã­Ã Ã·Ã Ã«Ã  Ã®Ã¡Ã±Ã«Ã³Ã¦Ã¨Ã¢Ã Ã­Ã¨Ã¿"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Ïåðåêëþ÷èòü íàâèãàöèè"
+msgstr "ÃÃ¥Ã°Ã¥ÃªÃ«Ã¾Ã·Ã¨Ã²Ã¼ Ã­Ã Ã¢Ã¨Ã£Ã Ã¶Ã¨Ã¨"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Ïîëüçîâàòåëü ýëåêòðîííîé ïî÷òû"
+msgstr "ÃÃ®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼ Ã½Ã«Ã¥ÃªÃ²Ã°Ã®Ã­Ã­Ã®Ã© Ã¯Ã®Ã·Ã²Ã»"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "èìÿ ïîëüçîâàòåëÿ"
+msgstr "Ã¨Ã¬Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "Èìÿ ïîëüçîâàòåëÿ"
+msgstr "ÃÃ¬Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Ïîëüçîâàòåëè"
+msgstr "ÃÃ®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¨"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Âû ôîðóìà"
+msgstr "ÃÃ» Ã´Ã®Ã°Ã³Ã¬Ã "
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Âû íà ñàéòå"
+msgstr "ÃÃ» Ã­Ã  Ã±Ã Ã©Ã²Ã¥"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "êýøèðóþòñÿ"
+msgstr "ÃªÃ½Ã¸Ã¨Ã°Ã³Ã¾Ã²Ã±Ã¿"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "îòìåíèòü"
+msgstr "Ã®Ã²Ã¬Ã¥Ã­Ã¨Ã²Ã¼"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "ïðîâåðêè"
+msgstr "Ã¯Ã°Ã®Ã¢Ã¥Ã°ÃªÃ¨"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "êëèåíòû"
+msgstr "ÃªÃ«Ã¨Ã¥Ã­Ã²Ã»"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "çàãðóçêà"
+msgstr "Ã§Ã Ã£Ã°Ã³Ã§ÃªÃ "
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "îøèáêà"
+msgstr "Ã®Ã¸Ã¨Ã¡ÃªÃ "
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "ãëàâíàÿ äëÿ íå çàðåãèñòðèðîâàííûõ ïîëüçîâàòåëåé ."
+msgstr "Ã£Ã«Ã Ã¢Ã­Ã Ã¿ Ã¤Ã«Ã¿ Ã­Ã¥ Ã§Ã Ã°Ã¥Ã£Ã¨Ã±Ã²Ã°Ã¨Ã°Ã®Ã¢Ã Ã­Ã­Ã»Ãµ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¥Ã© ."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "äîìàøíÿÿ ñòðàíèöà äëÿ Registerd ïîëüçîâàòåëåé ."
+msgstr "Ã¤Ã®Ã¬Ã Ã¸Ã­Ã¿Ã¿ Ã±Ã²Ã°Ã Ã­Ã¨Ã¶Ã  Ã¤Ã«Ã¿ Registerd Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¥Ã© ."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "èíèöèàëèçàöèè"
+msgstr "Ã¨Ã­Ã¨Ã¶Ã¨Ã Ã«Ã¨Ã§Ã Ã¶Ã¨Ã¨"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "ýòî âåá-ïðèëîæåíèå äëÿ (SMART) ñòàðòàïîâ ."
+msgstr "Ã½Ã²Ã® Ã¢Ã¥Ã¡-Ã¯Ã°Ã¨Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¥ Ã¤Ã«Ã¿ (SMART) Ã±Ã²Ã Ã°Ã²Ã Ã¯Ã®Ã¢ ."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "àâòîðèçîâàííûé ïîëüçîâàòåëü"
+msgstr "Ã Ã¢Ã²Ã®Ã°Ã¨Ã§Ã®Ã¢Ã Ã­Ã­Ã»Ã© Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¼"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "óñòàðåë"
+msgstr "Ã³Ã±Ã²Ã Ã°Ã¥Ã«"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "çàêàçû"
+msgstr "Ã§Ã ÃªÃ Ã§Ã»"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "â ïðîòèâíîì ñëó÷àå çàðåãèñòðèðîâàòü íîâûé ñâåäåíüþ è âîéòè ."
+msgstr "Ã¢ Ã¯Ã°Ã®Ã²Ã¨Ã¢Ã­Ã®Ã¬ Ã±Ã«Ã³Ã·Ã Ã¥ Ã§Ã Ã°Ã¥Ã£Ã¨Ã±Ã²Ã°Ã¨Ã°Ã®Ã¢Ã Ã²Ã¼ Ã­Ã®Ã¢Ã»Ã© Ã±Ã¢Ã¥Ã¤Ã¥Ã­Ã¼Ã¾ Ã¨ Ã¢Ã®Ã©Ã²Ã¨ ."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "ïàðîëü :"
+msgstr "Ã¯Ã Ã°Ã®Ã«Ã¼ :"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "ïðîãðåññ"
+msgstr "Ã¯Ã°Ã®Ã£Ã°Ã¥Ã±Ã±"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -642,8 +646,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "Èìÿ ïîëüçîâàòåëÿ :"
+msgstr "ÃÃ¬Ã¿ Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¿ :"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ïîëüçîâàòåëè"
+msgstr "Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¨"

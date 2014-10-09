@@ -240,6 +240,10 @@ msgstr ""
 msgid "Delete user"
 msgstr ""
 
+#: app/views/about.html
+msgid "Dog"
+msgstr ""
+
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr ""

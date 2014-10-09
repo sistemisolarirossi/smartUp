@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cy\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -38,7 +38,7 @@ msgstr "Mae angen lleoliad o wasanaeth"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Mae angen rhif ffôn"
+msgstr "Mae angen rhif ffÃ´n"
 
 #: app/views/customers.html
 msgid "A street address is required"
@@ -174,15 +174,15 @@ msgstr "logo cwmni"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Cysylltu â Facebook"
+msgstr "Cysylltu Ã¢ Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Cysylltu â Google +"
+msgstr "Cysylltu Ã¢ Google +"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Cysylltu â Twitter"
+msgstr "Cysylltu Ã¢ Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -210,7 +210,7 @@ msgstr "enw Cwsmeriaid"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Rhif ffôn Cwsmeriaid"
+msgstr "Rhif ffÃ´n Cwsmeriaid"
 
 #: app/views/customers.html
 msgid "Customer street address"
@@ -243,6 +243,10 @@ msgstr "Dileu adroddiad gwasanaeth"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "Dileu defnyddiwr"
+
+#: app/views/about.html
+msgid "Dog"
+msgstr "C\\u0175n"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -410,15 +414,15 @@ msgstr "Nid yw cod rheoli P.IVA yn cyd-fynd"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "ffôn"
+msgstr "ffÃ´n"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "rhif ffôn"
+msgstr "rhif ffÃ´n"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Nid yw rhif ffôn yn ddilys"
+msgstr "Nid yw rhif ffÃ´n yn ddilys"
 
 #: app/views/serviceReports.html
 msgid "Place"

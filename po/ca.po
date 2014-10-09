@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -34,15 +34,15 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Es requereix una ubicació de servei"
+msgstr "Es requereix una ubicaciÃ³ de servei"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Es requereix un número de telèfon"
+msgstr "Es requereix un nÃºmero de telÃ¨fon"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Es requereix una adreça de carrer"
+msgstr "Es requereix una adreÃ§a de carrer"
 
 #: app/views/users.html
 msgid "A user name is required"
@@ -62,11 +62,11 @@ msgstr "Afegeix un nou usuari"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "direcció"
+msgstr "direcciÃ³"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "Es requereix una adreça de correu electrònic"
+msgstr "Es requereix una adreÃ§a de correu electrÃ²nic"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
@@ -74,39 +74,39 @@ msgstr "Es requereix un operador"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Hi ha disponible una actualització : Què vol carregar ara ?"
+msgstr "Hi ha disponible una actualitzaciÃ³ : QuÃ¨ vol carregar ara ?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Una actualització està llista"
+msgstr "Una actualitzaciÃ³ estÃ  llista"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Estàs realment segur de treure informe de servei"
+msgstr "EstÃ s realment segur de treure informe de servei"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Estàs realment segur de treure a l'usuari"
+msgstr "EstÃ s realment segur de treure a l'usuari"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "identificació d'autenticació"
+msgstr "identificaciÃ³ d'autenticaciÃ³"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Identificació d'autenticació de l'usuari"
+msgstr "IdentificaciÃ³ d'autenticaciÃ³ de l'usuari"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Identificació d'autenticació :"
+msgstr "IdentificaciÃ³ d'autenticaciÃ³ :"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "proveïdor d'autenticació"
+msgstr "proveÃ¯dor d'autenticaciÃ³"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Proveïdor d'autenticació per a l'usuari"
+msgstr "ProveÃ¯dor d'autenticaciÃ³ per a l'usuari"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -122,11 +122,11 @@ msgstr "C. F. / P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "S'inicialitza memòria cau"
+msgstr "S'inicialitza memÃ²ria cau"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Memòria cau està en estat desconegut"
+msgstr "MemÃ²ria cau estÃ  en estat desconegut"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
@@ -134,23 +134,23 @@ msgstr "Memòria cau no s'actualitza ( probablement el manifest és inabastable 
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Memòria cau no s'actualitza perquè està fora de línia"
+msgstr "MemÃ²ria cau no s'actualitza perquÃ¨ estÃ  fora de lÃ­nia"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Caché és obsoleta"
+msgstr "CachÃ© Ã©s obsoleta"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Memòria cau és up - to - data"
+msgstr "MemÃ²ria cau Ã©s up - to - data"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Estat de memòria cau és"
+msgstr "Estat de memÃ²ria cau Ã©s"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Comprovació de la presència d'una actualització"
+msgstr "ComprovaciÃ³ de la presÃ¨ncia d'una actualitzaciÃ³"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -158,7 +158,7 @@ msgstr "Codi fiscal / P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codi fiscal conté caràcters no vàlids ( s )"
+msgstr "Codi fiscal contÃ© carÃ cters no vÃ lids ( s )"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -190,7 +190,7 @@ msgstr "contactes"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "L'idioma actual és"
+msgstr "L'idioma actual Ã©s"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -202,7 +202,7 @@ msgstr "Targeta Client"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Adreça de correu electrònic del client"
+msgstr "AdreÃ§a de correu electrÃ²nic del client"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
@@ -210,11 +210,11 @@ msgstr "nom del client"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Número de telèfon del client"
+msgstr "NÃºmero de telÃ¨fon del client"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Direcció del carrer al Client"
+msgstr "DirecciÃ³ del carrer al Client"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
@@ -244,9 +244,13 @@ msgstr "Eliminar informe de servei"
 msgid "Delete user"
 msgstr "eliminar l'usuari"
 
+#: app/views/about.html
+msgid "Dog"
+msgstr "gos"
+
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Descàrrega d' una actualització"
+msgstr "DescÃ rrega d' una actualitzaciÃ³"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -274,19 +278,19 @@ msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "adreça de correu electrònic"
+msgstr "adreÃ§a de correu electrÃ²nic"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "Adreça de correu electrònic no és vàlida"
+msgstr "AdreÃ§a de correu electrÃ²nic no Ã©s vÃ lida"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Adreça de correu electrònic de l'usuari"
+msgstr "AdreÃ§a de correu electrÃ²nic de l'usuari"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Correu electrònic de l' usuari"
+msgstr "Correu electrÃ²nic de l' usuari"
 
 #: app/views/home.html
 msgid ""
@@ -320,7 +324,7 @@ msgstr "Aneu"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Permet la gestió de clients , comandes i informes de servei ."
+msgstr "Permet la gestiÃ³ de clients , comandes i informes de servei ."
 
 #: app/views/about.html
 msgid ""
@@ -330,15 +334,15 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "ubicació"
+msgstr "ubicaciÃ³"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ubicació del servei"
+msgstr "UbicaciÃ³ del servei"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "Inicia sessió"
+msgstr "Inicia sessiÃ³"
 
 #: app/views/nav.html
 msgid "Log out"
@@ -370,7 +374,7 @@ msgstr "nou usuari"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Cap actualització està present"
+msgstr "Cap actualitzaciÃ³ estÃ  present"
 
 #: app/views/serviceReports.html
 msgid "Notes"
@@ -402,7 +406,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA conté caràcters no vàlids ( s )"
+msgstr "P.IVA contÃ© carÃ cters no vÃ lids ( s )"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -410,15 +414,15 @@ msgstr "Codi de control P.IVA no coincideix"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "telèfon"
+msgstr "telÃ¨fon"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "número de telèfon"
+msgstr "nÃºmero de telÃ¨fon"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Número de telèfon no és vàlid"
+msgstr "NÃºmero de telÃ¨fon no Ã©s vÃ lid"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -426,7 +430,7 @@ msgstr "lloc"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Preparació de la descàrrega d'una actualització"
+msgstr "PreparaciÃ³ de la descÃ rrega d'una actualitzaciÃ³"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -446,7 +450,7 @@ msgstr "usuari Imprimir"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "proveïdor"
+msgstr "proveÃ¯dor"
 
 #: app/views/home.html
 msgid "Register"
@@ -486,23 +490,23 @@ msgstr "informes de servei"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "configuració"
+msgstr "configuraciÃ³"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "direcció"
+msgstr "direcciÃ³"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Aquest nom del client ja està en ús"
+msgstr "Aquest nom del client ja estÃ  en Ãºs"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Aquest nom del client no és vàlida"
+msgstr "Aquest nom del client no Ã©s vÃ lida"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "això és"
+msgstr "aixÃ² Ã©s"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -522,19 +526,19 @@ msgstr "Aquest usuari pot escriure"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Aquest usuari no té accés"
+msgstr "Aquest usuari no tÃ© accÃ©s"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Aquest nom d'usuari ja està en ús"
+msgstr "Aquest nom d'usuari ja estÃ  en Ãºs"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Aquest nom d'usuari no és vàlida"
+msgstr "Aquest nom d'usuari no Ã©s vÃ lida"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Aquest valor és ni un codi fiscal ni 1 P.IVA"
+msgstr "Aquest valor Ã©s ni un codi fiscal ni 1 P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
@@ -542,11 +546,11 @@ msgstr "Hora d'inici del servei"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "navegació Toggle"
+msgstr "navegaciÃ³ Toggle"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Adreça de correu electrònic de l'usuari"
+msgstr "AdreÃ§a de correu electrÃ²nic de l'usuari"
 
 #: app/views/users.html
 msgid "User name"
@@ -562,23 +566,23 @@ msgstr "usuaris"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Vostè està fora de línia"
+msgstr "VostÃ¨ estÃ  fora de lÃ­nia"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Vostè està en línia"
+msgstr "VostÃ¨ estÃ  en lÃ­nia"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "memòria cau"
+msgstr "memÃ²ria cau"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "cancel · lar"
+msgstr "cancel Â· lar"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "comprovació"
+msgstr "comprovaciÃ³"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
@@ -586,7 +590,7 @@ msgstr "clients"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "descàrrega"
+msgstr "descÃ rrega"
 
 #: app/scripts/app.js
 msgid "error"
@@ -594,11 +598,11 @@ msgstr "error"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "pàgina d'inici per usuaris no registrats ."
+msgstr "pÃ gina d'inici per usuaris no registrats ."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "pàgina d'inici per als usuaris Registerd ."
+msgstr "pÃ gina d'inici per als usuaris Registerd ."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -606,7 +610,7 @@ msgstr "inicialitzar"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "és una aplicació web per ( intel · ligents ) de nova creació ."
+msgstr "Ã©s una aplicaciÃ³ web per ( intel Â· ligents ) de nova creaciÃ³ ."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -630,7 +634,7 @@ msgstr "contrasenya :"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "progrés"
+msgstr "progrÃ©s"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"

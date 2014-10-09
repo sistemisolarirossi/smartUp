@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,15 +17,15 @@ msgstr "( tt: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "En Codice Fiscale eller en P.IVA kræves"
+msgstr "En Codice Fiscale eller en P.IVA krÃ¦ves"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "En kunde navn er påkrævet"
+msgstr "En kunde navn er pÃ¥krÃ¦vet"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "En dato for service begyndelse er påkrævet"
+msgstr "En dato for service begyndelse er pÃ¥krÃ¦vet"
 
 #: app/views/serviceReports.html
 msgid ""
@@ -34,19 +34,19 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "En placering af service er påkrævet"
+msgstr "En placering af service er pÃ¥krÃ¦vet"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Et telefonnummer er påkrævet"
+msgstr "Et telefonnummer er pÃ¥krÃ¦vet"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "En adresse er påkrævet"
+msgstr "En adresse er pÃ¥krÃ¦vet"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "Et brugernavn er påkrævet"
+msgstr "Et brugernavn er pÃ¥krÃ¦vet"
 
 #: app/views/nav.html
 msgid "About"
@@ -54,11 +54,11 @@ msgstr "om"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Tilføj ny kunde"
+msgstr "TilfÃ¸j ny kunde"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Tilføj ny bruger"
+msgstr "TilfÃ¸j ny bruger"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -66,15 +66,15 @@ msgstr "adresse"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "En e-mail -adresse er nødvendig"
+msgstr "En e-mail -adresse er nÃ¸dvendig"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "En operatør er forpligtet"
+msgstr "En operatÃ¸r er forpligtet"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "En opdatering er tilgængelig : vil du indlæse det nu?"
+msgstr "En opdatering er tilgÃ¦ngelig : vil du indlÃ¦se det nu?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -82,11 +82,11 @@ msgstr "En opdatering er klar"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Er du virkelig sikker på at fjerne tjeneste rapport"
+msgstr "Er du virkelig sikker pÃ¥ at fjerne tjeneste rapport"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Er du virkelig sikker på at fjerne brugeren"
+msgstr "Er du virkelig sikker pÃ¥ at fjerne brugeren"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -130,7 +130,7 @@ msgstr "Cache er i ukendt tilstand"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache opdateres ikke (sandsynligvis manifestet er uopnåeligt )"
+msgstr "Cache opdateres ikke (sandsynligvis manifestet er uopnÃ¥eligt )"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -138,7 +138,7 @@ msgstr "Cache ikke opdateres, fordi du er offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cache er forældet"
+msgstr "Cache er forÃ¦ldet"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
@@ -150,7 +150,7 @@ msgstr "Cache status er"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Kontrol af, om tilstedeværelsen af en opdatering"
+msgstr "Kontrol af, om tilstedevÃ¦relsen af en opdatering"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -243,6 +243,10 @@ msgstr "Slet tjeneste rapport"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "Slet bruger"
+
+#: app/views/about.html
+msgid "Dog"
+msgstr "hund"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -354,7 +358,7 @@ msgstr "Navn"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Navn på brugeren"
+msgstr "Navn pÃ¥ brugeren"
 
 #: app/views/customers.html
 msgid "New customer"
@@ -374,7 +378,7 @@ msgstr "Ingen opdatering er til stede"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Bemærkninger"
+msgstr "BemÃ¦rkninger"
 
 #: app/views/serviceReports.html
 msgid "Number"
@@ -382,15 +386,15 @@ msgstr "nummer"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operatør"
+msgstr "operatÃ¸r"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Operatør af tjeneste"
+msgstr "OperatÃ¸r af tjeneste"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Operatør underskrift"
+msgstr "OperatÃ¸r underskrift"
 
 #: app/views/nav.html
 msgid "Orders"
@@ -486,7 +490,7 @@ msgstr "service-rapporter"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Opsætning"
+msgstr "OpsÃ¦tning"
 
 #: app/views/customers.html
 msgid "Street address"
@@ -506,15 +510,15 @@ msgstr "Dette er"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Denne bruger kan heller ikke læse eller skrive"
+msgstr "Denne bruger kan heller ikke lÃ¦se eller skrive"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Denne bruger kan læse"
+msgstr "Denne bruger kan lÃ¦se"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Denne bruger kan læse og skrive"
+msgstr "Denne bruger kan lÃ¦se og skrive"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
@@ -522,7 +526,7 @@ msgstr "Denne bruger kan skrive"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Denne bruger kan ikke få adgang"
+msgstr "Denne bruger kan ikke fÃ¥ adgang"
 
 #: app/views/users.html
 msgid "This user name is already in use"
@@ -534,11 +538,11 @@ msgstr "Dette brugernavn er ikke gyldigt"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Denne værdi er heller ikke en Codice Fiscale eller en P.IVA"
+msgstr "Denne vÃ¦rdi er heller ikke en Codice Fiscale eller en P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Når servicen begyndelse"
+msgstr "NÃ¥r servicen begyndelse"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
@@ -614,7 +618,7 @@ msgstr "loggede bruger"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "forældede"
+msgstr "forÃ¦ldede"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"

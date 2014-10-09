@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -243,6 +243,10 @@ msgstr "Ezabatu zerbitzu txostena"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "ezabatu erabiltzaileen"
+
+#: app/views/about.html
+msgid "Dog"
+msgstr "Dog"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"

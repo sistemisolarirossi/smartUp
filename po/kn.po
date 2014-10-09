@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -243,6 +243,10 @@ msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6 \\u0CB5\\u0CB0\\u0CA6\\u0CBF \\u0C85
 #: app/views/users.html
 msgid "Delete user"
 msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0 \\u0C85\\u0CB3\\u0CBF\\u0CB8\\u0CBF"
+
+#: app/views/about.html
+msgid "Dog"
+msgstr "\\u0CA1\\u0CBE\\u0C97\\u0CCD"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"

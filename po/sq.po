@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,15 +17,15 @@ msgstr "( hh : mm )"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Një anen ose një P.IVA kërkohet"
+msgstr "NjÃ« anen ose njÃ« P.IVA kÃ«rkohet"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Një emër klient është e nevojshme"
+msgstr "NjÃ« emÃ«r klient Ã«shtÃ« e nevojshme"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Një datë e fillimit të shërbimit është e nevojshme"
+msgstr "NjÃ« datÃ« e fillimit tÃ« shÃ«rbimit Ã«shtÃ« e nevojshme"
 
 #: app/views/serviceReports.html
 msgid ""
@@ -34,19 +34,19 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Një vend i shërbimit është e nevojshme"
+msgstr "NjÃ« vend i shÃ«rbimit Ã«shtÃ« e nevojshme"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Një numër telefoni është e nevojshme"
+msgstr "NjÃ« numÃ«r telefoni Ã«shtÃ« e nevojshme"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Një adresë rruge është e nevojshme"
+msgstr "NjÃ« adresÃ« rruge Ã«shtÃ« e nevojshme"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "Një emër përdorues është e nevojshme"
+msgstr "NjÃ« emÃ«r pÃ«rdorues Ã«shtÃ« e nevojshme"
 
 #: app/views/nav.html
 msgid "About"
@@ -54,11 +54,11 @@ msgstr "Rreth"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Shto klient të ri"
+msgstr "Shto klient tÃ« ri"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Shtoni përdorues të ri"
+msgstr "Shtoni pÃ«rdorues tÃ« ri"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -66,27 +66,27 @@ msgstr "Adresa"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "Një adresë e-mail është e nevojshme"
+msgstr "NjÃ« adresÃ« e-mail Ã«shtÃ« e nevojshme"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Operatori është e nevojshme"
+msgstr "Operatori Ã«shtÃ« e nevojshme"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Një update është në dispozicion : ju doni të ngarkesës atë tani ?"
+msgstr "NjÃ« update Ã«shtÃ« nÃ« dispozicion : ju doni tÃ« ngarkesÃ«s atÃ« tani ?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Një Azhurimi është gati"
+msgstr "NjÃ« Azhurimi Ã«shtÃ« gati"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "A jeni me të vërtetë i sigurt për të hequr raport të shërbimit"
+msgstr "A jeni me tÃ« vÃ«rtetÃ« i sigurt pÃ«r tÃ« hequr raport tÃ« shÃ«rbimit"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "A jeni me të vërtetë i sigurt për të hequr përdorues"
+msgstr "A jeni me tÃ« vÃ«rtetÃ« i sigurt pÃ«r tÃ« hequr pÃ«rdorues"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -94,7 +94,7 @@ msgstr "Authentication id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Authentication id i përdoruesit"
+msgstr "Authentication id i pÃ«rdoruesit"
 
 #: app/views/users.html
 msgid "Authentication id:"
@@ -106,7 +106,7 @@ msgstr "ofrues Authentication"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Ofrues të legalizuara për përdoruesit"
+msgstr "Ofrues tÃ« legalizuara pÃ«r pÃ«rdoruesit"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -114,7 +114,7 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Image avatar i përdoruesit"
+msgstr "Image avatar i pÃ«rdoruesit"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -122,35 +122,35 @@ msgstr "C.F. / P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Cache është duke u nisur"
+msgstr "Cache Ã«shtÃ« duke u nisur"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Depoja është në gjendjen panjohur"
+msgstr "Depoja Ã«shtÃ« nÃ« gjendjen panjohur"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache nuk është përditësuar ( ndoshtamanifest është i pakapshëm )"
+msgstr "Cache nuk Ã«shtÃ« pÃ«rditÃ«suar ( ndoshtamanifest Ã«shtÃ« i pakapshÃ«m )"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache nuk është përditësuar për shkak se ju jeni në linjë"
+msgstr "Cache nuk Ã«shtÃ« pÃ«rditÃ«suar pÃ«r shkak se ju jeni nÃ« linjÃ«"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cache është të vjetëruara"
+msgstr "Cache Ã«shtÃ« tÃ« vjetÃ«ruara"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache është up - to-date"
+msgstr "Cache Ã«shtÃ« up - to-date"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Statusi Cache është"
+msgstr "Statusi Cache Ã«shtÃ«"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Kontrolluar për praninë e një update"
+msgstr "Kontrolluar pÃ«r praninÃ« e njÃ« update"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -158,11 +158,11 @@ msgstr "KODI FISKAL / P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "KODI FISKAL përmban karakter të pavlefshme ( s )"
+msgstr "KODI FISKAL pÃ«rmban karakter tÃ« pavlefshme ( s )"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Kodi kontrollit KODI FISKAL nuk përputhet"
+msgstr "Kodi kontrollit KODI FISKAL nuk pÃ«rputhet"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
@@ -190,7 +190,7 @@ msgstr "kontaktet"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Gjuha aktual është"
+msgstr "Gjuha aktual Ã«shtÃ«"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -210,7 +210,7 @@ msgstr "Emri i Klientit"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Numrin e telefonit të Klientit"
+msgstr "Numrin e telefonit tÃ« Klientit"
 
 #: app/views/customers.html
 msgid "Customer street address"
@@ -218,11 +218,11 @@ msgstr "Adresa Customer rruge"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Nënshkrimi konsumatorit"
+msgstr "NÃ«nshkrimi konsumatorit"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "konsumatorët"
+msgstr "konsumatorÃ«t"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -230,7 +230,7 @@ msgstr "Data"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Data e fillimit të shërbimit"
+msgstr "Data e fillimit tÃ« shÃ«rbimit"
 
 #: app/views/customers.html
 msgid "Delete customer"
@@ -238,15 +238,19 @@ msgstr "Fshij konsumatorit"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Fshij raport të shërbimit"
+msgstr "Fshij raport tÃ« shÃ«rbimit"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Fshij përdorues"
+msgstr "Fshij pÃ«rdorues"
+
+#: app/views/about.html
+msgid "Dog"
+msgstr "Dog"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Shkarkim një update"
+msgstr "Shkarkim njÃ« update"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -254,19 +258,19 @@ msgstr "Kohezgjatja"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Kohëzgjatja e shërbimit"
+msgstr "KohÃ«zgjatja e shÃ«rbimit"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Edit konsumatorëve"
+msgstr "Edit konsumatorÃ«ve"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Raporti i shërbimit Edit"
+msgstr "Raporti i shÃ«rbimit Edit"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Edit përdorues"
+msgstr "Edit pÃ«rdorues"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
@@ -278,15 +282,15 @@ msgstr "Email"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "Email nuk është e vlefshme"
+msgstr "Email nuk Ã«shtÃ« e vlefshme"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Email adresa e përdoruesit"
+msgstr "Email adresa e pÃ«rdoruesit"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Email i përdoruesit"
+msgstr "Email i pÃ«rdoruesit"
 
 #: app/views/home.html
 msgid ""
@@ -300,15 +304,15 @@ msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "filtër klientët"
+msgstr "filtÃ«r klientÃ«t"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Raportet filtër shërbimit"
+msgstr "Raportet filtÃ«r shÃ«rbimit"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "përdoruesit filtër"
+msgstr "pÃ«rdoruesit filtÃ«r"
 
 #: app/views/nav.html
 msgid "Home"
@@ -334,7 +338,7 @@ msgstr "Vendndodhja"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Vendndodhja e shërbimit"
+msgstr "Vendndodhja e shÃ«rbimit"
 
 #: app/views/home.html
 msgid "Log in"
@@ -354,7 +358,7 @@ msgstr "Emri"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Emri i përdoruesit"
+msgstr "Emri i pÃ«rdoruesit"
 
 #: app/views/customers.html
 msgid "New customer"
@@ -366,15 +370,15 @@ msgstr "raport i ri"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "përdorues i ri"
+msgstr "pÃ«rdorues i ri"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Asnjë Azhurimi është i pranishëm"
+msgstr "AsnjÃ« Azhurimi Ã«shtÃ« i pranishÃ«m"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Shënime"
+msgstr "ShÃ«nime"
 
 #: app/views/serviceReports.html
 msgid "Number"
@@ -386,15 +390,15 @@ msgstr "operatori"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Operatori i shërbimit"
+msgstr "Operatori i shÃ«rbimit"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Nënshkrimi operatorit"
+msgstr "NÃ«nshkrimi operatorit"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "urdhërat"
+msgstr "urdhÃ«rat"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -402,11 +406,11 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA përmban karakter të pavlefshme ( s )"
+msgstr "P.IVA pÃ«rmban karakter tÃ« pavlefshme ( s )"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "Kodi kontrolli P.IVA nuk përputhet"
+msgstr "Kodi kontrolli P.IVA nuk pÃ«rputhet"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -418,7 +422,7 @@ msgstr "numri i telefonit"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Numri i telefonit nuk është e vlefshme"
+msgstr "Numri i telefonit nuk Ã«shtÃ« e vlefshme"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -426,7 +430,7 @@ msgstr "Vendi"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Përgatitjashkarkoni një update"
+msgstr "PÃ«rgatitjashkarkoni njÃ« update"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -434,15 +438,15 @@ msgstr "Printo"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Printo konsumatorëve"
+msgstr "Printo konsumatorÃ«ve"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Raporti i shërbimit Printo"
+msgstr "Raporti i shÃ«rbimit Printo"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "përdorues Printo"
+msgstr "pÃ«rdorues Printo"
 
 #: app/views/users.html
 msgid "Provider"
@@ -474,15 +478,15 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Raporti i Shërbimit"
+msgstr "Raporti i ShÃ«rbimit"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Raporti i Shërbimit n"
+msgstr "Raporti i ShÃ«rbimit n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "raportet e Shërbimit"
+msgstr "raportet e ShÃ«rbimit"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -490,55 +494,55 @@ msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "adresë rruge"
+msgstr "adresÃ« rruge"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ky emër konsumatori është tashmë në përdorim"
+msgstr "Ky emÃ«r konsumatori Ã«shtÃ« tashmÃ« nÃ« pÃ«rdorim"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ky emër konsumatori nuk është i vlefshëm"
+msgstr "Ky emÃ«r konsumatori nuk Ã«shtÃ« i vlefshÃ«m"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Kjo është"
+msgstr "Kjo Ã«shtÃ«"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ky përdorues mund as të lexojë ose të shkruajë"
+msgstr "Ky pÃ«rdorues mund as tÃ« lexojÃ« ose tÃ« shkruajÃ«"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ky përdorues mund të lexoni"
+msgstr "Ky pÃ«rdorues mund tÃ« lexoni"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ky përdorues mund të lexojnë dhe shkruajnë"
+msgstr "Ky pÃ«rdorues mund tÃ« lexojnÃ« dhe shkruajnÃ«"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ky përdorues mund të shkruani"
+msgstr "Ky pÃ«rdorues mund tÃ« shkruani"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ky përdorues nuk mund të hyni"
+msgstr "Ky pÃ«rdorues nuk mund tÃ« hyni"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ky emër përdorues është tashmë në përdorim"
+msgstr "Ky emÃ«r pÃ«rdorues Ã«shtÃ« tashmÃ« nÃ« pÃ«rdorim"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ky emër përdoruesi nuk është e vlefshme"
+msgstr "Ky emÃ«r pÃ«rdoruesi nuk Ã«shtÃ« e vlefshme"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Kjo vlerë është as një anen as P.IVA"
+msgstr "Kjo vlerÃ« Ã«shtÃ« as njÃ« anen as P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Koha e fillimit të shërbimit"
+msgstr "Koha e fillimit tÃ« shÃ«rbimit"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
@@ -546,27 +550,27 @@ msgstr "navigacion toggle"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "User adresën e-mail"
+msgstr "User adresÃ«n e-mail"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Emri i përdoruesit"
+msgstr "Emri i pÃ«rdoruesit"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "Emri i përdoruesit"
+msgstr "Emri i pÃ«rdoruesit"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "përdoruesit"
+msgstr "pÃ«rdoruesit"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Ju jeni në linjë"
+msgstr "Ju jeni nÃ« linjÃ«"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Ju jeni në internet"
+msgstr "Ju jeni nÃ« internet"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -582,7 +586,7 @@ msgstr "kontrolluar"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "konsumatorët"
+msgstr "konsumatorÃ«t"
 
 #: app/scripts/app.js
 msgid "downloading"
@@ -594,11 +598,11 @@ msgstr "gabim"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "faqe në shtëpi për përdoruesit e jo të regjistruar ."
+msgstr "faqe nÃ« shtÃ«pi pÃ«r pÃ«rdoruesit e jo tÃ« regjistruar ."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "faqe në shtëpi për përdoruesit registerd ."
+msgstr "faqe nÃ« shtÃ«pi pÃ«r pÃ«rdoruesit registerd ."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -606,31 +610,31 @@ msgstr "Initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "është një aplikim të internetit për ( smart ) fillestare ."
+msgstr "Ã«shtÃ« njÃ« aplikim tÃ« internetit pÃ«r ( smart ) fillestare ."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "përdoruesit regjistruar"
+msgstr "pÃ«rdoruesit regjistruar"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "vjetëruara"
+msgstr "vjetÃ«ruara"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "urdhërat"
+msgstr "urdhÃ«rat"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "ndryshe regjistruar një accout të re dhe të hyni ."
+msgstr "ndryshe regjistruar njÃ« accout tÃ« re dhe tÃ« hyni ."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "fjalëkalimi :"
+msgstr "fjalÃ«kalimi :"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "përparim"
+msgstr "pÃ«rparim"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -646,4 +650,4 @@ msgstr "emrin :"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "përdoruesit"
+msgstr "pÃ«rdoruesit"

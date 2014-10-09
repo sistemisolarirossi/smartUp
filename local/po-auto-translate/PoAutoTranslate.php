@@ -4,7 +4,6 @@
  * Auto translate .po (gettext) files with google translate page
  */
 
-/* TODO: do not touch po files, if not touched... */
   include "PoParser.php";
   
   $version = "0.1";
@@ -21,13 +20,15 @@
 
   #echo "**PoAutoTranslate**" . "\n";
 
+  /*
+   * We process all Google supported languages
+   */
   $languages = getSupportedLanguages($googleSupportedLanguagesUrl);
-
   foreach ($languages as $language => $languageName) {
     $language = strtolower($language);
     if ($language == $sourceLanguage) continue; # skip source language
 
-    /* Google does not support unneeded regional code languages...
+    /* Google does not support excess regional code languages...
     if (strstr($language, "-")) { # skip regional codes, if main language code is present
       $languageMain = substr($language, 0, strpos($language, "-"));
       if (isset($languages[$languageMain])) {
@@ -38,7 +39,11 @@
     }
     */
 
-    if ($language == "it") continue; # until this script is not stable, avoid breaking manually translated files
+    /*
+     * Until this script is not stable, avoid breaking manually translated files;
+     * TODO: remove this
+     */
+    #if ($language == "it") continue;
 
     /* if existing, copy angular-locales from source dir to app dir, if not yet present there */
     if (!file_exists($i18nSrcDirectory. "/" . "angular-locale_" . $language . ".js")) {
@@ -59,19 +64,14 @@
 
     print $language . " ";
 
-    /*
-     * We process all Google supported languages;
-     */
     /* create a new language .po file header for this language, if it doesn't exist yet */
-    if (!file_exists("$poDirectory/$language.po")) {
-      createNewPo($language,
-        array(
-          "poDirectory" => $poDirectory,
-          "projectName" => $projectName,
-          "translatorName" => $translatorName,
-        )
-      );
-    }
+    createNewPo($language,
+      array(
+        "poDirectory" => $poDirectory,
+        "projectName" => $projectName,
+        "translatorName" => $translatorName,
+      )
+    );
 
     /* merge each language po file with templates pot file */
     system("msgmerge --sort-output --update --backup=off --quiet \"$poDirectory/$language.po\" \"$poDirectory/$potTemplateFile\"");

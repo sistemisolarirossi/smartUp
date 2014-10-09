@@ -506,7 +506,7 @@ module.exports = function (grunt) {
         cmd: '( /bin/echo "/* exported lastBuildDate */"; /bin/echo -n "var lastBuildDate = \'"; date +"%Y-%m-%d %H:%M:%S" | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
       },
       poAutoTranslate: {
-        cmd: '( cd local/po-auto-translate; php PoAutoTranslate.php "<%= appName %>" "<%= process.cwd() %>")',
+        cmd: 'php local/po-auto-translate/PoAutoTranslate.php "<%= appName %>" "<%= process.cwd() %>"',
       },
     },
 

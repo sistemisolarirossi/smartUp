@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: Marco <marcosolari@gmail.com>\n"
 "Language-Team: \n"
+"Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.6.9\n"
 
@@ -244,6 +244,10 @@ msgstr "Tanggalin ang ulat ng serbisyo"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "Tanggalin ang user"
+
+#: app/views/about.html
+msgid "Dog"
+msgstr "aso"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
