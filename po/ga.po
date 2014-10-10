@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh : mm )"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "TÃ¡ dÃ¡ta tosaithe tseirbhÃ­s a chur"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "NÃ­ mÃ³r rÃ© a bheith i bhfoirm' hh' nÃ³' hh: mm', agus nÃ³imÃ©ad amhÃ¡in ar a laghad ar fad"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -62,7 +61,7 @@ msgstr "Cuir ÃºsÃ¡ideoir nua"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "seoladh"
+msgstr "Seoladh"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "TÃ¡ oibreoir ag teastÃ¡il"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "TÃ¡ nuashonrÃº ar fÃ¡il : ar mhaith leat a luchtÃº anois ?"
+msgstr "TÃ¡ nuashonrÃº ar fÃ¡il: ar mhaith leat a luchtÃº anois?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -102,7 +101,7 @@ msgstr "FÃ­ordheimhniÃº id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "solÃ¡thraÃ­ FÃ­ordheimhniÃº"
+msgstr "SolÃ¡thraÃ­ FÃ­ordheimhniÃº"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -118,7 +117,7 @@ msgstr "ÃomhÃ¡ Avatar an t-ÃºsÃ¡ideoir"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "TÃ¡ Taisce i stÃ¡t anaithnid"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "NÃ­l Taisce cothrom le dÃ¡ta (is dÃ³cha go bhfuil an lÃ©iriÃº unreachable )"
+msgstr "NÃ­l Taisce cothrom le dÃ¡ta(is dÃ³cha go bhfuil an lÃ©iriÃº unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -154,11 +153,11 @@ msgstr "SeiceÃ¡il do lÃ¡ithreacht ar thabhairt cothrom le dÃ¡ta"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "TÃ¡ Codice Fiscale carachtar neamhbhailÃ­ (Ã­ )"
+msgstr "TÃ¡ Codice Fiscale carachtar neamhbhailÃ­(Ã­)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -170,7 +169,11 @@ msgstr "Codice Fiscale nÃ³ P.IVA an chustaimÃ©ara"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "logo Cuideachta"
+msgstr "Logo Cuideachta"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Ceangail baint ÃºsÃ¡ide as ceann de do chuntais\\\"sÃ³isialta\\"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -178,7 +181,7 @@ msgstr "Ceangail le Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Ceangail le Google +"
+msgstr "Ceangail le Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
@@ -206,7 +209,7 @@ msgstr "Seoladh r-phoist do ChustaimÃ©irÃ­"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "ainm ChustaimÃ©irÃ­"
+msgstr "Ainm ChustaimÃ©irÃ­"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -244,13 +247,9 @@ msgstr "Scrios an tuarascÃ¡il seirbhÃ­se"
 msgid "Delete user"
 msgstr "Scrios ÃºsÃ¡ideoir"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "Madraí"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Thabhairt cothrom le dÃ¡ta -Ã­osluchtÃº"
+msgstr "Thabhairt cothrom le dÃ¡ta-Ã­osluchtÃº"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -270,7 +269,7 @@ msgstr "TuarascÃ¡il SeirbhÃ­s in Eagar"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "ÃºsÃ¡ideoir Eagar"
+msgstr "ÃºsÃ¡ideoir Eagar"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
@@ -278,7 +277,7 @@ msgstr "RÃ­omhphost"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "seoladh rÃ­omhphoist"
+msgstr "Seoladh rÃ­omhphoist"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -292,19 +291,13 @@ msgstr "Seoladh r-phoist an t-ÃºsÃ¡ideoir"
 msgid "Email of the user"
 msgstr "RÃ­omhphost t-ÃºsÃ¡ideoir"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Facs"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "custaimÃ©irÃ­ Scagaire"
+msgstr "CustaimÃ©irÃ­ Scagaire"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
@@ -312,7 +305,7 @@ msgstr "TuarascÃ¡lacha seirbhÃ­se Scagaire"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ÃºsÃ¡ideoirÃ­ Scagaire"
+msgstr "ÃºsÃ¡ideoirÃ­ Scagaire"
 
 #: app/views/nav.html
 msgid "Home"
@@ -324,13 +317,11 @@ msgstr "Aitheantas"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ceadaíonn sé bainistiú na gcustaiméirí , orduithe agus tuarascálacha seirbhíse."
+msgstr "CeadaÃ­onn sÃ© bainistiÃº na gcustaimÃ©irÃ­, orduithe agus tuarascÃ¡lacha seirbhÃ­se."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "TÃ¡ sÃ© an- foinse oscailte, go tapa, dlÃºth, extensible, teacht aniar, idirnÃ¡isiÃºnta agus soghluaiste."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -362,15 +353,15 @@ msgstr "Ainm an ÃºsÃ¡ideoir"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "do chustaimÃ©irÃ­ nua"
+msgstr "Do chustaimÃ©irÃ­ nua"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "tuarascÃ¡il nua"
+msgstr "TuarascÃ¡il nua"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "ÃºsÃ¡ideoir nua"
+msgstr "ÃºsÃ¡ideoir nua"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -382,7 +373,7 @@ msgstr "NÃ³taÃ­"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "lÃ­on"
+msgstr "LÃ­on"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "TÃ¡ P.IVA carachtar neamhbhailÃ­ (Ã­ )"
+msgstr "TÃ¡ P.IVA carachtar neamhbhailÃ­(Ã­)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -418,7 +409,7 @@ msgstr "FÃ³n"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "uimhir FÃ³n"
+msgstr "Uimhir FÃ³n"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -446,7 +437,7 @@ msgstr "TuarascÃ¡il SeirbhÃ­s PriontÃ¡il"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "ÃºsÃ¡ideoir PriontÃ¡il"
+msgstr "ÃºsÃ¡ideoir PriontÃ¡il"
 
 #: app/views/users.html
 msgid "Provider"
@@ -461,16 +452,12 @@ msgid "Roles"
 msgstr "RÃ³lanna"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "RÃ³lanna don ÃºsÃ¡ideoir; cliceÃ¡il ag dul in olcas trÃ­ gach stÃ¡t( RW-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "RÃ³lanna an ÃºsÃ¡ideoir: glas dath LÃ©irÃ­onn cead do lÃ©amh agus a scrÃ­obh, modhanna buÃ­ a lÃ©amh amhÃ¡in, gorm scrÃ­obh ach, agus dearg aon chead. Is iad Ailt:' u'( ÃºsÃ¡ideoirÃ­),' c'(custaimÃ©irÃ­),' o'( orduithe),(tuarascÃ¡lacha seirbhÃ­se)'s'."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "SÃ¡bhÃ¡il"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "tuarascÃ¡il na SeirbhÃ­se"
+msgstr "TuarascÃ¡il na SeirbhÃ­se"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,7 +473,7 @@ msgstr "TuarascÃ¡il SeirbhÃ­s n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "tuarascÃ¡lacha na SeirbhÃ­se"
+msgstr "TuarascÃ¡lacha na SeirbhÃ­se"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -494,7 +481,7 @@ msgstr "SocrÃº"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "seoladh SrÃ¡id"
+msgstr "Seoladh SrÃ¡id"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -506,7 +493,7 @@ msgstr "NÃ­l an t-ainm do chustaimÃ©irÃ­ bailÃ­"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "tÃ¡ sÃ© seo"
+msgstr "TÃ¡ sÃ© seo"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -546,7 +533,7 @@ msgstr "Am tosaithe seirbhÃ­se"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "nascleanÃºint scorÃ¡naigh"
+msgstr "NascleanÃºint scorÃ¡naigh"
 
 #: app/views/users.html
 msgid "User email address"
@@ -554,7 +541,7 @@ msgstr "ÃsÃ¡ideoir seoladh rÃ­omhphoist"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "ainm ÃºsÃ¡ideora"
+msgstr "Ainm ÃºsÃ¡ideora"
 
 #: app/views/users.html
 msgid "Username"
@@ -598,11 +585,11 @@ msgstr "earrÃ¡id"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "leathanach baile d'ÃºsÃ¡ideoirÃ­ nach bhfuil clÃ¡raithe ."
+msgstr "leathanach baile d'ÃºsÃ¡ideoirÃ­ nach bhfuil clÃ¡raithe."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "leathanach baile d'ÃºsÃ¡ideoirÃ­ registerd ."
+msgstr "leathanach baile d'ÃºsÃ¡ideoirÃ­ registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "TÃ¡ iarratas grÃ©asÃ¡in ( cliste ) gnÃ³lachtaÃ­ nuathionscanta ."
+msgstr "tÃ¡ iarratas grÃ©asÃ¡in( cliste) gnÃ³lachtaÃ­ nuathionscanta."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "orduithe"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "chlÃ¡rÃº ar shlÃ­ eile accout nua agus logÃ¡il isteach ."
+msgstr "chlÃ¡rÃº ar shlÃ­ eile accout nua agus logÃ¡il isteach."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Focal faire :"
+msgstr "focal faire:"
 
 #: app/scripts/app.js
 msgid "progress"

@@ -5,15 +5,15 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: sw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sw\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh : mm)"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Tarehe ya kuanza huduma ni required"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Muda lazima kuwa katika mfumo' hh' au' hh: mm', na dakika angalau moja kwa muda mrefu"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -50,7 +49,7 @@ msgstr "Jina la mtumiaji anahitajika"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "kuhusu"
+msgstr "Kuhusu"
 
 #: app/views/customers.html
 msgid "Add new customer"
@@ -62,7 +61,7 @@ msgstr "Kuongeza user mpya"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "anwani"
+msgstr "Anwani"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "Operator ni required"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Update inapatikana: unataka mzigo sasa ?"
+msgstr "Update inapatikana: unataka mzigo sasa?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -90,7 +89,7 @@ msgstr "Je, wewe ni kweli na uhakika na kuondoa user"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "uthibitishaji id"
+msgstr "Uthibitishaji id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
@@ -102,7 +101,7 @@ msgstr "Uthibitishaji id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "mtoa uthibitishaji"
+msgstr "Mtoa uthibitishaji"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -110,7 +109,7 @@ msgstr "Uthibitishaji mtoa kwa user"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "avatar"
+msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
@@ -118,7 +117,7 @@ msgstr "Avatar mfano wa user"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache ni katika hali ya jamii haijulikani"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache si updated (labda wazi ni unreachable )"
+msgstr "Cache si updated(labda wazi ni unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -154,11 +153,11 @@ msgstr "Kuangalia kwa uwepo wa update"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ina tabia batili (s)"
+msgstr "Codice Fiscale ina tabia batili(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -170,7 +169,11 @@ msgstr "Codice Fiscale au P.IVA ya wateja"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "alama ya kampuni"
+msgstr "Alama ya kampuni"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Kuungana kwa kutumia moja ya\\\"kijamii\\\" akaunti, au kuingia katika na sifa hizi:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -194,7 +197,7 @@ msgstr "Lugha ya sasa ni"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "wateja"
+msgstr "Wateja"
 
 #: app/views/customers.html
 msgid "Customer Card"
@@ -206,7 +209,7 @@ msgstr "Anwani ya barua pepe Wateja"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "jina la mteja"
+msgstr "Jina la mteja"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -222,11 +225,11 @@ msgstr "Saini ya mteja"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "wateja"
+msgstr "Wateja"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "tarehe"
+msgstr "Tarehe"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
@@ -234,7 +237,7 @@ msgstr "Tarehe ya kuanza huduma"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "kufuta mteja"
+msgstr "Kufuta mteja"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
@@ -242,15 +245,11 @@ msgstr "Kufuta ripoti huduma"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "kufuta mtumiaji"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "mbwa"
+msgstr "Kufuta mtumiaji"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "kupakua update"
+msgstr "Kupakua update"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -274,11 +273,11 @@ msgstr "Edit user"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "barua pepe"
+msgstr "Barua pepe"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "anwani ya barua pepe"
+msgstr "Anwani ya barua pepe"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -292,19 +291,13 @@ msgstr "Anwani ya barua pepe ya user"
 msgid "Email of the user"
 msgstr "Barua pepe ya user"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "filter wateja"
+msgstr "Filter wateja"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
@@ -312,11 +305,11 @@ msgstr "Ripoti Filter huduma"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "watumiaji filter"
+msgstr "Watumiaji filter"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "nyumbani"
+msgstr "Nyumbani"
 
 #: app/views/users.html
 msgid "Id"
@@ -324,13 +317,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ni inaruhusu usimamizi wa wateja, maagizo na ripoti za utumishi ."
+msgstr "Ni inaruhusu usimamizi wa wateja, maagizo na ripoti za utumishi."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Ni wazi chanzo, kwa haraka, Compact, extensible, resilient, kimataifa na simu za mkono."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -354,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "jina"
+msgstr "Jina"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -366,7 +357,7 @@ msgstr "New mteja"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "ripoti mpya"
+msgstr "Ripoti mpya"
 
 #: app/views/users.html
 msgid "New user"
@@ -382,11 +373,11 @@ msgstr "Notes"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "idadi"
+msgstr "Idadi"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operator"
+msgstr "Operator"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -398,7 +389,7 @@ msgstr "Saini Opereta"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "amri"
+msgstr "Amri"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ina tabia batili (s)"
+msgstr "P.IVA ina tabia batili(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -414,11 +405,11 @@ msgstr "P.IVA kudhibiti code hailingani"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "simu"
+msgstr "Simu"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "namba ya simu"
+msgstr "Namba ya simu"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -426,7 +417,7 @@ msgstr "Nambari ya simu si halali"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "mahali"
+msgstr "Mahali"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -450,7 +441,7 @@ msgstr "Print user"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "mtoa"
+msgstr "Mtoa"
 
 #: app/views/home.html
 msgid "Register"
@@ -461,16 +452,12 @@ msgid "Roles"
 msgstr "Wajibu"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Wajibu kwa mtumiaji huyu; click slide kwa njia ya mataifa yote( RW-\\u003e R-\\u003e W-\\u003e hakuna)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Wajibu wa user: rangi ya kijani inaonyesha ruhusa kwa kusoma na kuandika, njia njano kusoma tu, bluu tu kuandika, na nyekundu hakuna ruhusa. Sehemu ni:' u'( watumiaji),'c'( wateja),'o'( amri),'s'( ripoti za utumishi)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "ripoti Service"
+msgstr "Ripoti Service"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,7 +473,7 @@ msgstr "Ripoti Service n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "ripoti za utumishi"
+msgstr "Ripoti za utumishi"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -494,7 +481,7 @@ msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "anwani ya mitaani"
+msgstr "Anwani ya mitaani"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -506,7 +493,7 @@ msgstr "Jina Hii mteja ni si halali"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "hii ni"
+msgstr "Hii ni"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -546,7 +533,7 @@ msgstr "Wakati wa huduma ya kuanza"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "urambazaji Toggle"
+msgstr "Urambazaji Toggle"
 
 #: app/views/users.html
 msgid "User email address"
@@ -554,7 +541,7 @@ msgstr "User anwani ya barua pepe"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "jina la mtumiaji"
+msgstr "Jina la mtumiaji"
 
 #: app/views/users.html
 msgid "Username"
@@ -562,7 +549,7 @@ msgstr "Jina la mtumiaji"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "watumiaji"
+msgstr "Watumiaji"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -602,7 +589,7 @@ msgstr "ukurasa wa nyumbani kwa watumiaji wasio kusajiliwa."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "ukurasa wa nyumbani kwa ajili ya watumiaji registerd ."
+msgstr "ukurasa wa nyumbani kwa ajili ya watumiaji registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "ni maombi ya mtandao kwa ( smart) kuanza -ups."
+msgstr "ni maombi ya mtandao kwa( smart) kuanza-ups."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,7 +613,7 @@ msgstr "amri"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "vinginevyo kujiandikisha accout mpya na kuingia katika ."
+msgstr "vinginevyo kujiandikisha accout mpya na kuingia katika."
 
 #: app/views/home.html
 msgid "password:"

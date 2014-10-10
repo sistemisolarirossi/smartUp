@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh: mm )"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Sebuah tanggal servis start diperlukan"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Durasi A harus dalam bentuk'hh' atau'hh: mm', dan setidaknya satu menit panjang"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -62,7 +61,7 @@ msgstr "Tambah user baru"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "alamat"
+msgstr "Alamat"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "Seorang operator diperlukan"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Pembaruan tersedia : apakah Anda ingin memuat sekarang ?"
+msgstr "Pembaruan tersedia: apakah Anda ingin memuat sekarang?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -90,7 +89,7 @@ msgstr "Apakah Anda benar-benar yakin untuk menghapus pengguna"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "otentikasi id"
+msgstr "Otentikasi id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
@@ -98,11 +97,11 @@ msgstr "Otentikasi id pengguna"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Otentikasi id :"
+msgstr "Otentikasi id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "penyedia otentikasi"
+msgstr "Penyedia otentikasi"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -118,7 +117,7 @@ msgstr "Avatar gambar pengguna"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache dalam keadaan tidak diketahui"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache tidak diperbarui (mungkin memanifestasikan tidak bisa diakses )"
+msgstr "Cache tidak diperbarui(mungkin memanifestasikan tidak bisa diakses)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Cache adalah usang"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache adalah up - to-date"
+msgstr "Cache adalah up- to-date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Memeriksa kehadiran update"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale mengandung karakter yang tidak valid ( s )"
+msgstr "Codice Fiscale mengandung karakter yang tidak valid( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -170,7 +169,11 @@ msgstr "Codice Fiscale atau P.IVA pelanggan"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "logo perusahaan"
+msgstr "Logo perusahaan"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Hubungkan menggunakan salah satu\\\" sosial\\\" account Anda, atau masuk dengan mandat ini:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -186,7 +189,7 @@ msgstr "Terhubung dengan Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "kontak"
+msgstr "Kontak"
 
 #: app/views/footer.html
 msgid "Current language is"
@@ -206,7 +209,7 @@ msgstr "Alamat email Pelanggan"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "nama Pelanggan"
+msgstr "Nama Pelanggan"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -222,7 +225,7 @@ msgstr "Tanda tangan Nasabah"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "pelanggan"
+msgstr "Pelanggan"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -243,10 +246,6 @@ msgstr "Hapus laporan layanan"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "Hapus user"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "anjing"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -274,11 +273,11 @@ msgstr "Sunting pengguna"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "email"
+msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "alamat email"
+msgstr "Alamat email"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -291,12 +290,6 @@ msgstr "Alamat email pengguna"
 #: app/views/users.html
 msgid "Email of the user"
 msgstr "Email pengguna"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -320,21 +313,19 @@ msgstr "Beranda"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Hal ini memungkinkan pengelolaan pelanggan , pesanan dan laporan servis ."
+msgstr "Hal ini memungkinkan pengelolaan pelanggan, pesanan dan laporan servis."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Ini adalah open- source, cepat, kompak, extensible, ulet, internasional dan mobile."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "lokasi"
+msgstr "Lokasi"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
@@ -354,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "nama"
+msgstr "Nama"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -362,15 +353,15 @@ msgstr "Nama pengguna"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "pelanggan baru"
+msgstr "Pelanggan baru"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "laporan baru"
+msgstr "Laporan baru"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "pengguna baru"
+msgstr "Pengguna baru"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -382,7 +373,7 @@ msgstr "Catatan"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "nomor"
+msgstr "Nomor"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA mengandung karakter yang tidak valid ( s )"
+msgstr "P.IVA mengandung karakter yang tidak valid( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -418,7 +409,7 @@ msgstr "Telepon"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "nomor telepon"
+msgstr "Nomor telepon"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -426,7 +417,7 @@ msgstr "Nomor telepon tidak valid"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "tempat"
+msgstr "Tempat"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -438,7 +429,7 @@ msgstr "Cetak"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "pelanggan Cetak"
+msgstr "Pelanggan Cetak"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
@@ -446,7 +437,7 @@ msgstr "Laporan layanan Print"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "mencetak user"
+msgstr "Mencetak user"
 
 #: app/views/users.html
 msgid "Provider"
@@ -458,19 +449,15 @@ msgstr "Daftar"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "peran"
+msgstr "Peran"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Peran untuk pengguna ini; klik untuk meluncur melalui semua negara( RW-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Peran pengguna: warna hijau menunjukkan izin untuk membaca dan menulis, kuning berarti hanya membaca, biru hanya menulis, dan merah ada izin. Bagian adalah:' u'( pengguna),' c'( pelanggan),' o'( perintah),' s'( laporan servis)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Simpan"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "laporan layanan"
+msgstr "Laporan layanan"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,7 +473,7 @@ msgstr "Laporan Layanan n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "laporan layanan"
+msgstr "Laporan layanan"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -494,7 +481,7 @@ msgstr "Pengaturan"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "alamat jalan"
+msgstr "Alamat jalan"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -506,7 +493,7 @@ msgstr "Nama pelanggan ini tidak berlaku"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "ini adalah"
+msgstr "Ini adalah"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -546,7 +533,7 @@ msgstr "Waktu layanan mulai"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "navigasi beralih"
+msgstr "Navigasi beralih"
 
 #: app/views/users.html
 msgid "User email address"
@@ -558,11 +545,11 @@ msgstr "Julukan"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "nama"
+msgstr "Nama"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "pengguna"
+msgstr "Pengguna"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -598,11 +585,11 @@ msgstr "error"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "halaman rumah untuk pengguna non terdaftar ."
+msgstr "halaman rumah untuk pengguna non terdaftar."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "halaman rumah untuk pengguna registerd ."
+msgstr "halaman rumah untuk pengguna registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "menginisialisasi"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "adalah sebuah aplikasi web untuk ( cerdas ) start-up ."
+msgstr "adalah sebuah aplikasi web untuk( cerdas) start-up."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,7 +613,7 @@ msgstr "perintah"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "jika tidak mendaftarkan accout baru dan log in ."
+msgstr "jika tidak mendaftarkan accout baru dan log in."
 
 #: app/views/home.html
 msgid "password:"

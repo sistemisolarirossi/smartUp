@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh : mm )"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Dana dostave poèetak je potrebno"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Trajanje mora biti u obliku\\\" HH\\\" ili\\\" hh: mm', i najmanje jednu minutu"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -74,7 +73,7 @@ msgstr "Potrebanoperater"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Dostupno je a¾uriranje : ¾elite li ga postaviti sada ?"
+msgstr "Dostupno je a¾uriranje: ¾elite li ga postaviti sada?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -98,11 +97,11 @@ msgstr "Provjera autentiènosti ID korisnika"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "ID provjere autentiènosti :"
+msgstr "ID provjere autentiènosti:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "autentifikacije usluga"
+msgstr "Autentifikacije usluga"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -118,7 +117,7 @@ msgstr "Avatar slika korisnika"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache je u nepoznatom stanju"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache ne a¾urira ( vjerojatnooèitovati je nedostupan )"
+msgstr "Cache ne a¾urira( vjerojatnooèitovati je nedostupan)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Cache je zastario"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache je up-to - date"
+msgstr "Cache je up-to- date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Provjera prisutnosti a¾uriranja"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale sadr¾i neva¾eæe karakter ( i)"
+msgstr "Codice Fiscale sadr¾i neva¾eæe karakter( i)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -170,7 +169,11 @@ msgstr "Codice Fiscale ili P.IVA kupca"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "logotip tvrtke"
+msgstr "Logotip tvrtke"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Povezati koristeæi jednu od svojih\\\"socijalnih\\\" raèuna ili se prijaviti s ovim vjerodajnice:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -206,7 +209,7 @@ msgstr "Kupac e-mail adresa"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "ime korisnika"
+msgstr "Ime korisnika"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -243,10 +246,6 @@ msgstr "Brisanje izvje¹æe usluga"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "Brisanje korisnika"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "Pas"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -292,12 +291,6 @@ msgstr "E-mail adresa korisnika"
 msgid "Email of the user"
 msgstr "Email korisnika"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Faks"
@@ -320,17 +313,15 @@ msgstr "Poèetna"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "To omoguæuje upravljanje korisnicima , naloga i izvje¹æa usluga ."
+msgstr "To omoguæuje upravljanje korisnicima, naloga i izvje¹æa usluga."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "To je open-source, brz, kompaktan, pro¹iriv, elastièan, meðunarodne i mobitel."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA sadr¾i neva¾eæe karakter ( i)"
+msgstr "P.IVA sadr¾i neva¾eæe karakter( i)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -426,7 +417,7 @@ msgstr "Telefonski broj nije valjan"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "mjesto"
+msgstr "Mjesto"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -450,7 +441,7 @@ msgstr "Ispis korisnika"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "davatelj"
+msgstr "Davatelj"
 
 #: app/views/home.html
 msgid "Register"
@@ -458,19 +449,15 @@ msgstr "Registracija"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "uloge"
+msgstr "Uloge"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Uloge za ovu korisnika; kliknite na slajd kroz sva stanja( RW-\\u003e R-\\u003e W-\\u003e nitko)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Uloge korisnièkom: zelena boja oznaèava dozvolu za èitanje i pisanje, ¾uta znaèi samo èitati, plava samo pisati, a crvena nema dozvolu. Sekcije su:'U'( korisnik),'C'( kupce),'O'( naloga),'S'(uslu¾ni izvje¹æa)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Spremi"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "izvje¹æe usluga"
+msgstr "Izvje¹æe usluga"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,11 +473,11 @@ msgstr "Izvje¹æe usluga n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "izvje¹æa usluga"
+msgstr "Izvje¹æa usluga"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "postava"
+msgstr "Postava"
 
 #: app/views/customers.html
 msgid "Street address"
@@ -506,7 +493,7 @@ msgstr "Ovo ime kupca nije valjan"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "to"
+msgstr "To"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -586,7 +573,7 @@ msgstr "provjeru"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Kupci"
+msgstr "kupci"
 
 #: app/scripts/app.js
 msgid "downloading"
@@ -598,11 +585,11 @@ msgstr "pogre¹ka"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Poèetna stranica za ne registrirane korisnike ."
+msgstr "poèetna stranica za ne registrirane korisnike."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "Poèetna stranica za registrirana korisnika ."
+msgstr "poèetna stranica za registrirana korisnika."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "resetiranja"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "jeweb aplikacija za pametne ) ( start-up ."
+msgstr "jeweb aplikacija za pametne)( start-up."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "nalozi"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "inaèe registrirati novi accout i prijavite se ."
+msgstr "inaèe registrirati novi accout i prijavite se."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "lozinka :"
+msgstr "lozinka:"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,8 +633,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "korisnièko ime :"
+msgstr "korisnièko ime:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Korisnici"
+msgstr "korisnici"

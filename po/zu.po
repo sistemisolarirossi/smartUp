@@ -5,15 +5,15 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: zu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( HH : mm )"
+msgstr "( HH: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "A usuku service isiqalo siyadingeka"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "A ubude kumele sibe ngendlela' HH' noma' HH: mm', futhi ngomzuzu okungenani oyedwa eside"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -50,7 +49,7 @@ msgstr "Igama lomsebenzisi siyadingeka"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "mayelana"
+msgstr "Mayelana"
 
 #: app/views/customers.html
 msgid "Add new customer"
@@ -62,7 +61,7 @@ msgstr "Engeza umsebenzisi omusha"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "ikheli"
+msgstr "Ikheli"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "An opharetha siyadingeka"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "An update kuyatholakala : ofuna ukulayisha manje ?"
+msgstr "An update kuyatholakala: ofuna ukulayisha manje?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -98,7 +97,7 @@ msgstr "Isizindamininingwane id of umsebenzisi"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Ukugunyaza id :"
+msgstr "Ukugunyaza id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
@@ -110,7 +109,7 @@ msgstr "Isizindamininingwane umhlinzeki for umsebenzisi"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "avatar"
+msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
@@ -118,7 +117,7 @@ msgstr "Avatar umfanekiso umsebenzisi"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Kunqolobane ungaphakathi state engaziwa"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Kunqolobane is hhayi olusha ( cishe manifest ingafinyeleleki )"
+msgstr "Kunqolobane is hhayi olusha( cishe manifest ingafinyeleleki)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Kunqolobane yisikhathi"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Kunqolobane Kuxhomeke -to - date"
+msgstr "Kunqolobane Kuxhomeke-to- date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Ihlola ebukhoneni an update"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale iqukethe uhlamvu ezingavumelekile ( s )"
+msgstr "Codice Fiscale iqukethe uhlamvu ezingavumelekile( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -173,16 +172,20 @@ msgid "Company logo"
 msgstr "Company logo"
 
 #: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Xhuma usebenzisa omunye akhawunti akho\\\" senhlalo\\"
+
+#: app/views/home.html
 msgid "Connect with Facebook"
 msgstr "Xhuma nge Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Xhuma nge -Google +"
+msgstr "Xhuma nge-Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Xhuma nge -Twitter"
+msgstr "Xhuma nge-Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -222,7 +225,7 @@ msgstr "Isignesha yekhasimende sika"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "amakhasimende"
+msgstr "Amakhasimende"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -234,7 +237,7 @@ msgstr "Date of service isiqalo"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "susa yekhasimende"
+msgstr "Susa yekhasimende"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
@@ -242,11 +245,7 @@ msgstr "Susa Umbiko service"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "susa umsebenzisi"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "Dog"
+msgstr "Susa umsebenzisi"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -274,11 +273,11 @@ msgstr "Hlela umsebenzisi"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "imeyili"
+msgstr "Imeyili"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "ikheli le-imeyili"
+msgstr "Ikheli le-imeyili"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -292,15 +291,9 @@ msgstr "Imeyili Ikheli umsebenzisi"
 msgid "Email of the user"
 msgstr "Imeyili of umsebenzisi"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "fax"
+msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
@@ -312,7 +305,7 @@ msgstr "Imibiko service Elihehayo"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "abasebenzisi Elihehayo"
+msgstr "Abasebenzisi Elihehayo"
 
 #: app/views/nav.html
 msgid "Home"
@@ -324,13 +317,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "It ivumela ukuphathwa amakhasimende , oda kanye nemibiko yenkonzo ."
+msgstr "It ivumela ukuphathwa amakhasimende, oda kanye nemibiko yenkonzo."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Kuyinto ivulekile- iwumthombo, fast, icwecwe, Olwandisekayo, ukuzivuselela, ngamazwe kanye mobile."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -362,7 +353,7 @@ msgstr "Igama lomsebenzisi"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "nekhasimende elisha"
+msgstr "Nekhasimende elisha"
 
 #: app/views/serviceReports.html
 msgid "New report"
@@ -370,7 +361,7 @@ msgstr "Umbiko omusha"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "umsebenzisi omusha"
+msgstr "Umsebenzisi omusha"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -378,7 +369,7 @@ msgstr "Akukho update ikhona"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "amanothi"
+msgstr "Amanothi"
 
 #: app/views/serviceReports.html
 msgid "Number"
@@ -386,7 +377,7 @@ msgstr "Inombolo"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operator"
+msgstr "Operator"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -398,7 +389,7 @@ msgstr "Isignesha Operator sika"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "ama-oda"
+msgstr "Ama-oda"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA iqukethe uhlamvu ezingavumelekile ( s )"
+msgstr "P.IVA iqukethe uhlamvu ezingavumelekile( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -418,7 +409,7 @@ msgstr "Ifoni"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "inombolo yocingo"
+msgstr "Inombolo yocingo"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -450,7 +441,7 @@ msgstr "Phrinta umsebenzisi"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "umhlinzeki"
+msgstr "Umhlinzeki"
 
 #: app/views/home.html
 msgid "Register"
@@ -458,19 +449,15 @@ msgstr "Irejista"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "zindima"
+msgstr "Zindima"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Izindima kwalokhu msebenzisi; uchofoze kushelela ngokusebenzisa wonke ithi( R.-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Izindima of umsebenzisi: umbala oluhlaza ubonisa imvume ukufunda nokubhala, yellow lisho nje ukufunda, blue nje ukubhala, futhi ebomvu akukho mvume. Izigaba yilezi:' u'( abasebenzisi),' c'( amakhasimende),' o'( oda),' s'( imibiko service)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -494,7 +481,7 @@ msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "ikheli lesitaladi"
+msgstr "Ikheli lesitaladi"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -506,7 +493,7 @@ msgstr "Leli gama yekhasimende ayivumelekile"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "lokhu"
+msgstr "Lokhu"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -546,7 +533,7 @@ msgstr "Isikhathi service isiqalo"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "navigation ukuguquguqula"
+msgstr "Navigation ukuguquguqula"
 
 #: app/views/users.html
 msgid "User email address"
@@ -562,7 +549,7 @@ msgstr "Igama lomsebenzisi"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "abasebenzisi"
+msgstr "Abasebenzisi"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -594,7 +581,7 @@ msgstr "ukulandwa"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Iphutha"
+msgstr "iphutha"
 
 #: app/views/home.html
 msgid "home page for non registered users."
@@ -602,7 +589,7 @@ msgstr "ikhasi lasekhaya for non abasebenzisi ababhalisiwe."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "ikhasi lasekhaya for abasebenzisi registerd ."
+msgstr "ikhasi lasekhaya for abasebenzisi registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "ekuqaliseni"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "kuyinto isilondolozi webhu for ( smart ) ukuqala - ups ."
+msgstr "kuyinto isilondolozi webhu for( smart) ukuqala- ups."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "oda"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "kungenjalo ubhalise accout entsha bese ungena ."
+msgstr "kungenjalo ubhalise accout entsha bese ungena."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "iphasiwedi :"
+msgstr "iphasiwedi:"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,7 +633,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "lomsebenzisi :"
+msgstr "lomsebenzisi:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

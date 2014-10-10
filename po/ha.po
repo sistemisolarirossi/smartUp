@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: ha\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ha\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( HH : mm)"
+msgstr "( HH: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "A ranar sabis na farko ake bukata"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "A tsawon dole ne a cikin hanyar' HH' ko' HH: mm', da kuma akalla daya a minti dogon"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -50,7 +49,7 @@ msgstr "A user name ake bukata"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "about"
+msgstr "About"
 
 #: app/views/customers.html
 msgid "Add new customer"
@@ -74,7 +73,7 @@ msgstr "An sadarwarka ake bukata"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "An karshe yana samuwa : kake so ka load da shi yanzu?"
+msgstr "An karshe yana samuwa: kake so ka load da shi yanzu?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -90,7 +89,7 @@ msgstr "Ko kana da gaske tabbata a cire mai amfani"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "tantance kalmar sirri id"
+msgstr "Tantance kalmar sirri id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
@@ -102,7 +101,7 @@ msgstr "Tantance kalmar sirri id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "tantance kalmar sirri naka"
+msgstr "Tantance kalmar sirri naka"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -118,7 +117,7 @@ msgstr "Avatar image of mai amfani"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache da yake a unknown jihar"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache ba a updated ( yiwuwa a bayyana shi ne unreachable )"
+msgstr "Cache ba a updated( yiwuwa a bayyana shi ne unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Cache ne wanda aka rabu amfani da shi"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache ne up -to- date"
+msgstr "Cache ne up-to- date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Dubawa for gaban wata karshe"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ya ƙunshi daidai ba hali (s)"
+msgstr "Codice Fiscale ya Æunshi daidai ba hali(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,6 +170,10 @@ msgstr "Codice Fiscale ko P.IVA na abokin ciniki"
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Company logo"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "HaÉa ta amfani da daya daga your\\\" social\\\" asusun, ko shiga da wadannan takardun shaidarka:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -222,7 +225,7 @@ msgstr "Abokin ciniki ya sanya hannu"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "abokan ciniki"
+msgstr "Abokan ciniki"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -234,7 +237,7 @@ msgstr "Date of sabis na farko"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "share abokin ciniki"
+msgstr "Share abokin ciniki"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
@@ -242,11 +245,7 @@ msgstr "Share sabis rahoton"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "share mai amfani"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "kare"
+msgstr "Share mai amfani"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -278,7 +277,7 @@ msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "adireshin i-mel"
+msgstr "Adireshin i-mel"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -291,12 +290,6 @@ msgstr "Adireshin imel na mai amfani"
 #: app/views/users.html
 msgid "Email of the user"
 msgstr "Email na mai amfani"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -320,17 +313,15 @@ msgstr "Home"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Shi damar da gudanar da abokan ciniki , umarni da sabis na rahoton ."
+msgstr "Shi damar da gudanar da abokan ciniki, umarni da sabis na rahoton."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Yana da bude- source, azumi, m, Kalmomin, resilient, kasa da kasa da kuma ta hannu."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -342,11 +333,11 @@ msgstr "Location of sabis"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "shiga"
+msgstr "Shiga"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "log out"
+msgstr "Log out"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -386,7 +377,7 @@ msgstr "Number"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "sadarwarka"
+msgstr "Sadarwarka"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -398,7 +389,7 @@ msgstr "Sadarwarka ta sa hannu"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "umarni"
+msgstr "Umarni"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ya ƙunshi daidai ba hali (s)"
+msgstr "P.IVA ya Æunshi daidai ba hali(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -418,7 +409,7 @@ msgstr "Phone"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "lambar tarho"
+msgstr "Lambar tarho"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -458,19 +449,15 @@ msgstr "Register"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "matsayin"
+msgstr "Matsayin"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Matsayin da wannan mai amfani; click to slide ta hanyar duk jihohin( RW-\\u003e R-\\u003e W-\\u003e m)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Matsayin na mai amfani: koren launi nuna izni ga karanta da kuma rubuta, yellow wajen kawai karanta, blue kawai rubuta, da kuma jan no izni. Sashe ne:' u'( masu amfani),' c'( abokan ciniki),' o'( umarni),'s'( sabis na rahotannin)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -490,7 +477,7 @@ msgstr "Service rahotannin"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "saita"
+msgstr "Saita"
 
 #: app/views/customers.html
 msgid "Street address"
@@ -506,7 +493,7 @@ msgstr "Wannan abokin ciniki sunan ba shi da inganci"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "wannan shi ne"
+msgstr "Wannan shi ne"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -546,7 +533,7 @@ msgstr "Lokacin da sabis na farko"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "toggle kewayawa"
+msgstr "Toggle kewayawa"
 
 #: app/views/users.html
 msgid "User email address"
@@ -554,7 +541,7 @@ msgstr "User email address"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "sunan mai amfani"
+msgstr "Sunan mai amfani"
 
 #: app/views/users.html
 msgid "Username"
@@ -562,7 +549,7 @@ msgstr "Sunan mai amfani"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "masu amfani"
+msgstr "Masu amfani"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -574,7 +561,7 @@ msgstr "Kai ne online"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "Kama"
+msgstr "kama"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
@@ -598,19 +585,19 @@ msgstr "kuskure"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "home page ga wadanda ba rajista masu amfani ."
+msgstr "home page ga wadanda ba rajista masu amfani."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "home page for registerd masu amfani ."
+msgstr "home page for registerd masu amfani."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Ana soma"
+msgstr "ana soma"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "ne mai web aikace-aikace na ( smart ) fara -rubucen ."
+msgstr "ne mai web aikace-aikace na( smart) fara-rubucen."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "umarni"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "in ba haka ba rajistar wani sabon accout da kuma shiga ."
+msgstr "in ba haka ba rajistar wani sabon accout da kuma shiga."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "password :"
+msgstr "password:"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,7 +633,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "sunan mai amfani :"
+msgstr "sunan mai amfani:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

@@ -5,15 +5,15 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cy\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( aa: mm )"
+msgstr "( aa: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Mae angen dyddiad cychwyn y gwasanaeth"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Rhaid i hyd fod ar ffurf' hh' neu' hh: mm', ac o leiaf un munud o hyd"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -38,7 +37,7 @@ msgstr "Mae angen lleoliad o wasanaeth"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Mae angen rhif ffÃ´n"
+msgstr "Mae angen rhif ffôn"
 
 #: app/views/customers.html
 msgid "A street address is required"
@@ -62,7 +61,7 @@ msgstr "Ychwanegu defnyddiwr newydd"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "cyfeiriad"
+msgstr "Cyfeiriad"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "Mae angen gweithredwr"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Cafwyd y wybodaeth ddiweddaraf ar gael : a ydych am barhau i lwytho yn awr ?"
+msgstr "Cafwyd y wybodaeth ddiweddaraf ar gael: a ydych am barhau i lwytho yn awr?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -90,7 +89,7 @@ msgstr "Ydych chi wir yn siwr i gael gwared ar y defnyddiwr"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "id dilysu"
+msgstr "Id dilysu"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
@@ -98,11 +97,11 @@ msgstr "Dilysu id y defnyddiwr"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Id Dilysu :"
+msgstr "Id Dilysu:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "darparwr dilysu"
+msgstr "Darparwr dilysu"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -110,7 +109,7 @@ msgstr "Darparwr Dilysu ar gyfer y defnyddiwr"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "avatar"
+msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
@@ -118,7 +117,7 @@ msgstr "Delwedd Avatar y defnyddiwr"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache mewn cyflwr anhysbys"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Nid Cache yn cael ei diweddaru ( yn ôl pob tebyg y maniffest yn anghyraeddadwy )"
+msgstr "Nid Cache yn cael ei diweddaru( yn ôl pob tebyg y maniffest yn anghyraeddadwy)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Cache yn darfod"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache i fyny - i - ddiweddaraf"
+msgstr "Cache i fyny- i- ddiweddaraf"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Gwirio am bresenoldeb y wybodaeth ddiweddaraf"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale cynnwys nod annilys ( au )"
+msgstr "Codice Fiscale cynnwys nod annilys( au)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -170,19 +169,23 @@ msgstr "Codice Fiscale neu P.IVA y cwsmer"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "logo cwmni"
+msgstr "Logo cwmni"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Cysylltu gan ddefnyddio un o'ch cyfrifon\\\" cymdeithasol\\\", neu logio i mewn gyda cymwysterau hyn:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Cysylltu Ã¢ Facebook"
+msgstr "Cysylltu â Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Cysylltu Ã¢ Google +"
+msgstr "Cysylltu â Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Cysylltu Ã¢ Twitter"
+msgstr "Cysylltu â Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -206,11 +209,11 @@ msgstr "Cyfeiriad e-bost i Gwsmeriaid"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "enw Cwsmeriaid"
+msgstr "Enw Cwsmeriaid"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Rhif ffÃ´n Cwsmeriaid"
+msgstr "Rhif ffôn Cwsmeriaid"
 
 #: app/views/customers.html
 msgid "Customer street address"
@@ -222,7 +225,7 @@ msgstr "Llofnod y cwsmer yn"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "cwsmeriaid"
+msgstr "Cwsmeriaid"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -244,10 +247,6 @@ msgstr "Dileu adroddiad gwasanaeth"
 msgid "Delete user"
 msgstr "Dileu defnyddiwr"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "C\\u0175n"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Lawrlwytho diweddariad"
@@ -262,7 +261,7 @@ msgstr "Hyd y gwasanaeth"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "golygu cwsmeriaid"
+msgstr "Golygu cwsmeriaid"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
@@ -270,7 +269,7 @@ msgstr "Adroddiad gwasanaeth Golygu"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "golygu defnyddiwr"
+msgstr "Golygu defnyddiwr"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
@@ -278,7 +277,7 @@ msgstr "E-bost"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "cyfeiriad e-bost"
+msgstr "Cyfeiriad e-bost"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -292,19 +291,13 @@ msgstr "Cyfeiriad e-bost y defnyddiwr"
 msgid "Email of the user"
 msgstr "E-bost y defnyddiwr"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Ffacs"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "cwsmeriaid Hidlo"
+msgstr "Cwsmeriaid Hidlo"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
@@ -312,7 +305,7 @@ msgstr "Adroddiadau gwasanaeth hidlo"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "defnyddwyr hidlo"
+msgstr "Defnyddwyr hidlo"
 
 #: app/views/nav.html
 msgid "Home"
@@ -320,21 +313,19 @@ msgstr "Cartref"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Mae'n caniatáu rheoli cwsmeriaid , gorchmynion ac adroddiadau gwasanaeth ."
+msgstr "Mae'n caniatáu rheoli cwsmeriaid, gorchmynion ac adroddiadau gwasanaeth."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Mae'n ffynhonnell agored, yn gyflym, compact, estynadwy, gwydn, rhyngwladol a symudol."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "lleoliad"
+msgstr "Lleoliad"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
@@ -354,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "enw"
+msgstr "Enw"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -362,15 +353,15 @@ msgstr "Enwch y defnyddiwr"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "cwsmeriaid newydd"
+msgstr "Cwsmeriaid newydd"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "adroddiad newydd"
+msgstr "Adroddiad newydd"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "defnyddiwr newydd"
+msgstr "Defnyddiwr newydd"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -378,15 +369,15 @@ msgstr "Dim diweddariad yn bresennol"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "nodiadau"
+msgstr "Nodiadau"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "rhif"
+msgstr "Rhif"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "gweithredwr"
+msgstr "Gweithredwr"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA cynnwys nod annilys ( au )"
+msgstr "P.IVA cynnwys nod annilys( au)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -414,15 +405,15 @@ msgstr "Nid yw cod rheoli P.IVA yn cyd-fynd"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "ffÃ´n"
+msgstr "Ffôn"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "rhif ffÃ´n"
+msgstr "Rhif ffôn"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Nid yw rhif ffÃ´n yn ddilys"
+msgstr "Nid yw rhif ffôn yn ddilys"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -434,11 +425,11 @@ msgstr "Paratoi'r lawrlwytho diweddariad"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "print"
+msgstr "Print"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "print cwsmeriaid"
+msgstr "Print cwsmeriaid"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
@@ -446,11 +437,11 @@ msgstr "Adroddiad gwasanaeth argraffu"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "defnyddiwr print"
+msgstr "Defnyddiwr print"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "darparwr"
+msgstr "Darparwr"
 
 #: app/views/home.html
 msgid "Register"
@@ -458,19 +449,15 @@ msgstr "Cofrestru"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "rolau"
+msgstr "Rolau"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Swyddogaethau ar gyfer y defnyddiwr hwn; cliciwch i lithro drwy'r holl wladwriaethau( RW-\\u003e R-\\u003e W-\\u003e dim)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Rolau y defnyddiwr: lliw gwyrdd yn dynodi caniatâd ar gyfer darllen ac ysgrifennu, yn golygu dim ond darllen melyn, glas yn unig ysgrifennu, a choch heb ganiatâd. Adrannau yw:' u'( defnyddwyr),'c'( cwsmeriaid),'o'( gorchmynion),' s'(adroddiadau gwasanaeth)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "adroddiad y Gwasanaeth"
+msgstr "Adroddiad y Gwasanaeth"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,15 +473,15 @@ msgstr "Adroddiad gwasanaeth n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "adroddiadau gwasanaeth"
+msgstr "Adroddiadau gwasanaeth"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "setup"
+msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "cyfeiriad stryd"
+msgstr "Cyfeiriad stryd"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -506,7 +493,7 @@ msgstr "Nid yw'r enw cwsmer yn ddilys"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "mae hyn yn"
+msgstr "Mae hyn yn"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -546,7 +533,7 @@ msgstr "Amser o gychwyn gwasanaeth"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "navigation Toggle"
+msgstr "Navigation Toggle"
 
 #: app/views/users.html
 msgid "User email address"
@@ -554,15 +541,15 @@ msgstr "Defnyddiwr cyfeiriad e-bost"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "enw defnyddiwr"
+msgstr "Enw defnyddiwr"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "enw Defnyddiwr"
+msgstr "Enw Defnyddiwr"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "defnyddwyr"
+msgstr "Defnyddwyr"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -598,11 +585,11 @@ msgstr "gwall"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "dudalen gartref ar gyfer defnyddwyr nad ydynt wedi'u cofrestru ."
+msgstr "dudalen gartref ar gyfer defnyddwyr nad ydynt wedi'u cofrestru."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "dudalen gartref ar gyfer defnyddwyr registerd ."
+msgstr "dudalen gartref ar gyfer defnyddwyr registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "ymgychwyn"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "yn gais ar y we ar gyfer ( smart ) yn dechrau - ups ."
+msgstr "yn gais ar y we ar gyfer( smart) yn dechrau- ups."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "gorchmynion"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "fel arall cofrestru accout newydd a mewngofnodi ."
+msgstr "fel arall cofrestru accout newydd a mewngofnodi."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "cyfrinair :"
+msgstr "cyfrinair:"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,7 +633,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "enw defnyddiwr :"
+msgstr "enw defnyddiwr:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

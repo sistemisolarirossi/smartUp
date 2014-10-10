@@ -1,64 +1,63 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "(HH : mm )"
+msgstr "(HH: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "\\u090F\\u0915 Codice Fiscale \\u092F\\u093E \\u090F\\u0915 P.IVA \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915 \\u0939\\u0948"
+msgstr "\\u090F\\u0915 Codice Fiscale\\u092F\\u093E\\u090F\\u0915 P.IVA\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "\\u090F\\u0915 \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0928\\u093E\\u092E \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915 \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0928\\u093E\\u092E\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0936\\u0941\\u0930\\u0942 \\u0915\\u0940 \\u0926\\u093F\\u0928\\u093E\\u0902\\u0915 \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915 \\u0939\\u0948"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0936\\u0941\\u0930\\u0942\\u0915\\u0940\\u0926\\u093F\\u0928\\u093E\\u0902\\u0915\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "\\u090F\\u0915\\u0905\\u0935\\u0927\\u093F'\\u090F\\u091A\\u090F\\u091A'\\u0915\\u0947\\u0930\\u0942\\u092A\\u092E\\u0947\\u0902\\u0939\\u094B\\u0928\\u093E\\u091A\\u093E\\u0939\\u093F\\u090F\\u092F\\u093E' HH: mm',\\u0914\\u0930\\u0915\\u092E\\u0938\\u0947\\u0915\\u092E\\u090F\\u0915\\u092E\\u093F\\u0928\\u091F\\u0924\\u0915"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0915\\u0947 \\u090F\\u0915 \\u0938\\u094D\\u0925\\u093E\\u0928 \\u0915\\u0940 \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E \\u0939\\u094B\\u0924\\u0940 \\u0939\\u0948"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0947\\u090F\\u0915\\u0938\\u094D\\u0925\\u093E\\u0928\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u094B\\u0924\\u0940\\u0939\\u0948"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "\\u090F\\u0915 \\u092B\\u094B\\u0928 \\u0928\\u0902\\u092C\\u0930 \\u0915\\u0940 \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u092B\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "\\u090F\\u0915 \\u0938\\u0921\\u093C\\u0915 \\u0915\\u093E \\u092A\\u0924\\u093E \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915 \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u0938\\u0921\\u093C\\u0915\\u0915\\u093E\\u092A\\u0924\\u093E\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "\\u090F\\u0915 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0928\\u093E\\u092E \\u0915\\u0940 \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "\\u0915\\u0947 \\u092C\\u093E\\u0930\\u0947 \\u092E\\u0947\\u0902"
+msgstr "\\u0915\\u0947\\u092C\\u093E\\u0930\\u0947\\u092E\\u0947\\u0902"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "\\u0928\\u090F \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u091C\\u094B\\u0921\\u093C\\u0947\\u0902"
+msgstr "\\u0928\\u090F\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u091C\\u094B\\u0921\\u093C\\u0947\\u0902"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "\\u0928\\u092F\\u093E \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u091C\\u094B\\u0921\\u093C\\u0947\\u0902"
+msgstr "\\u0928\\u092F\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u091C\\u094B\\u0921\\u093C\\u0947\\u0902"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -66,47 +65,47 @@ msgstr "\\u092A\\u0924\\u093E"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "\\u090F\\u0915 \\u0908\\u092E\\u0947\\u0932 \\u092A\\u0924\\u0947 \\u0915\\u0940 \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u0947\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "\\u090F\\u0915 \\u0911\\u092A\\u0930\\u0947\\u091F\\u0930 \\u0915\\u0940 \\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u0911\\u092A\\u0930\\u0947\\u091F\\u0930\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "\\u0915\\u094B\\u0908 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u0909\\u092A\\u0932\\u092C\\u094D\\u0927 \\u0939\\u0948 : \\u0905\\u092C \\u0906\\u092A \\u0907\\u0938\\u0947 \\u0932\\u094B\\u0921 \\u0915\\u0930\\u0928\\u093E \\u091A\\u093E\\u0939\\u0924\\u0947 \\u0939\\u0948\\u0902?"
+msgstr "\\u0915\\u094B\\u0908\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0909\\u092A\\u0932\\u092C\\u094D\\u0927\\u0939\\u0948:\\u0905\\u092C\\u0906\\u092A\\u0907\\u0938\\u0947\\u0932\\u094B\\u0921\\u0915\\u0930\\u0928\\u093E\\u091A\\u093E\\u0939\\u0924\\u0947\\u0939\\u0948\\u0902?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "\\u090F\\u0915 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u0915\\u0947 \\u0932\\u093F\\u090F \\u0924\\u0948\\u092F\\u093E\\u0930 \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0915\\u0947\\u0932\\u093F\\u090F\\u0924\\u0948\\u092F\\u093E\\u0930\\u0939\\u0948"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "\\u0906\\u092A \\u0938\\u0947\\u0935\\u093E \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F \\u0915\\u094B \\u0926\\u0942\\u0930 \\u0915\\u0930\\u0928\\u0947 \\u0915\\u0947 \\u0932\\u093F\\u090F \\u0935\\u093E\\u0938\\u094D\\u0924\\u0935 \\u092E\\u0947\\u0902 \\u092F\\u0915\\u0940\\u0928 \\u0915\\u0930 \\u0930\\u0939\\u0947 \\u0939\\u0948\\u0902"
+msgstr "\\u0906\\u092A\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u0915\\u094B\\u0926\\u0942\\u0930\\u0915\\u0930\\u0928\\u0947\\u0915\\u0947\\u0932\\u093F\\u090F\\u0935\\u093E\\u0938\\u094D\\u0924\\u0935\\u092E\\u0947\\u0902\\u092F\\u0915\\u0940\\u0928\\u0915\\u0930\\u0930\\u0939\\u0947\\u0939\\u0948\\u0902"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "\\u0906\\u092A \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u094B \\u0926\\u0942\\u0930 \\u0915\\u0930\\u0928\\u0947 \\u0915\\u0947 \\u0932\\u093F\\u090F \\u0935\\u093E\\u0938\\u094D\\u0924\\u0935 \\u092E\\u0947\\u0902 \\u092F\\u0915\\u0940\\u0928 \\u0915\\u0930 \\u0930\\u0939\\u0947 \\u0939\\u0948\\u0902"
+msgstr "\\u0906\\u092A\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u094B\\u0926\\u0942\\u0930\\u0915\\u0930\\u0928\\u0947\\u0915\\u0947\\u0932\\u093F\\u090F\\u0935\\u093E\\u0938\\u094D\\u0924\\u0935\\u092E\\u0947\\u0902\\u092F\\u0915\\u0940\\u0928\\u0915\\u0930\\u0930\\u0939\\u0947\\u0939\\u0948\\u0902"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923 \\u0906\\u0908\\u0921\\u0940"
+msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923\\u0906\\u0908\\u0921\\u0940"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u093E \\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923 \\u0906\\u0908\\u0921\\u0940"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923\\u0906\\u0908\\u0921\\u0940"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923 \\u0906\\u0908\\u0921\\u0940 :"
+msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923\\u0906\\u0908\\u0921\\u0940:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0928 \\u092A\\u094D\\u0930\\u0926\\u093E\\u0924\\u093E"
+msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0928\\u092A\\u094D\\u0930\\u0926\\u093E\\u0924\\u093E"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u0947 \\u0932\\u093F\\u090F \\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0928 \\u092A\\u094D\\u0930\\u0926\\u093E\\u0924\\u093E"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0947\\u0932\\u093F\\u090F\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0928\\u092A\\u094D\\u0930\\u0926\\u093E\\u0924\\u093E"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -114,75 +113,79 @@ msgstr "\\u0905\\u0935\\u0924\\u093E\\u0930"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u093E \\u0905\\u0935\\u0924\\u093E\\u0930 \\u091B\\u0935\\u093F"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0905\\u0935\\u0924\\u093E\\u0930\\u091B\\u0935\\u093F"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "\\u0938\\u0940.\\u090F\\u092B\\u093C / P.IVA"
+msgstr "\\u0938\\u0940.\\u090F\\u092B\\u093C/ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "\\u0915\\u0948\\u0936 initialized \\u0915\\u093F\\u092F\\u093E \\u091C\\u093E \\u0930\\u0939\\u093E \\u0939\\u0948"
+msgstr "\\u0915\\u0948\\u0936 initialized\\u0915\\u093F\\u092F\\u093E\\u091C\\u093E\\u0930\\u0939\\u093E\\u0939\\u0948"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "\\u0915\\u0948\\u0936 \\u0905\\u091C\\u094D\\u091E\\u093E\\u0924 \\u0905\\u0935\\u0938\\u094D\\u0925\\u093E \\u092E\\u0947\\u0902 \\u0939\\u0948"
+msgstr "\\u0915\\u0948\\u0936\\u0905\\u091C\\u094D\\u091E\\u093E\\u0924\\u0905\\u0935\\u0938\\u094D\\u0925\\u093E\\u092E\\u0947\\u0902\\u0939\\u0948"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "\\u0915\\u0948\\u0936 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u0928\\u0939\\u0940\\u0902 \\u0939\\u0948 ( \\u0936\\u093E\\u092F\\u0926 \\u092A\\u094D\\u0930\\u0915\\u091F \\u0905\\u0917\\u092E\\u094D\\u092F \\u0939\\u0948 )"
+msgstr "\\u0915\\u0948\\u0936\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948(\\u0936\\u093E\\u092F\\u0926\\u092A\\u094D\\u0930\\u0915\\u091F\\u0905\\u0917\\u092E\\u094D\\u092F\\u0939\\u0948)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "\\u0906\\u092A \\u0911\\u092B\\u0932\\u093E\\u0907\\u0928 \\u0939\\u0948\\u0902 \\u0915\\u094D\\u092F\\u094B\\u0902\\u0915\\u093F \\u0915\\u0948\\u0936 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u0928\\u0939\\u0940\\u0902 \\u0939\\u0948"
+msgstr "\\u0906\\u092A\\u0911\\u092B\\u0932\\u093E\\u0907\\u0928\\u0939\\u0948\\u0902\\u0915\\u094D\\u092F\\u094B\\u0902\\u0915\\u093F\\u0915\\u0948\\u0936\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "\\u0915\\u0948\\u0936 \\u0905\\u092A\\u094D\\u0930\\u091A\\u0932\\u093F\\u0924 \\u0939\\u0948"
+msgstr "\\u0915\\u0948\\u0936\\u0905\\u092A\\u094D\\u0930\\u091A\\u0932\\u093F\\u0924\\u0939\\u0948"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "\\u0915\\u0948\\u0936 \\u0939\\u0948 \\u0905\\u092A \\u0915\\u0930\\u0928\\u0947 \\u0915\\u0940 \\u0924\\u093E\\u0930\\u0940\\u0916"
+msgstr "\\u0915\\u0948\\u0936\\u0939\\u0948\\u0905\\u092A\\u0915\\u0930\\u0928\\u0947\\u0915\\u0940\\u0924\\u093E\\u0930\\u0940\\u0916"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "\\u0915\\u0948\\u0936 \\u0938\\u094D\\u0925\\u093F\\u0924\\u093F \\u0939\\u0948"
+msgstr "\\u0915\\u0948\\u0936\\u0938\\u094D\\u0925\\u093F\\u0924\\u093F\\u0939\\u0948"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "\\u090F\\u0915 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u0915\\u0940 \\u0909\\u092A\\u0938\\u094D\\u0925\\u093F\\u0924\\u093F \\u0915\\u0947 \\u0932\\u093F\\u090F \\u091C\\u093E\\u0901\\u091A \\u0939\\u094B \\u0930\\u0939\\u0940 \\u0939\\u0948"
+msgstr "\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0915\\u0940\\u0909\\u092A\\u0938\\u094D\\u0925\\u093F\\u0924\\u093F\\u0915\\u0947\\u0932\\u093F\\u090F\\u091C\\u093E\\u0901\\u091A\\u0939\\u094B\\u0930\\u0939\\u0940\\u0939\\u0948"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale \\u0905\\u092E\\u093E\\u0928\\u094D\\u092F \\u0935\\u0930\\u094D\\u0923 (\\u0913\\u0902)"
+msgstr "Codice Fiscale\\u0905\\u092E\\u093E\\u0928\\u094D\\u092F\\u0935\\u0930\\u094D\\u0923(\\u0913\\u0902)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale \\u0928\\u093F\\u092F\\u0902\\u0924\\u094D\\u0930\\u0923 \\u0915\\u094B\\u0921 \\u0938\\u0947 \\u092E\\u0947\\u0932 \\u0928\\u0939\\u0940\\u0902 \\u0916\\u093E\\u0924\\u093E"
+msgstr "Codice Fiscale\\u0928\\u093F\\u092F\\u0902\\u0924\\u094D\\u0930\\u0923\\u0915\\u094B\\u0921\\u0938\\u0947\\u092E\\u0947\\u0932\\u0928\\u0939\\u0940\\u0902\\u0916\\u093E\\u0924\\u093E"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale \\u092F\\u093E \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0915\\u0940 P.IVA"
+msgstr "Codice Fiscale\\u092F\\u093E\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u0940 P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "\\u0915\\u0902\\u092A\\u0928\\u0940 \\u0932\\u094B\\u0917\\u094B"
+msgstr "\\u0915\\u0902\\u092A\\u0928\\u0940\\u0932\\u094B\\u0917\\u094B"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "\\u0905\\u092A\\u0928\\u0947\\\"\\u0938\\u093E\\u092E\\u093E\\u091C\\u093F\\u0915\\\"\\u0916\\u093E\\u0924\\u094B\\u0902\\u092E\\u0947\\u0902\\u0938\\u0947\\u090F\\u0915\\u0915\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u0915\\u0928\\u0947\\u0915\\u094D\\u091F\\u0915\\u0930\\u0947\\u0902,\\u092F\\u093E\\u0907\\u0928\\u092A\\u0939\\u091A\\u093E\\u0928\\u0915\\u0947\\u0938\\u093E\\u0925\\u0932\\u0949\\u0917\\u0907\\u0928\\u0915\\u0930\\u0947\\u0902:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Facebook \\u0915\\u0947 \\u0938\\u093E\\u0925 \\u0915\\u0928\\u0947\\u0915\\u094D\\u091F"
+msgstr "Facebook\\u0915\\u0947\\u0938\\u093E\\u0925\\u0915\\u0928\\u0947\\u0915\\u094D\\u091F"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "\\u0917\\u0942\\u0917\\u0932 + \\u0915\\u0947 \\u0938\\u093E\\u0925 \\u0915\\u0928\\u0947\\u0915\\u094D\\u091F"
+msgstr "\\u0917\\u0942\\u0917\\u0932+\\u0915\\u0947\\u0938\\u093E\\u0925\\u0915\\u0928\\u0947\\u0915\\u094D\\u091F"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "\\u091F\\u094D\\u0935\\u093F\\u091F\\u0930 \\u0938\\u0947 \\u091C\\u0941\\u0921\\u093C\\u0947\\u0902"
+msgstr "\\u091F\\u094D\\u0935\\u093F\\u091F\\u0930\\u0938\\u0947\\u091C\\u0941\\u0921\\u093C\\u0947\\u0902"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -190,7 +193,7 @@ msgstr "\\u0938\\u0902\\u092A\\u0930\\u094D\\u0915"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "\\u0935\\u0930\\u094D\\u0924\\u092E\\u093E\\u0928 \\u092D\\u093E\\u0937\\u093E \\u0939\\u0948"
+msgstr "\\u0935\\u0930\\u094D\\u0924\\u092E\\u093E\\u0928\\u092D\\u093E\\u0937\\u093E\\u0939\\u0948"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -198,27 +201,27 @@ msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0915\\u093E\\u0930\\u094D\\u0921"
+msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u093E\\u0930\\u094D\\u0921"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0908\\u092E\\u0947\\u0932 \\u092A\\u0924\\u0947"
+msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u0947"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0915\\u093E \\u0928\\u093E\\u092E"
+msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u093E\\u0928\\u093E\\u092E"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u092B\\u094B\\u0928 \\u0928\\u0902\\u092C\\u0930"
+msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u092B\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0938\\u0921\\u093C\\u0915 \\u0915\\u093E \\u092A\\u0924\\u093E"
+msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0938\\u0921\\u093C\\u0915\\u0915\\u093E\\u092A\\u0924\\u093E"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0915\\u0947 \\u0939\\u0938\\u094D\\u0924\\u093E\\u0915\\u094D\\u0937\\u0930"
+msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u0947\\u0939\\u0938\\u094D\\u0924\\u093E\\u0915\\u094D\\u0937\\u0930"
 
 #: app/views/nav.html
 msgid "Customers"
@@ -230,27 +233,23 @@ msgstr "\\u0924\\u093F\\u0925\\u093F"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u092A\\u094D\\u0930\\u093E\\u0930\\u0902\\u092D \\u0915\\u0940 \\u0924\\u093F\\u0925\\u093F"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u092A\\u094D\\u0930\\u093E\\u0930\\u0902\\u092D\\u0915\\u0940\\u0924\\u093F\\u0925\\u093F"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0939\\u091F\\u093E\\u090F\\u0902"
+msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0939\\u091F\\u093E\\u090F\\u0902"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F \\u0939\\u091F\\u093E\\u090F\\u0902"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u0939\\u091F\\u093E\\u090F\\u0902"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0939\\u091F\\u093E\\u090F\\u0902"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "\\u0915\\u0941\\u0924\\u094D\\u0924\\u093E"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0939\\u091F\\u093E\\u090F\\u0902"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "\\u090F\\u0915 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u0921\\u093E\\u0909\\u0928\\u0932\\u094B\\u0921"
+msgstr "\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0921\\u093E\\u0909\\u0928\\u0932\\u094B\\u0921"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -258,19 +257,19 @@ msgstr "\\u0905\\u0935\\u0927\\u093F"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0915\\u0940 \\u0905\\u0935\\u0927\\u093F"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0940\\u0905\\u0935\\u0927\\u093F"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924 \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
+msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924 \\u0938\\u0947\\u0935\\u093E \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
@@ -278,25 +277,19 @@ msgstr "\\u0908\\u092E\\u0947\\u0932"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "\\u0908\\u092E\\u0947\\u0932 \\u092A\\u0924\\u093E"
+msgstr "\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u093E"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "\\u0908\\u092E\\u0947\\u0932 \\u092A\\u0924\\u093E \\u092E\\u093E\\u0928\\u094D\\u092F \\u0928\\u0939\\u0940\\u0902 \\u0939\\u0948"
+msgstr "\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u093E\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u0947 \\u0908\\u092E\\u0947\\u0932 \\u092A\\u0924\\u0947"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0947\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u0947"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u093E \\u0908\\u092E\\u0947\\u0932"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0908\\u092E\\u0947\\u0932"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -304,15 +297,15 @@ msgstr "\\u092B\\u0948\\u0915\\u094D\\u0938"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "\\u092B\\u093C\\u093F\\u0932\\u094D\\u091F\\u0930 \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902"
+msgstr "\\u092B\\u093C\\u093F\\u0932\\u094D\\u091F\\u0930\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "\\u092B\\u093C\\u093F\\u0932\\u094D\\u091F\\u0930 \\u0938\\u0947\\u0935\\u093E \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902"
+msgstr "\\u092B\\u093C\\u093F\\u0932\\u094D\\u091F\\u0930\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "\\u092B\\u093F\\u0932\\u094D\\u091F\\u0930 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902"
+msgstr "\\u092B\\u093F\\u0932\\u094D\\u091F\\u0930\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902"
 
 #: app/views/nav.html
 msgid "Home"
@@ -324,13 +317,11 @@ msgstr "\\u0908\\u0926"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "\\u092F\\u0939 \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902 , \\u0906\\u0926\\u0947\\u0936 \\u0914\\u0930 \\u0938\\u0947\\u0935\\u093E \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902 \\u0915\\u0947 \\u092A\\u094D\\u0930\\u092C\\u0902\\u0927\\u0928 \\u0915\\u0940 \\u0905\\u0928\\u0941\\u092E\\u0924\\u093F \\u0926\\u0947\\u0924\\u093E \\u0939\\u0948 ."
+msgstr "\\u092F\\u0939\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902,\\u0906\\u0926\\u0947\\u0936\\u0914\\u0930\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902\\u0915\\u0947\\u092A\\u094D\\u0930\\u092C\\u0902\\u0927\\u0928\\u0915\\u0940\\u0905\\u0928\\u0941\\u092E\\u0924\\u093F\\u0926\\u0947\\u0924\\u093E\\u0939\\u0948."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "\\u092F\\u0939\\u0916\\u0941\\u0932\\u093E\\u0938\\u094D\\u0930\\u094B\\u0924,\\u0924\\u0947\\u091C,\\u0915\\u0949\\u092E\\u094D\\u092A\\u0948\\u0915\\u094D\\u091F,\\u090F\\u0915\\u094D\\u0938\\u094D\\u091F\\u0947\\u0902\\u0938\\u093F\\u092C\\u0932,\\u0932\\u091A\\u0940\\u0932\\u093E,\\u0905\\u0902\\u0924\\u0930\\u0930\\u093E\\u0937\\u094D\\u091F\\u094D\\u0930\\u0940\\u092F\\u0914\\u0930\\u092E\\u094B\\u092C\\u093E\\u0907\\u0932\\u0939\\u0948."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -338,15 +329,15 @@ msgstr "\\u0938\\u094D\\u0925\\u093E\\u0928"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0915\\u0947 \\u0938\\u094D\\u0925\\u093E\\u0928"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0947\\u0938\\u094D\\u0925\\u093E\\u0928"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "\\u0932\\u0949\\u0917 \\u0907\\u0928 \\u0915\\u0930\\u0947\\u0902"
+msgstr "\\u0932\\u0949\\u0917\\u0907\\u0928\\u0915\\u0930\\u0947\\u0902"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "\\u0932\\u0949\\u0917 \\u0906\\u0909\\u091F"
+msgstr "\\u0932\\u0949\\u0917\\u0906\\u0909\\u091F"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -358,23 +349,23 @@ msgstr "\\u0928\\u093E\\u092E"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u093E \\u0928\\u093E\\u092E"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0928\\u093E\\u092E"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "\\u0928\\u0908 \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
+msgstr "\\u0928\\u0908\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "\\u0928\\u0908 \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "\\u0928\\u0908\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "\\u0928\\u0908 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "\\u0928\\u0908\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "\\u0915\\u094B\\u0908 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u092E\\u094C\\u091C\\u0942\\u0926 \\u0939\\u0948"
+msgstr "\\u0915\\u094B\\u0908\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u092E\\u094C\\u091C\\u0942\\u0926\\u0939\\u0948"
 
 #: app/views/serviceReports.html
 msgid "Notes"
@@ -390,11 +381,11 @@ msgstr "\\u0938\\u0902\\u091A\\u093E\\u0932\\u0915"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0915\\u0947 \\u0938\\u0902\\u091A\\u093E\\u0932\\u0915"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0947\\u0938\\u0902\\u091A\\u093E\\u0932\\u0915"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "\\u0938\\u0902\\u091A\\u093E\\u0932\\u0915 \\u0915\\u0947 \\u0939\\u0938\\u094D\\u0924\\u093E\\u0915\\u094D\\u0937\\u0930"
+msgstr "\\u0938\\u0902\\u091A\\u093E\\u0932\\u0915\\u0915\\u0947\\u0939\\u0938\\u094D\\u0924\\u093E\\u0915\\u094D\\u0937\\u0930"
 
 #: app/views/nav.html
 msgid "Orders"
@@ -406,11 +397,11 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA \\u0905\\u092E\\u093E\\u0928\\u094D\\u092F \\u0935\\u0930\\u094D\\u0923 (\\u0913\\u0902)"
+msgstr "P.IVA\\u0905\\u092E\\u093E\\u0928\\u094D\\u092F\\u0935\\u0930\\u094D\\u0923(\\u0913\\u0902)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA \\u0928\\u093F\\u092F\\u0902\\u0924\\u094D\\u0930\\u0923 \\u0915\\u094B\\u0921 \\u0938\\u0947 \\u092E\\u0947\\u0932 \\u0928\\u0939\\u0940\\u0902 \\u0916\\u093E\\u0924\\u093E"
+msgstr "P.IVA\\u0928\\u093F\\u092F\\u0902\\u0924\\u094D\\u0930\\u0923\\u0915\\u094B\\u0921\\u0938\\u0947\\u092E\\u0947\\u0932\\u0928\\u0939\\u0940\\u0902\\u0916\\u093E\\u0924\\u093E"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -418,11 +409,11 @@ msgstr "\\u092B\\u094B\\u0928"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "\\u092B\\u093C\\u094B\\u0928 \\u0928\\u0902\\u092C\\u0930"
+msgstr "\\u092B\\u093C\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "\\u092B\\u093C\\u094B\\u0928 \\u0928\\u0902\\u092C\\u0930 \\u092E\\u093E\\u0928\\u094D\\u092F \\u0928\\u0939\\u0940\\u0902 \\u0939\\u0948"
+msgstr "\\u092B\\u093C\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -430,7 +421,7 @@ msgstr "\\u091C\\u0917\\u0939"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "\\u0924\\u0948\\u092F\\u093E\\u0930\\u0940 \\u090F\\u0915 \\u0905\\u0926\\u094D\\u092F\\u0924\\u0928 \\u0921\\u093E\\u0909\\u0928\\u0932\\u094B\\u0921"
+msgstr "\\u0924\\u0948\\u092F\\u093E\\u0930\\u0940\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0921\\u093E\\u0909\\u0928\\u0932\\u094B\\u0921"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -438,15 +429,15 @@ msgstr "\\u091B\\u093E\\u092A\\u093E"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "\\u091B\\u093E\\u092A\\u093E \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
+msgstr "\\u091B\\u093E\\u092A\\u093E\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "\\u091B\\u093E\\u092A\\u093E \\u0938\\u0947\\u0935\\u093E \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "\\u091B\\u093E\\u092A\\u093E\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "\\u091B\\u093E\\u092A\\u093E \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "\\u091B\\u093E\\u092A\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
 
 #: app/views/users.html
 msgid "Provider"
@@ -461,16 +452,12 @@ msgid "Roles"
 msgstr "\\u092D\\u0942\\u092E\\u093F\\u0915\\u093E\\u090F\\u0901"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0947\\u0932\\u093F\\u090F\\u092D\\u0942\\u092E\\u093F\\u0915\\u093E\\u0913\\u0902;\\u0938\\u092D\\u0940\\u0930\\u093E\\u091C\\u094D\\u092F\\u094B\\u0902\\u0915\\u0947\\u092E\\u093E\\u0927\\u094D\\u092F\\u092E\\u0938\\u0947\\u0938\\u094D\\u0932\\u093E\\u0907\\u0921\\u0915\\u094B\\u0915\\u094D\\u0932\\u093F\\u0915\\u0915\\u0930\\u0947\\u0902(\\u0906\\u0930\\u0921\\u092C\\u094D\\u0932\\u094D\\u092F\\u0942-\\u003e\\u0906\\u0930-\\u003e\\u0921\\u092C\\u094D\\u0932\\u094D\\u092F\\u0942-\\u003e\\u0915\\u094B\\u0908\\u092D\\u0940)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0940\\u092D\\u0942\\u092E\\u093F\\u0915\\u093E\\u090F\\u0901:\\u0939\\u0930\\u0947\\u0930\\u0902\\u0917\\u092A\\u0922\\u093C\\u0928\\u0947\\u0915\\u0947\\u0932\\u093F\\u090F\\u0905\\u0928\\u0941\\u092E\\u0924\\u093F\\u0907\\u0902\\u0917\\u093F\\u0924\\u0915\\u0930\\u0924\\u093E\\u0939\\u0948\\u0914\\u0930\\u0932\\u093F\\u0916\\u0928\\u093E,\\u092A\\u0940\\u0932\\u093E\\u0938\\u093E\\u0927\\u0928\\u0939\\u0940\\u092A\\u0922\\u093C\\u093E,\\u0928\\u0940\\u0932\\u093E\\u0939\\u0940\\u0932\\u093F\\u0916\\u0924\\u0947\\u0939\\u0948\\u0902,\\u0914\\u0930\\u0915\\u094B\\u0908\\u0905\\u0928\\u0941\\u092E\\u0924\\u093F\\u0932\\u093E\\u0932.\\u0935\\u0930\\u094D\\u0917\\u094B\\u0902\\u0939\\u0948\\u0902:'\\u092F\\u0942'(\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902),'\\u0938\\u0940'(\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902),'\\u0913'(\\u0906\\u0926\\u0947\\u0936),'\\u090F\\u0938'(\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,15 +465,15 @@ msgstr "\\u0938\\u0939\\u0947\\u091C\\u0947\\u0902"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "\\u0938\\u0930\\u094D\\u0935\\u093F\\u0938 \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "\\u0938\\u0930\\u094D\\u0935\\u093F\\u0938\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "\\u0938\\u0930\\u094D\\u0935\\u093F\\u0938 \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F n"
+msgstr "\\u0938\\u0930\\u094D\\u0935\\u093F\\u0938\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -494,63 +481,63 @@ msgstr "\\u0938\\u0947\\u091F\\u0905\\u092A"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "\\u0917\\u0932\\u0940 \\u0915\\u093E \\u092A\\u0924\\u093E"
+msgstr "\\u0917\\u0932\\u0940\\u0915\\u093E\\u092A\\u0924\\u093E"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "\\u0907\\u0938 \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0915\\u093E \\u0928\\u093E\\u092E \\u092A\\u0939\\u0932\\u0947 \\u0938\\u0947 \\u0909\\u092A\\u092F\\u094B\\u0917 \\u092E\\u0947\\u0902 \\u0939\\u0948"
+msgstr "\\u0907\\u0938\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u093E\\u0928\\u093E\\u092E\\u092A\\u0939\\u0932\\u0947\\u0938\\u0947\\u0909\\u092A\\u092F\\u094B\\u0917\\u092E\\u0947\\u0902\\u0939\\u0948"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "\\u0907\\u0938 \\u0917\\u094D\\u0930\\u093E\\u0939\\u0915 \\u0928\\u0947 \\u0928\\u093E\\u092E \\u092E\\u093E\\u0928\\u094D\\u092F \\u0928\\u0939\\u0940\\u0902 \\u0939\\u0948"
+msgstr "\\u0907\\u0938\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0928\\u0947\\u0928\\u093E\\u092E\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "\\u092F\\u0939 \\u0935\\u0939 \\u091C\\u0917\\u0939 \\u0939\\u0948"
+msgstr "\\u092F\\u0939\\u0935\\u0939\\u091C\\u0917\\u0939\\u0939\\u0948"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "\\u0907\\u0938 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0914\\u0930 \\u0928 \\u0939\\u0940 \\u092A\\u0922\\u093C\\u093E \\u0914\\u0930 \\u0928 \\u0939\\u0940 \\u0932\\u093F\\u0916 \\u0938\\u0915\\u0924\\u0947 \\u0939\\u0948\\u0902"
+msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0914\\u0930\\u0928\\u0939\\u0940\\u092A\\u0922\\u093C\\u093E\\u0914\\u0930\\u0928\\u0939\\u0940\\u0932\\u093F\\u0916\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "\\u0907\\u0938 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u092A\\u0922\\u093C \\u0938\\u0915\\u0924\\u0947 \\u0939\\u0948\\u0902"
+msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u092A\\u0922\\u093C\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "\\u0907\\u0938 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u094B \\u092A\\u0922\\u093C \\u0914\\u0930 \\u0932\\u093F\\u0916 \\u0938\\u0915\\u0924\\u0947 \\u0939\\u0948\\u0902"
+msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u094B\\u092A\\u0922\\u093C\\u0914\\u0930\\u0932\\u093F\\u0916\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "\\u0907\\u0938 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0932\\u093F\\u0916 \\u0938\\u0915\\u0924\\u0947 \\u0939\\u0948\\u0902"
+msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0932\\u093F\\u0916\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "\\u0907\\u0938 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u093E \\u0909\\u092A\\u092F\\u094B\\u0917 \\u0928\\u0939\\u0940\\u0902 \\u0915\\u0930 \\u0938\\u0915\\u0924\\u0947"
+msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0928\\u0939\\u0940\\u0902\\u0915\\u0930\\u0938\\u0915\\u0924\\u0947"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "\\u092F\\u0939 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0928\\u093E\\u092E \\u092A\\u0939\\u0932\\u0947 \\u0938\\u0947 \\u0909\\u092A\\u092F\\u094B\\u0917 \\u092E\\u0947\\u0902 \\u0939\\u0948"
+msgstr "\\u092F\\u0939\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E\\u092A\\u0939\\u0932\\u0947\\u0938\\u0947\\u0909\\u092A\\u092F\\u094B\\u0917\\u092E\\u0947\\u0902\\u0939\\u0948"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "\\u0907\\u0938 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0928\\u093E\\u092E \\u092E\\u093E\\u0928\\u094D\\u092F \\u0928\\u0939\\u0940\\u0902 \\u0939\\u0948"
+msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "\\u092F\\u0939 \\u092E\\u093E\\u0928 Codice Fiscale \\u0914\\u0930 \\u0928 \\u0939\\u0940 \\u090F\\u0915 P.IVA \\u0939\\u0948 \\u0914\\u0930 \\u0928 \\u0939\\u0940"
+msgstr "\\u092F\\u0939\\u092E\\u093E\\u0928 Codice Fiscale\\u0914\\u0930\\u0928\\u0939\\u0940\\u090F\\u0915 P.IVA\\u0939\\u0948\\u0914\\u0930\\u0928\\u0939\\u0940"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "\\u0938\\u0947\\u0935\\u093E \\u0936\\u0941\\u0930\\u0942 \\u0915\\u0930\\u0928\\u0947 \\u0915\\u0947 \\u0938\\u092E\\u092F"
+msgstr "\\u0938\\u0947\\u0935\\u093E\\u0936\\u0941\\u0930\\u0942\\u0915\\u0930\\u0928\\u0947\\u0915\\u0947\\u0938\\u092E\\u092F"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "\\u091F\\u0949\\u0917\\u0932 \\u0928\\u0947\\u0935\\u093F\\u0917\\u0947\\u0936\\u0928"
+msgstr "\\u091F\\u0949\\u0917\\u0932\\u0928\\u0947\\u0935\\u093F\\u0917\\u0947\\u0936\\u0928"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0915\\u093E \\u0908\\u092E\\u0947\\u0932 \\u092A\\u0924\\u093E"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u093E"
 
 #: app/views/users.html
 msgid "User name"
@@ -558,7 +545,7 @@ msgstr "\\u0909\\u092A\\u0928\\u093E\\u092E"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "\\u092F\\u0942\\u091C\\u0930 \\u0915\\u093E \\u0928\\u093E\\u092E"
+msgstr "\\u092F\\u0942\\u091C\\u0930\\u0915\\u093E\\u0928\\u093E\\u092E"
 
 #: app/views/nav.html
 msgid "Users"
@@ -566,11 +553,11 @@ msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "\\u0906\\u092A \\u0911\\u092B\\u093C\\u0932\\u093E\\u0907\\u0928 \\u0939\\u0948\\u0902"
+msgstr "\\u0906\\u092A\\u0911\\u092B\\u093C\\u0932\\u093E\\u0907\\u0928\\u0939\\u0948\\u0902"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "\\u0906\\u092A \\u0911\\u0928\\u0932\\u093E\\u0907\\u0928 \\u0939\\u0948\\u0902"
+msgstr "\\u0906\\u092A\\u0911\\u0928\\u0932\\u093E\\u0907\\u0928\\u0939\\u0948\\u0902"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -598,11 +585,11 @@ msgstr "\\u0924\\u094D\\u0930\\u0941\\u091F\\u093F"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "\\u0917\\u0948\\u0930 \\u092A\\u0902\\u091C\\u0940\\u0915\\u0943\\u0924 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902 \\u0915\\u0947 \\u0932\\u093F\\u090F \\u0939\\u094B\\u092E \\u092A\\u0947\\u091C ."
+msgstr "\\u0917\\u0948\\u0930\\u092A\\u0902\\u091C\\u0940\\u0915\\u0943\\u0924\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902\\u0915\\u0947\\u0932\\u093F\\u090F\\u0939\\u094B\\u092E\\u092A\\u0947\\u091C."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "registerd \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902 \\u0915\\u0947 \\u0932\\u093F\\u090F \\u0939\\u094B\\u092E \\u092A\\u0947\\u091C ."
+msgstr "registerd\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902\\u0915\\u0947\\u0932\\u093F\\u090F\\u0939\\u094B\\u092E\\u092A\\u0947\\u091C."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,11 +597,11 @@ msgstr "\\u0906\\u0930\\u0902\\u092D"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "( \\u0938\\u094D\\u092E\\u093E\\u0930\\u094D\\u091F ) \\u0936\\u0941\\u0930\\u0942 \\u0905\\u092A \\u0915\\u0947 \\u0932\\u093F\\u090F \\u090F\\u0915 \\u0935\\u0947\\u092C \\u0905\\u0928\\u0941\\u092A\\u094D\\u0930\\u092F\\u094B\\u0917 \\u0939\\u0948."
+msgstr "(\\u0938\\u094D\\u092E\\u093E\\u0930\\u094D\\u091F)\\u0936\\u0941\\u0930\\u0942\\u0905\\u092A\\u0915\\u0947\\u0932\\u093F\\u090F\\u090F\\u0915\\u0935\\u0947\\u092C\\u0905\\u0928\\u0941\\u092A\\u094D\\u0930\\u092F\\u094B\\u0917\\u0939\\u0948."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "\\u0932\\u0949\\u0917 \\u0907\\u0928 \\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "\\u0932\\u0949\\u0917\\u0907\\u0928\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
 
 #: app/scripts/app.js
 msgid "obsolete"
@@ -626,11 +613,11 @@ msgstr "\\u0906\\u0926\\u0947\\u0936"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "\\u0905\\u0928\\u094D\\u092F\\u0925\\u093E \\u090F\\u0915 \\u0928\\u092F\\u093E accout \\u0930\\u091C\\u093F\\u0938\\u094D\\u091F\\u0930 \\u0914\\u0930 \\u092E\\u0947\\u0902 \\u0932\\u0949\\u0917 \\u0907\\u0928 \\u0915\\u0930\\u0947\\u0902."
+msgstr "\\u0905\\u0928\\u094D\\u092F\\u0925\\u093E\\u090F\\u0915\\u0928\\u092F\\u093E accout\\u0930\\u091C\\u093F\\u0938\\u094D\\u091F\\u0930\\u0914\\u0930\\u092E\\u0947\\u0902\\u0932\\u0949\\u0917\\u0907\\u0928\\u0915\\u0930\\u0947\\u0902."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "\\u092A\\u093E\\u0938\\u0935\\u0930\\u094D\\u0921 :"
+msgstr "\\u092A\\u093E\\u0938\\u0935\\u0930\\u094D\\u0921:"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,7 +633,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E \\u0928\\u093E\\u092E :"
+msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

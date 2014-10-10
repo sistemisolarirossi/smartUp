@@ -1,20 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Marco <marcosolari@gmail.com>\n"
+"Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: tl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.6.9\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh: mm )"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -29,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Ang petsa ng pagsisimula ng serbisyo ay kinakailangan"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Ang tagal ay dapat na sa form na ito' hh' o' hh: mm', at hindi bababa sa isang minuto ang haba"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -63,7 +61,7 @@ msgstr "Magdagdag ng bagong user"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "address"
+msgstr "Address"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -75,7 +73,7 @@ msgstr "Ang isang operator ay kinakailangan"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Isang pag-update ay magagamit : ang gusto mong i-load ito ngayon?"
+msgstr "Isang pag-update ay magagamit: ang gusto mong i-load ito ngayon?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -111,7 +109,7 @@ msgstr "Pagpapatotoo provider para sa user"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "avatar"
+msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
@@ -119,7 +117,7 @@ msgstr "Avatar imahe ng gumagamit"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -131,7 +129,7 @@ msgstr "Cache ay sa hindi kilalang estado"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache ay hindi na-update (marahil ang manifest ay hindi maabot )"
+msgstr "Cache ay hindi na-update(marahil ang manifest ay hindi maabot)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -155,11 +153,11 @@ msgstr "Sinusuri para sa presensiya ng isang update"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale naglalaman ng hindi wastong character ( s )"
+msgstr "Codice Fiscale naglalaman ng hindi wastong character( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,7 +169,11 @@ msgstr "Codice Fiscale o P.IVA ng customer"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "logo ng kumpanya"
+msgstr "Logo ng kumpanya"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Kumonekta gamit ang isa sa iyong\\\" panlipunan\\\" na account, o mag-log in gamit ang mga kredensyal:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -207,7 +209,7 @@ msgstr "E-mail address ng Customer"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "pangalan ng customer"
+msgstr "Pangalan ng customer"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -227,7 +229,7 @@ msgstr "Customers"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "petsa"
+msgstr "Petsa"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
@@ -245,17 +247,13 @@ msgstr "Tanggalin ang ulat ng serbisyo"
 msgid "Delete user"
 msgstr "Tanggalin ang user"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "aso"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Nagda-download ng isang update"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "tagal"
+msgstr "Tagal"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
@@ -275,7 +273,7 @@ msgstr "I-edit ang user"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "email"
+msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
@@ -293,15 +291,9 @@ msgstr "Email address ng user"
 msgid "Email of the user"
 msgstr "Email ng gumagamit"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "fax"
+msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
@@ -325,17 +317,15 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Pinapayagan nito ang pamamahala ng mga customer , ang mga order at mga ulat ng serbisyo."
+msgstr "Pinapayagan nito ang pamamahala ng mga customer, ang mga order at mga ulat ng serbisyo."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Ito ay open-source, mabilis, compact, extensible, resilient, internasyonal at mobile."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "lokasyon"
+msgstr "Lokasyon"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
@@ -355,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "pangalan"
+msgstr "Pangalan"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -363,15 +353,15 @@ msgstr "Pangalan ng gumagamit ang"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "bagong customer"
+msgstr "Bagong customer"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "bagong ulat"
+msgstr "Bagong ulat"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "bagong user"
+msgstr "Bagong user"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -383,11 +373,11 @@ msgstr "Mga Tala"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "numero"
+msgstr "Numero"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operator"
+msgstr "Operator"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -407,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA naglalaman ng hindi wastong character ( s )"
+msgstr "P.IVA naglalaman ng hindi wastong character( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -415,11 +405,11 @@ msgstr "P.IVA control code ay hindi tumutugma"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "telepono"
+msgstr "Telepono"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "numero ng telepono"
+msgstr "Numero ng telepono"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -427,7 +417,7 @@ msgstr "Ang numero ng telepono ay hindi wasto"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "lugar"
+msgstr "Lugar"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -451,7 +441,7 @@ msgstr "Magpa-print ng gumagamit"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "provider"
+msgstr "Provider"
 
 #: app/views/home.html
 msgid "Register"
@@ -462,16 +452,12 @@ msgid "Roles"
 msgstr "Mga Tungkulin"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Mga Tungkulin para sa user na ito; i-click sa slide sa pamamagitan ng lahat ng mga estado( RW-\\u003e R-\\u003e W-\\u003e wala)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Mga Tungkulin ng mga gumagamit: berdeng kulay ay nagpapahiwatig ng pahintulot para nabasa at isulat, dilaw na paraan read-only, asul na magsulat lamang, at pula walang pahintulot. Na seksyon ay:' u'(mga user),' c'( customer), ang'o'( order),' s'( serbisyo ng ulat)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -479,7 +465,7 @@ msgstr "I-save ang"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "ulat serbisyo"
+msgstr "Ulat serbisyo"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -487,7 +473,7 @@ msgstr "Serbisyo ng ulat n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "mga ulat ng serbisyo"
+msgstr "Mga ulat ng serbisyo"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -495,7 +481,7 @@ msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "address ng kalye"
+msgstr "Address ng kalye"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -507,7 +493,7 @@ msgstr "Ito ang pangalan ng customer ay hindi wasto"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "ito ay"
+msgstr "Ito ay"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -555,11 +541,11 @@ msgstr "Email address ng Gumagamit"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "pangalan ng User"
+msgstr "Pangalan ng User"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "username"
+msgstr "Username"
 
 #: app/views/nav.html
 msgid "Users"
@@ -599,7 +585,7 @@ msgstr "error"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "home page para sa hindi rehistradong mga gumagamit ."
+msgstr "home page para sa hindi rehistradong mga gumagamit."
 
 #: app/views/home.html
 msgid "home page for registerd users."
@@ -607,15 +593,15 @@ msgstr "home page para sa registerd mga gumagamit."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Sinisimulan"
+msgstr "sinisimulan"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "ay isang web application para sa ( na smart ) simulan -ups."
+msgstr "ay isang web application para sa( na smart) simulan-ups."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Naka-log ang gumagamit"
+msgstr "naka-log ang gumagamit"
 
 #: app/scripts/app.js
 msgid "obsolete"

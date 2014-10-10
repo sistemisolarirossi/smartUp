@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: zh-tw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "ÂªAÂ°ÃÂ¶}Â©lÂªÂºÂ¤Ã©Â´ÃÂ»ÃÂ­n"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Â«Ã¹ÃÃ²Â®ÃÂ¶Â¡Â¥Â²Â¶Â·Â¬OÂ¦bÂ§ÃÂ¦Â¡' HH'Â©Ã' HHÂ¡GMM Â¡Â§ Â¡AÂ©MÂ¦ÃÂ¤ÃÂ¤@Â¤ÃÃÃÂªÃ¸"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -42,7 +41,7 @@ msgstr "Â¹qÂ¸ÃÂ¸Â¹Â½XÂ¬OÂ¥Â²Â»ÃÂªÂº"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "ÂµÃ³Â¹DÂ¦aÂ§}Â¬OÂ¥Â²Â»ÃÂªÂº"
+msgstr "ÎµÃ³Â¹DÂ¦aÂ§}Â¬OÂ¥Â²Â»ÃÂªÂº"
 
 #: app/views/users.html
 msgid "A user name is required"
@@ -118,7 +117,7 @@ msgstr "Â¥ÃÂ¤Ã¡ÃYÂ¹Â³Â¹ÃÂ¤Ã¹"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. /Âµ|Â¸Â¹"
+msgstr "C.F./Âµ|Â¸Â¹"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -154,7 +153,7 @@ msgstr "ÃÃÂ¬dÂ¬OÂ§_Â¦Â³Â§Ã³Â·sÂªÂºÂ¦sÂ¦b"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale /Âµ|Â¸Â¹"
+msgstr "Codice Fiscale/Âµ|Â¸Â¹"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
@@ -171,6 +170,10 @@ msgstr "Codice FiscaleÂ©ÃÂ«ÃÂ¤Ã¡ÂªÂºP.IVA"
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Â¤Â½Â¥qÂ¼ÃÂ»x"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Â³qÂ¹LÂ³sÂ±ÂµÂ§AÂªÂºÂ¡Â§ÂªÃÂ¥Ã¦Â¡Â¨ÂªÂºÂ¤@Â­ÃÂ±bÂ¤Ã¡Â¡AÂ©ÃÂ»PÂ³oÂ¨ÃÂ¾ÃÂ¾ÃÂµnÂ¿Ã½Â¡G"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -244,10 +247,6 @@ msgstr "Â§RÂ°Â£ÂªAÂ°ÃÂ³Ã¸Â§i"
 msgid "Delete user"
 msgstr "Â§RÂ°Â£Â¥ÃÂ¤Ã¡"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "ª¯"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Â¤UÂ¸Ã¼Â§Ã³Â·s"
@@ -292,12 +291,6 @@ msgstr "Â¥ÃÂ¤Ã¡ÂªÂºÂ¹qÂ¤lÂ¶lÂ¥Ã³Â¦aÂ§}"
 msgid "Email of the user"
 msgstr "Â¹qÂ¤lÂ¶lÂ¥Ã³Â¥ÃÂ¤Ã¡"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Â¶ÃÂ¯u"
@@ -327,10 +320,8 @@ msgid "It allows the management of customers, orders and service reports."
 msgstr "Â¥Â¦Â¤Â¹Â³\\Â«ÃÂ¤Ã¡Â¡AÂ­qÂ³Ã¦Â©MÂªAÂ°ÃÂ³Ã¸Â§iÂªÂºÂºÃÂ²zÂ¡C"
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Â¥Â¦Â¬OÂ¶}Â·Â½ÂªÂºÂ¡AÂ§ÃÂ³tÂ¡AÂ¤pÂ¥Â©Â¡AÂ¥iÃXÂ®iÂªÂºÂ¡AÂ¼uÂ©ÃÂªÂºÂ¡AÂ°ÃªÂ»ÃÂ¤ÃÂ©MÂ²Â¾Â°ÃÂ¡C"
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -342,11 +333,11 @@ msgstr "ÂªAÂ°ÃÂ¦aÃI"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "ÂµnÂ¿Ã½"
+msgstr "ÎµnÂ¿Ã½"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "ÂµÃ¹Â¾P"
+msgstr "ÎµÃ¹Â¾P"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -402,15 +393,15 @@ msgstr "Â­qÂ³Ã¦"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
-msgstr "Âµ|Â¸Â¹"
+msgstr "Îµ|Â¸Â¹"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "Âµ|Â¸Â¹Â¥]Â§tÂµLÂ®ÃÂ¦rÂ²ÃÂ¡] SÂ¡^"
+msgstr "Îµ|Â¸Â¹Â¥]Â§tÂµLÂ®ÃÂ¦rÂ²ÃÂ¡] SÂ¡^"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "Âµ|Â¸Â¹Â±Â±Â¨Ã®Â½XÂ¤Â£Â¤ÃÂ°t"
+msgstr "Îµ|Â¸Â¹Â±Â±Â¨Ã®Â½XÂ¤Â£Â¤ÃÂ°t"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -454,23 +445,19 @@ msgstr "Â¨ÃÃÂ³Â°Ã"
 
 #: app/views/home.html
 msgid "Register"
-msgstr "ÂµÃ¹Â¥U"
+msgstr "ÎµÃ¹Â¥U"
 
 #: app/views/users.html
 msgid "Roles"
 msgstr "Â¨Â¤Â¦Ã¢"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Â¨Â¤Â¦Ã¢Â¸ÃÂ¥ÃÂ¤Ã¡;ÃIÃÂ»Â·ÃÂ¹LÂ©ÃÂ¦Â³ÂªÂ¬ÂºAÂ¡] RW-\\u003eÂ¬Ã£Â¨s-\\u003e W-\\u003eÂµLÂ¡^"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Â¥ÃÂ¤Ã¡Â¨Â¤Â¦Ã¢Â¡GÂºÃ±Â¦Ã¢ÂªÃ­Â¥ÃÂ¤Â¹Â³\\Â¶iÂ¦Ã¦ÃÂªÂ¨ÃºÂ©MÂ¼gÂ¤JÂ¡AÂ¶ÃÂ¦Ã¢ÂªÃ­Â¥ÃÂ¥uÃÂªÂ¡AÃÃÂ¦Ã¢Â¥uÂ¼gÂ©MÂ¬ÃµÂ¦Ã¢Â¨SÂ¦Â³ÃvÂ­Â­Â¡CÃÃ¦Â¥ÃÂ¦Â³Â¡G Â¡Â§UÂ¡Â¨ Â¡]Â¥ÃÂ¤Ã¡Â¡^ Â¡A Â¡Â§CÂ¡Â¨ Â¡]Â«ÃÂ¤Ã¡Â¡^ Â¡A'O' Â¡]Â­qÂ³Ã¦Â¡^ Â¡A Â¡Â§SÂ¡Â¨ Â¡]ÂªAÂ°ÃÂ³Ã¸Â§iÂ¡^ Â¡C"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -494,7 +481,7 @@ msgstr "Â³]Â¸m"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "ÂµÃ³Â¹DÂ¦aÂ§}"
+msgstr "ÎµÃ³Â¹DÂ¦aÂ§}"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -582,7 +569,7 @@ msgstr "Â¨ÃºÂ®Ã¸"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "ÃÃÂ¬d"
+msgstr "Ã ÃÂ¬d"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"

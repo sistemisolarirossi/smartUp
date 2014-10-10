@@ -166,6 +166,10 @@ msgid "Company logo"
 msgstr ""
 
 #: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr ""
+
+#: app/views/home.html
 msgid "Connect with Facebook"
 msgstr ""
 
@@ -240,10 +244,6 @@ msgstr ""
 msgid "Delete user"
 msgstr ""
 
-#: app/views/about.html
-msgid "Dog"
-msgstr ""
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr ""
@@ -289,10 +289,6 @@ msgstr ""
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr ""
-
-#: app/views/home.html
-msgid "Enter using one of your \"social\" accounts, or log in with these credentials:"
 msgstr ""
 
 #: app/views/serviceReports.html
@@ -463,7 +459,7 @@ msgid "Roles for this user; click to slide through all states (RW -> R -> W -> n
 msgstr ""
 
 #: app/views/users.html
-msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and read no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
 msgstr ""
 
 #: app/views/customers.html

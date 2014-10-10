@@ -1,6 +1,6 @@
 'use strict';
  
-app.factory('I18N', function ($rootScope, $window, $route, CFG, gettext, gettextCatalog, tmhDynamicLocale) {
+app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, gettextCatalog, tmhDynamicLocale) {
   var defaultLanguage = 'en';
 
   $rootScope.$on('$localeChangeSuccess', function () { $route.reload(); });
@@ -11,41 +11,80 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettext, gettext
       return gettext(string);
     },
     getSupportedLanguages: function() {
-      /* TODO:
-       *   instead of a static list, try to support all angular supported locales,
-       *   ignoring languages with sub-regions...
-       */
       return { /* supported Languages */
-        en: {
-          name: 'English',
-          flag: 'icons/flags/en.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_en.js',
-        },
-        af: {
-          name: 'Afghan',
-          flag: 'icons/flags/af.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_af.js',
-        },
-        de: {
-          name: 'Deutsch',
-          flag: 'icons/flags/de.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_de.js',
-        },
-        es: {
-          name: 'Español',
-          flag: 'icons/flags/es.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_es.js',
-        },
-        fr: {
-          name: 'Français',
-          flag: 'icons/flags/fr.png',
-          angularLocaleScript: 'scripts/i18n/angular-locale_fr.js',
-        },
-        it: {
-          name: 'Italiano',
-          flag: 'icons/flags/it.png',
-          angularLocaleScript: 'scripts/i18n/angular-locale_it.js',
-        }
+        'af': 'Afrikaans',
+        'ar': 'Arabic',
+        'az': 'Azerbaijani',
+        'be': 'Belarusian',
+        'bg': 'Bulgarian',
+        'bn': 'Bengali',
+        'bs': 'Bosnian',
+        'ca': 'Catalan',
+        'cs': 'Czech',
+        'cy': 'Welsh',
+        'da': 'Danish',
+        'de': 'German',
+        'el': 'Greek',
+        'eo': 'Esperanto',
+        'es': 'Spanish',
+        'et': 'Estonian',
+        'eu': 'Basque',
+        'fa': 'Persian',
+        'fi': 'Finnish',
+        'fr': 'French',
+        'ga': 'Irish',
+        'gl': 'Galician',
+        'gu': 'Gujarati',
+        'ha': 'Hausa',
+        'hi': 'Hindi',
+        'hr': 'Croatian',
+        'hu': 'Hungarian',
+        'hy': 'Armenian',
+        'id': 'Indonesian',
+        'ig': 'Igbo',
+        'is': 'Icelandic',
+        'it': 'Italian',
+        'iw': 'Hebrew',
+        'ja': 'Japanese',
+        'ka': 'Georgian',
+        'km': 'Khmer',
+        'kn': 'Kannada',
+        'ko': 'Korean',
+        'lo': 'Lao',
+        'lt': 'Lithuanian',
+        'lv': 'Latvian',
+        'mk': 'Macedonian',
+        'mn': 'Mongolian',
+        'mr': 'Marathi',
+        'ms': 'Malay',
+        'mt': 'Maltese',
+        'ne': 'Nepali',
+        'nl': 'Dutch',
+        'no': 'Norwegian',
+        'pa': 'Punjabi',
+        'pl': 'Polish',
+        'pt': 'Portuguese',
+        'ro': 'Romanian',
+        'ru': 'Russian',
+        'sk': 'Slovak',
+        'sl': 'Slovenian',
+        'so': 'Somali',
+        'sq': 'Albanian',
+        'sr': 'Serbian',
+        'sv': 'Swedish',
+        'sw': 'Swahili',
+        'ta': 'Tamil',
+        'te': 'Telugu',
+        'th': 'Thai',
+        'tl': 'Filipino',
+        'tr': 'Turkish',
+        'uk': 'Ukrainian',
+        'ur': 'Urdu',
+        'vi': 'Vietnamese',
+        'yo': 'Yoruba',
+        'zh-cn': 'Chinese (Simplified)',
+        'zh-tw': 'Chinese (Traditional)',
+        'zu': 'Zulu',
       };
     },
     getDefaultLanguage: function () {
@@ -58,13 +97,16 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettext, gettext
       return this.currentLanguage ? this.currentLanguage : this.getDefaultLanguage();
     },
     getCurrentLanguageName: function() {
-      return this.getSupportedLanguages()[this.getCurrentLanguage()].name;
+      //return this.getSupportedLanguages()[this.getCurrentLanguage()].name;
+      return this.getSupportedLanguages()[this.getCurrentLanguage()];
     },
     getCurrentLanguageFlag: function() {
-      return this.getSupportedLanguages()[this.getCurrentLanguage()].flag;
+      //return this.getSupportedLanguages()[this.getCurrentLanguage()].flag;
+      return 'icons/flags/' + this.getCurrentLanguage() + '.png';
     },
     getCurrentLanguageScript: function() {
-      return this.getSupportedLanguages()[this.getCurrentLanguage()].script;
+      //return this.getSupportedLanguages()[this.getCurrentLanguage()].script;
+      return 'scripts/i18n/angular-locale_' + this.getCurrentLanguage() + '.js';
     },
     setCurrentLanguage: function(language) {
       var previousLanguage = this.currentLanguage;
@@ -132,4 +174,43 @@ app.factory('I18N', function ($rootScope, $window, $route, CFG, gettext, gettext
   'shortDate': equivalent to 'M/d/yy' for en_US locale (e.g. 9/3/10)
   'mediumTime': equivalent to 'h:mm:ss a' for en_US locale (e.g. 12:05:08 pm)
   'shortTime': equivalent to 'h:mm a' for en_US locale (e.g. 12:05 pm)
+*/
+
+/*
+      / * TODO:
+       *   instead of a static list, try to support all angular supported locales,
+       *   ignoring languages with sub-regions...
+       * /
+      return { / * supported Languages * /
+        en: {
+          name: 'English',
+          flag: 'icons/flags/en.png',
+          angularLocaleScript: 'scripts/18n/angular-locale_en.js',
+        },
+        af: {
+          name: 'Afghan',
+          flag: 'icons/flags/af.png',
+          angularLocaleScript: 'scripts/18n/angular-locale_af.js',
+        },
+        de: {
+          name: 'Deutsch',
+          flag: 'icons/flags/de.png',
+          angularLocaleScript: 'scripts/18n/angular-locale_de.js',
+        },
+        es: {
+          name: 'Español',
+          flag: 'icons/flags/es.png',
+          angularLocaleScript: 'scripts/18n/angular-locale_es.js',
+        },
+        fr: {
+          name: 'Français',
+          flag: 'icons/flags/fr.png',
+          angularLocaleScript: 'scripts/i18n/angular-locale_fr.js',
+        },
+        it: {
+          name: 'Italiano',
+          flag: 'icons/flags/it.png',
+          angularLocaleScript: 'scripts/i18n/angular-locale_it.js',
+        }
+      };
 */

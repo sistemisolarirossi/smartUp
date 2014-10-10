@@ -5,32 +5,31 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh: mm )"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "M\\u1ED9t Codice Fiscale ho\\u1EB7c P.IVA \\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
+msgstr "M\\u1ED9t Codice Fiscale ho\\u1EB7c P.IVA\\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "M\\u1ED9t tÃªn khÃ¡ch hÃ ng \\u0111\\u01B0\\u1EE3c yÃªu c\\u1EA7u"
+msgstr "M\\u1ED9t tên khách hàng\\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "M\\u1ED9t ngày b\\u1EAFt \\u0111\\u1EA7u d\\u1ECBch v\\u1EE5 \\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
+msgstr "M\\u1ED9t ngày b\\u1EAFt\\u0111\\u1EA7u d\\u1ECBch v\\u1EE5\\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "M\\u1ED9t th\\u1EDDi gian ph\\u1EA3i theo hình th\\u1EE9c' h\\u1ED9' ho\\u1EB7c' hh: mm\\\", và ít nh\\u1EA5t m\\u1ED9t phút dài"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -38,27 +37,27 @@ msgstr "M\\u1ED9t v\\u1ECB trí c\\u1EE7a d\\u1ECBch v\\u1EE5 là c\\u1EA7n thi\
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "M\\u1ED9t s\\u1ED1 \\u0111i\\u1EC7n tho\\u1EA1i là c\\u1EA7n thi\\u1EBFt"
+msgstr "M\\u1ED9t s\\u1ED1\\u0111i\\u1EC7n tho\\u1EA1i là c\\u1EA7n thi\\u1EBFt"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "M\\u1ED9t \\u0111\\u1ECBa ch\\u1EC9 \\u0111\\u01B0\\u1EDDng ph\\u1ED1 \\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
+msgstr "M\\u1ED9t\\u0111\\u1ECBa ch\\u1EC9\\u0111\\u01B0\\u1EDDng ph\\u1ED1\\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "M\\u1ED9t tÃªn dÃ¹ng \\u0111\\u01B0\\u1EE3c yÃªu c\\u1EA7u"
+msgstr "M\\u1ED9t tên dùng\\u0111\\u01B0\\u1EE3c yêu c\\u1EA7u"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "v\\u1EC1"
+msgstr "V\\u1EC1"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "ThÃªm khÃ¡ch hÃ ng m\\u1EDBi"
+msgstr "Thêm khách hàng m\\u1EDBi"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "ThÃªm ng\\u01B0\\u1EDDi dÃ¹ng m\\u1EDBi"
+msgstr "Thêm ng\\u01B0\\u1EDDi dùng m\\u1EDBi"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -66,43 +65,43 @@ msgstr "\\u0111\\u1ECBa ch\\u1EC9"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "M\\u1ED9t \\u0111\\u1ECBa ch\\u1EC9 email lÃ  b\\u1EAFt bu\\u1ED9c"
+msgstr "M\\u1ED9t\\u0111\\u1ECBa ch\\u1EC9 email là b\\u1EAFt bu\\u1ED9c"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "M\\u1ED9t nhÃ  \\u0111i\\u1EC1u hÃ nh lÃ  c\\u1EA7n thi\\u1EBFt"
+msgstr "M\\u1ED9t nhà\\u0111i\\u1EC1u hành là c\\u1EA7n thi\\u1EBFt"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "B\\u1EA3n c\\u1EADp nh\\u1EADt có s\\u1EB5n : B\\u1EA1n có mu\\u1ED1n t\\u1EA3i nó bây gi\\u1EDD?"
+msgstr "B\\u1EA3n c\\u1EADp nh\\u1EADt có s\\u1EB5n: B\\u1EA1n có mu\\u1ED1n t\\u1EA3i nó bây gi\\u1EDD?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "B\\u1EA3n c\\u1EADp nh\\u1EADt \\u0111Ã£ s\\u1EB5n sÃ ng"
+msgstr "B\\u1EA3n c\\u1EADp nh\\u1EADt\\u0111ã s\\u1EB5n sàng"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "B\\u1EA1n có th\\u1EF1c s\\u1EF1 ch\\u1EAFc ch\\u1EAFn \\u0111\\u1EC3 lo\\u1EA1i b\\u1ECF báo cáo d\\u1ECBch v\\u1EE5"
+msgstr "B\\u1EA1n có th\\u1EF1c s\\u1EF1 ch\\u1EAFc ch\\u1EAFn\\u0111\\u1EC3 lo\\u1EA1i b\\u1ECF báo cáo d\\u1ECBch v\\u1EE5"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "B\\u1EA1n có th\\u1EF1c s\\u1EF1 ch\\u1EAFc ch\\u1EAFn \\u0111\\u1EC3 lo\\u1EA1i b\\u1ECF ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
+msgstr "B\\u1EA1n có th\\u1EF1c s\\u1EF1 ch\\u1EAFc ch\\u1EAFn\\u0111\\u1EC3 lo\\u1EA1i b\\u1ECF ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "xÃ¡c th\\u1EF1c id"
+msgstr "Xác th\\u1EF1c id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Id xÃ¡c th\\u1EF1c c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
+msgstr "Id xác th\\u1EF1c c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "XÃ¡c th\\u1EF1c id :"
+msgstr "Xác th\\u1EF1c id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "cung c\\u1EA5p d\\u1ECBch v\\u1EE5 ch\\u1EE9ng th\\u1EF1c"
+msgstr "Cung c\\u1EA5p d\\u1ECBch v\\u1EE5 ch\\u1EE9ng th\\u1EF1c"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -114,39 +113,39 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "HÃ¬nh \\u1EA3nh avatar c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
+msgstr "Hình\\u1EA3nh avatar c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "B\\u1ED9 nh\\u1EDB cache \\u0111\\u01B0\\u1EE3c kh\\u1EDFi t\\u1EA1o"
+msgstr "B\\u1ED9 nh\\u1EDB cache\\u0111\\u01B0\\u1EE3c kh\\u1EDFi t\\u1EA1o"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Cache lÃ  trong tÃ¬nh tr\\u1EA1ng khÃ´ng rÃµ"
+msgstr "Cache là trong tình tr\\u1EA1ng không rõ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "B\\u1ED9 nh\\u1EDB cache không \\u0111\\u01B0\\u1EE3c c\\u1EADp nh\\u1EADt (có th\\u1EC3 là bi\\u1EC3u hi\\u1EC7n là không th\\u1EC3 truy c\\u1EADp )"
+msgstr "B\\u1ED9 nh\\u1EDB cache không\\u0111\\u01B0\\u1EE3c c\\u1EADp nh\\u1EADt(có th\\u1EC3 là bi\\u1EC3u hi\\u1EC7n là không th\\u1EC3 truy c\\u1EADp)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "B\\u1ED9 nh\\u1EDB cache không \\u0111\\u01B0\\u1EE3c c\\u1EADp nh\\u1EADt b\\u1EDFi vì b\\u1EA1n \\u0111ang offline"
+msgstr "B\\u1ED9 nh\\u1EDB cache không\\u0111\\u01B0\\u1EE3c c\\u1EADp nh\\u1EADt b\\u1EDFi vì b\\u1EA1n\\u0111ang offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cache lÃ  l\\u1ED7i th\\u1EDDi"
+msgstr "Cache là l\\u1ED7i th\\u1EDDi"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache lÃ  up-to- date"
+msgstr "Cache là up-to- date"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "TÃ¬nh tr\\u1EA1ng b\\u1ED9 nh\\u1EDB cache"
+msgstr "Tình tr\\u1EA1ng b\\u1ED9 nh\\u1EDB cache"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
@@ -154,23 +153,27 @@ msgstr "Ki\\u1EC3m tra s\\u1EF1 hi\\u1EC7n di\\u1EC7n c\\u1EE7a m\\u1ED9t b\\u1E
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ch\\u1EE9a kÃ½ t\\u1EF1 khÃ´ng h\\u1EE3p l\\u1EC7 (s)"
+msgstr "Codice Fiscale ch\\u1EE9a ký t\\u1EF1 không h\\u1EE3p l\\u1EC7(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale mÃ£ ki\\u1EC3m soÃ¡t khÃ´ng phÃ¹ h\\u1EE3p"
+msgstr "Codice Fiscale mã ki\\u1EC3m soát không phù h\\u1EE3p"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale ho\\u1EB7c P.IVA c\\u1EE7a khÃ¡ch hÃ ng"
+msgstr "Codice Fiscale ho\\u1EB7c P.IVA c\\u1EE7a khách hàng"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Logo cÃ´ng ty"
+msgstr "Logo công ty"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "K\\u1EBFt n\\u1ED1i s\\u1EED d\\u1EE5ng m\\u1ED9t trong các tài kho\\u1EA3n c\\u1EE7a b\\u1EA1n\\\"xã h\\u1ED9i\\\", ho\\u1EB7c\\u0111\\u0103ng nh\\u1EADp v\\u1EDBi các thông tin:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -186,67 +189,63 @@ msgstr "K\\u1EBFt n\\u1ED1i v\\u1EDBi Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "LiÃªn h\\u1EC7"
+msgstr "Liên h\\u1EC7"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "NgÃ´n ng\\u1EEF hi\\u1EC7n nay lÃ "
+msgstr "Ngôn ng\\u1EEF hi\\u1EC7n nay là"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "khÃ¡ch hÃ ng"
+msgstr "Khách hàng"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Th\\u1EBB khÃ¡ch hÃ ng"
+msgstr "Th\\u1EBB khách hàng"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "\\u0110\\u1ECBa ch\\u1EC9 email c\\u1EE7a khÃ¡ch hÃ ng"
+msgstr "\\u0110\\u1ECBa ch\\u1EC9 email c\\u1EE7a khách hàng"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "tÃªn khÃ¡ch hÃ ng"
+msgstr "Tên khách hàng"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "S\\u1ED1 \\u0111i\\u1EC7n tho\\u1EA1i c\\u1EE7a khÃ¡ch hÃ ng"
+msgstr "S\\u1ED1\\u0111i\\u1EC7n tho\\u1EA1i c\\u1EE7a khách hàng"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "\\u0110\\u1ECBa ch\\u1EC9 \\u0111\\u01B0\\u1EDDng ph\\u1ED1 c\\u1EE7a khách hàng"
+msgstr "\\u0110\\u1ECBa ch\\u1EC9\\u0111\\u01B0\\u1EDDng ph\\u1ED1 c\\u1EE7a khách hàng"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Ch\\u1EEF kÃ½ c\\u1EE7a khÃ¡ch hÃ ng"
+msgstr "Ch\\u1EEF ký c\\u1EE7a khách hàng"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "khÃ¡ch hÃ ng"
+msgstr "Khách hàng"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "ngÃ y"
+msgstr "Ngày"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "NgÃ y b\\u1EAFt \\u0111\\u1EA7u d\\u1ECBch v\\u1EE5"
+msgstr "Ngày b\\u1EAFt\\u0111\\u1EA7u d\\u1ECBch v\\u1EE5"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "xÃ³a khÃ¡ch hÃ ng"
+msgstr "Xóa khách hàng"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "XÃ³a bÃ¡o cÃ¡o d\\u1ECBch v\\u1EE5"
+msgstr "Xóa báo cáo d\\u1ECBch v\\u1EE5"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "xÃ³a thÃ nh viÃªn"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "Dog"
+msgstr "Xóa thành viên"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -262,19 +261,19 @@ msgstr "Th\\u1EDDi gian ph\\u1EE5c v\\u1EE5"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "S\\u1EEDa khÃ¡ch hÃ ng"
+msgstr "S\\u1EEDa khách hàng"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Ch\\u1EC9nh s\\u1EEDa bÃ¡o cÃ¡o d\\u1ECBch v\\u1EE5"
+msgstr "Ch\\u1EC9nh s\\u1EEDa báo cáo d\\u1ECBch v\\u1EE5"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "ch\\u1EC9nh s\\u1EEDa ng\\u01B0\\u1EDDi dÃ¹ng"
+msgstr "Ch\\u1EC9nh s\\u1EEDa ng\\u01B0\\u1EDDi dùng"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "email"
+msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
@@ -282,7 +281,7 @@ msgstr "\\u0111\\u1ECBa ch\\u1EC9 email"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "\\u0110\\u1ECBa ch\\u1EC9 email khÃ´ng h\\u1EE3p l\\u1EC7"
+msgstr "\\u0110\\u1ECBa ch\\u1EC9 email không h\\u1EE3p l\\u1EC7"
 
 #: app/views/users.html
 msgid "Email address of the user"
@@ -292,27 +291,21 @@ msgstr "\\u0110\\u1ECBa ch\\u1EC9 email c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\
 msgid "Email of the user"
 msgstr "Email c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "B\\u1ED9 l\\u1ECDc khÃ¡ch hÃ ng"
+msgstr "B\\u1ED9 l\\u1ECDc khách hàng"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "BÃ¡o cÃ¡o d\\u1ECBch v\\u1EE5 l\\u1ECDc"
+msgstr "Báo cáo d\\u1ECBch v\\u1EE5 l\\u1ECDc"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng b\\u1ED9 l\\u1ECDc"
+msgstr "Ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng b\\u1ED9 l\\u1ECDc"
 
 #: app/views/nav.html
 msgid "Home"
@@ -320,17 +313,15 @@ msgstr "Trang ch\\u1EE7"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Nó cho phép ng\\u01B0\\u1EDDi qu\\u1EA3n lý c\\u1EE7a khách hàng, \\u0111\\u01A1n \\u0111\\u1EB7t hàng và báo cáo d\\u1ECBch v\\u1EE5."
+msgstr "Nó cho phép ng\\u01B0\\u1EDDi qu\\u1EA3n lý c\\u1EE7a khách hàng,\\u0111\\u01A1n\\u0111\\u1EB7t hàng và báo cáo d\\u1ECBch v\\u1EE5."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "\\u0110ây là mã ngu\\u1ED3n m\\u1EDF, nhanh, g\\u1ECDn, m\\u1EDF r\\u1ED9ng,\\u0111àn h\\u1ED3i, qu\\u1ED1c t\\u1EBF và\\u0111i\\u1EC7n tho\\u1EA1i di\\u0111\\u1ED9ng."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -338,7 +329,7 @@ msgstr "\\u0110\\u1EBFn t\\u1EEB"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "V\\u1ECB trÃ­ c\\u1EE7a d\\u1ECBch v\\u1EE5"
+msgstr "V\\u1ECB trí c\\u1EE7a d\\u1ECBch v\\u1EE5"
 
 #: app/views/home.html
 msgid "Log in"
@@ -354,51 +345,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "tÃªn"
+msgstr "Tên"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "TÃªn c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
+msgstr "Tên c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "khÃ¡ch hÃ ng m\\u1EDBi"
+msgstr "Khách hàng m\\u1EDBi"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "bÃ¡o cÃ¡o m\\u1EDBi"
+msgstr "Báo cáo m\\u1EDBi"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Ng\\u01B0\\u1EDDi dÃ¹ng m\\u1EDBi"
+msgstr "Ng\\u01B0\\u1EDDi dùng m\\u1EDBi"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "KhÃ´ng cÃ³ b\\u1EA3n c\\u1EADp nh\\u1EADt hi\\u1EC7n nay"
+msgstr "Không có b\\u1EA3n c\\u1EADp nh\\u1EADt hi\\u1EC7n nay"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Ghi chÃº"
+msgstr "Ghi chú"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "s\\u1ED1"
+msgstr "S\\u1ED1"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "\\u0111i\\u1EC1u hÃ nh"
+msgstr "\\u0111i\\u1EC1u hành"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "NhÃ  \\u0111i\\u1EC1u hÃ nh d\\u1ECBch v\\u1EE5"
+msgstr "Nhà\\u0111i\\u1EC1u hành d\\u1ECBch v\\u1EE5"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Ch\\u1EEF kÃ½ \\u0111i\\u1EC1u hÃ nh c\\u1EE7a"
+msgstr "Ch\\u1EEF ký\\u0111i\\u1EC1u hành c\\u1EE7a"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "\\u0110\\u01A1n \\u0111\\u1EB7t hÃ ng"
+msgstr "\\u0110\\u01A1n\\u0111\\u1EB7t hàng"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,11 +397,11 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ch\\u1EE9a kÃ½ t\\u1EF1 khÃ´ng h\\u1EE3p l\\u1EC7 (s)"
+msgstr "P.IVA ch\\u1EE9a ký t\\u1EF1 không h\\u1EE3p l\\u1EC7(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "MÃ£ \\u0111i\\u1EC1u khi\\u1EC3n P.IVA khÃ´ng phÃ¹ h\\u1EE3p"
+msgstr "Mã\\u0111i\\u1EC1u khi\\u1EC3n P.IVA không phù h\\u1EE3p"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -418,15 +409,15 @@ msgstr "\\u0110i\\u1EC7n tho\\u1EA1i"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "s\\u1ED1 \\u0111i\\u1EC7n tho\\u1EA1i"
+msgstr "S\\u1ED1\\u0111i\\u1EC7n tho\\u1EA1i"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "S\\u1ED1 \\u0111i\\u1EC7n tho\\u1EA1i khÃ´ng h\\u1EE3p l\\u1EC7"
+msgstr "S\\u1ED1\\u0111i\\u1EC7n tho\\u1EA1i không h\\u1EE3p l\\u1EC7"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "n\\u01A1i"
+msgstr "N\\u01A1i"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -438,39 +429,35 @@ msgstr "In"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "In khÃ¡ch hÃ ng"
+msgstr "In khách hàng"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "BÃ¡o cÃ¡o d\\u1ECBch v\\u1EE5 in \\u1EA5n"
+msgstr "Báo cáo d\\u1ECBch v\\u1EE5 in\\u1EA5n"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng In"
+msgstr "Ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng In"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "NhÃ  cung c\\u1EA5p"
+msgstr "Nhà cung c\\u1EA5p"
 
 #: app/views/home.html
 msgid "Register"
-msgstr "\\u0110\\u0103ng kÃ½"
+msgstr "\\u0110\\u0103ng ký"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Vai trÃ²"
+msgstr "Vai trò"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Vai trò cho ng\\u01B0\\u1EDDi dùng này; Nh\\u1EA5n vào\\u0111ây\\u0111\\u1EC3 tr\\u01B0\\u1EE3t qua t\\u1EA5t c\\u1EA3 các n\\u01B0\\u1EDBc( RW-\\u003e R-\\u003e W-\\u003e không có)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Vai trò c\\u1EE7a ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng: màu xanh lá cây cho phép\\u0111\\u1ECDc và vi\\u1EBFt, có ngh\\u0129a là màu vàng ch\\u1EC9\\u0111\\u1ECDc, màu xanh ch\\u1EC9 vi\\u1EBFt, và màu\\u0111\\u1ECF không có s\\u1EF1 cho phép. Ph\\u1EA7n là:'u'(ng\\u01B0\\u1EDDi dùng),'c'(khách hàng),'o'(\\u0111\\u01A1n\\u0111\\u1EB7t hàng),'s'( báo cáo d\\u1ECBch v\\u1EE5)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,63 +465,63 @@ msgstr "L\\u01B0u"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "bÃ¡o cÃ¡o d\\u1ECBch v\\u1EE5"
+msgstr "Báo cáo d\\u1ECBch v\\u1EE5"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "D\\u1ECBch v\\u1EE5 bÃ¡o cÃ¡o n"
+msgstr "D\\u1ECBch v\\u1EE5 báo cáo n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "d\\u1ECBch v\\u1EE5 bÃ¡o cÃ¡o"
+msgstr "D\\u1ECBch v\\u1EE5 báo cáo"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "thi\\u1EBFt l\\u1EADp"
+msgstr "Thi\\u1EBFt l\\u1EADp"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "\\u0111\\u1ECBa ch\\u1EC9 \\u0111\\u01B0\\u1EDDng ph\\u1ED1"
+msgstr "\\u0111\\u1ECBa ch\\u1EC9\\u0111\\u01B0\\u1EDDng ph\\u1ED1"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "TÃªn khÃ¡ch hÃ ng nÃ y \\u0111Ã£ \\u0111\\u01B0\\u1EE3c s\\u1EED d\\u1EE5ng"
+msgstr "Tên khách hàng này\\u0111ã\\u0111\\u01B0\\u1EE3c s\\u1EED d\\u1EE5ng"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "TÃªn khÃ¡ch hÃ ng nÃ y khÃ´ng h\\u1EE3p l\\u1EC7"
+msgstr "Tên khách hàng này không h\\u1EE3p l\\u1EC7"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "\\u0110Ã¢y lÃ "
+msgstr "\\u0110ây là"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Thành viên này có th\\u1EC3 c\\u0169ng không \\u0111\\u1ECDc , không bi\\u1EBFt vi\\u1EBFt"
+msgstr "Thành viên này có th\\u1EC3 c\\u0169ng không\\u0111\\u1ECDc, không bi\\u1EBFt vi\\u1EBFt"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "ThÃ nh viÃªn nÃ y cÃ³ th\\u1EC3 \\u0111\\u1ECDc"
+msgstr "Thành viên này có th\\u1EC3\\u0111\\u1ECDc"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "ThÃ nh viÃªn nÃ y cÃ³ th\\u1EC3 \\u0111\\u1ECDc vÃ  vi\\u1EBFt"
+msgstr "Thành viên này có th\\u1EC3\\u0111\\u1ECDc và vi\\u1EBFt"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "ThÃ nh viÃªn nÃ y cÃ³ th\\u1EC3 vi\\u1EBFt"
+msgstr "Thành viên này có th\\u1EC3 vi\\u1EBFt"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "ThÃ nh viÃªn nÃ y khÃ´ng th\\u1EC3 truy c\\u1EADp"
+msgstr "Thành viên này không th\\u1EC3 truy c\\u1EADp"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Tên ng\\u01B0\\u1EDDi dùng này \\u0111ã \\u0111\\u01B0\\u1EE3c s\\u1EED d\\u1EE5ng"
+msgstr "Tên ng\\u01B0\\u1EDDi dùng này\\u0111ã\\u0111\\u01B0\\u1EE3c s\\u1EED d\\u1EE5ng"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "TÃªn ng\\u01B0\\u1EDDi dÃ¹ng nÃ y khÃ´ng h\\u1EE3p l\\u1EC7"
+msgstr "Tên ng\\u01B0\\u1EDDi dùng này không h\\u1EE3p l\\u1EC7"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
@@ -542,35 +529,35 @@ msgstr "Giá tr\\u1ECB này c\\u0169ng không ph\\u1EA3i là Fiscale Codice c\\u
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Th\\u1EDDi gian ph\\u1EE5c v\\u1EE5 b\\u1EAFt \\u0111\\u1EA7u"
+msgstr "Th\\u1EDDi gian ph\\u1EE5c v\\u1EE5 b\\u1EAFt\\u0111\\u1EA7u"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "\\u0111\\u1ECBnh h\\u01B0\\u1EDBng chuy\\u1EC3n \\u0111\\u1ED5i"
+msgstr "\\u0111\\u1ECBnh h\\u01B0\\u1EDBng chuy\\u1EC3n\\u0111\\u1ED5i"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "\\u0110\\u1ECBa ch\\u1EC9 email ng\\u01B0\\u1EDDi dÃ¹ng"
+msgstr "\\u0110\\u1ECBa ch\\u1EC9 email ng\\u01B0\\u1EDDi dùng"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "tÃªn ng\\u01B0\\u1EDDi dÃ¹ng"
+msgstr "Tên ng\\u01B0\\u1EDDi dùng"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "TÃªn \\u0111\\u0103ng nh\\u1EADp"
+msgstr "Tên\\u0111\\u0103ng nh\\u1EADp"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
+msgstr "Ng\\u01B0\\u1EDDi s\\u1EED d\\u1EE5ng"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "B\\u1EA1n \\u0111ang \\u1EA9n"
+msgstr "B\\u1EA1n\\u0111ang\\u1EA9n"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "B\\u1EA1n \\u0111ang tr\\u1EF1c tuy\\u1EBFn"
+msgstr "B\\u1EA1n\\u0111ang tr\\u1EF1c tuy\\u1EBFn"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -586,7 +573,7 @@ msgstr "ki\\u1EC3m tra"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "khÃ¡ch hÃ ng"
+msgstr "khách hàng"
 
 #: app/scripts/app.js
 msgid "downloading"
@@ -598,11 +585,11 @@ msgstr "l\\u1ED7i"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "trang ch\\u1EE7 cho ng\\u01B0\\u1EDDi dÃ¹ng khÃ´ng \\u0111\\u0103ng kÃ½ ."
+msgstr "trang ch\\u1EE7 cho ng\\u01B0\\u1EDDi dùng không\\u0111\\u0103ng ký."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "trang ch\\u1EE7 cho ng\\u01B0\\u1EDDi dÃ¹ng registerd ."
+msgstr "trang ch\\u1EE7 cho ng\\u01B0\\u1EDDi dùng registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,11 +597,11 @@ msgstr "kh\\u1EDFi t\\u1EA1o"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "là m\\u1ED9t \\u1EE9ng d\\u1EE5ng web cho ( thông minh) b\\u1EAFt \\u0111\\u1EA7u -up."
+msgstr "là m\\u1ED9t\\u1EE9ng d\\u1EE5ng web cho( thông minh) b\\u1EAFt\\u0111\\u1EA7u-up."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "ng\\u01B0\\u1EDDi dÃ¹ng \\u0111\\u0103ng nh\\u1EADp"
+msgstr "ng\\u01B0\\u1EDDi dùng\\u0111\\u0103ng nh\\u1EADp"
 
 #: app/scripts/app.js
 msgid "obsolete"
@@ -622,11 +609,11 @@ msgstr "l\\u1ED7i th\\u1EDDi"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "\\u0111\\u01A1n \\u0111\\u1EB7t hÃ ng"
+msgstr "\\u0111\\u01A1n\\u0111\\u1EB7t hàng"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "n\\u1EBFu không \\u0111\\u0103ng ký m\\u1ED9t accout và \\u0111\\u0103ng nh\\u1EADp ."
+msgstr "n\\u1EBFu không\\u0111\\u0103ng ký m\\u1ED9t accout và\\u0111\\u0103ng nh\\u1EADp."
 
 #: app/views/home.html
 msgid "password:"
@@ -634,7 +621,7 @@ msgstr "m\\u1EADt kh\\u1EA9u:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "ti\\u1EBFn \\u0111\\u1ED9"
+msgstr "ti\\u1EBFn\\u0111\\u1ED9"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -646,7 +633,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "tÃªn ng\\u01B0\\u1EDDi dÃ¹ng:"
+msgstr "tên ng\\u01B0\\u1EDDi dùng:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

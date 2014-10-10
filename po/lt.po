@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,7 +17,7 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Italijos mokesÃ¨iÃ¸ arbaP. IVA reikalingas"
+msgstr "Italijos mokesèiø arbaP. IVA reikalingas"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
@@ -25,16 +25,15 @@ msgstr "Kliento vardas reikalingas"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "PaslaugÃ¸ pradÃ¾ios data yra reikalaujama"
+msgstr "Paslaugø pradþios data yra reikalaujama"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Trukmë turi bûti tokios formos\\\" hh\\\" arba\\\" hh: mm\\\", ir ne maþiau kaip vienà minutæ ilgai"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "PaslaugÃ¸ vieta yra reikalinga"
+msgstr "Paslaugø vieta yra reikalinga"
 
 #: app/views/customers.html
 msgid "A phone number is required"
@@ -42,11 +41,11 @@ msgstr "Telefono numeris yra reikalingas"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "GatvÃ« yra bÃ»tinas"
+msgstr "Gatvë yra bûtinas"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "Vartotojo vardas bÃ»tinas"
+msgstr "Vartotojo vardas bûtinas"
 
 #: app/views/nav.html
 msgid "About"
@@ -54,11 +53,11 @@ msgstr "Viskas"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "PridÃ«ti naujÃ  vartotojÃ "
+msgstr "Pridëti naujà vartotojà"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Sukurti naujÃ  vartotojÃ "
+msgstr "Sukurti naujà vartotojà"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -66,7 +65,7 @@ msgstr "Adresas"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "PaÃ°to adresas yra bÃ»tinas"
+msgstr "Paðto adresas yra bûtinas"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
@@ -74,7 +73,7 @@ msgstr "Operatorius privalo"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Atnaujinimas yra prieinama : norite Ã¡kelti jÃ¡ dabar ?"
+msgstr "Atnaujinimas yra prieinama: norite ákelti já dabar?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -82,31 +81,31 @@ msgstr "Atnaujinimas yra pasirengusi"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ar tikrai paÃ°alinti paslaugÃ¸ ataskaitÃ "
+msgstr "Ar tikrai paðalinti paslaugø ataskaità"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ar tikrai paÃ°alinti vartotojÃ "
+msgstr "Ar tikrai paðalinti vartotojà"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "AtpaÃ¾inimas id"
+msgstr "Atpaþinimas id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "AtpaÃ¾inimas tapatybÃ«s vartotojas"
+msgstr "Atpaþinimas tapatybës vartotojas"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "AtpaÃ¾inimas id:"
+msgstr "Atpaþinimas id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "AtpaÃ¾inimas teikÃ«jas"
+msgstr "Atpaþinimas teikëjas"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "AtpaÃ¾inimas teikÃ«jas vartotojui"
+msgstr "Atpaþinimas teikëjas vartotojui"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -118,7 +117,7 @@ msgstr "Avatar vartotojas"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C. F. / P. IVA"
+msgstr "C. F./ P. IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -126,15 +125,15 @@ msgstr "Talpykla yra inicializuoti"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Talpykla yra neÃ¾inoma valstybÃ«s"
+msgstr "Talpykla yra neþinoma valstybës"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache nÃ«ra atnaujinamas ( tikriausiaimanifestas yra nepasiekiamas )"
+msgstr "Cache nëra atnaujinamas( tikriausiaimanifestas yra nepasiekiamas)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Talpykla yra atnaujinama ne todÃ«l, kad esate neprisijungÃ¦s"
+msgstr "Talpykla yra atnaujinama ne todël, kad esate neprisijungæs"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -150,27 +149,31 @@ msgstr "Cache statusas"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Tikrinimas dÃ«l atnaujinimo buvimÃ "
+msgstr "Tikrinimas dël atnaujinimo buvimà"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Italijos mokesÃ¨iÃ¸ / P. IVA"
+msgstr "Italijos mokesèiø/ P. IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Italijos mokesÃ¨iÃ¸ yra neleistinÃ¸ simboliÃ¸ (s)"
+msgstr "Italijos mokesèiø yra neleistinø simboliø(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Italijos mokesÃ¨iÃ¸ kontrolÃ« kodas nesutampa"
+msgstr "Italijos mokesèiø kontrolë kodas nesutampa"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Italijos mokesÃ¨iÃ¸ arba P. IVA kliento"
+msgstr "Italijos mokesèiø arba P. IVA kliento"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "ÃmonÃ«s logotipas"
+msgstr "Ámonës logotipas"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Prijunkite naudodami vienà ið jûsø\\\"socialiniø\\\" sàskaitas arba prisijunkite ðiø ágaliojimø:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -178,7 +181,7 @@ msgstr "Susisiekti su Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Susisiekti su \\\"Google+\\\""
+msgstr "Susisiekti su\\\"Google+\\\""
 
 #: app/views/home.html
 msgid "Connect with Twitter"
@@ -194,31 +197,31 @@ msgstr "Dabartinis kalba"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "KlientÃ¸"
+msgstr "Klientø"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "KlientÃ¸ kortelÃ«"
+msgstr "Klientø kortelë"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "KlientÃ¸ paÃ°to adresas"
+msgstr "Klientø paðto adresas"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "KlientÃ¸ vardas"
+msgstr "Klientø vardas"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "KlientÃ¸ telefono numeris"
+msgstr "Klientø telefono numeris"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "KlientÃ¸ gatvÃ«"
+msgstr "Klientø gatvë"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Kliento paraÃ°as"
+msgstr "Kliento paraðas"
 
 #: app/views/nav.html
 msgid "Customers"
@@ -226,39 +229,35 @@ msgstr "Klientai"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "data"
+msgstr "Data"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Ãteikimo data pradÃ¾ios"
+msgstr "Áteikimo data pradþios"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "IÃ°trinti klientui"
+msgstr "Iðtrinti klientui"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "IÃ°trinti paslaugÃ¸ ataskaitÃ "
+msgstr "Iðtrinti paslaugø ataskaità"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "IÃ°trinti vartotojÃ "
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "ðuo"
+msgstr "Iðtrinti vartotojà"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "AtsisiÃ¸sti atnaujinimÃ "
+msgstr "Atsisiøsti atnaujinimà"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "TrukmÃ«"
+msgstr "Trukmë"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "TrukmÃ« paslaugÃ¸"
+msgstr "Trukmë paslaugø"
 
 #: app/views/customers.html
 msgid "Edit customer"
@@ -270,37 +269,31 @@ msgstr "Redaguoti tarnyba ataskaita"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Redaguoti vartotojÃ "
+msgstr "Redaguoti vartotojà"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "paÃ°tas"
+msgstr "Paðtas"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "paÃ°to adresas"
+msgstr "Paðto adresas"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "PaÃ°to adresas negalioja"
+msgstr "Paðto adresas negalioja"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "PaÃ°to adresas vartotojas"
+msgstr "Paðto adresas vartotojas"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "PaÃ°tas vartotojas"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
+msgstr "Paðtas vartotojas"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "faksas"
+msgstr "Faksas"
 
 #: app/views/customers.html
 msgid "Filter customers"
@@ -308,7 +301,7 @@ msgstr "Filtruoti klientai"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Filtras paslaugÃ¸ ataskaitos"
+msgstr "Filtras paslaugø ataskaitos"
 
 #: app/views/users.html
 msgid "Filter users"
@@ -324,13 +317,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Tai leidÃ¾ia klientams , uÃ¾sakymÃ¸ ir paslaugÃ¸ ataskaitÃ¸ valdymÃ ."
+msgstr "Tai leidþia klientams, uþsakymø ir paslaugø ataskaitø valdymà."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Tai atviro kodo, greitas, kompaktiðkas, iðplëstine, tamprûs, tarptautinis ir mobili."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -366,7 +357,7 @@ msgstr "Naujas klientas"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Naujas praneÃ°imas"
+msgstr "Naujas praneðimas"
 
 #: app/views/users.html
 msgid "New user"
@@ -374,7 +365,7 @@ msgstr "Naujas vartotojas"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "NÃ«ra atnaujinimas bÃ»na"
+msgstr "Nëra atnaujinimas bûna"
 
 #: app/views/serviceReports.html
 msgid "Notes"
@@ -382,7 +373,7 @@ msgstr "Pastabos"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "skaiÃ¨ius"
+msgstr "Skaièius"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -390,15 +381,15 @@ msgstr "Operatoriaus"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Operatoriaus paslaugÃ¸"
+msgstr "Operatoriaus paslaugø"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Operatoriaus paraÃ°as"
+msgstr "Operatoriaus paraðas"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "UÃ¾sakymai"
+msgstr "Uþsakymai"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,11 +397,11 @@ msgstr "P. IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P. IVA yra neleistinÃ¸ simboliÃ¸ (s)"
+msgstr "P. IVA yra neleistinø simboliø(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P. IVA kontrolÃ« kodas nesutampa"
+msgstr "P. IVA kontrolë kodas nesutampa"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -430,7 +421,7 @@ msgstr "Vieta"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "PasiruoÃ°imasatsisiÃ¸sti atnaujinimÃ "
+msgstr "Pasiruoðimasatsisiøsti atnaujinimà"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -450,7 +441,7 @@ msgstr "Spausdinti vartotojas"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "teikÃ«jas"
+msgstr "Teikëjas"
 
 #: app/views/home.html
 msgid "Register"
@@ -461,48 +452,44 @@ msgid "Roles"
 msgstr "Vaidmenys"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Vaidmenys ðá klientà; spustelëkite skaidræ per visas valstybes(RW-\\u003e R-\\u003e W-\\u003e nëra)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Vaidmenys vartotojo: þalia spalva rodo leidimà skaityti ir raðyti, geltona reiðkia tik skaityti, mëlyna tik raðyti, ir raudona jokio leidimo. Profiliai yra:\\\"U\\\"( vartotojai),\\\"C\\\"( klientai),\\\"O\\\"( uþsakymai),\\\"S\\\"(paslaugø ataskaitos)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "IÃ°saugoti"
+msgstr "Iðsaugoti"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "PaslaugÃ¸ ataskaita"
+msgstr "Paslaugø ataskaita"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "PaslaugÃ¸ ataskaita n"
+msgstr "Paslaugø ataskaita n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "PaslaugÃ¸ praneÃ°imai"
+msgstr "Paslaugø praneðimai"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "SÃ ranka"
+msgstr "Sàranka"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "adresas su gatvÃ«s pavadinimu"
+msgstr "Adresas su gatvës pavadinimu"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ãis klientas vardas jau naudojamas"
+msgstr "Ðis klientas vardas jau naudojamas"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ãis klientas vardas negalioja"
+msgstr "Ðis klientas vardas negalioja"
 
 #: app/views/home.html
 msgid "This is"
@@ -510,39 +497,39 @@ msgstr "Tai yra"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ãis vartotojas negali nei skaityti, nei raÃ°yti"
+msgstr "Ðis vartotojas negali nei skaityti, nei raðyti"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ãis vartotojas gali skaityti"
+msgstr "Ðis vartotojas gali skaityti"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ãis vartotojas gali skaityti ir raÃ°yti"
+msgstr "Ðis vartotojas gali skaityti ir raðyti"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ãis vartotojas gali raÃ°yti"
+msgstr "Ðis vartotojas gali raðyti"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ãis vartotojas negali naudotis"
+msgstr "Ðis vartotojas negali naudotis"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ãis vartotojo vardas jau yra naudojamas"
+msgstr "Ðis vartotojo vardas jau yra naudojamas"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ãis vartotojo vardas negalioja"
+msgstr "Ðis vartotojo vardas negalioja"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ãi vertÃ« yra neiItalijos mokesÃ¨iÃ¸ neiP. IVA"
+msgstr "Ði vertë yra neiItalijos mokesèiø neiP. IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Laikas PaslaugÃ¸ pradÃ¾ios"
+msgstr "Laikas Paslaugø pradþios"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
@@ -550,7 +537,7 @@ msgstr "Perjungti navigacija"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Vartotojas paÃ°to adresas"
+msgstr "Vartotojas paðto adresas"
 
 #: app/views/users.html
 msgid "User name"
@@ -566,11 +553,11 @@ msgstr "Vartotojai"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "JÃ»s esate neprisijungÃ¦s"
+msgstr "Jûs esate neprisijungæs"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "JÃ»s esate prisijungÃ¦s"
+msgstr "Jûs esate prisijungæs"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -578,7 +565,7 @@ msgstr "talpyklos"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "atÃ°aukti"
+msgstr "atðaukti"
 
 #: app/scripts/app.js
 msgid "checking"
@@ -586,7 +573,7 @@ msgstr "tikrinti"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "klientÃ¸"
+msgstr "klientø"
 
 #: app/scripts/app.js
 msgid "downloading"
@@ -598,43 +585,43 @@ msgstr "klaida"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "namÃ¸ puslapis ne registruotiems vartotojams."
+msgstr "namø puslapis ne registruotiems vartotojams."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "namÃ¸ puslapis Registerd vartotojams."
+msgstr "namø puslapis Registerd vartotojams."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Inicijuojama"
+msgstr "inicijuojama"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "yrainterneto paraiÃ°kÃ  ( smart ) steigimui."
+msgstr "yrainterneto paraiðkà( smart) steigimui."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "PrisijungÃ¦s vartotojas"
+msgstr "prisijungæs vartotojas"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "pasenÃ¦s"
+msgstr "pasenæs"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "uÃ¾sakymai"
+msgstr "uþsakymai"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "kitaip uÃ¾registruoti naujÃ  accout ir prisijunkite ."
+msgstr "kitaip uþregistruoti naujà accout ir prisijunkite."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "slaptaÃ¾odis:"
+msgstr "slaptaþodis:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "paÃ¾anga"
+msgstr "paþanga"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -650,4 +637,4 @@ msgstr "vardas:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "VartotojÃ¸"
+msgstr "vartotojø"

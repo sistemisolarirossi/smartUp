@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: no\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "(tt : mm )"
+msgstr "(tt: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "En dato for tjeneste start er nødvendig"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "En varighet må være i form' tt' eller' hh: mm', og i det minste ett minutt lang"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -62,7 +61,7 @@ msgstr "Legg til ny bruker"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "adresse"
+msgstr "Adresse"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "En operatør er nødvendig"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "En oppdatering er tilgjengelig : ønsker du å laste den ned nå ?"
+msgstr "En oppdatering er tilgjengelig: ønsker du å laste den ned nå?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -90,7 +89,7 @@ msgstr "Er du virkelig sikker på å fjerne bruker"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "autentisering id"
+msgstr "Autentisering id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
@@ -98,11 +97,11 @@ msgstr "Autentisering id til brukeren"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Autentisering id :"
+msgstr "Autentisering id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "autentisering leverandør"
+msgstr "Autentisering leverandør"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -118,7 +117,7 @@ msgstr "Avatar bilde av brukeren"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache er i ukjent tilstand"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache er ikke oppdatert (sannsynligvis manifestet er ikke nås )"
+msgstr "Cache er ikke oppdatert(sannsynligvis manifestet er ikke nås)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Cache er foreldet"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache er up -to -date"
+msgstr "Cache er up-to-date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Kontroll for tilstedeværelsen av en oppdatering"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale inneholder ugyldige tegn ( s )"
+msgstr "Codice Fiscale inneholder ugyldige tegn( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -170,7 +169,11 @@ msgstr "Codice Fiscale eller P.IVA av kunden"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "selskapets logo"
+msgstr "Selskapets logo"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Koble til med en av dine\\\"sosiale\\\" kontoer, eller logge inn med disse legitimasjon:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -194,11 +197,11 @@ msgstr "Gjeldende språk er"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "kunde"
+msgstr "Kunde"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "kundekort"
+msgstr "Kundekort"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
@@ -206,7 +209,7 @@ msgstr "Kunde e-postadresse"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "kundenavn"
+msgstr "Kundenavn"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -222,7 +225,7 @@ msgstr "Kundens signatur"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "kunder"
+msgstr "Kunder"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -243,10 +246,6 @@ msgstr "Slett servicerapporten"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "Slett bruker"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "Dog"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -278,7 +277,7 @@ msgstr "E-post"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "e-postadresse"
+msgstr "E-postadresse"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -291,12 +290,6 @@ msgstr "E-post adressen til brukeren"
 #: app/views/users.html
 msgid "Email of the user"
 msgstr "E-post til brukeren"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -324,13 +317,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Det gjør at forvaltningen av kunder , ordrer og servicerapporter ."
+msgstr "Det gjør at forvaltningen av kunder, ordrer og servicerapporter."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Det er open-source, rask, kompakt, utvidbar, spenstig, internasjonal og mobil."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -354,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "navn"
+msgstr "Navn"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -362,15 +353,15 @@ msgstr "Navn på brukeren"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "ny kunde"
+msgstr "Ny kunde"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "ny rapport"
+msgstr "Ny rapport"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "ny bruker"
+msgstr "Ny bruker"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -378,15 +369,15 @@ msgstr "Ingen oppdatering er til stede"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "notater"
+msgstr "Notater"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "antall"
+msgstr "Antall"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operatør"
+msgstr "Operatør"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -398,7 +389,7 @@ msgstr "Operatørens underskrift"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "bestillinger"
+msgstr "Bestillinger"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA inneholder ugyldige tegn ( s )"
+msgstr "P.IVA inneholder ugyldige tegn( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -418,7 +409,7 @@ msgstr "Telefon"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "telefonnummer"
+msgstr "Telefonnummer"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -426,7 +417,7 @@ msgstr "Telefonnummer er ikke gyldig"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "sted"
+msgstr "Sted"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -450,7 +441,7 @@ msgstr "Print bruker"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "leverandør"
+msgstr "Leverandør"
 
 #: app/views/home.html
 msgid "Register"
@@ -458,19 +449,15 @@ msgstr "Registrer"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "roller"
+msgstr "Roller"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Roller for denne brukeren; Klikk for å gli gjennom alle stater(RW-\\u003e R-\\u003e W-\\u003e ingen)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Roller av brukeren: grønn farge indikerer tillatelse for lese og skrive, gul betyr bare lese, blå bare skrive, og rødt ingen tillatelse. Seksjoner er:'u'(brukere),'c'(kunder),'O'( bestillinger),'S'( servicerapporter)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Lagre"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "servicerapporten"
+msgstr "Servicerapporten"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,7 +473,7 @@ msgstr "Servicerapporten n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "servicerapporter"
+msgstr "Servicerapporter"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -554,7 +541,7 @@ msgstr "Bruker e-postadresse"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "brukernavn"
+msgstr "Brukernavn"
 
 #: app/views/users.html
 msgid "Username"
@@ -562,7 +549,7 @@ msgstr "Brukernavn"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "brukere"
+msgstr "Brukere"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -598,7 +585,7 @@ msgstr "error"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "hjemmesiden for ikke registrerte brukere ."
+msgstr "hjemmesiden for ikke registrerte brukere."
 
 #: app/views/home.html
 msgid "home page for registerd users."
@@ -610,11 +597,11 @@ msgstr "initialisering"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "er en webapplikasjon for ( smart) start- ups ."
+msgstr "er en webapplikasjon for( smart) start- ups."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Loggbruker"
+msgstr "loggbruker"
 
 #: app/scripts/app.js
 msgid "obsolete"

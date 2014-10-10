@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: zh-cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh-cn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Â·Ã¾ÃÃ±Â¿ÂªÃÂ¼ÂµÃÃÃÃÃÃÃ¨ÃÂª"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Â³ÃÃÃ¸ÃÂ±Â¼Ã¤Â±ÃÃÃ«ÃÃÃÃÃÃÃÂ½' HH'Â»Ã²' HHÂ£ÂºMM Â¡Â° Â£Â¬ÂºÃÃÃÃÃÃÂ»Â·ÃÃÃÂ³Â¤"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -38,7 +37,7 @@ msgstr "Â·Ã¾ÃÃ±ÂµÃÃÂ»ÃÃÃÃÂ±ÃÃÃ¨ÂµÃ
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "ÂµÃ§Â»Â°ÂºÃÃÃ«ÃÃÂ±ÃÃÃ¨ÂµÃ"
+msgstr "ÎµÃ§Â»Â°ÂºÃÃÃ«ÃÃÂ±ÃÃÃ¨ÂµÃ"
 
 #: app/views/customers.html
 msgid "A street address is required"
@@ -62,11 +61,11 @@ msgstr "ÃÃ­Â¼ÃÃÃÃÃÂ»Â§"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "ÂµÃÃÂ·"
+msgstr "ÎµÃÃÂ·"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "ÂµÃ§ÃÃÃÃÂ¼Ã¾ÂµÃÃÂ·ÃÃÂ±ÃÃÃ¨ÂµÃ"
+msgstr "ÎµÃ§ÃÃÃÃÂ¼Ã¾ÂµÃÃÂ·ÃÃÂ±ÃÃÃ¨ÂµÃ"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
@@ -118,7 +117,7 @@ msgstr "ÃÃÂ»Â§ÃÂ·ÃÃ±ÃÂ¼ÃÂ¬"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. /ÃÂ°ÂºÃ"
+msgstr "C.F./ÃÂ°ÂºÃ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -154,7 +153,7 @@ msgstr "Â¼Ã¬Â²Ã©ÃÃÂ·Ã±ÃÃÂ¸Ã¼ÃÃÂµÃÂ´Ã¦
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale /ÃÂ°ÂºÃ"
+msgstr "Codice Fiscale/ÃÂ°ÂºÃ"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
@@ -171,6 +170,10 @@ msgstr "Codice FiscaleÂ»Ã²Â¿ÃÂ»Â§ÂµÃP.IVA"
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Â¹Â«ÃÂ¾Â±ÃªÃÂ¾"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "ÃÂ¨Â¹Ã½ÃÂ¬Â½ÃÃÃ£ÂµÃÂ¡Â°ÃÃ§Â½Â»Â¡Â±ÂµÃÃÂ»Â¸Ã¶ÃÃÂ»Â§Â£Â¬Â»Ã²ÃÃ«ÃÃ¢ÃÂ©ÃÂ¾Â¾ÃÂµÃÃÂ¼Â£Âº"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -190,7 +193,7 @@ msgstr "ÃÂªÃÂµÂ·Â½ÃÂ½"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "ÂµÂ±ÃÂ°ÃÃ¯ÃÃ"
+msgstr "ÎµÂ±ÃÂ°ÃÃ¯ÃÃ"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -244,10 +247,6 @@ msgstr "ÃÂ¾Â³Ã½Â·Ã¾ÃÃ±Â±Â¨Â¸Ã¦"
 msgid "Delete user"
 msgstr "ÃÂ¾Â³Ã½ÃÃÂ»Â§"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "¹·"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "ÃÃÃÃÂ¸Ã¼ÃÃ"
@@ -274,15 +273,15 @@ msgstr "Â±Ã Â¼Â­ÃÃÂ»Â§"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "ÂµÃ§ÃÃÃÃÂ¼Ã¾"
+msgstr "ÎµÃ§ÃÃÃÃÂ¼Ã¾"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "ÂµÃ§ÃÃÃÃÂ¼Ã¾ÂµÃÃÂ·"
+msgstr "ÎµÃ§ÃÃÃÃÂ¼Ã¾ÂµÃÃÂ·"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "ÂµÃ§ÃÃÃÃÂ¼Ã¾ÂµÃÃÂ·ÃÃÃÂ§"
+msgstr "ÎµÃ§ÃÃÃÃÂ¼Ã¾ÂµÃÃÂ·ÃÃÃÂ§"
 
 #: app/views/users.html
 msgid "Email address of the user"
@@ -290,13 +289,7 @@ msgstr "ÃÃÂ»Â§ÂµÃÂµÃ§ÃÃÃÃÂ¼Ã¾ÂµÃÃÂ·
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "ÂµÃ§ÃÃÃÃÂ¼Ã¾ÃÃÂ»Â§"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
+msgstr "ÎµÃ§ÃÃÃÃÂ¼Ã¾ÃÃÂ»Â§"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -327,10 +320,8 @@ msgid "It allows the management of customers, orders and service reports."
 msgstr "ÃÃ¼ÃÃÃÃ­Â¿ÃÂ»Â§Â£Â¬Â¶Â©ÂµÂ¥ÂºÃÂ·Ã¾ÃÃ±Â±Â¨Â¸Ã¦ÂµÃÂ¹ÃÃÃ­Â¡Â£"
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "ÃÃ¼ÃÃÂ¿ÂªÃÂ´ÂµÃÂ£Â¬Â¿Ã¬ÃÃÂ£Â¬ÃÂ¡ÃÃÂ£Â¬Â¿ÃÃÂ©ÃÂ¹ÂµÃÂ£Â¬ÂµÂ¯ÃÃÂµÃÂ£Â¬Â¹ÃºÂ¼ÃÂ»Â¯ÂºÃÃÃÂ¶Â¯Â¡Â£"
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -342,7 +333,7 @@ msgstr "Â·Ã¾ÃÃ±ÂµÃÂµÃ£"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "ÂµÃÃÂ¼"
+msgstr "ÎµÃÃÂ¼"
 
 #: app/views/nav.html
 msgid "Log out"
@@ -414,19 +405,19 @@ msgstr "ÃÂ°ÂºÃÂ¿ÃÃÃÃÃ«Â²Â»ÃÂ¥ÃÃ¤"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "ÂµÃ§Â»Â°"
+msgstr "ÎµÃ§Â»Â°"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "ÂµÃ§Â»Â°ÂºÃÃÃ«"
+msgstr "ÎµÃ§Â»Â°ÂºÃÃÃ«"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "ÂµÃ§Â»Â°ÂºÃÃÃ«ÃÃÃÃÃÂ§ÂµÃ"
+msgstr "ÎµÃ§Â»Â°ÂºÃÃÃ«ÃÃÃÃÃÂ§ÂµÃ"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "ÂµÃÂµÃ£"
+msgstr "ÎµÃÂµÃ£"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -461,16 +452,12 @@ msgid "Roles"
 msgstr "Â½ÃÃÂ«"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Â½ÃÃÂ«Â¸ÃÃÃÂ»Â§;ÂµÃ£Â»Ã·Â»Â¬Â¹Ã½ÃÃ¹ÃÃÃÂ´ÃÂ¬Â£Â¨ RW-\\u003eÃÃÂ¾Â¿-\\u003e W-\\u003eÃÃÂ£Â©"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "ÃÃÂ»Â§Â½ÃÃÂ«Â£ÂºÃÃÃÂ«Â±Ã­ÃÂ¾ÃÃÃÃ­Â½Ã¸ÃÃÂ¶ÃÃÂ¡ÂºÃÃÂ´ÃÃ«Â£Â¬Â»ÃÃÂ«Â±Ã­ÃÂ¾ÃÂ»Â¶ÃÂ£Â¬ÃÂ¶ÃÂ«ÃÂ»ÃÂ´ÂºÃÂºÃ¬ÃÂ«ÃÂ»ÃÃÃÂ¨ÃÃÂ¡Â£ÃÂ¸ÃÂ¿ÃÃÂ£Âº Â¡Â°UÂ¡Â± Â£Â¨ÃÃÂ»Â§Â£Â© Â£Â¬ Â¡Â°CÂ¡Â± Â£Â¨Â¿ÃÂ»Â§Â£Â© Â£Â¬'O' Â£Â¨Â¶Â©ÂµÂ¥Â£Â© Â£Â¬ Â¡Â°SÂ¡Â± Â£Â¨Â·Ã¾ÃÃ±Â±Â¨Â¸Ã¦Â£Â© Â¡Â£"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -578,7 +565,7 @@ msgstr "Â»ÂºÂ´Ã¦"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "ÃÂ¡ÃÃ»"
+msgstr "Ã¨Â¡ÃÃ»"
 
 #: app/scripts/app.js
 msgid "checking"
@@ -590,7 +577,7 @@ msgstr "Â¿ÃÂ»Â§"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "ÃÃÃÃ"
+msgstr "Ã¯ÃÃÃ"
 
 #: app/scripts/app.js
 msgid "error"
@@ -598,11 +585,11 @@ msgstr "Â´Ã­ÃÃ³"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "ÃÃ·ÃÂ³Â·ÃÃÂ¢Â²Ã¡ÃÃÂ»Â§Â¡Â£"
+msgstr "Ã¶Ã·ÃÂ³Â·ÃÃÂ¢Â²Ã¡ÃÃÂ»Â§Â¡Â£"
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "ÃÃ·ÃÂ³registerdÃÃÂ»Â§Â¡Â£"
+msgstr "Ã¶Ã·ÃÂ³registerdÃÃÂ»Â§Â¡Â£"
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "Â³ÃµÃÂ¼Â»Â¯"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "ÃÃÃÂ»Â¸Ã¶WebÃÂ¦ÃÃÂ³ÃÃÃ²Â£Â¨ÃÃÃÃÂ£Â©Â´Â´ÃÂµÂ¡Â£"
+msgstr "ÃªÃÃÂ»Â¸Ã¶WebÃÂ¦ÃÃÂ³ÃÃÃ²Â£Â¨ÃÃÃÃÂ£Â©Â´Â´ÃÂµÂ¡Â£"
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "Â¶Â©ÂµÂ¥"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "ÃÃ­ÃÃ¢ÃÂ¢Â²Ã¡ÃÂ»Â¸Ã¶ÃÃÂ»Â§ÃÂ·Â£Â¬ÃÂ»ÂºÃ³ÂµÃÃÂ¼Â¡Â£"
+msgstr "Ã¡Ã­ÃÃ¢ÃÂ¢Â²Ã¡ÃÂ»Â¸Ã¶ÃÃÂ»Â§ÃÂ·Â£Â¬ÃÂ»ÂºÃ³ÂµÃÃÂ¼Â¡Â£"
 
 #: app/views/home.html
 msgid "password:"
-msgstr "ÃÃÃÃ«Â£Âº"
+msgstr "Ã£ÃÃÃ«Â£Âº"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,8 +633,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "ÃÃÂ»Â§ÃÃ»Â£Âº"
+msgstr "Ã³ÃÂ»Â§ÃÃ»Â£Âº"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ÃÃÂ»Â§"
+msgstr "Ã³ÃÂ»Â§"

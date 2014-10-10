@@ -18,7 +18,7 @@
   $sourceLanguage = "en";
   $googleSupportedLanguagesUrl = "https://translate.google.com/?hl=en";
 
-  #echo "**PoAutoTranslate**" . "\n";
+  print "* PoAutoTranslate *" . "\n";
 
   /*
    * We process all Google supported languages
@@ -28,27 +28,9 @@
     $language = strtolower($language);
     if ($language == $sourceLanguage) continue; # skip source language
 
-    /* Google does not support excess regional code languages...
-    if (strstr($language, "-")) { # skip regional codes, if main language code is present
-      $languageMain = substr($language, 0, strpos($language, "-"));
-      if (isset($languages[$languageMain])) {
-        # main language code is present
-        print "~" . $language . " ";
-        continue;
-      }
-    }
-    */
-
-    /*
-     * Until this script is not stable, avoid breaking manually translated files;
-     * TODO: remove this
-     */
-    #if ($language == "it") continue;
-
     /* if existing, copy angular-locales from source dir to app dir, if not yet present there */
     if (!file_exists($i18nSrcDirectory. "/" . "angular-locale_" . $language . ".js")) {
       // source locale does not exist, Angular doesn't support it: skip this language
-      print "!" . $language . " ";
       continue;
     } else { // source locale does exist
       if (!file_exists($i18nAppDirectory. "/" . "angular-locale_" . $language . ".js")) {
@@ -73,8 +55,11 @@
       )
     );
 
+    $poFilePath = "$poDirectory/$language.po";
+    $poTemplatePath = "$poDirectory/$potTemplateFile";
+
     /* merge each language po file with templates pot file */
-    system("msgmerge --sort-output --update --backup=off --quiet \"$poDirectory/$language.po\" \"$poDirectory/$potTemplateFile\"");
+    system("msgmerge --no-wrap --sort-output --update --backup=off --quiet \"$poFilePath\" \"$poTemplatePath\"");
 
     /* parse each po entry and translate it, if empty */
     $poparser = new Sepia\PoParser();
@@ -89,27 +74,52 @@
       $entry['obsolete']  // is obsolete?
       $entry['fuzzy']     // is fuzzy?
     */
-    $entries = $poparser->parse("$poDirectory/$language.po");
+    $entries = $poparser->parse($poFilePath);
     foreach ($entries as $entry) {
       for ($i = 0; isset($entry['msgid'][$i]); $i++) {
         $src = $entry['msgid'][$i];
         $dst = $entry['msgstr'][0]; # WAITING FOR AUTHOR ANSWER ABOUT MULTI-LINE ENTRIES...
         $fuzzy = isset($entry['fuzzy']);
         if ($src) {
-          if (!$dst or $fuzzy) { // no translation, or fuzzy translation: translate it
+          if (!$dst or $fuzzy) {
+            // no translation, or fuzzy translation: translate it
             $dst = translate($src, $sourceLanguage, $language);
-            $dst = str_replace('\\u200B', '', $dst); // remove zero-space blanks (TODO: where do they come from?)
+
+            // remove zero-space blanks
+            $dst = str_replace('\\u200B', '', $dst);
+
+            // keep capitalization
+            if (startsUppercase($src) and startsLowercase($dst)) {
+              $dst = mb_strtoupper(mb_substr($dst, 0, 1, "UTF-8"), "UTF-8") . mb_substr($dst, 1);
+            }
+            if (startsLowercase($src) and startsUppercase($dst)) {
+              $dst = mb_strtolower(mb_substr($dst, 0, 1, "UTF-8"), "UTF-8") . mb_substr($dst, 1);
+            }
+
+            // remove extra spaces before punctuation marks
+            $dst = preg_replace('/\s+([[:punct:]])/', '\\1', $dst);
+
+/*
+            if ($fuzzy) {
+              print "{$dst}" . " ";
+            } else {
+              print "[$dst]" . " ";
+            }
+*/
+
+            // update poParser entry with auto translated string
             $poparser->updateEntry($src, $dst);
           }
         }
         break; # waiting for author's explanation for multiline entries...
       }
     }
-    $translatedFilename = tempnam("/tmp", $language . ".po-"); 
+    // update poFile with poParser translated entries
+    $translatedFilename = tempnam("/tmp", $language . ".po-");
     $poparser->write($translatedFilename);
     /* Sepia PoParser writes iso-8859-1: convert to UTF8 */
     fileEncodeToUTF8($translatedFilename);
-    rename($translatedFilename, "$poDirectory/$language.po");
+    rename($translatedFilename, $poFilePath);
   }
   print "\n";
 
@@ -241,6 +251,18 @@ EOT;
     preg_match_all("/\[\"(.*?)\",/", $m1, $matches);
     $m2 = $matches[1];
     $retval = implode('', $m2);
-    return $retval;
+print $retval;
+    return utf8_encode($retval);
   }
+
+  function startsUppercase($str) {
+    $chr = mb_substr($str, 0, 1, "UTF-8");
+    return mb_strtolower($chr, "UTF-8") != $chr;
+  }
+
+  function startsLowercase($str) {
+    $chr = mb_substr($str, 0, 1, "UTF-8");
+    return mb_strtoupper($chr, "UTF-8") != $chr;
+  }
+
 ?>

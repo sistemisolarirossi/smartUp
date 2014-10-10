@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh : mm )"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Een datum van betekening start wordt vereist"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Een duur moet in de vorm' hh' of' uu: mm', en ten minste een minuut lang"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -42,7 +41,7 @@ msgstr "Een telefoonnummer is vereist"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Een straat -mailadres is verplicht"
+msgstr "Een straat-mailadres is verplicht"
 
 #: app/views/users.html
 msgid "A user name is required"
@@ -50,7 +49,7 @@ msgstr "Een gebruikersnaam is vereist"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "over"
+msgstr "Over"
 
 #: app/views/customers.html
 msgid "Add new customer"
@@ -62,7 +61,7 @@ msgstr "Nieuwe gebruiker toevoegen"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "adres"
+msgstr "Adres"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "Een ondernemer is verplicht"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Er is een update beschikbaar is : wil je het nu te laden ?"
+msgstr "Er is een update beschikbaar is: wil je het nu te laden?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -90,19 +89,19 @@ msgstr "Weet u zeker dat de gebruiker verwijderen"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "authenticatie -ID"
+msgstr "Authenticatie-ID"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Authenticatie -ID van de gebruiker"
+msgstr "Authenticatie-ID van de gebruiker"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Authenticatie -ID:"
+msgstr "Authenticatie-ID:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "verificatieprovider"
+msgstr "Verificatieprovider"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -118,7 +117,7 @@ msgstr "Avatar afbeelding van de gebruiker"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache is in onbekende toestand"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache wordt niet bijgewerkt (waarschijnlijk het manifest is onbereikbaar )"
+msgstr "Cache wordt niet bijgewerkt(waarschijnlijk het manifest is onbereikbaar)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Cache is verouderd"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache is up - to- date"
+msgstr "Cache is up- to- date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Controle op de aanwezigheid van een update"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale bevat ongeldige teken (s )"
+msgstr "Codice Fiscale bevat ongeldige teken(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -170,7 +169,11 @@ msgstr "Codice Fiscale of P.IVA van de klant"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "bedrijfslogo"
+msgstr "Bedrijfslogo"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Sluit met behulp van een van je\\\"sociale\\\" accounts, of meld je aan met deze referenties:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -198,7 +201,7 @@ msgstr "Klantenservice"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "klantenkaart"
+msgstr "Klantenkaart"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
@@ -206,7 +209,7 @@ msgstr "Klant e-mailadres"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "naam van de klant"
+msgstr "Naam van de klant"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -222,11 +225,11 @@ msgstr "Handtekening van de Klant"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "klanten"
+msgstr "Klanten"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "datum"
+msgstr "Datum"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
@@ -244,17 +247,13 @@ msgstr "Delete dienst verslag"
 msgid "Delete user"
 msgstr "Wis gebruiker"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "hond"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Het downloaden van een update"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "duur"
+msgstr "Duur"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
@@ -262,7 +261,7 @@ msgstr "Duur van de dienst"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "klant bewerken"
+msgstr "Klant bewerken"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
@@ -270,15 +269,15 @@ msgstr "Bewerk dienst verslag"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "gebruiker bewerken"
+msgstr "Gebruiker bewerken"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "e-mail"
+msgstr "E-mail"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "e-mailadres"
+msgstr "E-mailadres"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -292,19 +291,13 @@ msgstr "E-mailadres van de gebruiker"
 msgid "Email of the user"
 msgstr "E-mail van de gebruiker"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "fax"
+msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "klanten filter"
+msgstr "Klanten filter"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
@@ -312,7 +305,7 @@ msgstr "Filter servicerapporten"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "gebruikers filter"
+msgstr "Gebruikers filter"
 
 #: app/views/nav.html
 msgid "Home"
@@ -320,21 +313,19 @@ msgstr "Startpagina"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Het maakt het beheer van klanten , orders en service rapporten ."
+msgstr "Het maakt het beheer van klanten, orders en service rapporten."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Het is open-source, snel, compact, uitbreidbare, veerkrachtig, internationaal en mobiel."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "locatie"
+msgstr "Locatie"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
@@ -346,7 +337,7 @@ msgstr "Log in"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "uitloggen"
+msgstr "Uitloggen"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -354,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "naam"
+msgstr "Naam"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -362,15 +353,15 @@ msgstr "Naam van de gebruiker"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "nieuwe klant"
+msgstr "Nieuwe klant"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "nieuw rapport"
+msgstr "Nieuw rapport"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "nieuwe gebruiker"
+msgstr "Nieuwe gebruiker"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -378,15 +369,15 @@ msgstr "Geen update aanwezig is"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "aantekeningen"
+msgstr "Aantekeningen"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "aantal"
+msgstr "Aantal"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operator"
+msgstr "Operator"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -394,11 +385,11 @@ msgstr "Exploitant van dienst"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Operator 's signature"
+msgstr "Operator's signature"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "bestellingen"
+msgstr "Bestellingen"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA bevat ongeldige teken (s )"
+msgstr "P.IVA bevat ongeldige teken(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -414,7 +405,7 @@ msgstr "P.IVA controle code komt niet overeen"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "telefoon"
+msgstr "Telefoon"
 
 #: app/views/customers.html
 msgid "Phone number"
@@ -426,7 +417,7 @@ msgstr "Telefoonnummer is niet geldig"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "plaats"
+msgstr "Plaats"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -450,7 +441,7 @@ msgstr "Print gebruiker"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "provider"
+msgstr "Provider"
 
 #: app/views/home.html
 msgid "Register"
@@ -461,16 +452,12 @@ msgid "Roles"
 msgstr "Rollen"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Rollen voor deze gebruiker; klik om te glijden door alle staten( RW-\\u003e R-\\u003e W-\\u003e geen)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Rollen van de gebruiker: groene kleur geeft toestemming voor het lezen en schrijven, geel betekent alleen lezen, blauw alleen schrijven, en rood geen toestemming. Secties zijn:'u'( gebruikers),'c'(klanten),'o'( orders),' s'( dienst rapporten)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Opslaan"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "dienst verslag"
+msgstr "Dienst verslag"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,15 +473,15 @@ msgstr "Dienst verslag n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "servicerapporten"
+msgstr "Servicerapporten"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "setup"
+msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "adres"
+msgstr "Adres"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -546,7 +533,7 @@ msgstr "Moment van de service start"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "toggle navigatie"
+msgstr "Toggle navigatie"
 
 #: app/views/users.html
 msgid "User email address"
@@ -554,7 +541,7 @@ msgstr "Gebruiker e-mailadres"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "gebruikersnaam"
+msgstr "Gebruikersnaam"
 
 #: app/views/users.html
 msgid "Username"
@@ -562,7 +549,7 @@ msgstr "Gebruikersnaam"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "gebruikers"
+msgstr "Gebruikers"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -598,11 +585,11 @@ msgstr "fout"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "startpagina voor niet geregistreerde gebruikers ."
+msgstr "startpagina voor niet geregistreerde gebruikers."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "startpagina voor geregistreerde gebruikers ."
+msgstr "startpagina voor geregistreerde gebruikers."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "initialiseren"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "is een webapplicatie voor ( smart) starters ."
+msgstr "is een webapplicatie voor( smart) starters."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "bestellingen"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "anders registreer een nieuwe inschrijving aanpassen en meld u aan ."
+msgstr "anders registreer een nieuwe inschrijving aanpassen en meld u aan."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "wachtwoord :"
+msgstr "wachtwoord:"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,7 +633,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "gebruikersnaam :"
+msgstr "gebruikersnaam:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: et\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Kättetoimetamise kuupäev start on vajalik"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Kestus peab olemakujul\\\" hh\\\" või\\\" hh: mm\\"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -62,7 +61,7 @@ msgstr "Lisa uus kasutaja"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "aadress"
+msgstr "Aadress"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "Korraldaja on kohustatud"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Uuendus on saadaval : sa tahad seda laadida nüüd ?"
+msgstr "Uuendus on saadaval: sa tahad seda laadida nüüd?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -82,11 +81,11 @@ msgstr "Uuendus on valmis"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Oled sa päris kindel , et eemaldada teenus aruanne"
+msgstr "Oled sa päris kindel, et eemaldada teenus aruanne"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Oled sa päris kindel , et kõrvaldada kasutaja"
+msgstr "Oled sa päris kindel, et kõrvaldada kasutaja"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -118,7 +117,7 @@ msgstr "Avatar kasutaja"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "Vrdl / P.IVA"
+msgstr "Vrdl/ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,11 +129,11 @@ msgstr "Cache on tundmatu riik"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache ei uuendata ( ilmseltmanifest ei ole kättesaadav )"
+msgstr "Cache ei uuendata( ilmseltmanifest ei ole kättesaadav)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache ei uuendata , sest sa oled offline"
+msgstr "Cache ei uuendata, sest sa oled offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -154,11 +153,11 @@ msgstr "Kontrolliminejuuresolekuluuendatud"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale / P.IVA"
+msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale sisaldab vigane sümbol (id)"
+msgstr "Codice Fiscale sisaldab vigane sümbol(id)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,6 +170,10 @@ msgstr "Codice Fiscale või P.IVA kliendi"
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Ettevõtte logo"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Ühenda kasutades üht oma\\\" sotsiaalse\\\" kontod, või logige sisse seda mandaati:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -198,7 +201,7 @@ msgstr "Klienditeenindus"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "kliendikaart"
+msgstr "Kliendikaart"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
@@ -206,7 +209,7 @@ msgstr "Kliendi e-posti aadress"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "kliendi nimi"
+msgstr "Kliendi nimi"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -222,11 +225,11 @@ msgstr "Kliendi allkiri"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "kliendid"
+msgstr "Kliendid"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "aeg"
+msgstr "Aeg"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
@@ -243,10 +246,6 @@ msgstr "Kustuta teenus aruanne"
 #: app/views/users.html
 msgid "Delete user"
 msgstr "Kustuta kasutaja"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "Koer"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -286,17 +285,11 @@ msgstr "E-posti aadress ei kehti"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "E-posti aadress , et kasutaja"
+msgstr "E-posti aadress, et kasutaja"
 
 #: app/views/users.html
 msgid "Email of the user"
 msgstr "Email kasutaja"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -304,7 +297,7 @@ msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "filter kliendid"
+msgstr "Filter kliendid"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
@@ -312,7 +305,7 @@ msgstr "Filter teenus aruanded"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "filter kasutajad"
+msgstr "Filter kasutajad"
 
 #: app/views/nav.html
 msgid "Home"
@@ -324,13 +317,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "See võimaldab juhtimise klientide tellimused ja teenuste aruanded ."
+msgstr "See võimaldab juhtimise klientide tellimused ja teenuste aruanded."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "See on avatud lähtekoodiga, kiire, kompaktne, laiendatav, vastupidavad, rahvusvaheline ja mobiiltelefoni."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -362,15 +353,15 @@ msgstr "Kasutaja nimi"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "uus klient"
+msgstr "Uus klient"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "uus aruanne"
+msgstr "Uus aruanne"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "uus kasutaja"
+msgstr "Uus kasutaja"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -378,15 +369,15 @@ msgstr "Uuendamist ei ole praegu"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "märkused"
+msgstr "Märkused"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "number"
+msgstr "Number"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operaator"
+msgstr "Operaator"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA sisaldab vigane sümbol (id)"
+msgstr "P.IVA sisaldab vigane sümbol(id)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -418,7 +409,7 @@ msgstr "Telefon"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "telefoninumber"
+msgstr "Telefoninumber"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -426,7 +417,7 @@ msgstr "Telefoninumber ei ole kehtiv"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "koht"
+msgstr "Koht"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -458,19 +449,15 @@ msgstr "Registreeri"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "rollid"
+msgstr "Rollid"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Rollid selle kasutaja; klõpsake slaidi läbi kõik riigid(RW-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Rollidkasutaja: roheline värv näitab luba lugeda ja kirjutada, kollane tähistab ainult lugeda, sinine ainult kirjutada ja punane ei luba. Lõigud on:\\\"u\\\"( kasutajad),\\\"C\\\"( kliendid), O( orders),'s'(teenindus aruanded)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Salvesta"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "teenindus aruanne"
+msgstr "Teenindus aruanne"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -562,7 +549,7 @@ msgstr "Kasutajanimi"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "kasutajad"
+msgstr "Kasutajad"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -598,11 +585,11 @@ msgstr "viga"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "avalehele mitte registreeritud kasutajad ."
+msgstr "avalehele mitte registreeritud kasutajad."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "kodulehekülg Registerd kasutajad ."
+msgstr "kodulehekülg Registerd kasutajad."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,11 +597,11 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "onveebirakenduse ( smart ) asutamiseks."
+msgstr "onveebirakenduse( smart) asutamiseks."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Sisselogitud kasutaja"
+msgstr "sisselogitud kasutaja"
 
 #: app/scripts/app.js
 msgid "obsolete"
@@ -622,15 +609,15 @@ msgstr "vananenud"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Tellimused"
+msgstr "tellimused"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "muidu registreerida uue accout ja sisse logida ."
+msgstr "muidu registreerida uue accout ja sisse logida."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "parool :"
+msgstr "parool:"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -646,7 +633,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "kasutajanimi :"
+msgstr "kasutajanimi:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

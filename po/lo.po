@@ -1,276 +1,275 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: lo\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( ໃຫ້ຄອບຄົວ : ມມ)"
+msgstr "( Ã Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ§: Ã ÂºÂ¡Ã ÂºÂ¡)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "A Codice ງົບປະມານ ຫຼື P.IVA ແມ່ນຕ້ອງການ"
+msgstr "A Codice Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂ Ã ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ· P.IVA Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "ຊື່ ລູກຄ້າ A ແມ່ນຕ້ອງການ"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»Â Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ² A Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "ວັນທີ ຂອງການເລີ່ມຕົ້ນ ການບໍລິການ ແມ່ນ ກໍານົດໄວ້"
+msgstr "Ã ÂºÂ§Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂµ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂÃ ÂºÂ»Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ Â»ÂÃ ÂºÂ§Ã Â»Â"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂÃ ÂºÂ°Ã Â»ÂÃ ÂºÂ§Ã ÂºÂ¥Ã ÂºÂ² Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ° Ã ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂ¢Ã ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ®Ã ÂºÂ¹Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ' Ã Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ§' Ã ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ·' Ã Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ§: Ã ÂºÂ¡Ã ÂºÂ¡, Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂ¢Ã Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ«Ã ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂ«Ã ÂºÂÃ ÂºÂ¶Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂµ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ§"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "ສະຖານທີ່ຂອງ ການບໍລິການ ແມ່ນ ກໍານົດໄວ້"
+msgstr "Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ Â»ÂÃ ÂºÂ§Ã Â»Â"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "ເບີໂທລະສັບຂອງ A ແມ່ນຕ້ອງການ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ A Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "ທີ່ຢູ່ ຕາມຖະຫນົນ ທີ່ຖືກ ກໍານົດໄວ້"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»Â Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ ÂºÂ°Ã ÂºÂ«Ã ÂºÂÃ ÂºÂ»Ã ÂºÂ Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ Â»ÂÃ ÂºÂ§Ã Â»Â"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "ຊື່ຜູ້ໃຊ້ ທີ່ຖືກ ກໍານົດໄວ້"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ Â»ÂÃ ÂºÂ§Ã Â»Â"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "ກ່ຽວກັບ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ½Ã ÂºÂ§Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "ຕື່ມການ ລູກຄ້າໃຫມ່"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂ¡Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂ«Ã ÂºÂ¡Ã Â»Â"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "ເພີ່ມ ສະມາຊິກໃຫມ່"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¡ Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã ÂºÂ¡Ã Â»Â"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "ທີ່ຢູ່"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»Â"
 
 #: app/views/customers.html
 msgid "An email address is required"
-msgstr "ທີ່ຢູ່ອີເມວ ທີ່ຖືກຕ້ອງການ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»ÂÃ ÂºÂ­Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂ§ Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "ການປະຕິບັດ ທີ່ຖືກຕ້ອງການ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "ປັບປຸງໃຫ້ທັນ ມີ : ທ່ານ ຕ້ອງການ ກັບການໂຫຼດມັນ ໃນປັດຈຸບັນ ?"
+msgstr "Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂ¡Ã ÂºÂµ: Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã ÂºÂ¼Ã ÂºÂÃ ÂºÂ¡Ã ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "ປັບປຸງໃຫ້ທັນ ເປັນ ແມ່ນພ້ອມທີ່ຈະ"
+msgstr "Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ¡Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ°"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "ທ່ານມີຄວາມ ກໍ່ ໃຫ້ແນ່ໃຈວ່າ ຈະເອົາ ບົດລາຍງານ ການບໍລິການ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¡Ã ÂºÂµÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡ Ã ÂºÂÃ Â»ÂÃ Â»Â Ã Â»ÂÃ ÂºÂ«Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ§Ã Â»ÂÃ ÂºÂ² Ã ÂºÂÃ ÂºÂ°Ã Â»ÂÃ ÂºÂ­Ã ÂºÂ»Ã ÂºÂ² Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "ທ່ານມີ ແທ້ ແນ່ໃຈວ່າເອົາ ມາຊິກ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¡Ã ÂºÂµ Ã Â»ÂÃ ÂºÂÃ Â»Â Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ§Ã Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂ­Ã ÂºÂ»Ã ÂºÂ² Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ ÂºÂ´Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "id ແທ້ຈິງ"
+msgstr "Id Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "id ແທ້ຈິງ ຂອງຜູ້ໃຊ້"
+msgstr "Id Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "id ແທ້ຈິງ :"
+msgstr "Id Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "ຜູ້ໃຫ້ບໍລິ ການກວດສອບ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂÃ ÂºÂªÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "ຜູ້ໃຫ້ບໍລິ ການກວດສອບ ສໍາລັບຜູ້ໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂÃ ÂºÂªÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂªÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "ນົດ"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "ຮູບພາບ ນົດ ຂອງຜູ້ໃຊ້"
+msgstr "Ã ÂºÂ®Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ»Ã ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "ຈາກຖານຄວາມຈໍາ ຈະຖືກ initialized"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ ÂºÂ² Ã ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ·Ã ÂºÂ initialized"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "ຈາກຖານຄວາມຈໍາ ເປັນ ໃນລັດ unknown"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ ÂºÂ² Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂÃ ÂºÂ¥Ã ÂºÂ±Ã ÂºÂ unknown"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "ຈາກຖານຄວາມຈໍາ ບໍ່ໄດ້ ສະບັບປັບປຸງ (ອາດຈະ ແດງໃຫ້ປະຈັກ ແມ່ນ unreachable )"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ ÂºÂ² Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂ(Ã ÂºÂ­Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ° Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "ຈາກຖານຄວາມຈໍາ ບໍ່ໄດ້ ສະບັບປັບປຸງ ເພາະວ່າທ່ານແມ່ນ ບໍ່"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ ÂºÂ² Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂ Ã Â»ÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ°Ã ÂºÂ§Ã Â»ÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ Â»ÂÃ Â»Â"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "ຈາກຖານຄວາມຈໍາ ແມ່ນອອກ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ ÂºÂ² Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ­Ã ÂºÂ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "ຈາກຖານຄວາມຈໍາ ເປັນເຖິງ ວັນທີ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ ÂºÂ² Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ Ã ÂºÂ§Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂµ"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "ສະຖານະພາບ ຈາກຖານຄວາມຈໍາ ເປັນ"
+msgstr "Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ ÂºÂ² Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "ກວດກາເບິ່ງ ສໍາລັບ ທີ່ປະທັບຂອງ ການປັບປຸງ ການ"
+msgstr "Ã ÂºÂÃ ÂºÂ§Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂÃ ÂºÂ´Ã Â»ÂÃ ÂºÂ Ã ÂºÂªÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice ງົບປະມານ / P.IVA"
+msgstr "Codice Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂ/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice ການເງິນ ປະກອບດ້ວຍ ລັກສະນະ ບໍ່ຖືກຕ້ອງ (s)"
+msgstr "Codice Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ Ã ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ§Ã ÂºÂ Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ° Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "ລະຫັດ ການຄວບຄຸມ Codice ງົບປະມານ ບໍ່ມີຄໍາວ່າ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ°Ã ÂºÂ«Ã ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂ¡ Codice Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂµÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ§Ã Â»ÂÃ ÂºÂ²"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice ງົບປະມານ ຫຼື P.IVA ຂອງລູກຄ້າໄດ້"
+msgstr "Codice Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂ Ã ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ· P.IVA Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "ສັນຍາລັກຂອງ ບໍລິສັດ"
+msgstr "Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂ"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂ­Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ Â»Â Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ«Ã ÂºÂÃ ÂºÂ¶Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂµ\\\"Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ¡\\"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "ເຊື່ອມຕໍ່ກັບ ເຟສບຸກ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂ­Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂÃ ÂºÂªÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂ"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "ເຊື່ອມຕໍ່ກັບ ກູໂກພລາສ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂ­Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂª"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "ເຊື່ອມຕໍ່ກັບ Twitter"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂ­Ã ÂºÂ¡Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "ຕິດຕໍ່ພົວພັນ"
+msgstr "Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ§Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "ພາສາ ໃນປະຈຸບັນ ແມ່ນ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂªÃ ÂºÂ² Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "ການລູກຄ້າ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "ບັດ ການລູກຄ້າ"
+msgstr "Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "ທີ່ຢູ່ອີເມວ ຂອງລູກຄ້າ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»ÂÃ ÂºÂ­Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂ§ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "ຊື່ ການລູກຄ້າ"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»Â Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "ເບີໂທລະສັບຂອງ ລູກຄ້າ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "ທີ່ຢູ່ ຕາມຖະຫນົນ ການລູກຄ້າ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»Â Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ ÂºÂ°Ã ÂºÂ«Ã ÂºÂÃ ÂºÂ»Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "ລາຍເຊັນຂອງ ລູກຄ້າຂອງ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "ລູກຄ້າ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "ວັນທີ"
+msgstr "Ã ÂºÂ§Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂµ"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "ວັນທີ ຂອງການເລີ່ມຕົ້ນ ການບໍລິການ"
+msgstr "Ã ÂºÂ§Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂµ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂÃ ÂºÂ»Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "ລຶບ ຂອງລູກຄ້າ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¶Ã ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "ລຶບ ບົດລາຍງານ ການບໍລິການ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¶Ã ÂºÂ Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "ລຶບ ຜູ້ໃຊ້"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "ຫມາ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¶Ã ÂºÂ Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "ດາວໂຫຼດ ປັບປຸງໃຫ້ທັນ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ§Ã Â»ÂÃ ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "ໄລຍະເວລາ"
+msgstr "Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂÃ ÂºÂ°Ã Â»ÂÃ ÂºÂ§Ã ÂºÂ¥Ã ÂºÂ²"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "ໄລຍະເວລາ ຂອງ ການບໍລິການ"
+msgstr "Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂÃ ÂºÂ°Ã Â»ÂÃ ÂºÂ§Ã ÂºÂ¥Ã ÂºÂ² Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "ລູກຄ້າ ດັດແກ້"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ² Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "ບົດລາຍງານ ການບໍລິການ ດັດແກ້"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "ສະມາຊິກ ດັດແກ້"
+msgstr "Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ ÂºÂ´Ã ÂºÂ Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
@@ -278,25 +277,19 @@ msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "ທີ່ຢູ່ອີເມວ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»ÂÃ ÂºÂ­Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂ§"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
-msgstr "ທີ່ຢູ່ອີເມວ ບໍ່ໄດ້ ແມ່ນຖືກຕ້ອງ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»ÂÃ ÂºÂ­Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂ§ Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "ທີ່ຢູ່ ອີເມລ໌ຂອງ ຜູ້ໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»Â Ã ÂºÂ­Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂ¥Ã Â»ÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Email ຂອງຜູ້ໃຊ້"
-
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
+msgstr "Email Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -304,49 +297,47 @@ msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "ລູກຄ້າ Filter"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ² Filter"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "ບົດລາຍງານ ການບໍລິການ ການກັ່ນຕອງ"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ±Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ຜູ້ຊົມໃຊ້ ການກັ່ນຕອງ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ±Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "ຫນ້າທໍາອິດ"
+msgstr "Ã ÂºÂ«Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ­Ã ÂºÂ´Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "ບັດປະຈໍາຕົວ"
+msgstr "Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ»Ã ÂºÂ§"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "ມັນ ອະນຸຍາດໃຫ້ ການຄຸ້ມຄອງ ຂອງລູກຄ້າ, ຄໍາສັ່ງແລະການ ລາຍງານ ການບໍລິການ ."
+msgstr "Ã ÂºÂ¡Ã ÂºÂ±Ã ÂºÂ Ã ÂºÂ­Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã Â»Â Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã Â»ÂÃ ÂºÂ¡Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ², Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂªÃ ÂºÂ±Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Ã ÂºÂ¡Ã ÂºÂ±Ã ÂºÂÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ Ã Â»ÂÃ ÂºÂ«Ã ÂºÂ¼Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂµÃ ÂºÂ, Ã Â»ÂÃ ÂºÂ§, Ã ÂºÂ«Ã ÂºÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂ«Ã ÂºÂÃ Â»ÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ§Ã Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ,, Ã ÂºÂ¢Ã ÂºÂ·Ã ÂºÂÃ ÂºÂ¢Ã ÂºÂ¸Ã Â»ÂÃ ÂºÂ, Ã ÂºÂªÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ° Ã ÂºÂ¡Ã ÂºÂ·Ã ÂºÂÃ ÂºÂ·."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "ສະຖານທີ່"
+msgstr "Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂµÃ Â»Â"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "ສະຖານທີ່ຂອງ ການບໍລິການ"
+msgstr "Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "ເຂົ້າໃນ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ»Ã Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂ"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "ເຂົ້າອອກ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ»Ã Â»ÂÃ ÂºÂ²Ã ÂºÂ­Ã ÂºÂ­Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -354,51 +345,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "ຊື່"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»Â"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "ຊື່ ຂອງຜູ້ໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»Â Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "ລູກຄ້າໃຫມ່"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂ«Ã ÂºÂ¡Ã Â»Â"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "ບົດລາຍງານໃຫມ່"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã ÂºÂ¡Ã Â»Â"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "ສະມາຊິກໃຫມ່"
+msgstr "Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã ÂºÂ¡Ã Â»Â"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "ປັບປຸງໃຫ້ທັນ ທີ່ບໍ່ມີແມ່ນ ໃນປະຈຸບັນ"
+msgstr "Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "ຫມາຍເຫດ"
+msgstr "Ã ÂºÂ«Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "ຈໍານວນ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ§Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "ປະຕິບັດການ"
+msgstr "Ã ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "ປະຕິບັດການ ຂອງ ການບໍລິການ"
+msgstr "Ã ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "ລາຍເຊັນ ຂອງ ປະຕິບັດການ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "ຄໍາສັ່ງ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂªÃ ÂºÂ±Ã Â»ÂÃ ÂºÂ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -406,31 +397,31 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ປະກອບດ້ວຍ ລັກສະນະ ບໍ່ຖືກຕ້ອງ (s)"
+msgstr "P.IVA Ã ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ§Ã ÂºÂ Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ° Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "ລະຫັດ ການຄວບຄຸມ P.IVA ບໍ່ມີຄໍາວ່າ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ°Ã ÂºÂ«Ã ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂ¡ P.IVA Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂµÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ§Ã Â»ÂÃ ÂºÂ²"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "ໂທລະສັບ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "ເບີໂທລະສັບ"
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "ຈໍານວນ ໂທລະສັບ ບໍ່ຖືກຕ້ອງ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ§Ã ÂºÂ Ã Â»ÂÃ ÂºÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂªÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "ສະຖານທີ່"
+msgstr "Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂµÃ Â»Â"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "ການກະກຽມ ຂອງ ການດາວໂຫຼດ ປັບປຸງໃຫ້ທັນ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ½Ã ÂºÂ¡ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ§Ã Â»ÂÃ ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ Ã ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -438,39 +429,35 @@ msgstr "Print"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "ການພິມ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ¡"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "ບົດລາຍງານ ການບໍລິການ ການພິມ"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ¡"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "ຜູ້ໃຊ້ Print"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Print"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "ໃຫ້ບໍລິການ"
+msgstr "Ã Â»ÂÃ ÂºÂ«Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/home.html
 msgid "Register"
-msgstr "ຫມັກສະມາຊິກ"
+msgstr "Ã ÂºÂ«Ã ÂºÂ¡Ã ÂºÂ±Ã ÂºÂÃ ÂºÂªÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ ÂºÂ´Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "ພາລະບົດບາດ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂªÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»Â; Ã Â»ÂÃ ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂ­ Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ°Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂÃ ÂºÂ«Ã ÂºÂ¡Ã ÂºÂ»Ã ÂºÂ( RW-\\u003e R- W\\u003e- none\\u003e)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â: Ã ÂºÂªÃ ÂºÂµÃ ÂºÂÃ ÂºÂ½Ã ÂºÂ§, Ã ÂºÂªÃ ÂºÂµ Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂªÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ­Ã Â»ÂÃ ÂºÂ²Ã ÂºÂ Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ½Ã ÂºÂ, Ã ÂºÂ§Ã ÂºÂ´Ã ÂºÂÃ ÂºÂµÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂ¡Ã ÂºÂµÃ ÂºÂªÃ ÂºÂµÃ Â»ÂÃ ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ·Ã ÂºÂ­Ã ÂºÂ Ã ÂºÂÃ ÂºÂ½Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂ­Ã Â»ÂÃ ÂºÂ²Ã ÂºÂ, Ã ÂºÂªÃ ÂºÂµÃ ÂºÂÃ Â»ÂÃ ÂºÂ² Ã ÂºÂÃ ÂºÂ½Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂ½Ã ÂºÂ, Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂ¡Ã ÂºÂµÃ ÂºÂªÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ­Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ¸Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂµ. Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂªÃ Â»ÂÃ ÂºÂ§Ã ÂºÂ Ã ÂºÂÃ ÂºÂ·:' u( Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â),' c'( Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²),' o'(Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂªÃ ÂºÂ±Ã Â»ÂÃ ÂºÂ),' s( Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,131 +465,131 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "ບົດລາຍງານ ການບໍລິການ"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "ບົດລາຍງານ ການບໍລິການ n"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "ບົດລາຍງານ ການບໍລິການ"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "setup"
+msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "ທີ່ຢູ່ ຕາມຖະຫນົນ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»Â Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ ÂºÂ°Ã ÂºÂ«Ã ÂºÂÃ ÂºÂ»Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "ຊື່ ລູກຄ້ານີ້ ແມ່ນຢູ່ໃນ ການນໍາໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»Â Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂµÃ Â»Â Ã Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "ຊື່ ລູກຄ້າ ນີ້ແມ່ນບໍ່ ຖືກຕ້ອງ"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»Â Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ² Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ Â»Â Ã ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "ນີ້ແມ່ນ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "ຜູ້ໃຊ້ ນີ້ສາມາດ ອ່ານ ຫຼື ຫລື ຂຽນ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂªÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂ Ã ÂºÂ­Ã Â»ÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ· Ã ÂºÂ«Ã ÂºÂ¥Ã ÂºÂ· Ã ÂºÂÃ ÂºÂ½Ã ÂºÂ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "ຜູ້ໃຊ້ ນີ້ ສາມາດອ່ານ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»Â Ã ÂºÂªÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ ÂºÂ­Ã Â»ÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "ຜູ້ໃຊ້ ນີ້ສາມາດ ອ່ານແລະຂຽນ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂªÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂ Ã ÂºÂ­Ã Â»ÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ½Ã ÂºÂ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "ຜູ້ໃຊ້ ນີ້ ສາມາດຂຽນ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»Â Ã ÂºÂªÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ½Ã ÂºÂ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "ຜູ້ໃຊ້ ນີ້ບໍ່ ສາມາດເຂົ້າເຖິງ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ Â»ÂÃ Â»Â Ã ÂºÂªÃ ÂºÂ²Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ»Ã Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂÃ ÂºÂ´Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "ຊື່ຜູ້ໃຊ້ ນີ້ແມ່ນແລ້ວ ໃນການນໍາໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã Â»ÂÃ ÂºÂ§ Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "ຊື່ຜູ້ໃຊ້ ນີ້ແມ່ນບໍ່ ຖືກຕ້ອງ"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»ÂÃ Â»Â Ã ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "ມູນຄ່າ ນີ້ແມ່ນ ບໍ່ ເປັນ Codice ງົບປະມານ ຫຼື P.IVA ເປັນ"
+msgstr "Ã ÂºÂ¡Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ² Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ Â»ÂÃ ÂºÂ¡Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ Â»ÂÃ Â»Â Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Codice Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂ¡Ã ÂºÂ²Ã ÂºÂ Ã ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ· P.IVA Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "ທີ່ໃຊ້ເວລາ ຂອງການເລີ່ມຕົ້ນ ການບໍລິການ"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂ§Ã ÂºÂ¥Ã ÂºÂ² Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂÃ ÂºÂ»Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂ´Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "ນໍາທິດ ສະຫຼັບການ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ´Ã ÂºÂ Ã ÂºÂªÃ ÂºÂ°Ã ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "ທີ່ຢູ່ອີເມວ ຂອງຜູ້ໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂ¢Ã ÂºÂ¹Ã Â»ÂÃ ÂºÂ­Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡Ã ÂºÂ§ Ã ÂºÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "ຊື່ຜູ້ໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/users.html
 msgid "Username"
-msgstr "ຊື່ຜູ້ໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "ຜູ້ຊົມໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ Â»Â"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "ທ່ານ ບໍ່"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ Â»Â"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "ທ່ານມີ ອອນໄລນ໌"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¡Ã ÂºÂµ Ã ÂºÂ­Ã ÂºÂ­Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂÃ Â»Â"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "ຖານ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "ຍົກເລີກການ"
+msgstr "Ã ÂºÂÃ ÂºÂ»Ã ÂºÂÃ Â»ÂÃ ÂºÂ¥Ã ÂºÂµÃ ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "ການກວດສອບ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂÃ ÂºÂ§Ã ÂºÂÃ ÂºÂªÃ ÂºÂ­Ã ÂºÂ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "ລູກຄ້າ"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ¹Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "ການໂຫຼດ"
+msgstr "Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ«Ã ÂºÂ¼Ã ÂºÂ"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "ຄວາມຜິດພາດ"
+msgstr "Ã ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ ÂºÂ´Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "ຫນ້າທໍາອິດ ສໍາລັບ ຜູ້ຊົມໃຊ້ ທີ່ຈົດທະບຽນ ບໍ່."
+msgstr "Ã ÂºÂ«Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ­Ã ÂºÂ´Ã ÂºÂ Ã ÂºÂªÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂµÃ Â»ÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ½Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ Â»Â."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "ຫນ້າທໍາອິດ ສໍາລັບຜູ້ໃຊ້ registerd ."
+msgstr "Ã ÂºÂ«Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ­Ã ÂºÂ´Ã ÂºÂ Ã ÂºÂªÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,31 +597,31 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "ເປັນ ຄໍາຮ້ອງສະຫມັກ ເວັບໄຊຕ໌ ສໍາລັບການ ( smart ) ເລີ່ມ -Ups ."
+msgstr "Ã Â»ÂÃ ÂºÂÃ ÂºÂ±Ã ÂºÂ Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ®Ã Â»ÂÃ ÂºÂ­Ã ÂºÂÃ ÂºÂªÃ ÂºÂ°Ã ÂºÂ«Ã ÂºÂ¡Ã ÂºÂ±Ã ÂºÂ Ã Â»ÂÃ ÂºÂ§Ã ÂºÂ±Ã ÂºÂÃ Â»ÂÃ ÂºÂÃ ÂºÂÃ Â»Â Ã ÂºÂªÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ¥Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ ÂºÂ²Ã ÂºÂ( smart) Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂµÃ Â»ÂÃ ÂºÂ¡-Ups."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "ຜູ້ໃຊ້ ແລະລະບົບ"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂ°Ã ÂºÂ¥Ã ÂºÂ°Ã ÂºÂÃ ÂºÂ»Ã ÂºÂ"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "ອອກ"
+msgstr "Ã ÂºÂ­Ã ÂºÂ­Ã ÂºÂ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "ຄໍາສັ່ງ"
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂªÃ ÂºÂ±Ã Â»ÂÃ ÂºÂ"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "ຖ້າບໍ່ດັ່ງນັ້ນ ການລົງທະບຽນ ໄດ້ ກວດ ແລະ ເຂົ້າໃນ ."
+msgstr "Ã ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂÃ Â»ÂÃ Â»ÂÃ ÂºÂÃ ÂºÂ±Ã Â»ÂÃ ÂºÂÃ ÂºÂÃ ÂºÂ±Ã Â»ÂÃ ÂºÂ Ã ÂºÂÃ ÂºÂ²Ã ÂºÂÃ ÂºÂ¥Ã ÂºÂ»Ã ÂºÂÃ ÂºÂÃ ÂºÂ°Ã ÂºÂÃ ÂºÂ½Ã ÂºÂ Ã Â»ÂÃ ÂºÂÃ Â»Â Ã ÂºÂÃ ÂºÂ§Ã ÂºÂ Ã Â»ÂÃ ÂºÂ¥Ã ÂºÂ° Ã Â»ÂÃ ÂºÂÃ ÂºÂ»Ã Â»ÂÃ ÂºÂ²Ã Â»ÂÃ ÂºÂ."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "ລະຫັດຜ່ານ :"
+msgstr "Ã ÂºÂ¥Ã ÂºÂ°Ã ÂºÂ«Ã ÂºÂ±Ã ÂºÂÃ ÂºÂÃ Â»ÂÃ ÂºÂ²Ã ÂºÂ:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "ຄວາມຄືບຫນ້າ"
+msgstr "Ã ÂºÂÃ ÂºÂ§Ã ÂºÂ²Ã ÂºÂ¡Ã ÂºÂÃ ÂºÂ·Ã ÂºÂÃ ÂºÂ«Ã ÂºÂÃ Â»ÂÃ ÂºÂ²"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -646,8 +633,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "ຊື່ຜູ້ໃຊ້ :"
+msgstr "Ã ÂºÂÃ ÂºÂ·Ã Â»ÂÃ ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ Â»ÂÃ ÂºÂÃ Â»Â:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ຜູ້ຊົມໃຊ້"
+msgstr "Ã ÂºÂÃ ÂºÂ¹Ã Â»ÂÃ ÂºÂÃ ÂºÂ»Ã ÂºÂ¡Ã Â»ÂÃ ÂºÂÃ Â»Â"

@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( Hh : mm)"
+msgstr "( Hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "É necesaria unha data de inicio do servizo"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "A duración debe ser en forma « hh'ou' hh: mm', e, polo menos, un minuto de duración"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -74,7 +73,7 @@ msgstr "Un operador é necesaria"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Unha actualización está dispoñible : quere cargalo agora?"
+msgstr "Unha actualización está dispoñible: quere cargalo agora?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -98,11 +97,11 @@ msgstr "ID de inicio de sesión do usuario"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "ID de autenticación :"
+msgstr "ID de autenticación:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "provedor de autenticación"
+msgstr "Provedor de autenticación"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -110,7 +109,7 @@ msgstr "Provedor de autenticación para o usuario"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "avatar"
+msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
@@ -118,7 +117,7 @@ msgstr "Imaxe do avatar do usuario"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache está en estado descoñecido"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Caché non está actualizado ( probablemente o manifesto é inaccesible )"
+msgstr "Caché non está actualizado( probablemente o manifesto é inaccesible)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -154,11 +153,11 @@ msgstr "A comprobación da presenza dunha actualización"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Código Fiscal / P.IVA"
+msgstr "Código Fiscal/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Código Fiscal contén carácter non válido (s)"
+msgstr "Código Fiscal contén carácter non válido(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,6 +170,10 @@ msgstr "Código fiscal ou P.IVA do cliente"
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Logotipo da empresa"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Conectar usando unha das súas contas\\\" sociais\\"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -226,7 +229,7 @@ msgstr "Clientes"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "data"
+msgstr "Data"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
@@ -244,17 +247,13 @@ msgstr "Eliminar informe de servizo"
 msgid "Delete user"
 msgstr "Eliminar usuario"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "Dog"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Descarga de unha actualización"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "duración"
+msgstr "Duración"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
@@ -292,12 +291,6 @@ msgstr "Enderezo de correo electrónico do usuario"
 msgid "Email of the user"
 msgstr "Correo-e do usuario"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
@@ -327,10 +320,8 @@ msgid "It allows the management of customers, orders and service reports."
 msgstr "Permite a xestión de clientes, pedidos e informes de servizo."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "É open-source, rápido, compacto, extensible, flexible, internacional e móbil."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -386,7 +377,7 @@ msgstr "Número"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "operador"
+msgstr "Operador"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA contén carácter non válido (s)"
+msgstr "P.IVA contén carácter non válido(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -434,7 +425,7 @@ msgstr "Preparando descargar unha actualización"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "imprimir"
+msgstr "Imprimir"
 
 #: app/views/customers.html
 msgid "Print customer"
@@ -458,19 +449,15 @@ msgstr "Rexistrarse se"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "roles"
+msgstr "Roles"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Fondos para este usuario; clic para desprazar a través de todos os estados( RW-\\u003e R-\\u003e W-\\u003e ningún)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Funcións do usuario: a cor verde indica o permiso para ler e escribir, amarelo significa só ler, azul só escribir e vermello sen permiso. As seccións son:' U'( usuarios),' C'( clientes),' O'( ordes),( informes de servizos)' s'."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -490,7 +477,7 @@ msgstr "Informes de servizo"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "setup"
+msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
@@ -506,7 +493,7 @@ msgstr "Este nome do cliente non é válido"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "este é"
+msgstr "Este é"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -602,7 +589,7 @@ msgstr "páxina principal para usuarios non rexistrados."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "páxina principal para os usuarios registerd ."
+msgstr "páxina principal para os usuarios registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,7 +597,7 @@ msgstr "inicializar"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "é unha aplicación web para ( intelixentes ) start -ups."
+msgstr "é unha aplicación web para( intelixentes) start-ups."
 
 #: app/views/nav.html
 msgid "logged user"

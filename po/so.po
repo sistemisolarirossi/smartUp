@@ -5,15 +5,15 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: so\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: so\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( HH : mm )"
+msgstr "( HH: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "Taariikhda A adeegga bilowga loo baahan yahay"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Duration A waa in ay foomka' HH' ama' HH: mm', oo muddo dheer ugu yaraan hal daqiiqo"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -74,7 +73,7 @@ msgstr "Shaqaale ah ayaa loo baahan yahay"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Update ah waxaa laga heli karaa : aadan aad doonaysid in aad hadda ku shuban ?"
+msgstr "Update ah waxaa laga heli karaa: aadan aad doonaysid in aad hadda ku shuban?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -90,7 +89,7 @@ msgstr "Ma waxaad tahay run ahaantii hubin inay ka soo saarto user"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "id HUBINTA"
+msgstr "Id HUBINTA"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
@@ -98,11 +97,11 @@ msgstr "Id HUBINTA ee user ah"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "HUBINTA id :"
+msgstr "HUBINTA id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "bixiyaha HUBINTA"
+msgstr "Bixiyaha HUBINTA"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -110,7 +109,7 @@ msgstr "Bixiyaha HUBINTA adeegsadaha"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "avatar"
+msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
@@ -118,7 +117,7 @@ msgstr "Image Avatar ee user ah"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,7 +129,7 @@ msgstr "Cache waa in gobolka aan la aqoon"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache aan updated ( malaha cad yahay unreachable )"
+msgstr "Cache aan updated( malaha cad yahay unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
@@ -142,7 +141,7 @@ msgstr "Cache waa huriye"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache waa up - to- date"
+msgstr "Cache waa up- to- date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Hubi joogitaanka update ah"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Koodishaha / P.IVA"
+msgstr "Koodishaha/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Koodishaha ka kooban yahay qof aan waxba ka jirin ( s )"
+msgstr "Koodishaha ka kooban yahay qof aan waxba ka jirin( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,6 +170,10 @@ msgstr "Koodishaha ama P.IVA ee macaamiisha ah"
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Company logo"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Connect isticmaalaya mid ka mid ah aad xisaab\\\" bulsho\\\", ama gal in la aqoonsiga kuwan:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -206,7 +209,7 @@ msgstr "Cinwaanka email Customer"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "magaca Customer"
+msgstr "Magaca Customer"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -244,10 +247,6 @@ msgstr "Delete warbixin adeeg"
 msgid "Delete user"
 msgstr "Delete user"
 
-#: app/views/about.html
-msgid "Dog"
-msgstr "Dog"
-
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
 msgstr "Degsado update ah"
@@ -262,7 +261,7 @@ msgstr "Duration adeegga"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "macaamiisha Edit"
+msgstr "Macaamiisha Edit"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
@@ -278,7 +277,7 @@ msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "cinwaanka Email"
+msgstr "Cinwaanka Email"
 
 #: app/views/customers.html
 msgid "Email address is not valid"
@@ -292,19 +291,13 @@ msgstr "Cinwaanka Email ee user ah"
 msgid "Email of the user"
 msgstr "Email of user ah"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "macaamiisha Filter"
+msgstr "Macaamiisha Filter"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
@@ -312,7 +305,7 @@ msgstr "Warar adeeg Filter"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "dadka isticmaala Filter"
+msgstr "Dadka isticmaala Filter"
 
 #: app/views/nav.html
 msgid "Home"
@@ -324,13 +317,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Waxa ay u ogolaataa maamulka ee macaamiisha , amarada iyo warar adeega ."
+msgstr "Waxa ay u ogolaataa maamulka ee macaamiisha, amarada iyo warar adeega."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Waxay furan tahay- il, si degdeg ah, is haysta, extensible, adkeysi, caalami ah oo mobile."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -362,15 +353,15 @@ msgstr "Name of user ah"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "macaamiisha cusub"
+msgstr "Macaamiisha cusub"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "warbixinta New"
+msgstr "Warbixinta New"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "user cusub"
+msgstr "User cusub"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ka kooban yahay qof aan waxba ka jirin ( s )"
+msgstr "P.IVA ka kooban yahay qof aan waxba ka jirin( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -418,7 +409,7 @@ msgstr "Phone"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "lambarka taleefoonka"
+msgstr "Lambarka taleefoonka"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
@@ -438,7 +429,7 @@ msgstr "Print"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "macaamiisha Print"
+msgstr "Macaamiisha Print"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
@@ -461,16 +452,12 @@ msgid "Roles"
 msgstr "Doorarka"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Doorarka for this user; riix qabato iyada oo gobolada oo dhan( RW-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Doorarka ee user ah: midab cagaaran muujinaysaa fasax u akhriska iyo qorista, hab jaalaha akhriyaan oo kaliya, buluug ah kaliya ku qor, iyo casaan oggolaansho u haysan. Qaybaha kala yihiin:' u'( isticmaala),' c'( macaamiisha),' o'( orders),'s'(warar adeega)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "warbixinta Service"
+msgstr "Warbixinta Service"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,7 +473,7 @@ msgstr "Warbixinta Service n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "warar Service"
+msgstr "Warar Service"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -494,7 +481,7 @@ msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "cinwaanka"
+msgstr "Cinwaanka"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -546,7 +533,7 @@ msgstr "Time adeegga bilowga"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "navigation Toggle"
+msgstr "Navigation Toggle"
 
 #: app/views/users.html
 msgid "User email address"
@@ -598,11 +585,11 @@ msgstr "qalad"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "bogga guriga ee aan dadka isticmaala diiwaan gashan ."
+msgstr "bogga guriga ee aan dadka isticmaala diiwaan gashan."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "bogga guriga u isticmaala registerd ."
+msgstr "bogga guriga u isticmaala registerd."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,11 +597,11 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "waa codsi internetka ee ( smart ) bilaabaan baaritaanada ah ."
+msgstr "waa codsi internetka ee( smart) bilaabaan baaritaanada ah."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Logged"
+msgstr "logged"
 
 #: app/scripts/app.js
 msgid "obsolete"
@@ -650,4 +637,4 @@ msgstr "magaca isticmaalaha:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Dadka isticmaala"
+msgstr "dadka isticmaala"

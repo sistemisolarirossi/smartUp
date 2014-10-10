@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh: mm )"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -25,12 +25,11 @@ msgstr "Bezeroaren izena eman behar da"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Zerbitzuaren hasiera -data zehaztu behar da"
+msgstr "Zerbitzuaren hasiera-data zehaztu behar da"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Minutu bat gutxienez luzea:' mm hh', eta iraupen bat behar inprimakia' hh' izan edo"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -46,7 +45,7 @@ msgstr "A kalean helbidea beharrezkoa da"
 
 #: app/views/users.html
 msgid "A user name is required"
-msgstr "Erabiltzaile -izena eman behar da"
+msgstr "Erabiltzaile-izena eman behar da"
 
 #: app/views/nav.html
 msgid "About"
@@ -62,7 +61,7 @@ msgstr "Gehitu erabiltzaile berria"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "helbidea"
+msgstr "Helbidea"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "Operadoreak eman behar da"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Eguneratzea erabilgarri dagoen : ez orain, kargatu nahi duzula ?"
+msgstr "Eguneratzea erabilgarri dagoen: ez orain, kargatu nahi duzula?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -102,11 +101,11 @@ msgstr "Autentifikazioa id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "autentifikazio-hornitzailea"
+msgstr "Autentifikazio-hornitzailea"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Autentifikazio -hornitzaileak"
+msgstr "Autentifikazio-hornitzaileak"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -118,7 +117,7 @@ msgstr "Avatar erabiltzaileak irudia"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,11 +129,11 @@ msgstr "Cache egoera ezezaguna da"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache eguneratua ez badago (ziurrenik manifestua da dabilela )"
+msgstr "Cache eguneratua ez badago(ziurrenik manifestua da dabilela)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache eguneratua ez badago , lineaz kanpo zaudenean delako"
+msgstr "Cache eguneratua ez badago, lineaz kanpo zaudenean delako"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -142,7 +141,7 @@ msgstr "Cache zaharkitua dago"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache da up -to- data"
+msgstr "Cache da up-to- data"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "Eguneratze baten presentzia bilatzen"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice fiscale / P.IVA"
+msgstr "Codice fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice fiscale karaktere baliogabea (k)"
+msgstr "Codice fiscale karaktere baliogabea(k)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -173,16 +172,20 @@ msgid "Company logo"
 msgstr "Enpresaren logo"
 
 #: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "Konektatu zure kontuak\\\" sozial\\\" bat erabiliz, edo hasi saioa hauekin sartu:"
+
+#: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Facebook -ekin konektatu"
+msgstr "Facebook-ekin konektatu"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Google -ekin konektatu"
+msgstr "Google-ekin konektatu"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Twitter -ekin konektatu"
+msgstr "Twitter-ekin konektatu"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -206,7 +209,7 @@ msgstr "Customer e-posta helbidea"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "bezeroaren izena"
+msgstr "Bezeroaren izena"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -226,7 +229,7 @@ msgstr "Bezeroak"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "data"
+msgstr "Data"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
@@ -242,11 +245,7 @@ msgstr "Ezabatu zerbitzu txostena"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "ezabatu erabiltzaileen"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "Dog"
+msgstr "Ezabatu erabiltzaileen"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -292,12 +291,6 @@ msgstr "Erabiltzailearen helbide elektronikoa"
 msgid "Email of the user"
 msgstr "Erabiltzailearen Email"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
@@ -320,21 +313,19 @@ msgstr "Hasiera"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Bezeroak , eskaerak eta zerbitzuaren txostenak zuzentzea ahalbidetzen du."
+msgstr "Bezeroak, eskaerak eta zerbitzuaren txostenak zuzentzea ahalbidetzen du."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Kode irekiko, azkarra, trinkoa, hedagarria, elastikoak, nazioarteko eta mugikorra da."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "kokalekua"
+msgstr "Kokalekua"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
@@ -354,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "izena"
+msgstr "Izena"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -362,11 +353,11 @@ msgstr "Erabiltzaile izena"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "bezero berria"
+msgstr "Bezero berria"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "txosten berria"
+msgstr "Txosten berria"
 
 #: app/views/users.html
 msgid "New user"
@@ -382,7 +373,7 @@ msgstr "Oharrak"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "zenbakia"
+msgstr "Zenbakia"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA karaktere baliogabea (k)"
+msgstr "P.IVA karaktere baliogabea(k)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -461,16 +452,12 @@ msgid "Roles"
 msgstr "Rolak"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Erabiltzaile honen rolak; Ezkutatu estatu guztietan zehar irristatu( RW-\\u003e r-\\u003e W-\\u003e ere ez)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Erabiltzailearen rolak: berde kolorea baimena adierazten du, irakurketarako eta idatzi, bide horia bakarrik irakurri, urdina bakarrik idatzi, eta gorria ez baimena. Atalak hauek dira:' u'( erabiltzaile),'c'( bezeroekin),'o'( aginduak),' s'( zerbitzuaren txostenak)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "zerbitzua txostena"
+msgstr "Zerbitzua txostena"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,7 +473,7 @@ msgstr "Zerbitzua txosten n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "zerbitzua txostenak"
+msgstr "Zerbitzua txostenak"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -494,7 +481,7 @@ msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "kalean helbidea"
+msgstr "Kalean helbidea"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
@@ -506,7 +493,7 @@ msgstr "Bezeroaren izen hau ez da zuzena"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "hau da,"
+msgstr "Hau da,"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -530,7 +517,7 @@ msgstr "Erabiltzaile hau ezin da sartu"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Erabiltzaile -izen hau dagoeneko erabilita dago"
+msgstr "Erabiltzaile-izen hau dagoeneko erabilita dago"
 
 #: app/views/users.html
 msgid "This user name is not valid"
@@ -562,7 +549,7 @@ msgstr "Username"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "erabiltzaileak"
+msgstr "Erabiltzaileak"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -598,11 +585,11 @@ msgstr "error"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "etxean erroldatuta ez dauden erabiltzaileentzat orria ."
+msgstr "etxean erroldatuta ez dauden erabiltzaileentzat orria."
 
 #: app/views/home.html
 msgid "home page for registerd users."
-msgstr "hasiera erregistratzen dute erabiltzaileentzat orria ."
+msgstr "hasiera erregistratzen dute erabiltzaileentzat orria."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -610,11 +597,11 @@ msgstr "hasieratzean"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "Web aplikazio bat ( smart ) urbanizazioaren da."
+msgstr "web aplikazio bat( smart) urbanizazioaren da."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Sartu Erabiltzaile"
+msgstr "sartu Erabiltzaile"
 
 #: app/scripts/app.js
 msgid "obsolete"
@@ -626,11 +613,11 @@ msgstr "aginduak"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "bestela accout berria erregistratu eta saioa hasi ."
+msgstr "bestela accout berria erregistratu eta saioa hasi."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "pasahitza :"
+msgstr "pasahitza:"
 
 #: app/scripts/app.js
 msgid "progress"

@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SmartUp\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh : mm)"
+msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
@@ -28,9 +28,8 @@ msgid "A date of service start is required"
 msgstr "A kÃ©zbesÃ­tÃ©s idÃµpontja indÃ­tÃ¡s szÃ¼ksÃ©ges"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Egy idÃµtartam kell lennie a formÃ¡ban\\\" hh\\\" vagy\\\" hh: mm\\\", Ã©s legalÃ¡bb egy perces"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
@@ -50,7 +49,7 @@ msgstr "A felhasznÃ¡lÃ³i nÃ©v szÃ¼ksÃ©ges"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "a"
+msgstr "A"
 
 #: app/views/customers.html
 msgid "Add new customer"
@@ -62,7 +61,7 @@ msgstr "Ãj felhasznÃ¡lÃ³"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "cÃ­m"
+msgstr "CÃ­m"
 
 #: app/views/customers.html
 msgid "An email address is required"
@@ -74,7 +73,7 @@ msgstr "Az Ã¼zemeltetÃµ kÃ¶teles"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Van elÃ©rhetÃµ frissÃ­tÃ©s : akarod tÃ¶lteni most?"
+msgstr "Van elÃ©rhetÃµ frissÃ­tÃ©s: akarod tÃ¶lteni most?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -82,15 +81,15 @@ msgstr "Egy frissÃ­tÃ©s kÃ©sz"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Biztos vagy benne , hogy tÃ¡volÃ­tsa el szolgÃ¡lat jelentÃ©s"
+msgstr "Biztos vagy benne, hogy tÃ¡volÃ­tsa el szolgÃ¡lat jelentÃ©s"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Biztos vagy benne , hogy tÃ¡volÃ­tsa el a felhasznÃ¡lÃ³i"
+msgstr "Biztos vagy benne, hogy tÃ¡volÃ­tsa el a felhasznÃ¡lÃ³i"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "hitelesÃ­tÃ©s id"
+msgstr "HitelesÃ­tÃ©s id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
@@ -102,7 +101,7 @@ msgstr "HitelesÃ­tÃ©s id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "hitelesÃ­tÃ©s szolgÃ¡ltatÃ³"
+msgstr "HitelesÃ­tÃ©s szolgÃ¡ltatÃ³"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
@@ -118,7 +117,7 @@ msgstr "Avatar kÃ©p a felhasznÃ¡lÃ³"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F. / P.IVA"
+msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
@@ -130,11 +129,11 @@ msgstr "Cache van ismeretlen Ã¡llapotban"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache nem frissÃ­tik ( talÃ¡n a nyilvÃ¡nvalÃ³ elÃ©rhetetlen )"
+msgstr "Cache nem frissÃ­tik( talÃ¡n a nyilvÃ¡nvalÃ³ elÃ©rhetetlen)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "GyorsÃ­tÃ³tÃ¡r nem kerÃ¼l frissÃ­tÃ©sre , mert az offline"
+msgstr "GyorsÃ­tÃ³tÃ¡r nem kerÃ¼l frissÃ­tÃ©sre, mert az offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -142,7 +141,7 @@ msgstr "Cache elavult"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache up -to -date"
+msgstr "Cache up-to-date"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -154,11 +153,11 @@ msgstr "EllenÃµrzÃ©se jelenlÃ©tÃ©re frissÃ­tÃ©s"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "AdÃ³azonosÃ­tÃ³ / P.IVA"
+msgstr "AdÃ³azonosÃ­tÃ³/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "AdÃ³azonosÃ­tÃ³ tartalmaz Ã©rvÃ©nytelen karakter (ek)"
+msgstr "AdÃ³azonosÃ­tÃ³ tartalmaz Ã©rvÃ©nytelen karakter(ek)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,6 +170,10 @@ msgstr "AdÃ³azonosÃ­tÃ³ vagy P.IVA az Ã¼gyfÃ©l"
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Company logo"
+
+#: app/views/home.html
+msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgstr "KapcsolÃ³dÃ¡s az egyik\\\"szociÃ¡lis\\\" szÃ¡mlÃ¡k, vagy jelentkezzen be ezeket a hitelesÃ­tÃµ adatokat:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -194,11 +197,11 @@ msgstr "AktuÃ¡lis nyelv"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Ã¼gyfÃ©l"
+msgstr "Ã¼gyfÃ©l"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Ã¼gyfÃ©l Card"
+msgstr "Ã¼gyfÃ©l Card"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
@@ -206,7 +209,7 @@ msgstr "ÃgyfÃ©l e-mail cÃ­m"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Ã¼gyfÃ©l neve"
+msgstr "Ã¼gyfÃ©l neve"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
@@ -226,7 +229,7 @@ msgstr "Az Ã¼gyfelek"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "dÃ¡tum"
+msgstr "DÃ¡tum"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
@@ -242,11 +245,7 @@ msgstr "TÃ¶rlÃ©se szolgÃ¡ltatÃ¡s jelentÃ©s"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "felhasznÃ¡lÃ³ tÃ¶rlÃ©se"
-
-#: app/views/about.html
-msgid "Dog"
-msgstr "Dog"
+msgstr "FelhasznÃ¡lÃ³ tÃ¶rlÃ©se"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -262,7 +261,7 @@ msgstr "SzolgÃ¡lati idejÃ©t"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ã¼gyfÃ©l szerkesztÃ©se"
+msgstr "Ã¼gyfÃ©l szerkesztÃ©se"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
@@ -270,7 +269,7 @@ msgstr "Szolg.beÃ¡ll jelentÃ©s"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "felhasznÃ¡lÃ³ szerkesztÃ©se"
+msgstr "FelhasznÃ¡lÃ³ szerkesztÃ©se"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Email"
@@ -292,19 +291,13 @@ msgstr "E-mail cÃ­m a felhasznÃ¡lÃ³"
 msgid "Email of the user"
 msgstr "E-mail a felhasznÃ¡lÃ³"
 
-#: app/views/home.html
-msgid ""
-"Enter using one of your \"social\" accounts, or log in with these "
-"credentials:"
-msgstr ""
-
 #: app/views/serviceReports.html
 msgid "Fax"
 msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "szÃ»rÃµ Ã¼gyfelek"
+msgstr "SzÃ»rÃµ Ã¼gyfelek"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
@@ -312,7 +305,7 @@ msgstr "SzÃ»rÃµ szolgÃ¡ltatÃ¡s jelentÃ©sek"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "szÃ»rÃµ felhasznÃ¡lÃ³k"
+msgstr "SzÃ»rÃµ felhasznÃ¡lÃ³k"
 
 #: app/views/nav.html
 msgid "Home"
@@ -320,21 +313,19 @@ msgstr "FÃµoldal"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "id"
+msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ez lehetõvé teszi, hogy a menedzsment a vevõk , megrendelések és szerviz jelentéseket."
+msgstr "Ez lehetÃµvÃ© teszi, hogy a menedzsment a vevÃµk, megrendelÃ©sek Ã©s szerviz jelentÃ©seket."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "Ez a nyÃ­lt forrÃ¡skÃ³dÃº, gyors, kompakt, bÃµvÃ­thetÃµ, rugalmas, nemzetkÃ¶zi Ã©s mobil."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "hely"
+msgstr "Hely"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
@@ -342,11 +333,11 @@ msgstr "SzolgÃ¡lati helyÃ©t"
 
 #: app/views/home.html
 msgid "Log in"
-msgstr "jelentkezzen be"
+msgstr "Jelentkezzen be"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "kijelentkezni"
+msgstr "Kijelentkezni"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -354,7 +345,7 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "nÃ©v"
+msgstr "NÃ©v"
 
 #: app/views/users.html
 msgid "Name of the user"
@@ -362,15 +353,15 @@ msgstr "A felhasznÃ¡lÃ³ nevÃ©t"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Ãºj Ã¼gyfÃ©l"
+msgstr "Ãºj Ã¼gyfÃ©l"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Ãºj jelentÃ©s"
+msgstr "Ãºj jelentÃ©s"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Ãºj felhasznÃ¡lÃ³"
+msgstr "Ãºj felhasznÃ¡lÃ³"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
@@ -382,7 +373,7 @@ msgstr "MegjegyzÃ©sek"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "szÃ¡m"
+msgstr "SzÃ¡m"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -406,7 +397,7 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA tartalmaz Ã©rvÃ©nytelen karakter (ek)"
+msgstr "P.IVA tartalmaz Ã©rvÃ©nytelen karakter(ek)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
@@ -414,7 +405,7 @@ msgstr "P.IVA ellenÃµrzÃµ kÃ³dot nem egyezik"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "telefon"
+msgstr "Telefon"
 
 #: app/views/customers.html
 msgid "Phone number"
@@ -426,7 +417,7 @@ msgstr "TelefonszÃ¡m nem Ã©rvÃ©nyes"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "hely"
+msgstr "Hely"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
@@ -450,7 +441,7 @@ msgstr "Print felhasznÃ¡lÃ³i"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "szolgÃ¡ltatÃ³"
+msgstr "SzolgÃ¡ltatÃ³"
 
 #: app/views/home.html
 msgid "Register"
@@ -458,19 +449,15 @@ msgstr "RegisztrÃ¡ciÃ³"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "szerepek"
+msgstr "Szerepek"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Szerepeket a felhasznÃ¡lÃ³tÃ³l; kattintson csÃºszik Ã¡t minden olyan Ã¡llamot( RW-\\u003e R-\\u003e W-\\u003e nincs)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and read no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Szerepek a felhasznÃ¡lÃ³: zÃ¶ld szÃ­n jelzi engedÃ©lyt Ã­rni Ã©s olvasni, a sÃ¡rga csak olvasni, kÃ©k csak Ã­rni, Ã©s piros nincs engedÃ©lye. Szakasz a kÃ¶vetkezÃµ:\\\" U\\\"( felhasznÃ¡lÃ³i),\\\"C\\\"(vevÃµk),\\\"O\\\"( megrendelÃ©sek),\\\" s\\\"( szolgÃ¡ltatÃ¡s jelentÃ©sek)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -478,7 +465,7 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "szolgÃ¡ltatÃ¡s jelentÃ©s"
+msgstr "SzolgÃ¡ltatÃ¡s jelentÃ©s"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
@@ -486,7 +473,7 @@ msgstr "SzolgÃ¡ltatÃ¡s jelentÃ©s n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "szolgÃ¡ltatÃ¡s jelentÃ©sek"
+msgstr "SzolgÃ¡ltatÃ¡s jelentÃ©sek"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -538,7 +525,7 @@ msgstr "Ez a felhasznÃ¡lÃ³i nÃ©v nem Ã©rvÃ©nyes"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ez az Ã©rtÃ©k , sem adÃ³azonosÃ­tÃ³ sem a P.IVA"
+msgstr "Ez az Ã©rtÃ©k, sem adÃ³azonosÃ­tÃ³ sem a P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
@@ -546,7 +533,7 @@ msgstr "SzolgÃ¡lati idÃµ kezdete"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "toggle navigÃ¡ciÃ³"
+msgstr "Toggle navigÃ¡ciÃ³"
 
 #: app/views/users.html
 msgid "User email address"
@@ -554,7 +541,7 @@ msgstr "A felhasznÃ¡lÃ³ e-mail cÃ­m"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "felhasznÃ¡lÃ³nÃ©v"
+msgstr "FelhasznÃ¡lÃ³nÃ©v"
 
 #: app/views/users.html
 msgid "Username"
@@ -562,7 +549,7 @@ msgstr "FelhasznÃ¡lÃ³nÃ©v"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "felhasznÃ¡lÃ³k"
+msgstr "FelhasznÃ¡lÃ³k"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -598,7 +585,7 @@ msgstr "hiba"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "kezdÃµlapjÃ¡t nem regisztrÃ¡lt felhasznÃ¡lÃ³k ."
+msgstr "kezdÃµlapjÃ¡t nem regisztrÃ¡lt felhasznÃ¡lÃ³k."
 
 #: app/views/home.html
 msgid "home page for registerd users."
@@ -610,7 +597,7 @@ msgstr "inicializÃ¡lÃ¡s"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "egy webes alkalmazÃ¡s ( smart ) indulÃ³ ."
+msgstr "egy webes alkalmazÃ¡s( smart) indulÃ³."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -626,11 +613,11 @@ msgstr "megrendelÃ©sek"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "egyébként regisztráljon egy új fiókot állíthat be , és jelentkezzen be ."
+msgstr "egyÃ©bkÃ©nt regisztrÃ¡ljon egy Ãºj fiÃ³kot Ã¡llÃ­that be, Ã©s jelentkezzen be."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "jelszÃ³ :"
+msgstr "jelszÃ³:"
 
 #: app/scripts/app.js
 msgid "progress"
