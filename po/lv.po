@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lv\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,35 +17,39 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice Fiscale vaiP.IVA ir nepiecieðama"
+msgstr "Codice Fiscale vaiP.IVA ir nepieciešama"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Klienta nosaukums ir obligâts"
+msgstr "Klienta nosaukums ir obligāts"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Ir nepiecieðamadatums pakalpojumu sâkuma"
+msgstr "Ir nepieciešamadatums pakalpojumu sākuma"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "Ilgums ir formâ\\\" hh\\\" vai\\\" hh: mm\\\", un vismaz vienu minûti garð"
+msgstr "Ilgums ir formā\\\" hh\\\" vai\\\" hh: mm\\\", un vismaz vienu minūti garš"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ir nepiecieðamavieta dienesta"
+msgstr "Ir nepieciešamavieta dienesta"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Parole ir nepieciešama"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Ir nepiecieðamstâlruòa numurs"
+msgstr "Ir nepieciešamstālruņa numurs"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Ir nepiecieðamaadresi"
+msgstr "Ir nepieciešamaadresi"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Lietotâja vârds ir nepiecieðama"
+msgstr "Lietotāja vārds ir nepieciešama"
 
 #: app/views/nav.html
 msgid "About"
@@ -57,55 +61,55 @@ msgstr "Pievienot jaunu klientu"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Pievienot jaunu lietotâju"
+msgstr "Pievienot jaunu lietotāju"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
 msgstr "Adrese"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Ir nepiecieðamae-pasta adrese"
+msgstr "Ir nepieciešamae-pasta adrese"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Operatoram ir pienâkums"
+msgstr "Operatoram ir pienākums"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Atjauninâjums ir pieejams: jûs vçlaties, lai ielâdçtu to tagad?"
+msgstr "Atjauninājums ir pieejams: jūs vēlaties, lai ielādētu to tagad?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Atjauninâjums ir gatava"
+msgstr "Atjauninājums ir gatava"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Vai jûs tieðâm pârliecinâts, lai novçrstu pakalpojumu ziòojumu"
+msgstr "Vai jūs tiešām pārliecināts, lai novērstu pakalpojumu ziņojumu"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Vai jûs tieðâm pârliecinâts, lai novçrstu lietotâju"
+msgstr "Vai jūs tiešām pārliecināts, lai novērstu lietotāju"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "Autentifikâcija id"
+msgstr "Autentifikācija id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Autentifikâcija id lietotâjs"
+msgstr "Autentifikācija id lietotājs"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Autentifikâcija id:"
+msgstr "Autentifikācija id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "Autentifikâcija sniedzçjs"
+msgstr "Autentifikācija sniedzējs"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Autentifikâcija sniedzçjs lietotâjam"
+msgstr "Autentifikācija sniedzējs lietotājam"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -113,7 +117,7 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Avatar tçlu lietotâjs"
+msgstr "Avatar tēlu lietotājs"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,23 +125,23 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Keðatmiòa tiek inicializçts"
+msgstr "Kešatmiņa tiek inicializēts"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Keðatmiòa ir nezinâmâ stâvoklî"
+msgstr "Kešatmiņa ir nezināmā stāvoklī"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Keðatmiòa nav atjaunota(iespçjamsmanifestu ir sasniedzams)"
+msgstr "Kešatmiņa nav atjaunota(iespējamsmanifestu ir sasniedzams)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Keðatmiòa netiek atjauninâts, jo jûs esat bezsaistç"
+msgstr "Kešatmiņa netiek atjaunināts, jo jūs esat bezsaistē"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Keðatmiòa ir novecojis"
+msgstr "Kešatmiņa ir novecojis"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
@@ -145,11 +149,11 @@ msgstr "Cache ir up-to-date"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Keðatmiòa statuss ir"
+msgstr "Kešatmiņa statuss ir"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Pârbaude klâtbûtni atjauninâjumu"
+msgstr "Pārbaude klātbūtni atjauninājumu"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,11 +161,11 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale satur nederîgu rakstzîmi( s)"
+msgstr "Codice Fiscale satur nederīgu rakstzīmi( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale kontrole kods nesakrît"
+msgstr "Codice Fiscale kontrole kods nesakrīt"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
@@ -169,11 +173,15 @@ msgstr "Codice Fiscale vai P.IVA klienta"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Uzòçmuma logo"
+msgstr "Uzņēmuma logo"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Apstiprināt paroli"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Savienot, izmantojot vienu no saviem\\\"sociâlo\\\" kontiem, vai pieteikties ar ðiem akreditâcijas:"
+msgstr "Savienot, izmantojot vienu no saviem\\\"sociālo\\\" kontiem, vai pieteikties ar šiem akreditācijas:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -193,7 +201,7 @@ msgstr "Kontakti"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Paðreizçjâ valoda ir"
+msgstr "Pašreizējā valoda ir"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -233,23 +241,23 @@ msgstr "Datums"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Datums, kad pakalpojuma sâkuma"
+msgstr "Datums, kad pakalpojuma sākuma"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Dzçst klientu"
+msgstr "Dzēst klientu"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Dzçst pakalpojumu ziòojumu"
+msgstr "Dzēst pakalpojumu ziņojumu"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Dzçst lietotâju"
+msgstr "Dzēst lietotāju"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Lejupielâdçjot atjauninâjumu"
+msgstr "Lejupielādējot atjauninājumu"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -261,17 +269,18 @@ msgstr "Ilgums pakalpojumu"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Rediìçt klientu"
+msgstr "Rediģēt klientu"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Rediìçt pakalpojums ziòojums"
+msgstr "Rediģēt pakalpojums ziņojums"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Labot lietotâju"
+msgstr "Labot lietotāju"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "E-pasts"
 
@@ -279,17 +288,17 @@ msgstr "E-pasts"
 msgid "Email address"
 msgstr "E-pasta adrese"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "E-pasta adrese nav derîga"
+msgstr "E-pasta adrese nav derīga"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "E-pasta adrese lietotâja"
+msgstr "E-pasta adrese lietotāja"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "E-pasta lietotâja"
+msgstr "E-pasta lietotāja"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -301,15 +310,19 @@ msgstr "Filtra klienti"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Filtrs pakalpojumu ziòojumus"
+msgstr "Filtrs pakalpojumu ziņojumus"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Filtra lietotâjiem"
+msgstr "Filtra lietotājiem"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Sâkums"
+msgstr "Sākums"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Es aizmirsu savu paroli"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,21 +330,21 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Tas ïauj klientiem, pasûtîjumu un pakalpojumu ziòojumu pârvaldîbu."
+msgstr "Tas ļauj klientiem, pasūtījumu un pakalpojumu ziņojumu pārvaldību."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Tâ ir atvçrtâ koda, âtrs, kompakts, paplaðinâmas, elastîgu, starptautisko un mobilo."
+msgstr "Tā ir atvērtā koda, ātrs, kompakts, paplašināmas, elastīgu, starptautisko un mobilo."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Atraðanâs vieta"
+msgstr "Atrašanās vieta"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Atraðanâs vieta pakalpojumu"
+msgstr "Atrašanās vieta pakalpojumu"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Piesakieties"
 
@@ -345,11 +358,11 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Vârds"
+msgstr "Vārds"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Nosaukums lietotâja"
+msgstr "Nosaukums lietotāja"
 
 #: app/views/customers.html
 msgid "New customer"
@@ -357,19 +370,19 @@ msgstr "Jaunu klientu"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Jauns ziòojums"
+msgstr "Jauns ziņojums"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Jauns lietotâjs"
+msgstr "Jauns lietotājs"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Nç atjauninâjums ir klât"
+msgstr "Nē atjauninājums ir klāt"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Piezîmes"
+msgstr "Piezīmes"
 
 #: app/views/serviceReports.html
 msgid "Number"
@@ -389,7 +402,7 @@ msgstr "Operatora paraksts"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Pasûtîjumi"
+msgstr "Pasūtījumi"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,23 +410,39 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA satur nederîgu rakstzîmi( s)"
+msgstr "P.IVA satur nederīgu rakstzīmi( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA kontrole kods nesakrît"
+msgstr "P.IVA kontrole kods nesakrīt"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Parole"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Paroles apstiprinājums nesakrīt"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Parole apstiprinājums tiek pieprasīts"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Parole nav pietiekami stipra"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "Tâlrunis"
+msgstr "Tālrunis"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Tâlruòa numurs"
+msgstr "Tālruņa numurs"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Tâlruòa numurs nav derîgs"
+msgstr "Tālruņa numurs nav derīgs"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -421,7 +450,7 @@ msgstr "Vietu"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Sagatavojotlejupielâdçjot atjauninâjumu"
+msgstr "Sagatavojotlejupielādējot atjauninājumu"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -433,19 +462,23 @@ msgstr "Print klientu"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Print pakalpojums ziòojums"
+msgstr "Print pakalpojums ziņojums"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Print lietotâju"
+msgstr "Print lietotāju"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Sniedzçjs"
+msgstr "Sniedzējs"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "Reìistrçties"
+msgstr "Reģistrēties"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Nomainīt savu paroli"
 
 #: app/views/users.html
 msgid "Roles"
@@ -453,27 +486,27 @@ msgstr "Lomas"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Lomas lietotâju; noklikðíiniet slîdçt cauri visâm valstîm( RW-\\u003e R-\\u003e W-\\u003e nav)"
+msgstr "Lomas lietotāju; noklikšķiniet slīdēt cauri visām valstīm( RW-\\u003e R-\\u003e W-\\u003e nav)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Lomas lietotâju: zaïâ krâsa norâda atïauju lasît un rakstît, dzeltena lîdzekïus tikai lasît, zils tikai rakstît, un sarkanâ nav atïauju. Sekcijas ir:\\\"U\\\"(lietotâji),\\\" c\\\"(klienti),\\\"O\\\"( rîkojumi),\\\" s\\\"(dienesta ziòojumi)."
+msgstr "Lomas lietotāju: zaļā krāsa norāda atļauju lasīt un rakstīt, dzeltena līdzekļus tikai lasīt, zils tikai rakstīt, un sarkanā nav atļauju. Sekcijas ir:\\\"U\\\"(lietotāji),\\\" c\\\"(klienti),\\\"O\\\"( rīkojumi),\\\" s\\\"(dienesta ziņojumi)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "Saglabât"
+msgstr "Saglabāt"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Dienesta ziòojumu"
+msgstr "Dienesta ziņojumu"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Dienesta ziòojumu n"
+msgstr "Dienesta ziņojumu n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Pakalpojumu ziòojumus"
+msgstr "Pakalpojumu ziņojumus"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -485,11 +518,11 @@ msgstr "Iela"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ðis klients vârds jau tiek izmantots"
+msgstr "Šis klients vārds jau tiek izmantots"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ðis klients nosaukums nav derîgs"
+msgstr "Šis klients nosaukums nav derīgs"
 
 #: app/views/home.html
 msgid "This is"
@@ -497,71 +530,103 @@ msgstr "Tas ir"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ðis lietotâjs var ne lasît, ne rakstît"
+msgstr "Šis lietotājs var ne lasīt, ne rakstīt"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ðis lietotâjs var lasît"
+msgstr "Šis lietotājs var lasīt"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ðis lietotâjs var lasît un rakstît"
+msgstr "Šis lietotājs var lasīt un rakstīt"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ðis lietotâjs var rakstît"
+msgstr "Šis lietotājs var rakstīt"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ðis lietotâjs nevar piekïût"
+msgstr "Šis lietotājs nevar piekļūt"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ðî lietotâja vârds jau tiek izmantots"
+msgstr "Šī lietotāja vārds jau tiek izmantots"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Šis lietotājvārds jau ir pieņemts"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ðis lietotâjs nosaukums nav derîgs"
+msgstr "Šis lietotājs nosaukums nav derīgs"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ðî vçrtîba ir neCodice Fiscale neP.IVA"
+msgstr "Šī vērtība ir neCodice Fiscale neP.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Laiks pakalpojuma sâkuma"
+msgstr "Laiks pakalpojuma sākuma"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Pârslçgt navigâcija"
+msgstr "Pārslēgt navigācija"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Lietotâja e-pasta adresi"
+msgstr "Lietotāja e-pasta adresi"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Lietotâja vârds"
+msgstr "Lietotāja vārds"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Lietotāja vārds nav derīgs"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Lietotâja"
+msgstr "Lietotāja"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Lietotājvārds/ E-pasts"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Lietotâji"
+msgstr "Lietotāji"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Bezsaistç"
+msgstr "Bezsaistē"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Esat tieðsaistç"
+msgstr "Esat tiešsaistē"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Jūsu e-pasts"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Jūsu parole"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Paroli, atkal"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Tavs lietotāja vārds"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Tavs dalībnieka vārds vai epasta"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "keðatmiòâ"
+msgstr "kešatmiņā"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
@@ -569,7 +634,7 @@ msgstr "atcelt"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "pârbaude"
+msgstr "pārbaude"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
@@ -577,31 +642,32 @@ msgstr "klienti"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "lejupielâdi"
+msgstr "lejupielādi"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "kïûda"
+msgstr "kļūda"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "mâjas lapa nav reìistrçtiem lietotâjiem."
+msgstr "mājas lapa nav reģistrētiem lietotājiem."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "mâjas lapa piereìistrçjies lietotâjiem."
+#, 
+msgid "home page for registered users."
+msgstr "mājas lapā reģistrētiem lietotājiem."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "inicializçðana"
+msgstr "inicializēšana"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "irtîmekïa pieteikumu( smart) dibinâðanâ."
+msgstr "irtīmekļa pieteikumu( smart) dibināšanā."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "pieteicies lietotâjam"
+msgstr "pieteicies lietotājam"
 
 #: app/scripts/app.js
 msgid "obsolete"
@@ -609,11 +675,11 @@ msgstr "novecojis"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "pasûtîjumi"
+msgstr "pasūtījumi"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "citâdi reìistrçt jaunu accout un piesakieties."
+msgstr "citādi reģistrēt jaunu accout un piesakieties."
 
 #: app/views/home.html
 msgid "password:"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "lietotâjvârds:"
+msgstr "lietotājvārds:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "lietotâjiem"
+msgstr "lietotājiem"

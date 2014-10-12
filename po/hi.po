@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,139 +17,143 @@ msgstr "(HH: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "\\u090F\\u0915 Codice Fiscale\\u092F\\u093E\\u090F\\u0915 P.IVA\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
+msgstr "एक Codice Fiscale या एक P.IVA आवश्यक है"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "\\u090F\\u0915\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0928\\u093E\\u092E\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
+msgstr "एक ग्राहक नाम आवश्यक है"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0936\\u0941\\u0930\\u0942\\u0915\\u0940\\u0926\\u093F\\u0928\\u093E\\u0902\\u0915\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
+msgstr "सेवा शुरू की दिनांक आवश्यक है"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "\\u090F\\u0915\\u0905\\u0935\\u0927\\u093F'\\u090F\\u091A\\u090F\\u091A'\\u0915\\u0947\\u0930\\u0942\\u092A\\u092E\\u0947\\u0902\\u0939\\u094B\\u0928\\u093E\\u091A\\u093E\\u0939\\u093F\\u090F\\u092F\\u093E' HH: mm',\\u0914\\u0930\\u0915\\u092E\\u0938\\u0947\\u0915\\u092E\\u090F\\u0915\\u092E\\u093F\\u0928\\u091F\\u0924\\u0915"
+msgstr "एक अवधि' एच एच' के रूप में होना चाहिए या' HH: mm', और कम से कम एक मिनट तक"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0947\\u090F\\u0915\\u0938\\u094D\\u0925\\u093E\\u0928\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u094B\\u0924\\u0940\\u0939\\u0948"
+msgstr "सेवा के एक स्थान की आवश्यकता होती है"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "एक पासवर्ड की आवश्यकता है"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "\\u090F\\u0915\\u092B\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
+msgstr "एक फोन नंबर की आवश्यकता है"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "\\u090F\\u0915\\u0938\\u0921\\u093C\\u0915\\u0915\\u093E\\u092A\\u0924\\u093E\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0939\\u0948"
+msgstr "एक सड़क का पता आवश्यक है"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "\\u090F\\u0915\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
+msgstr "एक उपयोगकर्ता नाम की आवश्यकता है"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "\\u0915\\u0947\\u092C\\u093E\\u0930\\u0947\\u092E\\u0947\\u0902"
+msgstr "के बारे में"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "\\u0928\\u090F\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u091C\\u094B\\u0921\\u093C\\u0947\\u0902"
+msgstr "नए ग्राहक जोड़ें"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "\\u0928\\u092F\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u091C\\u094B\\u0921\\u093C\\u0947\\u0902"
+msgstr "नया उपयोगकर्ता जोड़ें"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "\\u092A\\u0924\\u093E"
+msgstr "पता"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "\\u090F\\u0915\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u0947\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
+msgstr "एक ईमेल पते की आवश्यकता है"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "\\u090F\\u0915\\u0911\\u092A\\u0930\\u0947\\u091F\\u0930\\u0915\\u0940\\u0906\\u0935\\u0936\\u094D\\u092F\\u0915\\u0924\\u093E\\u0939\\u0948"
+msgstr "एक ऑपरेटर की आवश्यकता है"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "\\u0915\\u094B\\u0908\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0909\\u092A\\u0932\\u092C\\u094D\\u0927\\u0939\\u0948:\\u0905\\u092C\\u0906\\u092A\\u0907\\u0938\\u0947\\u0932\\u094B\\u0921\\u0915\\u0930\\u0928\\u093E\\u091A\\u093E\\u0939\\u0924\\u0947\\u0939\\u0948\\u0902?"
+msgstr "कोई अद्यतन उपलब्ध है: अब आप इसे लोड करना चाहते हैं?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0915\\u0947\\u0932\\u093F\\u090F\\u0924\\u0948\\u092F\\u093E\\u0930\\u0939\\u0948"
+msgstr "एक अद्यतन के लिए तैयार है"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "\\u0906\\u092A\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u0915\\u094B\\u0926\\u0942\\u0930\\u0915\\u0930\\u0928\\u0947\\u0915\\u0947\\u0932\\u093F\\u090F\\u0935\\u093E\\u0938\\u094D\\u0924\\u0935\\u092E\\u0947\\u0902\\u092F\\u0915\\u0940\\u0928\\u0915\\u0930\\u0930\\u0939\\u0947\\u0939\\u0948\\u0902"
+msgstr "आप सेवा रिपोर्ट को दूर करने के लिए वास्तव में यकीन कर रहे हैं"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "\\u0906\\u092A\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u094B\\u0926\\u0942\\u0930\\u0915\\u0930\\u0928\\u0947\\u0915\\u0947\\u0932\\u093F\\u090F\\u0935\\u093E\\u0938\\u094D\\u0924\\u0935\\u092E\\u0947\\u0902\\u092F\\u0915\\u0940\\u0928\\u0915\\u0930\\u0930\\u0939\\u0947\\u0939\\u0948\\u0902"
+msgstr "आप उपयोगकर्ता को दूर करने के लिए वास्तव में यकीन कर रहे हैं"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923\\u0906\\u0908\\u0921\\u0940"
+msgstr "प्रमाणीकरण आईडी"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923\\u0906\\u0908\\u0921\\u0940"
+msgstr "उपयोगकर्ता का प्रमाणीकरण आईडी"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0940\\u0915\\u0930\\u0923\\u0906\\u0908\\u0921\\u0940:"
+msgstr "प्रमाणीकरण आईडी:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0928\\u092A\\u094D\\u0930\\u0926\\u093E\\u0924\\u093E"
+msgstr "प्रमाणन प्रदाता"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0947\\u0932\\u093F\\u090F\\u092A\\u094D\\u0930\\u092E\\u093E\\u0923\\u0928\\u092A\\u094D\\u0930\\u0926\\u093E\\u0924\\u093E"
+msgstr "उपयोगकर्ता के लिए प्रमाणन प्रदाता"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "\\u0905\\u0935\\u0924\\u093E\\u0930"
+msgstr "अवतार"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0905\\u0935\\u0924\\u093E\\u0930\\u091B\\u0935\\u093F"
+msgstr "उपयोगकर्ता का अवतार छवि"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "\\u0938\\u0940.\\u090F\\u092B\\u093C/ P.IVA"
+msgstr "सी.एफ़/ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "\\u0915\\u0948\\u0936 initialized\\u0915\\u093F\\u092F\\u093E\\u091C\\u093E\\u0930\\u0939\\u093E\\u0939\\u0948"
+msgstr "कैश initialized किया जा रहा है"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "\\u0915\\u0948\\u0936\\u0905\\u091C\\u094D\\u091E\\u093E\\u0924\\u0905\\u0935\\u0938\\u094D\\u0925\\u093E\\u092E\\u0947\\u0902\\u0939\\u0948"
+msgstr "कैश अज्ञात अवस्था में है"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "\\u0915\\u0948\\u0936\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948(\\u0936\\u093E\\u092F\\u0926\\u092A\\u094D\\u0930\\u0915\\u091F\\u0905\\u0917\\u092E\\u094D\\u092F\\u0939\\u0948)"
+msgstr "कैश अद्यतन नहीं है( शायद प्रकट अगम्य है)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "\\u0906\\u092A\\u0911\\u092B\\u0932\\u093E\\u0907\\u0928\\u0939\\u0948\\u0902\\u0915\\u094D\\u092F\\u094B\\u0902\\u0915\\u093F\\u0915\\u0948\\u0936\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
+msgstr "आप ऑफलाइन हैं क्योंकि कैश अद्यतन नहीं है"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "\\u0915\\u0948\\u0936\\u0905\\u092A\\u094D\\u0930\\u091A\\u0932\\u093F\\u0924\\u0939\\u0948"
+msgstr "कैश अप्रचलित है"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "\\u0915\\u0948\\u0936\\u0939\\u0948\\u0905\\u092A\\u0915\\u0930\\u0928\\u0947\\u0915\\u0940\\u0924\\u093E\\u0930\\u0940\\u0916"
+msgstr "कैश है अप करने की तारीख"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "\\u0915\\u0948\\u0936\\u0938\\u094D\\u0925\\u093F\\u0924\\u093F\\u0939\\u0948"
+msgstr "कैश स्थिति है"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0915\\u0940\\u0909\\u092A\\u0938\\u094D\\u0925\\u093F\\u0924\\u093F\\u0915\\u0947\\u0932\\u093F\\u090F\\u091C\\u093E\\u0901\\u091A\\u0939\\u094B\\u0930\\u0939\\u0940\\u0939\\u0948"
+msgstr "एक अद्यतन की उपस्थिति के लिए जाँच हो रही है"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,239 +161,248 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale\\u0905\\u092E\\u093E\\u0928\\u094D\\u092F\\u0935\\u0930\\u094D\\u0923(\\u0913\\u0902)"
+msgstr "Codice Fiscale अमान्य वर्ण(ओं)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale\\u0928\\u093F\\u092F\\u0902\\u0924\\u094D\\u0930\\u0923\\u0915\\u094B\\u0921\\u0938\\u0947\\u092E\\u0947\\u0932\\u0928\\u0939\\u0940\\u0902\\u0916\\u093E\\u0924\\u093E"
+msgstr "Codice Fiscale नियंत्रण कोड से मेल नहीं खाता"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale\\u092F\\u093E\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u0940 P.IVA"
+msgstr "Codice Fiscale या ग्राहक की P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "\\u0915\\u0902\\u092A\\u0928\\u0940\\u0932\\u094B\\u0917\\u094B"
+msgstr "कंपनी लोगो"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "पासवर्ड की पुष्टि कीजिये"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "\\u0905\\u092A\\u0928\\u0947\\\"\\u0938\\u093E\\u092E\\u093E\\u091C\\u093F\\u0915\\\"\\u0916\\u093E\\u0924\\u094B\\u0902\\u092E\\u0947\\u0902\\u0938\\u0947\\u090F\\u0915\\u0915\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u0915\\u0928\\u0947\\u0915\\u094D\\u091F\\u0915\\u0930\\u0947\\u0902,\\u092F\\u093E\\u0907\\u0928\\u092A\\u0939\\u091A\\u093E\\u0928\\u0915\\u0947\\u0938\\u093E\\u0925\\u0932\\u0949\\u0917\\u0907\\u0928\\u0915\\u0930\\u0947\\u0902:"
+msgstr "अपने\\\" सामाजिक\\\" खातों में से एक का उपयोग कर कनेक्ट करें, या इन पहचान के साथ लॉग इन करें:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Facebook\\u0915\\u0947\\u0938\\u093E\\u0925\\u0915\\u0928\\u0947\\u0915\\u094D\\u091F"
+msgstr "Facebook के साथ कनेक्ट"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "\\u0917\\u0942\\u0917\\u0932+\\u0915\\u0947\\u0938\\u093E\\u0925\\u0915\\u0928\\u0947\\u0915\\u094D\\u091F"
+msgstr "गूगल+ के साथ कनेक्ट"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "\\u091F\\u094D\\u0935\\u093F\\u091F\\u0930\\u0938\\u0947\\u091C\\u0941\\u0921\\u093C\\u0947\\u0902"
+msgstr "ट्विटर से जुड़ें"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "\\u0938\\u0902\\u092A\\u0930\\u094D\\u0915"
+msgstr "संपर्क"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "\\u0935\\u0930\\u094D\\u0924\\u092E\\u093E\\u0928\\u092D\\u093E\\u0937\\u093E\\u0939\\u0948"
+msgstr "वर्तमान भाषा है"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
+msgstr "ग्राहक"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u093E\\u0930\\u094D\\u0921"
+msgstr "ग्राहक कार्ड"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u0947"
+msgstr "ग्राहक ईमेल पते"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u093E\\u0928\\u093E\\u092E"
+msgstr "ग्राहक का नाम"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u092B\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930"
+msgstr "ग्राहक फोन नंबर"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0938\\u0921\\u093C\\u0915\\u0915\\u093E\\u092A\\u0924\\u093E"
+msgstr "ग्राहक सड़क का पता"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u0947\\u0939\\u0938\\u094D\\u0924\\u093E\\u0915\\u094D\\u0937\\u0930"
+msgstr "ग्राहक के हस्ताक्षर"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902"
+msgstr "ग्राहकों"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "\\u0924\\u093F\\u0925\\u093F"
+msgstr "तिथि"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u092A\\u094D\\u0930\\u093E\\u0930\\u0902\\u092D\\u0915\\u0940\\u0924\\u093F\\u0925\\u093F"
+msgstr "सेवा प्रारंभ की तिथि"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0939\\u091F\\u093E\\u090F\\u0902"
+msgstr "ग्राहक हटाएं"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u0939\\u091F\\u093E\\u090F\\u0902"
+msgstr "सेवा रिपोर्ट हटाएं"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0939\\u091F\\u093E\\u090F\\u0902"
+msgstr "उपयोगकर्ता हटाएं"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0921\\u093E\\u0909\\u0928\\u0932\\u094B\\u0921"
+msgstr "एक अद्यतन डाउनलोड"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "\\u0905\\u0935\\u0927\\u093F"
+msgstr "अवधि"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0940\\u0905\\u0935\\u0927\\u093F"
+msgstr "सेवा की अवधि"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
+msgstr "संपादित ग्राहक"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "संपादित सेवा रिपोर्ट"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "\\u0938\\u0902\\u092A\\u093E\\u0926\\u093F\\u0924\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "संपादित उपयोगकर्ता"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "\\u0908\\u092E\\u0947\\u0932"
+msgstr "ईमेल"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u093E"
+msgstr "ईमेल पता"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u093E\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
+msgstr "ईमेल पता मान्य नहीं है"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0947\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u0947"
+msgstr "उपयोगकर्ता के ईमेल पते"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0908\\u092E\\u0947\\u0932"
+msgstr "उपयोगकर्ता का ईमेल"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "\\u092B\\u0948\\u0915\\u094D\\u0938"
+msgstr "फैक्स"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "\\u092B\\u093C\\u093F\\u0932\\u094D\\u091F\\u0930\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902"
+msgstr "फ़िल्टर ग्राहकों"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "\\u092B\\u093C\\u093F\\u0932\\u094D\\u091F\\u0930\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902"
+msgstr "फ़िल्टर सेवा रिपोर्टों"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "\\u092B\\u093F\\u0932\\u094D\\u091F\\u0930\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902"
+msgstr "फिल्टर उपयोगकर्ताओं"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "\\u0939\\u094B\\u092E"
+msgstr "होम"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "मैं अपना पासवर्ड भूल गया"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "\\u0908\\u0926"
+msgstr "ईद"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "\\u092F\\u0939\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902,\\u0906\\u0926\\u0947\\u0936\\u0914\\u0930\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902\\u0915\\u0947\\u092A\\u094D\\u0930\\u092C\\u0902\\u0927\\u0928\\u0915\\u0940\\u0905\\u0928\\u0941\\u092E\\u0924\\u093F\\u0926\\u0947\\u0924\\u093E\\u0939\\u0948."
+msgstr "यह ग्राहकों, आदेश और सेवा रिपोर्टों के प्रबंधन की अनुमति देता है."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "\\u092F\\u0939\\u0916\\u0941\\u0932\\u093E\\u0938\\u094D\\u0930\\u094B\\u0924,\\u0924\\u0947\\u091C,\\u0915\\u0949\\u092E\\u094D\\u092A\\u0948\\u0915\\u094D\\u091F,\\u090F\\u0915\\u094D\\u0938\\u094D\\u091F\\u0947\\u0902\\u0938\\u093F\\u092C\\u0932,\\u0932\\u091A\\u0940\\u0932\\u093E,\\u0905\\u0902\\u0924\\u0930\\u0930\\u093E\\u0937\\u094D\\u091F\\u094D\\u0930\\u0940\\u092F\\u0914\\u0930\\u092E\\u094B\\u092C\\u093E\\u0907\\u0932\\u0939\\u0948."
+msgstr "यह खुला स्रोत, तेज, कॉम्पैक्ट, एक्स्टेंसिबल, लचीला, अंतरराष्ट्रीय और मोबाइल है."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "\\u0938\\u094D\\u0925\\u093E\\u0928"
+msgstr "स्थान"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0947\\u0938\\u094D\\u0925\\u093E\\u0928"
+msgstr "सेवा के स्थान"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "\\u0932\\u0949\\u0917\\u0907\\u0928\\u0915\\u0930\\u0947\\u0902"
+msgstr "लॉग इन करें"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "\\u0932\\u0949\\u0917\\u0906\\u0909\\u091F"
+msgstr "लॉग आउट"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "\\u090F\\u0928"
+msgstr "एन"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "\\u0928\\u093E\\u092E"
+msgstr "नाम"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0928\\u093E\\u092E"
+msgstr "उपयोगकर्ता का नाम"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "\\u0928\\u0908\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
+msgstr "नई ग्राहक"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "\\u0928\\u0908\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "नई रिपोर्ट"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "\\u0928\\u0908\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "नई उपयोगकर्ता"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "\\u0915\\u094B\\u0908\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u092E\\u094C\\u091C\\u0942\\u0926\\u0939\\u0948"
+msgstr "कोई अद्यतन मौजूद है"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "\\u0928\\u094B\\u091F\\u094D\\u0938"
+msgstr "नोट्स"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "\\u0938\\u0902\\u0916\\u094D\\u092F\\u093E"
+msgstr "संख्या"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "\\u0938\\u0902\\u091A\\u093E\\u0932\\u0915"
+msgstr "संचालक"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0915\\u0947\\u0938\\u0902\\u091A\\u093E\\u0932\\u0915"
+msgstr "सेवा के संचालक"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "\\u0938\\u0902\\u091A\\u093E\\u0932\\u0915\\u0915\\u0947\\u0939\\u0938\\u094D\\u0924\\u093E\\u0915\\u094D\\u0937\\u0930"
+msgstr "संचालक के हस्ताक्षर"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "\\u0906\\u0926\\u0947\\u0936"
+msgstr "आदेश"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA\\u0905\\u092E\\u093E\\u0928\\u094D\\u092F\\u0935\\u0930\\u094D\\u0923(\\u0913\\u0902)"
+msgstr "P.IVA अमान्य वर्ण(ओं)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA\\u0928\\u093F\\u092F\\u0902\\u0924\\u094D\\u0930\\u0923\\u0915\\u094B\\u0921\\u0938\\u0947\\u092E\\u0947\\u0932\\u0928\\u0939\\u0940\\u0902\\u0916\\u093E\\u0924\\u093E"
+msgstr "P.IVA नियंत्रण कोड से मेल नहीं खाता"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "पासवर्ड पुष्टि मेल नहीं खाता"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "पासवर्ड की पुष्टि के लिए आवश्यक है"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "पासवर्ड पर्याप्त रूप से मजबूत नहीं है"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "\\u092B\\u094B\\u0928"
+msgstr "फोन"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "\\u092B\\u093C\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930"
+msgstr "फ़ोन नंबर"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "\\u092B\\u093C\\u094B\\u0928\\u0928\\u0902\\u092C\\u0930\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
+msgstr "फ़ोन नंबर मान्य नहीं है"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "\\u091C\\u0917\\u0939"
+msgstr "जगह"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "\\u0924\\u0948\\u092F\\u093E\\u0930\\u0940\\u090F\\u0915\\u0905\\u0926\\u094D\\u092F\\u0924\\u0928\\u0921\\u093E\\u0909\\u0928\\u0932\\u094B\\u0921"
+msgstr "तैयारी एक अद्यतन डाउनलोड"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "\\u091B\\u093E\\u092A\\u093E"
+msgstr "छापा"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "\\u091B\\u093E\\u092A\\u093E\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915"
+msgstr "छापा ग्राहक"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "\\u091B\\u093E\\u092A\\u093E\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "छापा सेवा रिपोर्ट"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "\\u091B\\u093E\\u092A\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "छापा उपयोगकर्ता"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "\\u092A\\u094D\\u0930\\u0926\\u093E\\u0924\\u093E"
+msgstr "प्रदाता"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "\\u0930\\u091C\\u093F\\u0938\\u094D\\u091F\\u0930"
+msgstr "रजिस्टर"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "अपना पासवर्ड रीसेट"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "\\u092D\\u0942\\u092E\\u093F\\u0915\\u093E\\u090F\\u0901"
+msgstr "भूमिकाएँ"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0947\\u0932\\u093F\\u090F\\u092D\\u0942\\u092E\\u093F\\u0915\\u093E\\u0913\\u0902;\\u0938\\u092D\\u0940\\u0930\\u093E\\u091C\\u094D\\u092F\\u094B\\u0902\\u0915\\u0947\\u092E\\u093E\\u0927\\u094D\\u092F\\u092E\\u0938\\u0947\\u0938\\u094D\\u0932\\u093E\\u0907\\u0921\\u0915\\u094B\\u0915\\u094D\\u0932\\u093F\\u0915\\u0915\\u0930\\u0947\\u0902(\\u0906\\u0930\\u0921\\u092C\\u094D\\u0932\\u094D\\u092F\\u0942-\\u003e\\u0906\\u0930-\\u003e\\u0921\\u092C\\u094D\\u0932\\u094D\\u092F\\u0942-\\u003e\\u0915\\u094B\\u0908\\u092D\\u0940)"
+msgstr "इस उपयोगकर्ता के लिए भूमिकाओं; सभी राज्यों के माध्यम से स्लाइड को क्लिक करें( आरडब्ल्यू-\\u003e आर-\\u003e डब्ल्यू-\\u003e कोई भी)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u0940\\u092D\\u0942\\u092E\\u093F\\u0915\\u093E\\u090F\\u0901:\\u0939\\u0930\\u0947\\u0930\\u0902\\u0917\\u092A\\u0922\\u093C\\u0928\\u0947\\u0915\\u0947\\u0932\\u093F\\u090F\\u0905\\u0928\\u0941\\u092E\\u0924\\u093F\\u0907\\u0902\\u0917\\u093F\\u0924\\u0915\\u0930\\u0924\\u093E\\u0939\\u0948\\u0914\\u0930\\u0932\\u093F\\u0916\\u0928\\u093E,\\u092A\\u0940\\u0932\\u093E\\u0938\\u093E\\u0927\\u0928\\u0939\\u0940\\u092A\\u0922\\u093C\\u093E,\\u0928\\u0940\\u0932\\u093E\\u0939\\u0940\\u0932\\u093F\\u0916\\u0924\\u0947\\u0939\\u0948\\u0902,\\u0914\\u0930\\u0915\\u094B\\u0908\\u0905\\u0928\\u0941\\u092E\\u0924\\u093F\\u0932\\u093E\\u0932.\\u0935\\u0930\\u094D\\u0917\\u094B\\u0902\\u0939\\u0948\\u0902:'\\u092F\\u0942'(\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902),'\\u0938\\u0940'(\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902),'\\u0913'(\\u0906\\u0926\\u0947\\u0936),'\\u090F\\u0938'(\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902)."
+msgstr "उपयोगकर्ता की भूमिकाएँ: हरे रंग पढ़ने के लिए अनुमति इंगित करता है और लिखना, पीला साधन ही पढ़ा, नीला ही लिखते हैं, और कोई अनुमति लाल. वर्गों हैं:'यू'( उपयोगकर्ताओं),'सी'( ग्राहकों),' ओ'( आदेश),'एस'( सेवा रिपोर्टों)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "\\u0938\\u0939\\u0947\\u091C\\u0947\\u0902"
+msgstr "सहेजें"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "\\u0938\\u0930\\u094D\\u0935\\u093F\\u0938\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F"
+msgstr "सर्विस रिपोर्ट"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "\\u0938\\u0930\\u094D\\u0935\\u093F\\u0938\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F n"
+msgstr "सर्विस रिपोर्ट n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0930\\u093F\\u092A\\u094B\\u0930\\u094D\\u091F\\u094B\\u0902"
+msgstr "सेवा रिपोर्टों"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "\\u0938\\u0947\\u091F\\u0905\\u092A"
+msgstr "सेटअप"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "\\u0917\\u0932\\u0940\\u0915\\u093E\\u092A\\u0924\\u093E"
+msgstr "गली का पता"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "\\u0907\\u0938\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0915\\u093E\\u0928\\u093E\\u092E\\u092A\\u0939\\u0932\\u0947\\u0938\\u0947\\u0909\\u092A\\u092F\\u094B\\u0917\\u092E\\u0947\\u0902\\u0939\\u0948"
+msgstr "इस ग्राहक का नाम पहले से उपयोग में है"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "\\u0907\\u0938\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u0928\\u0947\\u0928\\u093E\\u092E\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
+msgstr "इस ग्राहक ने नाम मान्य नहीं है"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "\\u092F\\u0939\\u0935\\u0939\\u091C\\u0917\\u0939\\u0939\\u0948"
+msgstr "यह वह जगह है"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0914\\u0930\\u0928\\u0939\\u0940\\u092A\\u0922\\u093C\\u093E\\u0914\\u0930\\u0928\\u0939\\u0940\\u0932\\u093F\\u0916\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
+msgstr "इस उपयोगकर्ता और न ही पढ़ा और न ही लिख सकते हैं"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u092A\\u0922\\u093C\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
+msgstr "इस उपयोगकर्ता पढ़ सकते हैं"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u094B\\u092A\\u0922\\u093C\\u0914\\u0930\\u0932\\u093F\\u0916\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
+msgstr "इस उपयोगकर्ता को पढ़ और लिख सकते हैं"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0932\\u093F\\u0916\\u0938\\u0915\\u0924\\u0947\\u0939\\u0948\\u0902"
+msgstr "इस उपयोगकर्ता लिख सकते हैं"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0909\\u092A\\u092F\\u094B\\u0917\\u0928\\u0939\\u0940\\u0902\\u0915\\u0930\\u0938\\u0915\\u0924\\u0947"
+msgstr "इस उपयोगकर्ता का उपयोग नहीं कर सकते"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "\\u092F\\u0939\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E\\u092A\\u0939\\u0932\\u0947\\u0938\\u0947\\u0909\\u092A\\u092F\\u094B\\u0917\\u092E\\u0947\\u0902\\u0939\\u0948"
+msgstr "यह उपयोगकर्ता नाम पहले से उपयोग में है"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "इस उपयोगकर्ता नाम पहले ही ले लिया गया है"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "\\u0907\\u0938\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E\\u092E\\u093E\\u0928\\u094D\\u092F\\u0928\\u0939\\u0940\\u0902\\u0939\\u0948"
+msgstr "इस उपयोगकर्ता नाम मान्य नहीं है"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "\\u092F\\u0939\\u092E\\u093E\\u0928 Codice Fiscale\\u0914\\u0930\\u0928\\u0939\\u0940\\u090F\\u0915 P.IVA\\u0939\\u0948\\u0914\\u0930\\u0928\\u0939\\u0940"
+msgstr "यह मान Codice Fiscale और न ही एक P.IVA है और न ही"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "\\u0938\\u0947\\u0935\\u093E\\u0936\\u0941\\u0930\\u0942\\u0915\\u0930\\u0928\\u0947\\u0915\\u0947\\u0938\\u092E\\u092F"
+msgstr "सेवा शुरू करने के समय"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "\\u091F\\u0949\\u0917\\u0932\\u0928\\u0947\\u0935\\u093F\\u0917\\u0947\\u0936\\u0928"
+msgstr "टॉगल नेविगेशन"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0915\\u093E\\u0908\\u092E\\u0947\\u0932\\u092A\\u0924\\u093E"
+msgstr "उपयोगकर्ता का ईमेल पता"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "\\u0909\\u092A\\u0928\\u093E\\u092E"
+msgstr "उपनाम"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "उपनाम मान्य नहीं है"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "\\u092F\\u0942\\u091C\\u0930\\u0915\\u093E\\u0928\\u093E\\u092E"
+msgstr "यूजर का नाम"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "प्रयोक्ता नाम/ ईमेल"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "उपयोगकर्ता"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "\\u0906\\u092A\\u0911\\u092B\\u093C\\u0932\\u093E\\u0907\\u0928\\u0939\\u0948\\u0902"
+msgstr "आप ऑफ़लाइन हैं"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "\\u0906\\u092A\\u0911\\u0928\\u0932\\u093E\\u0907\\u0928\\u0939\\u0948\\u0902"
+msgstr "आप ऑनलाइन हैं"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "आपका ईमेल"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "आपका पासवर्ड"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "आपका पासवर्ड, फिर"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "आपका उपयोगकर्ता नाम"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "आपका नाम या ईमेल"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "\\u0915\\u0948\\u0936\\u094D\\u0921"
+msgstr "कैश्ड"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "\\u0930\\u0926\\u094D\\u0926"
+msgstr "रद्द"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "\\u091C\\u093E\\u0901\\u091A"
+msgstr "जाँच"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "\\u0917\\u094D\\u0930\\u093E\\u0939\\u0915\\u094B\\u0902"
+msgstr "ग्राहकों"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "\\u0921\\u093E\\u0909\\u0928\\u0932\\u094B\\u0921"
+msgstr "डाउनलोड"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "\\u0924\\u094D\\u0930\\u0941\\u091F\\u093F"
+msgstr "त्रुटि"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "\\u0917\\u0948\\u0930\\u092A\\u0902\\u091C\\u0940\\u0915\\u0943\\u0924\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902\\u0915\\u0947\\u0932\\u093F\\u090F\\u0939\\u094B\\u092E\\u092A\\u0947\\u091C."
+msgstr "गैर पंजीकृत उपयोगकर्ताओं के लिए होम पेज."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "registerd\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902\\u0915\\u0947\\u0932\\u093F\\u090F\\u0939\\u094B\\u092E\\u092A\\u0947\\u091C."
+#, 
+msgid "home page for registered users."
+msgstr "पंजीकृत उपयोगकर्ताओं के लिए होम पेज."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "\\u0906\\u0930\\u0902\\u092D"
+msgstr "आरंभ"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "(\\u0938\\u094D\\u092E\\u093E\\u0930\\u094D\\u091F)\\u0936\\u0941\\u0930\\u0942\\u0905\\u092A\\u0915\\u0947\\u0932\\u093F\\u090F\\u090F\\u0915\\u0935\\u0947\\u092C\\u0905\\u0928\\u0941\\u092A\\u094D\\u0930\\u092F\\u094B\\u0917\\u0939\\u0948."
+msgstr "( स्मार्ट) शुरू अप के लिए एक वेब अनुप्रयोग है."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "\\u0932\\u0949\\u0917\\u0907\\u0928\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E"
+msgstr "लॉग इन उपयोगकर्ता"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "\\u0905\\u092A\\u094D\\u0930\\u091A\\u0932\\u093F\\u0924"
+msgstr "अप्रचलित"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "\\u0906\\u0926\\u0947\\u0936"
+msgstr "आदेश"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "\\u0905\\u0928\\u094D\\u092F\\u0925\\u093E\\u090F\\u0915\\u0928\\u092F\\u093E accout\\u0930\\u091C\\u093F\\u0938\\u094D\\u091F\\u0930\\u0914\\u0930\\u092E\\u0947\\u0902\\u0932\\u0949\\u0917\\u0907\\u0928\\u0915\\u0930\\u0947\\u0902."
+msgstr "अन्यथा एक नया accout रजिस्टर और में लॉग इन करें."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "\\u092A\\u093E\\u0938\\u0935\\u0930\\u094D\\u0921:"
+msgstr "पासवर्ड:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "\\u092A\\u094D\\u0930\\u0917\\u0924\\u093F"
+msgstr "प्रगति"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0928\\u093E\\u092E:"
+msgstr "उपयोगकर्ता नाम:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "\\u0909\\u092A\\u092F\\u094B\\u0917\\u0915\\u0930\\u094D\\u0924\\u093E\\u0913\\u0902"
+msgstr "उपयोगकर्ताओं"

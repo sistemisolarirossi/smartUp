@@ -1,640 +1,705 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "(\\u0425\\u0425:\\u043C\\u043C)"
+msgstr "( Ð¥Ð¥: Ð¼Ð¼)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "\\u0426\\u043E\\u0434\\u0438\\u0446\\u0435\\u0424\\u0438\\u0441\\u0446\\u0430\\u043B\\u0435\\u0438\\u043B\\u0438\\u041F.\\u0418\\u0412\\u0410\\u0458\\u0435\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u0430\\u043D"
+msgstr "Ð¦Ð¾Ð´Ð¸ÑÐµ Ð¤Ð¸ÑÑÐ°Ð»Ðµ Ð¸Ð»Ð¸Ð.ÐÐÐ ÑÐµ Ð¿Ð¾ÑÑÐµÐ±Ð°Ð½"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "\\u0418\\u043C\\u0435\\u043A\\u043B\\u0438\\u0458\\u0435\\u043D\\u0442\\u0430\\u0458\\u0435\\u0434\\u0443\\u0436\\u0430\\u043D"
+msgstr "ÐÐ¼Ðµ ÐºÐ»Ð¸ÑÐµÐ½ÑÐ° ÑÐµ Ð´ÑÐ¶Ð°Ð½"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "\\u0408\\u0435\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u043D\\u043E\\u0434\\u0430\\u0442\\u0443\\u043C\\u043F\\u043E\\u0447\\u0435\\u0442\\u043A\\u0430\\u0443\\u0441\\u043B\\u0443\\u0433\\u0430"
+msgstr "ÐÐµ Ð¿Ð¾ÑÑÐµÐ±Ð½Ð¾Ð´Ð°ÑÑÐ¼ Ð¿Ð¾ÑÐµÑÐºÐ° ÑÑÐ»ÑÐ³Ð°"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "\\u0422\\u0440\\u0430\\u0458\\u0430\\u045A\\u0435\\u043C\\u043E\\u0440\\u0430\\u0431\\u0438\\u0442\\u0438\\u0443\\u0444\\u043E\\u0440\\u043C\\u0438'\\u0445\\u0445'\\u0438\\u043B\\u0438'\\u0445\\u0445:\\u043C\\u043C',\\u0438\\u0434\\u0443\\u0433\\u043E\\u043D\\u0430\\u0458\\u043C\\u0430\\u045A\\u0435\\u0458\\u0435\\u0434\\u0430\\u043D\\u043C\\u0438\\u043D\\u0443\\u0442"
+msgstr "Ð¢ÑÐ°ÑÐ°ÑÐµ Ð¼Ð¾ÑÐ° Ð±Ð¸ÑÐ¸ Ñ ÑÐ¾ÑÐ¼Ð¸'ÑÑ' Ð¸Ð»Ð¸' ÑÑ: Ð¼Ð¼', Ð¸ Ð´ÑÐ³Ð¾ Ð½Ð°ÑÐ¼Ð°ÑÐµ ÑÐµÐ´Ð°Ð½ Ð¼Ð¸Ð½ÑÑ"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "\\u0408\\u0435\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u043D\\u043E\\u043B\\u043E\\u043A\\u0430\\u0446\\u0438\\u0458\\u0430\\u0443\\u0441\\u043B\\u0443\\u0433\\u0435"
+msgstr "ÐÐµ Ð¿Ð¾ÑÑÐµÐ±Ð½Ð¾Ð»Ð¾ÐºÐ°ÑÐ¸ÑÐ° ÑÑÐ»ÑÐ³Ðµ"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "ÐÐ¾ÑÑÐµÐ±Ð½Ð° ÑÐµ Ð»Ð¾Ð·Ð¸Ð½ÐºÐ°"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "\\u0408\\u0435\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u0430\\u043D\\u0431\\u0440\\u043E\\u0458\\u0442\\u0435\\u043B\\u0435\\u0444\\u043E\\u043D\\u0430"
+msgstr "ÐÐµ Ð¿Ð¾ÑÑÐµÐ±Ð°Ð½Ð±ÑÐ¾Ñ ÑÐµÐ»ÐµÑÐ¾Ð½Ð°"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "\\u0408\\u0435\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u043D\\u043E\\u0430\\u0434\\u0440\\u0435\\u0441\\u0443"
+msgstr "ÐÐµ Ð¿Ð¾ÑÑÐµÐ±Ð½Ð¾Ð°Ð´ÑÐµÑÑ"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "\\u041A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u043E\\u0438\\u043C\\u0435\\u0458\\u0435\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u043D\\u043E"
+msgstr "ÐÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ ÑÐµ Ð¿Ð¾ÑÑÐµÐ±Ð½Ð¾"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "\\u041E"
+msgstr "Ð"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "\\u0414\\u043E\\u0434\\u0430\\u0458\\u043D\\u043E\\u0432\\u043E\\u0433\\u043A\\u043B\\u0438\\u0458\\u0435\\u043D\\u0442\\u0430"
+msgstr "ÐÐ¾Ð´Ð°Ñ Ð½Ð¾Ð²Ð¾Ð³ ÐºÐ»Ð¸ÑÐµÐ½ÑÐ°"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "\\u0414\\u043E\\u0434\\u0430\\u0458\\u043D\\u043E\\u0432\\u043E\\u0433\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÐ¾Ð´Ð°Ñ Ð½Ð¾Ð²Ð¾Ð³ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430"
+msgstr "Ð°Ð´ÑÐµÑÐ°"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "\\u0408\\u0435\\u043D\\u0435\\u043E\\u043F\\u0445\\u043E\\u0434\\u0430\\u043D\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430\\u0435-\\u043F\\u043E\\u0448\\u0442\\u0435"
+msgstr "ÐÐµ Ð½ÐµÐ¾Ð¿ÑÐ¾Ð´Ð°Ð½Ð°Ð´ÑÐµÑÐ° Ðµ-Ð¿Ð¾ÑÑÐµ"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "\\u0408\\u0435\\u043D\\u0435\\u043E\\u043F\\u0445\\u043E\\u0434\\u0430\\u043D\\u043E\\u043F\\u0435\\u0440\\u0430\\u0442\\u0435\\u0440"
+msgstr "ÐÐµ Ð½ÐµÐ¾Ð¿ÑÐ¾Ð´Ð°Ð½Ð¾Ð¿ÐµÑÐ°ÑÐµÑ"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "\\u0423\\u043F\\u0434\\u0430\\u0442\\u0435\\u0458\\u0435\\u0434\\u043E\\u0441\\u0442\\u0443\\u043F\\u0430\\u043D:\\u0434\\u0430\\u043B\\u0438\\u0436\\u0435\\u043B\\u0438\\u0442\\u0435\\u0434\\u0430\\u0433\\u0430\\u0443\\u0447\\u0438\\u0442\\u0430\\u0441\\u0430\\u0434\\u0430?"
+msgstr "Ð£Ð¿Ð´Ð°ÑÐµ ÑÐµ Ð´Ð¾ÑÑÑÐ¿Ð°Ð½: Ð´Ð° Ð»Ð¸ Ð¶ÐµÐ»Ð¸ÑÐµ Ð´Ð° Ð³Ð° ÑÑÐ¸ÑÐ° ÑÐ°Ð´Ð°?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "\\u0423\\u043F\\u0434\\u0430\\u0442\\u0435\\u0458\\u0435\\u0441\\u043F\\u0440\\u0435\\u043C\\u0430\\u043D"
+msgstr "Ð£Ð¿Ð´Ð°ÑÐµ ÑÐµ ÑÐ¿ÑÐµÐ¼Ð°Ð½"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "\\u0414\\u0430\\u043B\\u0438\\u0441\\u0442\\u0435\\u0437\\u0430\\u0438\\u0441\\u0442\\u0430\\u0441\\u0438\\u0433\\u0443\\u0440\\u043D\\u0438\\u0434\\u0430\\u0443\\u043A\\u043B\\u043E\\u043D\\u0438\\u0442\\u0435\\u0441\\u0435\\u0440\\u0432\\u0438\\u0441\\u043D\\u0438\\u0438\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458"
+msgstr "ÐÐ° Ð»Ð¸ ÑÑÐµ Ð·Ð°Ð¸ÑÑÐ° ÑÐ¸Ð³ÑÑÐ½Ð¸ Ð´Ð° ÑÐºÐ»Ð¾Ð½Ð¸ÑÐµ ÑÐµÑÐ²Ð¸ÑÐ½Ð¸ Ð¸Ð·Ð²ÐµÑÑÐ°Ñ"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "\\u0414\\u0430\\u043B\\u0438\\u0441\\u0442\\u0435\\u0437\\u0430\\u0438\\u0441\\u0442\\u0430\\u0441\\u0438\\u0433\\u0443\\u0440\\u043D\\u0438\\u0434\\u0430\\u0441\\u0442\\u0435\\u0443\\u043A\\u043B\\u043E\\u043D\\u0438\\u043B\\u0438\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÐ° Ð»Ð¸ ÑÑÐµ Ð·Ð°Ð¸ÑÑÐ° ÑÐ¸Ð³ÑÑÐ½Ð¸ Ð´Ð° ÑÑÐµ ÑÐºÐ»Ð¾Ð½Ð¸Ð»Ð¸ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "\\u0430\\u0443\\u0442\\u0445\\u0435\\u043D\\u0442\\u0438\\u0446\\u0430\\u0442\\u0438\\u043E\\u043D\\u0438\\u0434"
+msgstr "Ð°ÑÑÑÐµÐ½ÑÐ¸ÑÐ°ÑÐ¸Ð¾Ð½ Ð¸Ð´"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "\\u0410\\u0443\\u0442\\u0435\\u043D\\u0442\\u0438\\u0444\\u0438\\u043A\\u0430\\u0446\\u0438\\u0458\\u0443\\u0418\\u0414\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÑÑÐµÐ½ÑÐ¸ÑÐ¸ÐºÐ°ÑÐ¸ÑÑ ÐÐ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "\\u0410\\u0443\\u0442\\u0445\\u0435\\u043D\\u0442\\u0438\\u0446\\u0430\\u0442\\u0438\\u043E\\u043D\\u0418\\u0414:"
+msgstr "ÐÑÑÑÐµÐ½ÑÐ¸ÑÐ°ÑÐ¸Ð¾Ð½ ÐÐ:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "\\u0430\\u0443\\u0442\\u0445\\u0435\\u043D\\u0442\\u0438\\u0446\\u0430\\u0442\\u0438\\u043E\\u043D\\u043F\\u0440\\u043E\\u0432\\u0430\\u0458\\u0434\\u0435\\u0440"
+msgstr "Ð°ÑÑÑÐµÐ½ÑÐ¸ÑÐ°ÑÐ¸Ð¾Ð½ Ð¿ÑÐ¾Ð²Ð°ÑÐ´ÐµÑ"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "\\u0410\\u0443\\u0442\\u0435\\u043D\\u0442\\u0438\\u0444\\u0438\\u043A\\u0430\\u0446\\u0438\\u0458\\u0443\\u043F\\u0440\\u043E\\u0432\\u0430\\u0458\\u0434\\u0435\\u0440\\u0437\\u0430\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÑÑÐµÐ½ÑÐ¸ÑÐ¸ÐºÐ°ÑÐ¸ÑÑ Ð¿ÑÐ¾Ð²Ð°ÑÐ´ÐµÑ Ð·Ð° ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "\\u0410\\u0432\\u0430\\u0442\\u0430\\u0440"
+msgstr "ÐÐ²Ð°ÑÐ°Ñ"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "\\u0410\\u0432\\u0430\\u0442\\u0430\\u0440\\u0441\\u043B\\u0438\\u043A\\u0430\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÐ²Ð°ÑÐ°Ñ ÑÐ»Ð¸ÐºÐ° ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "\\u0426.\\u0424./\\u041F.\\u0418\\u0412\\u0410"
+msgstr "Ð¦.Ð¤./ Ð.ÐÐÐ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "\\u041A\\u0435\\u0448\\u0441\\u0435\\u0438\\u043D\\u0438\\u0446\\u0438\\u0458\\u0430\\u043B\\u0438\\u0437\\u0443\\u0458\\u0435"
+msgstr "ÐÐµÑ ÑÐµ Ð¸Ð½Ð¸ÑÐ¸ÑÐ°Ð»Ð¸Ð·ÑÑÐµ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "\\u041A\\u0435\\u0448\\u0458\\u0435\\u0443\\u043D\\u0435\\u043F\\u043E\\u0437\\u043D\\u0430\\u0442\\u043E\\u043C\\u0441\\u0442\\u0430\\u045A\\u0443"
+msgstr "ÐÐµÑ ÑÐµ Ñ Ð½ÐµÐ¿Ð¾Ð·Ð½Ð°ÑÐ¾Ð¼ ÑÑÐ°ÑÑ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "\\u041A\\u0435\\u0448\\u0441\\u0435\\u043D\\u0435\\u0430\\u0436\\u0443\\u0440\\u0438\\u0440\\u0430(\\u0432\\u0435\\u0440\\u043E\\u0432\\u0430\\u0442\\u043D\\u043E\\u043C\\u0430\\u043D\\u0438\\u0444\\u0435\\u0441\\u0442\\u0438\\u0441\\u0443\\u043D\\u0440\\u0435\\u0430\\u0446\\u0445\\u0430\\u0431\\u043B\\u0435)"
+msgstr "ÐÐµÑ ÑÐµ Ð½Ðµ Ð°Ð¶ÑÑÐ¸ÑÐ°(Ð²ÐµÑÐ¾Ð²Ð°ÑÐ½Ð¾Ð¼Ð°Ð½Ð¸ÑÐµÑÑ Ð¸Ñ ÑÐ½ÑÐµÐ°ÑÑÐ°Ð±Ð»Ðµ)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "\\u041A\\u0435\\u0448\\u0441\\u0435\\u043D\\u0435\\u0430\\u0436\\u0443\\u0440\\u0438\\u0440\\u0430\\u0437\\u0430\\u0442\\u043E\\u0448\\u0442\\u043E\\u0441\\u0442\\u0435\\u043D\\u0430\\u043C\\u0440\\u0435\\u0436\\u0438"
+msgstr "ÐÐµÑ ÑÐµ Ð½Ðµ Ð°Ð¶ÑÑÐ¸ÑÐ° Ð·Ð°ÑÐ¾ ÑÑÐ¾ ÑÑÐµ Ð½Ð° Ð¼ÑÐµÐ¶Ð¸"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "\\u041A\\u0435\\u0448\\u0458\\u0435\\u0437\\u0430\\u0441\\u0442\\u0430\\u0440\\u0435\\u043B\\u0430"
+msgstr "ÐÐµÑ ÑÐµ Ð·Ð°ÑÑÐ°ÑÐµÐ»Ð°"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "\\u0426\\u0430\\u0446\\u0445\\u0435\\u0458\\u0435\\u0434\\u043E-\\u0434\\u043E\\u0434\\u0430\\u0442\\u0443\\u043C\\u0430"
+msgstr "Ð¦Ð°ÑÑÐµ ÑÐµ Ð´Ð¾- Ð´Ð¾ Ð´Ð°ÑÑÐ¼Ð°"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\\u043A\\u0435\\u0448\\u0458\\u0435"
+msgstr "Ð¡ÑÐ°ÑÑÑ ÐºÐµÑ ÑÐµ"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "\\u041F\\u0440\\u043E\\u0432\\u0435\\u0440\\u0430\\u0437\\u0430\\u043F\\u0440\\u0438\\u0441\\u0443\\u0441\\u0442\\u0432\\u0443\\u0430\\u0436\\u0443\\u0440\\u0438\\u0440\\u0430\\u045A\\u0430"
+msgstr "ÐÑÐ¾Ð²ÐµÑÐ° Ð·Ð° Ð¿ÑÐ¸ÑÑÑÑÐ²Ñ Ð°Ð¶ÑÑÐ¸ÑÐ°ÑÐ°"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "\\u0426\\u043E\\u0434\\u0438\\u0446\\u0435\\u0424\\u0438\\u0441\\u0446\\u0430\\u043B\\u0435/\\u041F.\\u0418\\u0412\\u0410"
+msgstr "Ð¦Ð¾Ð´Ð¸ÑÐµ Ð¤Ð¸ÑÑÐ°Ð»Ðµ/ Ð.ÐÐÐ"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "\\u0426\\u043E\\u0434\\u0438\\u0446\\u0435\\u0424\\u0438\\u0441\\u0446\\u0430\\u043B\\u0435\\u0441\\u0430\\u0434\\u0440\\u0436\\u0438\\u043D\\u0435\\u0432\\u0430\\u0436\\u0435\\u045B\\u0438\\u0437\\u043D\\u0430\\u043A(\\u0435)"
+msgstr "Ð¦Ð¾Ð´Ð¸ÑÐµ Ð¤Ð¸ÑÑÐ°Ð»Ðµ ÑÐ°Ð´ÑÐ¶Ð¸ Ð½ÐµÐ²Ð°Ð¶ÐµÑÐ¸ Ð·Ð½Ð°Ðº( Ðµ)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "\\u0426\\u043E\\u0434\\u0438\\u0446\\u0435\\u0424\\u0438\\u0441\\u0446\\u0430\\u043B\\u0435\\u041A\\u043E\\u043D\\u0442\\u0440\\u043E\\u043B\\u043D\\u0438\\u043A\\u043E\\u0434\\u043D\\u0435\\u043E\\u0434\\u0433\\u043E\\u0432\\u0430\\u0440\\u0430"
+msgstr "Ð¦Ð¾Ð´Ð¸ÑÐµ Ð¤Ð¸ÑÑÐ°Ð»Ðµ ÐÐ¾Ð½ÑÑÐ¾Ð»Ð½Ð¸ ÐºÐ¾Ð´ Ð½Ðµ Ð¾Ð´Ð³Ð¾Ð²Ð°ÑÐ°"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "\\u0426\\u043E\\u0434\\u0438\\u0446\\u0435\\u0424\\u0438\\u0441\\u0446\\u0430\\u043B\\u0435\\u0438\\u043B\\u0438\\u041F.\\u0418\\u0412\\u0410\\u043A\\u0443\\u043F\\u0446\\u0430"
+msgstr "Ð¦Ð¾Ð´Ð¸ÑÐµ Ð¤Ð¸ÑÑÐ°Ð»Ðµ Ð¸Ð»Ð¸ Ð.ÐÐÐ ÐºÑÐ¿ÑÐ°"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "\\u0426\\u043E\\u043C\\u043F\\u0430\\u043D\\u0438\\u041B\\u043E\\u0433\\u043E"
+msgstr "Ð¦Ð¾Ð¼Ð¿Ð°Ð½Ð¸ ÐÐ¾Ð³Ð¾"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "ÐÐ¾ÑÐ²ÑÐ´Ð¸ Ð»Ð¾Ð·Ð¸Ð½ÐºÑ"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "\\u041F\\u043E\\u0432\\u0435\\u0436\\u0438\\u0442\\u0435\\u0441\\u0435\\u043A\\u043E\\u0440\\u0438\\u0441\\u0442\\u0435\\u045B\\u0438\\u0458\\u0435\\u0434\\u0430\\u043D\\u043E\\u0434\\u0432\\u0430\\u0448\\u0438\\u0445\\\"\\u0434\\u0440\\u0443\\u0448\\u0442\\u0432\\u0435\\u043D\\u0438\\u0445\\\"\\u0440\\u0430\\u0447\\u0443\\u043D\\u0430,\\u0438\\u043B\\u0438\\u0432\\u043E\\u0458\\u0434\\u0438\\u0442\\u0435\\u0441\\u0430\\u043E\\u0432\\u0438\\u043C\\u043D\\u0430\\u043B\\u043E\\u0433\\u0430:"
+msgstr "ÐÐ¾Ð²ÐµÐ¶Ð¸ÑÐµ ÑÐµ ÐºÐ¾ÑÐ¸ÑÑÐµÑÐ¸ ÑÐµÐ´Ð°Ð½ Ð¾Ð´ Ð²Ð°ÑÐ¸Ñ\\\"Ð´ÑÑÑÑÐ²ÐµÐ½Ð¸Ñ\\\" ÑÐ°ÑÑÐ½Ð°, Ð¸Ð»Ð¸ Ð²Ð¾ÑÐ´Ð¸ÑÐµ ÑÐ° Ð¾Ð²Ð¸Ð¼ Ð½Ð°Ð»Ð¾Ð³Ð°:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "\\u041F\\u043E\\u0432\\u0435\\u0436\\u0438\\u0441\\u0435\\u0441\\u0430\\u0424\\u0430\\u0446\\u0435\\u0431\\u043E\\u043E\\u043A\\u043E\\u043C"
+msgstr "ÐÐ¾Ð²ÐµÐ¶Ð¸ ÑÐµ ÑÐ° Ð¤Ð°ÑÐµÐ±Ð¾Ð¾ÐºÐ¾Ð¼"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "\\u041F\\u043E\\u0432\\u0435\\u0436\\u0438\\u0442\\u0435\\u0441\\u0435\\u0441\\u0430\\u0413\\u043E\\u043E\\u0433\\u043B\\u0435+"
+msgstr "ÐÐ¾Ð²ÐµÐ¶Ð¸ÑÐµ ÑÐµ ÑÐ° ÐÐ¾Ð¾Ð³Ð»Ðµ+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "\\u041F\\u043E\\u0432\\u0435\\u0436\\u0438\\u0442\\u0435\\u0441\\u0435\\u0441\\u0430\\u0422\\u0432\\u0438\\u0442\\u0442\\u0435\\u0440"
+msgstr "ÐÐ¾Ð²ÐµÐ¶Ð¸ÑÐµ ÑÐµ ÑÐ° Ð¢Ð²Ð¸ÑÑÐµÑ"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "\\u041A\\u043E\\u043D\\u0442\\u0430\\u043A\\u0442\\u0438"
+msgstr "ÐÐ¾Ð½ÑÐ°ÐºÑÐ¸"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "\\u0422\\u0440\\u0435\\u043D\\u0443\\u0442\\u043D\\u0438\\u0458\\u0435\\u0437\\u0438\\u043A\\u0458\\u0435"
+msgstr "Ð¢ÑÐµÐ½ÑÑÐ½Ð¸ ÑÐµÐ·Ð¸Ðº ÑÐµ"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "\\u0446\\u0443\\u0441\\u0442\\u043E\\u043C\\u0435\\u0440"
+msgstr "Ð¦ÑÑÑÐ¾Ð¼ÐµÑ"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "\\u041A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u0430\\u043A\\u0430\\u0440\\u0442\\u0438\\u0446\\u0430"
+msgstr "ÐÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ° ÐºÐ°ÑÑÐ¸ÑÐ°"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "\\u041A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u0438\\u0435-\\u043C\\u0430\\u0438\\u043B\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430"
+msgstr "ÐÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¸ Ðµ-Ð¼Ð°Ð¸Ð» Ð°Ð´ÑÐµÑÐ°"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "\\u0438\\u043C\\u0435\\u043A\\u043B\\u0438\\u0458\\u0435\\u043D\\u0442\\u0430"
+msgstr "Ð¸Ð¼Ðµ ÐºÐ»Ð¸ÑÐµÐ½ÑÐ°"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "\\u0411\\u0440\\u043E\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430\\u0442\\u0435\\u043B\\u0435\\u0444\\u043E\\u043D\\u0430"
+msgstr "ÐÑÐ¾Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ° ÑÐµÐ»ÐµÑÐ¾Ð½Ð°"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "\\u041A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u0438\\u0430\\u0434\\u0440\\u0435\\u0441\\u0443"
+msgstr "ÐÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¸ Ð°Ð´ÑÐµÑÑ"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "\\u041F\\u043E\\u0442\\u043F\\u0438\\u0441\\u043A\\u0443\\u043F\\u0446\\u0430"
+msgstr "ÐÐ¾ÑÐ¿Ð¸Ñ ÐºÑÐ¿ÑÐ°"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "\\u041A\\u0443\\u043F\\u0446\\u0438"
+msgstr "ÐÑÐ¿ÑÐ¸"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "\\u0434\\u0430\\u0442\\u0443\\u043C"
+msgstr "Ð´Ð°ÑÑÐ¼"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "\\u0414\\u0430\\u0442\\u0443\\u043C\\u043F\\u043E\\u0447\\u0435\\u0442\\u043A\\u0430\\u0443\\u0441\\u043B\\u0443\\u0433\\u0430"
+msgstr "ÐÐ°ÑÑÐ¼ Ð¿Ð¾ÑÐµÑÐºÐ° ÑÑÐ»ÑÐ³Ð°"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0434\\u0435\\u043B\\u0435\\u0442\\u0435\\u043A\\u0443\\u043F\\u0446\\u0430"
+msgstr "Ð´ÐµÐ»ÐµÑÐµ ÐºÑÐ¿ÑÐ°"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u0414\\u0435\\u043B\\u0435\\u0442\\u0435\\u0441\\u0435\\u0440\\u0432\\u0438\\u0441\\u043D\\u0438\\u0438\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458"
+msgstr "ÐÐµÐ»ÐµÑÐµ ÑÐµÑÐ²Ð¸ÑÐ½Ð¸ Ð¸Ð·Ð²ÐµÑÑÐ°Ñ"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "\\u0411\\u0440\\u0438\\u0441\\u0430\\u045A\\u0435\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÑÐ¸ÑÐ°ÑÐµ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "\\u041F\\u0440\\u0435\\u0443\\u0437\\u0438\\u043C\\u0430\\u045A\\u0435\\u0430\\u0436\\u0443\\u0440\\u0438\\u0440\\u0430\\u045A\\u0435"
+msgstr "ÐÑÐµÑÐ·Ð¸Ð¼Ð°ÑÐµ Ð°Ð¶ÑÑÐ¸ÑÐ°ÑÐµ"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "\\u0434\\u0443\\u0440\\u0430\\u0442\\u0438\\u043E\\u043D"
+msgstr "Ð´ÑÑÐ°ÑÐ¸Ð¾Ð½"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "\\u0422\\u0440\\u0430\\u0458\\u0430\\u045A\\u0435\\u0441\\u043B\\u0443\\u0436\\u0431\\u0435"
+msgstr "Ð¢ÑÐ°ÑÐ°ÑÐµ ÑÐ»ÑÐ¶Ð±Ðµ"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "\\u0435\\u0434\\u0438\\u0442\\u0426\\u0443\\u0441\\u0442\\u043E\\u043C\\u0435\\u0440"
+msgstr "ÐµÐ´Ð¸Ñ Ð¦ÑÑÑÐ¾Ð¼ÐµÑ"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "\\u0415\\u0434\\u0438\\u0442\\u0420\\u0435\\u043F\\u043E\\u0440\\u0442\\u0441\\u0435\\u0440\\u0432\\u0438\\u0441"
+msgstr "ÐÐ´Ð¸Ñ Ð ÐµÐ¿Ð¾ÑÑ ÑÐµÑÐ²Ð¸Ñ"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "\\u0418\\u0437\\u043C\\u0435\\u043D\\u0438\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÐ·Ð¼ÐµÐ½Ð¸ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "\\u0435\\u043C\\u0430\\u0438\\u043B"
+msgstr "ÐµÐ¼Ð°Ð¸Ð»"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "\\u0415-\\u043C\\u0430\\u0438\\u043B\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430"
+msgstr "Ð-Ð¼Ð°Ð¸Ð» Ð°Ð´ÑÐµÑÐ°"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "\\u0415-\\u043C\\u0430\\u0438\\u043B\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430\\u043D\\u0438\\u0458\\u0435\\u0432\\u0430\\u0436\\u0435\\u045B\\u0430"
+msgstr "Ð-Ð¼Ð°Ð¸Ð» Ð°Ð´ÑÐµÑÐ° Ð½Ð¸ÑÐµ Ð²Ð°Ð¶ÐµÑÐ°"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "\\u0415\\u043C\\u0430\\u0438\\u043B\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÐ¼Ð°Ð¸Ð» Ð°Ð´ÑÐµÑÐ° ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "\\u0415-\\u043C\\u0430\\u0438\\u043B\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "Ð-Ð¼Ð°Ð¸Ð» Ð°Ð´ÑÐµÑÐ° ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "\\u0444\\u0430\\u043A"
+msgstr "Ð¤Ð°Ðº"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "\\u0424\\u0438\\u043B\\u0442\\u0435\\u0440\\u041A\\u0443\\u043F\\u0446\\u0438"
+msgstr "Ð¤Ð¸Ð»ÑÐµÑ ÐÑÐ¿ÑÐ¸"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "\\u0418\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458\\u0438\\u0444\\u0438\\u043B\\u0442\\u0435\\u0440\\u0441\\u0435\\u0440\\u0432\\u0438\\u0441"
+msgstr "ÐÐ·Ð²ÐµÑÑÐ°ÑÐ¸ ÑÐ¸Ð»ÑÐµÑ ÑÐµÑÐ²Ð¸Ñ"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "\\u0424\\u0438\\u043B\\u0442\\u0435\\u0440\\u0443\\u0441\\u0435\\u0440\\u0441"
+msgstr "Ð¤Ð¸Ð»ÑÐµÑ ÑÑÐµÑÑ"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "\\u041D\\u0430\\u0441\\u043B\\u043E\\u0432\\u043D\\u0430"
+msgstr "ÐÐ°ÑÐ»Ð¾Ð²Ð½Ð°"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "ÐÐ°Ð±Ð¾ÑÐ°Ð²Ð¸Ð¾ ÑÐ°Ð¼ ÑÐ¸ÑÑÑ"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "\\u0438\\u0434"
+msgstr "Ð¸Ð´"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "\\u041E\\u043D\\u043E\\u043C\\u043E\\u0433\\u0443\\u045B\\u0430\\u0432\\u0430\\u0443\\u043F\\u0440\\u0430\\u0432\\u0459\\u0430\\u045A\\u0435\\u043A\\u0443\\u043F\\u0430\\u0446\\u0430,\\u043D\\u0430\\u043B\\u043E\\u0433\\u0430\\u0438\\u0438\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458\\u0430\\u0443\\u0441\\u043B\\u0443\\u0433\\u0430."
+msgstr "ÐÐ½ Ð¾Ð¼Ð¾Ð³ÑÑÐ°Ð²Ð° ÑÐ¿ÑÐ°Ð²ÑÐ°ÑÐµ ÐºÑÐ¿Ð°ÑÐ°, Ð½Ð°Ð»Ð¾Ð³Ð° Ð¸ Ð¸Ð·Ð²ÐµÑÑÐ°ÑÐ° ÑÑÐ»ÑÐ³Ð°."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "\\u0422\\u043E\\u0458\\u0435\\u043E\\u043F\\u0435\\u043D\\u0441\\u043E\\u0443\\u0440\\u0446\\u0435,\\u0431\\u0440\\u0437,\\u043A\\u043E\\u043C\\u043F\\u0430\\u043A\\u0442\\u0430\\u043D,\\u043F\\u0440\\u043E\\u0448\\u0438\\u0440\\u0438\\u0432\\u0438,\\u0435\\u043B\\u0430\\u0441\\u0442\\u0438\\u0447\\u043D\\u0430,\\u043C\\u0435\\u0452\\u0443\\u043D\\u0430\\u0440\\u043E\\u0434\\u043D\\u0438\\u0438\\u043C\\u043E\\u0431\\u0438\\u043B\\u043D\\u0438."
+msgstr "Ð¢Ð¾ ÑÐµ Ð¾Ð¿ÐµÐ½ ÑÐ¾ÑÑÑÐµ, Ð±ÑÐ·, ÐºÐ¾Ð¼Ð¿Ð°ÐºÑÐ°Ð½, Ð¿ÑÐ¾ÑÐ¸ÑÐ¸Ð²Ð¸, ÐµÐ»Ð°ÑÑÐ¸ÑÐ½Ð°, Ð¼ÐµÑÑÐ½Ð°ÑÐ¾Ð´Ð½Ð¸ Ð¸ Ð¼Ð¾Ð±Ð¸Ð»Ð½Ð¸."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "\\u043B\\u043E\\u043A\\u0430\\u0446\\u0438\\u0458\\u0430"
+msgstr "Ð»Ð¾ÐºÐ°ÑÐ¸ÑÐ°"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "\\u041B\\u043E\\u043A\\u0430\\u0446\\u0438\\u0458\\u0430\\u0443\\u0441\\u043B\\u0443\\u0433\\u0435"
+msgstr "ÐÐ¾ÐºÐ°ÑÐ¸ÑÐ° ÑÑÐ»ÑÐ³Ðµ"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "\\u043B\\u043E\\u0433\\u0438\\u043D"
+msgstr "Ð»Ð¾Ð³ Ð¸Ð½"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "\\u043E\\u0434\\u0458\\u0430\\u0432\\u0438\\u0442\\u0435"
+msgstr "Ð¾Ð´ÑÐ°Ð²Ð¸ÑÐµ"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "\\u041D"
+msgstr "Ð"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "\\u041D\\u0430\\u0437\\u0438\\u0432"
+msgstr "ÐÐ°Ð·Ð¸Ð²"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "\\u0418\\u043C\\u0435\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430"
+msgstr "ÐÐ¼Ðµ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "\\u041D\\u043E\\u0432\\u0438\\u043A\\u0443\\u043F\\u0430\\u0446"
+msgstr "ÐÐ¾Ð²Ð¸ ÐºÑÐ¿Ð°Ñ"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "\\u041D\\u043E\\u0432\\u0438\\u0438\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458"
+msgstr "ÐÐ¾Ð²Ð¸ Ð¸Ð·Ð²ÐµÑÑÐ°Ñ"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "\\u041D\\u043E\\u0432\\u0438\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A"
+msgstr "ÐÐ¾Ð²Ð¸ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸Ðº"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "\\u041D\\u043E\\u0443\\u043F\\u0434\\u0430\\u0442\\u0435\\u0458\\u0435\\u043F\\u0440\\u0438\\u0441\\u0443\\u0442\\u0430\\u043D"
+msgstr "ÐÐ¾ ÑÐ¿Ð´Ð°ÑÐµ ÑÐµ Ð¿ÑÐ¸ÑÑÑÐ°Ð½"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "\\u043D\\u043E\\u0442\\u0435\\u0441"
+msgstr "Ð½Ð¾ÑÐµÑ"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "\\u0431\\u0440\\u043E\\u0458"
+msgstr "Ð±ÑÐ¾Ñ"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "\\u043E\\u043F\\u0435\\u0440\\u0430\\u0442\\u043E\\u0440"
+msgstr "Ð¾Ð¿ÐµÑÐ°ÑÐ¾Ñ"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "\\u041E\\u043F\\u0435\\u0440\\u0430\\u0442\\u043E\\u0440\\u0443\\u0441\\u043B\\u0443\\u0433\\u0435"
+msgstr "ÐÐ¿ÐµÑÐ°ÑÐ¾Ñ ÑÑÐ»ÑÐ³Ðµ"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "\\u041E\\u043F\\u0435\\u0440\\u0430\\u0442\\u0435\\u0440\\u0430\\u0421\\u0438\\u0433\\u043D\\u0430\\u0442\\u0443\\u0440\\u0435"
+msgstr "ÐÐ¿ÐµÑÐ°ÑÐµÑÐ° Ð¡Ð¸Ð³Ð½Ð°ÑÑÑÐµ"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "\\u041F\\u043E\\u0440\\u0443\\u045F\\u0431\\u0438\\u043D\\u0435"
+msgstr "ÐÐ¾ÑÑÑÐ±Ð¸Ð½Ðµ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
-msgstr "\\u041F.\\u0418\\u0412\\u0410"
+msgstr "Ð.ÐÐÐ"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "\\u041F.\\u0418\\u0412\\u0410\\u0441\\u0430\\u0434\\u0440\\u0436\\u0438\\u043D\\u0435\\u0432\\u0430\\u0436\\u0435\\u045B\\u0438\\u0437\\u043D\\u0430\\u043A(\\u0435)"
+msgstr "Ð.ÐÐÐ ÑÐ°Ð´ÑÐ¶Ð¸ Ð½ÐµÐ²Ð°Ð¶ÐµÑÐ¸ Ð·Ð½Ð°Ðº( Ðµ)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "\\u041A\\u043E\\u043D\\u0442\\u0440\\u043E\\u043B\\u0430\\u041F.\\u0418\\u0412\\u0410\\u0446\\u043E\\u0434\\u0435\\u043D\\u0435\\u043E\\u0434\\u0433\\u043E\\u0432\\u0430\\u0440\\u0430"
+msgstr "ÐÐ¾Ð½ÑÑÐ¾Ð»Ð° Ð.ÐÐÐ ÑÐ¾Ð´Ðµ Ð½Ðµ Ð¾Ð´Ð³Ð¾Ð²Ð°ÑÐ°"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Ð¿Ð°ÑÑÐ²Ð¾ÑÐ´"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "ÐÐ¾ÑÐ²ÑÐ´Ð° Ð»Ð¾Ð·Ð¸Ð½ÐºÐµ Ð½Ðµ Ð¾Ð´Ð³Ð¾Ð²Ð°ÑÐ°"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "ÐÐµ Ð¿Ð¾ÑÑÐµÐ±Ð½Ð° Ð¿Ð¾ÑÐ²ÑÐ´Ð° Ð»Ð¾Ð·Ð¸Ð½ÐºÐ°"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "ÐÐ¾Ð·Ð¸Ð½ÐºÐ° Ð½Ð¸ÑÐµ Ð´Ð¾Ð²Ð¾ÑÐ½Ð¾ ÑÐ°ÐºÐ°"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "\\u043F\\u0445\\u043E\\u043D\\u0435"
+msgstr "Ð¿ÑÐ¾Ð½Ðµ"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "\\u0431\\u0440\\u043E\\u0458\\u0442\\u0435\\u043B\\u0435\\u0444\\u043E\\u043D\\u0430"
+msgstr "Ð±ÑÐ¾Ñ ÑÐµÐ»ÐµÑÐ¾Ð½Ð°"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "\\u0411\\u0440\\u043E\\u0458\\u0442\\u0435\\u043B\\u0435\\u0444\\u043E\\u043D\\u0430\\u043D\\u0438\\u0458\\u0435\\u0432\\u0430\\u0436\\u0435\\u045B\\u0430"
+msgstr "ÐÑÐ¾Ñ ÑÐµÐ»ÐµÑÐ¾Ð½Ð° Ð½Ð¸ÑÐµ Ð²Ð°Ð¶ÐµÑÐ°"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "\\u043F\\u043B\\u0430\\u0446\\u0435"
+msgstr "Ð¿Ð»Ð°ÑÐµ"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "\\u041F\\u0440\\u0438\\u043F\\u0440\\u0435\\u043C\\u0430\\u043F\\u0440\\u0435\\u0443\\u0437\\u0438\\u043C\\u0430\\u045A\\u0430\\u0430\\u0436\\u0443\\u0440\\u0438\\u0440\\u0430\\u045A\\u0435"
+msgstr "ÐÑÐ¸Ð¿ÑÐµÐ¼Ð°Ð¿ÑÐµÑÐ·Ð¸Ð¼Ð°ÑÐ° Ð°Ð¶ÑÑÐ¸ÑÐ°ÑÐµ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "\\u043F\\u0440\\u0438\\u043D\\u0442"
+msgstr "Ð¿ÑÐ¸Ð½Ñ"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "\\u043F\\u0440\\u0438\\u043D\\u0442\\u0426\\u0443\\u0441\\u0442\\u043E\\u043C\\u0435\\u0440"
+msgstr "Ð¿ÑÐ¸Ð½Ñ Ð¦ÑÑÑÐ¾Ð¼ÐµÑ"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "\\u041F\\u0440\\u0438\\u043D\\u0442\\u0441\\u0435\\u0440\\u0432\\u0438\\u0441\\u0420\\u0435\\u043F\\u043E\\u0440\\u0442"
+msgstr "ÐÑÐ¸Ð½Ñ ÑÐµÑÐ²Ð¸Ñ Ð ÐµÐ¿Ð¾ÑÑ"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "\\u043F\\u0440\\u0438\\u043D\\u0442\\u0443\\u0441\\u0435\\u0440"
+msgstr "Ð¿ÑÐ¸Ð½Ñ ÑÑÐµÑ"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "\\u043F\\u0440\\u043E\\u0432\\u0438\\u0434\\u0435\\u0440"
+msgstr "Ð¿ÑÐ¾Ð²Ð¸Ð´ÐµÑ"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0435\\u0440"
+msgstr "Ð ÐµÐ³Ð¸ÑÑÐµÑ"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "ÐÐ¾Ð½Ð¸ÑÑÐ¸ÑÐµ Ð»Ð¾Ð·Ð¸Ð½ÐºÑ"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "\\u0443\\u043B\\u043E\\u0433\\u0435"
+msgstr "Ð£Ð»Ð¾Ð³Ðµ"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "\\u0423\\u043B\\u043E\\u0433\\u0435\\u0437\\u0430\\u043E\\u0432\\u043E\\u0433\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430;\\u043A\\u043B\\u0438\\u043A\\u043D\\u0438\\u0442\\u0435\\u0437\\u0430\\u0441\\u043B\\u0430\\u0458\\u0434\\u043A\\u0440\\u043E\\u0437\\u0441\\u0432\\u0435\\u0434\\u0440\\u0436\\u0430\\u0432\\u0435(\\u0420\\u0412-\\u003e\\u0420-\\u003e\\u0412-\\u003e\\u041D\\u0435\\u0442)"
+msgstr "Ð£Ð»Ð¾Ð³Ðµ Ð·Ð° Ð¾Ð²Ð¾Ð³ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°; ÐºÐ»Ð¸ÐºÐ½Ð¸ÑÐµ Ð·Ð° ÑÐ»Ð°ÑÐ´ ÐºÑÐ¾Ð· ÑÐ²Ðµ Ð´ÑÐ¶Ð°Ð²Ðµ( Ð Ð-\\u003e Ð -\\u003e Ð-\\u003e ÐÐµÑ)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "\\u0423\\u043B\\u043E\\u0433\\u0435\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0430:\\u0437\\u0435\\u043B\\u0435\\u043D\\u0430\\u0431\\u043E\\u0458\\u0430\\u043E\\u0437\\u043D\\u0430\\u0447\\u0430\\u0432\\u0430\\u0434\\u043E\\u0437\\u0432\\u043E\\u043B\\u0443\\u0437\\u0430\\u0447\\u0438\\u0442\\u0430\\u0458\\u0443\\u0438\\u043F\\u0438\\u0448\\u0443,\\u0416\\u0443\\u0442\\u0430\\u043E\\u0437\\u043D\\u0430\\u0447\\u0430\\u0432\\u0430\\u0441\\u0430\\u043C\\u043E\\u043F\\u0440\\u043E\\u0447\\u0438\\u0442\\u0430\\u043E,\\u043F\\u043B\\u0430\\u0432\\u0430\\u0441\\u0430\\u043C\\u043E\\u043F\\u0438\\u0441\\u0430\\u0442\\u0438,\\u0430\\u0446\\u0440\\u0432\\u0435\\u043D\\u0435\\u043D\\u0435\\u0434\\u043E\\u0437\\u0432\\u043E\\u043B\\u0430.\\u0421\\u0435\\u043A\\u0446\\u0438\\u0458\\u0435\\u0441\\u0443:'\\u0423'(\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0446\\u0438),'\\u0426'(\\u043A\\u0443\\u043F\\u0446\\u0438),\\\"\\u041E\\\"(\\u043D\\u0430\\u0440\\u0435\\u0452\\u0435\\u045A\\u0430),'\\u0441'(\\u0438\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458\\u0438\\u0441\\u0435\\u0440\\u0432\\u0438\\u0441)."
+msgstr "Ð£Ð»Ð¾Ð³Ðµ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐ°: Ð·ÐµÐ»ÐµÐ½Ð° Ð±Ð¾ÑÐ° Ð¾Ð·Ð½Ð°ÑÐ°Ð²Ð° Ð´Ð¾Ð·Ð²Ð¾Ð»Ñ Ð·Ð° ÑÐ¸ÑÐ°ÑÑ Ð¸ Ð¿Ð¸ÑÑ, ÐÑÑÐ° Ð¾Ð·Ð½Ð°ÑÐ°Ð²Ð° ÑÐ°Ð¼Ð¾ Ð¿ÑÐ¾ÑÐ¸ÑÐ°Ð¾, Ð¿Ð»Ð°Ð²Ð° ÑÐ°Ð¼Ð¾ Ð¿Ð¸ÑÐ°ÑÐ¸, Ð° ÑÑÐ²ÐµÐ½Ðµ Ð½Ðµ Ð´Ð¾Ð·Ð²Ð¾Ð»Ð°. Ð¡ÐµÐºÑÐ¸ÑÐµ ÑÑ:'Ð£'( ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐ¸),'Ð¦'( ÐºÑÐ¿ÑÐ¸),\\\"Ð\\\"( Ð½Ð°ÑÐµÑÐµÑÐ°),'Ñ'( Ð¸Ð·Ð²ÐµÑÑÐ°ÑÐ¸ ÑÐµÑÐ²Ð¸Ñ)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "\\u0441\\u0430\\u0432\\u0435"
+msgstr "Ð¡Ð°Ð²Ðµ"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "\\u0421\\u0435\\u0440\\u0432\\u0438\\u0441\\u0420\\u0435\\u043F\\u043E\\u0440\\u0442"
+msgstr "Ð¡ÐµÑÐ²Ð¸Ñ Ð ÐµÐ¿Ð¾ÑÑ"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "\\u0421\\u0435\\u0440\\u0432\\u0438\\u0441\\u0418\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458"
+msgstr "Ð¡ÐµÑÐ²Ð¸Ñ ÐÐ·Ð²ÐµÑÑÐ°Ñ"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "\\u0418\\u0437\\u0432\\u0435\\u0448\\u0442\\u0430\\u0458\\u0438\\u0441\\u0435\\u0440\\u0432\\u0438\\u0441"
+msgstr "ÐÐ·Ð²ÐµÑÑÐ°ÑÐ¸ ÑÐµÑÐ²Ð¸Ñ"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "\\u0441\\u0435\\u0442\\u0443\\u043F"
+msgstr "Ð¡ÐµÑÑÐ¿"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "\\u0423\\u043B\\u0438\\u0446\\u0430\\u0438\\u0431\\u0440\\u043E\\u0458"
+msgstr "Ð£Ð»Ð¸ÑÐ° Ð¸ Ð±ÑÐ¾Ñ"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "\\u041E\\u0432\\u043E\\u0438\\u043C\\u0435\\u043A\\u0443\\u043F\\u0430\\u0446\\u0458\\u0435\\u0432\\u0435\\u045B\\u0443\\u0443\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u0438"
+msgstr "ÐÐ²Ð¾ Ð¸Ð¼Ðµ ÐºÑÐ¿Ð°Ñ ÑÐµ Ð²ÐµÑ Ñ ÑÐ¿Ð¾ÑÑÐµÐ±Ð¸"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "\\u041E\\u0432\\u043E\\u0438\\u043C\\u0435\\u043A\\u0443\\u043F\\u0430\\u0446\\u043D\\u0438\\u0458\\u0435\\u0432\\u0430\\u0436\\u0435\\u045B\\u0430"
+msgstr "ÐÐ²Ð¾ Ð¸Ð¼Ðµ ÐºÑÐ¿Ð°Ñ Ð½Ð¸ÑÐµ Ð²Ð°Ð¶ÐµÑÐ°"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "\\u041E\\u0432\\u043E\\u0458\\u0435"
+msgstr "ÐÐ²Ð¾ ÑÐµ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "\\u041E\\u0432\\u0430\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u043C\\u043E\\u0436\\u0435\\u043D\\u0438\\u0434\\u0430\\u0447\\u0438\\u0442\\u0430\\u043D\\u0438\\u0434\\u0430\\u043F\\u0438\\u0448\\u0435"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸Ðº Ð¼Ð¾Ð¶Ðµ Ð½Ð¸ Ð´Ð° ÑÐ¸ÑÐ° Ð½Ð¸ Ð´Ð° Ð¿Ð¸ÑÐµ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "\\u041E\\u0432\\u0430\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u043C\\u043E\\u0436\\u0435\\u0434\\u0430\\u0447\\u0438\\u0442\\u0430"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸Ðº Ð¼Ð¾Ð¶Ðµ Ð´Ð° ÑÐ¸ÑÐ°"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "\\u041E\\u0432\\u0430\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u043C\\u043E\\u0436\\u0435\\u0447\\u0438\\u0442\\u0430\\u0442\\u0438\\u0438\\u043F\\u0438\\u0441\\u0430\\u0442\\u0438"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸Ðº Ð¼Ð¾Ð¶Ðµ ÑÐ¸ÑÐ°ÑÐ¸ Ð¸ Ð¿Ð¸ÑÐ°ÑÐ¸"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "\\u041E\\u0432\\u0430\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u043C\\u043E\\u0436\\u0435\\u043F\\u0438\\u0441\\u0430\\u0442\\u0438"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸Ðº Ð¼Ð¾Ð¶Ðµ Ð¿Ð¸ÑÐ°ÑÐ¸"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "\\u041E\\u0432\\u0430\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u043D\\u0435\\u043C\\u043E\\u0436\\u0435\\u0434\\u0430\\u043F\\u0440\\u0438\\u0441\\u0442\\u0443\\u043F\\u0438"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸Ðº Ð½Ðµ Ð¼Ð¾Ð¶Ðµ Ð´Ð° Ð¿ÑÐ¸ÑÑÑÐ¿Ð¸"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "\\u041E\\u0432\\u0430\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u043E\\u0438\\u043C\\u0435\\u0458\\u0435\\u0432\\u0435\\u045B\\u0443\\u0443\\u043F\\u043E\\u0442\\u0440\\u0435\\u0431\\u0438"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ ÑÐµ Ð²ÐµÑ Ñ ÑÐ¿Ð¾ÑÑÐµÐ±Ð¸"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ ÑÐµ Ð²ÐµÑ Ð·Ð°ÑÐ·ÐµÑÐ¾"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "\\u041E\\u0432\\u0430\\u0458\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u043E\\u0438\\u043C\\u0435\\u043D\\u0438\\u0458\\u0435\\u0432\\u0430\\u0436\\u0435\\u045B\\u0430"
+msgstr "ÐÐ²Ð°Ñ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ Ð½Ð¸ÑÐµ Ð²Ð°Ð¶ÐµÑÐ°"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "\\u041E\\u0432\\u0430\\u0432\\u0440\\u0435\\u0434\\u043D\\u043E\\u0441\\u0442\\u0458\\u0435,\\u043D\\u0438\\u0442\\u0438\\u0426\\u043E\\u0434\\u0438\\u0446\\u0435\\u0424\\u0438\\u0441\\u0446\\u0430\\u043B\\u0435\\u043D\\u0438\\u0442\\u0438\\u041F.\\u0418\\u0412\\u0410"
+msgstr "ÐÐ²Ð° Ð²ÑÐµÐ´Ð½Ð¾ÑÑ ÑÐµ, Ð½Ð¸ÑÐ¸Ð¦Ð¾Ð´Ð¸ÑÐµ Ð¤Ð¸ÑÑÐ°Ð»Ðµ Ð½Ð¸ÑÐ¸Ð.ÐÐÐ"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "\\u0412\\u0440\\u0435\\u043C\\u0435\\u043F\\u043E\\u0447\\u0435\\u0442\\u043A\\u0430\\u0443\\u0441\\u043B\\u0443\\u0433\\u0430"
+msgstr "ÐÑÐµÐ¼Ðµ Ð¿Ð¾ÑÐµÑÐºÐ° ÑÑÐ»ÑÐ³Ð°"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "\\u0422\\u043E\\u0433\\u0433\\u043B\\u0435\\u041D\\u0430\\u0432\\u0438\\u0433\\u0430\\u0442\\u0438\\u043E\\u043D"
+msgstr "Ð¢Ð¾Ð³Ð³Ð»Ðµ ÐÐ°Ð²Ð¸Ð³Ð°ÑÐ¸Ð¾Ð½"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "\\u0423\\u0441\\u0435\\u0440-\\u043C\\u0430\\u0438\\u043B\\u0430\\u0434\\u0440\\u0435\\u0441\\u0430"
+msgstr "Ð£ÑÐµÑ-Ð¼Ð°Ð¸Ð» Ð°Ð´ÑÐµÑÐ°"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u043E\\u0438\\u043C\\u0435"
+msgstr "ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "ÐÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ Ð½Ð¸ÑÐµ Ð²Ð°Ð¶ÐµÑÐ°"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "\\u041A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u043E\\u0438\\u043C\\u0435"
+msgstr "ÐÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "ÐÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ/ Ð-Ð¼Ð°Ð¸Ð»"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "\\u0443\\u0441\\u0435\\u0440\\u0441"
+msgstr "Ð£ÑÐµÑÑ"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "\\u041D\\u0438\\u0441\\u0442\\u0435\\u043D\\u0430\\u043C\\u0440\\u0435\\u0436\\u0438"
+msgstr "ÐÐ¸ÑÑÐµ Ð½Ð° Ð¼ÑÐµÐ¶Ð¸"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "\\u0421\\u0442\\u0435\\u043D\\u0430\\u043C\\u0440\\u0435\\u0436\\u0438"
+msgstr "Ð¡ÑÐµ Ð½Ð° Ð¼ÑÐµÐ¶Ð¸"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "ÐÐ°ÑÐ° ÐµÐ¼Ð°Ð¸Ð»"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "ÐÐ°ÑÐ° Ð»Ð¾Ð·Ð¸Ð½ÐºÐ°"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "ÐÐ¾Ð½Ð¾Ð²Ð¾ ÐÐ°ÑÐ° Ð»Ð¾Ð·Ð¸Ð½ÐºÐ°,"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "ÐÐ°ÑÐµ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "ÐÐ°ÑÐµ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ Ð¸Ð»Ð¸ Ðµ-Ð¼Ð°Ð¸Ð»"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "\\u0446\\u0430\\u0446\\u0445\\u0435\\u0434"
+msgstr "ÑÐ°ÑÑÐµÐ´"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "\\u043E\\u0442\\u043A\\u0430\\u0437\\u0430\\u0442\\u0438"
+msgstr "Ð¾ÑÐºÐ°Ð·Ð°ÑÐ¸"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "\\u043F\\u0440\\u043E\\u0432\\u0435\\u0440\\u0443"
+msgstr "Ð¿ÑÐ¾Ð²ÐµÑÑ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "\\u041A\\u0443\\u043F\\u0446\\u0438"
+msgstr "ÐºÑÐ¿ÑÐ¸"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "\\u043F\\u0440\\u0435\\u0443\\u0437\\u0438\\u043C\\u0430\\u045A\\u0435"
+msgstr "Ð¿ÑÐµÑÐ·Ð¸Ð¼Ð°ÑÐµ"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "\\u0413\\u0440\\u0435\\u0448\\u043A\\u0430"
+msgstr "Ð³ÑÐµÑÐºÐ°"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "\\u041F\\u043E\\u0447\\u0435\\u0442\\u043D\\u0430\\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\\u0437\\u0430\\u043D\\u0435\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u043E\\u0432\\u0430\\u043D\\u0435\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0435."
+msgstr "Ð¿Ð¾ÑÐµÑÐ½Ð° ÑÑÑÐ°Ð½Ð¸ÑÐ° Ð·Ð° Ð½ÐµÑÐµÐ³Ð¸ÑÑÑÐ¾Ð²Ð°Ð½Ðµ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐµ."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "\\u041F\\u043E\\u0447\\u0435\\u0442\\u043D\\u0430\\u0441\\u0442\\u0440\\u0430\\u043D\\u0438\\u0446\\u0430\\u0437\\u0430\\u0420\\u0435\\u0433\\u0438\\u0441\\u0442\\u0435\\u0440\\u0434\\u043A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u043A\\u0435."
+msgid "home page for registered users."
+msgstr "Ð¿Ð¾ÑÐµÑÐ½Ð° ÑÑÑÐ°Ð½Ð¸ÑÐ° Ð·Ð° ÑÐµÐ³Ð¸ÑÑÑÐ¾Ð²Ð°Ð½Ðµ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÐºÐµ."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "\\u0438\\u043D\\u0438\\u0446\\u0438\\u0458\\u0430\\u043B\\u0438\\u0437\\u0430\\u0446\\u0438\\u0458\\u0430"
+msgstr "Ð¸Ð½Ð¸ÑÐ¸ÑÐ°Ð»Ð¸Ð·Ð°ÑÐ¸ÑÐ°"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "\\u0458\\u0435\\u0432\\u0435\\u0431\\u0430\\u043F\\u043B\\u0438\\u043A\\u0430\\u0446\\u0438\\u0458\\u0430\\u0437\\u0430(\\u0421\\u041C\\u0410\\u0420\\u0422)\\u0441\\u0442\\u0430\\u0440\\u0442-\\u0443\\u043F."
+msgstr "ÑÐµ Ð²ÐµÐ± Ð°Ð¿Ð»Ð¸ÐºÐ°ÑÐ¸ÑÐ° Ð·Ð°(Ð¡ÐÐÐ Ð¢) ÑÑÐ°ÑÑ-ÑÐ¿."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "\\u0421\\u0430\\u0447\\u0443\\u0432\\u0430\\u043D\\u0430\\u0443\\u0441\\u0435\\u0440"
+msgstr "Ñ¡Ð°ÑÑÐ²Ð°Ð½Ð° ÑÑÐµÑ"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "\\u0437\\u0430\\u0441\\u0442\\u0430\\u0440\\u0435\\u043B\\u0430"
+msgstr "Ð·Ð°ÑÑÐ°ÑÐµÐ»Ð°"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "\\u043D\\u0430\\u043B\\u043E\\u0437\\u0438"
+msgstr "Ð½Ð°Ð»Ð¾Ð·Ð¸"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "\\u0438\\u043D\\u0430\\u0447\\u0435\\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0443\\u0458\\u0435\\u0442\\u0435\\u043D\\u043E\\u0432\\u0438\\u0430\\u0446\\u0446\\u043E\\u0443\\u0442\\u0438\\u043F\\u0440\\u0438\\u0458\\u0430\\u0432\\u0438\\u0442\\u0435\\u0441\\u0435."
+msgstr "Ð¸Ð½Ð°ÑÐµ ÑÐµÐ³Ð¸ÑÑÑÑÑÐµÑÐµ Ð½Ð¾Ð²Ð¸ Ð°ÑÑÐ¾ÑÑ Ð¸ Ð¿ÑÐ¸ÑÐ°Ð²Ð¸ÑÐµ ÑÐµ."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "\\u041F\\u0430\\u0441\\u0441\\u0432\\u043E\\u0440\\u0434:"
+msgstr "Ð¿Ð°ÑÑÐ²Ð¾ÑÐ´:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "\\u043D\\u0430\\u043F\\u0440\\u0435\\u0434\\u0430\\u043A"
+msgstr "Ð½Ð°Ð¿ÑÐµÐ´Ð°Ðº"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
-msgstr "\\u0441\\u0435\\u0440\\u0432\\u0438\\u0446\\u0435\\u0440\\u0435\\u043F\\u043E\\u0440\\u0442\\u0441"
+msgstr "ÑÐµÑÐ²Ð¸ÑÐµÑÐµÐ¿Ð¾ÑÑÑ"
 
 #: app/scripts/app.js
 msgid "updateready"
-msgstr "\\u0443\\u043F\\u0434\\u0430\\u0442\\u0435\\u0440\\u0435\\u0430\\u0434\\u0438"
+msgstr "ÑÐ¿Ð´Ð°ÑÐµÑÐµÐ°Ð´Ð¸"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "\\u041A\\u043E\\u0440\\u0438\\u0441\\u043D\\u0438\\u0447\\u043A\\u043E\\u0438\\u043C\\u0435:"
+msgstr "ÐºÐ¾ÑÐ¸ÑÐ½Ð¸ÑÐºÐ¾ Ð¸Ð¼Ðµ:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "\\u0443\\u0441\\u0435\\u0440\\u0441"
+msgstr "ÑÑÐµÑÑ"

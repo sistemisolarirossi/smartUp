@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -35,6 +35,10 @@ msgstr "Minutu bat gutxienez luzea:' mm hh', eta iraupen bat behar inprimakia' h
 msgid "A location of service is required"
 msgstr "Zerbitzuaren kokapen bat behar da"
 
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Pasahitza behar da"
+
 #: app/views/customers.html
 msgid "A phone number is required"
 msgstr "Telefono zenbakia eman behar da"
@@ -43,7 +47,7 @@ msgstr "Telefono zenbakia eman behar da"
 msgid "A street address is required"
 msgstr "A kalean helbidea beharrezkoa da"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "Erabiltzaile-izena eman behar da"
 
@@ -63,7 +67,7 @@ msgstr "Gehitu erabiltzaile berria"
 msgid "Address"
 msgstr "Helbidea"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
 msgstr "Helbide elektroniko bat eman behar da"
 
@@ -171,6 +175,10 @@ msgstr "Codice fiscale edo bezeroaren P.IVA"
 msgid "Company logo"
 msgstr "Enpresaren logo"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Berretsi pasahitza"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
 msgstr "Konektatu zure kontuak\\\" sozial\\\" bat erabiliz, edo hasi saioa hauekin sartu:"
@@ -271,7 +279,8 @@ msgstr "Editatu zerbitzuaren txostena"
 msgid "Edit user"
 msgstr "Editatu erabiltzaileak"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
@@ -279,7 +288,7 @@ msgstr "Email"
 msgid "Email address"
 msgstr "E-posta helbidea"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "E-posta helbidea ez da baliozko"
 
@@ -311,6 +320,10 @@ msgstr "Filter erabiltzaile"
 msgid "Home"
 msgstr "Hasiera"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Nire pasahitza ahaztu dut"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Id"
@@ -331,7 +344,7 @@ msgstr "Kokalekua"
 msgid "Location of service"
 msgstr "Zerbitzuaren Kokapena"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Sartu"
 
@@ -403,6 +416,22 @@ msgstr "P.IVA karaktere baliogabea(k)"
 msgid "P.IVA control code doesn't match"
 msgstr "P.IVA kontrol kodea ez dator"
 
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Pasahitza"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Pasahitza berrespena ez dator"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Pasahitza bazara, derrigorrezkoa da"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Pasahitza ez da behar bezain sendo"
+
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
 msgstr "Telefonoa"
@@ -443,9 +472,13 @@ msgstr "Print erabiltzaile"
 msgid "Provider"
 msgstr "Provider"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Izena eman"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Berrezarri pasahitza"
 
 #: app/views/users.html
 msgid "Roles"
@@ -519,6 +552,10 @@ msgstr "Erabiltzaile hau ezin da sartu"
 msgid "This user name is already in use"
 msgstr "Erabiltzaile-izen hau dagoeneko erabilita dago"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Erabiltzaile hau dagoeneko hartuta dago"
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr "Erabiltzaile hau ez du balio"
@@ -543,9 +580,17 @@ msgstr "Erabiltzailearen e-posta helbidea"
 msgid "User name"
 msgstr "Erabiltzaile izena"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Erabiltzaile-izena baliogabea da"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Username"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Erabiltzaile/ Email"
 
 #: app/views/nav.html
 msgid "Users"
@@ -558,6 +603,26 @@ msgstr "Offline zaude"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "Konektatuta zaude"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Zure e-posta"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Zure pasahitza"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Zure pasahitza, berriro"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Zure erabiltzaile-izena"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Zure erabiltzaile-izena edo e-posta"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -588,8 +653,9 @@ msgid "home page for non registered users."
 msgstr "etxean erroldatuta ez dauden erabiltzaileentzat orria."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "hasiera erregistratzen dute erabiltzaileentzat orria."
+#, 
+msgid "home page for registered users."
+msgstr "hasiera erregistratutako erabiltzaileentzat orria."
 
 #: app/scripts/app.js
 msgid "initializing"

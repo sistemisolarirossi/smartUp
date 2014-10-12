@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -25,25 +25,29 @@ msgstr "Este nevoie de un nume de client"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Este necesarã o datã de începere serviciu"
+msgstr "Este necesară o dată de începere serviciu"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "O duratã trebuie sã fie de forma\\\" hh\\\" sau\\\" hh: mm\\\",\\u0219i cel pu\\u021Bin un minut lung"
+msgstr "O durată trebuie să fie de forma\\\" hh\\\" sau\\\" hh: mm\\\", și cel puțin un minut lung"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Este necesarã o loca\\u021Bie de serviciu"
+msgstr "Este necesară o locație de serviciu"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Este necesară o parolă"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Este nevoie de un numãr de telefon"
+msgstr "Este nevoie de un număr de telefon"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Este necesarã o adresã de stradã"
+msgstr "Este necesară o adresă de stradă"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "Este nevoie de un nume de utilizator"
 
@@ -53,7 +57,7 @@ msgstr "Despre"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Adãuga\\u021Bi nou client"
+msgstr "Adăugați nou client"
 
 #: app/views/users.html
 msgid "Add new user"
@@ -63,9 +67,9 @@ msgstr "Adauga utilizator nou"
 msgid "Address"
 msgstr "Adresa"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Este necesarã o adresã de e-mail"
+msgstr "Este necesară o adresă de e-mail"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
@@ -73,7 +77,7 @@ msgstr "Este necesar un operator de"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "O actualizare este disponibilã: vrei sã-l încarce acum?"
+msgstr "O actualizare este disponibilă: vrei să-l încarce acum?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
@@ -81,11 +85,11 @@ msgstr "O actualizare este gata"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "E\\u0219ti sigur cã pentru a elimina raport de serviciu"
+msgstr "Ești sigur că pentru a elimina raport de serviciu"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "E\\u0219ti sigur cã pentru a elimina utilizator"
+msgstr "Ești sigur că pentru a elimina utilizator"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -121,11 +125,11 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Cache este ini\\u021Bializat"
+msgstr "Cache este inițializat"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Cache este în stare necunoscutã"
+msgstr "Cache este în stare necunoscută"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
@@ -133,7 +137,7 @@ msgstr "Cache nu este actualizat( probabil manifestul este de neatins)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache nu este actualizat pentru cã sunte\\u021Bi offline"
+msgstr "Cache nu este actualizat pentru că sunteți offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -141,7 +145,7 @@ msgstr "Cache este învechit"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache este de pânã la data de"
+msgstr "Cache este de până la data de"
 
 #: app/views/footer.html
 msgid "Cache status is"
@@ -149,7 +153,7 @@ msgstr "Statutul Cache este"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Verificarea prezen\\u021Bei unei actualizãri"
+msgstr "Verificarea prezenței unei actualizări"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,11 +161,11 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale con\\u021Bine caracter invalid(e)"
+msgstr "Codice Fiscale conține caracter invalid(e)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codul de control Codice Fiscale nu se potrive\\u0219te"
+msgstr "Codul de control Codice Fiscale nu se potrivește"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
@@ -171,21 +175,25 @@ msgstr "Codice Fiscale sau P.IVA a clientului"
 msgid "Company logo"
 msgstr "Logo-ul companiei"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Confirmă parola"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Conecteazã-te folosind unul din conturile tale\\\"sociale\\\", sau conecta\\u021Bi-vã cu aceste acreditãri:"
+msgstr "Conectează-te folosind unul din conturile tale\\\"sociale\\\", sau conectați-vă cu aceste acreditări:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Conecteazã-te cu Facebook"
+msgstr "Conectează-te cu Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Conecteazã-te cu Google+"
+msgstr "Conectează-te cu Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Conecteazã-te cu Twitter"
+msgstr "Conectează-te cu Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -193,7 +201,7 @@ msgstr "Contacte"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Limba curentã este"
+msgstr "Limba curentă este"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -213,19 +221,19 @@ msgstr "Numele clientului"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Numãrul de telefon pentru clien\\u021Bi"
+msgstr "Numărul de telefon pentru clienți"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Adresã Customer"
+msgstr "Adresă Customer"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Semnãtura clientului"
+msgstr "Semnătura clientului"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Clien\\u021Bii"
+msgstr "Clienții"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -237,11 +245,11 @@ msgstr "Data de start serviciu"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0218terge\\u021Bi client"
+msgstr "Ștergeți client"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u0218terge\\u021Bi raport de serviciu"
+msgstr "Ștergeți raport de serviciu"
 
 #: app/views/users.html
 msgid "Delete user"
@@ -249,7 +257,7 @@ msgstr "Sterge utilizator"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Descãrcarea unei actualizãri"
+msgstr "Descărcarea unei actualizări"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -271,7 +279,8 @@ msgstr "Editare raport de serviciu"
 msgid "Edit user"
 msgstr "Editare utilizator"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "E-mail"
 
@@ -279,9 +288,9 @@ msgstr "E-mail"
 msgid "Email address"
 msgstr "Adresa de e-mail"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "Adresa de e-mail nu este validã"
+msgstr "Adresa de e-mail nu este validă"
 
 #: app/views/users.html
 msgid "Email address of the user"
@@ -309,7 +318,11 @@ msgstr "Utilizatorii de filtrare"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Acasã"
+msgstr "Acasă"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Am uitat parola"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,21 +330,21 @@ msgstr "Id-ul"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Acesta permite gestionarea clientilor, comenzilor\\u0219i rapoarte de serviciu."
+msgstr "Acesta permite gestionarea clientilor, comenzilor și rapoarte de serviciu."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Este open-source, rapid, compact, extensibil, elastic, interna\\u021Bional\\u0219i mobil."
+msgstr "Este open-source, rapid, compact, extensibil, elastic, internațional și mobil."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Loca\\u021Bie"
+msgstr "Locație"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Loca\\u021Bia de serviciu"
+msgstr "Locația de serviciu"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Autentificare"
 
@@ -373,7 +386,7 @@ msgstr "Note"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Numãrul"
+msgstr "Numărul"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -385,7 +398,7 @@ msgstr "Operator de serviciu"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Semnãtura operatorului"
+msgstr "Semnătura operatorului"
 
 #: app/views/nav.html
 msgid "Orders"
@@ -397,11 +410,27 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA con\\u021Bine caracter invalid(e)"
+msgstr "P.IVA conține caracter invalid(e)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "Codul de control P.IVA nu se potrive\\u0219te"
+msgstr "Codul de control P.IVA nu se potrivește"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Parola"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Confirmarea parolei nu se potrivește"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Este necesară confirmarea parolei"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Parola nu este suficient de puternic"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -409,11 +438,11 @@ msgstr "Telefon"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Numãr de telefon"
+msgstr "Număr de telefon"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Numãrul de telefon nu este valid"
+msgstr "Numărul de telefon nu este valid"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -421,7 +450,7 @@ msgstr "Place"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Pregãtirea descãrcarea unei actualizãri"
+msgstr "Pregătirea descărcarea unei actualizări"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -443,9 +472,13 @@ msgstr "Utilizator Print"
 msgid "Provider"
 msgstr "Furnizor"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Inregistrare"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Schimbati-va parola"
 
 #: app/views/users.html
 msgid "Roles"
@@ -457,7 +490,7 @@ msgstr "Roluri pentru acest utilizator; click pentru a aluneca prin toate statel
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Rolurile deutilizator: verde Culoarea indicã permisiunea de citire\\u0219i scriere, mijloace galbene citit doar, albastru doar scrie,\\u0219i ro\\u0219u nu permisiune. Sec\\u021Biunile sunt:'U'(utilizatori),\\\"C\\\"(clien\\u021Bi),\\\"O\\\"( ordine),\\\" S\\\"( rapoarte de serviciu)."
+msgstr "Rolurile deutilizator: verde Culoarea indică permisiunea de citire și scriere, mijloace galbene citit doar, albastru doar scrie, și roșu nu permisiune. Secțiunile sunt:'U'(utilizatori),\\\"C\\\"(clienți),\\\"O\\\"( ordine),\\\" S\\\"( rapoarte de serviciu)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -505,7 +538,7 @@ msgstr "Acest utilizator poate citi"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Acest utilizator poate citi\\u0219i scrie"
+msgstr "Acest utilizator poate citi și scrie"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
@@ -519,13 +552,17 @@ msgstr "Acest utilizator nu poate accesa"
 msgid "This user name is already in use"
 msgstr "Acest nume de utilizator este deja în uz"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Acest nume de utilizator este deja luat"
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr "Acest nume de utilizator nu este valid"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Aceastã valoare este nici un Codice Fiscale nici un P.IVA"
+msgstr "Această valoare este nici un Codice Fiscale nici un P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
@@ -543,9 +580,17 @@ msgstr "Adresa de e-mail utilizator"
 msgid "User name"
 msgstr "Nume de utilizator"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Numele de utilizator nu este valid"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Utilizator"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Nume de utilizator/ e-mail"
 
 #: app/views/nav.html
 msgid "Users"
@@ -553,11 +598,31 @@ msgstr "Utilizatori"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "E\\u0219ti conectat"
+msgstr "Ești conectat"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Sunte\\u021Bi on-line"
+msgstr "Sunteți on-line"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Adresa ta de email"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Parola dvs."
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Parola, din nou"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Numele tău de utilizator"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Nume de utilizator sau e-mail-ul"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -573,11 +638,11 @@ msgstr "verificarea"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "clien\\u021Bii"
+msgstr "clienții"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "descãrcare"
+msgstr "descărcare"
 
 #: app/scripts/app.js
 msgid "error"
@@ -588,16 +653,17 @@ msgid "home page for non registered users."
 msgstr "pagina de start pentru utilizatorii care nu sunt inregistrati."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "pagina de start pentru utilizatorii registra\\u021Bi."
+#, 
+msgid "home page for registered users."
+msgstr "pagina de start pentru utilizatorii inregistrati."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "ini\\u021Bializarea"
+msgstr "inițializarea"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "este o aplica\\u021Bie web pentru( inteligente) start-up-uri."
+msgstr "este o aplicație web pentru( inteligente) start-up-uri."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -613,7 +679,7 @@ msgstr "comenzi"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "altfel înregistra un nou accout\\u0219i conecta\\u021Bi."
+msgstr "altfel înregistra un nou accout și conectați."
 
 #: app/views/home.html
 msgid "password:"

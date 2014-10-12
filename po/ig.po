@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ig\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ig\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,35 +17,39 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "A Codice Fiscale ma Ã¡Â»Â bÃ¡Â»Â¥ a P.IVA a chÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "A Codice Fiscale ma á» bá»¥ a P.IVA a chá»rá»"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Onye ahÃ¡Â»Âa aha a chÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "Onye ahá»a aha a chá»rá»"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "A Ã¡Â»Â¥bÃ¡Â»ÂchÃ¡Â»Â nke Ã¡Â»ÂrÃ¡Â»Â¥ mmalite a chÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "A á»¥bá»chá» nke á»rá»¥ mmalite a chá»rá»"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "A oge ga- n'Ã¡Â»Â¥dÃ¡Â»Â' hh' ma Ã¡Â»Â bÃ¡Â»Â¥' hh: mm', ma Ã¡Â»Â dÃ¡Â»ÂkarÃ¡Â»Âa ala otu nkeji ogologo"
+msgstr "A oge ga- n'á»¥dá»' hh' ma á» bá»¥' hh: mm', ma á» dá»kará»a ala otu nkeji ogologo"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "A na Ã¡Â»ÂnÃ¡Â»ÂdÃ¡Â»Â¥ nke Ã¡Â»ÂrÃ¡Â»Â¥ a chÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "A na á»ná»dá»¥ nke á»rá»¥ a chá»rá»"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "A paswá»á»dá»¥ chá»rá»"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "A na nÃ¡Â»Âmba ekwentÃ¡Â»Â na- achÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "A na ná»mba ekwentá» na- achá»rá»"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "A n'okporo ÃÂ¡mÃÂ¡ adreesÃ¡Â»Â a chÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "A n'okporo Ã¡mÃ¡ adreesá» a chá»rá»"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "A aha njirimara a chÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "A aha njirimara a chá»rá»"
 
 #: app/views/nav.html
 msgid "About"
@@ -53,39 +57,39 @@ msgstr "Ihe"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Tinye Ã¡Â»ÂhÃ¡Â»Â¥rÃ¡Â»Â¥ ahÃ¡Â»Âa"
+msgstr "Tinye á»há»¥rá»¥ ahá»a"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Tinye Ã¡Â»ÂhÃ¡Â»Â¥rÃ¡Â»Â¥ njirimara"
+msgstr "Tinye á»há»¥rá»¥ njirimara"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "AdreesÃ¡Â»Â"
+msgstr "Adreesá»"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Otu adreesÃ¡Â»Â ozi-e na- achÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "Otu adreesá» ozi-e na- achá»rá»"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Otu Ã¡Â»ÂrÃ¡Â»Â¥ a chÃ¡Â»ÂrÃ¡Â»Â"
+msgstr "Otu á»rá»¥ a chá»rá»"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Mmelite dÃ¡Â»Â: Ã¡Â»Â chÃ¡Â»ÂrÃ¡Â»Â ibu ya ugbu a?"
+msgstr "Mmelite dá»: á» chá»rá» ibu ya ugbu a?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Mmelite dÃ¡Â»Â njikere"
+msgstr "Mmelite dá» njikere"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ã¡Â»Â na- n'ezie hÃ¡Â»Â¥ na wepÃ¡Â»Â¥ Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "á» na- n'ezie há»¥ na wepá»¥ á»rá»¥ aká»¥ká»"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ã¡Â»Â na- n'ezie hÃ¡Â»Â¥ na wepÃ¡Â»Â¥ Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "á» na- n'ezie há»¥ na wepá»¥ á»rá»¥"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -93,7 +97,7 @@ msgstr "Nyocha id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Nyocha id nke onye Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "Nyocha id nke onye á»rá»¥"
 
 #: app/views/users.html
 msgid "Authentication id:"
@@ -113,7 +117,7 @@ msgstr "Eserese"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Eserese onyinyo nke onye Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "Eserese onyinyo nke onye á»rá»¥"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -125,31 +129,31 @@ msgstr "Cache a na- initialized"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Cache bÃ¡Â»Â¥ na-amaghÃ¡Â»Â ala"
+msgstr "Cache bá»¥ na-amaghá» ala"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache na-adÃ¡Â»ÂghÃ¡Â»Â emelitere( eleghÃ¡Â»Â anya, na ÃÂ¬hÃÂ¨ bÃ¡Â»Â¥ unreachable)"
+msgstr "Cache na-adá»ghá» emelitere( eleghá» anya, na Ã¬hÃ¨ bá»¥ unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache na-adÃ¡Â»ÂghÃ¡Â»Â emelitere n'ihi na Ã¡Â»Â na- offline"
+msgstr "Cache na-adá»ghá» emelitere n'ihi na á» na- offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cache bÃ¡Â»Â¥ taranchara"
+msgstr "Cache bá»¥ taranchara"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache bÃ¡Â»Â¥ na- Ã¡Â»Â¥bÃ¡Â»ÂchÃ¡Â»Â"
+msgstr "Cache bá»¥ na- á»¥bá»chá»"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Cache Ã¡Â»ÂnÃ¡Â»ÂdÃ¡Â»Â¥ bÃ¡Â»Â¥"
+msgstr "Cache á»ná»dá»¥ bá»¥"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Atule maka Ã¡Â»ÂnÃ¡Â»Â¥nÃ¡Â»Â mmelite"
+msgstr "Atule maka á»ná»¥ná» mmelite"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,35 +161,39 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale nwere ghara Ã¡Â»ÂdÃ¡Â»Â irÃÂ¨ agwa( s)"
+msgstr "Codice Fiscale nwere ghara á»dá» irÃ¨ agwa( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale akara koodu adabaghÃ¡Â»Â"
+msgstr "Codice Fiscale akara koodu adabaghá»"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale ma Ã¡Â»Â bÃ¡Â»Â¥ P.IVA nke ndÃ¡Â»Â ahÃ¡Â»Âa"
+msgstr "Codice Fiscale ma á» bá»¥ P.IVA nke ndá» ahá»a"
 
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Company logo"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Kwenye Na Okwuntughe"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "JikÃ¡Â»ÂÃ¡Â»Â na-iji otu n'ime gÃ¡Â»Â\\\" mmadÃ¡Â»Â¥\\\" akÃ¡Â»Â¥kÃ¡Â»Â, ma Ã¡Â»Â bÃ¡Â»Â¥ banye na ndÃ¡Â»Â a nzere:"
+msgstr "Jiká»á» na-iji otu n'ime gá»\\\" mmadá»¥\\\" aká»¥ká», ma á» bá»¥ banye na ndá» a nzere:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "JikÃ¡Â»ÂÃ¡Â»Â na Facebook"
+msgstr "Jiká»á» na Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "JikÃ¡Â»ÂÃ¡Â»Â na Google+"
+msgstr "Jiká»á» na Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "JikÃ¡Â»ÂÃ¡Â»Â na Twitter"
+msgstr "Jiká»á» na Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -193,59 +201,59 @@ msgstr "Ndi ana-akpo"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Ugbu a asÃ¡Â»Â¥sÃ¡Â»Â¥"
+msgstr "Ugbu a asá»¥sá»¥"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "AhÃ¡Â»Âa"
+msgstr "Ahá»a"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "AhÃ¡Â»Âa KaadÃ¡Â»Â"
+msgstr "Ahá»a Kaadá»"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "AhÃ¡Â»Âa adreesÃ¡Â»Â ozi-e"
+msgstr "Ahá»a adreesá» ozi-e"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "AhÃ¡Â»Âa aha"
+msgstr "Ahá»a aha"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "AhÃ¡Â»Âa na nÃ¡Â»Âmba ekwentÃ¡Â»Â"
+msgstr "Ahá»a na ná»mba ekwentá»"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "AhÃ¡Â»Âa n'okporo ÃÂ¡mÃÂ¡ adreesÃ¡Â»Â"
+msgstr "Ahá»a n'okporo Ã¡mÃ¡ adreesá»"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "AhÃ¡Â»Âa si mbinye aka"
+msgstr "Ahá»a si mbinye aka"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "AhÃ¡Â»Âa"
+msgstr "Ahá»a"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Ã¡Â»Â¥bÃ¡Â»ÂchÃ¡Â»Â"
+msgstr "á»¤»¥bá»chá»"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Ã¡Â»Â¤bÃ¡Â»ÂchÃ¡Â»Â nke Ã¡Â»ÂrÃ¡Â»Â¥ mmalite"
+msgstr "á»¤bá»chá» nke á»rá»¥ mmalite"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "HichapÃ¡Â»Â¥ ahÃ¡Â»Âa"
+msgstr "Hichapá»¥ ahá»a"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "HichapÃ¡Â»Â¥ Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "Hichapá»¥ á»rá»¥ aká»¥ká»"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "HichapÃ¡Â»Â¥ njirimara"
+msgstr "Hichapá»¥ njirimara"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
@@ -257,59 +265,64 @@ msgstr "Duration"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Duration nke Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "Duration nke á»rá»¥"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Dezie ahÃ¡Â»Âa"
+msgstr "Dezie ahá»a"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Dezie ozi akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "Dezie ozi aká»¥ká»"
 
 #: app/views/users.html
 msgid "Edit user"
 msgstr "Dezie njirimara"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "AdreesÃ¡Â»Â ozi Ã¡Â»ÂntanetÃ¡Â»Â"
+msgstr "Adreesá» ozi á»ntanetá»"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "Email adreesÃ¡Â»Â adabaghÃ¡Â»Â"
+msgstr "Email adreesá» adabaghá»"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "AdreesÃ¡Â»Â ozi-e nke onye Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "Adreesá» ozi-e nke onye á»rá»¥"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Email nke onye Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "Email nke onye á»rá»¥"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "FaksÃ¡Â»Â"
+msgstr "Faksá»"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Iyo ahÃ¡Â»Âa"
+msgstr "Iyo ahá»a"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Iyo Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "Iyo á»rá»¥ aká»¥ká»"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Iyo Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "Iyo á»rá»¥"
 
 #: app/views/nav.html
 msgid "Home"
 msgstr "Home"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Echefuru m paswá»á»dá»¥"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,11 +330,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ã¡Â»Â na- enye ohere ka nlekota nke ndÃ¡Â»Â ahÃ¡Â»Âa, iwu na Ã¡Â»ÂrÃ¡Â»Â¥ na-akÃ¡Â»Â."
+msgstr "á» na- enye ohere ka nlekota nke ndá» ahá»a, iwu na á»rá»¥ na-aká»."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Ã¡Â»Â bÃ¡Â»Â¥ oghe- isi, ngwa ngwa, kÃ¡Â»Âmpat, extensible, enwe ahÃ¡Â»Â¥ iru ala, mba na mobile."
+msgstr "á» bá»¥ oghe- isi, ngwa ngwa, ká»mpat, extensible, enwe ahá»¥ iru ala, mba na mobile."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -329,15 +342,15 @@ msgstr "Ebe"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ã¡Â»ÂnÃ¡Â»ÂdÃ¡Â»Â¥ nke Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "á»ná»dá»¥ nke á»rá»¥"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Banye"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "ApÃ¡Â»Â¥"
+msgstr "Apá»¥"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -349,15 +362,15 @@ msgstr "Aha"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Aha nke onye Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "Aha nke onye á»rá»¥"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "New ahÃ¡Â»Âa"
+msgstr "New ahá»a"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "New akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "New aká»¥ká»"
 
 #: app/views/users.html
 msgid "New user"
@@ -365,7 +378,7 @@ msgstr "New njirimara"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Ã¡Â»Â dÃ¡Â»ÂghÃ¡Â»Â melite bÃ¡Â»Â¥ ugbu a"
+msgstr "á» dá»ghá» melite bá»¥ ugbu a"
 
 #: app/views/serviceReports.html
 msgid "Notes"
@@ -377,19 +390,19 @@ msgstr "Number"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "á»»rá»¥"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥ nke Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "á»rá»¥ nke á»rá»¥"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥ si mbinye aka"
+msgstr "á»rá»¥ si mbinye aka"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "AsÃ¡Â»Â"
+msgstr "Asá»"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,23 +410,39 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA nwere ghara Ã¡Â»ÂdÃ¡Â»Â irÃÂ¨ agwa( s)"
+msgstr "P.IVA nwere ghara á»dá» irÃ¨ agwa( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA akara koodu adabaghÃ¡Â»Â"
+msgstr "P.IVA akara koodu adabaghá»"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Paswá»du"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Paswá»du nkwenye adabaghá»"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Paswá»du nkwenye a chá»rá»"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Paswá»du bá»¥ghá» zuru ezu ike"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "EkwentÃ¡Â»Â"
+msgstr "Ekwentá»"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "NÃ¡Â»Âmba ekwentÃ¡Â»Â"
+msgstr "Ná»mba ekwentá»"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "NÃ¡Â»Âmba ekwentÃ¡Â»Â adabaghÃ¡Â»Â"
+msgstr "Ná»mba ekwentá» adabaghá»"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -429,11 +458,11 @@ msgstr "Bipute"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Bipute ahÃ¡Â»Âa"
+msgstr "Bipute ahá»a"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Bipute Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "Bipute á»rá»¥ aká»¥ká»"
 
 #: app/views/users.html
 msgid "Print user"
@@ -443,21 +472,25 @@ msgstr "Bipute njirimara"
 msgid "Provider"
 msgstr "Na-eweta"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Register"
 
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Tá»gharia paswá»á»dá»¥ gá»"
+
 #: app/views/users.html
 msgid "Roles"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "á»»rá»¥"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥ a Ã¡Â»ÂrÃ¡Â»Â¥; pÃ¡Â»Âa ka slide site niile na-ekwu,( RW-\\u003e R-\\u003e Square-\\u003e dÃ¡Â»ÂghÃ¡Â»Â onye Ã¡Â»Â bÃ¡Â»Â¥la)"
+msgstr "á»rá»¥ a á»rá»¥; pá»a ka slide site niile na-ekwu,( RW-\\u003e R-\\u003e Square-\\u003e dá»ghá» onye á» bá»¥la)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥ nke onye Ã¡Â»ÂrÃ¡Â»Â¥: akwÃ¡Â»Â¥kwÃ¡Â»Â ndÃ¡Â»Â¥ akwÃ¡Â»Â¥kwÃ¡Â»Â ndÃ¡Â»Â¥ na agba na-egosi ikike n'ihi na a gÃ¡Â»Â¥rÃ¡Â»Â¥ na ide ihe, odo odo n'aka na-agÃ¡Â»Â¥, na-acha anÃ¡Â»Â¥nÃ¡Â»Â¥ anÃ¡Â»Â¥nÃ¡Â»Â¥ na ide ihe, na-acha Ã¡Â»Âbara Ã¡Â»Âbara enweghÃ¡Â»Â ikike. AkÃ¡Â»Â¥kÃ¡Â»Â¥ bÃ¡Â»Â¥:' ka Ã¡Â»Â'( Ã¡Â»ÂrÃ¡Â»Â¥),' c'( ahÃ¡Â»Âa),' o'( iwu),' s'( Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â)."
+msgstr "á»rá»¥ nke onye á»rá»¥: akwá»¥kwá» ndá»¥ akwá»¥kwá» ndá»¥ na agba na-egosi ikike n'ihi na a gá»¥rá»¥ na ide ihe, odo odo n'aka na-agá»¥, na-acha aná»¥ná»¥ aná»¥ná»¥ na ide ihe, na-acha á»bara á»bara enweghá» ikike. Aká»¥ká»¥ bá»¥:' ka á»'( á»rá»¥),' c'( ahá»a),' o'( iwu),' s'( á»rá»¥ aká»¥ká»)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -465,15 +498,15 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "á»»rá»¥ aká»¥ká»"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â n"
+msgstr "á»rá»¥ aká»¥ká» n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥ akÃ¡Â»Â¥kÃ¡Â»Â"
+msgstr "á»»rá»¥ aká»¥ká»"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -481,55 +514,59 @@ msgstr "Mbido"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "AdreesÃ¡Â»Â Striit"
+msgstr "Adreesá» Striit"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Nke a ahÃ¡Â»Âa aha ododu ke iji"
+msgstr "Nke a ahá»a aha ododu ke iji"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Nke a ahÃ¡Â»Âa aha ya bÃ¡Â»Â¥ adabaghÃ¡Â»Â"
+msgstr "Nke a ahá»a aha ya bá»¥ adabaghá»"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Nke a bÃ¡Â»Â¥"
+msgstr "Nke a bá»¥"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Nke a onye Ã¡Â»ÂrÃ¡Â»Â¥ nwere ike ma Ã¡Â»Â bÃ¡Â»Â¥ na-agÃ¡Â»Â¥ ma Ã¡Â»Â bÃ¡Â»Â¥ dee"
+msgstr "Nke a onye á»rá»¥ nwere ike ma á» bá»¥ na-agá»¥ ma á» bá»¥ dee"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Nke a onye Ã¡Â»ÂrÃ¡Â»Â¥ nwere ike na-agÃ¡Â»Â¥"
+msgstr "Nke a onye á»rá»¥ nwere ike na-agá»¥"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Nke a onye Ã¡Â»ÂrÃ¡Â»Â¥ nwere ike Ã¡Â»ÂgÃ¡Â»Â¥ na ide"
+msgstr "Nke a onye á»rá»¥ nwere ike á»gá»¥ na ide"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Nke a onye Ã¡Â»ÂrÃ¡Â»Â¥ nwere ike ide"
+msgstr "Nke a onye á»rá»¥ nwere ike ide"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Nke a onye Ã¡Â»ÂrÃ¡Â»Â¥ nwere ike Ã¡Â»Ânweta"
+msgstr "Nke a onye á»rá»¥ nwere ike á»nweta"
 
 #: app/views/users.html
 msgid "This user name is already in use"
 msgstr "Nke a na aha njirimara ododu ke iji"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Nke a na aha njirimara na ewerela"
+
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Nke a na aha njirimara adabaghÃ¡Â»Â"
+msgstr "Nke a na aha njirimara adabaghá»"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Nke a bara uru bÃ¡Â»Â¥ ma Ã¡Â»Â bÃ¡Â»Â¥ a Codice Fiscale ma Ã¡Â»Â bÃ¡Â»Â¥ a P.IVA"
+msgstr "Nke a bara uru bá»¥ ma á» bá»¥ a Codice Fiscale ma á» bá»¥ a P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Oge nke Ã¡Â»ÂrÃ¡Â»Â¥ mmalite"
+msgstr "Oge nke á»rá»¥ mmalite"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
@@ -537,27 +574,55 @@ msgstr "Toggle igodo"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Ã¡Â»Ânye adreesÃ¡Â»Â ozi-e"
+msgstr "á»nye adreesá» ozi-e"
 
 #: app/views/users.html
 msgid "User name"
 msgstr "Aha njirimara"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Aha njirimara adabaghá»"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Aha njirimara"
 
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Aha ojii/ Email"
+
 #: app/views/nav.html
 msgid "Users"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "á»»rá»¥"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Ã¡Â»Â na- offline"
+msgstr "á» na- offline"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Ã¡Â»Â na- online"
+msgstr "á» na- online"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Email gá»"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Paswá»á»dá»¥ gá»"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Paswá»á»dá»¥ gá», á»zá»"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Aha njirimara gá»"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Aha njirimara gá» ma á» bá»¥ ozi"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -569,11 +634,11 @@ msgstr "kagbuo"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "achÃ¡Â»ÂpÃ¡Â»Â¥ta"
+msgstr "achá»pá»¥ta"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "ahÃ¡Â»Âa"
+msgstr "ahá»a"
 
 #: app/scripts/app.js
 msgid "downloading"
@@ -585,11 +650,12 @@ msgstr "njehie"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "obibi na peeji nke maka abÃ¡Â»Â¥ghÃ¡Â»Â aha Ã¡Â»ÂrÃ¡Â»Â¥."
+msgstr "obibi na peeji nke maka abá»¥ghá» aha á»rá»¥."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "obibi na peeji nke maka registerd Ã¡Â»ÂrÃ¡Â»Â¥."
+#, 
+msgid "home page for registered users."
+msgstr "obibi na peeji nke maka aha ọrụ."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -597,7 +663,7 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "bÃ¡Â»Â¥ ngwa weebÃ¡Â»Â¥ n'ihi( smart) amalite- gbasie."
+msgstr "bá»¥ ngwa weebá»¥ n'ihi( smart) amalite- gbasie."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -613,15 +679,15 @@ msgstr "iwu"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "ma aha Ã¡Â»ÂhÃ¡Â»Â¥rÃ¡Â»Â¥ accout na abanye na."
+msgstr "ma aha á»há»¥rá»¥ accout na abanye na."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "paswÃ¡Â»ÂÃ¡Â»ÂdÃ¡Â»Â¥:"
+msgstr "paswá»á»dá»¥:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Ã¡Â»Âganihu"
+msgstr "á»ganihu"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -637,4 +703,4 @@ msgstr "aha njirimara:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Ã¡Â»ÂrÃ¡Â»Â¥"
+msgstr "á»rá»¥"

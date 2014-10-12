@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: zu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -35,6 +35,10 @@ msgstr "A ubude kumele sibe ngendlela' HH' noma' HH: mm', futhi ngomzuzu okungen
 msgid "A location of service is required"
 msgstr "A indawo yesevisi siyadingeka"
 
+#: app/views/register.html
+msgid "A password is required"
+msgstr "A iphasiwedi siyadingeka"
+
 #: app/views/customers.html
 msgid "A phone number is required"
 msgstr "Inombolo yocingo siyadingeka"
@@ -43,7 +47,7 @@ msgstr "Inombolo yocingo siyadingeka"
 msgid "A street address is required"
 msgstr "A ikheli lomgwaqo siyadingeka"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "Igama lomsebenzisi siyadingeka"
 
@@ -63,7 +67,7 @@ msgstr "Engeza umsebenzisi omusha"
 msgid "Address"
 msgstr "Ikheli"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
 msgstr "Ikheli le-imeyli siyadingeka"
 
@@ -171,6 +175,10 @@ msgstr "Codice Fiscale nobe P.IVA of ikhasimende"
 msgid "Company logo"
 msgstr "Company logo"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Qinisekisa Iphasiwedi"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
 msgstr "Xhuma usebenzisa omunye akhawunti akho\\\" senhlalo\\"
@@ -271,7 +279,8 @@ msgstr "Umbiko service Hlela"
 msgid "Edit user"
 msgstr "Hlela umsebenzisi"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Imeyili"
 
@@ -279,7 +288,7 @@ msgstr "Imeyili"
 msgid "Email address"
 msgstr "Ikheli le-imeyili"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "Ikheli imeyili ayivumelekile"
 
@@ -311,6 +320,10 @@ msgstr "Abasebenzisi Elihehayo"
 msgid "Home"
 msgstr "Home"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Ngikhohliwe iphasiwedi yami"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Id"
@@ -331,7 +344,7 @@ msgstr "Indawo"
 msgid "Location of service"
 msgstr "Indawo of service"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Ngena ngemvume"
 
@@ -403,6 +416,22 @@ msgstr "P.IVA iqukethe uhlamvu ezingavumelekile( s)"
 msgid "P.IVA control code doesn't match"
 msgstr "Ikhodi control P.IVA ayifani"
 
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Iphasiwedi"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Ukuqinisekiswa Iphasiwedi ayifani"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Ukuqinisekiswa Iphasiwedi siyadingeka"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Iphasiwedi akuyona ngokwanele eqinile"
+
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
 msgstr "Ifoni"
@@ -443,9 +472,13 @@ msgstr "Phrinta umsebenzisi"
 msgid "Provider"
 msgstr "Umhlinzeki"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Irejista"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Kabusha iphasiwedi yakho"
 
 #: app/views/users.html
 msgid "Roles"
@@ -519,6 +552,10 @@ msgstr "Lo msebenzisi ayikwazi ukufinyelela"
 msgid "This user name is already in use"
 msgstr "Leli gama lomsebenzisi isivele iyasebenza"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Leli gama lomsebenzisi selivele kuthathwe"
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr "Leli gama lomsebenzisi ayivumelekile"
@@ -543,9 +580,17 @@ msgstr "Umsebenzisi ikheli imeyili"
 msgid "User name"
 msgstr "Igama lomsebenzisi"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Igama lomsebenzisi ayivumelekile"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Igama lomsebenzisi"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Igama lomsebenzisi/ imeyili"
 
 #: app/views/nav.html
 msgid "Users"
@@ -558,6 +603,26 @@ msgstr "Wena okungaxhunyiwe"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "You are inthanethi"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Imeyili yakho"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Iphasiwedi yakho"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Iphasiwedi yakho, futhi"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Igama lakho lomsebenzisi"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Igama lakho lomsebenzisi noma i-imeyili"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -588,8 +653,8 @@ msgid "home page for non registered users."
 msgstr "ikhasi lasekhaya for non abasebenzisi ababhalisiwe."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "ikhasi lasekhaya for abasebenzisi registerd."
+msgid "home page for registered users."
+msgstr "ikhasi lasekhaya for abasebenzisi ababhalisiwe."
 
 #: app/scripts/app.js
 msgid "initializing"

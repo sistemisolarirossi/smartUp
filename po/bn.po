@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,103 +17,107 @@ msgstr "(hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "\\u098F\\u0995\\u099F\\u09BF Codice Fiscale\\u09AC\\u09BE P.IVA\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "একটি Codice Fiscale বা P.IVA প্রয়োজন বোধ করা হয়"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09C7\\u09B0\\u09A8\\u09BE\\u09AE\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "একটি গ্রাহকের নাম প্রয়োজন বোধ করা হয়"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B6\\u09C1\\u09B0\\u09C1\\u098F\\u0995\\u099F\\u09BF\\u09A4\\u09BE\\u09B0\\u09BF\\u0996\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "সেবা শুরু একটি তারিখ প্রয়োজন বোধ করা হয়"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u09B8\\u09AE\\u09AF\\u09BC\\u0995\\u09BE\\u09B2' HH'\\u0986\\u0995\\u09BE\\u09B0\\u09C7\\u09B9\\u09A4\\u09C7\\u09AC\\u09BE\\u09B9\\u09AC\\u09C7' hh: mm',\\u098F\\u09AC\\u0982\\u0985\\u09A8\\u09CD\\u09A4\\u09A4\\u098F\\u0995\\u09AE\\u09BF\\u09A8\\u09BF\\u099F\\u09A6\\u09C0\\u09B0\\u09CD\\u0998"
+msgstr "একটি সময়কাল' HH' আকারে হতে বা হবে' hh: mm', এবং অন্তত এক মিনিট দীর্ঘ"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u098F\\u0995\\u099F\\u09BF\\u0985\\u09AC\\u09B8\\u09CD\\u09A5\\u09BE\\u09A8\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "সেবা একটি অবস্থান প্রয়োজন বোধ করা হয়"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "একটি পাসওয়ার্ড প্রয়োজন বোধ করা হয়"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u09AB\\u09CB\\u09A8\\u09A8\\u09AE\\u09CD\\u09AC\\u09B0\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "একটি ফোন নম্বর প্রয়োজন বোধ করা হয়"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u09B0\\u09BE\\u09B8\\u09CD\\u09A4\\u09BE\\u09B0\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "একটি রাস্তার ঠিকানা প্রয়োজন বোধ করা হয়"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "\\u098F\\u0995\\u099C\\u09A8\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09A8\\u09BE\\u09AE\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "একজন ব্যবহারকারী নাম প্রয়োজন বোধ করা হয়"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "\\u09B8\\u09AE\\u09CD\\u09AA\\u09B0\\u09CD\\u0995\\u09C7"
+msgstr "সম্পর্কে"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "\\u09A8\\u09A4\\u09C1\\u09A8\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09AF\\u09CB\\u0997\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "নতুন গ্রাহক যোগ করুন"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "\\u09A8\\u09A4\\u09C1\\u09A8\\u0987\\u0989\\u099C\\u09BE\\u09B0\\u09AF\\u09CB\\u0997\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "নতুন ইউজার যোগ করুন"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE"
+msgstr "ঠিকানা"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u0987\\u09AE\\u09C7\\u0987\\u09B2\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "একটি ইমেইল ঠিকানা প্রয়োজন বোধ করা হয়"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u0985\\u09AA\\u09BE\\u09B0\\u09C7\\u099F\\u09B0\\u09AA\\u09CD\\u09B0\\u09AF\\u09BC\\u09CB\\u099C\\u09A8\\u09AC\\u09CB\\u09A7\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC"
+msgstr "একটি অপারেটর প্রয়োজন বোধ করা হয়"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u0989\\u09AA\\u09B2\\u09AC\\u09CD\\u09A7\\u09B0\\u09AF\\u09BC\\u09C7\\u099B\\u09C7:\\u0986\\u09AA\\u09A8\\u09BF\\u098F\\u0996\\u09A8\\u098F\\u099F\\u09BF\\u09B2\\u09CB\\u09A1\\u0995\\u09B0\\u09A4\\u09C7\\u099A\\u09BE\\u09A8?"
+msgstr "একটি আপডেট উপলব্ধ রয়েছে: আপনি এখন এটি লোড করতে চান?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u09AA\\u09CD\\u09B0\\u09B8\\u09CD\\u09A4\\u09C1\\u09A4"
+msgstr "একটি আপডেট প্রস্তুত"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "\\u0986\\u09AA\\u09A8\\u09BF\\u09B8\\u09C7\\u09AC\\u09BE\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F\\u0985\\u09AA\\u09B8\\u09BE\\u09B0\\u09A3\\u09B8\\u09A4\\u09CD\\u09AF\\u09BF\\u0987\\u09A8\\u09BF\\u09B6\\u09CD\\u099A\\u09BF\\u09A4"
+msgstr "আপনি সেবা রিপোর্ট অপসারণ সত্যিই নিশ্চিত"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "\\u0986\\u09AA\\u09A8\\u09BF\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09AE\\u09C1\\u099B\\u09C7\\u09AB\\u09C7\\u09B2\\u09BE\\u09B0\\u099C\\u09A8\\u09CD\\u09AF\\u09B8\\u09A4\\u09CD\\u09AF\\u09BF\\u0987\\u09A8\\u09BF\\u09B6\\u09CD\\u099A\\u09BF\\u09A4"
+msgstr "আপনি ব্যবহারকারী মুছে ফেলার জন্য সত্যিই নিশ্চিত"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "\\u0985\\u09A8\\u09C1\\u09AE\\u09CB\\u09A6\\u09A8\\u0986\\u0987\\u09A1\\u09BF"
+msgstr "অনুমোদন আইডি"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09AA\\u09CD\\u09B0\\u09AE\\u09BE\\u09A3\\u09C0\\u0995\\u09B0\\u09A3\\u0986\\u0987\\u09A1\\u09BF"
+msgstr "ব্যবহারকারী প্রমাণীকরণ আইডি"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "\\u0985\\u09A8\\u09C1\\u09AE\\u09CB\\u09A6\\u09A8\\u0986\\u0987\\u09A1\\u09BF:"
+msgstr "অনুমোদন আইডি:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "\\u0985\\u09A8\\u09C1\\u09AE\\u09CB\\u09A6\\u09A8\\u09AA\\u09CD\\u09B0\\u09A6\\u09BE\\u09A8\\u0995\\u09BE\\u09B0\\u09C0"
+msgstr "অনুমোদন প্রদানকারী"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u099C\\u09A8\\u09CD\\u09AF\\u0985\\u09A8\\u09C1\\u09AE\\u09CB\\u09A6\\u09A8\\u09AA\\u09CD\\u09B0\\u09A6\\u09BE\\u09A8\\u0995\\u09BE\\u09B0\\u09C0"
+msgstr "ব্যবহারকারীর জন্য অনুমোদন প্রদানকারী"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "\\u09E8"
+msgstr "২"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u0985\\u09AC\\u09A4\\u09BE\\u09B0\\u0987\\u09AE\\u09C7\\u099C"
+msgstr "ব্যবহারকারীর অবতার ইমেজ"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7\\u09B8\\u0995\\u09CD\\u09B0\\u09BF\\u09AF\\u09BC\\u09BE\\u0995\\u09B0\\u09BE\\u09B9\\u099A\\u09CD\\u099B\\u09C7"
+msgstr "ক্যাশে সক্রিয়া করা হচ্ছে"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7\\u0985\\u099C\\u09BE\\u09A8\\u09BE\\u09B0\\u09BE\\u09B7\\u09CD\\u099F\\u09CD\\u09B0\\u09B9\\u09AF\\u09BC"
+msgstr "ক্যাশে অজানা রাষ্ট্র হয়"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC\\u09A8\\u09BE(\\u09B8\\u09AE\\u09CD\\u09AD\\u09AC\\u09A4\\u0989\\u09A6\\u09CD\\u09AD\\u09BF\\u09A8\\u09CD\\u09A8\\u09AA\\u09BE\\u0993\\u09AF\\u09BC\\u09BE\\u09AF\\u09BE\\u099A\\u09CD\\u099B\\u09C7\\u09A8\\u09BE)"
+msgstr "ক্যাশে আপডেট করা হয় না(সম্ভবত উদ্ভিন্ন পাওয়া যাচ্ছে না)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "\\u0986\\u09AA\\u09A8\\u09BF\\u0985\\u09AB\\u09B2\\u09BE\\u0987\\u09A8\\u09C7\\u0995\\u09BE\\u09B0\\u09A3\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u0995\\u09B0\\u09BE\\u09B9\\u09AF\\u09BC\\u09A8\\u09BE"
+msgstr "আপনি অফলাইনে কারণ ক্যাশে আপডেট করা হয় না"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7\\u0985\\u09AA\\u09CD\\u09B0\\u099A\\u09B2\\u09BF\\u09A4"
+msgstr "ক্যাশে অপ্রচলিত"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7\\u0986\\u09AA\\u099F\\u09C1\\u09A1\\u09C7\\u099F"
+msgstr "ক্যাশে আপ টু ডেট"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7\\u0985\\u09AC\\u09B8\\u09CD\\u09A5\\u09BE"
+msgstr "ক্যাশে অবস্থা"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u0989\\u09AA\\u09B8\\u09CD\\u09A5\\u09BF\\u09A4\\u09BF\\u09AA\\u09B0\\u09C0\\u0995\\u09CD\\u09B7\\u09BE\\u0995\\u09B0\\u09BE\\u09B9\\u099A\\u09CD\\u099B\\u09C7"
+msgstr "একটি আপডেট উপস্থিতি পরীক্ষা করা হচ্ছে"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,239 +161,248 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale\\u0985\\u09AC\\u09C8\\u09A7\\u0985\\u0995\\u09CD\\u09B7\\u09B0\\u09B0\\u09AF\\u09BC\\u09C7\\u099B\\u09C7(\\u0997\\u09C1\\u09B2\\u09BF)"
+msgstr "Codice Fiscale অবৈধ অক্ষর রয়েছে(গুলি)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale\\u09A8\\u09BF\\u09AF\\u09BC\\u09A8\\u09CD\\u09A4\\u09CD\\u09B0\\u09A3\\u0995\\u09CB\\u09A1\\u09AE\\u09C7\\u09B2\\u09C7\\u09A8\\u09BE"
+msgstr "Codice Fiscale নিয়ন্ত্রণ কোড মেলে না"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale\\u09AC\\u09BE\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09C7\\u09B0 P.IVA"
+msgstr "Codice Fiscale বা গ্রাহকের P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "\\u0995\\u09CB\\u09AE\\u09CD\\u09AA\\u09BE\\u09A8\\u09C0\\u09B2\\u09CB\\u0997\\u09CB"
+msgstr "কোম্পানী লোগো"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "পাসওয়ার্ড নিশ্চিত করুন"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "\\u0986\\u09AA\\u09A8\\u09BE\\u09B0\\\"\\u09B8\\u09BE\\u09AE\\u09BE\\u099C\\u09BF\\u0995\\\"\\u0985\\u09CD\\u09AF\\u09BE\\u0995\\u09BE\\u0989\\u09A8\\u09CD\\u099F\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09B0\\u09C7\\u09B8\\u0982\\u09AF\\u09CB\\u0997\\u0995\\u09B0\\u09C1\\u09A8,\\u0985\\u09A5\\u09AC\\u09BE\\u098F\\u0987\\u09B6\\u0982\\u09B8\\u09BE\\u09AA\\u09A4\\u09CD\\u09B0\\u09C7\\u09B0\\u09B8\\u0999\\u09CD\\u0997\\u09C7\\u09B2\\u0997\\u0987\\u09A8\\u0995\\u09B0\\u09C1\\u09A8:"
+msgstr "আপনার\\\" সামাজিক\\\" অ্যাকাউন্ট ব্যবহার করে সংযোগ করুন, অথবা এই শংসাপত্রের সঙ্গে লগ ইন করুন:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "\\u09AB\\u09C7\\u09B8\\u09AC\\u09C1\\u0995\\u09B8\\u09BE\\u09A5\\u09C7\\u09B8\\u0982\\u09AF\\u09CB\\u0997\\u09B8\\u09CD\\u09A5\\u09BE\\u09AA\\u09A8\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "ফেসবুক সাথে সংযোগ স্থাপন করুন"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "\\u0997\\u09C1\\u0997\\u09B2+\\u09B8\\u09BE\\u09A5\\u09C7\\u09B8\\u0982\\u09AF\\u09CB\\u0997\\u09B8\\u09CD\\u09A5\\u09BE\\u09AA\\u09A8\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "গুগল+ সাথে সংযোগ স্থাপন করুন"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "\\u099F\\u09C1\\u0987\\u099F\\u09BE\\u09B0\\u09B8\\u09BE\\u09A5\\u09C7\\u09B8\\u0982\\u09AF\\u09CB\\u0997\\u09B8\\u09CD\\u09A5\\u09BE\\u09AA\\u09A8\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "টুইটার সাথে সংযোগ স্থাপন করুন"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "\\u09AF\\u09CB\\u0997\\u09BE\\u09AF\\u09CB\\u0997"
+msgstr "যোগাযোগ"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "\\u09AC\\u09B0\\u09CD\\u09A4\\u09AE\\u09BE\\u09A8\\u09AD\\u09BE\\u09B7\\u09BE"
+msgstr "বর্তমান ভাষা"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995"
+msgstr "গ্রাহক"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u0995\\u09BE\\u09B0\\u09CD\\u09A1"
+msgstr "গ্রাহক কার্ড"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u0987\\u09AE\\u09C7\\u09B2\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE"
+msgstr "গ্রাহক ইমেল ঠিকানা"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09C7\\u09B0\\u09A8\\u09BE\\u09AE"
+msgstr "গ্রাহকের নাম"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09AB\\u09CB\\u09A8\\u09A8\\u09AE\\u09CD\\u09AC\\u09B0"
+msgstr "গ্রাহক ফোন নম্বর"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09B0\\u09BE\\u09B8\\u09CD\\u09A4\\u09BE\\u09B0\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE"
+msgstr "গ্রাহক রাস্তার ঠিকানা"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09C7\\u09B0\\u09B8\\u09CD\\u09AC\\u09BE\\u0995\\u09CD\\u09B7\\u09B0"
+msgstr "গ্রাহকের স্বাক্ষর"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09B0\\u09BE"
+msgstr "গ্রাহকরা"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "\\u09A4\\u09BE\\u09B0\\u09BF\\u0996"
+msgstr "তারিখ"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B6\\u09C1\\u09B0\\u09C1\\u09A4\\u09BE\\u09B0\\u09BF\\u0996"
+msgstr "সেবা শুরু তারিখ"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09AE\\u09C1\\u099B\\u09C7\\u09A6\\u09BF\\u09A8"
+msgstr "গ্রাহক মুছে দিন"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F\\u09AE\\u09C1\\u099B\\u09C7\\u09A6\\u09BF\\u09A8"
+msgstr "সেবা রিপোর্ট মুছে দিন"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09AE\\u09C1\\u099B\\u09C7\\u09A6\\u09BF\\u09A8"
+msgstr "ব্যবহারকারী মুছে দিন"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "\\u098F\\u0995\\u099F\\u09BF\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u09A1\\u09BE\\u0989\\u09A8\\u09B2\\u09CB\\u09A1"
+msgstr "একটি আপডেট ডাউনলোড"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "\\u09B8\\u09CD\\u09A5\\u09BF\\u09A4\\u09BF\\u0995\\u09BE\\u09B2"
+msgstr "স্থিতিকাল"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B8\\u09CD\\u09A5\\u09BF\\u09A4\\u09BF\\u0995\\u09BE\\u09B2"
+msgstr "সেবা স্থিতিকাল"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "\\u09B8\\u09AE\\u09CD\\u09AA\\u09BE\\u09A6\\u09A8\\u09BE\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995"
+msgstr "সম্পাদনা গ্রাহক"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "\\u09B8\\u09AE\\u09CD\\u09AA\\u09BE\\u09A6\\u09A8\\u09BE\\u0995\\u09B0\\u09C1\\u09A8\\u09B8\\u09C7\\u09AC\\u09BE\\u09AA\\u09CD\\u09B0\\u09A4\\u09BF\\u09AC\\u09C7\\u09A6\\u09A8"
+msgstr "সম্পাদনা করুন সেবা প্রতিবেদন"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B8\\u09AE\\u09CD\\u09AA\\u09BE\\u09A6\\u09A8\\u09BE\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "ব্যবহারকারী সম্পাদনা করুন"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "\\u0987\\u09AE\\u09C7\\u0987\\u09B2"
+msgstr "ইমেইল"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "\\u0987\\u09AE\\u09C7\\u09B2\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE"
+msgstr "ইমেল ঠিকানা"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "\\u0987\\u09AE\\u09C7\\u0987\\u09B2\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE\\u09AC\\u09C8\\u09A7\\u09A8\\u09AF\\u09BC"
+msgstr "ইমেইল ঠিকানা বৈধ নয়"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u0987\\u09AE\\u09C7\\u0987\\u09B2\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE"
+msgstr "ব্যবহারকারীর ইমেইল ঠিকানা"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u0987\\u09AE\\u09C7\\u0987\\u09B2"
+msgstr "ব্যবহারকারী ইমেইল"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "\\u09AB\\u09CD\\u09AF\\u09BE\\u0995\\u09CD\\u09B8"
+msgstr "ফ্যাক্স"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "\\u09AB\\u09BF\\u09B2\\u09CD\\u099F\\u09BE\\u09B0\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09A6\\u09C7\\u09B0"
+msgstr "ফিল্টার গ্রাহকদের"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "\\u09AB\\u09BF\\u09B2\\u09CD\\u099F\\u09BE\\u09B0\\u09B8\\u09C7\\u09AC\\u09BE\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F"
+msgstr "ফিল্টার সেবা রিপোর্ট"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "\\u09AB\\u09BF\\u09B2\\u09CD\\u099F\\u09BE\\u09B0\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0"
+msgstr "ফিল্টার ব্যবহারকারী"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "\\u09B9\\u09CB\\u09AE"
+msgstr "হোম"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "আমি আমার পাসওয়ার্ড ভুলে গেছি"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "\\u0986\\u0987\\u09A1\\u09BF"
+msgstr "আইডি"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "\\u098F\\u099F\\u09BE\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09A6\\u09C7\\u09B0,\\u0986\\u09A6\\u09C7\\u09B6\\u098F\\u09AC\\u0982\\u09B8\\u09C7\\u09AC\\u09BE\\u09AA\\u09CD\\u09B0\\u09A4\\u09BF\\u09AC\\u09C7\\u09A6\\u09A8\\u0997\\u09C1\\u09B2\\u09BF\\u09AC\\u09CD\\u09AF\\u09AC\\u09B8\\u09CD\\u09A5\\u09BE\\u09AA\\u09A8\\u09BE\\u0995\\u09B0\\u09A4\\u09C7\\u09AA\\u09BE\\u09B0\\u09AC\\u09C7\\u09A8."
+msgstr "এটা গ্রাহকদের, আদেশ এবং সেবা প্রতিবেদনগুলি ব্যবস্থাপনা করতে পারবেন."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "\\u098F\\u099F\\u09BE\\u0993\\u09AA\\u09C7\\u09A8\\u09B8\\u09CB\\u09B0\\u09CD\\u09B8,\\u09A6\\u09CD\\u09B0\\u09C1\\u09A4,\\u0995\\u09AE\\u09CD\\u09AA\\u09CD\\u09AF\\u09BE\\u0995\\u09CD\\u099F,\\u09AA\\u09CD\\u09B0\\u09B8\\u09BE\\u09B0\\u09CD\\u09AF,\\u09AA\\u09CD\\u09B0\\u09BE\\u09A3\\u09AC\\u09A8\\u09CD\\u09A4,\\u0986\\u09A8\\u09CD\\u09A4\\u09B0\\u09CD\\u099C\\u09BE\\u09A4\\u09BF\\u0995\\u098F\\u09AC\\u0982\\u09AE\\u09CB\\u09AC\\u09BE\\u0987\\u09B2."
+msgstr "এটা ওপেন সোর্স, দ্রুত, কম্প্যাক্ট, প্রসার্য, প্রাণবন্ত, আন্তর্জাতিক এবং মোবাইল."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "\\u0985\\u09AC\\u09B8\\u09CD\\u09A5\\u09BE\\u09A8"
+msgstr "অবস্থান"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u098F\\u09B0\\u0985\\u09AC\\u09B8\\u09CD\\u09A5\\u09BE\\u09A8"
+msgstr "সেবা এর অবস্থান"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "\\u09B2\\u0997\\u09BF\\u09A8\\u0995\\u09B0\\u09CB"
+msgstr "লগিন করো"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "\\u09B2\\u0997\\u0986\\u0989\\u099F"
+msgstr "লগ আউট"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "\\u098F\\u09A8"
+msgstr "এন"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "\\u09A8\\u09BE\\u09AE"
+msgstr "নাম"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u09A8\\u09BE\\u09AE"
+msgstr "ব্যবহারকারীর নাম"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "\\u09A8\\u09A4\\u09C1\\u09A8\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995"
+msgstr "নতুন গ্রাহক"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "\\u09A8\\u09A4\\u09C1\\u09A8\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F"
+msgstr "নতুন রিপোর্ট"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "\\u09A8\\u09A4\\u09C1\\u09A8\\u0987\\u0989\\u099C\\u09BE\\u09B0"
+msgstr "নতুন ইউজার"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "\\u0995\\u09CB\\u09A8\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u0989\\u09AA\\u09B8\\u09CD\\u09A5\\u09BF\\u09A4"
+msgstr "কোন আপডেট উপস্থিত"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "\\u09A8\\u09CB\\u099F"
+msgstr "নোট"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "\\u09B8\\u0982\\u0996\\u09CD\\u09AF\\u09BE"
+msgstr "সংখ্যা"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "\\u0985\\u09AA\\u09BE\\u09B0\\u09C7\\u099F\\u09B0"
+msgstr "অপারেটর"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u0985\\u09AA\\u09BE\\u09B0\\u09C7\\u099F\\u09B0"
+msgstr "সেবা অপারেটর"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "\\u0985\\u09AA\\u09BE\\u09B0\\u09C7\\u099F\\u09B0\\u098F\\u09B0\\u09B8\\u09CD\\u09AC\\u09BE\\u0995\\u09CD\\u09B7\\u09B0"
+msgstr "অপারেটর এর স্বাক্ষর"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "\\u0986\\u09A6\\u09C7\\u09B6"
+msgstr "আদেশ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA\\u0985\\u09AC\\u09C8\\u09A7\\u0985\\u0995\\u09CD\\u09B7\\u09B0\\u09B0\\u09AF\\u09BC\\u09C7\\u099B\\u09C7(\\u0997\\u09C1\\u09B2\\u09BF)"
+msgstr "P.IVA অবৈধ অক্ষর রয়েছে(গুলি)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA\\u09A8\\u09BF\\u09AF\\u09BC\\u09A8\\u09CD\\u09A4\\u09CD\\u09B0\\u09A3\\u0995\\u09CB\\u09A1\\u09AE\\u09C7\\u09B2\\u09C7\\u09A8\\u09BE"
+msgstr "P.IVA নিয়ন্ত্রণ কোড মেলে না"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "পাসওয়ার্ড"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "পাসওয়ার্ড নিশ্চিতকরণ মেলে না"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "পাসওয়ার্ড নিশ্চিতকরণ প্রয়োজন বোধ করা হয়"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "পাসওয়ার্ড যথেষ্ট শক্তিশালী নয়"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "\\u09AB\\u09CB\\u09A8"
+msgstr "ফোন"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "\\u09AB\\u09CB\\u09A8\\u09A8\\u09AE\\u09CD\\u09AC\\u09B0"
+msgstr "ফোন নম্বর"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "\\u09AB\\u09CB\\u09A8\\u09A8\\u09AE\\u09CD\\u09AC\\u09B0\\u09AC\\u09C8\\u09A7\\u09A8\\u09AF\\u09BC"
+msgstr "ফোন নম্বর বৈধ নয়"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "\\u09B8\\u09CD\\u09A5\\u09BE\\u09A8"
+msgstr "স্থান"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "\\u09AA\\u09CD\\u09B0\\u09B8\\u09CD\\u09A4\\u09C1\\u09A4\\u09BF\\u098F\\u0995\\u099F\\u09BF\\u0986\\u09AA\\u09A1\\u09C7\\u099F\\u09A1\\u09BE\\u0989\\u09A8\\u09B2\\u09CB\\u09A1"
+msgstr "প্রস্তুতি একটি আপডেট ডাউনলোড"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "\\u09AA\\u09CD\\u09B0\\u09BF\\u09A8\\u09CD\\u099F\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "প্রিন্ট করুন"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "\\u09AA\\u09CD\\u09B0\\u09BF\\u09A8\\u09CD\\u099F\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995"
+msgstr "প্রিন্ট গ্রাহক"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "\\u09AA\\u09CD\\u09B0\\u09BF\\u09A8\\u09CD\\u099F\\u09B8\\u09C7\\u09AC\\u09BE\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F"
+msgstr "প্রিন্ট সেবা রিপোর্ট"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "\\u09AA\\u09CD\\u09B0\\u09BF\\u09A8\\u09CD\\u099F\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0"
+msgstr "প্রিন্ট ব্যবহারকারী"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "\\u09B8\\u09B0\\u09AC\\u09B0\\u09BE\\u09B9\\u0995\\u09BE\\u09B0\\u09C0"
+msgstr "সরবরাহকারী"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "\\u09A8\\u09BF\\u09AC\\u09A8\\u09CD\\u09A7\\u09A8"
+msgstr "নিবন্ধন"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "আপনার পাসওয়ার্ড রিসেট করুন"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "\\u09AD\\u09C2\\u09AE\\u09BF\\u0995\\u09BE"
+msgstr "ভূমিকা"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u099C\\u09A8\\u09CD\\u09AF\\u09AD\\u09C2\\u09AE\\u09BF\\u0995\\u09BE;\\u09B8\\u09AC\\u09B0\\u09BE\\u099C\\u09CD\\u09AF\\u09C7\\u09B0\\u09AE\\u09BE\\u09A7\\u09CD\\u09AF\\u09AE\\u09C7\\u09B8\\u09CD\\u09B2\\u09BE\\u0987\\u09A1\\u0995\\u09CD\\u09B2\\u09BF\\u0995\\u0995\\u09B0\\u09C1\\u09A8(\\u09B0\\u09C7-\\u003e\\u0986\\u09B0-\\u003e\\u0993\\u09AF\\u09BC\\u09BE\\u099F-\\u003e\\u0995\\u09BF\\u099B\\u09C1\\u0987\\u09A8\\u09AF\\u09BC)"
+msgstr "এই ব্যবহারকারীর জন্য ভূমিকা; সব রাজ্যের মাধ্যমে স্লাইড ক্লিক করুন( রে-\\u003e আর-\\u003e ওয়াট-\\u003e কিছুই নয়)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09AD\\u09C2\\u09AE\\u09BF\\u0995\\u09BE:\\u09B8\\u09AC\\u09C1\\u099C\\u09B0\\u0999\\u09AA\\u09A0\\u09BF\\u09A4\\u0985\\u09A8\\u09C1\\u09AE\\u09A4\\u09BF\\u0987\\u0999\\u09CD\\u0997\\u09BF\\u09A4\\u09B2\\u09BF\\u0996\\u09A4\\u09C7,\\u09B9\\u09B2\\u09C1\\u09A6\\u09AE\\u09BE\\u09A8\\u09C7\\u09B6\\u09C1\\u09A7\\u09C1\\u09AE\\u09BE\\u09A4\\u09CD\\u09B0\\u09AA\\u09A1\\u09BC\\u09BE,\\u09A8\\u09C0\\u09B2\\u09B6\\u09C1\\u09A7\\u09C1\\u09AE\\u09BE\\u09A4\\u09CD\\u09B0\\u09B2\\u09BF\\u0996\\u09C1\\u09A8,\\u098F\\u09AC\\u0982\\u0995\\u09CB\\u09A8\\u0985\\u09A8\\u09C1\\u09AE\\u09A4\\u09BF\\u09B2\\u09BE\\u09B2.\\u09AC\\u09BF\\u09AD\\u09BE\\u0997\\u0997\\u09C1\\u09B2\\u09BF\\u09B9\\u09B2:'\\u0987\\u0989'(\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0),'\\u0997'(\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09A6\\u09C7\\u09B0),'\\u09A3'(\\u0986\\u09A6\\u09C7\\u09B6),\\u098F\\u09B0'(\\u09B8\\u09C7\\u09AC\\u09BE\\u09AA\\u09CD\\u09B0\\u09A4\\u09BF\\u09AC\\u09C7\\u09A6\\u09A8\\u0997\\u09C1\\u09B2\\u09BF)."
+msgstr "ব্যবহারকারী ভূমিকা: সবুজ রঙ পঠিত অনুমতি ইঙ্গিত লিখতে, হলুদ মানে শুধুমাত্র পড়া, নীল শুধুমাত্র লিখুন, এবং কোন অনুমতি লাল. বিভাগগুলি হল:' ইউ'(ব্যবহারকারী),'গ'(গ্রাহকদের),' ণ'(আদেশ), এর'( সেবা প্রতিবেদনগুলি)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "\\u09B8\\u0982\\u09B0\\u0995\\u09CD\\u09B7\\u09A3\\u0995\\u09B0\\u09C1\\u09A8"
+msgstr "সংরক্ষণ করুন"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F"
+msgstr "সেবা রিপোর্ট"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F\\u098F\\u09A8"
+msgstr "সেবা রিপোর্ট এন"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B0\\u09BF\\u09AA\\u09CB\\u09B0\\u09CD\\u099F"
+msgstr "সেবা রিপোর্ট"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "\\u09B8\\u09C7\\u099F\\u0986\\u09AA"
+msgstr "সেটআপ"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "\\u09B0\\u09BE\\u09B8\\u09CD\\u09A4\\u09BE\\u09B0\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE"
+msgstr "রাস্তার ঠিকানা"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "\\u098F\\u0987\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09C7\\u09B0\\u09A8\\u09BE\\u09AE\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0987\\u09A4\\u09BF\\u09AE\\u09A7\\u09CD\\u09AF\\u09C7"
+msgstr "এই গ্রাহকের নাম ব্যবহার ইতিমধ্যে"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "\\u098F\\u0987\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09C7\\u09B0\\u09A8\\u09BE\\u09AE\\u09AC\\u09C8\\u09A7\\u09A8\\u09AF\\u09BC"
+msgstr "এই গ্রাহকের নাম বৈধ নয়"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "\\u098F\\u0987"
+msgstr "এই"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09A8\\u09BE\\u09AA\\u09A1\\u09BC\\u09BE\\u09A8\\u09BE\\u09B2\\u09BF\\u0996\\u09A4\\u09C7\\u09AA\\u09BE\\u09B0\\u09C7\\u09A8"
+msgstr "এই ব্যবহারকারী না পড়া না লিখতে পারেন"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09AA\\u09A1\\u09BC\\u09A4\\u09C7\\u09AA\\u09BE\\u09B0\\u09C7\\u09A8"
+msgstr "এই ব্যবহারকারী পড়তে পারেন"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09AA\\u09A1\\u09BC\\u09A4\\u09C7\\u0993\\u09B2\\u09BF\\u0996\\u09A4\\u09C7\\u09AA\\u09BE\\u09B0\\u09C7\\u09A8"
+msgstr "এই ব্যবহারকারী পড়তে ও লিখতে পারেন"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B2\\u09BF\\u0996\\u09A4\\u09C7\\u09AA\\u09BE\\u09B0\\u09C7\\u09A8"
+msgstr "এই ব্যবহারকারী লিখতে পারেন"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u0985\\u09CD\\u09AF\\u09BE\\u0995\\u09CD\\u09B8\\u09C7\\u09B8\\u0995\\u09B0\\u09A4\\u09C7\\u09AA\\u09BE\\u09B0\\u09C7\\u09A8\\u09BE"
+msgstr "এই ব্যবহারকারী অ্যাক্সেস করতে পারে না"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09A8\\u09BE\\u09AE\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0987\\u09A4\\u09BF\\u09AE\\u09A7\\u09CD\\u09AF\\u09C7"
+msgstr "এই ব্যবহারকারী নাম ব্যবহার ইতিমধ্যে"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "এই ব্যবহারকারী নাম ইতিমধ্যেই নেওয়া হয়"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "\\u098F\\u0987\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09A8\\u09BE\\u09AE\\u09AC\\u09C8\\u09A7\\u09A8\\u09AF\\u09BC"
+msgstr "এই ব্যবহারকারী নাম বৈধ নয়"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "\\u098F\\u0987\\u09AE\\u09BE\\u09A8\\u098F\\u0995\\u099F\\u09BF Codice Fiscale\\u0995\\u09BF\\u0982\\u09AC\\u09BE\\u098F\\u0995\\u099F\\u09BF P.IVA\\u09B9\\u09AF\\u09BC\\u09A8\\u09BE"
+msgstr "এই মান একটি Codice Fiscale কিংবা একটি P.IVA হয় না"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "\\u09B8\\u09C7\\u09AC\\u09BE\\u09B6\\u09C1\\u09B0\\u09C1\\u09B8\\u09AE\\u09AF\\u09BC"
+msgstr "সেবা শুরু সময়"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "\\u099F\\u0997\\u09B2\\u0995\\u09B0\\u09C1\\u09A8\\u09AA\\u09B0\\u09BF\\u09AD\\u09CD\\u09B0\\u09AE\\u09A8"
+msgstr "টগল করুন পরিভ্রমন"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u0987\\u09AE\\u09C7\\u0987\\u09B2\\u09A0\\u09BF\\u0995\\u09BE\\u09A8\\u09BE"
+msgstr "ব্যবহারকারী ইমেইল ঠিকানা"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u09A8\\u09BE\\u09AE"
+msgstr "ব্যবহারকারীর নাম"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "ব্যবহারকারী নাম বৈধ নয়"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u09A8\\u09BE\\u09AE"
+msgstr "ব্যবহারকারীর নাম"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "ব্যবহারকারীর নাম/ ইমেইল"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u09BE"
+msgstr "ব্যবহারকারীরা"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "\\u0986\\u09AA\\u09A8\\u09BF\\u0985\\u09AB\\u09B2\\u09BE\\u0987\\u09A8\\u09C7"
+msgstr "আপনি অফলাইনে"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "\\u0986\\u09AA\\u09A8\\u09BF\\u0985\\u09A8\\u09B2\\u09BE\\u0987\\u09A8"
+msgstr "আপনি অনলাইন"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "আপনার ইমেইল"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "আপনার পাসওয়ার্ড"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "আপনার পাসওয়ার্ড, আবার"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "আপনার ব্যবহারকারী নাম"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "আপনার ব্যবহারকারী নাম বা ইমেল"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "\\u0995\\u09CD\\u09AF\\u09BE\\u09B6\\u09C7"
+msgstr "ক্যাশে"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "\\u09AC\\u09BE\\u09A4\\u09BF\\u09B2"
+msgstr "বাতিল"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "\\u099A\\u09C7\\u0995"
+msgstr "চেক"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "\\u0997\\u09CD\\u09B0\\u09BE\\u09B9\\u0995\\u09A6\\u09C7\\u09B0"
+msgstr "গ্রাহকদের"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "\\u09A1\\u09BE\\u0989\\u09A8\\u09B2\\u09CB\\u09A1"
+msgstr "ডাউনলোড"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "\\u09A4\\u09CD\\u09B0\\u09C1\\u099F\\u09BF"
+msgstr "ত্রুটি"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "\\u09A8\\u09A8\\u09B0\\u09C7\\u099C\\u09BF\\u09B8\\u09CD\\u099F\\u09BE\\u09B0\\u09CD\\u09A1\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09A6\\u09C7\\u09B0\\u099C\\u09A8\\u09CD\\u09AF\\u09B9\\u09CB\\u09AE\\u09AA\\u09C3\\u09B7\\u09CD\\u09A0\\u09BE."
+msgstr "নন রেজিস্টার্ড ব্যবহারকারীদের জন্য হোম পৃষ্ঠা."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "\\u09A8\\u09BF\\u09AC\\u09A8\\u09CD\\u09A7\\u09BF\\u09A4\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09A6\\u09C7\\u09B0\\u099C\\u09A8\\u09CD\\u09AF\\u09B9\\u09CB\\u09AE\\u09AA\\u09C3\\u09B7\\u09CD\\u09A0\\u09BE."
+#, 
+msgid "home page for registered users."
+msgstr "নিবন্ধিত ব্যবহারকারীদের জন্য হোম পৃষ্ঠা."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "\\u0986\\u09B0\\u09AE\\u09CD\\u09AD\\u0995\\u09B0\\u09BE"
+msgstr "আরম্ভ করা"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "(\\u09B8\\u09CD\\u09AE\\u09BE\\u09B0\\u09CD\\u099F)\\u09B6\\u09C1\\u09B0\\u09C1\\u0986\\u09AA\\u0997\\u09C1\\u09B2\\u09BF\\u099C\\u09A8\\u09CD\\u09AF\\u098F\\u0995\\u099F\\u09BF\\u0993\\u09AF\\u09BC\\u09C7\\u09AC\\u0985\\u09CD\\u09AF\\u09BE\\u09AA\\u09CD\\u09B2\\u09BF\\u0995\\u09C7\\u09B6\\u09A8."
+msgstr "(স্মার্ট) শুরু আপগুলি জন্য একটি ওয়েব অ্যাপ্লিকেশন."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "\\u09B2\\u0997\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0"
+msgstr "লগ ব্যবহারকারী"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "\\u0985\\u09AA\\u09CD\\u09B0\\u099A\\u09B2\\u09BF\\u09A4"
+msgstr "অপ্রচলিত"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "\\u0986\\u09A6\\u09C7\\u09B6"
+msgstr "আদেশ"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "\\u0985\\u09A8\\u09CD\\u09AF\\u09A5\\u09BE\\u09AF\\u09BC\\u098F\\u0995\\u099F\\u09BF\\u09A8\\u09A4\\u09C1\\u09A8 Accout\\u09A8\\u09BF\\u09AC\\u09A8\\u09CD\\u09A7\\u09A8\\u0993\\u09B2\\u0997\\u0987\\u09A8\\u0995\\u09B0\\u09C1\\u09A8."
+msgstr "অন্যথায় একটি নতুন Accout নিবন্ধন ও লগ ইন করুন."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "\\u09AA\\u09BE\\u09B8\\u0993\\u09AF\\u09BC\\u09BE\\u09B0\\u09CD\\u09A1:"
+msgstr "পাসওয়ার্ড:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "\\u0985\\u0997\\u09CD\\u09B0\\u0997\\u09A4\\u09BF"
+msgstr "অগ্রগতি"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0\\u09B0\\u09A8\\u09BE\\u09AE:"
+msgstr "ব্যবহারকারীর নাম:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "\\u09AC\\u09CD\\u09AF\\u09AC\\u09B9\\u09BE\\u09B0\\u0995\\u09BE\\u09B0\\u09C0"
+msgstr "ব্যবহারকারী"

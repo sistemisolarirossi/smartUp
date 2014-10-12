@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ha\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ha\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -35,6 +35,10 @@ msgstr "A tsawon dole ne a cikin hanyar' HH' ko' HH: mm', da kuma akalla daya a 
 msgid "A location of service is required"
 msgstr "A wurin da sabis ake bukata"
 
+#: app/views/register.html
+msgid "A password is required"
+msgstr "A kalmar sirri ake bukata"
+
 #: app/views/customers.html
 msgid "A phone number is required"
 msgstr "A lambar waya ake bukata"
@@ -43,7 +47,7 @@ msgstr "A lambar waya ake bukata"
 msgid "A street address is required"
 msgstr "A titi address ake bukata"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "A user name ake bukata"
 
@@ -63,7 +67,7 @@ msgstr "Add new mai amfani"
 msgid "Address"
 msgstr "Address"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
 msgstr "An email address ake bukata"
 
@@ -157,7 +161,7 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ya Æunshi daidai ba hali(s)"
+msgstr "Codice Fiscale ya ƙunshi daidai ba hali(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,9 +175,13 @@ msgstr "Codice Fiscale ko P.IVA na abokin ciniki"
 msgid "Company logo"
 msgstr "Company logo"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Tabbata kalmar shiga"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "HaÉa ta amfani da daya daga your\\\" social\\\" asusun, ko shiga da wadannan takardun shaidarka:"
+msgstr "Haɗa ta amfani da daya daga your\\\" social\\\" asusun, ko shiga da wadannan takardun shaidarka:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -271,7 +279,8 @@ msgstr "Edit sabis rahoton"
 msgid "Edit user"
 msgstr "Edit mai amfani"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
@@ -279,7 +288,7 @@ msgstr "Email"
 msgid "Email address"
 msgstr "Adireshin i-mel"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "Adireshin i-mel ba shi da inganci"
 
@@ -311,6 +320,10 @@ msgstr "Filter users"
 msgid "Home"
 msgstr "Home"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Na manta na kalmar sirri"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Id"
@@ -331,7 +344,7 @@ msgstr "Location"
 msgid "Location of service"
 msgstr "Location of sabis"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Shiga"
 
@@ -397,11 +410,27 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ya Æunshi daidai ba hali(s)"
+msgstr "P.IVA ya ƙunshi daidai ba hali(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
 msgstr "P.IVA iko code bai daidaita"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Password"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Password tabbatarwa ba ta dace"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Password tabbatarwa ake bukata"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Password ba isasshe karfi"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -443,9 +472,13 @@ msgstr "Print mai amfani"
 msgid "Provider"
 msgstr "Provider"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Register"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Sake saita kalmarka ta sirri"
 
 #: app/views/users.html
 msgid "Roles"
@@ -519,6 +552,10 @@ msgstr "Wannan mai amfani iya samun dama"
 msgid "This user name is already in use"
 msgstr "Wannan user name is riga a yi amfani"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Wannan sunan mai amfani An riga an dauki"
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr "Wannan sunan mai amfani ba shi da inganci"
@@ -543,9 +580,17 @@ msgstr "User email address"
 msgid "User name"
 msgstr "Sunan mai amfani"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Sunan mai amfani ba shi da inganci"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Sunan mai amfani"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Sunan mai amfani/ Imel"
 
 #: app/views/nav.html
 msgid "Users"
@@ -558,6 +603,26 @@ msgstr "Kai ne offline"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "Kai ne online"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Adireshin imel"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Kalmarka ta sirri"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Kalmarka ta sirri, kuma"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Your sunan mai amfani"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Your sunan mai amfani ko email"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -588,8 +653,9 @@ msgid "home page for non registered users."
 msgstr "home page ga wadanda ba rajista masu amfani."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "home page for registerd masu amfani."
+#, 
+msgid "home page for registered users."
+msgstr "home page for rajista masu amfani."
 
 #: app/scripts/app.js
 msgid "initializing"

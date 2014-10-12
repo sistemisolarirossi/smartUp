@@ -11,7 +11,7 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
       return gettext(string);
     },
     getSupportedLanguages: function() {
-      return { /* supported Languages */
+      return { /* supported languages: these are main world cultures (those supported by Google *and* Angular) */
         'af': 'Afrikaans',
         'ar': 'Arabic',
         'az': 'Azerbaijani',
@@ -25,6 +25,7 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
         'da': 'Danish',
         'de': 'German',
         'el': 'Greek',
+        'en': 'English',
         'eo': 'Esperanto',
         'es': 'Spanish',
         'et': 'Estonian',
@@ -131,11 +132,14 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
         }
       }
       if (previousLanguage !== this.currentLanguage) {
+        // switch language translation strings
+        gettextCatalog.setCurrentLanguage(this.currentLanguage);
+        gettextCatalog.loadRemote('/i18n/' + this.currentLanguage + '.json');
+
+        // switch locale
         gettextCatalog.debug = CFG.DEBUG;
-        ////gettextCatalog.currentLanguage = this.currentLanguage;
         gettextCatalog.setCurrentLanguage(this.currentLanguage);
         tmhDynamicLocale.set(this.currentLanguage);
-        //$route.reload();
       }
       return this.currentLanguage;
     },
@@ -149,13 +153,15 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
         }
       }
       keys.sort();
-      var nextLanguage;
+      var nextLanguage; // = keys[0]; // the default, in case current language is default la
+//console.info(Object.keys(languages).length);
       for (var i = 0; i < keys.length; i++) {
         if (keys[i] === this.currentLanguage) {
           nextLanguage = keys[++i >= keys.length ? 0 : i];
           break;
         }
       }
+//console.info(this.setCurrentLanguage(nextLanguage));
       return this.setCurrentLanguage(nextLanguage);
     },
   };
@@ -174,43 +180,4 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
   'shortDate': equivalent to 'M/d/yy' for en_US locale (e.g. 9/3/10)
   'mediumTime': equivalent to 'h:mm:ss a' for en_US locale (e.g. 12:05:08 pm)
   'shortTime': equivalent to 'h:mm a' for en_US locale (e.g. 12:05 pm)
-*/
-
-/*
-      / * TODO:
-       *   instead of a static list, try to support all angular supported locales,
-       *   ignoring languages with sub-regions...
-       * /
-      return { / * supported Languages * /
-        en: {
-          name: 'English',
-          flag: 'icons/flags/en.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_en.js',
-        },
-        af: {
-          name: 'Afghan',
-          flag: 'icons/flags/af.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_af.js',
-        },
-        de: {
-          name: 'Deutsch',
-          flag: 'icons/flags/de.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_de.js',
-        },
-        es: {
-          name: 'Español',
-          flag: 'icons/flags/es.png',
-          angularLocaleScript: 'scripts/18n/angular-locale_es.js',
-        },
-        fr: {
-          name: 'Français',
-          flag: 'icons/flags/fr.png',
-          angularLocaleScript: 'scripts/i18n/angular-locale_fr.js',
-        },
-        it: {
-          name: 'Italiano',
-          flag: 'icons/flags/it.png',
-          angularLocaleScript: 'scripts/i18n/angular-locale_it.js',
-        }
-      };
 */

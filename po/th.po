@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: th\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,95 +17,99 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice Fiscale ÃÃÃÃ Ã£ÂªÃ©ÃÃÂ­Â­ÃÂ¨ÃÂµÃ©ÃÂ§"
+msgstr "Codice Fiscale หรือ ใช้สัญญาจะต้อง"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "ÂªÃÃ¨Ã ÃÃÂ¡Â¤Ã©ÃÂ·ÃÃ¨Â¨ÃÃ Â»Ã§Â¹"
+msgstr "ชื่อ ลูกค้าที่จำเป็น"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "ÃÃÂ¹ Â¢ÃÂ§Â¡ÃÃÃ ÃÃÃ¨ÃÂµÃ©Â¹ Ã£ÃÃ©ÂºÃÃÂ¡ÃÃÂ¨ÃÂµÃ©ÃÂ§"
+msgstr "วัน ของการเริ่มต้น ให้บริการจะต้อง"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "ÃÃÃÃÃ ÃÃÃÂ·ÃÃ¨Â¨ÃÂµÃ©ÃÂ§ÃÃÃÃ¨Ã£Â¹ ÃÃÂ»Ã¡ÂºÂº' hh' ÃÃÃÃ' hh: mm', Ã¡ÃÃÃÃÃ¨ÃÂ§Â¹Ã©ÃÃ ÃÂ¹ÃÃ¨Â§Â¹ÃÂ·Ã Â·ÃÃ¨ÃÃÃÂ¹ÃÂ¹"
+msgstr "ระยะเวลาที่จะต้องอยู่ใน รูปแบบ' hh' หรือ' hh: mm', และอย่างน้อย หนึ่งนาที ที่ยาวนาน"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "ÃÂ¶ÃÂ¹Â·ÃÃ¨ÂµÃÃ©Â§ Â¢ÃÂ§Â¡ÃÃÂºÃÃÂ¡ÃÃÂ·ÃÃ¨Â¨ÃÃ Â»Ã§Â¹"
+msgstr "สถานที่ตั้ง ของการบริการที่จำเป็น"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "รหัสผ่านจะต้อง"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "ÃÃÃÃÃ ÃÂ¢Ã¢Â·ÃÃÃÂ¾Â·Ã¬Â·ÃÃ¨Â¨ÃÃ Â»Ã§Â¹"
+msgstr "หมายเลขโทรศัพท์ที่จำเป็น"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨Â¨ÃÂµÃ©ÃÂ§"
+msgstr "ที่อยู่จะต้อง"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "ÂªÃÃ¨ÃÂ¼ÃÃ©Ã£ÂªÃ©Ã¤ÃÃ¨Â¨ÃÃ Â»Ã§Â¹ÂµÃ©ÃÂ§ÃÃ"
+msgstr "ชื่อผู้ใช้ไม่จำเป็นต้องมี"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "Ã Â¡ÃÃ¨ÃÃÂ¡ÃÂº"
+msgstr "เกี่ยวกับ"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Ã Â¾ÃÃ¨Ã ÃÃÂ¡Â¤Ã©ÃÃ£ÃÃÃ¨"
+msgstr "เพิ่ม ลูกค้าใหม่"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Ã Â¾ÃÃ¨Ã Â¼ÃÃ©Ã£ÂªÃ©Ã£ÃÃÃ¨"
+msgstr "เพิ่ม ผู้ใช้ใหม่"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨"
+msgstr "ที่อยู่"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨ÃÃÃ ÃÃ Â·ÃÃ¨Â¶ÃÂ¡ÂµÃ©ÃÂ§"
+msgstr "ที่อยู่อีเมล ที่ถูกต้อง"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Â¼ÃÃ©Â»ÃÃÂ¡ÃÂºÂ¡ÃÃÂ¨ÃÃ Â»Ã§Â¹ÂµÃ©ÃÂ§ÃÃ"
+msgstr "ผู้ประกอบการจำเป็นต้องมี"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Â»ÃÃÂºÂ»ÃÃÂ§Â·ÃÃ¨ÃÃÃÃÃÃ¨: Â¤ÃÂ³ÂµÃ©ÃÂ§Â¡ÃÃÂ·ÃÃ¨Â¨Ã Ã¢ÃÃÂ´ ÂµÃÂ¹Â¹ÃÃ©ÃÃÃÃÃ¤ÃÃ¨"
+msgstr "ปรับปรุงที่มีอยู่: คุณต้องการที่จะ โหลด ตอนนี้หรือไม่"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Â¡ÃÃÂ»ÃÃÂºÂ»ÃÃÂ§Â¾ÃÃ©ÃÃ"
+msgstr "การปรับปรุงพร้อม"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Â¤ÃÂ³Ã¤ÃÃ¨ Ã¤Â´Ã©Â¨ÃÃÂ§Ã¦ÃÃ¨Ã Â¨ÃÃ ÃÃ ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ"
+msgstr "คุณไม่ ได้จริงๆว่า จะเอา รายงาน บริการ"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Â¤ÃÂ³Ã¤ÃÃ¨ Ã¤Â´Ã©Â¨ÃÃÂ§Ã¦ÃÃ¨Ã Â¨ÃÃ ÃÃ Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "คุณไม่ ได้จริงๆว่า จะเอา ผู้ใช้"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "Id Â¡ÃÃÂµÃÃÂ¨ÃÃÂº"
+msgstr "Id การตรวจสอบ"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Id ÃÃÂºÃÃÂ§Â¤ÃÃÃÂ¶ÃÂ¡ÂµÃ©ÃÂ§ Â¢ÃÂ§Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "Id รับรองความถูกต้อง ของผู้ใช้"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Id ÂµÃÃÂ¨ÃÃÂº:"
+msgstr "Id ตรวจสอบ:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "Â¼ÃÃ©Ã£ÃÃ©ÂºÃÃÂ¡ÃÃ Â¡ÃÃÂµÃÃÂ¨ÃÃÂº"
+msgstr "ผู้ให้บริการ การตรวจสอบ"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Â¼ÃÃ©Ã£ÃÃ©ÂºÃÃÂ¡ÃÃ Â¡ÃÃÂµÃÃÂ¨ÃÃÂº ÃÃÃÃÃÂºÂ¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ผู้ให้บริการ การตรวจสอบ สำหรับผู้ใช้"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -113,203 +117,212 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "ÃÃÂ¾ ÃÃÂµÃÃÂ¢ÃÂ§ Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ภาพ อวตารของ ผู้ใช้"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F./ Ã£ÂªÃ©ÃÃÂ­Â­Ã"
+msgstr "C.F./ ใช้สัญญา"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Ã¡Â¤Âª Â¨ÃÂ¶ÃÂ¡ Ã ÃÃÃ¨ÃÂµÃ©Â¹"
+msgstr "แคช จะถูก เริ่มต้น"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Ã¡Â¤Âª ÃÃÃÃ¨Ã£Â¹ÃÃÃÂ¾ Â·ÃÃ¨Ã¤ÃÃ¨ÃÃÃ©Â¨ÃÂ¡"
+msgstr "แคช อยู่ในสภาพ ที่ไม่รู้จัก"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Ã¡Â¤Âª Â¨ÃÃ¤ÃÃ¨Â»ÃÃÂºÂ»ÃÃÂ§(ÃÃÂ¨ Â»ÃÃÂ¡Â¯Ã Â»Ã§Â¹ Ã¤ÃÃ¨ÃÃÃÃÃÂ¶Ã Â¢Ã©ÃÂ¶ÃÂ§)"
+msgstr "แคช จะไม่ปรับปรุง(อาจ ปรากฏเป็น ไม่สามารถเข้าถึง)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Ã¡Â¤Âª Â¨ÃÃ¤ÃÃ¨Â»ÃÃÂºÂ»ÃÃÂ§ Ã Â¾ÃÃÃÂ¤ÃÂ³Ã Â»Ã§Â¹ ÃÃÂ¿Ã¤ÃÂ¹Ã¬"
+msgstr "แคช จะไม่ปรับปรุง เพราะคุณเป็น ออฟไลน์"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Ã¡Â¤Âª Â¨ÃÃÃ©ÃÃÃÃÃ"
+msgstr "แคช จะล้าสมัย"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Ã¡Â¤Âª Ã Â»Ã§Â¹ Â¶ÃÂ§ ÃÃÂ¹Â·ÃÃ¨"
+msgstr "แคช เป็น ถึง วันที่"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "ÃÂ¶ÃÂ¹Ã Ã¡Â¤Âª"
+msgstr "สถานะ แคช"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Â¡ÃÃÂµÃÃÂ¨ÃÃÂº ÃÃÃÃÃÂº Â¡ÃÃÂ»ÃÃÂ¡Â¯ÂµÃÃÂ¢ÃÂ§ Â¡ÃÃÂ»ÃÃÂºÂ»ÃÃÂ§"
+msgstr "การตรวจสอบ สำหรับ การปรากฏตัวของ การปรับปรุง"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale/ Ã£ÂªÃ©ÃÃÂ­Â­Ã"
+msgstr "Codice Fiscale/ ใช้สัญญา"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale Â»ÃÃÂ¡ÃÂºÂ´Ã©ÃÃÃÃÂ¡Â¢ÃÃ Â·ÃÃ¨Ã¤ÃÃ¨Â¶ÃÂ¡ÂµÃ©ÃÂ§(s)"
+msgstr "Codice Fiscale ประกอบด้วยอักขระ ที่ไม่ถูกต้อง(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "ÃÃÃÃÂ¤ÃÂºÂ¤ÃÃ Codice Fiscale Ã¤ÃÃ¨ÂµÃÂ§Â¡ÃÂº"
+msgstr "รหัสควบคุม Codice Fiscale ไม่ตรงกับ"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale ÃÃÃÃ Ã£ÂªÃ©ÃÃÂ­Â­Ã Â¢ÃÂ§ÃÃÂ¡Â¤Ã©Ã"
+msgstr "Codice Fiscale หรือ ใช้สัญญา ของลูกค้า"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Ã¢ÃÃ¢Â¡Ã©Â¢ÃÂ§ ÂºÃÃÃÃÂ·"
+msgstr "โลโก้ของ บริษัท"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "ยืนยันรหัสผ่าน"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Ã ÂªÃÃ¨ÃÃÂµÃ¨ÃÃ¢Â´ÃÃ£ÂªÃ© ÃÂ¹ÃÃ¨Â§Ã£Â¹ ÂºÃÂ­ÂªÃÂ¢ÃÂ§Â¤ÃÂ³\\\" ÃÃÂ§Â¤Ã\\\" ÃÃÃÃÃ Â¢Ã©ÃÃÃÃ¨ÃÃÂºÂº Â·ÃÃ¨ÃÃÃÃÂ·Â¸Ã Ã ÃÃÃ¨ÃÂ¹ÃÃ©:"
+msgstr "เชื่อมต่อโดยใช้ หนึ่งใน บัญชีของคุณ\\\" สังคม\\\" หรือเข้าสู่ระบบ ที่มีสิทธิ เหล่านี้:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Ã ÂªÃÃ¨ÃÃÂµÃ¨ÃÂ¡ÃÂº Facebook"
+msgstr "เชื่อมต่อกับ Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Ã ÂªÃÃ¨ÃÃÂµÃ¨ÃÂ¡ÃÂº Ã¢ÃÂ§Ã¡ÃÃ"
+msgstr "เชื่อมต่อกับ โรงแรม"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Ã ÂªÃÃ¨ÃÃÂµÃ¨ÃÂ¡ÃÂº Â·ÃÃÂµÃ ÂµÃÃÃ¬"
+msgstr "เชื่อมต่อกับ ทวิตเตอร์"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "ÃÃÃÂªÃÃ¨ÃÂ¼ÃÃ©ÂµÃÂ´ÂµÃ¨Ã"
+msgstr "รายชื่อผู้ติดต่อ"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "ÃÃÃÃÂ»ÃÂ¨Â¨ÃÂºÃÂ¹ Ã Â»Ã§Â¹"
+msgstr "ภาษาปัจจุบัน เป็น"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Â¢ÃÂ§ÃÃÂ¡Â¤Ã©Ã"
+msgstr "ของลูกค้า"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "ÂºÃÂµÃ ÃÃÂ¡Â¤Ã©Ã"
+msgstr "บัตร ลูกค้า"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨ ÃÃÃ ÃÃÂ¢ÃÂ§ÃÃÂ¡Â¤Ã©Ã"
+msgstr "ที่อยู่ อีเมลของลูกค้า"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "ÂªÃÃ¨ÃÃÃÂ¡Â¤Ã©Ã"
+msgstr "ชื่อลูกค้า"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "ÃÃÃÃÃ ÃÂ¢Ã¢Â·ÃÃÃÂ¾Â·Ã¬ ÃÃÂ¡Â¤Ã©Ã"
+msgstr "หมายเลขโทรศัพท์ ลูกค้า"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨ Â¢ÃÂ§ÃÃÂ¡Â¤Ã©Ã"
+msgstr "ที่อยู่ ของลูกค้า"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "ÃÃÃÃ Â«Ã§Â¹ Â¢ÃÂ§ÃÃÂ¡Â¤Ã©Ã"
+msgstr "ลายเซ็น ของลูกค้า"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "ÃÃÂ¡Â¤Ã©Ã"
+msgstr "ลูกค้า"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "ÃÃÂ¹Â·ÃÃ¨"
+msgstr "วันที่"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "ÃÃÂ¹Â·ÃÃ¨ Â¢ÃÂ§Â¡ÃÃÃ ÃÃÃ¨ÃÂµÃ©Â¹ Ã£ÃÃ©ÂºÃÃÂ¡ÃÃ"
+msgstr "วันที่ ของการเริ่มต้น ให้บริการ"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "ÃÂº ÃÃÂ¡Â¤Ã©Ã"
+msgstr "ลบ ลูกค้า"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "ÃÂºÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ"
+msgstr "ลบรายงาน บริการ"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "ÃÂºÂ¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ลบผู้ใช้"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Â´ÃÃÂ¹Ã¬Ã¢ÃÃÂ´ Â¡ÃÃÂ»ÃÃÂºÂ»ÃÃÂ§"
+msgstr "ดาวน์โหลด การปรับปรุง"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "ÃÃÃÃÃ ÃÃÃ"
+msgstr "ระยะเวลา"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "ÃÃÃÃÃ ÃÃÃ Ã£Â¹Â¡ÃÃÃ£ÃÃ©ÂºÃÃÂ¡ÃÃ"
+msgstr "ระยะเวลา ในการให้บริการ"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ã¡Â¡Ã©Ã¤Â¢ ÃÃÂ¡Â¤Ã©Ã"
+msgstr "แก้ไข ลูกค้า"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Ã¡Â¡Ã©Ã¤Â¢ ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ"
+msgstr "แก้ไข รายงาน บริการ"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ© Ã¡Â¡Ã©Ã¤Â¢"
+msgstr "ผู้ใช้ แก้ไข"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "ÃÃÃ ÃÃÃ¬"
+msgstr "อีเมล์"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨ÃÃÃ ÃÃÃ¬"
+msgstr "ที่อยู่อีเมล์"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨ÃÃÃ ÃÃ Ã¤ÃÃ¨Â¶ÃÂ¡ÂµÃ©ÃÂ§"
+msgstr "ที่อยู่อีเมล ไม่ถูกต้อง"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨ÃÃÃ ÃÃ Â¢ÃÂ§Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ที่อยู่อีเมล ของผู้ใช้"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "ÃÃÃ ÃÃÃ¬ Â¢ÃÂ§Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "อีเมล์ ของผู้ใช้"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Ã¢Â·ÃÃÃÃ"
+msgstr "โทรสาร"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "ÃÃÂ¡Â¤Ã©Ã Â¡ÃÃÂ§"
+msgstr "ลูกค้า กรอง"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ Â¡ÃÃÂ§"
+msgstr "รายงาน บริการ กรอง"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ© Â¡ÃÃÂ§"
+msgstr "ผู้ใช้ กรอง"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "ÃÂ¹Ã©ÃÃ¡ÃÂ¡"
+msgstr "หน้าแรก"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "ฉันลืมรหัสผ่าน"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,311 +330,363 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Â¨ÃÂªÃ¨ÃÃÃ£ÃÃ© Â¡ÃÃÂºÃÃÃÃÃÂ¨ÃÂ´Â¡ÃÃ ÃÃÂ¡Â¤Ã©ÃÃÃÃ¨Â§Â«ÃÃ©Ã Ã¡ÃÃÃÃÃÂ§ÃÂ¹ Â¡ÃÃÃ£ÃÃ©ÂºÃÃÂ¡ÃÃ"
+msgstr "จะช่วยให้ การบริหารจัดการ ลูกค้าสั่งซื้อ และรายงาน การให้บริการ"
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "ÃÃÂ¹Ã Â»Ã§Â¹ Ã¢ÃÃ Â¾Â¹Â«ÃÃÃ¬Ã ÃÃÃ¨ÃÂ§ÃÃÂ´Ã ÃÃ§ÃÃ¡ÃÃ ÃÃÂ¢Â¹ÃÂ´Â¡ÃÂ·ÃÂ´ÃÃÂ´ Â¢ÃÃÃ ÃÃÂ´ÃÃÃÃ¨Â¹ ÃÃÃÃÃ¨ÃÂ§Â»ÃÃÃ Â·Ã Ã¡ÃÃÃ¢Â·ÃÃÃÂ¾Â·Ã¬ÃÃÃÂ¶ÃÃ"
+msgstr "มันเป็น โอเพนซอร์ส อย่างรวดเร็วและ มีขนาดกะทัดรัด ขยาย ยืดหยุ่น ระหว่างประเทศ และโทรศัพท์มือถือ"
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "ÃÂ¶ÃÂ¹Â·ÃÃ¨ÂµÃÃ©Â§"
+msgstr "สถานที่ตั้ง"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "ÃÂ¶ÃÂ¹Â·ÃÃ¨ÂµÃÃ©Â§Â¢ÃÂ§ ÂºÃÃÂ¡ÃÃ"
+msgstr "สถานที่ตั้งของ บริการ"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "Ã Â¢Ã©ÃÃÃÃ¨ÃÃÂºÂº"
+msgstr "เข้าสู่ระบบ"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "ÃÃÂ¡Â¨ÃÂ¡ÃÃÂºÂº"
+msgstr "ออกจากระบบ"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "ÃÃÂ§Ã¤ÃÃ¨ÃÃÂ¢Ã©ÃÂ¤ÃÃÃ"
+msgstr "ยังไม่มีข้อความ"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "ÂªÃÃ¨Ã"
+msgstr "ชื่อ"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "ÂªÃÃ¨Ã Â¢ÃÂ§Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ชื่อ ของผู้ใช้"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "ÃÃÂ¡Â¤Ã©ÃÃ£ÃÃÃ¨"
+msgstr "ลูกค้าใหม่"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "ÃÃÃÂ§ÃÂ¹Ã£ÃÃÃ¨"
+msgstr "รายงานใหม่"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ©Ã£ÃÃÃ¨"
+msgstr "ผู้ใช้ใหม่"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Â¡ÃÃÂ»ÃÃÂºÂ»ÃÃÂ§ Ã¤ÃÃ¨ Ã Â»Ã§Â¹Â»ÃÂ¨Â¨ÃÂºÃÂ¹"
+msgstr "การปรับปรุง ไม่ เป็นปัจจุบัน"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "ÃÃÃÃÃ ÃÂµÃ"
+msgstr "หมายเหตุ"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Â¨ÃÂ¹ÃÂ¹"
+msgstr "จำนวน"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Â¼ÃÃ©Â»ÃÃÂ¡ÃÂºÂ¡ÃÃ"
+msgstr "ผู้ประกอบการ"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Â¼ÃÃ©Â»ÃÃÂ¡ÃÂºÂ¡ÃÃ Ã£Â¹Â¡ÃÃÃ£ÃÃ©ÂºÃÃÂ¡ÃÃ"
+msgstr "ผู้ประกอบการ ในการให้บริการ"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "ÃÃÃÃ Â«Ã§Â¹ Â¼ÃÃ©Â»ÃÃÂ¡ÃÂºÂ¡ÃÃ"
+msgstr "ลายเซ็น ผู้ประกอบการ"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Â¤ÃÃÃÃ¨Â§Â«ÃÃ©Ã"
+msgstr "คำสั่งซื้อ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
-msgstr "Ã£ÂªÃ©ÃÃÂ­Â­Ã"
+msgstr "ใช้สัญญา"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "Ã£ÂªÃ©ÃÃÂ­Â­Ã Â»ÃÃÂ¡ÃÂºÂ´Ã©ÃÃÃÃÂ¡Â¢ÃÃ Â·ÃÃ¨Ã¤ÃÃ¨Â¶ÃÂ¡ÂµÃ©ÃÂ§(s)"
+msgstr "ใช้สัญญา ประกอบด้วยอักขระ ที่ไม่ถูกต้อง(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "ÃÃÃÃÂ¤ÃÂºÂ¤ÃÃ Ã£ÂªÃ©ÃÃÂ­Â­Ã Ã¤ÃÃ¨ÂµÃÂ§Â¡ÃÂº"
+msgstr "รหัสควบคุม ใช้สัญญา ไม่ตรงกับ"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "ยืนยัน รหัสผ่าน ไม่ตรงกับ"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "ยืนยัน รหัสผ่านจะต้อง"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "รหัสผ่าน ไม่แข็งแรง พอ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "Ã¢Â·ÃÃÃÂ¾Â·Ã¬"
+msgstr "โทรศัพท์"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "ÃÃÃÃÃ ÃÂ¢Ã¢Â·ÃÃÃÂ¾Â·Ã¬"
+msgstr "หมายเลขโทรศัพท์"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "ÃÃÃÃÃ ÃÂ¢Ã¢Â·ÃÃÃÂ¾Â·Ã¬ Ã¤ÃÃ¨Â¶ÃÂ¡ÂµÃ©ÃÂ§"
+msgstr "หมายเลขโทรศัพท์ ไม่ถูกต้อง"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "ÃÂ¶ÃÂ¹Â·ÃÃ¨Â·ÃÃ¨"
+msgstr "สถานที่ที่"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Â¡ÃÃÃ ÂµÃÃÃÃÂ¡ÃÃÂ´ÃÃÂ¹Ã¬Ã¢ÃÃÂ´ Â¡ÃÃÂ»ÃÃÂºÂ»ÃÃÂ§"
+msgstr "การเตรียมการดาวน์โหลด การปรับปรุง"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "Â¾ÃÃÂ¾Ã¬"
+msgstr "พิมพ์"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "ÃÃÂ¡Â¤Ã©Ã Â¾ÃÃÂ¾Ã¬"
+msgstr "ลูกค้า พิมพ์"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ Print"
+msgstr "รายงาน บริการ Print"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ© Â¾ÃÃÂ¾Ã¬"
+msgstr "ผู้ใช้ พิมพ์"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Â¢ÃÂ§Â¼ÃÃ©Ã£ÃÃ©ÂºÃÃÂ¡ÃÃ"
+msgstr "ของผู้ให้บริการ"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "ÃÃÃÂ¤ÃÃÃÃÂªÃÂ¡"
+msgstr "สมัครสมาชิก"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "รีเซ็ต รหัสผ่านของคุณ"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "ÂºÂ·ÂºÃÂ·"
+msgstr "บทบาท"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "ÂºÂ·ÂºÃÂ· ÃÃÃÃÃÂºÂ¼ÃÃ©Ã£ÂªÃ© Â¹ÃÃ© Â¤ÃÃÂ¡Ã Â¾ÃÃ¨Ã Ã ÃÃÃ¨ÃÂ¹Â¼Ã¨ÃÂ¹ Â·ÃÂ¡ÃÃÂ°(RW-\\u003e R-\\u003e W-\\u003e Ã¤ÃÃ¨ÃÃ)"
+msgstr "บทบาท สำหรับผู้ใช้ นี้ คลิกเพื่อ เลื่อนผ่าน ทุกรัฐ(RW-\\u003e R-\\u003e W-\\u003e ไม่มี)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "ÂºÂ·ÂºÃÂ· Â¢ÃÂ§Â¼ÃÃ©Ã£ÂªÃ©: ÃÃ Ã Â¢ÃÃÃ ÃÃÃÃÂ¶ÃÂ§ Â¡ÃÃÃÂ¹ÃÂ­ÃÂµÃ£ÃÃ© ÃÃ¨ÃÂ¹Ã¡ÃÃÃ Â¢ÃÃÂ¹ ÃÃÃÃÂ¶ÃÂ§ ÃÃÃ ÃÃÃÃÂ§ ÃÃ¨ÃÂ¹ÃÃÃ¨ÃÂ§Ã Â´ÃÃÃ ÃÃÂ¿Ã©Ã Ã Â¾ÃÃÂ§ Ã Â¢ÃÃÂ¹Ã¡ÃÃ ÃÃÃ¡Â´Â§ Ã¤ÃÃ¨Ã¤Â´Ã©ÃÃÂºÃÂ¹ÃÂ­ÃÂµ ÃÃ¨ÃÂ¹Â·ÃÃ¨ ÃÃ: u'(Â¼ÃÃ©Ã£ÂªÃ©),' C'( ÃÃÂ¡Â¤Ã©Ã),' o'( Â¤ÃÃÃÃ¨Â§Â«ÃÃ©Ã),' s'( ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃÃ¡ÃÃ©Ã)"
+msgstr "บทบาท ของผู้ใช้: สี เขียว หมายถึง การอนุญาตให้ อ่านและเขียน หมายถึง สีเหลือง อ่านอย่างเดียว สีฟ้า เพียง เขียนและ สีแดง ไม่ได้รับอนุญาต ส่วนที่ มี: u'(ผู้ใช้),' C'( ลูกค้า),' o'( คำสั่งซื้อ),' s'( รายงาน บริการแล้ว)"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "ÂºÃÂ¹Â·ÃÂ¡"
+msgstr "บันทึก"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ"
+msgstr "รายงาน บริการ"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ n"
+msgstr "รายงาน บริการ n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "ÃÃÃÂ§ÃÂ¹ ÂºÃÃÂ¡ÃÃ"
+msgstr "รายงาน บริการ"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Â¡ÃÃÂµÃÂ´ÂµÃÃ©Â§"
+msgstr "การติดตั้ง"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨"
+msgstr "ที่อยู่"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "ÂªÃÃ¨Ã ÃÃÂ¡Â¤Ã©ÃÃÃÃÂ¹ÃÃ© ÃÃÃÃÃÃ¨Ã¡ÃÃ©ÃÃ£Â¹ Â¡ÃÃÃ£ÂªÃ©Â§ÃÂ¹"
+msgstr "ชื่อ ลูกค้ารายนี้ มีอยู่แล้วใน การใช้งาน"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "ÂªÃÃ¨Ã ÃÃÂ¡Â¤Ã©ÃÃÃÃÂ¹ÃÃ© Ã¤ÃÃ¨Â¶ÃÂ¡ÂµÃ©ÃÂ§"
+msgstr "ชื่อ ลูกค้ารายนี้ ไม่ถูกต้อง"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Â¹ÃÃ©Ã Â»Ã§Â¹"
+msgstr "นี้เป็น"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ© Â¹ÃÃ©Â¨Ã Ã¤ÃÃ¨ ÃÃ¨ÃÂ¹ ÃÃÃÃ Ã Â¢ÃÃÂ¹"
+msgstr "ผู้ใช้ นี้จะ ไม่ อ่าน หรือ เขียน"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ© Â¹ÃÃ©ÃÃÃÃÃÂ¶ÃÃ¨ÃÂ¹"
+msgstr "ผู้ใช้ นี้สามารถอ่าน"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ©Â¹ÃÃ© ÃÃÃÃÃÂ¶ÃÃ¨ÃÂ¹Ã¡ÃÃÃ Â¢ÃÃÂ¹"
+msgstr "ผู้ใช้นี้ สามารถอ่านและเขียน"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ©Â¹ÃÃ© ÃÃÃÃÃÂ¶Ã Â¢ÃÃÂ¹"
+msgstr "ผู้ใช้นี้ สามารถเขียน"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ©Â¹ÃÃ© Ã¤ÃÃ¨ÃÃÃÃÃÂ¶Ã Â¢Ã©ÃÂ¶ÃÂ§"
+msgstr "ผู้ใช้นี้ ไม่สามารถเข้าถึง"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "ÂªÃÃ¨ÃÂ¼ÃÃ©Ã£ÂªÃ© Â¹ÃÃ©ÃÃÃÃÃÃ¨Ã¡ÃÃ©Ã Ã£Â¹Â¡ÃÃÃ£ÂªÃ©Â§ÃÂ¹"
+msgstr "ชื่อผู้ใช้ นี้มีอยู่แล้ว ในการใช้งาน"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "ชื่อผู้ใช้นี้ ถูกใช้ไปแล้ว"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "ÂªÃÃ¨ÃÂ¼ÃÃ©Ã£ÂªÃ©Â¹ÃÃ© Ã¤ÃÃ¨Â¶ÃÂ¡ÂµÃ©ÃÂ§"
+msgstr "ชื่อผู้ใช้นี้ ไม่ถูกต้อง"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Â¤Ã¨ÃÂ¹ÃÃ©Ã Â»Ã§Â¹ ÃÃÃÃCodice Fiscale ÃÃÃÃ Ã£ÂªÃ©ÃÃÂ­Â­Ã"
+msgstr "ค่านี้เป็น หรือCodice Fiscale หรือ ใช้สัญญา"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Ã ÃÃÃ Â¢ÃÂ§Â¡ÃÃÃ ÃÃÃ¨ÃÂµÃ©Â¹ Ã£ÃÃ©ÂºÃÃÂ¡ÃÃ"
+msgstr "เวลา ของการเริ่มต้น ให้บริการ"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Â¹ÃÂ·ÃÂ§ Ã¡ÂºÂºÂ¡Ã©ÃÂ¹ÃÃÃ"
+msgstr "นำทาง แบบก้านยาว"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Â·ÃÃ¨ÃÃÃÃ¨ ÃÃÃ ÃÃÂ¢ÃÂ§Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ที่อยู่ อีเมลของผู้ใช้"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "ÂªÃÃ¨ÃÂ¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ชื่อผู้ใช้"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "ชื่อผู้ใช้ ไม่ถูกต้อง"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "ÂªÃÃ¨ÃÂ¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ชื่อผู้ใช้"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "ชื่อ/ อีเมล์"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ผู้ใช้"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Â¤ÃÂ³ÃÃÂ¿Ã¤ÃÂ¹Ã¬"
+msgstr "คุณออฟไลน์"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Â¤ÃÂ³ÃÃÂ¹Ã¤ÃÂ¹Ã¬"
+msgstr "คุณออนไลน์"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "อีเมลของคุณ"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "รหัสผ่านของคุณ"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "รหัสผ่านของคุณ อีกครั้ง"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "ชื่อ ผู้ใช้ของคุณ"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "ชื่อผู้ใช้หรือ อีเมล์ของคุณ"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "Â·ÃÃ¨Ã Â¡Ã§ÂºÃ¤ÃÃ©"
+msgstr "ที่เก็บไว้"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "Ã¢Â¡Ã ÃÃÂ¡"
+msgstr "ยกเลิก"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "Â¡ÃÃÂµÃÃÂ¨ÃÃÂº"
+msgstr "การตรวจสอบ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Ã¥ÃÂ¡Â¤Ã©Ã"
+msgstr "ลูกค้า"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Â´ÃÃÂ¹Ã¬Ã¢ÃÃÂ´"
+msgstr "ดาวน์โหลด"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Â¢Ã©ÃÂ¼ÃÂ´Â¾ÃÃÂ´"
+msgstr "ข้อผิดพลาด"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Ã«Â¹Ã©ÃÃ¡ÃÂ¡ ÃÃÃÃÃÂºÂ¼ÃÃ©Ã£ÂªÃ© Â·ÃÃ¨ÃÂ§Â·ÃÃ ÂºÃÃÂ¹ Ã¤ÃÃ¨Ã¤Â´Ã©"
+msgstr "หน้าแรก สำหรับผู้ใช้ ที่ลงทะเบียน ไม่ได้"
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "Ã«Â¹Ã©ÃÃ¡ÃÂ¡ ÃÃÃÃÃÂºÂ¼ÃÃ©Ã£ÂªÃ© registerd"
+msgid "home page for registered users."
+msgstr "หน้าแรก สำหรับ สมาชิกที่ลงทะเบียน"
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Â¡ÃÃÃ ÃÃÃ¨ÃÂµÃ©Â¹"
+msgstr "การเริ่มต้น"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "Ã Â»Ã§Â¹Ã¢Â»ÃÃ¡Â¡ÃÃÃ ÃÃ§Âº ÃÃÃÃÃÂº( ÃÃÃÃ¬Â·) Ã ÃÃÃ¨ÃÃÃÂ¾"
+msgstr "เป็นโปรแกรมเว็บ สำหรับ( มาร์ท) เริ่มอัพ"
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Ã£ÂªÃ© ÂºÃÂ¹Â·ÃÂ¡Â¡ÃÃÃ Â¢Ã©Ã"
+msgstr "ใช้ บันทึกการเข้า"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "Ã¥Ã©ÃÃÃÃÃ"
+msgstr "ล้าสมัย"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Â¤ÃÃÃÃ¨Â§Â«ÃÃ©Ã"
+msgstr "คำสั่งซื้อ"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "Ã­ÃÃ¨ÃÂ§ÃÃÃ¨Â¹ ÃÂ§Â·ÃÃ ÂºÃÃÂ¹ÂºÃÂ­ÂªÃÂ¼ÃÃ© Ã£ÃÃÃ¨ Ã¡ÃÃÃ Â¢Ã©ÃÃÃÃ¨ÃÃÂºÂº"
+msgstr "อย่างอื่น ลงทะเบียนบัญชีผู้ ใหม่ และเข้าสู่ระบบ"
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Ã£ÃÃÃÂ¼Ã¨ÃÂ¹:"
+msgstr "รหัสผ่าน:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Â¤ÃÃÃÂ¤ÃÂºÃÂ¹Ã©Ã"
+msgstr "ความคืบหน้า"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +698,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "ÂªÃÃ¨ÃÂ¼ÃÃ©Ã£ÂªÃ©:"
+msgstr "ชื่อผู้ใช้:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Â¼ÃÃ©Ã£ÂªÃ©"
+msgstr "ผู้ใช้"

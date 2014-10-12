@@ -1,119 +1,123 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: defaultAppName\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "i HHFMM j"
+msgstr "（ HH：MM ）"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice FiscaleÜ½ÍP.IVAªKvÅ·"
+msgstr "Codice FiscaleまたはP.IVAが必要です"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Úq¼ªKvÅ·"
+msgstr "顧客名が必要です"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "T[rXJnúªKvÆÈèÜ·"
+msgstr "サービス開始日が必要となります"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "úÔÍu HH v`ÔÅ Á½èµÈ¯êÎÈçÈ¢' HHFMM'ÆA­È­Æà1ª·¢"
+msgstr "期間は「 HH 」形態であったりしなければならない' HH：MM'と、少なくとも1分長い"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "T[rXÌêªKvÅ·"
+msgstr "サービスの場所が必要です"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "パスワードが必要です"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "dbÔªKvÆ³êé"
+msgstr "電話番号が必要とされる"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "ZªKvÅ·"
+msgstr "住所が必要です"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "[U¼ªv³êé"
+msgstr "ユーザ名が要求される"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "ñ"
+msgstr "約"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Vµ¢ÚqðÇÁ"
+msgstr "新しい顧客を追加"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Vµ¢[U[ðÇÁµÜ·B"
+msgstr "新しいユーザーを追加します。"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "AhX"
+msgstr "アドレス"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "dq[AhXªKvÅ·"
+msgstr "電子メールアドレスが必要です"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Iy[^ªKvÅ·"
+msgstr "オペレータが必要です"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Abvf[gªüèÂ\\Å·F È½Í¡A»êð[hµ½¢ÌÅ·©H"
+msgstr "アップデートが入手可能です：あなたは今、それをロードしたいのですか？"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Abvf[gÍõªÅ«Ä¢é"
+msgstr "アップデートは準備ができている"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr " È½ÍAT[rX|[gðíµÄ{Éæëµ¢Å·"
+msgstr "あなたは、サービスレポートを削除して本当によろしいです"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr " È½ÍA[U[ðí·é±ÆÍ{Éæëµ¢Å·"
+msgstr "あなたは、ユーザーを削除することは本当によろしいです"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "FØID"
+msgstr "認証ID"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "[U[ÌFØID"
+msgstr "ユーザーの認証ID"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "FØID F"
+msgstr "認証ID ："
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "FØvoC_"
+msgstr "認証プロバイダ"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "[UÉÎ·éFØvoC_"
+msgstr "ユーザに対する認証プロバイダ"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Ao^["
+msgstr "アバター"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "[U[ÌAo^[æ"
+msgstr "ユーザーのアバター画像"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "LbVªú»³êÄ¢é"
+msgstr "キャッシュが初期化されている"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "LbVª¢mÌóÔÉ é"
+msgstr "キャッシュが未知の状態にある"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "LbVªXV³êÜ¹ñi½Ôñ}jtFXgÉBÅ«È¢j"
+msgstr "キャッシュが更新されません（たぶんマニフェストに到達できない）"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr " È½ªItCÅ é½ßALbVÍXV³êÜ¹ñ"
+msgstr "あなたがオフラインであるため、キャッシュは更新されません"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "LbVªp~³êÜµ½"
+msgstr "キャッシュが廃止されました"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "LbVª éAÅVÌ"
+msgstr "キャッシュがある、最新の"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "LbVóÔÅ é"
+msgstr "キャッシュ状態である"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Abvf[gÌL³ð`FbN·é"
+msgstr "アップデートの有無をチェックする"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,187 +161,196 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice FiscaleÍ³øÈ¶ªÜÜêÄ¢éi¡Ìj"
+msgstr "Codice Fiscaleは無効な文字が含まれている（複数の）"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale§äR[hªêvµÜ¹ñ"
+msgstr "Codice Fiscale制御コードが一致しません"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice FiscaleâÚqÌP.IVA"
+msgstr "Codice Fiscaleや顧客のP.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "ïÐS"
+msgstr "会社ロゴ"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "パスワードの確認"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr " È½ÌuÐïvÌ¢¸ê©ÌAJEgðgpµÄÚ±·é©AÜ½Í±êçÌiîñðgÁÄOCF"
+msgstr "あなたの「社会」のいずれかのアカウントを使用して接続するか、またはこれらの資格情報を使ってログイン："
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "FacebookÆÚ±µÜ·"
+msgstr "Facebookと接続します"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Google+ÌÆÂÈªé"
+msgstr "Google+のとつながる"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "cCb^[ÆÂÈªé"
+msgstr "ツイッターとつながる"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "R^Ng"
+msgstr "コンタクト"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "»ÝÌ¾êÅ é"
+msgstr "現在の言語である"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Úq"
+msgstr "顧客"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "ÚqJ[h"
+msgstr "顧客カード"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "¨qlÌE[AhX"
+msgstr "お客様のEメールアドレス"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "¨qlÌ¼O"
+msgstr "お客様の名前"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "ÚqÌdbÔ"
+msgstr "顧客の電話番号"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "ÚqÌZ"
+msgstr "顧客の住所"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "ÚqÌ¼"
+msgstr "顧客の署名"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "¨ql"
+msgstr "お客様"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "út"
+msgstr "日付"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "T[rXJnú"
+msgstr "サービス開始日"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Úqðí·é"
+msgstr "顧客を削除する"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "T[rX|[gÌí"
+msgstr "サービスレポートの削除"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "[U[Ìí"
+msgstr "ユーザーの削除"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Abvf[gÌ_E[h"
+msgstr "アップデートのダウンロード"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "f[V"
+msgstr "デュレーション"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "T[rXÌúÔ"
+msgstr "サービスの期間"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "ÒWÚq"
+msgstr "編集顧客"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "ÒWT[rX|[g"
+msgstr "編集サービスレポート"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "ÒWÒ"
+msgstr "編集者"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "E["
+msgstr "Eメール"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "dq[AhX"
+msgstr "電子メールアドレス"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "dq[AhXªLøÅÍ èÜ¹ñ"
+msgstr "電子メールアドレスが有効ではありません"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "[U[Ìdq[AhX"
+msgstr "ユーザーの電子メールアドレス"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "pÒÌE["
+msgstr "利用者のEメール"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "t@bNX"
+msgstr "ファックス"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "tB^[Ì¨ql"
+msgstr "フィルターのお客様"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "tB^T[rX|[g"
+msgstr "フィルタサービスレポート"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "tB^[Ì[U["
+msgstr "フィルターのユーザー"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "z["
+msgstr "ホーム"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "私は自分のパスワードを忘れてしまった"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "Ch"
+msgstr "イド"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "±êÍAÚqA¶âT[rX|[gÌÇðÂ\\É·éB"
+msgstr "これは、顧客、注文やサービスレポートの管理を可能にする。"
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "»êÍAI[v\\[XÌA¬ARpNgAg£Â\\ÈAeÍ«Ì éAÛI¨æÑoCÅ·B"
+msgstr "それは、オープンソースの、高速、コンパクト、拡張可能な、弾力性のある、国際的およびモバイルです。"
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "ê"
+msgstr "場所"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "T[rXÌê"
+msgstr "サービスの場所"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "OC"
+msgstr "ログイン"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "OAEg"
+msgstr "ログアウト"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -345,51 +358,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "¼O"
+msgstr "名前"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "[U[Ì¼O"
+msgstr "ユーザーの名前"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Vµ¢Úq"
+msgstr "新しい顧客"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "ÅVÌñ"
+msgstr "最新の報告"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "VK[U["
+msgstr "新規ユーザー"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "XVÍ¶ÝµÈ¢"
+msgstr "更新は存在しない"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "m[g"
+msgstr "ノート"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Ô"
+msgstr "番号"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Iy[^"
+msgstr "オペレータ"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "T[rXÌIy[^"
+msgstr "サービスのオペレータ"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Iy[^Ì¼"
+msgstr "オペレータの署名"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "I[_["
+msgstr "オーダー"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVAÍ³øÈ¶ªÜÜêÄ¢Ü·i¡Âj"
+msgstr "P.IVAは​​無効な文字が含まれています（複数可）"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA§äR[hªêvµÜ¹ñ"
+msgstr "P.IVA制御コードが一致しません"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "パスワード"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "パスワードの確認が一致しません"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "パスワードの確認が必要です"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "パスワードが十分に強力ではありません"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "db"
+msgstr "電話"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "dbÔ"
+msgstr "電話番号"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "dbÔªLøÅÍ èÜ¹ñ"
+msgstr "電話番号が有効ではありません"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "ê"
+msgstr "場所"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "õAbvf[gð_E[h"
+msgstr "準備アップデートをダウンロード"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "óü"
+msgstr "印刷"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "óüÚq"
+msgstr "印刷顧客"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "vgT[rX|[g"
+msgstr "プリントサービスレポート"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "vg[U["
+msgstr "プリントユーザー"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "voC_["
+msgstr "プロバイダー"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "o^"
+msgstr "登録"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "あなたのパスワードをリセットしてください"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "ð"
+msgstr "役割"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "±Ì[U[Ìð;·×ÄÌBðÊÁÄXCh·éæ¤ÉNbNµÄi RW-\\u003e R-\\u003e W-\\u003eÈµj"
+msgstr "このユーザーの役割;すべての州を通ってスライドするようにクリックして（ RW-\\u003e R-\\u003e W-\\u003eなし）"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "[U[ÌðFÎFÍAÇÝæèÂð¦µA«ÝA©FÌèiÍÇÝæèêpAÂÌÝA«ÝA¨æÑ³ÂÔ¢BZNVÍÌÆ¨èÅ·B'U' i[Uj A'C' iÚqj A'O' iI[_[j A'S' iT[rX|[gj B"
+msgstr "ユーザーの役割：緑色は、読み取り許可を示し、書き込み、黄色の手段は読み取り専用、青のみ、書き込み、および無許可赤い。セクションは次のとおりです。'U' （ユーザ） 、'C' （顧客） 、'O' （オーダー） 、'S' （サービスレポート） 。"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "Û¶"
+msgstr "保存"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "T[rX|[g"
+msgstr "サービスレポート"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "T[rX|[gÌn"
+msgstr "サービスレポートのn"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "T[rX|[g"
+msgstr "サービスレポート"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "ZbgAbv"
+msgstr "セットアップ"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "ÝnZ"
+msgstr "所在地住所"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "±ÌÚqÌ¼OÍùÉgp³êÄ¢Ü·"
+msgstr "この顧客の名前は既に使用されています"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "±ÌÚqÌ¼OÍLøÅÍ èÜ¹ñ"
+msgstr "この顧客の名前は有効ではありません"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "±êÍ"
+msgstr "これは"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "±Ì[U[ÍAàÇÞ±Æà­±ÆªÅ«Ü·"
+msgstr "このユーザーは、も読むことも書くことができます"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "±Ì[U[ÍAÇÞ±ÆªÅ«Ü·"
+msgstr "このユーザーは、読むことができます"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "±Ì[U[ÍAÇÝ«Å«é"
+msgstr "このユーザーは、読み書きできる"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "±Ì[U[ÍA­±ÆªÅ«Ü·"
+msgstr "このユーザーは、書くことができます"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "±Ì[U[ÍAANZX·é±ÆÍÅ«Ü¹ñ"
+msgstr "このユーザーは、アクセスすることはできません"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "±Ì[U[¼ÍùÉgp³êÄ¢Ü·"
+msgstr "このユーザー名は既に使用されています"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "このユーザー名はすでに使用されている"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "±Ì[U[¼ÍLøÅÍ èÜ¹ñ"
+msgstr "このユーザー名は有効ではありません"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "±ÌlÍA Codice FiscaleàP.IVAÅàA"
+msgstr "この値は、 Codice FiscaleもP.IVAでも、"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "T[rXJn"
+msgstr "サービス開始時"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "gOirQ[V"
+msgstr "トグルナビゲーション"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "[U[Ì[AhX"
+msgstr "ユーザーのメールアドレス"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "[U[¼"
+msgstr "ユーザー名"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "ユーザー名は有効ではありません"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "[U[¼"
+msgstr "ユーザー名"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "ユーザー名/ Eメール"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "[U["
+msgstr "ユーザー"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr " È½ªItCÉÈÁÄ¢é"
+msgstr "あなたがオフラインになっている"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr " È½ÍICÅ·©"
+msgstr "あなたはオンラインですか"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "あなたのメールアドレス"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "あなたのパスワード"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "あなたのパスワード、再び"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "ユーザー名"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "ユーザー名または電子メール"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "LbV³ê½"
+msgstr "キャッシュされた"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "LZ"
+msgstr "キャンセル"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "_"
+msgstr "点検"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Úq"
+msgstr "顧客"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "_E[h"
+msgstr "ダウンロード"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "G["
+msgstr "エラー"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "ño^[U[Ìz[\\u00B7y[WB"
+msgstr "非登録ユーザーのホーム·ページ。"
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "Öo^[UÌ½ßÌz[y[WÅ·B"
+#, 
+msgid "home page for registered users."
+msgstr "登録ユーザーのためのホームページです。"
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "ú»"
+msgstr "初期化"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "iX}[gjV»éÆÌ½ßÌWebAvP[VÅ·B"
+msgstr "（スマート）新興企業のためのWebアプリケーションです。"
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "OCµÄ¢é[U["
+msgstr "ログインしているユーザー"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "p~³ê½"
+msgstr "廃止された"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "ó"
+msgstr "受注"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "»¤ÅÈ¯êÎVµ¢accoutðo^µAOCµÜ·B"
+msgstr "そうでなければ新しいaccoutを登録し、ログインします。"
 
 #: app/views/home.html
 msgid "password:"
-msgstr "pX[hF"
+msgstr "パスワード："
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "i»"
+msgstr "進捗"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "[U¼F"
+msgstr "ユーザ名："
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "[U[ª"
+msgstr "ユーザーが"

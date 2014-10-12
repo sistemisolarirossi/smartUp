@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -35,6 +35,10 @@ msgstr "Una durada ha de tenir la forma' hh' o' hh: mm', i almenys un minut de d
 msgid "A location of service is required"
 msgstr "Es requereix una ubicació de servei"
 
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Es requereix una clau"
+
 #: app/views/customers.html
 msgid "A phone number is required"
 msgstr "Es requereix un número de telèfon"
@@ -43,7 +47,7 @@ msgstr "Es requereix un número de telèfon"
 msgid "A street address is required"
 msgstr "Es requereix una adreça de carrer"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "Es requereix un nom d'usuari"
 
@@ -63,7 +67,7 @@ msgstr "Afegeix un nou usuari"
 msgid "Address"
 msgstr "Direcció"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
 msgstr "Es requereix una adreça de correu electrònic"
 
@@ -171,6 +175,10 @@ msgstr "Codi fiscal o P.IVA del client"
 msgid "Company logo"
 msgstr "Logotip de l'empresa"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Confirmar contrasenya"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
 msgstr "Connectar mitjançant una de les seves comptes\\\" socials\\\", o connectar-se amb aquestes credencials:"
@@ -271,7 +279,8 @@ msgstr "Edita informe de servei"
 msgid "Edit user"
 msgstr "Edita usuari"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
@@ -279,7 +288,7 @@ msgstr "Email"
 msgid "Email address"
 msgstr "Adreça de correu electrònic"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "Adreça de correu electrònic no és vàlida"
 
@@ -311,6 +320,10 @@ msgstr "Usuaris filtre"
 msgid "Home"
 msgstr "Inici"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "He oblidat la contrasenya"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Aneu"
@@ -331,7 +344,7 @@ msgstr "Ubicació"
 msgid "Location of service"
 msgstr "Ubicació del servei"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Inicia sessió"
 
@@ -403,6 +416,22 @@ msgstr "P.IVA conté caràcters no vàlids( s)"
 msgid "P.IVA control code doesn't match"
 msgstr "Codi de control P.IVA no coincideix"
 
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Contrasenya"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Confirmació de la contrasenya no coincideix"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Es requereix confirmació de contrasenya"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "La contrasenya no és prou forta"
+
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
 msgstr "Telèfon"
@@ -443,9 +472,13 @@ msgstr "Usuari Imprimir"
 msgid "Provider"
 msgstr "Proveïdor"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Registre"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Restablir la contrasenya"
 
 #: app/views/users.html
 msgid "Roles"
@@ -519,6 +552,10 @@ msgstr "Aquest usuari no té accés"
 msgid "This user name is already in use"
 msgstr "Aquest nom d'usuari ja està en ús"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Aquest nom d'usuari ja està en ús"
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr "Aquest nom d'usuari no és vàlida"
@@ -543,9 +580,17 @@ msgstr "Adreça de correu electrònic de l'usuari"
 msgid "User name"
 msgstr "Nom d'usuari"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Nom d'usuari no és vàlid"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Nom d'usuari"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Usuari/ email"
 
 #: app/views/nav.html
 msgid "Users"
@@ -558,6 +603,26 @@ msgstr "Vostè està fora de línia"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "Vostè està en línia"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "El seu correu electrònic"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "La vostra contrasenya"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "La vostra contrasenya de nou"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "El seu nom d'usuari"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "El seu nom d'usuari o correu electrònic"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -588,8 +653,9 @@ msgid "home page for non registered users."
 msgstr "pàgina d'inici per usuaris no registrats."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "pàgina d'inici per als usuaris Registerd."
+#, 
+msgid "home page for registered users."
+msgstr "pàgina d'inici per als usuaris registrats."
 
 #: app/scripts/app.js
 msgid "initializing"

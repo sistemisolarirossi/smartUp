@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,103 +17,107 @@ msgstr "( HH: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice Fiscale Â¶ÃÂ´Ã P.IVA ÃÃ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "Codice Fiscale 또는 P.IVA 이 필요합니다"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Â°Ã­Â°Â´ÃÃ ÃÃÂ¸Â§ÃÃ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "고객의 이름이 필요합니다"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Â¼Â­ÂºÃ±Â½Âº Â½ÃÃÃ ÃÃ Â³Â¯ÃÂ¥ Â°Â¡ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "서비스 시작 의 날짜 가 필요합니다"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "ÃÃ§Â»Ã½ Â½ÃÂ°Â£ ÃÂº' HH'ÃÃ¼ÃÃ ÃÃ Â¼Ã¶ Â°ÃÂ³Âª ÃÃÂ¾Ã' HH: mm', 1 ÂºÃ ÃÃÂ»Ã³ Â±Ã¤"
+msgstr "재생 시간 은' HH'형태 일 수 거나 해야' HH: mm', 1 분 이상 긴"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Â¼Â­ÂºÃ±Â½Âº ÃÃÃÂ§ÃÂ¡ Â°Â¡ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "서비스 의위치 가 필요합니다"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "암호 가 필요합니다"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "ÃÃ¼ÃÂ­ Â¹Ã¸ÃÂ£ Â°Â¡ ÃÃÂ¿Ã¤"
+msgstr "전화 번호 가 필요"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Â°ÃÂ¸Â® ÃÃÂ¼Ã Â°Â¡ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "거리 주소 가 필요합니다"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Â»Ã§Â¿Ã«ÃÃ ÃÃÂ¸Â§ÃÃ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "사용자 이름이 필요합니다"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "Â¼ÃÂ°Â³"
+msgstr "소개"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Â»ÃµÂ·ÃÂ¿Ã® Â°Ã­Â°Â´ ÃÂ» ÃÃÂ°Â¡"
+msgstr "새로운 고객 을 추가"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Â»Ãµ Â»Ã§Â¿Ã«ÃÃ ÃÃÂ°Â¡"
+msgstr "새 사용자 추가"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "ÃÃÂ¼Ã"
+msgstr "주소"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "ÃÃÂ¸ÃÃÃ ÃÃÂ¼Ã Â°Â¡ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "이메일 주소 가 필요합니다"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Â¿Ã®Â¿ÂµÃÃ Â°Â¡ ÃÃÂ¿Ã¤ÃÃÂ´ÃÂ´Ã"
+msgstr "운영자 가 필요합니다"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Â¾Ã·ÂµÂ¥ÃÃÃÂ®Â¸Â¦ Â»Ã§Â¿Ã«ÃÃ Â¼Ã¶ ÃÃÂ½ÃÂ´ÃÂ´Ã: Â´Ã§Â½ÃÃÃ ÃÃ¶Â±Ã Â±ÃÂ°ÃÃÂ» Â·ÃÂµÃ¥ ÃÃ Â¼Ã¶ ÃÃÂ½ÃÂ´ÃÂ±Ã®?"
+msgstr "업데이트를 사용할 수 있습니다: 당신이 지금 그것을 로드 할 수 있습니까?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Â¾Ã·ÂµÂ¥ÃÃÃÂ® ÃÃÂºÃ±"
+msgstr "업데이트 준비"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Â´Ã§Â½ÃÃÂº Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­Â¸Â¦ ÃÂ¦Â°Ã ÃÂ¤Â¸Â» ÃÂ®Â½Ã"
+msgstr "당신은 서비스 보고서를 제거 정말 확실"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Â´Ã§Â½ÃÃÂº Â»Ã§Â¿Ã«ÃÃÂ¸Â¦ ÃÂ¦Â°Ã ÃÃÂ±Ã¢ ÃÂ¤Â¸Â» ÃÂ®Â½Ã"
+msgstr "당신은 사용자를 제거 하기 정말 확실"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "ÃÃÃÃµ ID"
+msgstr "인증 ID"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Â»Ã§Â¿Ã«ÃÃÃÃ ÃÃÃÃµ ID"
+msgstr "사용자의 인증 ID"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "ÃÃÃÃµ ID:"
+msgstr "인증 ID:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "ÃÃÃÃµ ÃÂ¦Â°Ã¸"
+msgstr "인증 제공"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Â»Ã§Â¿Ã«ÃÃÂ¿Â¡ Â´Ã«ÃÃ ÃÃÃÃµ ÃÂ¦Â°Ã¸ÃÃ"
+msgstr "사용자에 대한 인증 제공자"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Â¾ÃÂ¹ÃÃÂ¸"
+msgstr "아바타"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Â»Ã§Â¿Ã«ÃÃÃÃ Â¾ÃÂ¹ÃÃÂ¸ ÃÃÂ¹ÃÃÃ¶"
+msgstr "사용자의 아바타 이미지"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "ÃÂ³Â½Ã ÃÃÂ±Ã¢ÃÂ­ÂµÃÂ°Ã­"
+msgstr "캐시 초기화되고"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "ÃÂ³Â½Ã Â´Ã Â¾Ã Â¼Ã¶Â¾Ã¸Â´Ã Â»Ã³ÃÃÂ¿Â¡"
+msgstr "캐시 는 알 수없는 상태에"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "ÃÂ³Â½Ã Â°Â¡ Â°Â»Â½ÃÂµÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã( Â¾ÃÂ¸Â¶ Â¸ÃÂ´ÃÃÃ¤Â½ÂºÃÂ® Â¿Â¡ ÃÂ¢Â±Ã ÃÃ Â¼Ã¶Â¾Ã¸Â´Ã)"
+msgstr "캐시 가 갱신되지 않습니다( 아마 매니페스트 에 접근 할 수없는)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Â¿ÃÃÃÂ¶Ã³ÃÃ Â¶Â§Â¹Â®Â¿Â¡ ÃÂ³Â½Ã Â°Â¡ Â¾Ã·ÂµÂ¥ÃÃÃÂ®ÂµÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "오프라인 때문에 캐시 가 업데이트되지 않습니다"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "ÃÂ³Â½Ã Â´Ã Â»Ã§Â¿Ã«ÂµÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "캐시 는 사용되지 않습니다"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "ÃÂ³Â½Ã Â´Ã ÃÃÂ½Ã"
+msgstr "캐시 는 최신"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "ÃÂ³Â½Ã Â»Ã³ÃÃ Â´Ã"
+msgstr "캐시 상태 는"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Â¾Ã·ÂµÂ¥ÃÃÃÂ®Â°Â¡ ÃÃÂ´ÃÃÃ¶ ÃÂ¡Â°Ã"
+msgstr "업데이트가 있는지 점검"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,187 +161,196 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ÃÃ Â¾Ã¸Â´Ã Â¹Â®ÃÃÂ°Â¡ ÂµÃ©Â¾Ã® ÃÃÂ½ÃÂ´ÃÂ´Ã(ÂµÃ©)"
+msgstr "Codice Fiscale 이 없는 문자가 들어 있습니다(들)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale ÃÂ¦Â¾Ã® ÃÃÂµÃ¥ Â°Â¡ ÃÃÃÂ¡ÃÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "Codice Fiscale 제어 코드 가 일치하지 않습니다"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale Â¶ÃÂ´Ã Â°Ã­Â°Â´ ÃÃ P.IVA"
+msgstr "Codice Fiscale 또는 고객 의 P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "ÃÂ¸Â»Ã§ Â·ÃÂ°Ã­"
+msgstr "회사 로고"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "비밀번호 확인"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Â´Ã§Â½ÃÃÃ\\\" Â»Ã§ÃÂ¸\\\" Â°Ã¨ÃÂ¤ ÃÃ ÃÃÂ³Âª Â¸Â¦ Â»Ã§Â¿Ã«ÃÃÂ¿Â© Â¿Â¬Â°Ã¡ÃÃÂ°ÃÂ³Âª ÃÃÂ·Â¯ÃÃ ÃÃÂ°Ã ÃÃµÂ¸Ã­ ÃÂ¸Â·Ã Â·ÃÂ±ÃÃÃ:"
+msgstr "당신의\\\" 사회\\\" 계정 중 하나 를 사용하여 연결하거나 이러한 자격 증명 으로 로그인:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "ÃÃ¤ÃÃÂ½Âº ÂºÃÂ°Ãº Â¿Â¬Â°Ã¡"
+msgstr "페이스 북과 연결"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Â±Â¸Â±Ã Â°Ãº Â¿Â¬Â°Ã¡"
+msgstr "구글 과 연결"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "ÃÂ®ÃÂ§ÃÃ Â¿Ã Â¿Â¬Â°Ã¡"
+msgstr "트위터 와 연결"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "Â¿Â¬Â¶Ã´ÃÂ³"
+msgstr "연락처"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "ÃÃ¶ÃÃ§ Â¾Ã°Â¾Ã®ÃÃÂ´ÃÂ´Ã"
+msgstr "현재 언어입니다"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Â°Ã­Â°Â´"
+msgstr "고객"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Â°Ã­Â°Â´ ÃÂ«ÂµÃ¥"
+msgstr "고객 카드"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Â°Ã­Â°Â´ ÃÃ ÃÃÂ¸ÃÃÃ ÃÃÂ¼Ã"
+msgstr "고객 의 이메일 주소"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Â°Ã­Â°Â´ ÃÃÂ¸Â§"
+msgstr "고객 이름"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Â°Ã­Â°Â´ ÃÃ¼ÃÂ­ Â¹Ã¸ÃÂ£"
+msgstr "고객 전화 번호"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Â°Ã­Â°Â´ Â¹Ã¸ÃÃ¶"
+msgstr "고객 번지"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Â°Ã­Â°Â´ ÃÃ Â¼Â­Â¸Ã­"
+msgstr "고객 의 서명"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Â°Ã­Â°Â´"
+msgstr "고객"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Â³Â¯ÃÂ¥"
+msgstr "날짜"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Â¼Â­ÂºÃ±Â½Âº Â½ÃÃÃ Â³Â¯ÃÂ¥"
+msgstr "서비스 시작 날짜"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Â°Ã­Â°Â´ Â»Ã¨ÃÂ¦"
+msgstr "고객 삭제"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­Â¸Â¦ Â»Ã¨ÃÂ¦"
+msgstr "서비스 보고서를 삭제"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Â»Ã§Â¿Ã«ÃÃ Â»Ã¨ÃÂ¦"
+msgstr "사용자 삭제"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Â¾Ã·ÂµÂ¥ÃÃÃÂ®Â¸Â¦ Â´ÃÂ¿Ã®Â·ÃÂµÃ¥"
+msgstr "업데이트를 다운로드"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Â½ÃÂ°Â£"
+msgstr "시간"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Â¼Â­ÂºÃ±Â½Âº Â±Ã¢Â°Â£"
+msgstr "서비스 기간"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "ÃÃ­ÃÃ½ Â°Ã­Â°Â´"
+msgstr "편집 고객"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "ÃÃ­ÃÃ½ Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­"
+msgstr "편집 서비스 보고서"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Â»Ã§Â¿Ã«ÃÃ ÃÃ­ÃÃ½"
+msgstr "사용자 편집"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "ÃÃÂ¸ÃÃÃ"
+msgstr "이메일"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "ÃÃÂ¸ÃÃÃ ÃÃÂ¼Ã"
+msgstr "이메일 주소"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "ÃÃÂ¸ÃÃÃ ÃÃÂ¼Ã Â°Â¡ ÃÂ¯ÃÂ¿ÃÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "이메일 주소 가 유효하지 않습니다"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Â»Ã§Â¿Ã«ÃÃÃÃ ÃÃÂ¸ÃÃÃ ÃÃÂ¼Ã"
+msgstr "사용자의 이메일 주소"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Â»Ã§Â¿Ã«ÃÃÃÃ ÃÃÂ¸ÃÃÃ"
+msgstr "사용자의 이메일"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "ÃÃÂ½Âº"
+msgstr "팩스"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "ÃÃÃÃ Â°Ã­Â°Â´"
+msgstr "필터 고객"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "ÃÃÃÃ Â¼Â­ÂºÃ±Â½Âº Â·Â¹ÃÃ·ÃÂ®"
+msgstr "필터 서비스 레포트"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ÃÃÃÃ Â»Ã§Â¿Ã«ÃÃ"
+msgstr "필터 사용자"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "ÃÂ¨"
+msgstr "홈"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "내 비밀번호 를 잊어 버렸습니다"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "Â¾ÃÃÃÂµÃ°"
+msgstr "아이디"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Â±ÃÂ°ÃÃÂº Â°Ã­Â°Â´, ÃÃÂ¹Â® Â¹Ã Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­ ÃÃ Â°Ã¼Â¸Â®Â¸Â¦ ÃÃ Â¼Ã¶ ÃÃÂ½ÃÂ´ÃÂ´Ã."
+msgstr "그것은 고객, 주문 및 서비스 보고서 의 관리를 할 수 있습니다."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Â±ÃÂ°ÃÃÂº Â¿ÃÃÃ Â¼ÃÂ½Âº, ÂºÃ¼Â¸Â¥, Â¼ÃÃÃ¼, ÃÂ®ÃÃ¥ Â¼Âº, ÃÂºÂ·ÃÂ¼Âº, Â±Â¹ÃÂ¦ Â¹Ã Â¸Ã°Â¹ÃÃÃ ÃÃÂ´Ã."
+msgstr "그것은 오픈 소스, 빠른, 소형, 확장 성, 탄력성, 국제 및 모바일 이다."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "ÃÂ§ÃÂ¡"
+msgstr "위치"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Â¼Â­ÂºÃ±Â½Âº ÃÃ ÃÂ§ÃÂ¡"
+msgstr "서비스 의 위치"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "Â·ÃÂ±ÃÃÃ"
+msgstr "로그인"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "Â·ÃÂ±Ã Â¾ÃÂ¿Ã´"
+msgstr "로그 아웃"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -345,51 +358,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "ÃÃÂ¸Â§"
+msgstr "이름"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Â»Ã§Â¿Ã«ÃÃ ÃÃ ÃÃÂ¸Â§"
+msgstr "사용자 의 이름"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Â»ÃµÂ·ÃÂ¿Ã® Â°Ã­Â°Â´"
+msgstr "새로운 고객"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Â»ÃµÂ·ÃÂ¿Ã® ÂºÂ¸Â°Ã­Â¼Â­"
+msgstr "새로운 보고서"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Â»ÃµÂ·ÃÂ¿Ã® Â»Ã§Â¿Ã«ÃÃ"
+msgstr "새로운 사용자"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Â¾ÃÂ´Ã Â¾Ã·ÂµÂ¥ÃÃÃÂ®Â´Ã ÃÂ¸ÃÃ§ÃÃÃÃ¶"
+msgstr "아니 업데이트는 존재하지"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "ÃÃ¼Â°Ã­"
+msgstr "참고"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Â¼Ã¶"
+msgstr "수"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Â¿Ã®Â¿ÂµÃÃ"
+msgstr "운영자"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Â¼Â­ÂºÃ±Â½Âº ÃÃ Â¿Ã®Â¿ÂµÃÃ"
+msgstr "서비스 의 운영자"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Â¿Ã®Â¿ÂµÃÃ ÃÃ Â¼Â­Â¸Ã­"
+msgstr "운영자 의 서명"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "ÃÃÂ¹Â®"
+msgstr "주문"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ÃÃ Â¾Ã¸Â´Ã Â¹Â®ÃÃÂ°Â¡ ÂµÃ©Â¾Ã® ÃÃÂ½ÃÂ´ÃÂ´Ã(ÂµÃ©)"
+msgstr "P.IVA 이 없는 문자가 들어 있습니다(들)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA ÃÂ¦Â¾Ã® ÃÃÂµÃ¥ Â°Â¡ ÃÃÃÂ¡ÃÃÃÃ¶ Â¾ÃÂ´Ã"
+msgstr "P.IVA 제어 코드 가 일치하지 않는"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "비밀번호"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "암호 확인 이 일치하지 않습니다"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "암호 확인 이 필요합니다"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "암호 는 충분히 강하지 않다"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "ÃÃ¼ÃÂ­"
+msgstr "전화"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "ÃÃ¼ÃÂ­ Â¹Ã¸ÃÂ£"
+msgstr "전화 번호"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "ÃÃ¼ÃÂ­ Â¹Ã¸ÃÂ£ Â°Â¡ ÃÂ¯ÃÂ¿ÃÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "전화 번호 가 유효하지 않습니다"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "ÃÃ¥Â¼Ã"
+msgstr "장소"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "ÃÃÂºÃ±Â¾Ã·ÂµÂ¥ÃÃÃÂ®Â¸Â¦ Â´ÃÂ¿Ã®Â·ÃÂµÃ¥"
+msgstr "준비업데이트를 다운로드"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "ÃÃÂ¼Ã¢"
+msgstr "인쇄"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "ÃÃÂ¼Ã¢ Â°Ã­Â°Â´"
+msgstr "인쇄 고객"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "ÃÃÂ¼Ã¢ Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­"
+msgstr "인쇄 서비스 보고서"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "ÃÃÂ¼Ã¢ Â»Ã§Â¿Ã«ÃÃ"
+msgstr "인쇄 사용자"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Â°Ã¸Â±ÃÃÃ"
+msgstr "공급자"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "ÃÂ¸Â¿Ã¸ Â°Â¡ÃÃ"
+msgstr "회원 가입"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "비밀번호를 재설정"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Â¿ÂªÃÃ"
+msgstr "역할"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃÂ¿Â¡ Â´Ã«ÃÃ Â¿ÂªÃÃ; Â¸Ã°ÂµÃ§ Â±Â¹Â°Â¡ Â¸Â¦ ÃÃ«ÃÃ Â½Â½Â¶Ã³ÃÃÂµÃ¥ Â¸Â¦ ÃÂ¬Â¸Â¯( RW-\\u003e R-\\u003e W-\\u003e Â¾Ã¸ÃÂ½)"
+msgstr "이 사용자에 대한 역할; 모든 국가 를 통해 슬라이드 를 클릭( RW-\\u003e R-\\u003e W-\\u003e 없음)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Â»Ã§Â¿Ã«ÃÃÃÃ Â¿ÂªÃÃ: Â³Ã¬Â»Ã¶ ÃÃÂ±Ã¢ Â±ÃÃÃÃÂ» Â³ÂªÃÂ¸Â³Â»Â¸Ã§, Â¾Â²Â±Ã¢, ÃÂ²Â»Ã¶ Â¼Ã¶Â´ÃÃÃ ÃÃÂ±Ã¢ ÃÃ¼Â¿Ã« ÂºÃ­Â·Ã§ Â¸Â¸ ÃÃÂ¼ÂºÃÃÂ°Ã­, Â±ÃÃÃ Â¾Ã¸ÃÂ½ Â»Â¡Â°Â£Â»Ã¶. Â¼Â½Â¼Ã ÃÂº Â´ÃÃÂ½Â°Ãº Â°Â°Â½ÃÂ´ÃÂ´Ã'U'( Â»Ã§Â¿Ã«ÃÃ),'C'( Â°Ã­Â°Â´),'O'( ÃÃÂ¹Â®),'S'(Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­)."
+msgstr "사용자의 역할: 녹색 읽기 권한을 나타내며, 쓰기, 황색 수단이 읽기 전용 블루 만 작성하고, 권한 없음 빨간색. 섹션 은 다음과 같습니다'U'( 사용자),'C'( 고객),'O'( 주문),'S'(서비스 보고서)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "ÃÃºÃÃ¥"
+msgstr "저장"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Â¼Â­ÂºÃ±Â½Âº Â·Â¹ÃÃ·ÃÂ®"
+msgstr "서비스 레포트"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­ N"
+msgstr "서비스 보고서 N"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Â¼Â­ÂºÃ±Â½Âº ÂºÂ¸Â°Ã­Â¼Â­"
+msgstr "서비스 보고서"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Â¼Â³ÃÂ¡"
+msgstr "설치"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Â°ÃÂ¸Â® ÃÃÂ¼Ã"
+msgstr "거리 주소"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "ÃÃ Â°Ã­Â°Â´ÃÃ ÃÃÂ¸Â§ÃÃ ÃÃÂ¹Ã Â»Ã§Â¿Ã« ÃÃÃÃÂ´ÃÂ´Ã"
+msgstr "이 고객의 이름이 이미 사용 중입니다"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "ÃÃ Â°Ã­Â°Â´ ÃÃÂ¸Â§ ÃÃ ÃÂ¯ÃÂ¿ÃÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "이 고객 이름 이 유효하지 않습니다"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "ÃÃÂ´Ã"
+msgstr "이다"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃÂ´Ã ÂµÂµ ÃÃÃÃ¶ÂµÂµ Â¾Âµ Â¼Ã¶ ÃÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "이 사용자는 도 읽지도 쓸 수 있습니다"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃÂ´Ã ÃÃÃÂ» Â¼Ã¶ ÃÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "이 사용자는 읽을 수 있습니다"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃÂ´Ã ÃÃÂ°Ã­ Â¾Âµ Â¼Ã¶"
+msgstr "이 사용자는 읽고 쓸 수"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃÂ´Ã Â¾Âµ Â¼Ã¶ ÃÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "이 사용자는 쓸 수 있습니다"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃÂ´Ã Â¾ÃÂ¼Â¼Â½Âº ÃÃ Â¼Ã¶ Â¾Ã¸Â½ÃÂ´ÃÂ´Ã"
+msgstr "이 사용자는 액세스 할 수 없습니다"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃ ÃÃÂ¸Â§ÃÃ ÃÃÂ¹Ã Â»Ã§Â¿Ã« ÃÃÃÃÂ´ÃÂ´Ã"
+msgstr "이 사용자 이름이 이미 사용 중입니다"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "이 사용자 이름 은 이미 촬영"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "ÃÃ Â»Ã§Â¿Ã«ÃÃ ÃÃÂ¸Â§ ÃÃ ÃÂ¯ÃÂ¿ÃÃÃÃ¶ Â¾ÃÂ½ÃÂ´ÃÂ´Ã"
+msgstr "이 사용자 이름 이 유효하지 않습니다"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "ÃÃ Â°ÂªÃÂº Codice Fiscale ÂµÂµP.IVA ÂµÂµ Â¾ÃÂ´ÃÂ°Ã­"
+msgstr "이 값은 Codice Fiscale 도P.IVA 도 아니고"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Â¼Â­ÂºÃ±Â½Âº Â½ÃÃÃ ÃÃ Â½ÃÂ°Â£"
+msgstr "서비스 시작 의 시간"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "ÃÃ¼ÃÂ¯ ÃÂ½Â»Ã¶"
+msgstr "전환 탐색"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Â»Ã§Â¿Ã«ÃÃ ÃÃ ÃÃÂ¸ÃÃÃ ÃÃÂ¼Ã"
+msgstr "사용자 의 이메일 주소"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Â»Ã§Â¿Ã«ÃÃ ÃÃÂ¸Â§"
+msgstr "사용자 이름"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "사용자 이름 이 유효하지 않습니다"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Â¾ÃÃÃÂµÃ°"
+msgstr "아이디"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "아이디/ 이메일"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Â»Ã§Â¿Ã«ÃÃ"
+msgstr "사용자"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Â´Ã§Â½ÃÃÂº Â¿ÃÃÃÂ¶Ã³ÃÃ"
+msgstr "당신은 오프라인"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Â´Ã§Â½ÃÃÂº Â¿ÃÂ¶Ã³ÃÃ"
+msgstr "당신은 온라인"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "귀하의 이메일"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "암호"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "암호 다시"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "사용자 이름"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "사용자 이름 또는 이메일"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "Ã¤Â³Â½Ã"
+msgstr "캐시"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "Ã£Ã«Â¼Ã"
+msgstr "취소"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "Ã¨Â®ÃÃ"
+msgstr "확인"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Â°Ã­Â°Â´"
+msgstr "고객"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Â´ÃÂ¿Ã®Â·ÃÂµÃ¥"
+msgstr "다운로드"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Â¿ÃÂ·Ã¹"
+msgstr "오류"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "ÂºÃ± ÂµÃ®Â·Ã Â»Ã§Â¿Ã«ÃÃÂ¸Â¦ÃÂ§ÃÃ ÃÂ¨ ÃÃ¤ÃÃÃÃ¶."
+msgstr "비 등록 사용자를위한 홈 페이지."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "ÂµÃ®Â·ÃÃÂ» ÃÃ Â»Ã§Â¿Ã«ÃÃÂ¸Â¦ÃÂ§ÃÃ ÃÂ¨ ÃÃ¤ÃÃÃÃ¶."
+#, 
+msgid "home page for registered users."
+msgstr "등록 된 사용자 에 대한 홈 페이지."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Ã£ÃÂ±Ã¢ÃÂ­"
+msgstr "초기화"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "( Â½ÂºÂ¸Â¶ÃÂ®) Â½ÃÂ»Ã½ Â±Ã¢Â¾Ã· ÃÂ»ÃÂ§ÃÃ ÃÂ¥ ÃÃÂ¿Ã« ÃÃÂ·ÃÂ±ÃÂ·Â¥ÃÃÂ´ÃÂ´Ã."
+msgstr "( 스마트) 신생 기업 을위한 웹 응용 프로그램입니다."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Â±Ã¢Â·Ã ÂµÃ Â»Ã§Â¿Ã«ÃÃ"
+msgstr "기록 된 사용자"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "Â»Ã§Â¿Ã«ÂµÃÃÃ¶ Â¾ÃÂ´Ã"
+msgstr "사용되지 않는"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Ã¡ÃÂ¹Â®"
+msgstr "주문"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "Â±ÃÂ·Â¸ÃÃ¶ Â¾ÃÃÂ¸Â¸Ã© Â»ÃµÂ·ÃÂ¿Ã® accout ÃÂ» ÂµÃ®Â·ÃÃÃÂ°Ã­ Â·ÃÂ±ÃÃÃÃÃÂ´ÃÂ´Ã."
+msgstr "그렇지 않으면 새로운 accout 을 등록하고 로그인합니다."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "ÂºÃ±Â¹ÃÂ¹Ã¸ÃÂ£:"
+msgstr "비밀번호:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Ã¡Ã¸ÃÃ "
+msgstr "진행"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "Â»Ã§Â¿Ã«ÃÃ ÃÃÂ¸Â§:"
+msgstr "사용자 이름:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Â»Ã§Â¿Ã«ÃÃ"
+msgstr "사용자"

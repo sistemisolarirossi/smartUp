@@ -1,119 +1,123 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( hh: Ã£\\u06CCÃ¡\\u06CC Ã£ÃÃ)"
+msgstr "( hh: میلی متر)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice Fiscale\\u06CCÃ P.IVA Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "Codice Fiscale یا P.IVA مورد نیاز است"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Ã¤ÃÃ£ Ã£ÃÃÃ\\u06CC Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "نام مشتری مورد نیاز است"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "ÃÃÃ\\u06CCÃ ÃÃÃ¦Ã ÃÃÃ£ÃÃ Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "تاریخ شروع خدمات مورد نیاز است"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "Ã£ÃÃ ÃÃ£ÃÃ¤ ÃÃ\\u06CCÃ ÃÃ¥ ÃÃ¦ÃÃ\\\" HH\\\" ÃÃÃ\\u06CCÃ\\\" hh: Ã£\\u06CCÃ¡\\u06CC Ã£ÃÃ Â¡ Ã¦ ÃÃÃÃÃ¡\\u06CCÂ ÃÃ\\u06CCÃÃ¥ ÃÃ¦Ã¡ÃÃ¤\\u06CC"
+msgstr "مدت زمان باید به صورت\\\" HH\\\" است یا\\\" hh: میلی متر ، و حداقل یک دقیقه طولانی"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ã£ÃÃ¡ ÃÃÃ£ÃÃ Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "محل خدمات مورد نیاز است"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "رمز عبور مورد نیاز است"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "ÃÃ£ÃÃÃ¥ ÃÃ¡ÃÃ¤ Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "شماره تلفن مورد نیاز است"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "ÃÃÃÃ Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "آدرس مورد نیاز است"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Ã¤ÃÃ£ ÂÃÃÃÃ Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "نام کاربر مورد نیاز است"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "ÃÃÃÃÃÃ¥"
+msgstr "درباره"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "ÃÃÃÃÃ¥ ÂÃÃÃ¤ Ã£ÃÃÃ\\u06CC ÃÃ\\u06CCÃ"
+msgstr "اضافه کردن مشتری جدید"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "ÃÃÃÃÃ¥ ÂÃÃÃ¤ ÂÃÃÃÃ ÃÃ\\u06CCÃ"
+msgstr "اضافه کردن کاربر جدید"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "ÃÃÃÃ"
+msgstr "آدرس"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "ÃÃÃÃ Ã\\u06CCÃ£\\u06CCÃ¡ Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "آدرس ایمیل مورد نیاز است"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "ÃÂÃÃÃÃ¦Ã Ã£Ã¦ÃÃ Ã¤\\u06CCÃÃ ÃÃÃ"
+msgstr "اپراتور مورد نیاز است"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "ÃÃ¥ ÃÃ¦Ã Ã£Ã¦ÃÃ¦Ã ÃÃÃ: Ã\\u06CCÃ ÃÃ£Ã Ã£\\u06CC ÃÃ¦ÃÃ¥\\u06CCÃ ÃÃ¤ ÃÃ ÃÃÃÂÃÃÃ\\u06CC ÃÃ ÃÃÃ¡ ÃÃÃÃÂ¿"
+msgstr "به روز موجود است: آیا شما می خواهید آن را بارگذاری در حال حاضر؟"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "ÃÃ¥ ÃÃ¦Ã ÃÃÃÃ¤\\u06CC ÃÃ£ÃÃÃ¥ ÃÃÃ"
+msgstr "به روز رسانی آماده است"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ã\\u06CCÃ ÃÃ£Ã Ã¦ÃÃÃÃ Ã£ÃÃ£ÃÃ¤ ÃÃ¥ ÃÃÃ ÂÃÃÃÃ ÃÃÃ£ÃÃ"
+msgstr "آیا شما واقعا مطمئن به حذف گزارش خدمات"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ã\\u06CCÃ ÃÃ£Ã Ã¦ÃÃÃÃ Ã£ÃÃ£ÃÃ¤ ÃÃÃ ÂÃÃÃÃ"
+msgstr "آیا شما واقعا مطمئن حذف کاربر"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "ÃÃ¤ÃÃÃ¥ ÃÃÃÃÃ Ã¥Ã¦\\u06CCÃ"
+msgstr "شناسه احراز هویت"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "ÃÃ¤ÃÃÃ¥ ÃÃÃÃÃ Ã¥Ã¦\\u06CCÃ ÂÃÃÃÃ"
+msgstr "شناسه احراز هویت کاربر"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "ÃÃ¤ÃÃÃ¥ ÃÃÃÃÃ Ã¥Ã¦\\u06CCÃ:"
+msgstr "شناسه احراز هویت:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "ÃÃÃÃÃ¥ ÃÃ¥Ã¤ÃÃ¥ ÃÃÃÃÃ Ã¥Ã¦\\u06CCÃ"
+msgstr "ارائه دهنده احراز هویت"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "ÃÃÃÃÃ¥ ÃÃ¥Ã¤ÃÃ¥ ÃÃÃÃÃ Ã¥Ã¦\\u06CCÃ ÃÃÃ\\u06CC ÂÃÃÃÃ"
+msgstr "ارائه دهنده احراز هویت برای کاربر"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "ÃÃ¦ÃÃÃÃ Ã¥Ã"
+msgstr "آواتار ها"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "ÃÃ¦ÃÃÃÃ ÃÃÃ¦\\u06CCÃ ÂÃÃÃÃ"
+msgstr "آواتار تصویر کاربر"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "ÂÃ ÃÃÃ ÂÃ¥ Ã£ÃÃÃÃ ÃÃ¥\\u06CC ÃÃ¦Ã¡\\u06CCÃ¥"
+msgstr "کش است که مقدار دهی اولیه"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "ÂÃ ÃÃ ÃÃÃ¡Ã Ã¤ÃÃÃ¤ÃÃÃÃ¥"
+msgstr "کش در حالت ناشناخته"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "ÂÃ ÃÃ¥ ÃÃ¦Ã Ã¤ÂÃÃÃ¥ ÃÃÃ( ÃÃÃÃ£ÃÃ¡Ã ÃÃÂÃÃ ÃÃÃÃ¡ ÃÃÃÃÃ\\u06CC Ã¤\\u06CCÃÃ)"
+msgstr "کش به روز نکرده است( احتمالا آشکار قابل دسترسی نیست)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "ÂÃ ÃÃ¥ ÃÃ¦Ã Ã¤Ã£\\u06CC ÂÃ¤Ã ÂÃÃ ÂÃ¥ ÃÃ£Ã ÃÃÃ¡Ã\\u06CCÃ¤ Ã¥ÃÃ\\u06CCÃ"
+msgstr "کش به روز نمی کند چرا که شما آفلاین هستید"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "ÂÃ Ã£Ã¤ÃÃ¦Ã ÃÃÃ¥ ÃÃÃ"
+msgstr "کش منسوخ شده است"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "ÂÃ ÃÃÃ ÃÃ ÃÃ¥ ÃÃ¦Ã"
+msgstr "کش است تا به روز"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Ã¦ÃÃ\\u06CCÃ ÂÃ ÃÃÃ"
+msgstr "وضعیت کش است"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "ÃÃÃ\\u06CC ÂÂ ÂÃÃÃ¤ Ã¦ÃÃ¦Ã\\u06CCÂ ÃÃ¥ ÃÃ¦Ã ÃÃÃÃ¤\\u06CC"
+msgstr "برای چک کردن وجود یک به روز رسانی"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,187 +161,196 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ÃÃÃ£Ã¡ ÃÃÃ\\u06CCÃ Ã¥Ã\\u06CC Ã¤ÃÃ£ÃÃÃÃ(ÃÃÃÃ\\u06CCÃ ÂÃ¤Ã¤ÃÂÃÃ¤)"
+msgstr "Codice Fiscale شامل شخصیت های نامعتبر(بازدید کنندگان)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "ÂÃ ÂÃ¤ÃÃÃ¡ Codice Fiscale Ã£ÃÃÃÃÃ Ã¤ÃÃÃÃ"
+msgstr "کد کنترل Codice Fiscale مطابقت ندارد"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale\\u06CCÃ P.IVA ÃÃ Ã£ÃÃÃ\\u06CC"
+msgstr "Codice Fiscale یا P.IVA از مشتری"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "ÃÃÃ£ ÃÃÂÃ"
+msgstr "آرم شرکت"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "تکرار رمز عبور"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "ÃÃÃÃÃ¡ ÃÃ ÃÃÃÃÃÃÃ¥ ÃÃ\\u06CCÂ\\u06CC ÃÃ ÃÃÃÃ Ã¥Ã\\u06CC\\\" ÃÃÃÃ£ÃÃ\\u06CC\\\" ÃÃ¦Ã ÃÃ Â¡ Ã¦\\u06CCÃ ÃÃ¥ Ã\\u06CCÃÃÃ£ Ã¦ÃÃÃ ÃÃ¦\\u06CCÃ ÃÃ Ã\\u06CCÃ¤ ÃÃÃÃÃÃ:"
+msgstr "اتصال با استفاده از یکی از حساب های\\\" اجتماعی\\\" خود را ، و یا به سیستم وارد شوید با این اعتبار:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "ÃÃÃÃÃÃ ÃÃ Ã\\u06CCÃ ÃÃ¦Â"
+msgstr "ارتباط با فیس بوک"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "ÃÃ£ÃÃ ÃÃ+ Google"
+msgstr "تماس با+ Google"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "ÃÃ£ÃÃ ÃÃ ÃÃ¦\\u06CC\\u06CCÃÃ"
+msgstr "تماس با توییتر"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "ÃÃÃ¡ÃÃÃÃ ÃÃ£ÃÃ"
+msgstr "اطلاعات تماس"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "ÃÃÃÃ¤ ÂÃ¤Ã¦Ã¤\\u06CC ÃÃÃ"
+msgstr "زبان کنونی است"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Ã£ÃÃÃ\\u06CCÃÃ¤"
+msgstr "مشتریان"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "ÂÃÃÃ ÃÃ¥ Ã£ÃÃÃ\\u06CC"
+msgstr "کارت به مشتری"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "ÃÃÃÃ Ã\\u06CCÃ£\\u06CCÃ¡ ÃÃ Ã£ÃÃÃ\\u06CC"
+msgstr "آدرس ایمیل با مشتری"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Ã¤ÃÃ£ Ã£ÃÃÃ\\u06CC"
+msgstr "نام مشتری"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "ÃÃ£ÃÃÃ¥ ÃÃ¡ÃÃ¤ Ã£ÃÃÃ\\u06CCÃÃ¤"
+msgstr "شماره تلفن مشتریان"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "ÃÃÃÃ Ã\\u06CCÃÃÃÃ¤ ÃÃ Ã£ÃÃÃ\\u06CC"
+msgstr "آدرس خیابان با مشتری"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "ÃÃ£ÃÃ\\u06CC Ã£ÃÃÃ\\u06CC"
+msgstr "امضای مشتری"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Ã£ÃÃÃ\\u06CCÃÃ¤"
+msgstr "مشتریان"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "ÃÃÃ\\u06CCÃ"
+msgstr "تاریخ"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "ÃÃÃ\\u06CCÃ ÃÃÃ¦Ã ÃÃÃ£ÃÃ"
+msgstr "تاریخ شروع خدمات"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "ÃÃÃ Ã£ÃÃÃ\\u06CC"
+msgstr "حذف مشتری"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "ÃÃÃ ÂÃÃÃÃ ÃÃÃ£ÃÃ"
+msgstr "حذف گزارش خدمات"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "ÃÃÃ ÂÃÃÃÃ"
+msgstr "حذف کاربر"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "ÃÃÃ¤Ã¡Ã¦Ã ÃÃ¥ ÃÃ¦Ã ÃÃÃÃ¤\\u06CC"
+msgstr "دانلود به روز رسانی"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Ã£ÃÃ ÃÃ£ÃÃ¤"
+msgstr "مدت زمان"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Ã£ÃÃ ÃÃ£ÃÃ¤ ÃÃÃ£ÃÃ"
+msgstr "مدت زمان خدمات"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ã¦\\u06CCÃÃ\\u06CCÃ Ã£ÃÃÃ\\u06CC"
+msgstr "ویرایش مشتری"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Ã¦\\u06CCÃÃ\\u06CCÃ ÂÃÃÃÃ ÃÃÃ£ÃÃ"
+msgstr "ویرایش گزارش خدمات"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Ã¦\\u06CCÃÃ\\u06CCÃ ÂÃÃÃÃ"
+msgstr "ویرایش کاربر"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "ÂÃÃ ÃÃ¡ÂÃÃÃ¦Ã¤\\u06CCÂ"
+msgstr "پست الکترونیک"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "ÃÃÃÃ ÂÃÃ ÃÃ¡ÂÃÃÃ¦Ã¤\\u06CCÂ"
+msgstr "آدرس پست الکترونیک"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "ÃÃÃÃ Ã\\u06CCÃ£\\u06CCÃ¡ Ã£ÃÃÃÃ Ã¤\\u06CCÃÃ"
+msgstr "آدرس ایمیل معتبر نیست"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "ÃÃÃÃ Ã\\u06CCÃ£\\u06CCÃ¡ ÂÃÃÃÃ"
+msgstr "آدرس ایمیل کاربر"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Ã\\u06CCÃ£\\u06CCÃ¡ ÂÃÃÃÃ"
+msgstr "ایمیل کاربر"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "ÃÂÃ"
+msgstr "فکس"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Ã\\u06CCÃ¡ÃÃ Ã£ÃÃÃ\\u06CCÃÃ¤"
+msgstr "فیلتر مشتریان"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "ÂÃÃÃÃ ÃÃÃ£ÃÃ Ã\\u06CCÃ¡ÃÃ"
+msgstr "گزارش خدمات فیلتر"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ÂÃÃÃÃÃÃ¤ Ã\\u06CCÃ¡ÃÃ"
+msgstr "کاربران فیلتر"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "ÃÃÃÃ¥ ÃÃÃ¡\\u06CC"
+msgstr "صفحه اصلی"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "رمز فراموش شده"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "ÂÃ"
+msgstr "کد"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ã\\u06CCÃ¤ ÃÃÃÃÃ¥ Ã£\\u06CC ÃÃ¥Ã ÃÃ Ã£Ã\\u06CCÃ\\u06CCÃ Ã£ÃÃÃ\\u06CCÃÃ¤ Â¡ ÃÃÃÃÃÃÃ Ã¦ ÂÃÃÃÃ ÃÃÃ£ÃÃ."
+msgstr "این اجازه می دهد تا مدیریت مشتریان ، سفارشات و گزارش خدمات."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Ã\\u06CCÃ¤ Ã£Ã¤ÃÃ ÃÃÃ Â¡ ÃÃ\\u06CCÃÂ¡ ÃÃ£Ã Ã¦ ÃÃ¦ÃÂ¡ ÃÃ¦ÃÃÃ¥ ÂÃ\\u06CCÃ Â¡ ÃÃ¤ÃÃÃÃ ÂÃ\\u06CCÃÂ¡ Ã\\u06CCÃ¤ ÃÃ¡Ã£Ã¡Ã¡\\u06CC Ã¦ ÃÃ¡ÃÃ¤ Ã¥Ã£ÃÃÃ¥ ÃÃÃ."
+msgstr "این منبع باز ، سریع، جمع و جور، توسعه پذیر ، انعطاف پذیر، بین المللی و تلفن همراه است."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Ã£ÃÃ¡ ÃÂÃ¦Ã¤Ã"
+msgstr "محل سکونت"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ã£ÃÃ¡ ÃÂÃ¦Ã¤Ã ÃÃ ÃÃÃ£ÃÃ"
+msgstr "محل سکونت از خدمات"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "Ã¦ÃÃ¦Ã ÃÃ¥ Ã\\u06CCÃÃÃ£"
+msgstr "ورود به سیستم"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "Ã¦ÃÃ¦Ã ÃÃ"
+msgstr "ورود از"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -345,51 +358,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Ã¤ÃÃ£"
+msgstr "نام"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Ã¤ÃÃ£ ÂÃÃÃÃ"
+msgstr "نام کاربر"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Ã£ÃÃÃ\\u06CC ÃÃ\\u06CCÃ"
+msgstr "مشتری جدید"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "ÂÃÃÃÃ ÃÃ\\u06CCÃ"
+msgstr "گزارش جدید"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "ÂÃÃÃÃ ÃÃ\\u06CCÃ"
+msgstr "کاربر جدید"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "ÃÃÃ¦Ã¤ ÃÃ¥ ÃÃ¦Ã ÃÃÃÃ¤\\u06CC ÃÃ ÃÃÃ¡ ÃÃÃÃ ÃÃÃ"
+msgstr "بدون به روز رسانی در حال حاضر است"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "\\u06CCÃÃÃÃÃÃ Ã¥Ã"
+msgstr "یادداشت ها"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "ÃÃ£ÃÃÃ¥"
+msgstr "شماره"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "ÃÂÃÃÃÃ¦Ã"
+msgstr "اپراتور"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "ÃÂÃÃÃÃ¦Ã ÃÃ ÃÃÃ£ÃÃ"
+msgstr "اپراتور از خدمات"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "ÃÃ£ÃÃ ÃÂÃÃÃÃ¦Ã"
+msgstr "امضا اپراتور"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "ÃÃÃÃÃÃÃ"
+msgstr "سفارشات"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ÃÃÃ£Ã¡ ÃÃÃ\\u06CCÃ Ã¥Ã\\u06CC Ã¤ÃÃ£ÃÃÃÃ(ÃÃÃÃ\\u06CCÃ ÂÃ¤Ã¤ÃÂÃÃ¤)"
+msgstr "P.IVA شامل شخصیت های نامعتبر(بازدید کنندگان)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "ÂÃ ÂÃ¤ÃÃÃ¡ P.IVA Ã£ÃÃÃÃÃ Ã¤ÃÃÃÃ"
+msgstr "کد کنترل P.IVA مطابقت ندارد"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "رمز عبور"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "تایید رمز عبور مطابقت ندارد"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "تایید رمز عبور مورد نیاز است"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "رمز عبور به اندازه کافی قوی نیست"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "ÃÃ¡ÃÃ¤"
+msgstr "تلفن"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "ÃÃ£ÃÃÃ¥ ÃÃ¡ÃÃ¤"
+msgstr "شماره تلفن"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "ÃÃ£ÃÃÃ¥ ÃÃ¡ÃÃ¤ Ã£ÃÃÃÃ Ã¤\\u06CCÃÃ"
+msgstr "شماره تلفن معتبر نیست"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ã£ÃÃ¡"
+msgstr "محل"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "ÃÃ£ÃÃÃ¥ ÃÃÃ\\u06CC ÃÃÃ¤Ã¡Ã¦Ã ÃÃ¥ ÃÃ¦Ã ÃÃÃÃ¤\\u06CC"
+msgstr "آماده سازی دانلود به روز رسانی"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "ÂÃÂ"
+msgstr "چاپ"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "ÂÃÂ Ã£ÃÃÃ\\u06CC"
+msgstr "چاپ مشتری"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "ÂÃÂ ÂÃÃÃÃ ÃÃÃ£ÃÃ"
+msgstr "چاپ گزارش خدمات"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "ÂÃÃÃÃ ÂÃÂ"
+msgstr "کاربر چاپ"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "ÃÃÃÃÃ¥ ÃÃ¥Ã¤ÃÃ¥"
+msgstr "ارائه دهنده"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "ÃÃÃ Ã¤ÃÃ£"
+msgstr "ثبت نام"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "رمز عبور خود را تنظیم مجدد"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Ã¤ÃÃ"
+msgstr "نقش"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Ã¤ÃÃ ÃÃÃ\\u06CC Ã\\u06CCÃ¤ ÂÃÃÃÃ. ÂÃ¡\\u06CCÂ ÂÃ¤\\u06CCÃ ÃÃ ÃÃ ÃÃ\\u06CCÃ ÃÃ£ÃÃ£ ÂÃÃ¦ÃÃ¥Ã\\u06CC ÃÃÃ¡Ã\\u06CCÃ( RW-\\u003e R-\\u003e W-\\u003e Ã¥\\u06CCÂ)"
+msgstr "نقش برای این کاربر. کلیک کنید تا از طریق تمام کشورهای اسلاید( RW-\\u003e R-\\u003e W-\\u003e هیچ)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Ã¤ÃÃ ÂÃÃÃÃ: ÃÃÃ ÃÃ¤Â Ã¤ÃÃÃ¤ Ã£\\u06CC ÃÃ¥Ã ÃÃÃÃÃ¥ ÃÃ¦ÃÃ¤ÃÃ¤ Ã¦ Ã¤Ã¦ÃÃÃ¤ Â¡ ÃÃ¥ Ã£ÃÃ¤Ã\\u06CC ÃÃÃ ÃÃ¤Ã¥Ã ÃÃ¥ ÃÃ¤Ã¦ÃÃ¤ ÃÃ¦ÃÃ¤ÃÃ¥ ÃÃÃ¥ Â¡ ÃÃ\\u06CC ÃÃ¤Ã¥Ã ÃÃÃÃÃ¡ Ã¦ ÃÃÃ£Ã ÃÃÃ¦Ã¤ ÃÃÃÃÃ¥. ÃÃÃ Ã¥Ã ÃÃÃÃÃÃ¤Ã ÃÃ:' ÃÃ¦'( ÂÃÃÃÃÃÃ¤) Â¡'Ã'( Ã£ÃÃÃ\\u06CCÃÃ¤) Â¡'o' ÃÃ( ÃÃÃÃ¦Ã) Â¡ ÃÃ( ÂÃÃÃÃ ÃÃÃ¦\\u06CCÃ)."
+msgstr "نقش کاربر: سبز رنگ نشان می دهد اجازه خواندن و نوشتن ، به معنای زرد تنها به عنوان خوانده شده ، آبی تنها ارسال و قرمز بدون اجازه. بخش ها عبارتند از:' تو'( کاربران) ،'ج'( مشتریان) ،'o' را( دستور) ، را( گزارش سرویس)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "ÃÃ\\u06CCÃÃ¥"
+msgstr "ذخیره"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "ÂÃÃÃÃ ÃÃÃ£ÃÃ"
+msgstr "گزارش خدمات"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "ÂÃÃÃÃ ÃÃÃ¦\\u06CCÃ Ã¤ÃÃ"
+msgstr "گزارش سرویس نفر"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "ÂÃÃÃÃ ÃÃÃ£ÃÃ"
+msgstr "گزارش خدمات"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "ÃÃÃ¥ ÃÃ¤ÃÃÃ\\u06CC"
+msgstr "راه اندازی"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "ÃÃÃÃ Ã\\u06CCÃÃÃÃ¤"
+msgstr "آدرس خیابان"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ã\\u06CCÃ¤ Ã¤ÃÃ£ Ã£ÃÃÃ\\u06CC ÃÃ ÃÃÃ¡ ÃÃÃÃ ÃÃ ÃÃÃ¡ ÃÃÃÃÃÃÃ¥"
+msgstr "این نام مشتری در حال حاضر در حال استفاده"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ã\\u06CCÃ¤ Ã¤ÃÃ£ Ã£ÃÃÃ\\u06CC Ã£ÃÃÃÃ Ã¤\\u06CCÃÃ"
+msgstr "این نام مشتری معتبر نیست"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ã\\u06CCÃ¤ ÃÃÃ"
+msgstr "این است"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ã\\u06CCÃ¤ ÂÃÃÃÃ Ã£\\u06CC ÃÃ¦ÃÃ¤Ã Ã¦ Ã¤Ã¥ ÃÃ¥ ÃÃ¤Ã¦ÃÃ¤ ÃÃ¦ÃÃ¤ÃÃ¥ ÃÃÃ¥ Ã¦ Ã¤Ã¥ ÃÃÃÃÃ¡"
+msgstr "این کاربر می تواند و نه به عنوان خوانده شده و نه ارسال"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ã\\u06CCÃ¤ ÂÃÃÃÃ Ã£\\u06CC ÃÃ¦ÃÃ¤Ã ÃÃ¥ ÃÃ¤Ã¦ÃÃ¤ ÃÃ¦ÃÃ¤ÃÃ¥ ÃÃÃ¥"
+msgstr "این کاربر می تواند به عنوان خوانده شده"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ã\\u06CCÃ¤ ÂÃÃÃÃ Ã£\\u06CC ÃÃ¦ÃÃ¤Ã ÃÃ¦ÃÃ¤ÃÃ¤ Ã¦ Ã¤Ã¦ÃÃÃ¤"
+msgstr "این کاربر می تواند خواندن و نوشتن"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ã\\u06CCÃ¤ ÂÃÃÃÃ Ã£\\u06CC ÃÃ¦ÃÃ¤Ã ÃÃÃÃÃ¡"
+msgstr "این کاربر می تواند ارسال"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ã\\u06CCÃ¤ ÂÃÃÃÃ Ã£\\u06CC ÃÃ¦ÃÃ¤Ã ÃÃÃÃÃ\\u06CC Â\\u06CCÃÃ ÂÃ¤\\u06CCÃ"
+msgstr "این کاربر می تواند دسترسی پیدا کنید"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ã\\u06CCÃ¤ Ã¤ÃÃ£ ÂÃÃÃÃ\\u06CC ÃÃÃ¡Ã ÃÃÃÃÃÃÃ¥ ÃÃÃ¥ ÃÃÃ"
+msgstr "این نام کاربری قبلا استفاده شده است"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "این نام کاربری قبلا گرفته شده است"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ã\\u06CCÃ¤ Ã¤ÃÃ£ ÂÃÃÃÃ\\u06CC Ã£ÃÃÃÃ Ã¤\\u06CCÃÃ"
+msgstr "این نام کاربری معتبر نیست"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ã\\u06CCÃ¤ ÃÃÃÃ ÃÃÃ Ã¦ Ã¤Ã¥\\u06CCÂ Fiscale Codice Ã¦ Ã¤Ã¥ P.IVA"
+msgstr "این ارزش است و نه یک Fiscale Codice و نه P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "ÃÃ£ÃÃ¤ ÃÃÃ¦Ã ÃÃÃ£ÃÃ"
+msgstr "زمان شروع خدمات"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Ã¤ÃÃ¦ÃÃ\\u06CC ÃÃ£ÃÃ"
+msgstr "ناوبری آمار"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "ÃÃÃÃ Ã\\u06CCÃ£\\u06CCÃ¡ ÂÃÃÃÃ"
+msgstr "آدرس ایمیل کاربر"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Ã¤ÃÃ£ ÂÃÃÃÃ\\u06CC"
+msgstr "نام کاربری"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "نام کاربری معتبر نیست"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Ã¤ÃÃ£ ÂÃÃÃÃ\\u06CC"
+msgstr "نام کاربری"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "نام کاربری/ ایمیل"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "ÂÃÃÃÃÃÃ¤"
+msgstr "کاربران"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "ÃÃ£Ã ÃÃÃ¡Ã\\u06CCÃ¤ Ã¥ÃÃ\\u06CCÃ"
+msgstr "شما آفلاین هستید"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "ÃÃ£Ã ÃÃ¤Ã¡Ã\\u06CCÃ¤"
+msgstr "شما آنلاین"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "پست الکترونیک شما"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "رمز عبور خود را"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "رمز عبور خود را ، دوباره"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "نام کاربری شما"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "نام کاربری یا پست الکترونیک شما"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "Ã°Ã\\u06CCÃÃ¥ ÃÃÃ\\u06CC"
+msgstr "ذخیره سازی"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "Ã¡ÃÃ¦"
+msgstr "لغو"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "ÂÂ ÂÃÃÃ¤"
+msgstr "چک کردن"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Ã£ÃÃÃ\\u06CCÃÃ¤"
+msgstr "مشتریان"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Ã¯ÃÃ¤Ã¡Ã¦Ã"
+msgstr "دانلود"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Ã®ÃÃ"
+msgstr "خطا"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "ÃµÃÃÃ¥ ÃÃÃ¤Ã¥ ÃÃÃ\\u06CC Ã\\u06CCÃ ÂÃÃÃÃÃÃ¤ ÃÃÃ Ã¤ÃÃ£ ÃÃÃ¥."
+msgstr "صفحه خانه برای غیر کاربران ثبت نام شده."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "ÃµÃÃÃ¥ ÃÃÃ¤Â\\u06CC ÃÃÃ\\u06CC ÂÃÃÃÃÃÃ¤ registerd."
+#, 
+msgid "home page for registered users."
+msgstr "صفحه خانه برای کاربران ثبت نام شده."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Ã£ÃÃÃÃ ÃÃ¥\\u06CC ÃÃ¦Ã¡\\u06CCÃ¥"
+msgstr "مقدار دهی اولیه"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "Ã¨ÃÃ¤ÃÃ£Ã¥ ÃÃÃ Ã¦Ã ÃÃÃ\\u06CC( Ã¥Ã¦ÃÃ£Ã¤Ã) ÃÃÃ¦Ã\\u06CCÃ¦ Â\\u06CC ÃÃ ÃÃÃ."
+msgstr "برنامه تحت وب برای( هوشمند) شروع یو پی اس است."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "ÂÃÃÃÃ Ã¦ÃÃÃ Ã\\u06CCÃÃÃ£ ÃÃ¦\\u06CCÃ"
+msgstr "کاربر وارد سیستم شوید"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "Ã£Ã¤ÃÃ¦Ã"
+msgstr "منسوخ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Ã³ÃÃÃÃÃÃ"
+msgstr "سفارشات"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "Ã¯Ã Ã\\u06CCÃ Ã\\u06CCÃ¤ ÃÃ¦ÃÃ ÃÃÃ Ã¤ÃÃ£accout ÃÃ\\u06CCÃ Ã¦ Ã¦ÃÃÃ ÃÃ¦\\u06CCÃ."
+msgstr "در غیر این صورت ثبت نامaccout جدید و وارد شوید."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Ã±Ã£Ã ÃÃÃ¦Ã:"
+msgstr "رمز عبور:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Â\\u06CCÃÃÃÃ"
+msgstr "پیشرفت"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "Ã¤ÃÃ£ ÂÃÃÃÃ\\u06CC:"
+msgstr "نام کاربری:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ÂÃÃÃÃÃÃ¤"
+msgstr "کاربران"

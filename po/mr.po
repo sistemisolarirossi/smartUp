@@ -5,115 +5,119 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: mr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( Ã Â¤ÂÃ Â¤Â: Ã Â¤Â®Ã Â¤Â¿Ã Â¤Â®Ã Â¥Â)"
+msgstr "( एच: मिमी)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Ã Â¤ÂÃ Â¤Â Codice Fiscale Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾ P.IVA Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "एक Codice Fiscale किंवा P.IVA आवश्यक आहे"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "एक ग्राहक नाव आवश्यक आहे"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â°Ã Â¤ÂÃ Â¤Â­ Ã Â¤Â¤Ã Â¤Â¾Ã Â¤Â°Ã Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "सेवा प्रारंभ तारीख आवश्यक आहे"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â²Ã Â¤Â¾Ã Â¤ÂµÃ Â¤Â§Ã Â¥Â' Ã Â¤ÂÃ Â¤Â' Ã Â¤Â«Ã Â¥ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â® Ã Â¤Â®Ã Â¤Â§Ã Â¥ÂÃ Â¤Â¯Ã Â¥Â Ã Â¤ÂÃ Â¤Â¸Ã Â¤Â£Ã Â¥Â Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾' Ã Â¤ÂÃ Â¤Â: Ã Â¤Â®Ã Â¤Â¿.Ã Â¤Â®Ã Â¥Â.', Ã Â¤ÂÃ Â¤Â£Ã Â¤Â¿ Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â¤ Ã Â¤ÂÃ Â¤Â®Ã Â¥Â Ã Â¤ÂÃ Â¤Â Ã Â¤Â®Ã Â¤Â¿Ã Â¤Â¨Ã Â¤Â¿Ã Â¤Â Ã Â¤Â²Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¬"
+msgstr "एक कालावधी' एच' फॉर्म मध्ये असणे आवश्यक आहे किंवा' एच: मि.मी.', आणि कमीत कमी एक मिनिट लांब"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¥ÂÃ Â¤ÂÃ Â¤Â¾ Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â¥Ã Â¤Â¾Ã Â¤Â¨ Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "सेवेचा स्थान आवश्यक आहे"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "पासवर्ड आवश्यक आहे"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤Â«Ã Â¥ÂÃ Â¤Â¨ Ã Â¤Â¨Ã Â¤ÂÃ Â¤Â¬Ã Â¤Â° Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "एक फोन नंबर आवश्यक आहे"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â°Ã Â¥ÂÃ Â¤Â Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "मार्ग पत्ता आवश्यक आहे"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "एक वापरकर्ता नाव आवश्यक आहे"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "Ã Â¤ÂÃ Â¤Â®Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾ Ã Â¤Â¬Ã Â¤Â¦Ã Â¥ÂÃ Â¤Â¦Ã Â¤Â²"
+msgstr "आमच्या बद्दल"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Ã Â¤Â¨Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¨ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¡Ã Â¤Â¾"
+msgstr "नवीन ग्राहक जोडा"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Ã Â¤Â¨Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¨ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¡Ã Â¤Â¾"
+msgstr "नवीन वापरकर्ता जोडा"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "पत्ता"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â² Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "एक ईमेल पत्ता आवश्यक आहे"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â°Ã Â¥ÂÃ Â¤ÂÃ Â¤Â° Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¶Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "एक ऑपरेटर आवश्यक आहे"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¤Ã Â¤Â¨ Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â²Ã Â¤Â¬Ã Â¥ÂÃ Â¤Â§ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â: Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â£ Ã Â¤ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â¤Ã Â¥Â Ã Â¤Â²Ã Â¥ÂÃ Â¤Â¡ Ã Â¤ÂÃ Â¤Â°Ã Â¥Â Ã Â¤ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤ÂÃ Â¤Â¿Ã Â¤Â¤Ã Â¤Â¾?"
+msgstr "एक अद्यतन उपलब्ध आहे: आपण आता तो लोड करू इच्छिता?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¤Ã Â¤Â¨ Ã Â¤Â¤Ã Â¤Â¯Ã Â¤Â¾Ã Â¤Â° Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "एक अद्यतन तयार आहे"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â£ Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â² Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â¢Ã Â¤Â£Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤Â¸Ã Â¤Â¾Ã Â¤Â Ã Â¥Â Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤ÂÃ Â¤Â° Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â¤Ã Â¥ÂÃ Â¤Â°Ã Â¥Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "आपण सेवा अहवाल काढण्यासाठी खरोखर खात्री आहे"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â£ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â¢Ã Â¤Â£Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤Â¸Ã Â¤Â¾Ã Â¤Â Ã Â¥Â Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤ÂÃ Â¤Â° Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â¤Ã Â¥ÂÃ Â¤Â°Ã Â¥Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "आपण वापरकर्ता काढण्यासाठी खरोखर खात्री आहे"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â£Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°Ã Â¤Â£ Ã Â¤ÂÃ Â¤Â¯Ã Â¤Â¡Ã Â¥Â"
+msgstr "प्रमाणीकरण आयडी"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â£Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°Ã Â¤Â£ Ã Â¤ÂÃ Â¤Â¯Ã Â¤Â¡Ã Â¥Â"
+msgstr "वापरकर्त्याच्या प्रमाणीकरण आयडी"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â£Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°Ã Â¤Â£ Ã Â¤ÂÃ Â¤Â¯Ã Â¤Â¡Ã Â¥Â:"
+msgstr "प्रमाणीकरण आयडी:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â£Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°Ã Â¤Â£ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¦Ã Â¤Â¾Ã Â¤Â¤Ã Â¤Â¾"
+msgstr "प्रमाणीकरण प्रदाता"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂÃ Â¤Â§Ã Â¤Â¿Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â£Ã Â¤Â¨ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¦Ã Â¤Â¾Ã Â¤Â¤Ã Â¤Â¾"
+msgstr "वापरकर्ता अधिप्रमाणन प्रदाता"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¤Ã Â¤Â¾Ã Â¤Â°"
+msgstr "अवतार"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾ Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¤Ã Â¤Â¾Ã Â¤Â° Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¤Ã Â¤Â¿Ã Â¤Â®Ã Â¤Â¾"
+msgstr "वापरकर्त्याच्या अवतार प्रतिमा"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â°Ã Â¥Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â²Ã Â¥Â Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â¤ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "कॅशे सुरू केली जात आहे"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤ÂÃ Â¤Â¾Ã Â¤Â¤ Ã Â¤Â°Ã Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤Â¤ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "कॅशे अज्ञात राज्यात आहे"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¤Ã Â¤Â¨Ã Â¤Â¿Ã Â¤Â¤ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â( Ã Â¤Â¬Ã Â¤Â¹Ã Â¥ÂÃ Â¤Â¦Ã Â¤Â¾ Ã Â¤Â®Ã Â¥ÂÃ Â¤Â¨Ã Â¤Â¿Ã Â¤Â«Ã Â¥ÂÃ Â¤Â¸Ã Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤Â¬Ã Â¤Â¾Ã Â¤Â¹Ã Â¥ÂÃ Â¤Â° Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â)"
+msgstr "कॅशे अद्यतनित नाही( बहुदा मॅनिफेस्ट आवाक्याबाहेर आहे)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â£ Ã Â¤ÂÃ Â¤Â«Ã Â¤Â²Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¨ Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â°Ã Â¤Â£ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¤Ã Â¤Â¨Ã Â¤Â¿Ã Â¤Â¤ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "आपण ऑफलाइन कारण कॅशे अद्यतनित नाही"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤ÂÃ Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤ÂÃ Â¤Â²Ã Â¤Â¿Ã Â¤Â¤ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "कॅशे अप्रचलित आहे"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â Ã Â¤ÂÃ Â¤Â§Ã Â¥ÂÃ Â¤Â¨Ã Â¤Â¿Ã Â¤Â"
+msgstr "कॅशे आहे आधुनिक"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â¥Ã Â¤Â¿Ã Â¤Â¤Ã Â¥Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "कॅशे स्थिती आहे"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¤Ã Â¤Â¨ Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â¸Ã Â¥ÂÃ Â¤Â¥Ã Â¤Â¿Ã Â¤Â¤Ã Â¥Â Ã Â¤Â¤Ã Â¤ÂªÃ Â¤Â¾Ã Â¤Â¸Ã Â¤Â¤"
+msgstr "एक अद्यतन उपस्थिती तपासत"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,239 +161,248 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale Ã Â¤ÂÃ Â¤ÂµÃ Â¥ÂÃ Â¤Â§ Ã Â¤ÂµÃ Â¤Â°Ã Â¥ÂÃ Â¤Â£ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â( Ã Â¤Â°Ã Â¥Â)"
+msgstr "Codice Fiscale अवैध वर्ण आहे( रे)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale Ã Â¤Â¨Ã Â¤Â¿Ã Â¤Â¯Ã Â¤ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â°Ã Â¤Â£ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¡ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â³Ã Â¤Â¤ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "Codice Fiscale नियंत्रण कोड जुळत नाही"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤ÂÃ Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾ P.IVA"
+msgstr "Codice Fiscale किंवा ग्राहकाच्या P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Ã Â¤ÂÃ Â¤ÂÃ Â¤ÂªÃ Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¾ Ã Â¤Â²Ã Â¥ÂÃ Â¤ÂÃ Â¥Â"
+msgstr "कंपनीचा लोगो"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "पासवर्ड पुष्टी"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â²Ã Â¥Â\\\" Ã Â¤Â¸Ã Â¤Â¾Ã Â¤Â®Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¿Ã Â¤Â\\\" Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â¤Ã Â¥Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¨, Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤Â¹Ã Â¥Â Ã Â¤Â¶Ã Â¥ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¯ Ã Â¤Â²Ã Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¨:"
+msgstr "आपली\\\" सामाजिक\\\" खाती वापरून, किंवा हे श्रेय लॉग इन:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Ã Â¤Â«Ã Â¥ÂÃ Â¤Â¸Ã Â¤Â¬Ã Â¥ÂÃ Â¤Â Ã Â¤Â¸Ã Â¤Â¹ Ã Â¤ÂÃ Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¾"
+msgstr "फेसबुक सह कनेक्ट करा"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Google+ Ã Â¤Â¸Ã Â¤Â¹ Ã Â¤ÂÃ Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¾"
+msgstr "Google+ सह कनेक्ट करा"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤ÂµÃ Â¤Â¿Ã Â¤ÂÃ Â¤Â° Ã Â¤Â¸Ã Â¤Â¹ Ã Â¤ÂÃ Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¾"
+msgstr "ट्विटर सह कनेक्ट करा"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "Ã Â¤Â¸Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â°Ã Â¥ÂÃ Â¤Â"
+msgstr "संपर्क"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Ã Â¤ÂµÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â¨ Ã Â¤Â­Ã Â¤Â¾Ã Â¤Â·Ã Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "वर्तमान भाषा आहे"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â"
+msgstr "ग्राहक"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â°Ã Â¥ÂÃ Â¤Â¡"
+msgstr "ग्राहक कार्ड"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â² Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "ग्राहक ईमेल पत्ता"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ"
+msgstr "ग्राहक नाव"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤Â«Ã Â¥ÂÃ Â¤Â¨ Ã Â¤Â¨Ã Â¤ÂÃ Â¤Â¬Ã Â¤Â°"
+msgstr "ग्राहक फोन नंबर"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â°Ã Â¥ÂÃ Â¤Â Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "ग्राहक मार्ग पत्ता"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤ÂÃ Â¤Â¾Ã Â¤ÂÃ Â¥Â Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â·Ã Â¤Â°Ã Â¥Â"
+msgstr "ग्राहकाची स्वाक्षरी"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â"
+msgstr "ग्राहक"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Ã Â¤Â¤Ã Â¤Â¾Ã Â¤Â°Ã Â¥ÂÃ Â¤Â"
+msgstr "तारीख"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â°Ã Â¤ÂÃ Â¤Â­ Ã Â¤Â¤Ã Â¤Â¾Ã Â¤Â°Ã Â¥ÂÃ Â¤Â"
+msgstr "सेवा प्रारंभ तारीख"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤Â¹Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾"
+msgstr "ग्राहक हटवा"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â² Ã Â¤Â¹Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾"
+msgstr "सेवा अहवाल हटवा"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â¹Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾"
+msgstr "वापरकर्ता हटवा"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¤Ã Â¤Â¨ Ã Â¤Â¡Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¨Ã Â¤Â²Ã Â¥ÂÃ Â¤Â¡ Ã Â¤ÂÃ Â¤Â°Ã Â¤Â£Ã Â¥Â"
+msgstr "एक अद्यतन डाउनलोड करणे"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â²Ã Â¤Â¾Ã Â¤ÂµÃ Â¤Â§Ã Â¥Â"
+msgstr "कालावधी"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â²Ã Â¤Â¾Ã Â¤ÂµÃ Â¤Â§Ã Â¥Â"
+msgstr "सेवा कालावधी"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ã Â¤Â¸Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â¾Ã Â¤Â¦Ã Â¤Â¨ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â"
+msgstr "संपादन ग्राहक"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Ã Â¤Â¸Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â¾Ã Â¤Â¦Ã Â¤Â¨ Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â²"
+msgstr "संपादन सेवा अहवाल"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â¸Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â¾Ã Â¤Â¦Ã Â¤Â¨ Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¾"
+msgstr "वापरकर्ता संपादन करा"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â²"
+msgstr "ईमेल"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â² Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "ईमेल पत्ता"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â² Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â§ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "ईमेल पत्ता वैध नाही"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â² Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "वापरकर्त्याचा ईमेल पत्ता"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â²"
+msgstr "वापरकर्त्याचा ईमेल"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Ã Â¤Â«Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â¸"
+msgstr "फॅक्स"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Ã Â¤Â«Ã Â¤Â¿Ã Â¤Â²Ã Â¥ÂÃ Â¤ÂÃ Â¤Â° Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤ÂÃ Â¤Â¾Ã Â¤ÂÃ Â¤Â¨Ã Â¤Â¾"
+msgstr "फिल्टर ग्राहकांना"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Ã Â¤Â«Ã Â¤Â¿Ã Â¤Â²Ã Â¥ÂÃ Â¤ÂÃ Â¤Â° Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â²"
+msgstr "फिल्टर सेवा अहवाल"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Ã Â¤Â«Ã Â¤Â¿Ã Â¤Â²Ã Â¥ÂÃ Â¤ÂÃ Â¤Â° Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥Â"
+msgstr "फिल्टर वापरकर्ते"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Ã Â¤Â®Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â·Ã Â¥ÂÃ Â¤Â "
+msgstr "मुख्यपृष्ठ"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "मी माझा पासवर्ड विसरलो"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "Ã Â¤ÂÃ Â¤Â¯Ã Â¤Â¡Ã Â¥Â"
+msgstr "आयडी"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ã Â¤Â¤Ã Â¥Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â, Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¡Ã Â¤Â° Ã Â¤ÂÃ Â¤Â£Ã Â¤Â¿ Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â² Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¯Ã Â¤ÂµÃ Â¤Â¸Ã Â¥ÂÃ Â¤Â¥Ã Â¤Â¾Ã Â¤ÂªÃ Â¤Â¨ Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â¨Ã Â¤ÂÃ Â¥Â Ã Â¤Â¦Ã Â¥ÂÃ Â¤Â¤Ã Â¥Â."
+msgstr "तो ग्राहक, ऑर्डर आणि सेवा अहवाल व्यवस्थापन परवानगी देतो."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â¨ Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¸, Ã Â¤ÂÃ Â¤Â²Ã Â¤Â¦, Ã Â¤ÂÃ Â¥ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤ÂªÃ Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â, Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â¢Ã Â¤ÂµÃ Â¤Â¤Ã Â¤Â¾, Ã Â¤Â¸Ã Â¤ÂÃ Â¤ÂµÃ Â¥ÂÃ Â¤Â¦Ã Â¤Â¨Ã Â¤ÂÃ Â¥ÂÃ Â¤Â·Ã Â¤Â®, Ã Â¤ÂÃ Â¤ÂÃ Â¤Â¤Ã Â¤Â°Ã Â¤Â°Ã Â¤Â¾Ã Â¤Â·Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¯ Ã Â¤ÂÃ Â¤Â£Ã Â¤Â¿ Ã Â¤Â®Ã Â¥ÂÃ Â¤Â¬Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â² Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â."
+msgstr "ओपन सोअर्स, जलद, कॉम्पॅक्ट, वाढवता, संवेदनक्षम, आंतरराष्ट्रीय आणि मोबाईल आहे."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â¥Ã Â¤Â¾Ã Â¤Â¨"
+msgstr "स्थान"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â¥Ã Â¤Â¾Ã Â¤Â¨"
+msgstr "सेवा स्थान"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¶ Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¾"
+msgstr "प्रवेश करा"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "Ã Â¤Â²Ã Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤ÂÃ Â¤Â"
+msgstr "लॉग आउट"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "Ã Â¤ÂÃ Â¤Â¨"
+msgstr "एन"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ"
+msgstr "नाव"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¥Â Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ"
+msgstr "वापरकर्त्याचे नाव"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Ã Â¤Â¨Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¨ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â"
+msgstr "नवीन ग्राहक"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Ã Â¤Â¨Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¨ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â²"
+msgstr "नवीन अहवाल"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Ã Â¤Â¨Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¨ Ã Â¤Â¯Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°"
+msgstr "नवीन युजर"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¯Ã Â¤Â¾Ã Â¤ÂµÃ Â¤Â¤ Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â¸Ã Â¥ÂÃ Â¤Â¥Ã Â¤Â¿Ã Â¤Â¤ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "नाही अद्ययावत उपस्थित आहे"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Ã Â¤ÂÃ Â¤Â¿Ã Â¤Âª"
+msgstr "टिप"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â®Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â"
+msgstr "क्रमांक"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â°Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°"
+msgstr "ऑपरेटर"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â°Ã Â¥ÂÃ Â¤ÂÃ Â¤Â°"
+msgstr "सेवा ऑपरेटर"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â°Ã Â¥ÂÃ Â¤ÂÃ Â¤Â° Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â·Ã Â¤Â°Ã Â¥Â"
+msgstr "ऑपरेटर स्वाक्षरी"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¡Ã Â¤Â°"
+msgstr "ऑर्डर"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA Ã Â¤ÂÃ Â¤ÂµÃ Â¥ÂÃ Â¤Â§ Ã Â¤ÂµÃ Â¤Â°Ã Â¥ÂÃ Â¤Â£ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â( Ã Â¤Â°Ã Â¥Â)"
+msgstr "P.IVA अवैध वर्ण आहे( रे)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA Ã Â¤Â¨Ã Â¤Â¿Ã Â¤Â¯Ã Â¤ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â°Ã Â¤Â£ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¡ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â³Ã Â¤Â¤ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "P.IVA नियंत्रण कोड जुळत नाही"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "पासवर्ड पुष्टी जुळत नाही"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "पासवर्ड पुष्टीकरण आवश्यक आहे"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "पासवर्ड ते पूर्णतया मजबूत नाही"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "Ã Â¤Â«Ã Â¥ÂÃ Â¤Â¨"
+msgstr "फोन"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Ã Â¤Â«Ã Â¥ÂÃ Â¤Â¨ Ã Â¤Â¨Ã Â¤ÂÃ Â¤Â¬Ã Â¤Â°"
+msgstr "फोन नंबर"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Ã Â¤Â«Ã Â¥ÂÃ Â¤Â¨ Ã Â¤Â¨Ã Â¤ÂÃ Â¤Â¬Ã Â¤Â° Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â§ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "फोन नंबर वैध नाही"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ã Â¤Â Ã Â¤Â¿Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â£"
+msgstr "ठिकाण"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Ã Â¤Â¤Ã Â¤Â¯Ã Â¤Â¾Ã Â¤Â°Ã Â¥Â Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¤Ã Â¤Â¨ Ã Â¤Â¡Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¨Ã Â¤Â²Ã Â¥ÂÃ Â¤Â¡"
+msgstr "तयारी एक अद्यतन डाउनलोड"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¿Ã Â¤ÂÃ Â¤Â"
+msgstr "प्रिंट"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¿Ã Â¤ÂÃ Â¤Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â"
+msgstr "प्रिंट ग्राहक"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Ã Â¤Â®Ã Â¥ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â°Ã Â¤Â£ Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¥ÂÃ Â¤Â¶Ã Â¥Â Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â²"
+msgstr "मुद्रण सेवेशी अहवाल"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¿Ã Â¤ÂÃ Â¤Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "प्रिंट वापरकर्ता"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¦Ã Â¤Â¾Ã Â¤Â¤Ã Â¤Â¾"
+msgstr "प्रदाता"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "Ã Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¦Ã Â¤Â£Ã Â¥Â"
+msgstr "नोंदणी"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "आपला पासवर्ड रीसेट करा"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Ã Â¤Â­Ã Â¥ÂÃ Â¤Â®Ã Â¤Â¿Ã Â¤ÂÃ Â¤Â¾"
+msgstr "भूमिका"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Ã Â¤Â¯Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤Â¸Ã Â¤Â¾Ã Â¤Â Ã Â¥Â Ã Â¤Â­Ã Â¥ÂÃ Â¤Â®Ã Â¤Â¿Ã Â¤ÂÃ Â¤Â¾; Ã Â¤Â¸Ã Â¤Â°Ã Â¥ÂÃ Â¤Âµ Ã Â¤Â°Ã Â¤Â¾Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â¯Ã Â¤Â¾ Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â§Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â®Ã Â¤Â¾Ã Â¤Â¤Ã Â¥ÂÃ Â¤Â¨ Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â²Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¡Ã Â¤Â®Ã Â¤Â§Ã Â¥ÂÃ Â¤Â¯Ã Â¥Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â²Ã Â¤Â¿Ã Â¤Â( RW Ã Â¤ÂÃ Â¤Â¸Ã Â¥Â-\\u003e Ã Â¤ÂÃ Â¤Â°-\\u003e Ã Â¤Âª-\\u003e Ã Â¤ÂÃ Â¤Â¾Ã Â¤Â¹Ã Â¥ÂÃ Â¤Â¹Ã Â¥Â Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â)"
+msgstr "या वापरकर्त्यासाठी भूमिका; सर्व राज्यांच्या माध्यमातून स्लाइडमध्ये क्लिक( RW असे-\\u003e आर-\\u003e प-\\u003e काहीही नाही)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â­Ã Â¥ÂÃ Â¤Â®Ã Â¤Â¿Ã Â¤ÂÃ Â¤Â¾: Ã Â¤Â¹Ã Â¤Â¿Ã Â¤Â°Ã Â¤ÂµÃ Â¤Â¾ Ã Â¤Â°Ã Â¤ÂÃ Â¤Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¤Â¨ Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â¨Ã Â¤ÂÃ Â¥Â Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¿Ã Â¤Â¤ Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¤Ã Â¥Â Ã Â¤ÂÃ Â¤Â£Ã Â¤Â¿ Ã Â¤Â²Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¨, Ã Â¤ÂªÃ Â¤Â¿Ã Â¤ÂµÃ Â¤Â³Ã Â¤Â¾ Ã Â¤Â®Ã Â¥ÂÃ Â¤Â¹Ã Â¤Â£Ã Â¤ÂÃ Â¥Â Ã Â¤Â«Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¤ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¤Â¾, Ã Â¤Â¨Ã Â¤Â¿Ã Â¤Â³Ã Â¤Â¾ Ã Â¤Â«Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¤ Ã Â¤Â²Ã Â¤Â¿Ã Â¤Â¹Ã Â¤Â¾, Ã Â¤ÂÃ Â¤Â£Ã Â¤Â¿ Ã Â¤ÂÃ Â¥ÂÃ Â¤Â£Ã Â¤Â¤Ã Â¥ÂÃ Â¤Â¹Ã Â¥Â Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â¨Ã Â¤ÂÃ Â¥Â Ã Â¤Â²Ã Â¤Â¾Ã Â¤Â². Ã Â¤ÂµÃ Â¤Â¿Ã Â¤Â­Ã Â¤Â¾Ã Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥ÂÃ Â¤Â¤:' Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â®'( Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥Â),'C'( Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â),' Ã Â¤Â'( Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¶),'Ã Â¤ÂÃ Â¤Â¸'( Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â²)."
+msgstr "वापरकर्ता भूमिका: हिरवा रंग वाचन परवानगी सूचित करतो आणि लेखन, पिवळा म्हणजे फक्त वाचा, निळा फक्त लिहा, आणि कोणतीही परवानगी लाल. विभाग आहेत:' नाम'( वापरकर्ते),'C'( ग्राहक),' ओ'( आदेश),'एस'( सेवा अहवाल)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "Ã Â¤ÂÃ Â¤Â¤Ã Â¤Â¨ Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¾"
+msgstr "जतन करा"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â²"
+msgstr "सेवा अहवाल"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â² Ã Â¤ÂÃ Â¤Â¨"
+msgstr "सेवा अहवाल एन"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¤ÂµÃ Â¤Â¾Ã Â¤Â²"
+msgstr "सेवा अहवाल"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂÃ Â¤ÂÃ Â¤Âª"
+msgstr "सेटअप"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "स्ट्रीट पत्ता"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ã Â¤Â¹Ã Â¥Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ Ã Â¤ÂÃ Â¤Â§Ã Â¥ÂÃ Â¤Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¤ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "हे ग्राहक नाव आधीच वापरात आहे"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ã Â¤Â¹Ã Â¥Â Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â§ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "हे ग्राहक नाव वैध नाही"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ã Â¤Â¹Ã Â¤Â¾ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "हा आहे"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ã Â¤Â¹Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¥Â Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤Â²Ã Â¤Â¿Ã Â¤Â¹Ã Â¥Â Ã Â¤Â¶Ã Â¤ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "हा वापरकर्ता किंवा वाचू किंवा लिहू शकता"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ã Â¤Â¹Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¥Â Ã Â¤Â¶Ã Â¤ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "हा वापरकर्ता वाचू शकता"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ã Â¤Â¹Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂÃ Â¥Â Ã Â¤ÂÃ Â¤Â£Ã Â¤Â¿ Ã Â¤Â²Ã Â¤Â¿Ã Â¤Â¹Ã Â¥Â Ã Â¤Â¶Ã Â¤ÂÃ Â¤Â¤ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "हा वापरकर्ता वाचू आणि लिहू शकत नाही"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ã Â¤Â¹Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â²Ã Â¤Â¿Ã Â¤Â¹Ã Â¥Â Ã Â¤Â¶Ã Â¤ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "हा वापरकर्ता लिहू शकता"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ã Â¤Â¹Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¶ Ã Â¤ÂÃ Â¤Â°Ã Â¥Â Ã Â¤Â¶Ã Â¤ÂÃ Â¤Â¤ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "हा वापरकर्ता प्रवेश करू शकत नाही"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ã Â¤Â¹Ã Â¥Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ Ã Â¤ÂÃ Â¤Â§Ã Â¥ÂÃ Â¤Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¤ Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â"
+msgstr "हे वापरकर्ता नाव आधीच वापरात आहे"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "हे वापरकर्ता नाव यापूर्वीच घेतले जाते"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ã Â¤Â¹Ã Â¥Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â§ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Â¹Ã Â¥Â"
+msgstr "हे वापरकर्ता नाव वैध नाही"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ã Â¤Â¹Ã Â¥Â Ã Â¤Â®Ã Â¥ÂÃ Â¤Â²Ã Â¥ÂÃ Â¤Â¯ Ã Â¤ÂÃ Â¤Â Codice Fiscale Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾ P.IVA Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â Ã Â¤ÂÃ Â¤Â¿Ã Â¤ÂÃ Â¤ÂµÃ Â¤Â¾"
+msgstr "हे मूल्य एक Codice Fiscale किंवा P.IVA आहे किंवा"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂµÃ Â¤Â¾ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â°Ã Â¤ÂÃ Â¤Â­ Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â³"
+msgstr "सेवा प्रारंभ वेळ"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤ÂÃ Â¤Â² Ã Â¤Â¸Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¾Ã Â¤Â²Ã Â¤Â¨"
+msgstr "टॉगल सुचालन"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤ÂÃ Â¤Â®Ã Â¥ÂÃ Â¤Â² Ã Â¤ÂªÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "वापरकर्ता ईमेल पत्ता"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾ Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ"
+msgstr "वापरकर्ता नाव"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "वापरकर्ता नाव वैध नाही"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ"
+msgstr "वापरकर्तानाव"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "वापरकर्तानाव/ ईमेल"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥Â"
+msgstr "वापरकर्ते"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â£ Ã Â¤ÂÃ Â¤Â«Ã Â¤Â²Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¨ Ã Â¤ÂÃ Â¤Â¹Ã Â¤Â¾Ã Â¤Â¤"
+msgstr "आपण ऑफलाइन आहात"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¤Â£ Ã Â¤ÂÃ Â¤Â¨Ã Â¤Â²Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¨ Ã Â¤ÂÃ Â¤Â¹Ã Â¤Â¾Ã Â¤Â¤"
+msgstr "आपण ऑनलाइन आहात"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "आपले ईमेल"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "आपला संकेतशब्द"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "आपला पासवर्ड, पुन्हा"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "आपले वापरकर्ता नाव"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "आपले वापरकर्तानाव किंवा ईमेल"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â¶"
+msgstr "कॅश"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "Ã Â¤Â°Ã Â¤Â¦Ã Â¥ÂÃ Â¤Â¦"
+msgstr "रद्द"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "Ã Â¤Â¤Ã Â¤ÂªÃ Â¤Â¾Ã Â¤Â¸Ã Â¤Â£Ã Â¥Â"
+msgstr "तपासणी"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Ã Â¤ÂÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â¹Ã Â¤Â"
+msgstr "ग्राहक"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Ã Â¤Â¡Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¨Ã Â¤Â²Ã Â¥ÂÃ Â¤Â¡"
+msgstr "डाउनलोड"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Ã Â¤Â¤Ã Â¥ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤ÂÃ Â¥Â"
+msgstr "त्रुटी"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Ã Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¦Ã Â¤Â£Ã Â¥Â Ã Â¤Â¨Ã Â¤Â¸Ã Â¤Â²Ã Â¥ÂÃ Â¤Â²Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¸Ã Â¤Â¾Ã Â¤Â Ã Â¥Â Ã Â¤Â¹Ã Â¥ÂÃ Â¤Â® Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â."
+msgstr "नोंदणी नसलेल्या वापरकर्त्यांसाठी होम पेज."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "Ã Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¦Ã Â¤Â£Ã Â¥ÂÃ Â¤ÂÃ Â¥ÂÃ Â¤Â¤ Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¾Ã Â¤ÂÃ Â¤Â¸Ã Â¤Â¾Ã Â¤Â Ã Â¥Â Ã Â¤Â¹Ã Â¥ÂÃ Â¤Â® Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â."
+#, 
+msgid "home page for registered users."
+msgstr "नोंदणीकृत सदस्यांना होम पेज."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â°Ã Â¥Â"
+msgstr "सुरू"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "( Ã Â¤Â¸Ã Â¥ÂÃ Â¤Â®Ã Â¤Â¾Ã Â¤Â°Ã Â¥ÂÃ Â¤Â) Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¾Ã Â¤Â°Ã Â¤ÂÃ Â¤Â­ Ã Â¤ÂÃ Â¤Âª Ã Â¤ÂÃ Â¤Â Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¬ Ã Â¤ÂÃ Â¤Â¨Ã Â¥ÂÃ Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤Â¯Ã Â¥ÂÃ Â¤Â Ã Â¤ÂÃ Â¤Â¹Ã Â¥Â."
+msgstr "( स्मार्ट) प्रारंभ अप एक वेब अनुप्रयोग आहे."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Ã Â¤Â²Ã Â¥ÂÃ Â¤Â Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾"
+msgstr "लॉग वापरकर्ता"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "Ã Â¤ÂÃ Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤ÂÃ Â¤Â²Ã Â¤Â¿Ã Â¤Â¤"
+msgstr "अप्रचलित"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Ã Â¤ÂÃ Â¤Â¦Ã Â¥ÂÃ Â¤Â¶"
+msgstr "आदेश"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "Ã Â¤ÂÃ Â¤Â¨Ã Â¥ÂÃ Â¤Â¯Ã Â¤Â¥Ã Â¤Â¾ Ã Â¤ÂÃ Â¤Â Ã Â¤Â¨Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¨ accout Ã Â¤Â¨Ã Â¥ÂÃ Â¤ÂÃ Â¤Â¦Ã Â¤Â£Ã Â¥Â Ã Â¤ÂÃ Â¤Â£Ã Â¤Â¿ Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤ÂµÃ Â¥ÂÃ Â¤Â¶ Ã Â¤ÂÃ Â¤Â°Ã Â¤Â¾."
+msgstr "अन्यथा एक नवीन accout नोंदणी आणि प्रवेश करा."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Ã Â¤ÂªÃ Â¤Â¾Ã Â¤Â¸Ã Â¤ÂµÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¡:"
+msgstr "पासवर्ड:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Ã Â¤ÂªÃ Â¥ÂÃ Â¤Â°Ã Â¤ÂÃ Â¤Â¤Ã Â¥Â"
+msgstr "प्रगती"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¤Â¾Ã Â¤Â¨Ã Â¤Â¾Ã Â¤Âµ:"
+msgstr "वापरकर्तानाव:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Ã Â¤ÂµÃ Â¤Â¾Ã Â¤ÂªÃ Â¤Â°Ã Â¤ÂÃ Â¤Â°Ã Â¥ÂÃ Â¤Â¤Ã Â¥Â"
+msgstr "वापरकर्ते"

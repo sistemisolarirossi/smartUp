@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: mt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: mt\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,15 +17,15 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "A Kodi\\u010Bi Fiskali jew P.IVA huwa me\\u0127tie\\u0121"
+msgstr "A Kodiċi Fiskali jew P.IVA huwa meħtieġ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "A klijent isem huwa me\\u0127tie\\u0121"
+msgstr "A klijent isem huwa meħtieġ"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "A data tal-bidu tas-servizz hija me\\u0127tie\\u0121a"
+msgstr "A data tal-bidu tas-servizz hija meħtieġa"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
@@ -33,19 +33,23 @@ msgstr "A dewmien iridu jkunu fil-forma\\\" hh\\\" jew\\\" hh: mm\\\", u mill-in
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "A post tas-servizz tkun me\\u0127tie\\u0121a"
+msgstr "A post tas-servizz tkun meħtieġa"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "A password hija meħtieġa"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Numru tat-telefon huwa me\\u0127tie\\u0121"
+msgstr "Numru tat-telefon huwa meħtieġ"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "A indirizz tat-triq hija me\\u0127tie\\u0121a"
+msgstr "A indirizz tat-triq hija meħtieġa"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "A isem l-utent huwa me\\u0127tie\\u0121"
+msgstr "A isem l-utent huwa meħtieġ"
 
 #: app/views/nav.html
 msgid "About"
@@ -53,39 +57,39 @@ msgstr "Dwar"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "\\u017Bid klijent\\u0121did"
+msgstr "Żid klijent ġdid"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "\\u017Bid utent\\u0121did"
+msgstr "Żid utent ġdid"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
 msgstr "Indirizz"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "L-indirizz email hija me\\u0127tie\\u0121a"
+msgstr "L-indirizz email hija meħtieġa"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Operatur hija me\\u0127tie\\u0121a"
+msgstr "Operatur hija meħtieġa"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "A\\u0121\\u0121ornament huwa disponibbli: tridu tag\\u0127bija issa?"
+msgstr "Aġġornament huwa disponibbli: tridu tagħbija issa?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "A\\u0121\\u0121ornament hija lesta"
+msgstr "Aġġornament hija lesta"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Int verament\\u017Cgur li tne\\u0127\\u0127i rapport tas-servizz"
+msgstr "Int verament żgur li tneħħi rapport tas-servizz"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Int verament\\u017Cgur li tne\\u0127\\u0127i l-utent"
+msgstr "Int verament żgur li tneħħi l-utent"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -105,7 +109,7 @@ msgstr "Fornitur awtentikazzjoni"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Fornitur Awtentikazzjoni g\\u0127all-utent"
+msgstr "Fornitur Awtentikazzjoni għall-utent"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -113,7 +117,7 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Imma\\u0121ni Avatar tal- utent"
+msgstr "Immaġni Avatar tal- utent"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,19 +125,19 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Cache qed ji\\u0121i initialized"
+msgstr "Cache qed jiġi initialized"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Cache huwa fl-istat mhux mag\\u0127ruf"
+msgstr "Cache huwa fl-istat mhux magħruf"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache ma hux a\\u0121\\u0121ornat( probabbilment l- manifest huwa unreachable)"
+msgstr "Cache ma hux aġġornat( probabbilment l- manifest huwa unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache ma hux a\\u0121\\u0121ornat g\\u0127aliex inti offline"
+msgstr "Cache ma hux aġġornat għaliex inti offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -149,43 +153,47 @@ msgstr "Istatus Cache hija"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "I\\u010B\\u010Bekkjar g\\u0127all-pre\\u017Cenza ta'a\\u0121\\u0121ornament"
+msgstr "Iċċekkjar għall-preżenza ta'aġġornament"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Kodi\\u010Bi Fiskali/ P.IVA"
+msgstr "Kodiċi Fiskali/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Kodi\\u010Bi Fiskali fih karattru invalida( i)"
+msgstr "Kodiċi Fiskali fih karattru invalida( i)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Kodi\\u010Bi kontroll Kodi\\u010Bi Fiskali ma taqbilx ma'"
+msgstr "Kodiċi kontroll Kodiċi Fiskali ma taqbilx ma'"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Kodi\\u010Bi Fiskali jew P.IVA tal-klijent"
+msgstr "Kodiċi Fiskali jew P.IVA tal-klijent"
 
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Logo Company"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Ikkonferma password"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Qabbad ju\\u017Ca wa\\u0127da mill tieg\\u0127ek kontijiet\\\" so\\u010Bjali\\\", jew il-login ma'dawn kredenzjali:"
+msgstr "Qabbad juża waħda mill tiegħek kontijiet\\\" soċjali\\\", jew il-login ma'dawn kredenzjali:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Wa\\u0127\\u0127al ma Facebook"
+msgstr "Waħħal ma Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Wa\\u0127\\u0127al ma Google+"
+msgstr "Waħħal ma Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Wa\\u0127\\u0127al ma Twitter"
+msgstr "Waħħal ma Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -193,7 +201,7 @@ msgstr "Kuntatti"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Lingwa\\u0121\\u0121 kurrenti"
+msgstr "Lingwaġġ kurrenti"
 
 #: app/views/serviceReports.html
 msgid "Customer"
@@ -237,19 +245,19 @@ msgstr "Data tal- bidu tas-servizz"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0126assar klijent"
+msgstr "Ħassar klijent"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u0126assar rapport tas-servizz"
+msgstr "Ħassar rapport tas-servizz"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "\\u0126assar utent"
+msgstr "Ħassar utent"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Tni\\u017C\\u017Cil a\\u0121\\u0121ornament"
+msgstr "Tniżżil aġġornament"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -271,7 +279,8 @@ msgstr "Rapport tas-servizz Edit"
 msgid "Edit user"
 msgstr "Utent Edit"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
@@ -279,7 +288,7 @@ msgstr "Email"
 msgid "Email address"
 msgstr "Indirizz email"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "Indirizz Email mhix valida"
 
@@ -311,17 +320,21 @@ msgstr "Utenti Iffiltra"
 msgid "Home"
 msgstr "Home"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Insejt il-password tiegħi"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Hija tippermetti l-\\u0121estjoni tal-klijenti, ordnijiet u rapporti tas-servizz."
+msgstr "Hija tippermetti l- ġestjoni tal-klijenti, ordnijiet u rapporti tas-servizz."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Huwa open-source, fast, kumpatti, extensible, re\\u017Ciljenti, internazzjonali u mobbli."
+msgstr "Huwa open-source, fast, kumpatti, extensible, reżiljenti, internazzjonali u mobbli."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -331,7 +344,7 @@ msgstr "Post"
 msgid "Location of service"
 msgstr "Post ta'servizz"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Log in"
 
@@ -353,19 +366,19 @@ msgstr "Isem tal-utent"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Klijent\\u0121did"
+msgstr "Klijent ġdid"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Rapport\\u0121did"
+msgstr "Rapport ġdid"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Utent\\u0121did"
+msgstr "Utent ġdid"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Nru a\\u0121\\u0121ornament huwa pre\\u017Centi"
+msgstr "Nru aġġornament huwa preżenti"
 
 #: app/views/serviceReports.html
 msgid "Notes"
@@ -401,7 +414,23 @@ msgstr "P.IVA fih karattru invalida( i)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "Kodi\\u010Bi kontroll P.IVA ma taqbilx ma'"
+msgstr "Kodiċi kontroll P.IVA ma taqbilx ma'"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Password"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Konferma Password ma taqbilx ma'"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Konferma Password hija meħtieġa"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Password mhix b'saħħitha biżżejjed"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -421,7 +450,7 @@ msgstr "Post"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "T\\u0127ejjija g\\u0127all- tni\\u017C\\u017Cil a\\u0121\\u0121ornament"
+msgstr "Tħejjija għall- tniżżil aġġornament"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -443,9 +472,13 @@ msgstr "Utent Stampa"
 msgid "Provider"
 msgstr "Provider"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "Re\\u0121istru"
+msgstr "Reġistru"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Irrisettja password tiegħek"
 
 #: app/views/users.html
 msgid "Roles"
@@ -453,11 +486,11 @@ msgstr "Rwoli"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Rwoli g\\u0127al dan l-utent; ikklikkja biex slide permezz istati kollha( RW-\\u003e R-\\u003e W-\\u003e xejn)"
+msgstr "Rwoli għal dan l-utent; ikklikkja biex slide permezz istati kollha( RW-\\u003e R-\\u003e W-\\u003e xejn)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Rwoli ta' l-utent: kulur a\\u0127dar jindika permess g\\u0127all jaqraw u jiktbu, mezzi isfar jinqara biss, blu jiktbu biss, u a\\u0127mar ebda permess. Taqsimiet huma:\\\"U\\\"(utenti),\\\" c\\\"(klijenti),\\\"O\\\"( ordnijiet),\\\"S\\\"(rapporti tas-servizz)."
+msgstr "Rwoli ta' l-utent: kulur aħdar jindika permess għall jaqraw u jiktbu, mezzi isfar jinqara biss, blu jiktbu biss, u aħmar ebda permess. Taqsimiet huma:\\\"U\\\"(utenti),\\\" c\\\"(klijenti),\\\"O\\\"( ordnijiet),\\\"S\\\"(rapporti tas-servizz)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -485,7 +518,7 @@ msgstr "Indirizz tat-triq"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Dan l-isem tal-klijent hija di\\u0121à fl-u\\u017Cu"
+msgstr "Dan l-isem tal-klijent hija diġà fl-użu"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
@@ -505,7 +538,7 @@ msgstr "Dan l-utent tista'taqra"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Dan l-utent jistg\\u0127u jaqraw u jiktbu"
+msgstr "Dan l-utent jistgħu jaqraw u jiktbu"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
@@ -513,11 +546,15 @@ msgstr "Dan l-utent jista'jikteb"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Dan l-utent ma jistg\\u0127ux ikollhom a\\u010B\\u010Bess"
+msgstr "Dan l-utent ma jistgħux ikollhom aċċess"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Dan l-isem l-utent huwa di\\u0121à fl-u\\u017Cu"
+msgstr "Dan l-isem l-utent huwa diġà fl-użu"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Dan l-isem l-utent huwa diġà ttieħdu"
 
 #: app/views/users.html
 msgid "This user name is not valid"
@@ -529,7 +566,7 @@ msgstr "Dan il-valur huwa lanqas Fiskali Codice lanqas P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "\\u0126in tal-bidu tas-servizz"
+msgstr "Ħin tal-bidu tas-servizz"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
@@ -543,9 +580,17 @@ msgstr "Indirizz email User"
 msgid "User name"
 msgstr "Isem l-utent"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Isem l-utent mhuwiex validu"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Username"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Username/ Email"
 
 #: app/views/nav.html
 msgid "Users"
@@ -559,13 +604,33 @@ msgstr "Inti offline"
 msgid "You are online"
 msgstr "Inti online"
 
+#: app/views/register.html
+msgid "Your email"
+msgstr "Your email"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Password Your"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Password tiegħek, għal darb'oħra"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Isem l-utent tiegħek"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Username jew email"
+
 #: app/scripts/app.js
 msgid "cached"
 msgstr "cached"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "tikkan\\u010Bella"
+msgstr "tikkanċella"
 
 #: app/scripts/app.js
 msgid "checking"
@@ -577,19 +642,20 @@ msgstr "klijenti"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "tni\\u017C\\u017Cil"
+msgstr "tniżżil"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "\\u017Cball"
+msgstr "żball"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "home page g\\u0127all-utenti mhux re\\u0121istrati."
+msgstr "home page għall-utenti mhux reġistrati."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "home page g\\u0127all-utenti registerd."
+#, 
+msgid "home page for registered users."
+msgstr "home page għall-utenti reġistrati."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -597,7 +663,7 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "hija applikazzjoni web g\\u0127all( smart) start- ups."
+msgstr "hija applikazzjoni web għall( smart) start- ups."
 
 #: app/views/nav.html
 msgid "logged user"
@@ -613,7 +679,7 @@ msgstr "ordnijiet"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "inkella tirre\\u0121istra accout\\u0121did u l-log fil."
+msgstr "inkella tirreġistra accout ġdid u l-log fil."
 
 #: app/views/home.html
 msgid "password:"

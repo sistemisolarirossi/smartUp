@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: af\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -35,6 +35,10 @@ msgstr "'N duur moet in die vorm' HH' wees of' hh: mm', en ten minste een minuut
 msgid "A location of service is required"
 msgstr "'N plek van die diens vereis"
 
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Die wagwoord is nodig"
+
 #: app/views/customers.html
 msgid "A phone number is required"
 msgstr "'N telefoonnommer is nodig"
@@ -43,7 +47,7 @@ msgstr "'N telefoonnommer is nodig"
 msgid "A street address is required"
 msgstr "'N straat adres is nodig"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "'N gebruiker naam vereis"
 
@@ -63,7 +67,7 @@ msgstr "Voeg nuwe gebruiker"
 msgid "Address"
 msgstr "Adres"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
 msgstr "'N e-pos adres is nodig"
 
@@ -171,6 +175,10 @@ msgstr "Codice Fiscale of IVA van die kliënt"
 msgid "Company logo"
 msgstr "Maatskappy se logo"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Bevestig wagwoord"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
 msgstr "Verbind met een van jou\\\"sosiale\\\" rekeninge, of teken in hierdie geloofsbriewe:"
@@ -271,7 +279,8 @@ msgstr "Diens verslag wysig"
 msgid "Edit user"
 msgstr "Wysig gebruiker"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "E-pos"
 
@@ -279,7 +288,7 @@ msgstr "E-pos"
 msgid "Email address"
 msgstr "E-posadres"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "E-pos adres is nie geldig nie"
 
@@ -311,13 +320,17 @@ msgstr "Filter gebruikers"
 msgid "Home"
 msgstr "Huis"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Ek het my wagwoord vergeet"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Dit laat die bestuur van kliënte, bestellings en diens verslae."
+msgstr "Dit laat die bestuur van kliënte, bestellings en ​​diens verslae."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
@@ -331,7 +344,7 @@ msgstr "Plek"
 msgid "Location of service"
 msgstr "Plek van die diens"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Teken in"
 
@@ -403,6 +416,22 @@ msgstr "IVA bevat ongeldige karakter(s)"
 msgid "P.IVA control code doesn't match"
 msgstr "IVA beheer kode kom nie ooreen"
 
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Wagwoord"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Wagwoord bevestiging nie ooreenstem"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Wagwoord bevestiging vereis"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Wagwoord is nie sterk genoeg"
+
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
 msgstr "Phone"
@@ -443,9 +472,13 @@ msgstr "Print gebruiker"
 msgid "Provider"
 msgstr "Verskaffer"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Register"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Herstel jou wagwoord"
 
 #: app/views/users.html
 msgid "Roles"
@@ -519,6 +552,10 @@ msgstr "Hierdie gebruiker kan nie toegang tot"
 msgid "This user name is already in use"
 msgstr "Hierdie gebruiker naam is reeds in gebruik"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Hierdie gebruiker naam is reeds geneem"
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr "Hierdie gebruiker se naam is nie geldig nie"
@@ -543,9 +580,17 @@ msgstr "Gebruiker e-pos adres"
 msgid "User name"
 msgstr "Bynaam"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Gebruiker naam is nie geldig nie"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Gebruikersnaam"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Gebruikersnaam/ e-pos"
 
 #: app/views/nav.html
 msgid "Users"
@@ -558,6 +603,26 @@ msgstr "Jy is op die regte pad"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "Jy is aanlyn"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Jou e-pos"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Jou wagwoord"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Jou wagwoord weer"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Jou gebruiker naam"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Jou gebruikersnaam of e-pos"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -588,7 +653,8 @@ msgid "home page for non registered users."
 msgstr "tuisblad vir nie geregistreerde gebruikers."
 
 #: app/views/home.html
-msgid "home page for registerd users."
+#, 
+msgid "home page for registered users."
 msgstr "tuisblad vir geregistreerde gebruikers."
 
 #: app/scripts/app.js

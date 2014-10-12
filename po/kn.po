@@ -1,119 +1,123 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: defaultAppName\n"
+"Project-Id-Version: smartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "(\\u0CB9\\u0CC6\\u0C9A\\u0CCD\\u0CB9\\u0CC6\\u0C9A\\u0CCD:\\u0CAE\\u0CBF\\u0CAE\\u0CBF\\u0CD5)"
+msgstr "(ಹೆಚ್ಹೆಚ್: ಮಿಮೀ)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C95\\u0CC6\\u0CC2\\u0CA1\\u0CBF\\u0CB8\\u0CCD Fiscale\\u0C85\\u0CA5\\u0CB5\\u0CBE P.IVA\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ಕೊಡಿಸ್ Fiscale ಅಥವಾ P.IVA ಅಗತ್ಯವಿದೆ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ಗ್ರಾಹಕ ಹೆಸರು ಅಗತ್ಯವಿದೆ"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0C86\\u0CB0\\u0C82\\u0CAD\\u0CA6\\u0CBF\\u0CA8\\u0CBE\\u0C82\\u0C95\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಸೇವೆ ಆರಂಭ ದಿನಾಂಕ ಅಗತ್ಯವಿದೆ"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C85\\u0CB5\\u0CA7\\u0CBF\\u0CAF\\u0CA8\\u0CCD\\u0CA8\\u0CC1' HH'\\u0CB0\\u0CC2\\u0CAA\\u0CA6\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0C85\\u0CA5\\u0CB5\\u0CBE\\u0CAE\\u0CBE\\u0CA1\\u0CAC\\u0CC6\\u0CD5\\u0C95\\u0CC1' HH:\\u0C8E\\u0C82\\u0C8E\\u0C82',\\u0CAE\\u0CA4\\u0CCD\\u0CA4\\u0CC1\\u0C95\\u0CA8\\u0CBF\\u0CB7\\u0CCD\\u0CA0\\u0CAA\\u0C95\\u0CCD\\u0CB7\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CA8\\u0CBF\\u0CAE\\u0CBF\\u0CB7\\u0C95\\u0CBE\\u0CB2"
+msgstr "ಒಂದು ಅವಧಿಯನ್ನು' HH' ರೂಪದಲ್ಲಿ ಅಥವಾ ಮಾಡಬೇಕು' HH: ಎಂಎಂ', ಮತ್ತು ಕನಿಷ್ಠ ಪಕ್ಷ ಒಂದು ನಿಮಿಷ ಕಾಲ"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CAF\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CB8\\u0CCD\\u0CA5\\u0CB3\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಸೇವೆಯ ಒಂದು ಸ್ಥಳ ಅಗತ್ಯವಿದೆ"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "ಒಂದು ಪಾಸ್ವರ್ಡ್ ಅಗತ್ಯವಿದೆ"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CAB\\u0CC6\\u0CC2\\u0CD5\\u0CA8\\u0CCD\\u0CB8\\u0C82\\u0C96\\u0CCD\\u0CAF\\u0CC6\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ಫೋನ್ ಸಂಖ್ಯೆ ಅಗತ್ಯವಿದೆ"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CB0\\u0CB8\\u0CCD\\u0CA4\\u0CC6\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ರಸ್ತೆಯಲ್ಲಿ ವಿಳಾಸ ಅಗತ್ಯವಿದೆ"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ಬಳಕೆದಾರ ಹೆಸರು ಅಗತ್ಯವಿದೆ"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "\\u0CAC\\u0C97\\u0CCD\\u0C97\\u0CC6"
+msgstr "ಬಗ್ಗೆ"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "\\u0CB9\\u0CC6\\u0CC2\\u0CB8\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB8\\u0CC6\\u0CD5\\u0CB0\\u0CBF\\u0CB8\\u0CBF"
+msgstr "ಹೊಸ ಗ್ರಾಹಕ ಸೇರಿಸಿ"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "\\u0CB9\\u0CC6\\u0CC2\\u0CB8\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CA8\\u0CA8\\u0CCD\\u0CA8\\u0CC1\\u0CB8\\u0CC6\\u0CD5\\u0CB0\\u0CBF\\u0CB8\\u0CBF"
+msgstr "ಹೊಸ ಬಳಕೆದಾರನನ್ನು ಸೇರಿಸಿ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8"
+msgstr "ವಿಳಾಸ"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8\\u0C95\\u0CCD\\u0C95\\u0CC6\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಇಮೇಲ್ ವಿಳಾಸಕ್ಕೆ ಅಗತ್ಯವಿದೆ"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C86\\u0CAF\\u0CC6\\u0CC2\\u0CD5\\u0C9C\\u0C95\\u0CB0\\u0CC1\\u0C85\\u0C97\\u0CA4\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ಆಯೋಜಕರು ಅಗತ್ಯವಿದೆ"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CA8\\u0CB5\\u0CBF\\u0CD5\\u0C95\\u0CB0\\u0CA3\\u0CB2\\u0CAD\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CA6\\u0CC6:\\u0CA8\\u0CBF\\u0CD5\\u0CB5\\u0CC1\\u0C88\\u0C97\\u0C85\\u0CA6\\u0CA8\\u0CCD\\u0CA8\\u0CC1\\u0CB2\\u0CC6\\u0CC2\\u0CD5\\u0CA1\\u0CCD\\u0CAE\\u0CBE\\u0CA1\\u0CB2\\u0CC1\\u0CAC\\u0CAF\\u0CB8\\u0CC1\\u0CA4\\u0CCD\\u0CA4\\u0CBF\\u0CD5\\u0CB0\\u0CBF?"
+msgstr "ಒಂದು ನವೀಕರಣ ಲಭ್ಯವಿದೆ: ನೀವು ಈಗ ಅದನ್ನು ಲೋಡ್ ಮಾಡಲು ಬಯಸುತ್ತೀರಿ?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C85\\u0CAA\\u0CCD\\u0CA1\\u0CC6\\u0CD5\\u0C9F\\u0CCD\\u0CB8\\u0CBF\\u0CA6\\u0CCD\\u0CA7\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ಅಪ್ಡೇಟ್ ಸಿದ್ಧವಾಗಿದೆ"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "\\u0CA8\\u0CBF\\u0CD5\\u0CB5\\u0CC1\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF\\u0CA4\\u0CC6\\u0C97\\u0CC6\\u0CA6\\u0CC1\\u0CB9\\u0CBE\\u0C95\\u0CC1\\u0CB5\\u0CC1\\u0CA6\\u0CC1\\u0C96\\u0C9A\\u0CBF\\u0CA4\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CB0\\u0CC1\\u0CB5\\u0CBF\\u0CB0\\u0CBE"
+msgstr "ನೀವು ಸೇವೆ ವರದಿ ತೆಗೆದುಹಾಕುವುದು ಖಚಿತವಾಗಿರುವಿರಾ"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "\\u0CA8\\u0CBF\\u0CD5\\u0CB5\\u0CC1\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CA4\\u0CC6\\u0C97\\u0CC6\\u0CA6\\u0CC1\\u0CB9\\u0CBE\\u0C95\\u0CC1\\u0CB5\\u0CC1\\u0CA6\\u0CC1\\u0C96\\u0C9A\\u0CBF\\u0CA4\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CB0\\u0CC1\\u0CB5\\u0CBF\\u0CB0\\u0CBE"
+msgstr "ನೀವು ಬಳಕೆದಾರ ತೆಗೆದುಹಾಕುವುದು ಖಚಿತವಾಗಿರುವಿರಾ"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "\\u0CA6\\u0CC3\\u0CA2\\u0CBF\\u0CD5\\u0C95\\u0CB0\\u0CA3\\u0C90\\u0CA1\\u0CBF"
+msgstr "ದೃಢೀಕರಣ ಐಡಿ"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CA8\\u0CA6\\u0CC3\\u0CA2\\u0CBF\\u0CD5\\u0C95\\u0CB0\\u0CA3\\u0C90\\u0CA1\\u0CBF"
+msgstr "ಬಳಕೆದಾರನ ದೃಢೀಕರಣ ಐಡಿ"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "\\u0CA6\\u0CC3\\u0CA2\\u0CBF\\u0CD5\\u0C95\\u0CB0\\u0CA3\\u0C90\\u0CA1\\u0CBF:"
+msgstr "ದೃಢೀಕರಣ ಐಡಿ:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "\\u0CA6\\u0CC3\\u0CA2\\u0CBF\\u0CD5\\u0C95\\u0CB0\\u0CA3\\u0C92\\u0CA6\\u0C97\\u0CBF\\u0CB8\\u0CC1\\u0CB5\\u0CB5\\u0CB0\\u0CC1"
+msgstr "ದೃಢೀಕರಣ ಒದಗಿಸುವವರು"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CA6\\u0CC3\\u0CA2\\u0CBF\\u0CD5\\u0C95\\u0CB0\\u0CA3\\u0C92\\u0CA6\\u0C97\\u0CBF\\u0CB8\\u0CC1\\u0CB5\\u0CB5\\u0CB0\\u0CC1"
+msgstr "ಬಳಕೆದಾರ ದೃಢೀಕರಣ ಒದಗಿಸುವವರು"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "\\u0C85\\u0CB5\\u0CA4\\u0CBE\\u0CB0\\u0CCD"
+msgstr "ಅವತಾರ್"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CA8\\u0C85\\u0CB5\\u0CA4\\u0CBE\\u0CB0\\u0CCD\\u0C9A\\u0CBF\\u0CA4\\u0CCD\\u0CB0"
+msgstr "ಬಳಕೆದಾರನ ಅವತಾರ್ ಚಿತ್ರ"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,275 +125,284 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9\\u0C86\\u0CB0\\u0C82\\u0CAD\\u0CBF\\u0CB8\\u0CB2\\u0CBE\\u0C97\\u0CBF\\u0CB2\\u0CCD\\u0CB2\\u0CAE\\u0CBE\\u0CA1\\u0CB2\\u0CBE\\u0C97\\u0CC1\\u0CA4\\u0CCD\\u0CA4\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಸಂಗ್ರಹ ಆರಂಭಿಸಲಾಗಿಲ್ಲ ಮಾಡಲಾಗುತ್ತಿದೆ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9\\u0C85\\u0CAA\\u0CB0\\u0CBF\\u0C9A\\u0CBF\\u0CA4\\u0CB8\\u0CCD\\u0CA5\\u0CBF\\u0CA4\\u0CBF\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಸಂಗ್ರಹ ಅಪರಿಚಿತ ಸ್ಥಿತಿಯಲ್ಲಿದೆ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9\\u0C85\\u0CAA\\u0CCD\\u0CA1\\u0CC6\\u0CD5\\u0C9F\\u0CCD\\u0C97\\u0CC6\\u0CC2\\u0CB3\\u0CBF\\u0CB8\\u0CB2\\u0CBE\\u0C97\\u0CBF\\u0CA6\\u0CC6\\u0C87\\u0CB2\\u0CCD\\u0CB2(\\u0CAC\\u0CB9\\u0CC1\\u0CB6\\u0C83\\u0CAE\\u0CCD\\u0CAF\\u0CBE\\u0CA8\\u0CBF\\u0CAB\\u0CC6\\u0CB8\\u0CCD\\u0C9F\\u0CCD\\u0CA4\\u0CB2\\u0CC1\\u0CAA\\u0CB2\\u0CBE\\u0C97\\u0CC1\\u0CA4\\u0CCD\\u0CA4\\u0CBF\\u0CB2\\u0CCD\\u0CB2)"
+msgstr "ಸಂಗ್ರಹ ಅಪ್ಡೇಟ್ಗೊಳಿಸಲಾಗಿದೆ ಇಲ್ಲ( ಬಹುಶಃ ಮ್ಯಾನಿಫೆಸ್ಟ್ ತಲುಪಲಾಗುತ್ತಿಲ್ಲ)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "\\u0CA8\\u0CBF\\u0CD5\\u0CB5\\u0CC1\\u0C86\\u0CAB\\u0CCD\\u0CB2\\u0CC6\\u0CD6\\u0CA8\\u0CCD\\u0C8F\\u0C95\\u0CC6\\u0C82\\u0CA6\\u0CB0\\u0CC6\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9\\u0C85\\u0CAA\\u0CCD\\u0CA1\\u0CC6\\u0CD5\\u0C9F\\u0CCD\\u0C97\\u0CC6\\u0CC2\\u0CB3\\u0CBF\\u0CB8\\u0CB2\\u0CBE\\u0C97\\u0CBF\\u0CA6\\u0CC6\\u0C87\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ನೀವು ಆಫ್ಲೈನ್ ಏಕೆಂದರೆ ಸಂಗ್ರಹ ಅಪ್ಡೇಟ್ಗೊಳಿಸಲಾಗಿದೆ ಇಲ್ಲ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ಸಂಗ್ರಹ ಬಳಕೆಯಲ್ಲಿಲ್ಲ"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9\\u0C85\\u0CAA\\u0CCD\\u0CAF\\u0CBE\\u0CA6\\u0CBF\\u0CA8\\u0CBE\\u0C82\\u0C95"
+msgstr "ಸಂಗ್ರಹ ಅಪ್ ಯಾ ದಿನಾಂಕ"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9\\u0CB8\\u0CCD\\u0CA5\\u0CBF\\u0CA4\\u0CBF"
+msgstr "ಸಂಗ್ರಹ ಸ್ಥಿತಿ"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C85\\u0CAA\\u0CCD\\u0CA1\\u0CC6\\u0CD5\\u0C9F\\u0CCD\\u0C87\\u0CB0\\u0CC1\\u0CB5\\u0CBF\\u0C95\\u0CC6\\u0CAF\\u0CA8\\u0CCD\\u0CA8\\u0CC1\\u0CAA\\u0CB0\\u0CBF\\u0CB6\\u0CBF\\u0CD5\\u0CB2\\u0CBF\\u0CB8\\u0CB2\\u0CBE\\u0C97\\u0CC1\\u0CA4\\u0CCD\\u0CA4\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಒಂದು ಅಪ್ಡೇಟ್ ಇರುವಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "\\u0C95\\u0CC6\\u0CC2\\u0CA1\\u0CBF\\u0CB8\\u0CCD Fiscale/ P.IVA"
+msgstr "ಕೊಡಿಸ್ Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "\\u0C95\\u0CC6\\u0CC2\\u0CA1\\u0CBF\\u0CB8\\u0CCD Fiscale\\u0C85\\u0CAE\\u0CBE\\u0CA8\\u0CCD\\u0CAF\\u0C85\\u0C95\\u0CCD\\u0CB7\\u0CB0\\u0CB9\\u0CC6\\u0CC2\\u0C82\\u0CA6\\u0CBF\\u0CA6\\u0CC6(\\u0C97\\u0CB3\\u0CC1)"
+msgstr "ಕೊಡಿಸ್ Fiscale ಅಮಾನ್ಯ ಅಕ್ಷರ ಹೊಂದಿದೆ(ಗಳು)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "\\u0C95\\u0CC6\\u0CC2\\u0CA1\\u0CBF\\u0CB8\\u0CCD Fiscale\\u0CA8\\u0CBF\\u0CAF\\u0C82\\u0CA4\\u0CCD\\u0CB0\\u0CA3\\u0C95\\u0CC6\\u0CC2\\u0CD5\\u0CA1\\u0CCD\\u0CB9\\u0CC6\\u0CC2\\u0C82\\u0CA6\\u0CBF\\u0C95\\u0CC6\\u0CAF\\u0CBE\\u0C97\\u0CC1\\u0CB5\\u0CC1\\u0CA6\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ಕೊಡಿಸ್ Fiscale ನಿಯಂತ್ರಣ ಕೋಡ್ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "\\u0C95\\u0CC6\\u0CC2\\u0CA1\\u0CBF\\u0CB8\\u0CCD Fiscale\\u0C85\\u0CA5\\u0CB5\\u0CBE\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0 P.IVA"
+msgstr "ಕೊಡಿಸ್ Fiscale ಅಥವಾ ಗ್ರಾಹಕರ P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "\\u0C95\\u0C82\\u0CAA\\u0CA8\\u0CBF\\u0CB2\\u0CC6\\u0CC2\\u0CD5\\u0C97\\u0CC6\\u0CC2"
+msgstr "ಕಂಪನಿ ಲೋಗೊ"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಖಚಿತ"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "\\u0CA8\\u0CBF\\u0CAE\\u0CCD\\u0CAE\\\"\\u0CB8\\u0CBE\\u0CAE\\u0CBE\\u0C9C\\u0CBF\\u0C95\\\"\\u0C96\\u0CBE\\u0CA4\\u0CC6\\u0C97\\u0CB3\\u0CA8\\u0CCD\\u0CA8\\u0CC1\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CAC\\u0CB3\\u0CB8\\u0CBF\\u0C95\\u0CC6\\u0CC2\\u0C82\\u0CA1\\u0CC1\\u0CB8\\u0C82\\u0CAA\\u0CB0\\u0CCD\\u0C95,\\u0C85\\u0CA5\\u0CB5\\u0CBE\\u0CAA\\u0CB0\\u0CBF\\u0C9A\\u0CAF\\u0C97\\u0CB3\\u0CA8\\u0CCD\\u0CA8\\u0CC1\\u0CA8\\u0CC6\\u0CC2\\u0C82\\u0CA6\\u0CBF\\u0C97\\u0CC6\\u0CB2\\u0CBE\\u0C97\\u0CCD:"
+msgstr "ನಿಮ್ಮ\\\" ಸಾಮಾಜಿಕ\\\" ಖಾತೆಗಳನ್ನು ಒಂದು ಬಳಸಿಕೊಂಡು ಸಂಪರ್ಕ, ಅಥವಾ ಪರಿಚಯಗಳನ್ನು ನೊಂದಿಗೆ ಲಾಗ್:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Facebook\\u0CA8\\u0CC6\\u0CC2\\u0C82\\u0CA6\\u0CBF\\u0C97\\u0CC6\\u0CB8\\u0C82\\u0CAA\\u0CB0\\u0CCD\\u0C95\\u0CBF\\u0CB8\\u0CBF"
+msgstr "Facebook ನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Google+\\u0CA8\\u0CC6\\u0CC2\\u0C82\\u0CA6\\u0CBF\\u0C97\\u0CC6\\u0CB8\\u0C82\\u0CAA\\u0CB0\\u0CCD\\u0C95\\u0CBF\\u0CB8\\u0CBF"
+msgstr "Google+ ನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "\\u0C9F\\u0CCD\\u0CB5\\u0CBF\\u0C9F\\u0CB0\\u0CCD\\u0CB8\\u0C82\\u0CAA\\u0CB0\\u0CCD\\u0C95\\u0CBF\\u0CB8\\u0CBF"
+msgstr "ಟ್ವಿಟರ್ ಸಂಪರ್ಕಿಸಿ"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "\\u0CB8\\u0C82\\u0CAA\\u0CB0\\u0CCD\\u0C95\\u0C97\\u0CB3\\u0CC1"
+msgstr "ಸಂಪರ್ಕಗಳು"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "\\u0CAA\\u0CCD\\u0CB0\\u0CB8\\u0CCD\\u0CA4\\u0CC1\\u0CA4\\u0CAD\\u0CBE\\u0CB7\\u0CC6"
+msgstr "ಪ್ರಸ್ತುತ ಭಾಷೆ"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95"
+msgstr "ಗ್ರಾಹಕ"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0C95\\u0CBE\\u0CB0\\u0CCD\\u0CA1\\u0CCD"
+msgstr "ಗ್ರಾಹಕ ಕಾರ್ಡ್"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8"
+msgstr "ಗ್ರಾಹಕ ಇಮೇಲ್ ವಿಳಾಸ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1"
+msgstr "ಗ್ರಾಹಕರ ಹೆಸರು"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CAB\\u0CC6\\u0CC2\\u0CD5\\u0CA8\\u0CCD\\u0CB8\\u0C82\\u0C96\\u0CCD\\u0CAF\\u0CC6"
+msgstr "ಗ್ರಾಹಕ ಫೋನ್ ಸಂಖ್ಯೆ"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CB8\\u0CCD\\u0CA4\\u0CC6\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8"
+msgstr "ಗ್ರಾಹಕ ರಸ್ತೆಯಲ್ಲಿ ವಿಳಾಸ"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB8\\u0CBF\\u0C97\\u0CCD\\u0CA8\\u0CC6\\u0CD5\\u0C9A\\u0CB0\\u0CCD"
+msgstr "ಗ್ರಾಹಕ ಸಿಗ್ನೇಚರ್"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CC1"
+msgstr "ಗ್ರಾಹಕರು"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "\\u0CA6\\u0CBF\\u0CA8\\u0CBE\\u0C82\\u0C95"
+msgstr "ದಿನಾಂಕ"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0C86\\u0CB0\\u0C82\\u0CAD\\u0CA6\\u0CBF\\u0CA8\\u0CBE\\u0C82\\u0C95"
+msgstr "ಸೇವೆ ಆರಂಭ ದಿನಾಂಕ"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0C85\\u0CB3\\u0CBF\\u0CB8\\u0CBF"
+msgstr "ಗ್ರಾಹಕ ಅಳಿಸಿ"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF\\u0C85\\u0CB3\\u0CBF\\u0CB8\\u0CBF"
+msgstr "ಸೇವೆ ವರದಿ ಅಳಿಸಿ"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0C85\\u0CB3\\u0CBF\\u0CB8\\u0CBF"
+msgstr "ಬಳಕೆದಾರ ಅಳಿಸಿ"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C85\\u0CAA\\u0CCD\\u0CA1\\u0CC6\\u0CD5\\u0C9F\\u0CCD\\u0CA1\\u0CCC\\u0CA8\\u0CCD\\u0CB2\\u0CC6\\u0CC2\\u0CD5\\u0CA1\\u0CCD"
+msgstr "ಒಂದು ಅಪ್ಡೇಟ್ ಡೌನ್ಲೋಡ್"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "\\u0C85\\u0CB5\\u0CA7\\u0CBF"
+msgstr "ಅವಧಿ"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CAF\\u0C85\\u0CB5\\u0CA7\\u0CBF"
+msgstr "ಸೇವೆಯ ಅವಧಿ"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "\\u0CB8\\u0C82\\u0CAA\\u0CBE\\u0CA6\\u0CBF\\u0CB8\\u0CBF\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95"
+msgstr "ಸಂಪಾದಿಸಿ ಗ್ರಾಹಕ"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "\\u0CB8\\u0C82\\u0CAA\\u0CBE\\u0CA6\\u0CBF\\u0CB8\\u0CBF\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF"
+msgstr "ಸಂಪಾದಿಸಿ ಸೇವೆ ವರದಿ"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "\\u0CB8\\u0C82\\u0CAA\\u0CBE\\u0CA6\\u0CBF\\u0CB8\\u0CBF\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0"
+msgstr "ಸಂಪಾದಿಸಿ ಬಳಕೆದಾರ"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD"
+msgstr "ಇಮೇಲ್"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8"
+msgstr "ಇಮೇಲ್ ವಿಳಾಸ"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8\\u0CAE\\u0CBE\\u0CA8\\u0CCD\\u0CAF\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ಇಮೇಲ್ ವಿಳಾಸ ಮಾನ್ಯವಾಗಿಲ್ಲ"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8"
+msgstr "ಬಳಕೆದಾರರ ಇಮೇಲ್ ವಿಳಾಸ"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD"
+msgstr "ಬಳಕೆದಾರರ ಇಮೇಲ್"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "\\u0CAB\\u0CCD\\u0CAF\\u0CBE\\u0C95\\u0CCD\\u0CB8\\u0CCD"
+msgstr "ಫ್ಯಾಕ್ಸ್"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "\\u0CAB\\u0CBF\\u0CB2\\u0CCD\\u0C9F\\u0CB0\\u0CCD\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CC1"
+msgstr "ಫಿಲ್ಟರ್ ಗ್ರಾಹಕರು"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "\\u0CAB\\u0CBF\\u0CB2\\u0CCD\\u0C9F\\u0CB0\\u0CCD\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF\\u0C97\\u0CB3\\u0CC1"
+msgstr "ಫಿಲ್ಟರ್ ಸೇವೆ ವರದಿಗಳು"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "\\u0CAB\\u0CBF\\u0CB2\\u0CCD\\u0C9F\\u0CB0\\u0CCD\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1"
+msgstr "ಫಿಲ್ಟರ್ ಬಳಕೆದಾರರು"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "\\u0CAE\\u0CC1\\u0C96\\u0CAA\\u0CC1\\u0C9F"
+msgstr "ಮುಖಪುಟ"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "ನನ್ನ ಪಾಸ್ವರ್ಡ್ ಮರೆತುಹೋಗಿದೆ"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "\\u0C90\\u0CA1\\u0CBF"
+msgstr "ಐಡಿ"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "\\u0C87\\u0CA6\\u0CC1\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CBF\\u0C97\\u0CC6,\\u0C86\\u0CA6\\u0CC6\\u0CD5\\u0CB6\\u0C97\\u0CB3\\u0CA8\\u0CCD\\u0CA8\\u0CC1\\u0CAE\\u0CA4\\u0CCD\\u0CA4\\u0CC1\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF\\u0C97\\u0CB3\\u0CC1\\u0CA8\\u0CBF\\u0CB0\\u0CCD\\u0CB5\\u0CB9\\u0CA3\\u0CC6\\u0C85\\u0CA8\\u0CC1\\u0CAE\\u0CA4\\u0CBF\\u0CB8\\u0CC1\\u0CA4\\u0CCD\\u0CA4\\u0CA6\\u0CC6."
+msgstr "ಇದು ಗ್ರಾಹಕರಿಗೆ, ಆದೇಶಗಳನ್ನು ಮತ್ತು ಸೇವೆ ವರದಿಗಳು ನಿರ್ವಹಣೆ ಅನುಮತಿಸುತ್ತದೆ."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "\\u0C87\\u0CA6\\u0CC1\\u0CA4\\u0CC6\\u0CB0\\u0CC6\\u0CA6\\u0CAE\\u0CC2\\u0CB2,\\u0CB5\\u0CC6\\u0CD5\\u0C97\\u0CB5\\u0CBE\\u0C97\\u0CBF,\\u0CB8\\u0CBE,\\u0CB5\\u0CBF\\u0CB8\\u0CCD\\u0CA4\\u0CB0\\u0CA3\\u0CC6\\u0CAF\\u0CC1,\\u0C9A\\u0CC6\\u0CD5\\u0CA4\\u0CB0\\u0CBF\\u0CB8\\u0CBF\\u0C95\\u0CC6\\u0CC2\\u0CB3\\u0CCD\\u0CB3\\u0CC1\\u0CB5,\\u0C85\\u0C82\\u0CA4\\u0CBE\\u0CB0\\u0CBE\\u0CB7\\u0CCD\\u0C9F\\u0CCD\\u0CB0\\u0CBF\\u0CD5\\u0CAF\\u0CAE\\u0CA4\\u0CCD\\u0CA4\\u0CC1\\u0CAE\\u0CC6\\u0CC2\\u0CAC\\u0CC6\\u0CD6\\u0CB2\\u0CCD."
+msgstr "ಇದು ತೆರೆದ ಮೂಲ, ವೇಗವಾಗಿ, ಸಾ, ವಿಸ್ತರಣೆಯು, ಚೇತರಿಸಿಕೊಳ್ಳುವ, ಅಂತಾರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಮೊಬೈಲ್."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "\\u0CB8\\u0CCD\\u0CA5\\u0CB3"
+msgstr "ಸ್ಥಳ"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CAF\\u0CB8\\u0CCD\\u0CA5\\u0CB3"
+msgstr "ಸೇವೆಯ ಸ್ಥಳ"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "\\u0CB2\\u0CBE\\u0C97\\u0CCD\\u0C87\\u0CA8\\u0CCD"
+msgstr "ಲಾಗ್ ಇನ್"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "\\u0CB2\\u0CBE\\u0C97\\u0CCD\\u0C94\\u0C9F\\u0CCD"
+msgstr "ಲಾಗ್ ಔಟ್"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "\\u0C8E\\u0CA8\\u0CCD"
+msgstr "ಎನ್"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1"
+msgstr "ಹೆಸರು"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "\\u0CB9\\u0CC6\\u0CC2\\u0CB8\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95"
+msgstr "ಹೊಸ ಗ್ರಾಹಕ"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "\\u0CB9\\u0CC6\\u0CC2\\u0CB8\\u0CB5\\u0CB0\\u0CA6\\u0CBF"
+msgstr "ಹೊಸ ವರದಿ"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "\\u0CB9\\u0CC6\\u0CC2\\u0CB8\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0"
+msgstr "ಹೊಸ ಬಳಕೆದಾರ"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "\\u0CAF\\u0CBE\\u0CB5\\u0CC1\\u0CA6\\u0CC6\\u0CD5\\u0C85\\u0CAA\\u0CCD\\u0CA1\\u0CC6\\u0CD5\\u0C9F\\u0CCD\\u0C87\\u0CB0\\u0CC1\\u0CA4\\u0CCD\\u0CA4\\u0CA6\\u0CC6"
+msgstr "ಯಾವುದೇ ಅಪ್ಡೇಟ್ ಇರುತ್ತದೆ"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "\\u0C9F\\u0CBF\\u0CAA\\u0CCD\\u0CAA\\u0CA3\\u0CBF\\u0C97\\u0CB3\\u0CC1"
+msgstr "ಟಿಪ್ಪಣಿಗಳು"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "\\u0CB8\\u0C82\\u0C96\\u0CCD\\u0CAF\\u0CC6"
+msgstr "ಸಂಖ್ಯೆ"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "\\u0C86\\u0CAA\\u0CB0\\u0CC6\\u0CD5\\u0C9F\\u0CB0\\u0CCD"
+msgstr "ಆಪರೇಟರ್"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CAF\\u0C86\\u0CAF\\u0CC6\\u0CC2\\u0CD5\\u0C9C\\u0C95\\u0CB0\\u0CC1"
+msgstr "ಸೇವೆಯ ಆಯೋಜಕರು"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "\\u0C86\\u0CAF\\u0CC6\\u0CC2\\u0CD5\\u0C9C\\u0C95\\u0CB0\\u0CC1\\u0CB8\\u0CBF\\u0C97\\u0CCD\\u0CA8\\u0CC6\\u0CD5\\u0C9A\\u0CB0\\u0CCD"
+msgstr "ಆಯೋಜಕರು ಸಿಗ್ನೇಚರ್"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "\\u0C86\\u0CB0\\u0CCD\\u0CA1\\u0CB0\\u0CCD\\u0CB8\\u0CCD"
+msgstr "ಆರ್ಡರ್ಸ್"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA\\u0C85\\u0CAE\\u0CBE\\u0CA8\\u0CCD\\u0CAF\\u0C85\\u0C95\\u0CCD\\u0CB7\\u0CB0\\u0CB9\\u0CC6\\u0CC2\\u0C82\\u0CA6\\u0CBF\\u0CA6\\u0CC6(\\u0C97\\u0CB3\\u0CC1)"
+msgstr "P.IVA ಅಮಾನ್ಯ ಅಕ್ಷರ ಹೊಂದಿದೆ(ಗಳು)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA\\u0CA8\\u0CBF\\u0CAF\\u0C82\\u0CA4\\u0CCD\\u0CB0\\u0CA3\\u0C95\\u0CC6\\u0CC2\\u0CD5\\u0CA1\\u0CCD\\u0CB9\\u0CC6\\u0CC2\\u0C82\\u0CA6\\u0CBF\\u0C95\\u0CC6\\u0CAF\\u0CBE\\u0C97\\u0CC1\\u0CB5\\u0CC1\\u0CA6\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "P.IVA ನಿಯಂತ್ರಣ ಕೋಡ್ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "ಪಾಸ್ವರ್ಡ್"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಣ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಣ ಅಗತ್ಯವಿದೆ"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಸಾಕಷ್ಟು ಬಲವಾದ ಅಲ್ಲ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "\\u0CAB\\u0CC6\\u0CC2\\u0CD5\\u0CA8\\u0CCD"
+msgstr "ಫೋನ್"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "\\u0CA6\\u0CC2\\u0CB0\\u0CB5\\u0CBE\\u0CA3\\u0CBF\\u0CB8\\u0C82\\u0C96\\u0CCD\\u0CAF\\u0CC6"
+msgstr "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "\\u0CA6\\u0CC2\\u0CB0\\u0CB5\\u0CBE\\u0CA3\\u0CBF\\u0CB8\\u0C82\\u0C96\\u0CCD\\u0CAF\\u0CC6\\u0CAE\\u0CBE\\u0CA8\\u0CCD\\u0CAF\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಮಾನ್ಯವಾಗಿಲ್ಲ"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "\\u0CAA\\u0CCD\\u0CB2\\u0CC6\\u0CD5\\u0CB8\\u0CCD"
+msgstr "ಪ್ಲೇಸ್"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "\\u0CB8\\u0CBF\\u0CA6\\u0CCD\\u0CA7\\u0CA4\\u0CC6\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C85\\u0CAA\\u0CCD\\u0CA1\\u0CC6\\u0CD5\\u0C9F\\u0CCD\\u0CA1\\u0CCC\\u0CA8\\u0CCD\\u0CB2\\u0CC6\\u0CC2\\u0CD5\\u0CA1\\u0CCD"
+msgstr "ಸಿದ್ಧತೆ ಒಂದು ಅಪ್ಡೇಟ್ ಡೌನ್ಲೋಡ್"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "\\u0CAE\\u0CC1\\u0CA6\\u0CCD\\u0CB0\\u0CA3"
+msgstr "ಮುದ್ರಣ"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "\\u0CAA\\u0CCD\\u0CB0\\u0CBF\\u0C82\\u0C9F\\u0CCD\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95"
+msgstr "ಪ್ರಿಂಟ್ ಗ್ರಾಹಕ"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "\\u0CAE\\u0CC1\\u0CA6\\u0CCD\\u0CB0\\u0CA3\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF"
+msgstr "ಮುದ್ರಣ ಸೇವೆ ವರದಿ"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "\\u0CAA\\u0CCD\\u0CB0\\u0CBF\\u0C82\\u0C9F\\u0CCD\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0"
+msgstr "ಪ್ರಿಂಟ್ ಬಳಕೆದಾರ"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "\\u0C92\\u0CA6\\u0C97\\u0CBF\\u0CB8\\u0CC1\\u0CB5\\u0CB5\\u0CB0\\u0CC1"
+msgstr "ಒದಗಿಸುವವರು"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "\\u0CA8\\u0CC6\\u0CC2\\u0CD5\\u0C82\\u0CA6\\u0CA3\\u0CBF"
+msgstr "ನೋಂದಣಿ"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಲು"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "\\u0CAA\\u0CBE\\u0CA4\\u0CCD\\u0CB0\\u0C97\\u0CB3\\u0CC1"
+msgstr "ಪಾತ್ರಗಳು"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CA8\\u0CBF\\u0C97\\u0CBE\\u0C97\\u0CBF\\u0CAA\\u0CBE\\u0CA4\\u0CCD\\u0CB0\\u0C97\\u0CB3\\u0CC1;\\u0C8E\\u0CB2\\u0CCD\\u0CB2\\u0CBE\\u0CB0\\u0CBE\\u0C9C\\u0CCD\\u0CAF\\u0C97\\u0CB3\\u0CAE\\u0CC2\\u0CB2\\u0C95\\u0CB8\\u0CCD\\u0CB2\\u0CC6\\u0CD6\\u0CA1\\u0CCD\\u0CAE\\u0CBE\\u0CA1\\u0CBF(\\u0C86\\u0CB0\\u0CCD\\u0CA1\\u0CAC\\u0CCD\\u0CB2\\u0CCD\\u0CAF\\u0CC2-\\u003e\\u0C86\\u0CB0\\u0CCD-\\u003e\\u0CAA-\\u003e\\u0CAF\\u0CBE\\u0CB5\\u0CC1\\u0CA6\\u0CC2)"
+msgstr "ಈ ಬಳಕೆದಾರನಿಗಾಗಿ ಪಾತ್ರಗಳು; ಎಲ್ಲಾ ರಾಜ್ಯಗಳ ಮೂಲಕ ಸ್ಲೈಡ್ ಮಾಡಿ( ಆರ್ಡಬ್ಲ್ಯೂ-\\u003e ಆರ್-\\u003e ಪ-\\u003e ಯಾವುದೂ)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CAA\\u0CBE\\u0CA4\\u0CCD\\u0CB0\\u0C97\\u0CB3\\u0CC1:\\u0CB9\\u0CB8\\u0CBF\\u0CB0\\u0CC1\\u0CAC\\u0CA3\\u0CCD\\u0CA3\\u0C93\\u0CA6\\u0CB2\\u0CC1\\u0C85\\u0CA8\\u0CC1\\u0CAE\\u0CA4\\u0CBF\\u0CB8\\u0CC2\\u0C9A\\u0CBF\\u0CB8\\u0CC1\\u0CA4\\u0CCD\\u0CA4\\u0CA6\\u0CC6\\u0CAE\\u0CA4\\u0CCD\\u0CA4\\u0CC1\\u0CAC\\u0CB0\\u0CC6\\u0CAF\\u0CB2\\u0CC1,\\u0CB9\\u0CB3\\u0CA6\\u0CBF\\u0CB8\\u0CBE\\u0CA7\\u0CA8\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CAE\\u0CBE\\u0CA4\\u0CCD\\u0CB0\\u0C93\\u0CA6\\u0CB2\\u0CC1,\\u0CA8\\u0CBF\\u0CD5\\u0CB2\\u0CBF\\u0CAE\\u0CBE\\u0CA4\\u0CCD\\u0CB0\\u0CAC\\u0CB0\\u0CC6\\u0CAF\\u0CB2\\u0CC1,\\u0CAE\\u0CA4\\u0CCD\\u0CA4\\u0CC1\\u0CAF\\u0CBE\\u0CB5\\u0CC1\\u0CA6\\u0CC6\\u0CD5\\u0C85\\u0CA8\\u0CC1\\u0CAE\\u0CA4\\u0CBF\\u0C95\\u0CC6\\u0C82\\u0CAA\\u0CC1.\\u0CB5\\u0CBF\\u0CAD\\u0CBE\\u0C97\\u0C97\\u0CB3\\u0CC1\\u0C87\\u0CB5\\u0CC6:'U'(\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1),'\\u0CB8\\u0CBF'(\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CBF\\u0C97\\u0CC6),'\\u0C92'(\\u0C86\\u0CA6\\u0CC6\\u0CD5\\u0CB6\\u0C97\\u0CB3\\u0CA8\\u0CCD\\u0CA8\\u0CC1),\\u0CA8'(\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF\\u0C97\\u0CB3\\u0CC1)."
+msgstr "ಬಳಕೆದಾರ ಪಾತ್ರಗಳು: ಹಸಿರು ಬಣ್ಣ ಓದಲು ಅನುಮತಿ ಸೂಚಿಸುತ್ತದೆ ಮತ್ತು ಬರೆಯಲು, ಹಳದಿ ಸಾಧನವಾಗಿ ಮಾತ್ರ ಓದಲು, ನೀಲಿ ಮಾತ್ರ ಬರೆಯಲು, ಮತ್ತು ಯಾವುದೇ ಅನುಮತಿ ಕೆಂಪು. ವಿಭಾಗಗಳು ಇವೆ:'U'( ಬಳಕೆದಾರರು),' ಸಿ'( ಗ್ರಾಹಕರಿಗೆ),'ಒ'( ಆದೇಶಗಳನ್ನು), ನ'( ಸೇವೆ ವರದಿಗಳು)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "\\u0C89\\u0CB3\\u0CBF\\u0CB8\\u0CBF"
+msgstr "ಉಳಿಸಿ"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF"
+msgstr "ಸೇವೆ ವರದಿ"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF\\u0C8E\\u0CA8\\u0CCD"
+msgstr "ಸೇವೆ ವರದಿ ಎನ್"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0CB5\\u0CB0\\u0CA6\\u0CBF\\u0C97\\u0CB3\\u0CC1"
+msgstr "ಸೇವೆ ವರದಿಗಳು"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "\\u0CB8\\u0CC6\\u0C9F\\u0CAA\\u0CCD"
+msgstr "ಸೆಟಪ್"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "\\u0CB0\\u0CB8\\u0CCD\\u0CA4\\u0CC6\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8"
+msgstr "ರಸ್ತೆಯಲ್ಲಿ ವಿಳಾಸ"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "\\u0C88\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1\\u0C88\\u0C97\\u0CBE\\u0C97\\u0CB2\\u0CC6\\u0CD5\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಈ ಗ್ರಾಹಕರ ಹೆಸರು ಈಗಾಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "\\u0C88\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1\\u0CAE\\u0CBE\\u0CA8\\u0CCD\\u0CAF\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ಈ ಗ್ರಾಹಕ ಹೆಸರು ಮಾನ್ಯವಾಗಿಲ್ಲ"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "\\u0C88"
+msgstr "ಈ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1\\u0C85\\u0CA5\\u0CB5\\u0CBE\\u0C93\\u0CA6\\u0CB2\\u0CC1\\u0C85\\u0CA5\\u0CB5\\u0CBE\\u0CAC\\u0CB0\\u0CC6\\u0CAF\\u0CB2\\u0CC1\\u0CB8\\u0CBE\\u0CA7\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ಈ ಬಳಕೆದಾರರು ಅಥವಾ ಓದಲು ಅಥವಾ ಬರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1\\u0C93\\u0CA6\\u0CAC\\u0CB9\\u0CC1\\u0CA6\\u0CC1"
+msgstr "ಈ ಬಳಕೆದಾರರು ಓದಬಹುದು"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1\\u0C93\\u0CA6\\u0CB2\\u0CC1\\u0CAE\\u0CA4\\u0CCD\\u0CA4\\u0CC1\\u0CAC\\u0CB0\\u0CC6\\u0CAF\\u0CAC\\u0CB9\\u0CC1\\u0CA6\\u0CC1"
+msgstr "ಈ ಬಳಕೆದಾರರು ಓದಲು ಮತ್ತು ಬರೆಯಬಹುದು"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1\\u0CAC\\u0CB0\\u0CC6\\u0CAF\\u0CAC\\u0CB9\\u0CC1\\u0CA6\\u0CC1"
+msgstr "ಈ ಬಳಕೆದಾರರು ಬರೆಯಬಹುದು"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1\\u0CAA\\u0CCD\\u0CB0\\u0CB5\\u0CC6\\u0CD5\\u0CB6\\u0CBF\\u0CB8\\u0CB2\\u0CC1\\u0CB8\\u0CBE\\u0CA7\\u0CCD\\u0CAF\\u0CB5\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ಈ ಬಳಕೆದಾರರು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1\\u0C88\\u0C97\\u0CBE\\u0C97\\u0CB2\\u0CC6\\u0CD5\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CA6\\u0CC6"
+msgstr "ಈ ಬಳಕೆದಾರ ಹೆಸರು ಈಗಾಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "ಈ ಬಳಕೆದಾರ ಹೆಸರು ಈಗಾಗಲೇ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "\\u0C88\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1\\u0CAE\\u0CBE\\u0CA8\\u0CCD\\u0CAF\\u0CB5\\u0CBE\\u0C97\\u0CBF\\u0CB2\\u0CCD\\u0CB2"
+msgstr "ಈ ಬಳಕೆದಾರ ಹೆಸರು ಮಾನ್ಯವಾಗಿಲ್ಲ"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "\\u0C88\\u0C95\\u0CC6\\u0CB3\\u0C97\\u0CBF\\u0CA8\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0C95\\u0CC6\\u0CC2\\u0CA1\\u0CBF\\u0CB8\\u0CCD Fiscale\\u0C85\\u0CA5\\u0CB5\\u0CBE P.IVA\\u0C85\\u0CB2\\u0CCD\\u0CB2\\u0CB5\\u0CC6\\u0C82\\u0CA6\\u0CC2"
+msgstr "ಈ ಕೆಳಗಿನ ಒಂದು ಕೊಡಿಸ್ Fiscale ಅಥವಾ P.IVA ಅಲ್ಲವೆಂದೂ"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "\\u0CB8\\u0CC6\\u0CD5\\u0CB5\\u0CC6\\u0C86\\u0CB0\\u0C82\\u0CAD\\u0C9F\\u0CC6\\u0CD6\\u0CAE\\u0CCD"
+msgstr "ಸೇವೆ ಆರಂಭ ಟೈಮ್"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "\\u0C9F\\u0CBE\\u0C97\\u0CB2\\u0CCD\\u0CB8\\u0C82\\u0C9A\\u0CB0\\u0CA3\\u0CC6"
+msgstr "ಟಾಗಲ್ ಸಂಚರಣೆ"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0C87\\u0CAE\\u0CC6\\u0CD5\\u0CB2\\u0CCD\\u0CB5\\u0CBF\\u0CB3\\u0CBE\\u0CB8"
+msgstr "ಬಳಕೆದಾರ ಇಮೇಲ್ ವಿಳಾಸ"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು ಮಾನ್ಯವಾಗಿಲ್ಲ"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "ಬಳಕೆದಾರಹೆಸರು/ ಇಮೇಲ್"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1"
+msgstr "ಬಳಕೆದಾರರು"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "\\u0CA8\\u0CBF\\u0CD5\\u0CB5\\u0CC1\\u0C86\\u0CAB\\u0CCD\\u0CB2\\u0CC6\\u0CD6\\u0CA8\\u0CCD"
+msgstr "ನೀವು ಆಫ್ಲೈನ್"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "\\u0CA8\\u0CBF\\u0CD5\\u0CB5\\u0CC1\\u0C86\\u0CA8\\u0CCD\\u0CB2\\u0CC6\\u0CD6\\u0CA8\\u0CCD"
+msgstr "ನೀವು ಆನ್ಲೈನ್"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್, ಮತ್ತೆ"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "ನಿಮ್ಮ ಬಳಕೆದಾರಹೆಸರು ಅಥವಾ ಇಮೇಲ್"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "\\u0CB8\\u0C82\\u0C97\\u0CCD\\u0CB0\\u0CB9"
+msgstr "ಸಂಗ್ರಹ"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "\\u0CB0\\u0CA6\\u0CCD\\u0CA6\\u0CC1"
+msgstr "ರದ್ದು"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "\\u0CA4\\u0CAA\\u0CBE\\u0CB8\\u0CA3\\u0CC6"
+msgstr "ತಪಾಸಣೆ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "\\u0C97\\u0CCD\\u0CB0\\u0CBE\\u0CB9\\u0C95\\u0CB0\\u0CC1"
+msgstr "ಗ್ರಾಹಕರು"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "\\u0CA1\\u0CCC\\u0CA8\\u0CCD\\u0CB2\\u0CC6\\u0CC2\\u0CD5\\u0CA1\\u0CCD"
+msgstr "ಡೌನ್ಲೋಡ್"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "\\u0CA6\\u0CC6\\u0CC2\\u0CD5\\u0CB7"
+msgstr "ದೋಷ"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "\\u0C85\\u0CB2\\u0CCD\\u0CB2\\u0CA6\\u0CA8\\u0CC6\\u0CC2\\u0CD5\\u0C82\\u0CA6\\u0CBE\\u0CAF\\u0CBF\\u0CA4\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CBF\\u0C97\\u0CC6\\u0CAE\\u0CC1\\u0C96\\u0CAA\\u0CC1\\u0C9F\\u0CA6\\u0CB2\\u0CCD\\u0CB2\\u0CBF."
+msgstr "ಅಲ್ಲದ ನೋಂದಾಯಿತ ಬಳಕೆದಾರರಿಗೆ ಮುಖಪುಟದಲ್ಲಿ."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "registerd\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CA8\\u0CCD\\u0CA8\\u0CC1\\u0CAE\\u0CC1\\u0C96\\u0CAA\\u0CC1\\u0C9F\\u0CA6\\u0CB2\\u0CCD\\u0CB2\\u0CBF."
+#, 
+msgid "home page for registered users."
+msgstr "ನೋಂದಾಯಿತ ಬಳಕೆದಾರರಿಗೆ ಮುಖಪುಟದಲ್ಲಿ."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "\\u0C86\\u0CB0\\u0C82\\u0CAD\\u0CBF\\u0CB8\\u0CC1\\u0CB5\\u0CB2\\u0CCD\\u0CB2\\u0CBF"
+msgstr "ಆರಂಭಿಸುವಲ್ಲಿ"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "(\\u0CB8\\u0CCD\\u0CAE\\u0CBE\\u0CB0\\u0CCD\\u0C9F\\u0CCD)\\u0C86\\u0CB0\\u0C82\\u0CAD\\u0CA6\\u0CB9\\u0C82\\u0CA4\\u0CA6\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0C92\\u0C82\\u0CA6\\u0CC1\\u0CB5\\u0CC6\\u0CAC\\u0CCD\\u0C85\\u0CAA\\u0CCD\\u0CB2\\u0CBF\\u0C95\\u0CC6\\u0CD5\\u0CB6\\u0CA8\\u0CCD\\u0C86\\u0C97\\u0CBF\\u0CA6\\u0CC6."
+msgstr "( ಸ್ಮಾರ್ಟ್) ಆರಂಭದ ಹಂತದಲ್ಲಿ ಒಂದು ವೆಬ್ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "\\u0CB2\\u0CBE\\u0C97\\u0CCD\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0"
+msgstr "ಲಾಗ್ ಬಳಕೆದಾರ"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CAF\\u0CB2\\u0CCD\\u0CB2\\u0CBF\\u0CB2\\u0CCD\\u0CB2\\u0CA6"
+msgstr "ಬಳಕೆಯಲ್ಲಿಲ್ಲದ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "\\u0C86\\u0CA6\\u0CC6\\u0CD5\\u0CB6\\u0C97\\u0CB3\\u0CA8\\u0CCD\\u0CA8\\u0CC1"
+msgstr "ಆದೇಶಗಳನ್ನು"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "\\u0C87\\u0CB2\\u0CCD\\u0CB2\\u0CA6\\u0CBF\\u0CA6\\u0CCD\\u0CA6\\u0CB0\\u0CC6\\u0CB9\\u0CC6\\u0CC2\\u0CB8 accout\\u0CA8\\u0CC6\\u0CC2\\u0CD5\\u0C82\\u0CA6\\u0CA3\\u0CBF\\u0CAE\\u0CA4\\u0CCD\\u0CA4\\u0CC1\\u0CB2\\u0CBE\\u0C97\\u0CBF\\u0CA8\\u0CCD."
+msgstr "ಇಲ್ಲದಿದ್ದರೆ ಹೊಸ accout ನೋಂದಣಿ ಮತ್ತು ಲಾಗಿನ್."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "\\u0CAA\\u0CBE\\u0CB8\\u0CCD\\u0CB5\\u0CB0\\u0CCD\\u0CA1\\u0CCD:"
+msgstr "ಪಾಸ್ವರ್ಡ್:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "\\u0CAA\\u0CCD\\u0CB0\\u0C97\\u0CA4\\u0CBF"
+msgstr "ಪ್ರಗತಿ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB9\\u0CC6\\u0CB8\\u0CB0\\u0CC1:"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "\\u0CAC\\u0CB3\\u0C95\\u0CC6\\u0CA6\\u0CBE\\u0CB0\\u0CB0\\u0CC1"
+msgstr "ಬಳಕೆದಾರರು"

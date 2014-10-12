@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ka\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,103 +17,107 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice Fiscale Ã¡ÂÂÃ¡ÂÂ P.IVA Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "Codice Fiscale ან P.IVA საჭირო"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "მომხმარებლის სახელი საჭირო"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¦Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "თარიღი მომსახურების დაწყების საჭირო"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ§Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ\\\" hh\\\" Ã¡ÂÂÃ¡ÂÂ\\\" hh: mm', Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ხანგრძლივობა უნდა იყოს იმ ფორმით\\\" hh\\\" ან\\\" hh: mm', და მინიმუმ ერთი წუთიანი"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "განთავსების მომსახურების საჭირო"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "პაროლი არის საჭირო"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ტელეფონის ნომერი არ არის საჭირო"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Ã¡ÂÂ¥Ã¡ÂÂ£Ã¡ÂÂ©Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ქუჩის მისამართი არის საჭირო"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "მომხმარებლის სახელი საჭირო"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "შესახებ"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "სანიშნეს ახალ მომხმარებელს"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "ახალი მომხმარებლის"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ"
+msgstr "მისამართი"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ელექტრონული ფოსტის მისამართი აუცილებელია"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ოპერატორმა უნდა"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ: Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ, Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ©Ã¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ?"
+msgstr "განახლება: გინდათ, რათა ჩატვირთოს ის ახლა?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡"
+msgstr "განახლება მზად არის"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¦Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ¨Ã¡ÂÂ"
+msgstr "თქვენ ნამდვილად დარწმუნებული ამოიღონ ანგარიშში"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¦Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "თქვენ ნამდვილად დარწმუნებული ამოიღონ შესახებ"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ id"
+msgstr "ავტორიზაციის id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ავტორიზაციის პირადობის შესახებ"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ id:"
+msgstr "ავტორიზაციის id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ავტორიზაციის მიმწოდებელი"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ავტორიზაციის წარმოდგენას შესახებ"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ავატარა"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¯Ã¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ავატარა იმიჯი შესახებ"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Cache Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂ"
+msgstr "Cache მიმდინარეობს ინიციალიზაცია"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Ã¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ£Ã¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂ"
+msgstr "ქეში არის უცნობი სახელმწიფო"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ(Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂªÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ)"
+msgstr "Cache არ არის განახლებული(ალბათ ცხადი მიუდგომელი)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ, Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "Cache არის განახლება, რადგან თქვენ გასულია"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cache Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ"
+msgstr "Cache არის მოძველებული"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Ã¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ up-to-date"
+msgstr "ქეში არის up-to-date"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Cache Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡"
+msgstr "Cache მდგომარეობა არის"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ§Ã¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "შემოწმების ყოფნა განახლება"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,159 +161,168 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ(s)"
+msgstr "Codice Fiscale დაუშვებელი ხასიათი(s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "Codice Fiscale კონტროლის კოდი არ ემთხვევა"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale Ã¡ÂÂÃ¡ÂÂ P.IVA Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "Codice Fiscale ან P.IVA დამკვეთის"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "კომპანიის ლოგო"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "გაიმეორეთ პაროლი"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ\\\"Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂ\\\" Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ, Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ:"
+msgstr "დაკავშირება გამოყენებით თქვენი\\\"სოციალური\\\" ანგარიშები, ან შეხვიდეთ ამ მიდგომებით:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Facebook"
+msgstr "დაკავშირება Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Google+"
+msgstr "დაკავშირება Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Twitter"
+msgstr "დაკავშირება Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "კონტაქტები"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¢Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "აქტუალური ენა"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "მომხმარებელს"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებელს ბარათი"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებელს ელექტრონული ფოსტის მისამართზე"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებლის სახელი"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "მომხმარებელს ტელეფონის ნომერი"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¥Ã¡ÂÂ£Ã¡ÂÂ©Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებელს ქუჩის მისამართი"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "მომხმარებელთა ხელმოწერა"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "მომხმარებელს"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¦Ã¡ÂÂ"
+msgstr "თარიღი"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¦Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "თარიღი მომსახურების დაწყების"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "წაშალე მომხმარებელს"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ¨Ã¡ÂÂ"
+msgstr "წაშალე ანგარიშში"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებლის წაშლა"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Ã¡ÂÂ©Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ჩამოტვირთვის განახლება"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ხანგრძლივობა"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ხანგრძლივობა მომსახურება"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "რედაქტირება მომხმარებელს"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Edit Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ¨Ã¡ÂÂ"
+msgstr "Edit ანგარიშში"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Edit Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "Edit შესახებ"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ელ"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ელფოსტის მისამართი"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ელექტრონული ფოსტის მისამართი არ არის სწორი"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ფოსტის მისამართი შესახებ"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ფოსტა შესახებ"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¡Ã¡ÂÂ"
+msgstr "ფაქსი"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "ფილტრი მომხმარებელს"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ფილტრი ანგარიშები"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ფილტრი მომხმარებლები"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "მთავარი"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "დამავიწყდა პაროლი"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,27 +330,27 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡."
+msgstr "ეს საშუალებას აძლევს მართვა მომხმარებელს ბრძანებებს და ანგარიშებს."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¦Ã¡ÂÂÃ¡ÂÂ, Ã¡ÂÂ¡Ã¡ÂÂ¬Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂ, Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ¢Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂ, Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ, Ã¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂ, Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂ."
+msgstr "ეს არის ღია, სწრაფი, კომპაქტური, გააფართოვოთ, სტაბილური, საერთაშორისო და მობილური."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "საიდან"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "საიდან მომსახურება"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "შესვლა"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "| Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "| შესვლა"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -345,51 +358,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "სახელი"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "დასახელება შესახებ"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ახალი მომხმარებელი"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ"
+msgstr "ახალი ანგარიში"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "New Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "New შესახებ"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ§Ã¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "არარის განახლება იმყოფება"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "შენიშვნები"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ნომერი"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ოპერატორი"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ოპერატორის მომსახურება"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ოპერატორის ხელმოწერა"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ბრძანებები"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,31 +410,47 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ(s)"
+msgstr "P.IVA დაუშვებელი ხასიათი(s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "P.IVA კონტროლის კოდი არ ემთხვევა"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "პაროლი"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "პაროლის დადასტურება არ შეესაბამება"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "პაროლი დადასტურებას მოითხოვს"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "პაროლი არ არის საკმარისად ძლიერი"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ტელეფონი"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ტელეფონის ნომერი"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Ã¡ÂÂ¢Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ტელეფონის ნომერი არ არის სწორი"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ადგილი"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ემზადება გადმოწერის განახლება"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -429,35 +458,39 @@ msgstr "Print"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Print Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "Print მომხმარებელს"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ­Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ"
+msgstr "ბეჭდვითი მომსახურება ანგარიში"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Print Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "Print შესახებ"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "მიმწოდებელი"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂ"
+msgstr "რეგისტრაცია"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "აღადგინოთ თქვენი პაროლი"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "როლები"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ ; Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¦Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡(RW-\\u003e R-\\u003e W-\\u003e Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂªÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ)"
+msgstr "როლები ამ მომხმარებლის მიერ; დააწკაპუნეთ ლღობას მეშვეობით ყველა სახელმწიფოს(RW-\\u003e R-\\u003e W-\\u003e არცერთი)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ: Ã¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ©Ã¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡, Ã¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ, Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂ¯Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ, Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ. Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ§Ã¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ: u'(Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡),\\\"Ã¡ÂÂ\\\"( Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¢Ã¡ÂÂ),' o'(Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡),' s'( Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ)."
+msgstr "როლები შესახებ: მწვანე ფერი მიუთითებს ნებართვის წაკითხვის და ჩაწერის, ყვითელი საშუალებით მხოლოდ წაიკითხა, ლურჯი მხოლოდ წერენ, და წითელი არ ნებართვით. განყოფილებები: u'(მომხმარებლებს),\\\"გ\\\"( აბონენტი),' o'(ბრძანებებს),' s'( ანგარიშების მომსახურება)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -465,15 +498,15 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ¨Ã¡ÂÂ"
+msgstr "ანგარიშში"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂ¨Ã¡ÂÂ n"
+msgstr "ანგარიშში n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ანგარიშების მომსახურება"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -481,147 +514,180 @@ msgstr "Setup"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Ã¡ÂÂ¥Ã¡ÂÂ£Ã¡ÂÂ©Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ქუჩის მისამართი"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ამ მომხმარებლის სახელი უკვე გამოიყენება"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ამ მომხმარებლის სახელი არ არის სწორი"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡"
+msgstr "ეს არის"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂª Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂª Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ამ მომხმარებელს შეუძლია და არც წაიკითხავს და არც წერენ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ¡"
+msgstr "ამ მომხმარებელს შეუძლია წაიკითხოს"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡"
+msgstr "ამ მომხმარებელს შეუძლია წაიკითხოს და დაწეროს"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡"
+msgstr "ამ მომხმარებელს შეუძლია დაწეროს"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂ"
+msgstr "ამ მომხმარებლის არ გავქთ"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ამ მომხმარებლის სახელი უკვე გამოიყენება"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "ამ მომხმარებლის სახელი უკვე მიღებული"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ  Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "ამ მომხმარებლის სახელი არ არის სწორი"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂª Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂª Codice Fiscale Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂª P.IVA"
+msgstr "ეს არც არც Codice Fiscale არც P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂ§Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "მომსახურების დრო დაწყების"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Toggle Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂ"
+msgstr "Toggle ნავიგაცია"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂ"
+msgstr "მომხმარებლის ელფოსტა"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებლის სახელი"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "მომხმარებლის სახელი არ არის სწორი"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ნიკი"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "ნიკი/ Email"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებელი"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "თქვენ ფორუმზე"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Ã¡ÂÂÃ¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ"
+msgstr "თქვენ შემოსული"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "თქვენი ელ"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "თქვენი პაროლი"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "თქვენი პაროლი, კიდევ ერთხელ"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "თქვენი მომხმარებლის სახელი"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "თქვენი სახელი ან ელ"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "Ã¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ"
+msgstr "ქეშირებული"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ¥Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "გაუქმება"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "შემოწმების"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡"
+msgstr "მომხმარებელს"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¬Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ"
+msgstr "გადმოწერა"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "შეცდომა"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡."
+msgstr "მთავარი გვერდი არასამთავრობო დარეგისტრირებულ მომხმარებლებს."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ registerd Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡."
+#, 
+msgid "home page for registered users."
+msgstr "მთავარი გვერდი დარეგისტრირებულ მომხმარებლებს."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ¡"
+msgstr "ინიციალიზაციისას"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂªÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡(smart) Ã¡ÂÂ¤Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ."
+msgstr "არის ვებ განაცხადის(smart) ფაზაზე."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂ"
+msgstr "შესული შესახებ"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ£Ã¡ÂÂÃ¡ÂÂ"
+msgstr "მოძველებული"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ«Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "ბრძანებები"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "Ã¡ÂÂ¡Ã¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ¢Ã¡ÂÂ Ã¡ÂÂÃ¡ÂÂªÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ accout Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂ¨Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ."
+msgstr "სხვაგვარად რეგისტრაცია ახალი accout და შედით."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ:"
+msgstr "პაროლი:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Ã¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂ¡Ã¡ÂÂ"
+msgstr "პროგრესი"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "Ã¡ÂÂ¡Ã¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ:"
+msgstr "სახელი:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ®Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂ Ã¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂÃ¡ÂÂ"
+msgstr "მომხმარებლები"

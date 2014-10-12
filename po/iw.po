@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: iw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: iw\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,95 +17,99 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Ã¤Ã´Ã¸Ã¥Ã·Ã¥ÃªÃ¨Ã¥ÃªÃ¤ Codice Ã Ã¥P.IVA Ã°Ã£Ã¸Ã¹"
+msgstr "הפרוקוךטוךה Codice אוP.IVA נדרש"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Ã¹Ã­ Ã¤Ã¬Ã·Ã¥Ã§ Ã§Ã¥Ã¡Ã¤"
+msgstr "שם הלקוח חובה"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Ã®Ã¥Ã²Ã£ ÃºÃ§Ã©Ã¬Ãº Ã¹Ã©Ã¸Ã¥Ãº Ã°Ã£Ã¸Ã¹"
+msgstr "מועד תחילת שירות נדרש"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "Ã®Ã¹Ãª Ã§Ã©Ã©Ã¡ Ã¬Ã¤Ã©Ã¥Ãº Ã¡Ã¶Ã¥Ã¸Ã¤\\\" hh\\\" Ã Ã¥\\\" hh: mm\\\",Ã¥Ã²Ã¥Ã£ Ã£Ã·Ã¤ Ã Ã§Ãº Ã¬Ã´Ã§Ã¥Ãº"
+msgstr "משך חייב להיות בצורה\\\" hh\\\" או\\\" hh: mm\\\",ועוד דקה אחת לפחות"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ã®Ã©Ã·Ã¥Ã­ Ã¹Ã¬ Ã¹Ã©Ã¸Ã¥Ãº Ã°Ã£Ã¸Ã¹"
+msgstr "מיקום של שירות נדרש"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "נדרשת סיסמא"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Ã®Ã±Ã´Ã¸ Ã¨Ã¬Ã´Ã¥Ã¯ Ã°Ã£Ã¸Ã¹"
+msgstr "מספר טלפון נדרש"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã¸Ã§Ã¥Ã¡ Ã°Ã£Ã¸Ã¹"
+msgstr "כתובת רחוב נדרש"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Ã¹Ã­ Ã®Ã¹ÃºÃ®Ã¹ Ã°Ã£Ã¸Ã¹"
+msgstr "שם משתמש נדרש"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "Ã Ã¥Ã£Ã¥Ãº"
+msgstr "אודות"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Ã¤Ã¥Ã±Ã³ Ã¬Ã·Ã¥Ã§ Ã§Ã£Ã¹"
+msgstr "הוסף לקוח חדש"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Ã¤Ã¥Ã±Ã³ Ã®Ã¹ÃºÃ®Ã¹ Ã§Ã£Ã¹"
+msgstr "הוסף משתמש חדש"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº"
+msgstr "כתובת"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã£Ã¥Ã Ã¸ Ã Ã¬Ã·Ã¨Ã¸Ã¥Ã°Ã© Ã°Ã£Ã¸Ã¹"
+msgstr "כתובת דואר אלקטרוני נדרש"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Ã®Ã´Ã²Ã©Ã¬ Ã°Ã£Ã¸Ã¹"
+msgstr "מפעיל נדרש"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Ã²Ã£Ã«Ã¥Ã¯ Ã¦Ã®Ã©Ã¯: Ã Ã©Ã¯ Ã¡Ã¸Ã¶Ã¥Ã°Ãª Ã¬Ã¨Ã²Ã¥Ã¯ Ã Ã¥ÃºÃ¥ Ã²Ã«Ã¹Ã©Ã¥?"
+msgstr "עדכון זמין: אין ברצונך לטעון אותו עכשיו?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Ã²Ã£Ã«Ã¥Ã¯ Ã®Ã¥Ã«Ã¯"
+msgstr "עדכון מוכן"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ã¤Ã Ã­ Ã ÃºÃ¤ Ã¡Ã Ã®Ãº Ã¡Ã¨Ã¥Ã§ Ã«Ã£Ã© Ã¬Ã¤Ã±Ã©Ã¸ Ã Ãº Ã£Ã¥Ã§ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "האם אתה באמת בטוח כדי להסיר את דוח שירות"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ã¤Ã Ã­ Ã ÃºÃ¤ Ã¡Ã Ã®Ãº Ã¡Ã¨Ã¥Ã§ Ã«Ã£Ã© Ã¬Ã¤Ã±Ã©Ã¸ Ã®Ã¹ÃºÃ®Ã¹Ã©Ã­"
+msgstr "האם אתה באמת בטוח כדי להסיר משתמשים"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "Id Ã Ã©Ã®Ã¥Ãº"
+msgstr "Id אימות"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Id Ã Ã©Ã®Ã¥Ãº Ã¹Ã¬ Ã¤Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "Id אימות של המשתמש"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Id Ã Ã©Ã®Ã¥Ãº:"
+msgstr "Id אימות:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "Ã±Ã´Ã· Ã Ã©Ã®Ã¥Ãº"
+msgstr "ספק אימות"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Ã±Ã´Ã· Ã Ã©Ã®Ã¥ÃºÃ¬Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "ספק אימותלמשתמש"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -113,7 +117,7 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "ÃºÃ®Ã¥Ã°Ãº Ã±Ã®Ã¬ Ã Ã©Ã¹Ã© Ã¹Ã¬ Ã¤Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "תמונת סמל אישי של המשתמש"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,195 +125,204 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Ã®Ã¨Ã®Ã¥Ã¯ Ã°Ã®Ã¶Ã  Ã¡Ã Ã¥ÃºÃ§Ã¬"
+msgstr "מטמון נמצא באותחל"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Ã®Ã¨Ã®Ã¥Ã¯ Ã°Ã®Ã¶Ã  Ã¡Ã®Ã¶Ã¡ Ã¬Ã  Ã©Ã£Ã¥Ã²"
+msgstr "מטמון נמצא במצב לא ידוע"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Ã®Ã¨Ã®Ã¥Ã¯ Ã Ã©Ã°Ã¥ Ã®Ã²Ã¥Ã£Ã«Ã¯(Ã«Ã°Ã¸Ã Ã¤Ã¤Ã®Ã°Ã©Ã´Ã±Ã¨ Ã Ã©Ã°Ã¥ Ã°Ã¢Ã©Ã¹)"
+msgstr "מטמון אינו מעודכן(כנראההמניפסט אינו נגיש)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Ã®Ã¨Ã®Ã¥Ã¯ Ã Ã©Ã°Ã¥ Ã®Ã²Ã¥Ã£Ã«Ã¯, Ã«Ã© Ã ÃºÃ¤ Ã¡Ã®Ã¶Ã¡ Ã¬Ã  Ã®Ã·Ã¥Ã¥Ã¯"
+msgstr "מטמון אינו מעודכן, כי אתה במצב לא מקוון"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Ã¤Ã®Ã¨Ã®Ã¥Ã¯ Ã¤Ã¥Ã  Ã®Ã©Ã¥Ã¹Ã¯"
+msgstr "המטמון הוא מיושן"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Ã®Ã¨Ã®Ã¥Ã¯ Ã¤Ã¥Ã  Ã²Ã£Ã¬ÃºÃ Ã¸Ã©Ãª"
+msgstr "מטמון הוא עדלתאריך"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Ã®Ã¶Ã¡ Ã®Ã¨Ã®Ã¥Ã¯ Ã¤Ã¥Ã "
+msgstr "מצב מטמון הוא"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Ã¡Ã£Ã©Ã·Ã¤Ã¬Ã°Ã¥Ã«Ã§Ã¥Ãº Ã¹Ã¬Ã²Ã£Ã«Ã¥Ã¯"
+msgstr "בדיקהלנוכחות שלעדכון"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Ã¤Ã´Ã¸Ã¥Ã·Ã¥ÃªÃ¨Ã¥ÃªÃ¤/ P.IVA"
+msgstr "Codice הפרוקוךטוךה/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Ã¤Ã´Ã¸Ã¥Ã·Ã¥ÃªÃ¨Ã¥ÃªÃ¤ Ã®Ã«Ã©Ã¬Ã¤ ÃºÃ¥ Ã¬Ã  Ã§Ã¥Ã·Ã©(Ã©Ã­)"
+msgstr "Codice הפרוקוךטוךה מכילה תו לא חוקי(ים)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Ã·Ã¥Ã£ Ã¹Ã¬Ã©Ã¨Ãº Codice Ã¤Ã´Ã¸Ã¥Ã·Ã¥ÃªÃ¨Ã¥ÃªÃ¤ Ã Ã©Ã°Ã¥ ÃºÃ¥Ã Ã­"
+msgstr "קוד שליטת Codice הפרוקוךטוךה אינו תואם"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Ã¤Ã´Ã¸Ã¥Ã·Ã¥ÃªÃ¨Ã¥ÃªÃ¤ Ã Ã¥ P.IVA Ã¹Ã¬ Ã¤Ã¬Ã·Ã¥Ã§"
+msgstr "Codice הפרוקוךטוךה או P.IVA של הלקוח"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Ã¬Ã¥Ã¢Ã¥ Ã¹Ã¬ Ã§Ã¡Ã¸Ã¤"
+msgstr "לוגו של חברה"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "אשר סיסמא"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Ã¬Ã¤ÃºÃ§Ã¡Ã¸ Ã¡Ã Ã®Ã¶Ã²Ã¥Ãº Ã Ã§Ã£ Ã®Ã¤Ã§Ã¹Ã¡Ã¥Ã°Ã¥Ãº\\\" Ã¤Ã§Ã¡Ã¸ÃºÃ©Ã©Ã­\\\" Ã¹Ã¬Ãª, Ã Ã¥ Ã¬Ã¤ÃºÃ§Ã¡Ã¸ Ã²Ã­ Ã Ã©Ã¹Ã¥Ã¸Ã© Ã¤Ã¡Ã Ã©Ã­:"
+msgstr "להתחבר באמצעות אחד מהחשבונות\\\" החברתיים\\\" שלך, או להתחבר עם אישורי הבאים:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Ã¬Ã¤ÃºÃ§Ã¡Ã¸ Ã²Ã­ Ã´Ã©Ã©Ã±Ã¡Ã¥Ã·"
+msgstr "להתחבר עם פייסבוק"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Ã§Ã¡Ã¸ Ã²Ã­ Google+"
+msgstr "חבר עם Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Ã¬Ã¤ÃºÃ§Ã¡Ã¸ Ã²Ã­ Ã¨Ã¥Ã¥Ã©Ã¨Ã¸"
+msgstr "להתחבר עם טוויטר"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "Ã®Ã¢Ã²Ã©Ã­"
+msgstr "מגעים"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "Ã¹Ã´Ã¤ Ã¤Ã°Ã¥Ã«Ã§Ã©Ãº Ã¤Ã©Ã "
+msgstr "שפה הנוכחית היא"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Ã¬Ã·Ã¥Ã§Ã¥Ãº"
+msgstr "לקוחות"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Ã«Ã¸Ã¨Ã©Ã± Ã¤Ã¬Ã·Ã¥Ã§"
+msgstr "כרטיס הלקוח"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã£Ã¥Ã Ã¸ Ã Ã¬Ã·Ã¨Ã¸Ã¥Ã°Ã© Ã¹Ã¬ Ã¬Ã·Ã¥Ã§Ã¥Ãº"
+msgstr "כתובת דואר אלקטרוני של לקוחות"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Ã¹Ã­ Ã¤Ã¬Ã·Ã¥Ã§"
+msgstr "שם הלקוח"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Ã®Ã±Ã´Ã¸ Ã¤Ã¨Ã¬Ã´Ã¥Ã¯ Ã¹Ã¬ Ã¬Ã·Ã¥Ã§Ã¥Ãº"
+msgstr "מספר הטלפון של לקוחות"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã¸Ã§Ã¥Ã¡ Ã¤Ã¬Ã·Ã¥Ã§"
+msgstr "כתובת רחוב הלקוח"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Ã¤Ã§ÃºÃ©Ã®Ã¤ Ã¹Ã¬ Ã¤Ã¬Ã·Ã¥Ã§"
+msgstr "החתימה של הלקוח"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Ã¬Ã·Ã¥Ã§Ã¥Ãº"
+msgstr "לקוחות"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "ÃºÃ Ã¸Ã©Ãª"
+msgstr "תאריך"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "ÃºÃ Ã¸Ã©Ãª ÃºÃ§Ã©Ã¬Ãº Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "תאריך תחילת שירות"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Ã®Ã§Ã· Ã¤Ã¬Ã·Ã¥Ã§"
+msgstr "מחק הלקוח"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Ã®Ã§Ã· Ã Ãº Ã£Ã¥Ã§ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "מחק את דוח שירות"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Ã¬Ã®Ã§Ã¥Ã· Ã Ãº Ã¤Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "למחוק את המשתמש"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Ã¤Ã¥Ã¸Ã£ÃºÃ²Ã£Ã«Ã¥Ã¯"
+msgstr "הורדתעדכון"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Ã®Ã¹Ãª"
+msgstr "משך"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Ã®Ã¹Ãª Ã¤Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "משך השירות"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ã¬Ã·Ã¥Ã§Ã¥Ãº Ã²Ã¸Ã©Ã«Ã¤"
+msgstr "לקוחות עריכה"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Ã²Ã¸Ã©Ã«Ãº Ã£Ã¥\\\"Ã§ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "עריכת דו\\\"ח שירות"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹Ã©Ã­ Ã¬Ã²Ã¸Ã¥Ãª"
+msgstr "משתמשים לערוך"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "Ã£Ã¥Ã \\\"Ã¬"
+msgstr "דוא\\\"ל"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã£Ã¥Ã \\\"Ã¬"
+msgstr "כתובת דוא\\\"ל"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã£Ã¥Ã Ã¸ Ã Ã¬Ã·Ã¨Ã¸Ã¥Ã°Ã© Ã Ã©Ã°Ã¤ Ã§Ã¥Ã·Ã©Ãº"
+msgstr "כתובת דואר אלקטרוני אינה חוקית"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã£Ã¥Ã Ã¸ Ã Ã¬Ã·Ã¨Ã¸Ã¥Ã°Ã© Ã¹Ã¬ Ã¤Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "כתובת דואר אלקטרוני של המשתמש"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Ã£Ã¥Ã \\\"Ã¬ Ã¹Ã¬ Ã¤Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "דוא\\\"ל של המשתמש"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Ã´Ã·Ã±"
+msgstr "פקס"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Ã¬Ã·Ã¥Ã§Ã¥Ãº Ã®Ã±Ã°Ã¯"
+msgstr "לקוחות מסנן"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Ã£Ã©Ã¥Ã¥Ã§Ã© Ã¹Ã©Ã¸Ã¥Ãº Ã±Ã©Ã°Ã¥Ã¯"
+msgstr "דיווחי שירות סינון"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹Ã© Ã®Ã±Ã°Ã¯"
+msgstr "משתמשי מסנן"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Ã¡Ã©Ãº"
+msgstr "בית"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "שכחתי את הסיסמה שלי"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,27 +330,27 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ã¤Ã©Ã  Ã®Ã Ã´Ã¹Ã¸ÃºÃ°Ã©Ã¤Ã¥Ã¬ Ã¬Ã·Ã¥Ã§Ã¥Ãº, Ã¤Ã¦Ã®Ã°Ã¥Ãº Ã¥Ã£Ã¥Ã§Ã¥Ãº Ã¹Ã©Ã¸Ã¥Ãº."
+msgstr "היא מאפשרתניהול לקוחות, הזמנות ודוחות שירות."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Ã¦Ã¤ Ã·Ã¥Ã£ Ã´ÃºÃ¥Ã§, Ã®Ã¤Ã©Ã¸Ã¤, Ã·Ã¥Ã®Ã´Ã·Ã¨Ã©Ãº, Ã¬Ã¤Ã¸Ã§Ã¡Ã¤, Ã¢Ã®Ã©Ã¹, Ã¡Ã©Ã°Ã¬Ã Ã¥Ã®Ã©Ã¥Ã±Ã¬Ã¥Ã¬Ã¸Ã©."
+msgstr "זה קוד פתוח, מהירה, קומפקטית, להרחבה, גמיש, בינלאומיוסלולרי."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Ã®Ã©Ã·Ã¥Ã­"
+msgstr "מיקום"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ã®Ã©Ã·Ã¥Ã­ Ã¹Ã¬ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "מיקום של שירות"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "Ã¤ÃºÃ§Ã¡Ã¸"
+msgstr "התחבר"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "Ã©Ã¶Ã©Ã Ã¤"
+msgstr "יציאה"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -345,51 +358,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Ã¹Ã­"
+msgstr "שם"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Ã¹Ã­ Ã¤Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "שם המשתמש"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Ã¬Ã·Ã¥Ã§ Ã§Ã£Ã¹"
+msgstr "לקוח חדש"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Ã£Ã¥\\\"Ã§ Ã§Ã£Ã¹"
+msgstr "דו\\\"ח חדש"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹ Ã§Ã£Ã¹"
+msgstr "משתמש חדש"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Ã Ã©Ã¯ Ã²Ã£Ã«Ã¥Ã¯ Ã°Ã¥Ã«Ã§Ã©"
+msgstr "אין עדכון נוכחי"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Ã¤Ã²Ã¸Ã¥Ãº"
+msgstr "הערות"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Ã®Ã±Ã´Ã¸"
+msgstr "מספר"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Ã®Ã´Ã²Ã©Ã¬"
+msgstr "מפעיל"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Ã®Ã´Ã²Ã©Ã¬ Ã¹Ã¬ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "מפעיל של שירות"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "Ã§ÃºÃ©Ã®ÃºÃ¥ Ã¹Ã¬ Ã¤Ã®Ã´Ã²Ã©Ã¬"
+msgstr "חתימתו של המפעיל"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Ã¤Ã¦Ã®Ã°Ã¥Ãº"
+msgstr "הזמנות"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA Ã®Ã«Ã©Ã¬ ÃºÃ¥ Ã¬Ã  Ã§Ã¥Ã·Ã©(Ã©Ã­)"
+msgstr "P.IVA מכיל תו לא חוקי(ים)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "Ã·Ã¥Ã£ Ã¹Ã¬Ã©Ã¨Ãº P.IVA Ã Ã©Ã°Ã¥ ÃºÃ¥Ã Ã­"
+msgstr "קוד שליטת P.IVA אינו תואם"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "סיסמא"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "אימות סיסמא אינה תואמת"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "אישור נדרש סיסמא"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "הסיסמה היא לא חזקה מספיק"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "Ã¨Ã¬Ã´Ã¥Ã¯"
+msgstr "טלפון"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Ã®Ã±Ã´Ã¸ Ã¨Ã¬Ã´Ã¥Ã¯"
+msgstr "מספר טלפון"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Ã®Ã±Ã´Ã¸ Ã¤Ã¨Ã¬Ã´Ã¥Ã¯ Ã Ã©Ã°Ã¥ Ã§Ã¥Ã·Ã©"
+msgstr "מספר הטלפון אינו חוקי"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ã®Ã·Ã¥Ã­"
+msgstr "מקום"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Ã¤Ã«Ã°ÃºÃ¤Ã¥Ã¸Ã£ÃºÃ²Ã£Ã«Ã¥Ã¯"
+msgstr "הכנתהורדתעדכון"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "Ã¤Ã£Ã´Ã±Ã¤"
+msgstr "הדפסה"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Ã¬Ã·Ã¥Ã§Ã¥Ãº Ã¤Ã£Ã´Ã±Ã¤"
+msgstr "לקוחות הדפסה"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Ã¤Ã£Ã´Ã±Ãº Ã£Ã¥\\\"Ã§ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "הדפסת דו\\\"ח שירות"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹Ã©Ã­ Ã¤Ã£Ã´Ã±Ã¤"
+msgstr "משתמשים הדפסה"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Ã±Ã´Ã·"
+msgstr "ספק"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "Ã¤Ã¸Ã¹Ã®Ã¤"
+msgstr "הרשמה"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "לאפס את הסיסמה שלך"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "ÃºÃ´Ã·Ã©Ã£Ã©Ã­"
+msgstr "תפקידים"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "ÃºÃ´Ã·Ã©Ã£Ã©Ã­ Ã²Ã¡Ã¥Ã¸ Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤; Ã¬Ã§Ãµ Ã«Ã£Ã© Ã¬Ã¤Ã§Ã¬Ã©Ã· Ã£Ã¸Ãª Ã«Ã¬ Ã¤Ã®Ã£Ã©Ã°Ã¥Ãº( RW-\\u003e R-\\u003e W-\\u003e Ã Ã³ Ã Ã§Ã£)"
+msgstr "תפקידים עבור משתמש זה; לחץ כדי להחליק דרך כל המדינות( RW-\\u003e R-\\u003e W-\\u003e אף אחד)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "ÃºÃ´Ã·Ã©Ã£Ã©Ã¥ Ã¹Ã¬ Ã®Ã¹ÃºÃ®Ã¹: Ã¤Ã¶Ã¡Ã² Ã©Ã¸Ã¥Ã· Ã®Ã¶Ã©Ã©Ã¯ Ã Ã©Ã¹Ã¥Ã¸ Ã¬Ã·Ã¸Ã©Ã Ã¤ Ã¥Ã¤Ã«ÃºÃ©Ã¡Ã¤, Ã Ã®Ã¶Ã²Ã© Ã¶Ã¤Ã¥Ã¡ Ã¬Ã·Ã¸Ã©Ã Ã¤ Ã¡Ã¬Ã¡Ã£, Ã«Ã§Ã¥Ã¬ Ã¡Ã¬Ã¡Ã£ Ã¬Ã«ÃºÃ¥Ã¡, Ã¥Ã Ã£Ã¥Ã­ Ã¬Ã  Ã¸Ã¹Ã¥Ãº. Ã±Ã²Ã©Ã´Ã©Ã­ Ã¤Ã­:'U'(Ã®Ã¹ÃºÃ®Ã¹Ã©Ã­),( Ã¬Ã·Ã¥Ã§Ã¥Ãº)'c',( Ã¤Ã¦Ã®Ã°Ã¥Ãº)'o','s'(Ã£Ã¥Ã§Ã¥Ãº Ã¹Ã©Ã¸Ã¥Ãº)."
+msgstr "תפקידיו של משתמש: הצבע ירוק מציין אישור לקריאה והכתיבה, אמצעי צהוב לקריאה בלבד, כחול בלבד לכתוב, ואדום לא רשות. סעיפים הם:'U'(משתמשים),( לקוחות)'c',( הזמנות)'o','s'(דוחות שירות)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "Ã¹Ã®Ã¥Ã¸"
+msgstr "שמור"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Ã£Ã¥\\\"Ã§ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "דו\\\"ח שירות"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "N Ã£Ã¥\\\"Ã§ Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "N דו\\\"ח שירות"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Ã£Ã©Ã¥Ã¥Ã§Ã© Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "דיווחי שירות"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Ã¤ÃºÃ·Ã°Ã¤"
+msgstr "התקנה"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã¸Ã§Ã¥Ã¡"
+msgstr "כתובת רחוב"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ã¹Ã­ Ã¬Ã·Ã¥Ã§ Ã¦Ã¤ Ã«Ã¡Ã¸ Ã°Ã®Ã¶Ã  Ã¡Ã¹Ã©Ã®Ã¥Ã¹"
+msgstr "שם לקוח זה כבר נמצא בשימוש"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ã¹Ã­ Ã¬Ã·Ã¥Ã§ Ã¦Ã¤ Ã Ã©Ã°Ã¥ Ã§Ã¥Ã·Ã©"
+msgstr "שם לקוח זה אינו חוקי"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ã¦Ã¤"
+msgstr "זה"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ã©Ã«Ã¥Ã¬ Ã¥Ã¬Ã  Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤ Ã·Ã¸Ã¥Ã  Ã¥Ã«ÃºÃ¥Ã¡"
+msgstr "יכול ולא משתמש זה קרוא וכתוב"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤ Ã©Ã«Ã¥Ã¬ Ã¬Ã·Ã¸Ã¥Ã "
+msgstr "משתמש זה יכול לקרוא"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤ Ã©Ã«Ã¥Ã¬ Ã¬Ã·Ã¸Ã¥Ã  Ã¥Ã¬Ã«ÃºÃ¥Ã¡"
+msgstr "משתמש זה יכול לקרוא ולכתוב"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤ Ã©Ã«Ã¥Ã¬ Ã¬Ã«ÃºÃ¥Ã¡"
+msgstr "משתמש זה יכול לכתוב"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤ Ã¬Ã  Ã©Ã«Ã¥Ã¬ Ã¬Ã¢Ã¹Ãº"
+msgstr "משתמש זה לא יכול לגשת"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ã¹Ã­ Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤ Ã«Ã¡Ã¸ Ã°Ã®Ã¶Ã  Ã¡Ã¹Ã©Ã®Ã¥Ã¹"
+msgstr "שם משתמש זה כבר נמצא בשימוש"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "שם משתמש זה כבר תפוס"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ã¹Ã­ Ã®Ã¹ÃºÃ®Ã¹ Ã¦Ã¤ Ã Ã©Ã°Ã¥ Ã§Ã¥Ã·Ã©"
+msgstr "שם משתמש זה אינו חוקי"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ã²Ã¸Ãª Ã¦Ã¤ Ã¤Ã¥Ã  Ã¥Ã¬Ã Ã¤Ã´Ã¸Ã¥Ã·Ã¥ÃªÃ¨Ã¥ÃªÃ¤ Codice Ã¥Ã¬Ã P.IVA"
+msgstr "ערך זה הוא ולאהפרוקוךטוךה Codice ולאP.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Ã¦Ã®Ã¯ Ã¹Ã¬ ÃºÃ§Ã©Ã¬Ãº Ã¹Ã©Ã¸Ã¥Ãº"
+msgstr "זמן של תחילת שירות"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Ã°Ã©Ã¥Ã¥Ã¨ Toggle"
+msgstr "ניווט Toggle"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Ã«ÃºÃ¥Ã¡Ãº Ã¤Ã£Ã¥Ã \\\"Ã¬ Ã¹Ã¬ Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "כתובת הדוא\\\"ל של משתמש"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Ã¹Ã­ Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "שם משתמש"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "שם משתמש אינו חוקי"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Ã¹Ã­ Ã®Ã¹ÃºÃ®Ã¹"
+msgstr "שם משתמש"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "שם משתמש/ דואר אלקטרוני"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹Ã©Ã­"
+msgstr "משתמשים"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Ã ÃºÃ¤ Ã¡Ã®Ã¶Ã¡ Ã¬Ã  Ã®Ã·Ã¥Ã¥Ã¯"
+msgstr "אתה במצב לא מקוון"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Ã ÃºÃ¤ Ã®Ã§Ã¥Ã¡Ã¸ Ã¬Ã Ã©Ã°Ã¨Ã¸Ã°Ã¨"
+msgstr "אתה מחובר לאינטרנט"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "הדוא\\\"ל שלך"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "הסיסמה שלך"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "הסיסמה שלך, שוב"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "שם המשתמש שלך"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "שם המשתמש או דוא\\\"ל שלך"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "Ã®Ã¨Ã®Ã¥Ã¯"
+msgstr "מטמון"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "Ã¬Ã¡Ã¨Ã¬"
+msgstr "לבטל"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "Ã¡Ã£Ã©Ã·Ã¤"
+msgstr "בדיקה"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "Ã¬Ã·Ã¥Ã§Ã¥Ãº"
+msgstr "לקוחות"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Ã¤Ã¥Ã¸Ã£Ã¤"
+msgstr "הורדה"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Ã¹Ã¢Ã©Ã Ã¤"
+msgstr "שגיאה"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Ã£Ã³ Ã¤Ã¡Ã©ÃºÃ¬Ã®Ã¹ÃºÃ®Ã¹Ã©Ã­ Ã¸Ã¹Ã¥Ã®Ã©Ã­ Ã¹Ã Ã©Ã°Ã­."
+msgstr "דף הביתלמשתמשים רשומים שאינם."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "Ã£Ã³ Ã¤Ã¡Ã©Ãº Ã²Ã¡Ã¥Ã¸ Ã®Ã¹ÃºÃ®Ã¹Ã© registerd."
+#, 
+msgid "home page for registered users."
+msgstr "דף הביתלמשתמשים רשומים."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "Ã ÃºÃ§Ã¥Ã¬"
+msgstr "אתחול"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "Ã¤Ã¥Ã Ã©Ã©Ã¹Ã¥Ã­ Ã Ã©Ã°Ã¨Ã¸Ã°Ã¨Ã¬Ã§Ã¡Ã¸Ã¥Ãº Ã¤Ã¦Ã°Ã·( Ã§Ã«Ã­)."
+msgstr "הואיישום אינטרנטלחברות הזנק( חכם)."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹ Ã®Ã§Ã¥Ã¡Ã¸"
+msgstr "משתמש מחובר"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "Ã®Ã©Ã¥Ã¹Ã¯"
+msgstr "מיושן"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Ã¤Ã¦Ã®Ã°Ã¥Ãº"
+msgstr "הזמנות"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "Ã Ã§Ã¸Ãº Ã¬Ã¸Ã¹Ã¥Ã­accout Ã§Ã£Ã¹Ã¥Ã¬Ã¤ÃºÃ§Ã¡Ã¸."
+msgstr "אחרת לרשוםaccout חדשולהתחבר."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Ã±Ã©Ã±Ã®Ã :"
+msgstr "סיסמא:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Ã¤ÃºÃ·Ã£Ã®Ã¥Ãº"
+msgstr "התקדמות"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "Ã¹Ã­ Ã®Ã¹ÃºÃ®Ã¹:"
+msgstr "שם משתמש:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "Ã®Ã¹ÃºÃ®Ã¹Ã©Ã­"
+msgstr "משתמשים"

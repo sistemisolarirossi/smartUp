@@ -28,6 +28,10 @@ msgstr ""
 msgid "A location of service is required"
 msgstr ""
 
+#: app/views/register.html
+msgid "A password is required"
+msgstr ""
+
 #: app/views/customers.html
 msgid "A phone number is required"
 msgstr ""
@@ -36,6 +40,7 @@ msgstr ""
 msgid "A street address is required"
 msgstr ""
 
+#: app/views/register.html
 #: app/views/users.html
 msgid "A user name is required"
 msgstr ""
@@ -58,6 +63,7 @@ msgid "Address"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/register.html
 msgid "An email address is required"
 msgstr ""
 
@@ -165,6 +171,10 @@ msgstr ""
 msgid "Company logo"
 msgstr ""
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr ""
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
 msgstr ""
@@ -269,6 +279,7 @@ msgid "Edit user"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/register.html
 #: app/views/serviceReports.html
 #: app/views/users.html
 msgid "Email"
@@ -280,6 +291,7 @@ msgid "Email address"
 msgstr ""
 
 #: app/views/customers.html
+#: app/views/register.html
 msgid "Email address is not valid"
 msgstr ""
 
@@ -311,6 +323,10 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr ""
+
 #: app/views/users.html
 msgid "Id"
 msgstr ""
@@ -332,6 +348,7 @@ msgid "Location of service"
 msgstr ""
 
 #: app/views/home.html
+#: app/views/login.html
 msgid "Log in"
 msgstr ""
 
@@ -404,6 +421,23 @@ msgstr ""
 msgid "P.IVA control code doesn't match"
 msgstr ""
 
+#: app/views/login.html
+#: app/views/register.html
+msgid "Password"
+msgstr ""
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr ""
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr ""
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr ""
+
 #: app/views/customers.html
 #: app/views/serviceReports.html
 msgid "Phone"
@@ -447,7 +481,12 @@ msgid "Provider"
 msgstr ""
 
 #: app/views/home.html
+#: app/views/register.html
 msgid "Register"
+msgstr ""
+
+#: app/views/login.html
+msgid "Reset your password"
 msgstr ""
 
 #: app/views/users.html
@@ -524,6 +563,10 @@ msgstr ""
 msgid "This user name is already in use"
 msgstr ""
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr ""
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr ""
@@ -548,8 +591,17 @@ msgstr ""
 msgid "User name"
 msgstr ""
 
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr ""
+
+#: app/views/register.html
 #: app/views/users.html
 msgid "Username"
+msgstr ""
+
+#: app/views/login.html
+msgid "Username / Email"
 msgstr ""
 
 #: app/views/nav.html
@@ -562,6 +614,26 @@ msgstr ""
 
 #: app/views/footer.html
 msgid "You are online"
+msgstr ""
+
+#: app/views/register.html
+msgid "Your email"
+msgstr ""
+
+#: app/views/register.html
+msgid "Your password"
+msgstr ""
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr ""
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr ""
+
+#: app/views/login.html
+msgid "Your username or email"
 msgstr ""
 
 #: app/scripts/app.js
@@ -596,7 +668,7 @@ msgid "home page for non registered users."
 msgstr ""
 
 #: app/views/home.html
-msgid "home page for registerd users."
+msgid "home page for registered users."
 msgstr ""
 
 #: app/scripts/app.js

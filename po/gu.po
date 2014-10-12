@@ -5,115 +5,119 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( HH:\\u0A8F\\u0AAE\\u0A8F\\u0AAE)"
+msgstr "( HH: એમએમ)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "\\u0A8F\\u0A95 Codice Fiscale\\u0A85\\u0AA5\\u0AB5\\u0ABE P.IVA\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "એક Codice Fiscale અથવા P.IVA જરૂરી છે"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "\\u0A8F\\u0A95\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0AA8\\u0ABE\\u0AAE\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "એક ગ્રાહક નામ જરૂરી છે"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0AB6\\u0AB0\\u0AC2\\u0A86\\u0AA4\\u0A8F\\u0A95\\u0AA4\\u0ABE\\u0AB0\\u0AC0\\u0A96\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "સેવા શરૂઆત એક તારીખ જરૂરી છે"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "\\u0A8F\\u0A95\\u0AB8\\u0AAE\\u0AAF\\u0A97\\u0ABE\\u0AB3\\u0ACB' HH'\\u0AB8\\u0ACD\\u0AB5\\u0AB0\\u0AC2\\u0AAA\\u0AAE\\u0ABE\\u0A82\\u0AB9\\u0ACB\\u0A88\\u0AB6\\u0A95\\u0AC7\\u0A9B\\u0AC7\\u0A85\\u0AA5\\u0AB5\\u0ABE\\u0A9C\\u0ACB\\u0A88\\u0A8F' HH:\\u0AAE\\u0AC0\\u0AAE\\u0AC0,\\u0A85\\u0AA8\\u0AC7\\u0A93\\u0A9B\\u0ABE\\u0AAE\\u0ABE\\u0A82\\u0A93\\u0A9B\\u0ABE\\u0A8F\\u0A95\\u0AAE\\u0ABF\\u0AA8\\u0ABF\\u0A9F\\u0AB2\\u0ABE\\u0A82\\u0AAC\\u0ABE"
+msgstr "એક સમયગાળો' HH' સ્વરૂપમાં હોઈ શકે છે અથવા જોઈએ' HH: મીમી, અને ઓછામાં ઓછા એક મિનિટ લાંબા"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A8F\\u0A95\\u0AB8\\u0ACD\\u0AA5\\u0ABE\\u0AA8\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "સેવા એક સ્થાન જરૂરી છે"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "પાસવર્ડ જરૂરી છે"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "\\u0A8F\\u0A95\\u0AAB\\u0ACB\\u0AA8\\u0AA8\\u0A82\\u0AAC\\u0AB0\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "એક ફોન નંબર જરૂરી છે"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "\\u0A8F\\u0A95\\u0AB6\\u0AC7\\u0AB0\\u0AC0\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "એક શેરી સરનામું જરૂરી છે"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0ABE\\u0AAE\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "વપરાશકર્તા નામ જરૂરી છે"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "\\u0AB5\\u0ABF\\u0AB6\\u0AC7"
+msgstr "વિશે"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "\\u0AA8\\u0AB5\\u0ABE\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0A89\\u0AAE\\u0AC7\\u0AB0\\u0ACB"
+msgstr "નવા ગ્રાહક ઉમેરો"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "\\u0AA8\\u0AB5\\u0ABE\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A89\\u0AAE\\u0AC7\\u0AB0\\u0ACB"
+msgstr "નવા વપરાશકર્તા ઉમેરો"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82"
+msgstr "સરનામું"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "\\u0A8F\\u0A95\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "એક ઇમેઇલ સરનામું જરૂરી છે"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "\\u0A8F\\u0A95\\u0A93\\u0AAA\\u0AB0\\u0AC7\\u0A9F\\u0AB0\\u0A9C\\u0AB0\\u0AC2\\u0AB0\\u0AC0\\u0A9B\\u0AC7"
+msgstr "એક ઓપરેટર જરૂરી છે"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "\\u0A85\\u0AAA\\u0AA1\\u0AC7\\u0A9F\\u0A89\\u0AAA\\u0AB2\\u0AAC\\u0ACD\\u0AA7\\u0A9B\\u0AC7:\\u0AA4\\u0AAE\\u0AC7\\u0AB9\\u0AB5\\u0AC7\\u0AA4\\u0AC7\\u0AB2\\u0ACB\\u0AA1\\u0A95\\u0AB0\\u0AB5\\u0ABE\\u0AAE\\u0ABE\\u0A82\\u0A97\\u0ACB\\u0A9B\\u0ACB?"
+msgstr "અપડેટ ઉપલબ્ધ છે: તમે હવે તે લોડ કરવા માંગો છો?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "\\u0A8F\\u0A95\\u0AB8\\u0AC1\\u0AA7\\u0ABE\\u0AB0\\u0ABE\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0AA4\\u0AC8\\u0AAF\\u0ABE\\u0AB0\\u0A9B\\u0AC7"
+msgstr "એક સુધારા માટે તૈયાર છે"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "\\u0AA4\\u0AAE\\u0AC7\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2\\u0AA6\\u0AC2\\u0AB0\\u0A95\\u0AB0\\u0AB5\\u0ABE\\u0A96\\u0AB0\\u0AC7\\u0A96\\u0AB0\\u0A9B\\u0ACB"
+msgstr "તમે સેવા અહેવાલ દૂર કરવા ખરેખર છો"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "\\u0AA4\\u0AAE\\u0AC7\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA6\\u0AC2\\u0AB0\\u0A95\\u0AB0\\u0AB5\\u0ABE\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0A96\\u0AB0\\u0AC7\\u0A96\\u0AB0\\u0A9B\\u0ACB"
+msgstr "તમે વપરાશકર્તા દૂર કરવા માટે ખરેખર છો"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "\\u0AB8\\u0AA4\\u0ACD\\u0AA4\\u0ABE\\u0AA7\\u0ABF\\u0A95\\u0AB0\\u0AA3\\u0A86\\u0A88\\u0AA1\\u0AC0"
+msgstr "સત્તાધિકરણ આઈડી"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0AC0\\u0AB8\\u0AA4\\u0ACD\\u0AA4\\u0ABE\\u0AA7\\u0ABF\\u0A95\\u0AB0\\u0AA3\\u0A86\\u0A88\\u0AA1\\u0AC0"
+msgstr "વપરાશકર્તાની સત્તાધિકરણ આઈડી"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "\\u0AB8\\u0AA4\\u0ACD\\u0AA4\\u0ABE\\u0AA7\\u0ABF\\u0A95\\u0AB0\\u0AA3\\u0A86\\u0A88\\u0AA1\\u0AC0:"
+msgstr "સત્તાધિકરણ આઈડી:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "\\u0AB8\\u0AA4\\u0ACD\\u0AA4\\u0ABE\\u0AA7\\u0ABF\\u0A95\\u0AB0\\u0AA3\\u0AAA\\u0ACD\\u0AB0\\u0AA6\\u0ABE\\u0AA4\\u0ABE"
+msgstr "સત્તાધિકરણ પ્રદાતા"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0AB8\\u0AA4\\u0ACD\\u0AA4\\u0ABE\\u0AA7\\u0ABF\\u0A95\\u0AB0\\u0AA3\\u0AAA\\u0ACD\\u0AB0\\u0AA6\\u0ABE\\u0AA4\\u0ABE"
+msgstr "વપરાશકર્તા માટે સત્તાધિકરણ પ્રદાતા"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "\\u0A85\\u0AB5\\u0AA4\\u0ABE\\u0AB0"
+msgstr "અવતાર"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0AC0\\u0A85\\u0AB5\\u0AA4\\u0ABE\\u0AB0\\u0A9B\\u0AAC\\u0AC0"
+msgstr "વપરાશકર્તાની અવતાર છબી"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "\\u0A95\\u0AC7\\u0AB6\\u0AAA\\u0ACD\\u0AB0\\u0ABE\\u0AB0\\u0A82\\u0AAD\\u0A95\\u0AB0\\u0AB5\\u0ABE\\u0AAE\\u0ABE\\u0A82\\u0A86\\u0AB5\\u0AC0\\u0AB0\\u0AB9\\u0AC0\\u0A9B\\u0AC7"
+msgstr "કેશ પ્રારંભ કરવામાં આવી રહી છે"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "\\u0A95\\u0AC7\\u0AB6\\u0A85\\u0A9C\\u0ACD\\u0A9E\\u0ABE\\u0AA4\\u0AB8\\u0ACD\\u0AA5\\u0ABF\\u0AA4\\u0ABF\\u0AAE\\u0ABE\\u0A82\\u0A9B\\u0AC7"
+msgstr "કેશ અજ્ઞાત સ્થિતિમાં છે"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "\\u0A95\\u0AC7\\u0AB6\\u0AB8\\u0AC1\\u0AA7\\u0ABE\\u0AB0\\u0ABE\\u0AAF\\u0AC7\\u0AB2\\u0AA8\\u0AA5\\u0AC0(\\u0A95\\u0AA6\\u0ABE\\u0A9A\\u0AAA\\u0ACD\\u0AB0\\u0A97\\u0A9F\\u0AAA\\u0AB9\\u0ACB\\u0A82\\u0A9A\\u0AC0\\u0AB6\\u0A95\\u0AB5\\u0ABE\\u0AAF\\u0ACB\\u0A97\\u0ACD\\u0AAF\\u0AA8\\u0AA5\\u0AC0)"
+msgstr "કેશ સુધારાયેલ નથી( કદાચ પ્રગટ પહોંચી શકવા યોગ્ય નથી)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "\\u0AA4\\u0AAE\\u0AC7\\u0A91\\u0AAB\\u0AB2\\u0ABE\\u0A87\\u0AA8\\u0A9B\\u0AC7\\u0A95\\u0ABE\\u0AB0\\u0AA3\\u0A95\\u0AC7\\u0A95\\u0AC7\\u0AB6\\u0AB8\\u0AC1\\u0AA7\\u0ABE\\u0AB0\\u0ABE\\u0AAF\\u0AC7\\u0AB2\\u0AA8\\u0AA5\\u0AC0"
+msgstr "તમે ઑફલાઇન છે કારણ કે કેશ સુધારાયેલ નથી"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "\\u0A95\\u0AC7\\u0AB6\\u0A95\\u0ABE\\u0AB2\\u0A97\\u0ACD\\u0AB0\\u0AB8\\u0ACD\\u0AA4\\u0A9B\\u0AC7"
+msgstr "કેશ કાલગ્રસ્ત છે"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "\\u0A95\\u0AC7\\u0AB6\\u0A9B\\u0AC7\\u0A85\\u0AAA\\u0A9F\\u0AC1\\u0AA1\\u0AC7\\u0A9F"
+msgstr "કેશ છે અપ ટુ ડેટ"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "\\u0A95\\u0AC7\\u0AB6\\u0AAA\\u0AB0\\u0ABF\\u0AB8\\u0ACD\\u0AA5\\u0ABF\\u0AA4\\u0ABF\\u0A9B\\u0AC7"
+msgstr "કેશ પરિસ્થિતિ છે"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "\\u0AB8\\u0AC1\\u0AA7\\u0ABE\\u0AB0\\u0ACB\\u0AB9\\u0ABE\\u0A9C\\u0AB0\\u0AC0\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0AA4\\u0AAA\\u0ABE\\u0AB8\\u0AC0\\u0AB0\\u0AB9\\u0ACD\\u0AAF\\u0AC1\\u0A82\\u0A9B\\u0AC7"
+msgstr "સુધારો હાજરી માટે તપાસી રહ્યું છે"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,239 +161,248 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale\\u0A85\\u0AAE\\u0ABE\\u0AA8\\u0ACD\\u0AAF\\u0A85\\u0A95\\u0ACD\\u0AB7\\u0AB0\\u0A9B\\u0AC7(\\u0A93)"
+msgstr "Codice Fiscale અમાન્ય અક્ષર છે(ઓ)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale\\u0AA8\\u0ABF\\u0AAF\\u0A82\\u0AA4\\u0ACD\\u0AB0\\u0AA3\\u0A95\\u0ACB\\u0AA1\\u0AAE\\u0AC7\\u0AB3\\u0A96\\u0ABE\\u0AA4\\u0ACB\\u0AA8\\u0AA5\\u0AC0"
+msgstr "Codice Fiscale નિયંત્રણ કોડ મેળ ખાતો નથી"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale\\u0A85\\u0AA5\\u0AB5\\u0ABE\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95 P.IVA"
+msgstr "Codice Fiscale અથવા ગ્રાહક P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "\\u0A95\\u0A82\\u0AAA\\u0AA8\\u0AC0\\u0AB2\\u0ACB\\u0A97\\u0ACB"
+msgstr "કંપની લોગો"
+
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "પાસવર્ડ ખાતરી કરો"
 
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "\\u0AA4\\u0AAE\\u0ABE\\u0AB0\\u0ABE\\\"\\u0AB8\\u0ABE\\u0AAE\\u0ABE\\u0A9C\\u0ABF\\u0A95\\\"\\u0AB9\\u0ABF\\u0AB8\\u0ABE\\u0AAC\\u0AAE\\u0AA6\\u0AA6\\u0AA5\\u0AC0\\u0A9C\\u0ACB\\u0AA1\\u0ABE\\u0AB5\\u0ABE\\u0AAE\\u0ABE\\u0A9F\\u0AC7,\\u0A85\\u0AA5\\u0AB5\\u0ABE\\u0A86\\u0A93\\u0AB3\\u0A96\\u0ABE\\u0AA3\\u0AAA\\u0AA4\\u0ACD\\u0AB0\\u0AB8\\u0ABE\\u0AA5\\u0AC7\\u0AB2\\u0AC9\\u0A97\\u0A87\\u0AA8:"
+msgstr "તમારા\\\" સામાજિક\\\" હિસાબ મદદથી જોડાવા માટે, અથવા આ ઓળખાણપત્ર સાથે લૉગ ઇન:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "\\u0AAB\\u0AC7\\u0AB8\\u0AAC\\u0AC1\\u0A95\\u0AB8\\u0ABE\\u0AA5\\u0AC7\\u0A9C\\u0ACB\\u0AA1\\u0ABE\\u0A93"
+msgstr "ફેસબુક સાથે જોડાઓ"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Google+\\u0AB8\\u0ABE\\u0AA5\\u0AC7\\u0A95\\u0AA8\\u0AC7\\u0A95\\u0ACD\\u0A9F\\u0A95\\u0AB0\\u0ACB"
+msgstr "Google+ સાથે કનેક્ટ કરો"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "\\u0A9F\\u0ACD\\u0AB5\\u0ABF\\u0A9F\\u0AB0\\u0AB8\\u0ABE\\u0AA5\\u0AC7\\u0A9C\\u0ACB\\u0AA1\\u0ABE\\u0A93"
+msgstr "ટ્વિટર સાથે જોડાઓ"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "\\u0AB8\\u0A82\\u0AAA\\u0AB0\\u0ACD\\u0A95\\u0ACB"
+msgstr "સંપર્કો"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "\\u0AB5\\u0AB0\\u0ACD\\u0AA4\\u0AAE\\u0ABE\\u0AA8\\u0AAD\\u0ABE\\u0AB7\\u0ABE\\u0A9B\\u0AC7"
+msgstr "વર્તમાન ભાષા છે"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95"
+msgstr "ગ્રાહક"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0A95\\u0ABE\\u0AB0\\u0ACD\\u0AA1"
+msgstr "ગ્રાહક કાર્ડ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82"
+msgstr "ગ્રાહક ઇમેઇલ સરનામું"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0AA8\\u0ABE\\u0AAE"
+msgstr "ગ્રાહક નામ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0AAB\\u0ACB\\u0AA8\\u0AA8\\u0A82\\u0AAC\\u0AB0"
+msgstr "ગ્રાહક ફોન નંબર"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95,\\u0AB6\\u0AC7\\u0AB0\\u0AC0\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82"
+msgstr "ગ્રાહક, શેરી સરનામું"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0AB8\\u0AB9\\u0AC0"
+msgstr "ગ્રાહક સહી"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0ACB"
+msgstr "ગ્રાહકો"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "\\u0AA4\\u0ABE\\u0AB0\\u0AC0\\u0A96"
+msgstr "તારીખ"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0AB6\\u0AB0\\u0AC2\\u0A86\\u0AA4\\u0AA4\\u0ABE\\u0AB0\\u0AC0\\u0A96"
+msgstr "સેવા શરૂઆત તારીખ"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0A95\\u0ABE\\u0AA2\\u0AC0\\u0AA8\\u0ABE\\u0A96\\u0ACB"
+msgstr "ગ્રાહક કાઢી નાખો"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2\\u0A95\\u0ABE\\u0AA2\\u0AC0\\u0AA8\\u0ABE\\u0A96\\u0ACB"
+msgstr "સેવા અહેવાલ કાઢી નાખો"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A95\\u0ABE\\u0AA2\\u0AC0\\u0AA8\\u0ABE\\u0A96\\u0ACB"
+msgstr "વપરાશકર્તા કાઢી નાખો"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "\\u0A85\\u0AAA\\u0AA1\\u0AC7\\u0A9F\\u0AA1\\u0ABE\\u0A89\\u0AA8\\u0AB2\\u0ACB\\u0AA1"
+msgstr "અપડેટ ડાઉનલોડ"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "\\u0AB8\\u0AAE\\u0AAF\\u0A97\\u0ABE\\u0AB3\\u0ACB"
+msgstr "સમયગાળો"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0AB8\\u0AAE\\u0AAF\\u0A97\\u0ABE\\u0AB3\\u0ACB"
+msgstr "સેવા સમયગાળો"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "\\u0AAB\\u0AC7\\u0AB0\\u0AAB\\u0ABE\\u0AB0\\u0A95\\u0AB0\\u0ACB\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95"
+msgstr "ફેરફાર કરો ગ્રાહક"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "\\u0AAB\\u0AC7\\u0AB0\\u0AAB\\u0ABE\\u0AB0\\u0A95\\u0AB0\\u0ACB\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2"
+msgstr "ફેરફાર કરો સેવા અહેવાલ"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "\\u0AAB\\u0AC7\\u0AB0\\u0AAB\\u0ABE\\u0AB0\\u0A95\\u0AB0\\u0ACB\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE"
+msgstr "ફેરફાર કરો વપરાશકર્તા"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2"
+msgstr "ઇમેઇલ"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82"
+msgstr "ઇમેઇલ સરનામું"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82\\u0AAE\\u0ABE\\u0AA8\\u0ACD\\u0AAF\\u0AA8\\u0AA5\\u0AC0"
+msgstr "ઇમેઇલ સરનામું માન્ય નથી"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0AC1\\u0A82\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82"
+msgstr "વપરાશકર્તાનું ઇમેઇલ સરનામું"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0AC1\\u0A82\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2"
+msgstr "વપરાશકર્તાનું ઇમેઇલ"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "\\u0AAB\\u0AC7\\u0A95\\u0ACD\\u0AB8"
+msgstr "ફેક્સ"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "\\u0AAB\\u0ABF\\u0AB2\\u0ACD\\u0A9F\\u0AB0\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0ACB"
+msgstr "ફિલ્ટર ગ્રાહકો"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "\\u0AAB\\u0ABF\\u0AB2\\u0ACD\\u0A9F\\u0AB0\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2\\u0ACB"
+msgstr "ફિલ્ટર સેવા અહેવાલો"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "\\u0AAB\\u0ABF\\u0AB2\\u0ACD\\u0A9F\\u0AB0\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A93"
+msgstr "ફિલ્ટર વપરાશકર્તાઓ"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "\\u0AB9\\u0ACB\\u0AAE"
+msgstr "હોમ"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "હું મારો પાસવર્ડ ભૂલી ગયા છો"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "\\u0A86\\u0A88\\u0AA1\\u0AC0"
+msgstr "આઈડી"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "\\u0AA4\\u0AC7\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0ACB,\\u0A93\\u0AB0\\u0ACD\\u0AA1\\u0AB0\\u0A85\\u0AA8\\u0AC7\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2\\u0ACB\\u0A93\\u0AAB\\u0AAE\\u0AC7\\u0AA8\\u0AC7\\u0A9C\\u0AAE\\u0AC7\\u0AA8\\u0ACD\\u0A9F\\u0AAA\\u0AB0\\u0AB5\\u0ABE\\u0AA8\\u0A97\\u0AC0\\u0A86\\u0AAA\\u0AC7\\u0A9B\\u0AC7."
+msgstr "તે ગ્રાહકો, ઓર્ડર અને સેવા અહેવાલો ઓફ મેનેજમેન્ટ પરવાનગી આપે છે."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "\\u0AA4\\u0AC7\\u0A93\\u0AAA\\u0AA8\\u0AB8\\u0ACB\\u0AB0\\u0ACD\\u0AB8,\\u0A9D\\u0AA1\\u0AAA\\u0AC0,\\u0AA8\\u0ABE\\u0A9C\\u0AC1\\u0A95,\\u0A8F\\u0A95\\u0ACD\\u0AB8\\u0ACD\\u0A9F\\u0AC7\\u0AA8\\u0ACD\\u0AB8\\u0ABF\\u0AAC\\u0AB2,\\u0AB8\\u0ACD\\u0AA5\\u0ABF\\u0AA4\\u0ABF\\u0AB8\\u0ACD\\u0AA5\\u0ABE\\u0AAA\\u0A95,\\u0A86\\u0A82\\u0AA4\\u0AB0\\u0AB0\\u0ABE\\u0AB7\\u0ACD\\u0A9F\\u0ACD\\u0AB0\\u0AC0\\u0AAF\\u0A85\\u0AA8\\u0AC7\\u0AAE\\u0ACB\\u0AAC\\u0ABE\\u0A87\\u0AB2\\u0A9B\\u0AC7."
+msgstr "તે ઓપન સોર્સ, ઝડપી, નાજુક, એક્સ્ટેન્સિબલ, સ્થિતિસ્થાપક, આંતરરાષ્ટ્રીય અને મોબાઇલ છે."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "\\u0AB8\\u0ACD\\u0AA5\\u0ABE\\u0AA8"
+msgstr "સ્થાન"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0AB8\\u0ACD\\u0AA5\\u0ABE\\u0AA8"
+msgstr "સેવા સ્થાન"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "\\u0AAA\\u0ACD\\u0AB0\\u0AB5\\u0AC7\\u0AB6\\u0A95\\u0AB0\\u0ACB"
+msgstr "પ્રવેશ કરો"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "\\u0AAC\\u0AB9\\u0ABE\\u0AB0\\u0AAA\\u0ACD\\u0AB0\\u0AB5\\u0AC7\\u0AB6\\u0A95\\u0AB0\\u0ACB"
+msgstr "બહાર પ્રવેશ કરો"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "\\u0A8F\\u0AA8"
+msgstr "એન"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "\\u0AA8\\u0ABE\\u0AAE"
+msgstr "નામ"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0ABE\\u0AAE"
+msgstr "વપરાશકર્તા નામ"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "\\u0AA8\\u0ACD\\u0AAF\\u0AC2\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95"
+msgstr "ન્યૂ ગ્રાહક"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "\\u0AA8\\u0AB5\\u0AC0\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2"
+msgstr "નવી અહેવાલ"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "\\u0AA8\\u0AB5\\u0ACB\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE"
+msgstr "નવો વપરાશકર્તા"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "\\u0A95\\u0ACB\\u0A88\\u0AB8\\u0AC1\\u0AA7\\u0ABE\\u0AB0\\u0ACB\\u0AB9\\u0ABE\\u0A9C\\u0AB0\\u0A9B\\u0AC7"
+msgstr "કોઈ સુધારો હાજર છે"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "\\u0AA8\\u0ACB\\u0A82\\u0AA7\\u0ACB"
+msgstr "નોંધો"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "\\u0AB8\\u0A82\\u0A96\\u0ACD\\u0AAF\\u0ABE"
+msgstr "સંખ્યા"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "\\u0A91\\u0AAA\\u0AB0\\u0AC7\\u0A9F\\u0AB0"
+msgstr "ઑપરેટર"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A91\\u0AAA\\u0AB0\\u0AC7\\u0A9F\\u0AB0"
+msgstr "સેવા ઑપરેટર"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "\\u0A91\\u0AAA\\u0AB0\\u0AC7\\u0A9F\\u0AB0\\u0AB8\\u0AB9\\u0AC0"
+msgstr "ઑપરેટર સહી"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "\\u0A93\\u0AB0\\u0ACD\\u0AA1\\u0AB0\\u0ACD\\u0AB8"
+msgstr "ઓર્ડર્સ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,231 +410,284 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA\\u0A85\\u0AAE\\u0ABE\\u0AA8\\u0ACD\\u0AAF\\u0A85\\u0A95\\u0ACD\\u0AB7\\u0AB0\\u0A9B\\u0AC7(\\u0A93)"
+msgstr "P.IVA અમાન્ય અક્ષર છે(ઓ)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA\\u0AA8\\u0ABF\\u0AAF\\u0A82\\u0AA4\\u0ACD\\u0AB0\\u0AA3\\u0A95\\u0ACB\\u0AA1\\u0AAE\\u0AC7\\u0AB3\\u0A96\\u0ABE\\u0AA4\\u0ACB\\u0AA8\\u0AA5\\u0AC0"
+msgstr "P.IVA નિયંત્રણ કોડ મેળ ખાતો નથી"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "પાસવર્ડ"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "પાસવર્ડ ખાતરી મેળ ખાતો નથી"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "પાસવર્ડ ખાતરી જરૂરી છે"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "પાસવર્ડ પૂરતી મજબૂત નથી"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "\\u0AAB\\u0ACB\\u0AA8"
+msgstr "ફોન"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "\\u0AAB\\u0ACB\\u0AA8\\u0AA8\\u0A82\\u0AAC\\u0AB0"
+msgstr "ફોન નંબર"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "\\u0AAB\\u0ACB\\u0AA8\\u0AA8\\u0A82\\u0AAC\\u0AB0\\u0AAE\\u0ABE\\u0AA8\\u0ACD\\u0AAF\\u0AA8\\u0AA5\\u0AC0"
+msgstr "ફોન નંબર માન્ય નથી"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "\\u0AAA\\u0ACD\\u0AB2\\u0AC7\\u0AB8"
+msgstr "પ્લેસ"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "\\u0AA4\\u0AC8\\u0AAF\\u0ABE\\u0AB0\\u0AC0\\u0A86\\u0AB8\\u0AC1\\u0AA7\\u0ABE\\u0AB0\\u0ACB\\u0AA1\\u0ABE\\u0A89\\u0AA8\\u0AB2\\u0ACB\\u0AA1"
+msgstr "તૈયારી આ સુધારો ડાઉનલોડ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "\\u0AAA\\u0ACD\\u0AB0\\u0ABF\\u0A82\\u0A9F"
+msgstr "પ્રિંટ"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "\\u0AAA\\u0ACD\\u0AB0\\u0ABF\\u0A82\\u0A9F\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95"
+msgstr "પ્રિંટ ગ્રાહક"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "\\u0AAE\\u0AC1\\u0AA6\\u0ACD\\u0AB0\\u0AA3\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0AA8\\u0AC7\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2"
+msgstr "મુદ્રણ સેવાને અહેવાલ"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "\\u0AAA\\u0ACD\\u0AB0\\u0ABF\\u0A82\\u0A9F\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE"
+msgstr "પ્રિંટ વપરાશકર્તા"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "\\u0AAA\\u0ACD\\u0AB0\\u0AA6\\u0ABE\\u0AA4\\u0ABE"
+msgstr "પ્રદાતા"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "\\u0AA8\\u0ACB\\u0A82\\u0AA7\\u0AA3\\u0AC0"
+msgstr "નોંધણી"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "તમારો પાસવર્ડ રીસેટ કરો"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "\\u0AAD\\u0AC2\\u0AAE\\u0ABF\\u0A95\\u0ABE\\u0A93"
+msgstr "ભૂમિકાઓ"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0AAD\\u0AC2\\u0AAE\\u0ABF\\u0A95\\u0ABE\\u0A93;\\u0AAC\\u0AA7\\u0ABE\\u0AB0\\u0ABE\\u0A9C\\u0ACD\\u0AAF\\u0ACB\\u0AA6\\u0ACD\\u0AB5\\u0ABE\\u0AB0\\u0ABE\\u0AB8\\u0ACD\\u0AB2\\u0ABE\\u0A87\\u0AA1\\u0A95\\u0ACD\\u0AB2\\u0ABF\\u0A95\\u0A95\\u0AB0\\u0ACB(\\u0A86\\u0AB0\\u0AA1\\u0AAC\\u0ACD\\u0AB2\\u0ACD\\u0AAF\\u0AC1-\\u003e\\u0A86\\u0AB0-\\u003e\\u0AA1\\u0AAC\\u0AB2\\u0ACD\\u0AAF\\u0AC1-\\u003e\\u0A95\\u0ACB\\u0A88\\u0AA8\\u0AB9\\u0AC0\\u0A82)"
+msgstr "આ વપરાશકર્તા માટે ભૂમિકાઓ; બધા રાજ્યો દ્વારા સ્લાઇડ ક્લિક કરો( આરડબ્લ્યુ-\\u003e આર-\\u003e ડબલ્યુ-\\u003e કોઈ નહીં)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0AC0\\u0AAD\\u0AC2\\u0AAE\\u0ABF\\u0A95\\u0ABE\\u0A93:\\u0AB2\\u0AC0\\u0AB2\\u0ABE\\u0AB0\\u0A82\\u0A97\\u0AB5\\u0ABE\\u0A82\\u0A9A\\u0AC0\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0AAA\\u0AB0\\u0AB5\\u0ABE\\u0AA8\\u0A97\\u0AC0\\u0AB8\\u0AC2\\u0A9A\\u0AB5\\u0AC7\\u0A85\\u0AA8\\u0AC7\\u0AB2\\u0A96\\u0AC0,\\u0AAA\\u0AC0\\u0AB3\\u0ABE\\u0A85\\u0AB0\\u0ACD\\u0AA5\\u0AAE\\u0ABE\\u0AA4\\u0ACD\\u0AB0\\u0AB5\\u0ABE\\u0A82\\u0A9A\\u0AC0,\\u0AB5\\u0ABE\\u0AA6\\u0AB3\\u0AC0\\u0AAE\\u0ABE\\u0AA4\\u0ACD\\u0AB0\\u0AB2\\u0A96\\u0AB5\\u0ABE,\\u0A85\\u0AA8\\u0AC7\\u0AAA\\u0AB0\\u0AB5\\u0ABE\\u0AA8\\u0A97\\u0AC0\\u0AB2\\u0ABE\\u0AB2.\\u0AB5\\u0ABF\\u0AAD\\u0ABE\\u0A97\\u0ACB\\u0A9B\\u0AC7:'\\u0AAF\\u0AC1'(\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A93),'\\u0AB8\\u0AC0'(\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0ACB),'\\u0A93'(\\u0A93\\u0AB0\\u0ACD\\u0AA1\\u0AB0),'\\u0A93'(\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2\\u0ACB)."
+msgstr "વપરાશકર્તાની ભૂમિકાઓ: લીલા રંગ વાંચી માટે પરવાનગી સૂચવે અને લખી, પીળા અર્થ માત્ર વાંચી, વાદળી માત્ર લખવા, અને પરવાનગી લાલ. વિભાગો છે:' યુ'(વપરાશકર્તાઓ),' સી'( ગ્રાહકો),' ઓ'( ઓર્ડર),' ઓ'(સેવા અહેવાલો)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "\\u0AB8\\u0ABE\\u0A9A\\u0AB5\\u0ACB"
+msgstr "સાચવો"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2"
+msgstr "સેવા અહેવાલ"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2\\u0A8F\\u0AA8"
+msgstr "સેવા અહેવાલ એન"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0A85\\u0AB9\\u0AC7\\u0AB5\\u0ABE\\u0AB2\\u0ACB"
+msgstr "સેવા અહેવાલો"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "\\u0AB8\\u0AC7\\u0A9F\\u0A85\\u0AAA"
+msgstr "સેટઅપ"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "\\u0AB8\\u0ACD\\u0A9F\\u0ACD\\u0AB0\\u0AC0\\u0A9F\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82"
+msgstr "સ્ટ્રીટ સરનામું"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "\\u0A86\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0AA8\\u0ABE\\u0AAE\\u0AAA\\u0AB9\\u0AC7\\u0AB2\\u0AC7\\u0AA5\\u0AC0\\u0A89\\u0AAA\\u0AAF\\u0ACB\\u0A97\\u0AAE\\u0ABE\\u0A82\\u0A9B\\u0AC7"
+msgstr "આ ગ્રાહક નામ પહેલેથી ઉપયોગમાં છે"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "\\u0A86\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0AA8\\u0ABE\\u0AAE\\u0AAE\\u0ABE\\u0AA8\\u0ACD\\u0AAF\\u0AA8\\u0AA5\\u0AC0"
+msgstr "આ ગ્રાહક નામ માન્ય નથી"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "\\u0A86\\u0A9B\\u0AC7"
+msgstr "આ છે"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A95\\u0AC7\\u0AB5\\u0ABE\\u0A82\\u0A9A\\u0AC0\\u0A95\\u0AC7\\u0AB2\\u0A96\\u0AC0\\u0AB6\\u0A95\\u0ACB\\u0A9B\\u0ACB"
+msgstr "આ વપરાશકર્તા કે વાંચી કે લખી શકો છો"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AB5\\u0ABE\\u0A82\\u0A9A\\u0AC0\\u0AB6\\u0A95\\u0AC7\\u0A9B\\u0AC7"
+msgstr "આ વપરાશકર્તા વાંચી શકે છે"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AB5\\u0ABE\\u0A82\\u0A9A\\u0AC0\\u0A85\\u0AA8\\u0AC7\\u0AB2\\u0A96\\u0AC0\\u0AB6\\u0A95\\u0ACB\\u0A9B\\u0ACB"
+msgstr "આ વપરાશકર્તા વાંચી અને લખી શકો છો"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AB2\\u0A96\\u0AC0\\u0AB6\\u0A95\\u0ACB\\u0A9B\\u0ACB"
+msgstr "આ વપરાશકર્તા લખી શકો છો"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A8D\\u0A95\\u0ACD\\u0AB8\\u0AC7\\u0AB8\\u0A95\\u0AB0\\u0AC0\\u0AB6\\u0A95\\u0AA4\\u0ABE\\u0AA8\\u0AA5\\u0AC0"
+msgstr "આ વપરાશકર્તા ઍક્સેસ કરી શકતા નથી"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0ABE\\u0AAE\\u0AAA\\u0AB9\\u0AC7\\u0AB2\\u0AC7\\u0AA5\\u0AC0\\u0A89\\u0AAA\\u0AAF\\u0ACB\\u0A97\\u0AAE\\u0ABE\\u0A82\\u0A9B\\u0AC7"
+msgstr "આ વપરાશકર્તા નામ પહેલેથી ઉપયોગમાં છે"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "આ વપરાશકર્તા નામ પહેલેથી જ લેવામાં આવે છે"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "\\u0A86\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0ABE\\u0AAE\\u0AAE\\u0ABE\\u0AA8\\u0ACD\\u0AAF\\u0AA8\\u0AA5\\u0AC0"
+msgstr "આ વપરાશકર્તા નામ માન્ય નથી"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "\\u0A86\\u0A95\\u0ABF\\u0A82\\u0AAE\\u0AA4\\u0A8F\\u0A95 Codice Fiscale\\u0A95\\u0AC7\\u0A8F\\u0A95 P.IVA\\u0A9B\\u0AC7\\u0A95\\u0AC7"
+msgstr "આ કિંમત એક Codice Fiscale કે એક P.IVA છે કે"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "\\u0AB8\\u0AC7\\u0AB5\\u0ABE\\u0AB6\\u0AB0\\u0AC2\\u0AB8\\u0AAE\\u0AAF"
+msgstr "સેવા શરૂ સમય"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "\\u0A9F\\u0AC9\\u0A97\\u0AB2\\u0A95\\u0AB0\\u0ACB\\u0AB8\\u0A82\\u0AB6\\u0ACB\\u0AA7\\u0A95"
+msgstr "ટૉગલ કરો સંશોધક"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A87\\u0AAE\\u0AC7\\u0A87\\u0AB2\\u0AB8\\u0AB0\\u0AA8\\u0ABE\\u0AAE\\u0AC1\\u0A82"
+msgstr "વપરાશકર્તા ઇમેઇલ સરનામું"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0ABE\\u0AAE"
+msgstr "વપરાશકર્તા નામ"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "વપરાશકર્તા નામ માન્ય નથી"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0ABE\\u0AAE"
+msgstr "વપરાશકર્તા નામ"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "વપરાશકર્તા નામ/ ઇમેઇલ"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A93"
+msgstr "વપરાશકર્તાઓ"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "\\u0AA4\\u0AAE\\u0AC7\\u0A91\\u0AAB\\u0AB2\\u0ABE\\u0A87\\u0AA8\\u0A9B\\u0AC7"
+msgstr "તમે ઑફલાઇન છે"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "\\u0AA4\\u0AAE\\u0AC7\\u0A91\\u0AA8\\u0AB2\\u0ABE\\u0A87\\u0AA8\\u0A9B\\u0AC7"
+msgstr "તમે ઑનલાઇન છે"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "તમારું ઇમેઇલ"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "તમારો પાસવર્ડ"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "તમારો પાસવર્ડ ફરી"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "તમારા વપરાશકર્તા નામ"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "તમારા વપરાશકર્તા નામ અથવા ઇમેઇલ"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "\\u0A95\\u0AC7\\u0AB6"
+msgstr "કેશ"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "\\u0AB0\\u0AA6"
+msgstr "રદ"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "\\u0A9A\\u0A95\\u0ABE\\u0AB8\\u0AA3\\u0AC0"
+msgstr "ચકાસણી"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "\\u0A97\\u0ACD\\u0AB0\\u0ABE\\u0AB9\\u0A95\\u0ACB"
+msgstr "ગ્રાહકો"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "\\u0AA1\\u0ABE\\u0A89\\u0AA8\\u0AB2\\u0ACB\\u0AA1"
+msgstr "ડાઉનલોડ"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "\\u0AAD\\u0AC2\\u0AB2"
+msgstr "ભૂલ"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "\\u0AAC\\u0ABF\\u0AA8\\u0AB0\\u0A9C\\u0AC0\\u0AB8\\u0ACD\\u0A9F\\u0AB0\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A93\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0A98\\u0AB0\\u0AAA\\u0ABE\\u0AA8\\u0AC1\\u0A82."
+msgstr "બિન રજીસ્ટર વપરાશકર્તાઓ માટે ઘર પાનું."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "registerd\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A93\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0A98\\u0AB0\\u0AAA\\u0ABE\\u0AA8\\u0AC1\\u0A82."
+#, 
+msgid "home page for registered users."
+msgstr "રજીસ્ટર વપરાશકર્તાઓ માટે ઘર પાનું."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "\\u0AAA\\u0ACD\\u0AB0\\u0ABE\\u0AB0\\u0A82\\u0AAD"
+msgstr "પ્રારંભ"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "(\\u0AB8\\u0ACD\\u0AAE\\u0ABE\\u0AB0\\u0ACD\\u0A9F)\\u0AB6\\u0AB0\\u0AC2\\u0A85\\u0AAA\\u0ACD\\u0AB8\\u0AAE\\u0ABE\\u0A9F\\u0AC7\\u0AB5\\u0AC7\\u0AAC\\u0A8F\\u0AAA\\u0ACD\\u0AB2\\u0ABF\\u0A95\\u0AC7\\u0AB6\\u0AA8\\u0A9B\\u0AC7."
+msgstr "( સ્માર્ટ) શરૂ અપ્સ માટે વેબ એપ્લિકેશન છે."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "\\u0AA5\\u0AAF\\u0ABE\\u0A82\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE"
+msgstr "થયાં વપરાશકર્તા"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "\\u0A85\\u0AAA\\u0ACD\\u0AB0\\u0A9A\\u0AB2\\u0ABF\\u0AA4"
+msgstr "અપ્રચલિત"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "\\u0A93\\u0AB0\\u0ACD\\u0AA1\\u0AB0"
+msgstr "ઓર્ડર"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "\\u0A85\\u0AA8\\u0ACD\\u0AAF\\u0AA5\\u0ABE\\u0AA8\\u0AB5\\u0AC0 accout\\u0AB0\\u0A9C\\u0AC0\\u0AB8\\u0ACD\\u0A9F\\u0AB0\\u0A85\\u0AA8\\u0AC7\\u0AAA\\u0ACD\\u0AB0\\u0AB5\\u0AC7\\u0AB6."
+msgstr "અન્યથા નવી accout રજીસ્ટર અને પ્રવેશ."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "\\u0AAA\\u0ABE\\u0AB8\\u0AB5\\u0AB0\\u0ACD\\u0AA1:"
+msgstr "પાસવર્ડ:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "\\u0AAA\\u0ACD\\u0AB0\\u0A97\\u0AA4\\u0ABF"
+msgstr "પ્રગતિ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0AA8\\u0ABE\\u0AAE:"
+msgstr "વપરાશકર્તા નામ:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "\\u0AB5\\u0AAA\\u0AB0\\u0ABE\\u0AB6\\u0A95\\u0AB0\\u0ACD\\u0AA4\\u0ABE\\u0A93"
+msgstr "વપરાશકર્તાઓ"

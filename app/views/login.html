@@ -1,4 +1,4 @@
-<div class="auth-forms" style="max-width: 20.0em;" ng-show="!params.authType">
+<div class="auth-forms" ng-show="!params.authType">
 
   <h3>Log In</h3>
 
@@ -11,23 +11,22 @@
     </div>
     <div class="alignclearboth"></div>
 
-    <div class="row" title="Your username or email">
+    <div class="row" ng-attr-title="{{ 'Your username or email' | translate }}">
       <div class="col">
-        <input type="text" name="usernameOrEmail" class="form-control" ng-model="user.usernameOrEmail" ng-change="reset()" placeholder="Username / Email" autocomplete="on" autofocus="true" autofill-fix check-not-empty tabindex="1" />
+        <input type="text" name="usernameOrEmail" class="form-control" ng-model="user.usernameOrEmail" ng-change="reset()" placeholder="{{ 'Username / Email' | translate }}" autocomplete="on" autofocus="true" autofill-fix check-not-empty tabindex="1" />
       </div>
     </div>
 
     <div class="row" title="Your password">
       <div class="col">
-        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="Password" autofill-fix check-not-empty tabindex="2" />
+        <input type="password" name="password" class="form-control" ng-model="user.password" ng-change="reset()" placeholder="{{ 'Password' | translate }}" autofill-fix check-not-empty tabindex="2" />
       </div>
     </div>
 
-    <div class="row" title="Reset your password">
+    <div class="row" ng-attr-title="{{ 'Reset your password' | translate }}">
       <div class="col">
         <span style="font-size: 75%; float: right;">
-          <!-- onclick="toastr.warning('email sent successully...');" -->
-          <a href="javascript:void(0)" ng-click="sendPasswordResetEmail(user.usernameOrEmail)" tabindex="4">I forgot my password</a>
+          <a href="javascript:void(0)" ng-click="sendPasswordResetEmail(user.usernameOrEmail)" tabindex="4"><span translate>I forgot my password</span></a>
         </span>
       </div>
     </div>
@@ -35,7 +34,7 @@
     <div class="row">
       <div class="col">
         <button type="submit" class="btn btn-primary" ng-disabled="error" ng-click="login()" tabindex="3">
-          Log in
+          <span translate>Log in</span>
         </button>
       </div>
     </div>

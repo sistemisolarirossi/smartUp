@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -35,6 +35,10 @@ msgstr "A duración debe ser en forma « hh'ou' hh: mm', e, polo menos, un minut
 msgid "A location of service is required"
 msgstr "É necesario un lugar de servizo"
 
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Requírese un contrasinal"
+
 #: app/views/customers.html
 msgid "A phone number is required"
 msgstr "É necesario un número de teléfono"
@@ -43,7 +47,7 @@ msgstr "É necesario un número de teléfono"
 msgid "A street address is required"
 msgstr "Un enderezo é necesaria"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "Un nome de usuario é necesaria"
 
@@ -63,7 +67,7 @@ msgstr "Engadir novo usuario"
 msgid "Address"
 msgstr "Enderezo"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
 msgstr "Introduzca unha dirección de correo electrónico é necesario"
 
@@ -171,6 +175,10 @@ msgstr "Código fiscal ou P.IVA do cliente"
 msgid "Company logo"
 msgstr "Logotipo da empresa"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Confirme o contrasinal"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
 msgstr "Conectar usando unha das súas contas\\\" sociais\\"
@@ -271,7 +279,8 @@ msgstr "Editar informe de servizo"
 msgid "Edit user"
 msgstr "Editar usuario"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
@@ -279,7 +288,7 @@ msgstr "Email"
 msgid "Email address"
 msgstr "Enderezo de correo electrónico"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "Correo-e non é válido"
 
@@ -311,6 +320,10 @@ msgstr "Usuarios de filtro"
 msgid "Home"
 msgstr "Inicio"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Esquecín o meu contrasinal"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Id"
@@ -331,7 +344,7 @@ msgstr "Localización"
 msgid "Location of service"
 msgstr "Localización de servizo"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Póñase-se"
 
@@ -403,6 +416,22 @@ msgstr "P.IVA contén carácter non válido(s)"
 msgid "P.IVA control code doesn't match"
 msgstr "Código de control P.IVA non coincide"
 
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Contrasinal"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Confirmación do contrasinal non coincide"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Confirmación do contrasinal é necesaria"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "O contrasinal non é suficientemente forte"
+
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
 msgstr "Teléfono"
@@ -443,9 +472,13 @@ msgstr "Usuario de impresión"
 msgid "Provider"
 msgstr "Valedor"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Rexistrarse se"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Restablecer o seu contrasinal"
 
 #: app/views/users.html
 msgid "Roles"
@@ -519,6 +552,10 @@ msgstr "Este usuario non pode acceder"
 msgid "This user name is already in use"
 msgstr "Este nome de usuario xa está en uso"
 
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Este nome de usuario xa está a ser usado"
+
 #: app/views/users.html
 msgid "This user name is not valid"
 msgstr "Este nome de usuario non é válido"
@@ -543,9 +580,17 @@ msgstr "Enderezo de correo-e do usuario"
 msgid "User name"
 msgstr "Nome de Usuario"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Nome de usuario non é válido"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Usuario"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Nome de usuario/ Email"
 
 #: app/views/nav.html
 msgid "Users"
@@ -558,6 +603,26 @@ msgstr "Está fóra de liña"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "Vostede está en liña"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "O seu correo-e"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "O seu contrasinal"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "O seu contrasinal, de novo"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "O seu nome de usuario"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "O seu nome de usuario ou correo-e"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -588,8 +653,9 @@ msgid "home page for non registered users."
 msgstr "páxina principal para usuarios non rexistrados."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "páxina principal para os usuarios registerd."
+#, 
+msgid "home page for registered users."
+msgstr "páxina principal para usuarios rexistrados."
 
 #: app/scripts/app.js
 msgid "initializing"

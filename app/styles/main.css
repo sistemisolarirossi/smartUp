@@ -136,6 +136,7 @@ body[orient="landscape"] { min-height: 360px; }
   margin-top: 30px;
 }
 .auth-forms {
+  width: 20.0em; /* TODO: check this value... */
   max-width: 400px;
   margin: 0 auto;
   background: #fff;

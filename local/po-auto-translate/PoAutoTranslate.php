@@ -16,7 +16,7 @@
   $translatorName = "PoAutoTranslate";
   $potTemplateFile = "template.pot";
   $sourceLanguage = "en";
-  $googleSupportedLanguagesUrl = "https://translate.google.com/?hl=en";
+  $googleSupportedLanguagesUrl = "https://translate.google.com/?hl=" . $sourceLanguage;
 
   print "* PoAutoTranslate *" . "\n";
 
@@ -24,6 +24,7 @@
    * We process all Google supported languages
    */
   $languages = getSupportedLanguages($googleSupportedLanguagesUrl);
+  ksort($languages);
   foreach ($languages as $language => $languageName) {
     $language = strtolower($language);
     if ($language == $sourceLanguage) continue; # skip source language
@@ -76,8 +77,9 @@
     */
     $entries = $poparser->parse($poFilePath);
     foreach ($entries as $entry) {
-      for ($i = 0; isset($entry['msgid'][$i]); $i++) {
-        $src = $entry['msgid'][$i];
+      #for ($i = 0; isset($entry['msgid'][$i]); $i++) {
+      // we use --no-wrap when msg-merging, so we only have one msgstr per msgid
+        $src = $entry['msgid'][0]; # [$i];
         $dst = $entry['msgstr'][0]; # WAITING FOR AUTHOR ANSWER ABOUT MULTI-LINE ENTRIES...
         $fuzzy = isset($entry['fuzzy']);
         if ($src) {
@@ -86,7 +88,7 @@
             $dst = translate($src, $sourceLanguage, $language);
 
             // remove zero-space blanks
-            $dst = str_replace('\\u200B', '', $dst);
+            $dst = mb_ereg_replace('\\u200B', '', $dst);
 
             // keep capitalization
             if (startsUppercase($src) and startsLowercase($dst)) {
@@ -106,20 +108,19 @@
               print "[$dst]" . " ";
             }
 */
-
             // update poParser entry with auto translated string
             $poparser->updateEntry($src, $dst);
           }
         }
-        break; # waiting for author's explanation for multiline entries...
-      }
+        #break; # waiting for author's explanation for multiline entries...
+      #}
     }
     // update poFile with poParser translated entries
-    $translatedFilename = tempnam("/tmp", $language . ".po-");
-    $poparser->write($translatedFilename);
+    $poFilePathTranslated = tempnam("/tmp", $language . ".po-");
+    $poparser->write($poFilePathTranslated);
     /* Sepia PoParser writes iso-8859-1: convert to UTF8 */
-    fileEncodeToUTF8($translatedFilename);
-    rename($translatedFilename, $poFilePath);
+    fileEncodeToUTF8($poFilePathTranslated);
+    rename($poFilePathTranslated, $poFilePath);
   }
   print "\n";
 
@@ -189,6 +190,7 @@ EOT;
     $data = file_get_contents($filename);
 
     # convert the contents, if not already UTF-8
+/*
     if (
       !mb_check_encoding($data, 'UTF-8') or
       !($data ===
@@ -197,6 +199,14 @@ EOT;
           'UTF-8', 'UTF-32')
         )
       ) {
+*/
+#    if (!mb_check_encoding($data, 'UTF-8')) {
+print "check_utf8: " . (check_utf8($data) ? "1" : "0") . "\n";
+    if (!check_utf8($data)) {
+print "\n";
+#system("file $filename");
+#print "mb_check_encoding: " . (mb_check_encoding($data, 'UTF-8') ? "1" : "0") . "\n";
+print "converting encoding of $filename to 'UTF-8'...\n";
         $data = mb_convert_encoding($data, 'UTF-8'); 
         file_put_contents($filename, $data);
     }
@@ -230,6 +240,7 @@ EOT;
     $ch = curl_init($url . $str);
     curl_setopt($ch, CURLOPT_COOKIEFILE, $ckfile);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-type: text/html; charset=utf-8'));
    
     $retval = curl_exec($ch);
     unlink($ckfile);
@@ -239,20 +250,18 @@ EOT;
   function translate($word, $languageFrom = 'en', $languageTo = 'it') {
     $word = urlencode($word);
     $url =
-      'http://translate.google.com/translate_a/t?client=t&text=' .
-      $word .
-      '&hl=en&sl=' . $languageFrom . '&tl=' . $languageTo .
-      '&multires=1&otf=2&pc=1&ssel=0&tsel=0&sc=1'
+      'https://translate.google.com/translate_a/single?client=t&sl=' . $languageFrom . '&tl=' . $languageTo .
+      '&dt=bd&dt=ex&dt=ld&dt=md&dt=qc&dt=rw&dt=rm&dt=ss&dt=t&dt=at&dt=sw&ie=UTF-8&oe=UTF-8&prev=bh&ssel=0&tsel=0&q=' .
+      $word
     ;
     $translation = curl($url);
-    /* Google translate page returns a nonsense format answer... */
+    /* Google translate page returns an unknown format answer... */
     preg_match("/\[\[(.*?)\]\]/", $translation, $matches);
     $m1 = $matches[1];
     preg_match_all("/\[\"(.*?)\",/", $m1, $matches);
     $m2 = $matches[1];
     $retval = implode('', $m2);
-print $retval;
-    return utf8_encode($retval);
+    return $retval;
   }
 
   function startsUppercase($str) {
@@ -265,4 +274,25 @@ print $retval;
     return mb_strtoupper($chr, "UTF-8") != $chr;
   }
 
+function check_utf8($str) {
+    $len = strlen($str);
+    for($i = 0; $i < $len; $i++){
+        $c = ord($str[$i]);
+        if ($c > 128) {
+            if (($c > 247)) return false;
+            elseif ($c > 239) $bytes = 4;
+            elseif ($c > 223) $bytes = 3;
+            elseif ($c > 191) $bytes = 2;
+            else return false;
+            if (($i + $bytes) > $len) return false;
+            while ($bytes > 1) {
+                $i++;
+                $b = ord($str[$i]);
+                if ($b < 128 || $b > 191) return false;
+                $bytes--;
+            }
+        }
+    }
+    return true;
+}
 ?>

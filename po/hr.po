@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -21,11 +21,11 @@ msgstr "Codice Fiscale iliP.IVA je potrebno"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Naziv kupac je du¾an"
+msgstr "Naziv kupac je dužan"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Dana dostave poèetak je potrebno"
+msgstr "Dana dostave početak je potrebno"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
@@ -33,7 +33,11 @@ msgstr "Trajanje mora biti u obliku\\\" HH\\\" ili\\\" hh: mm', i najmanje jednu
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Polo¾aj usluge potreban je"
+msgstr "Položaj usluge potreban je"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Potrebna je zaporka koju"
 
 #: app/views/customers.html
 msgid "A phone number is required"
@@ -43,9 +47,9 @@ msgstr "Broj telefona je potrebno"
 msgid "A street address is required"
 msgstr "Potrebanadresu"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Korisnièko ime je potrebna"
+msgstr "Korisničko ime je potrebna"
 
 #: app/views/nav.html
 msgid "About"
@@ -63,7 +67,7 @@ msgstr "Dodaj novog korisnika"
 msgid "Address"
 msgstr "Adresa"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
 msgstr "Potrebno jeemail adresa"
 
@@ -73,15 +77,15 @@ msgstr "Potrebanoperater"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Dostupno je a¾uriranje: ¾elite li ga postaviti sada?"
+msgstr "Dostupno je ažuriranje: želite li ga postaviti sada?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "A¾uriranje je spreman"
+msgstr "Ažuriranje je spreman"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Jeste li stvarno sigurni da uklonite izvje¹æe usluga"
+msgstr "Jeste li stvarno sigurni da uklonite izvješće usluga"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
@@ -89,15 +93,15 @@ msgstr "Jeste li stvarno sigurni da uklonite korisnika"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "ID provjere autentiènosti"
+msgstr "ID provjere autentičnosti"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Provjera autentiènosti ID korisnika"
+msgstr "Provjera autentičnosti ID korisnika"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "ID provjere autentiènosti:"
+msgstr "ID provjere autentičnosti:"
 
 #: app/views/users.html
 msgid "Authentication provider"
@@ -129,11 +133,11 @@ msgstr "Cache je u nepoznatom stanju"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache ne a¾urira( vjerojatnooèitovati je nedostupan)"
+msgstr "Cache ne ažurira( vjerojatnoočitovati je nedostupan)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache ne a¾urira jer ste offline"
+msgstr "Cache ne ažurira jer ste offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -149,7 +153,7 @@ msgstr "Status Cache je"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Provjera prisutnosti a¾uriranja"
+msgstr "Provjera prisutnosti ažuriranja"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,7 +161,7 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale sadr¾i neva¾eæe karakter( i)"
+msgstr "Codice Fiscale sadrži nevažeće karakter( i)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
@@ -171,9 +175,13 @@ msgstr "Codice Fiscale ili P.IVA kupca"
 msgid "Company logo"
 msgstr "Logotip tvrtke"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Potvrdi lozinku"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Povezati koristeæi jednu od svojih\\\"socijalnih\\\" raèuna ili se prijaviti s ovim vjerodajnice:"
+msgstr "Povezati koristeći jednu od svojih\\\"socijalnih\\\" računa ili se prijaviti s ovim vjerodajnice:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -233,7 +241,7 @@ msgstr "Datum"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Datum poèetka usluge"
+msgstr "Datum početka usluge"
 
 #: app/views/customers.html
 msgid "Delete customer"
@@ -241,7 +249,7 @@ msgstr "Brisanje kupca"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Brisanje izvje¹æe usluga"
+msgstr "Brisanje izvješće usluga"
 
 #: app/views/users.html
 msgid "Delete user"
@@ -249,7 +257,7 @@ msgstr "Brisanje korisnika"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Preuzimanje a¾uriranja"
+msgstr "Preuzimanje ažuriranja"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -257,7 +265,7 @@ msgstr "Trajanje"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Trajanje slu¾be"
+msgstr "Trajanje službe"
 
 #: app/views/customers.html
 msgid "Edit customer"
@@ -265,13 +273,14 @@ msgstr "Uredi za korisnike"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Uredi izvje¹æe usluga"
+msgstr "Uredi izvješće usluga"
 
 #: app/views/users.html
 msgid "Edit user"
 msgstr "Uredi korisnik"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "E-mail"
 
@@ -279,7 +288,7 @@ msgstr "E-mail"
 msgid "Email address"
 msgstr "E-mail adresa"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "E-mail adresa nije valjana"
 
@@ -301,7 +310,7 @@ msgstr "Filter kupci"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Izvje¹æa Filter usluga"
+msgstr "Izvješća Filter usluga"
 
 #: app/views/users.html
 msgid "Filter users"
@@ -309,7 +318,11 @@ msgstr "Filter korisnik"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Poèetna"
+msgstr "Početna"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Zaboravio sam lozinku"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,11 +330,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "To omoguæuje upravljanje korisnicima, naloga i izvje¹æa usluga."
+msgstr "To omogućuje upravljanje korisnicima, naloga i izvješća usluga."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "To je open-source, brz, kompaktan, pro¹iriv, elastièan, meðunarodne i mobitel."
+msgstr "To je open-source, brz, kompaktan, proširiv, elastičan, međunarodne i mobitel."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -329,9 +342,9 @@ msgstr "Mjesto"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Mjesto slu¾be"
+msgstr "Mjesto službe"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Prijavi se"
 
@@ -357,7 +370,7 @@ msgstr "Novi kupac"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Novo izvje¹æe"
+msgstr "Novo izvješće"
 
 #: app/views/users.html
 msgid "New user"
@@ -369,7 +382,7 @@ msgstr "Nema izmjena je prisutan"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Bilje¹ke"
+msgstr "Bilješke"
 
 #: app/views/serviceReports.html
 msgid "Number"
@@ -389,7 +402,7 @@ msgstr "Operatera potpis"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Narud¾be"
+msgstr "Narudžbe"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,11 +410,27 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA sadr¾i neva¾eæe karakter( i)"
+msgstr "P.IVA sadrži nevažeće karakter( i)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
 msgstr "Kontrola P.IVA broj ne odgovara"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Lozinka"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Potvrda lozinke ne odgovara"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Potvrda lozinke je potrebno"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Lozinka nije dovoljno jaka"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -421,7 +450,7 @@ msgstr "Mjesto"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Pripremapreuzimanjem a¾uriranja"
+msgstr "Pripremapreuzimanjem ažuriranja"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -433,7 +462,7 @@ msgstr "Ispis kupca"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Izvje¹æe Ispis usluga"
+msgstr "Izvješće Ispis usluga"
 
 #: app/views/users.html
 msgid "Print user"
@@ -443,9 +472,13 @@ msgstr "Ispis korisnika"
 msgid "Provider"
 msgstr "Davatelj"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Registracija"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Reset lozinke"
 
 #: app/views/users.html
 msgid "Roles"
@@ -457,7 +490,7 @@ msgstr "Uloge za ovu korisnika; kliknite na slajd kroz sva stanja( RW-\\u003e R-
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Uloge korisnièkom: zelena boja oznaèava dozvolu za èitanje i pisanje, ¾uta znaèi samo èitati, plava samo pisati, a crvena nema dozvolu. Sekcije su:'U'( korisnik),'C'( kupce),'O'( naloga),'S'(uslu¾ni izvje¹æa)."
+msgstr "Uloge korisničkom: zelena boja označava dozvolu za čitanje i pisanje, žuta znači samo čitati, plava samo pisati, a crvena nema dozvolu. Sekcije su:'U'( korisnik),'C'( kupce),'O'( naloga),'S'(uslužni izvješća)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -465,15 +498,15 @@ msgstr "Spremi"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Izvje¹æe usluga"
+msgstr "Izvješće usluga"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Izvje¹æe usluga n"
+msgstr "Izvješće usluga n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Izvje¹æa usluga"
+msgstr "Izvješća usluga"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -485,7 +518,7 @@ msgstr "Ulica"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ovo ime kupca je veæ u uporabi"
+msgstr "Ovo ime kupca je već u uporabi"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
@@ -497,31 +530,35 @@ msgstr "To"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ovaj korisnik mo¾e ni èitati ni pisati"
+msgstr "Ovaj korisnik može ni čitati ni pisati"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ovaj korisnik mo¾e proèitati"
+msgstr "Ovaj korisnik može pročitati"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ovaj korisnik mo¾e èitati i pisati"
+msgstr "Ovaj korisnik može čitati i pisati"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ovaj korisnik mo¾e pisati"
+msgstr "Ovaj korisnik može pisati"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ovaj korisnik ne mo¾e pristupiti"
+msgstr "Ovaj korisnik ne može pristupiti"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "To korisnièko ime je veæ u uporabi"
+msgstr "To korisničko ime je već u uporabi"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "To korisničko ime već zauzeto"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "To korisnièko ime ne vrijedi"
+msgstr "To korisničko ime ne vrijedi"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
@@ -529,7 +566,7 @@ msgstr "Ova vrijednost nitiCodice Fiscale nitiP.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Vrijeme usluge poèetak"
+msgstr "Vrijeme usluge početak"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
@@ -537,15 +574,23 @@ msgstr "Prebaci navigaciju"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Korisnièki e-mail adresa"
+msgstr "Korisnički e-mail adresa"
 
 #: app/views/users.html
 msgid "User name"
 msgstr "Nadimak"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Nadimak nije važeći"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Korisnièko ime"
+msgstr "Korisničko ime"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Username/ E-mail"
 
 #: app/views/nav.html
 msgid "Users"
@@ -558,6 +603,26 @@ msgstr "Vi ste offline"
 #: app/views/footer.html
 msgid "You are online"
 msgstr "Vi ste na internetu"
+
+#: app/views/register.html
+msgid "Your email"
+msgstr "Vaš e-mail"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Vaša lozinka"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Vaša lozinka, opet"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Vaše korisničko ime"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Vaše korisničko ime ili e-mail"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -581,15 +646,16 @@ msgstr "skidanje"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "pogre¹ka"
+msgstr "pogreška"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "poèetna stranica za ne registrirane korisnike."
+msgstr "početna stranica za ne registrirane korisnike."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "poèetna stranica za registrirana korisnika."
+#, 
+msgid "home page for registered users."
+msgstr "početna stranica za registrirane korisnike."
 
 #: app/scripts/app.js
 msgid "initializing"
@@ -613,7 +679,7 @@ msgstr "nalozi"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "inaèe registrirati novi accout i prijavite se."
+msgstr "inače registrirati novi accout i prijavite se."
 
 #: app/views/home.html
 msgid "password:"
@@ -633,7 +699,7 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "korisnièko ime:"
+msgstr "korisničko ime:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"

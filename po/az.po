@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: az\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,75 +17,79 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "A Codice Fiscale ya P. t\\u0259l\\u0259b olunur"
+msgstr "A Codice Fiscale ya P. tÉlÉb olunur"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "MÃ¼Ã¾t\\u0259ri adÃ½ t\\u0259l\\u0259b olunur"
+msgstr "MÃ¼ÅtÉri adÄ± tÉlÉb olunur"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Xidm\\u0259t start A tarixi t\\u0259l\\u0259b olunur"
+msgstr "XidmÉt start A tarixi tÉlÉb olunur"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "A duration' hh' Ã¾\\u0259klind\\u0259 v\\u0259 ya olmalÃ½dÃ½r\\\" hh: mm, v\\u0259\\u0259n azÃ½ bir d\\u0259qiq\\u0259 uzun"
+msgstr "A duration' hh' ÅÉklindÉ vÉ ya olmalÄ±dÄ±r\\\" hh: mm, vÉ Én azÄ± bir dÉqiqÉ uzun"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Xidm\\u0259t A yeri t\\u0259l\\u0259b olunur"
+msgstr "XidmÉt A yeri tÉlÉb olunur"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "A parol tÉlÉb olunur"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "A telefon nÃ¶mr\\u0259si t\\u0259l\\u0259b olunur"
+msgstr "A telefon nÃ¶mrÉsi tÉlÉb olunur"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "A Ã¼nvanÃ½ t\\u0259l\\u0259b olunur"
+msgstr "A Ã¼nvanÄ± tÉlÉb olunur"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "A istifad\\u0259Ã§i adÃ½ t\\u0259l\\u0259b olunur"
+msgstr "A istifadÉÃ§i adÄ± tÉlÉb olunur"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "HaqqÃ½nda"
+msgstr "HaqqÄ±nda"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Yeni mÃ¼Ã¾t\\u0259ri\\u0259lav\\u0259"
+msgstr "Yeni mÃ¼ÅtÉri ÉlavÉ"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Yeni bir istifad\\u0259Ã§i\\u0259lav\\u0259"
+msgstr "Yeni bir istifadÉÃ§i ÉlavÉ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
 msgstr "Ãnvan"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Bir e-mail t\\u0259l\\u0259b olunur"
+msgstr "Bir e-mail tÉlÉb olunur"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Bir operator t\\u0259l\\u0259b olunur"
+msgstr "Bir operator tÉlÉb olunur"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Bir yenil\\u0259m\\u0259 var: indi yÃ¼klemek ist\\u0259yirsiniz?"
+msgstr "Bir yenilÉmÉ var: indi yÃ¼klemek istÉyirsiniz?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Bir yenil\\u0259m\\u0259 hazÃ½rdÃ½r"
+msgstr "Bir yenilÉmÉ hazÄ±rdÄ±r"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Xidm\\u0259t Hesabat aradan qaldÃ½rÃ½lmasÃ½ Ã¼Ã§Ã¼n h\\u0259qiq\\u0259t\\u0259n\\u0259minsinizmi"
+msgstr "XidmÉt Hesabat aradan qaldÄ±rÄ±lmasÄ± Ã¼Ã§Ã¼n hÉqiqÉtÉn Éminsinizmi"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Siz istifad\\u0259Ã§i aradan qaldÃ½rÃ½lmasÃ½ Ã¼Ã§Ã¼n h\\u0259qiq\\u0259t\\u0259n\\u0259minsinizmi"
+msgstr "Siz istifadÉÃ§i aradan qaldÄ±rÄ±lmasÄ± Ã¼Ã§Ã¼n hÉqiqÉtÉn Éminsinizmi"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -93,7 +97,7 @@ msgstr "Authentication id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Istifad\\u0259Ã§i Authentication id"
+msgstr "IstifadÉÃ§i Authentication id"
 
 #: app/views/users.html
 msgid "Authentication id:"
@@ -101,11 +105,11 @@ msgstr "Authentication id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "Authentication, c\\u0259miyy\\u0259t"
+msgstr "Authentication, cÉmiyyÉt"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Istifad\\u0259Ã§i Ã¼Ã§Ã¼n identifikasiyasÃ½ provayderi"
+msgstr "IstifadÉÃ§i Ã¼Ã§Ã¼n identifikasiyasÄ± provayderi"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -113,7 +117,7 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Istifad\\u0259Ã§i Avatar image"
+msgstr "IstifadÉÃ§i Avatar image"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -121,23 +125,23 @@ msgstr "C.F./ P."
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Cache baÃ¾latÃ½lmÃ½Ã¾ olunur"
+msgstr "Cache baÅlatÄ±lmÄ±Å olunur"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Cache unknown dÃ¶vl\\u0259t deyil"
+msgstr "Cache unknown dÃ¶vlÉt deyil"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache yenil\\u0259nir deyil( y\\u0259qin ki, aÃ§Ã½q-aÃ¾kar\\u0259lÃ§atmaz)"
+msgstr "Cache yenilÉnir deyil( yÉqin ki, aÃ§Ä±q-aÅkar ÉlÃ§atmaz)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Siz offline Ã§Ã¼nki Cache yenil\\u0259nir deyil"
+msgstr "Siz offline Ã§Ã¼nki Cache yenilÉnir deyil"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cache kÃ¶hn\\u0259lmiÃ¾ edir"
+msgstr "Cache kÃ¶hnÉlmiÅ edir"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
@@ -145,11 +149,11 @@ msgstr "Cache edir up- to- tarix"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Cache v\\u0259ziyy\\u0259ti"
+msgstr "Cache vÉziyyÉti"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Bir yenil\\u0259m\\u0259 iÃ¾tirakÃ½ Ã¼Ã§Ã¼n yoxlanÃ½lmasÃ½"
+msgstr "Bir yenilÉmÉ iÅtirakÄ± Ã¼Ã§Ã¼n yoxlanÄ±lmasÄ±"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -157,39 +161,43 @@ msgstr "Codice Fiscale/ P."
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale yalnÃ½Ã¾ karakter haqqinda( s)"
+msgstr "Codice Fiscale yalnÄ±Å karakter haqqinda( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale n\\u0259zar\\u0259t kodu uyÃ°un deyil"
+msgstr "Codice Fiscale nÉzarÉt kodu uyÄun deyil"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale ya mÃ¼Ã¾t\\u0259ri P.IVA"
+msgstr "Codice Fiscale ya mÃ¼ÅtÉri P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Company logo"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "ÅifrÉni tÉsdiq"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Sizin\\\" sosial\\\" hesablarÃ½na biri istifad\\u0259 ed\\u0259r\\u0259k, qoÃ¾un, v\\u0259 ya bu etimadnam\\u0259sini il\\u0259 daxil:"
+msgstr "Sizin\\\" sosial\\\" hesablarÄ±na biri istifadÉ edÉrÉk, qoÅun, vÉ ya bu etimadnamÉsini ilÉ daxil:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Facebook il\\u0259\\u0259laq\\u0259"
+msgstr "Facebook ilÉ ÉlaqÉ"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Google il\\u0259\\u0259laq\\u0259"
+msgstr "Google ilÉ ÉlaqÉ"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Twitter il\\u0259\\u0259laq\\u0259"
+msgstr "Twitter ilÉ ÉlaqÉ"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "\\u018Flaq\\u0259"
+msgstr "ÆlaqÉ"
 
 #: app/views/footer.html
 msgid "Current language is"
@@ -197,35 +205,35 @@ msgstr "Cari dili"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "MÃ¼Ã¾t\\u0259ri"
+msgstr "MÃ¼ÅtÉri"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "MÃ¼Ã¾t\\u0259ri Card"
+msgstr "MÃ¼ÅtÉri Card"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "MÃ¼Ã¾t\\u0259ri e-mail"
+msgstr "MÃ¼ÅtÉri e-mail"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "MÃ¼Ã¾t\\u0259ri adÃ½"
+msgstr "MÃ¼ÅtÉri adÄ±"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "MÃ¼Ã¾t\\u0259ri telefon nÃ¶mr\\u0259si"
+msgstr "MÃ¼ÅtÉri telefon nÃ¶mrÉsi"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "MÃ¼Ã¾t\\u0259ri Ã¼nvanÃ½"
+msgstr "MÃ¼ÅtÉri Ã¼nvanÄ±"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "MÃ¼Ã¾t\\u0259rinin imza"
+msgstr "MÃ¼ÅtÉrinin imza"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "MÃ¼Ã¾t\\u0259ril\\u0259r"
+msgstr "MÃ¼ÅtÉrilÉr"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -233,23 +241,23 @@ msgstr "Tarix"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Xidm\\u0259t baÃ¾lanma tarixi"
+msgstr "XidmÉt baÅlanma tarixi"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "MÃ¼Ã¾t\\u0259ri sil"
+msgstr "MÃ¼ÅtÉri sil"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Xidm\\u0259t Hesabat sil"
+msgstr "XidmÉt Hesabat sil"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Istifad\\u0259Ã§ini sil"
+msgstr "IstifadÉÃ§ini sil"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Bir yenil\\u0259m\\u0259 YÃ¼kl\\u0259m\\u0259"
+msgstr "Bir yenilÉmÉ YÃ¼klÉmÉ"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -257,39 +265,40 @@ msgstr "Duration"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Xidm\\u0259t mÃ¼dd\\u0259ti"
+msgstr "XidmÉt mÃ¼ddÉti"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Edit mÃ¼Ã¾t\\u0259ri"
+msgstr "Edit mÃ¼ÅtÉri"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Edit xidm\\u0259t hesabatÃ½"
+msgstr "Edit xidmÉt hesabatÄ±"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Edit istifad\\u0259Ã§i"
+msgstr "Edit istifadÉÃ§i"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
 msgstr "Email"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "E-poÃ§t Ã¼nvanÃ½"
+msgstr "E-poÃ§t Ã¼nvanÄ±"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "E-poÃ§t Ã¼nvanÃ½ dÃ¼zgÃ¼n deyil"
+msgstr "E-poÃ§t Ã¼nvanÄ± dÃ¼zgÃ¼n deyil"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Istifad\\u0259Ã§i E-poÃ§t Ã¼nvanÃ½"
+msgstr "IstifadÉÃ§i E-poÃ§t Ã¼nvanÄ±"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Istifad\\u0259Ã§i e-poÃ§t"
+msgstr "IstifadÉÃ§i e-poÃ§t"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -297,19 +306,23 @@ msgstr "Telefon"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Filter mÃ¼Ã¾t\\u0259ril\\u0259r"
+msgstr "Filter mÃ¼ÅtÉrilÉr"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Filter xidm\\u0259t hesabatlarÃ½"
+msgstr "Filter xidmÉt hesabatlarÄ±"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Filter istifad\\u0259Ã§il\\u0259r"
+msgstr "Filter istifadÉÃ§ilÉr"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "Ana s\\u0259hif\\u0259"
+msgstr "Ana sÉhifÉ"
+
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Åifremi unuttum"
 
 #: app/views/users.html
 msgid "Id"
@@ -317,11 +330,11 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Bu mÃ¼Ã¾t\\u0259ril\\u0259rin, sifariÃ¾ v\\u0259 xidm\\u0259t hesabatlarÃ½n idar\\u0259 etm\\u0259y\\u0259 imkan verir."
+msgstr "Bu mÃ¼ÅtÉrilÉrin, sifariÅ vÉ xidmÉt hesabatlarÄ±n idarÉ etmÉyÉ imkan verir."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Bu aÃ§Ã½q m\\u0259nb\\u0259, sÃ¼r\\u0259tli, kompakt, geniÃ¾l\\u0259n\\u0259n, mÃ¶hk\\u0259m, beyn\\u0259lxalq v\\u0259 mobil edir."
+msgstr "Bu aÃ§Ä±q mÉnbÉ, sÃ¼rÉtli, kompakt, geniÅlÉnÉn, mÃ¶hkÉm, beynÉlxalq vÉ mobil edir."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -329,9 +342,9 @@ msgstr "Yer"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Xidm\\u0259t yeri"
+msgstr "XidmÉt yeri"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Daxil ol"
 
@@ -345,15 +358,15 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "AdÃ½"
+msgstr "AdÄ±"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Istifad\\u0259Ã§i adÃ½"
+msgstr "IstifadÉÃ§i adÄ±"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Yeni mÃ¼Ã¾t\\u0259ri"
+msgstr "Yeni mÃ¼ÅtÉri"
 
 #: app/views/serviceReports.html
 msgid "New report"
@@ -361,19 +374,19 @@ msgstr "Yeni hesabat"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Yeni istifad\\u0259Ã§i"
+msgstr "Yeni istifadÉÃ§i"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "No yenil\\u0259m\\u0259 edir"
+msgstr "No yenilÉmÉ edir"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Qeydl\\u0259r"
+msgstr "QeydlÉr"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "SayÃ½"
+msgstr "SayÄ±"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -381,7 +394,7 @@ msgstr "Operator"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Xidm\\u0259t Operator"
+msgstr "XidmÉt Operator"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
@@ -389,7 +402,7 @@ msgstr "Operatorun imza"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "SifariÃ¾l\\u0259r"
+msgstr "SifariÅlÉr"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -397,11 +410,27 @@ msgstr "P."
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P. yalnÃ½Ã¾ karakter haqqinda( s)"
+msgstr "P. yalnÄ±Å karakter haqqinda( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P. control code uyÃ°un deyil"
+msgstr "P. control code uyÄun deyil"
+
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "ÅifrÉ"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "ÅifrÉ tÉsdiq uyÄun deyil"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "ÅifrÉ tÉsdiq tÉlÉb olunur"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "ÅifrÉ kifayÉt qÉdÉr gÃ¼clÃ¼ deyil"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -409,11 +438,11 @@ msgstr "Telefon"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Telefon nÃ¶mr\\u0259si"
+msgstr "Telefon nÃ¶mrÉsi"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Telefon nÃ¶mr\\u0259si dÃ¼zgÃ¼n deyil"
+msgstr "Telefon nÃ¶mrÉsi dÃ¼zgÃ¼n deyil"
 
 #: app/views/serviceReports.html
 msgid "Place"
@@ -421,7 +450,7 @@ msgstr "Place"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "HazÃ½rlanmasÃ½ bir yenil\\u0259m\\u0259 endirdikd\\u0259n"
+msgstr "HazÄ±rlanmasÄ± bir yenilÉmÉ endirdikdÉn"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -429,23 +458,27 @@ msgstr "Print"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Ã§ap mÃ¼Ã¾t\\u0259ri"
+msgstr "Ã§ap mÃ¼ÅtÉri"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Ãap xidm\\u0259t hesabatÃ½"
+msgstr "Ãap xidmÉt hesabatÄ±"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Print istifad\\u0259Ã§i"
+msgstr "Print istifadÉÃ§i"
 
 #: app/views/users.html
 msgid "Provider"
 msgstr "Provider"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Qeydiyyat"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Parolu sÄ±fÄ±rlamak"
 
 #: app/views/users.html
 msgid "Roles"
@@ -453,11 +486,11 @@ msgstr "Rollar"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Bu istifad\\u0259Ã§i rollarÃ½; bÃ¼tÃ¼n dÃ¶vl\\u0259tl\\u0259r vasit\\u0259sil\\u0259 uÃ§maq Ã¼Ã§Ã¼n basÃ½n( RW-\\u003e R-\\u003e W-\\u003e none)"
+msgstr "Bu istifadÉÃ§i rollarÄ±; bÃ¼tÃ¼n dÃ¶vlÉtlÉr vasitÉsilÉ uÃ§maq Ã¼Ã§Ã¼n basÄ±n( RW-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Istifad\\u0259Ã§i rollarÃ½: yaÃ¾Ã½l r\\u0259ng oxumaq Ã¼Ã§Ã¼n icaz\\u0259 gÃ¶st\\u0259rir v\\u0259 yazmaq, sarÃ½ vasit\\u0259l\\u0259ri yalnÃ½z oxumaq, mavi yalnÃ½z yazmaq, v\\u0259 heÃ§ bir icaz\\u0259 red. BÃ¶lm\\u0259l\\u0259r:\\\" u\\\"(istifad\\u0259Ã§il\\u0259rin),'c'( sifariÃ¾Ã§il\\u0259rin),'o'(sifariÃ¾l\\u0259rin)'s'(xidm\\u0259t hesabatlar)."
+msgstr "IstifadÉÃ§i rollarÄ±: yaÅÄ±l rÉng oxumaq Ã¼Ã§Ã¼n icazÉ gÃ¶stÉrir vÉ yazmaq, sarÄ± vasitÉlÉri yalnÄ±z oxumaq, mavi yalnÄ±z yazmaq, vÉ heÃ§ bir icazÉ red. BÃ¶lmÉlÉr:\\\" u\\\"(istifadÉÃ§ilÉrin),'c'( sifariÅÃ§ilÉrin),'o'(sifariÅlÉrin)'s'(xidmÉt hesabatlar)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -465,15 +498,15 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Service hesabatÃ½"
+msgstr "Service hesabatÄ±"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Service hesabatÃ½ n"
+msgstr "Service hesabatÄ± n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Service hesabatlarÃ½"
+msgstr "Service hesabatlarÄ±"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -485,11 +518,11 @@ msgstr "Ã¼nvan"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Bu mÃ¼Ã¾t\\u0259ri ad artÃ½q istifad\\u0259 edir"
+msgstr "Bu mÃ¼ÅtÉri ad artÄ±q istifadÉ edir"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Bu mÃ¼Ã¾t\\u0259ri adÃ½ dÃ¼zgÃ¼n deyil"
+msgstr "Bu mÃ¼ÅtÉri adÄ± dÃ¼zgÃ¼n deyil"
 
 #: app/views/home.html
 msgid "This is"
@@ -497,39 +530,43 @@ msgstr "Bu"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Bu istifad\\u0259Ã§i d\\u0259 oxuya, n\\u0259 d\\u0259 yaza bil\\u0259rsiniz"
+msgstr "Bu istifadÉÃ§i dÉ oxuya, nÉ dÉ yaza bilÉrsiniz"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Bu istifad\\u0259Ã§i oxuya bil\\u0259rsiniz"
+msgstr "Bu istifadÉÃ§i oxuya bilÉrsiniz"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Bu istifad\\u0259Ã§i oxumaq v\\u0259 yazmaq olar"
+msgstr "Bu istifadÉÃ§i oxumaq vÉ yazmaq olar"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Bu istifad\\u0259Ã§i yaza bil\\u0259rsiniz"
+msgstr "Bu istifadÉÃ§i yaza bilÉrsiniz"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Bu istifad\\u0259Ã§i daxil ed\\u0259 bil\\u0259rsiniz"
+msgstr "Bu istifadÉÃ§i daxil edÉ bilÉrsiniz"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Bu istifad\\u0259Ã§i adÃ½ istifad\\u0259 artÃ½q"
+msgstr "Bu istifadÉÃ§i adÄ± istifadÉ artÄ±q"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Bu istifadÉÃ§i adÄ± artÄ±q qÉbul edilir"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Bu istifad\\u0259Ã§i adÃ½ etibarlÃ½dÃ½r deyil"
+msgstr "Bu istifadÉÃ§i adÄ± etibarlÄ±dÄ±r deyil"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Bu d\\u0259y\\u0259r Codice Fiscale n\\u0259 d\\u0259 P., n\\u0259 d\\u0259"
+msgstr "Bu dÉyÉr Codice Fiscale nÉ dÉ P., nÉ dÉ"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Xidm\\u0259t start Time"
+msgstr "XidmÉt start Time"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
@@ -537,19 +574,27 @@ msgstr "Toggle naviqasiya"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Ãstifad\\u0259Ã§i e-mail"
+msgstr "Ä°stifadÉÃ§i e-mail"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Ãstifad\\u0259Ã§i adÃ½"
+msgstr "Ä°stifadÉÃ§i adÄ±"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "IstifadÉÃ§i adÄ± etibarlÄ±dÄ±r deyil"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Ãstifad\\u0259Ã§i adÃ½"
+msgstr "Ä°stifadÉÃ§i adÄ±"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Ä°stifadÉÃ§i adÄ±/ E-poÃ§t"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Ãstifad\\u0259Ã§il\\u0259r"
+msgstr "Ä°stifadÉÃ§ilÉr"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -559,21 +604,41 @@ msgstr "Siz offline"
 msgid "You are online"
 msgstr "Siz online"
 
+#: app/views/register.html
+msgid "Your email"
+msgstr "Sizin email"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Sizin parol"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Parolu yenidÉn"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Sizin istifadÉÃ§i adÄ±"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Sizin istifadÉÃ§i adÄ± vÉ ya e-poÃ§t"
+
 #: app/scripts/app.js
 msgid "cached"
 msgstr "cached"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "l\\u0259Ã°v"
+msgstr "lÉÄv"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "yoxlanÃ½lmasÃ½"
+msgstr "yoxlanÄ±lmasÄ±"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "mÃ¼Ã¾t\\u0259ril\\u0259r"
+msgstr "mÃ¼ÅtÉrilÉr"
 
 #: app/scripts/app.js
 msgid "downloading"
@@ -581,19 +646,20 @@ msgstr "downloading"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "s\\u0259hv"
+msgstr "sÉhv"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "qeyri qeydiyyatdan keÃ§miÃ¾ istifad\\u0259Ã§il\\u0259r Ã¼Ã§Ã¼n ev s\\u0259hif\\u0259."
+msgstr "qeyri qeydiyyatdan keÃ§miÅ istifadÉÃ§ilÉr Ã¼Ã§Ã¼n ev sÉhifÉ."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "registerd istifad\\u0259Ã§il\\u0259r Ã¼Ã§Ã¼n ev s\\u0259hif\\u0259."
+#, 
+msgid "home page for registered users."
+msgstr "qeydiyyatdan keçən istifadəçilər üçün ev səhifə."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "baÃ¾latÃ½lÃ½yor"
+msgstr "baÅlatÄ±lÄ±yor"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
@@ -601,19 +667,19 @@ msgstr "( smart) start-up Ã¼Ã§Ã¼n bir web proqram."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "hazÃ½r istifad\\u0259Ã§i"
+msgstr "hazÄ±r istifadÉÃ§i"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "kÃ¶hn\\u0259lmiÃ¾"
+msgstr "kÃ¶hnÉlmiÅ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "sifariÃ¾l\\u0259r"
+msgstr "sifariÅlÉr"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "baÃ¾qa bir yeni accout qeydiyyatdan daxil olun."
+msgstr "baÅqa bir yeni accout qeydiyyatdan daxil olun."
 
 #: app/views/home.html
 msgid "password:"
@@ -621,7 +687,7 @@ msgstr "parol:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "t\\u0259r\\u0259qqi"
+msgstr "tÉrÉqqi"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -633,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "istifad\\u0259Ã§i adÃ½:"
+msgstr "istifadÉÃ§i adÄ±:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "istifad\\u0259Ã§il\\u0259r"
+msgstr "istifadÉÃ§ilÉr"

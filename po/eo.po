@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,7 +17,7 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "A Codice Fiscale a\\u016D P.IVA postulas"
+msgstr "A Codice Fiscale aŭ P.IVA postulas"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
@@ -29,11 +29,15 @@ msgstr "Dato de servo komenco estas bezonata"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "A da\\u016Dro devas esti en la formo' hh' a\\u016D' hh: mm', kaj almena\\u016D unu minuton longa"
+msgstr "A daŭro devas esti en la formo' hh' aŭ' hh: mm', kaj almenaŭ unu minuton longa"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
 msgstr "A situo de servo postulas"
+
+#: app/views/register.html
+msgid "A password is required"
+msgstr "Pasvorta postulas"
 
 #: app/views/customers.html
 msgid "A phone number is required"
@@ -43,7 +47,7 @@ msgstr "A telefonnumero postulas"
 msgid "A street address is required"
 msgstr "Strato adreso estas bezonata"
 
-#: app/views/users.html
+#: app/views/register.html app/views/users.html
 msgid "A user name is required"
 msgstr "Uzanto nomo estas bezonata"
 
@@ -63,9 +67,9 @@ msgstr "Aldoni novan uzanton"
 msgid "Address"
 msgstr "Adreso"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Retpo\\u015Dtadreson postulas"
+msgstr "Retpoŝtadreson postulas"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
@@ -73,19 +77,19 @@ msgstr "Operatoro postulas"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "\\u011Cisdatigo estas disponebla:\\u0109u vi volas\\u015Dargi\\u011Din nun?"
+msgstr "Ĝisdatigo estas disponebla: ĉu vi volas ŝargi ĝin nun?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "\\u011Cisdatigo estas preta"
+msgstr "Ĝisdatigo estas preta"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "\\u0108u vi vere certas forigi servo raporto"
+msgstr "Ĉu vi vere certas forigi servo raporto"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "\\u0108u vi vere certas forigi uzanto"
+msgstr "Ĉu vi vere certas forigi uzanto"
 
 #: app/views/users.html
 msgid "Authentication id"
@@ -121,7 +125,7 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Ka\\u015Dmemoro estas inicializado"
+msgstr "Kaŝmemoro estas inicializado"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
@@ -129,11 +133,11 @@ msgstr "Cache en nekonata stato"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache ne estas\\u011Disdatigita( probable la manifestoj estas neatingebla)"
+msgstr "Cache ne estas ĝisdatigita( probable la manifestoj estas neatingebla)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache ne estas\\u011Disdatigita,\\u0109ar vi estas offline"
+msgstr "Cache ne estas ĝisdatigita, ĉar vi estas offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
@@ -141,15 +145,15 @@ msgstr "Cache malaktuala"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "Cache supren-\\u011Dis-dato"
+msgstr "Cache supren- ĝis-dato"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Ka\\u015Dmemora statuso estas"
+msgstr "Kaŝmemora statuso estas"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Kontrolanta por la\\u0109eesto de\\u011Disdatigo"
+msgstr "Kontrolanta por la ĉeesto de ĝisdatigo"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -165,15 +169,19 @@ msgstr "Codice Fiscale kontrolon kodo ne kongruas"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale a\\u016D P.IVA de la kliento"
+msgstr "Codice Fiscale aŭ P.IVA de la kliento"
 
 #: app/views/footer.html
 msgid "Company logo"
 msgstr "Kompanio logo"
 
+#: app/views/register.html
+msgid "Confirm password"
+msgstr "Konfirmu pasvorton"
+
 #: app/views/home.html
 msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Konekti per unu el viaj\\\" socia\\\" kontoj, a\\u016D ensalutu per tiuj credenciales:"
+msgstr "Konekti per unu el viaj\\\" socia\\\" kontoj, aŭ ensalutu per tiuj credenciales:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -249,15 +257,15 @@ msgstr "Forigi uzanto"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Downloading\\u011Disdatigo"
+msgstr "Downloading ĝisdatigo"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Da\\u016Dro"
+msgstr "Daŭro"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Da\\u016Dro de servo"
+msgstr "Daŭro de servo"
 
 #: app/views/customers.html
 msgid "Edit customer"
@@ -271,15 +279,16 @@ msgstr "Redakti servo raporto"
 msgid "Edit user"
 msgstr "Redakti uzanto"
 
-#: app/views/customers.html app/views/serviceReports.html app/views/users.html
+#: app/views/customers.html app/views/register.html
+#: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "Retpo\\u015Dto"
+msgstr "Retpoŝto"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
 msgstr "Retadreso"
 
-#: app/views/customers.html
+#: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
 msgstr "Retadreso ne estas valida"
 
@@ -311,17 +320,21 @@ msgstr "Filtrilo uzantoj"
 msgid "Home"
 msgstr "Hejmo"
 
+#: app/views/login.html
+msgid "I forgot my password"
+msgstr "Mi forgesis mian pasvorton"
+
 #: app/views/users.html
 msgid "Id"
 msgstr "Identigilo"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "\\u011Ci permesas la uzadon de la klientoj, ordonoj kaj servo informoj."
+msgstr "Ĝi permesas la uzadon de la klientoj, ordonoj kaj servo informoj."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "\\u011Ci estas malferma- fonto, rapida, kompakta, etendebla, elasta, internacia kaj móviles."
+msgstr "Ĝi estas malferma- fonto, rapida, kompakta, etendebla, elasta, internacia kaj móviles."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -331,7 +344,7 @@ msgstr "Loko"
 msgid "Location of service"
 msgstr "Loko de servo"
 
-#: app/views/home.html
+#: app/views/home.html app/views/login.html
 msgid "Log in"
 msgstr "Ensaluti"
 
@@ -365,7 +378,7 @@ msgstr "Nova uzanto"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Neniu\\u011Disdatigo\\u0109eestas"
+msgstr "Neniu ĝisdatigo ĉeestas"
 
 #: app/views/serviceReports.html
 msgid "Notes"
@@ -403,6 +416,22 @@ msgstr "P.IVA enhavas nevalidan karaktero(j)"
 msgid "P.IVA control code doesn't match"
 msgstr "P.IVA kontrolon kodo ne kongruas"
 
+#: app/views/login.html app/views/register.html
+msgid "Password"
+msgstr "Pasvorto"
+
+#: app/views/register.html
+msgid "Password confirmation doesn't match"
+msgstr "Pasvorto konfirmo ne kongruas"
+
+#: app/views/register.html
+msgid "Password confirmation is required"
+msgstr "Pasvorto konfirmo estas bezonata"
+
+#: app/views/register.html
+msgid "Password is not sufficiently strong"
+msgstr "Pasvorto ne estas sufiĉe forta"
+
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
 msgstr "Telefono"
@@ -421,7 +450,7 @@ msgstr "Loko"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "Preparante la el\\u015Duto\\u011Disdatigo"
+msgstr "Preparante la elŝuto ĝisdatigo"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -443,9 +472,13 @@ msgstr "Print uzanto"
 msgid "Provider"
 msgstr "Provizanto"
 
-#: app/views/home.html
+#: app/views/home.html app/views/register.html
 msgid "Register"
 msgstr "Registru"
+
+#: app/views/login.html
+msgid "Reset your password"
+msgstr "Restarigi via pasvorto"
 
 #: app/views/users.html
 msgid "Roles"
@@ -453,11 +486,11 @@ msgstr "Roloj"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Roloj por tiu uzanto; klaku gliti tra\\u0109iuj\\u015Dtatoj( RW-\\u003e R-\\u003e W-\\u003e neniu)"
+msgstr "Roloj por tiu uzanto; klaku gliti tra ĉiuj ŝtatoj( RW-\\u003e R-\\u003e W-\\u003e neniu)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Roloj de la uzanto: verda koloro indikas permeso por legi kaj skribi, flavaj signifas nur legi, blua nur skribi, kaj ru\\u011Da sen permeso. Sekcioj estas:' u'( uzantoj)' c'( klientoj),' o'( ordoj),' s'(servo informoj)."
+msgstr "Roloj de la uzanto: verda koloro indikas permeso por legi kaj skribi, flavaj signifas nur legi, blua nur skribi, kaj ruĝa sen permeso. Sekcioj estas:' u'( uzantoj)' c'( klientoj),' o'( ordoj),' s'(servo informoj)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -485,11 +518,11 @@ msgstr "Strato adreso"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "\\u0108i kliento nomo jam estas uzata"
+msgstr "Ĉi kliento nomo jam estas uzata"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "\\u0108i kliento nomo ne estas valida"
+msgstr "Ĉi kliento nomo ne estas valida"
 
 #: app/views/home.html
 msgid "This is"
@@ -497,27 +530,31 @@ msgstr "Tio estas"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "\\u0108i tiu uzanto povas nek legi nek skribi"
+msgstr "Ĉi tiu uzanto povas nek legi nek skribi"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "\\u0108i tiu uzanto povas legi"
+msgstr "Ĉi tiu uzanto povas legi"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "\\u0108i tiu uzanto povas legi kaj skribi"
+msgstr "Ĉi tiu uzanto povas legi kaj skribi"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "\\u0108i tiu uzanto povas skribi"
+msgstr "Ĉi tiu uzanto povas skribi"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "\\u0108i tiu uzanto ne povas konsenti"
+msgstr "Ĉi tiu uzanto ne povas konsenti"
 
 #: app/views/users.html
 msgid "This user name is already in use"
 msgstr "Tiu salutnomo estas jam uzata"
+
+#: app/views/register.html
+msgid "This user name is already taken"
+msgstr "Tiu salutnomo estas jam prenita"
 
 #: app/views/users.html
 msgid "This user name is not valid"
@@ -525,7 +562,7 @@ msgstr "Tiu salutnomo estas nevalida"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "\\u0108i tiu valoro estas nek Codice Fiscale nek P.IVA"
+msgstr "Ĉi tiu valoro estas nek Codice Fiscale nek P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
@@ -543,9 +580,17 @@ msgstr "Uzanto retadreson"
 msgid "User name"
 msgstr "Uzantonomo"
 
-#: app/views/users.html
+#: app/views/register.html
+msgid "User name is not valid"
+msgstr "Vikipediista nomo estas nevalida"
+
+#: app/views/register.html app/views/users.html
 msgid "Username"
 msgstr "Uzantonomo"
+
+#: app/views/login.html
+msgid "Username / Email"
+msgstr "Uzulnomo/ Retpoŝto"
 
 #: app/views/nav.html
 msgid "Users"
@@ -559,9 +604,29 @@ msgstr "Vi estas offline"
 msgid "You are online"
 msgstr "Vi estas enreta"
 
+#: app/views/register.html
+msgid "Your email"
+msgstr "Via retpoŝto"
+
+#: app/views/register.html
+msgid "Your password"
+msgstr "Via pasvorto"
+
+#: app/views/register.html
+msgid "Your password, again"
+msgstr "Via pasvorto, denove"
+
+#: app/views/register.html
+msgid "Your user name"
+msgstr "Via salutnomo"
+
+#: app/views/login.html
+msgid "Your username or email"
+msgstr "Via salutnomo aŭ retpoŝto"
+
 #: app/scripts/app.js
 msgid "cached"
-msgstr "ka\\u015Dmemoro"
+msgstr "kaŝmemoro"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
@@ -577,7 +642,7 @@ msgstr "klientoj"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "el\\u015Dutanta"
+msgstr "elŝutanta"
 
 #: app/scripts/app.js
 msgid "error"
@@ -585,11 +650,12 @@ msgstr "eraro"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "\\u0109efpa\\u011Don por ne registritaj uzantoj."
+msgstr "ĉefpaĝon por ne registritaj uzantoj."
 
 #: app/views/home.html
-msgid "home page for registerd users."
-msgstr "\\u0109efpa\\u011Don por registerd uzantoj."
+#, 
+msgid "home page for registered users."
+msgstr "ĉefpaĝon por registritaj uzantoj."
 
 #: app/scripts/app.js
 msgid "initializing"
