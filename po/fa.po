@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "تکرار رمز عبور"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "اتصال با استفاده از یکی از حساب های اجتماعی خود را ، و یا به سیستم وارد شوید با این اعتبار :"
 
@@ -653,10 +652,6 @@ msgstr "خطا"
 msgid "home page for non registered users."
 msgstr "صفحه خانه برای غیر کاربران ثبت نام شده."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "صفحه خانه برای کاربران ثبت نام شده."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "مقدار دهی اولیه"
@@ -692,6 +687,11 @@ msgstr "پیشرفت"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "صفحه اصلی برای کاربران ثبت نام ."
 
 #: app/scripts/app.js
 msgid "updateready"

@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "Konfirmasi kata sandi"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "Hubungkan menggunakan salah satu akun sosial Anda , atau masuk dengan mandat ini :"
 
@@ -653,10 +652,6 @@ msgstr "error"
 msgid "home page for non registered users."
 msgstr "halaman rumah untuk pengguna non terdaftar."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "halaman rumah untuk pengguna terdaftar."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "menginisialisasi"
@@ -692,6 +687,11 @@ msgstr "kemajuan"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "halaman rumah untuk pengguna terdaftar ."
 
 #: app/scripts/app.js
 msgid "updateready"

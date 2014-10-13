@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "পাসওয়ার্ড নিশ্চিত করুন"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "আপনার সামাজিক অ্যাকাউন্ট ব্যবহার করে সংযোগ করুন, অথবা এই শংসাপত্রের সঙ্গে লগ ইন করুন :"
 
@@ -653,10 +652,6 @@ msgstr "ত্রুটি"
 msgid "home page for non registered users."
 msgstr "নন রেজিস্টার্ড ব্যবহারকারীদের জন্য হোম পৃষ্ঠা."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "নিবন্ধিত ব্যবহারকারীদের জন্য হোম পৃষ্ঠা."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "আরম্ভ করা"
@@ -692,6 +687,11 @@ msgstr "অগ্রগতি"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "নিবন্ধিত ব্যবহারকারীদের জন্য হোম পৃষ্ঠা ."
 
 #: app/scripts/app.js
 msgid "updateready"

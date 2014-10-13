@@ -3,8 +3,6 @@
 /**
  * Auto translate .po (gettext) files with google translate page
  */
-exit;
-
   include "PoParser.php";
   
   $version = "0.1";
@@ -57,8 +55,9 @@ exit;
       )
     );
 
-    $poFilePath = "$poDirectory/$language.po";
     $poTemplatePath = "$poDirectory/$potTemplateFile";
+    $poFilePath = "$poDirectory/$language.po";
+    $moFilePath = "$poDirectory/$language.mo";
 
     /* merge each language po file with templates pot file */
     system("msgmerge --no-wrap --sort-output --update --backup=off --quiet \"$poFilePath\" \"$poTemplatePath\"");
@@ -83,6 +82,7 @@ exit;
       $src = $entry['msgid'][$i];
       $dst = $entry['msgstr'][$i];
       $fuzzy = isset($entry['fuzzy']);
+      # TODO: test if "fuzzy" works as expected (set when changing an entry in sources)?
       if ($src) {
         if (!$dst or $fuzzy) {
           // no translation, or fuzzy translation: translate it
@@ -107,15 +107,23 @@ exit;
 
           // update poParser entry with auto translated string
           $poparser->updateEntry($src, $dst);
+        } else {
+          # TODO: profile the slowness when no translation is needed...
         }
       }
     }
     // update poFile with poParser translated entries
+// TODO: try to delete this...
     $poFilePathTranslated = tempnam("/tmp", $language . ".po-");
     $poparser->write($poFilePathTranslated);
     /* Sepia PoParser does not write UTF8... */
     fileEncodeToUTF8($poFilePathTranslated);
     rename($poFilePathTranslated, $poFilePath);
+
+    // unlink - if present - any .mo language file (we do not use them)
+    if (file_exists($moFilePath)) {
+      unlink($moFilePath);
+    }
   }
   print "\n";
 
@@ -269,28 +277,4 @@ EOT;
     $then = mb_substr($string, 1, $strlen - 1, $encoding);
     return mb_strtolower($firstChar, $encoding) . $then;
   }
-
-  /* TODO: REMOVE-ME
-  function check_utf8($str) {
-    $len = strlen($str);
-    for($i = 0; $i < $len; $i++){
-      $c = ord($str[$i]);
-      if ($c > 128) {
-        if (($c > 247)) return false;
-        elseif ($c > 239) $bytes = 4;
-        elseif ($c > 223) $bytes = 3;
-        elseif ($c > 191) $bytes = 2;
-        else return false;
-        if (($i + $bytes) > $len) return false;
-        while ($bytes > 1) {
-          $i++;
-          $b = ord($str[$i]);
-          if ($b < 128 || $b > 191) return false;
-          $bytes--;
-        }
-      }
-    }
-    return true;
-  }
-  */
 ?>

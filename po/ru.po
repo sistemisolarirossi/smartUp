@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "Подтвердите Пароль"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "Подключение с помощью одного из ваших социальных счетов , или войти с этими учетными данными :"
 
@@ -653,10 +652,6 @@ msgstr "ошибка"
 msgid "home page for non registered users."
 msgstr "главная для не зарегистрированных пользователей."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "домашняя страница для зарегистрированных пользователей."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "инициализации"
@@ -692,6 +687,11 @@ msgstr "прогресс"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "домашняя страница для зарегистрированных пользователей ."
 
 #: app/scripts/app.js
 msgid "updateready"

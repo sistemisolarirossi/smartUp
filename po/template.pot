@@ -667,10 +667,6 @@ msgstr ""
 msgid "home page for non registered users."
 msgstr ""
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr ""
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr ""
@@ -707,6 +703,10 @@ msgstr ""
 #: app/views/users.html
 #: app/scripts/controllers/users.js
 msgid "servicereports"
+msgstr ""
+
+#: app/views/home.html
+msgid "the home page for registered users."
 msgstr ""
 
 #: app/scripts/app.js

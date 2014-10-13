@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "પાસવર્ડ ખાતરી કરો"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "તમારા સામાજિક એકાઉન્ટ્સ એક મદદથી જોડાવા માટે , અથવા આ ઓળખાણપત્ર સાથે લૉગ ઇન :"
 
@@ -653,10 +652,6 @@ msgstr "ભૂલ"
 msgid "home page for non registered users."
 msgstr "બિન રજીસ્ટર વપરાશકર્તાઓ માટે ઘર પાનું."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "રજીસ્ટર વપરાશકર્તાઓ માટે ઘર પાનું."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "પ્રારંભ"
@@ -692,6 +687,11 @@ msgstr "પ્રગતિ"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "રજીસ્ટર વપરાશકર્તાઓ માટે હોમ પેજ ."
 
 #: app/scripts/app.js
 msgid "updateready"

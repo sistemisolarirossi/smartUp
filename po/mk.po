@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: mk\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "Потврди ја лозинката"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "Поврзете се со користење на еден од вашите социјални сметки, или да се логирате со овие ингеренциите :"
 
@@ -653,10 +652,6 @@ msgstr "грешка"
 msgid "home page for non registered users."
 msgstr "главна страница за нерегистрирани корисници."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "главна страница за регистрирани корисници."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "иницијализацијата"
@@ -692,6 +687,11 @@ msgstr "напредок"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "на почетната страница за регистрираните корисници."
 
 #: app/scripts/app.js
 msgid "updateready"

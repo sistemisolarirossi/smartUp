@@ -170,7 +170,7 @@ app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
   };
 
   $rootScope.$on('$firebaseSimpleLogin:login', function (event, authUser) {
-    console.warn('$rootScope.$on($firebaseSimpleLogin:login) FIRED - authUser:', authUser);
+    //console.warn('$rootScope.$on($firebaseSimpleLogin:login) FIRED - authUser:', authUser);
     if (!authUser.uid) {
       toastr.error('Error logging in user');
       console.error('login fired with an authorized user with no uid!', authUser);

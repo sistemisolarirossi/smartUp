@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: zu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zu\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "Qinisekisa Iphasiwedi"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "Xhuma usebenzisa omunye akhawunti akho emphakathini noma ngemvume kulezi iziqinisekiso :"
 
@@ -653,10 +652,6 @@ msgstr "iphutha"
 msgid "home page for non registered users."
 msgstr "ikhasi lasekhaya for non abasebenzisi ababhalisiwe."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "ikhasi lasekhaya for abasebenzisi ababhalisiwe."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "ekuqaliseni"
@@ -692,6 +687,11 @@ msgstr "inqubekela"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "ikhasi ekhaya kubasebenzisi esibhalisiwe ."
 
 #: app/scripts/app.js
 msgid "updateready"

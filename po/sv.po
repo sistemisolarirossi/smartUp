@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "Bekräfta lösenord"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "Anslut med hjälp av någon av dina sociala konton , eller logga in med dessa referenser :"
 
@@ -653,10 +652,6 @@ msgstr "fel"
 msgid "home page for non registered users."
 msgstr "hemsida för icke registrerade användare."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "hemsidan för registrerade användare."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "initialisering"
@@ -692,6 +687,11 @@ msgstr "framsteg"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "hemsidan för registrerade användare ."
 
 #: app/scripts/app.js
 msgid "updateready"

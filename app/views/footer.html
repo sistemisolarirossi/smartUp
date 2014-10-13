@@ -47,19 +47,18 @@
 
   <span class="i18n">
     <span ng-hide="selectingLanguageFlag">
-      <!--<img ng-src="{{ getCurrentLanguageFlag() }}" NOwidth="16" ng-attr-title="{{ 'Current language is' | translate }} {{ getCurrentLanguageName() }}" NOng-click="setNextLanguage()" />-->
       <img ng-src="{{ getCurrentLanguageFlag() }}" ng-attr-title="{{ 'Current language is' | translate }} {{ getCurrentLanguageName() }}" ng-click="selectingLanguage()" />
     </span>
 
     <span ng-show="selectingLanguageFlag">
-      <select ng-model="selectedLanguage" class="btn btn-default btn-xxs" ng-change="languageSelected()" style="-webkit-appearance: none;">
+      <select ng-model="selectedLanguage" class="btn btn-default btn-xxs" ng-change="languageSelected()" style="border-radius: 5px;">
         <option
           ng-repeat="language in supportedLanguagesSorted"
           value="{{ language.key }}"
           style="background-image: url('icons/flags/{{language.key}}.png'); background-repeat: no-repeat; padding-left: 2.4em; text-align: left"
           ng-selected="selectedLanguage === language.key"
         >
-          {{ language.des }} ({{ language.key }})
+        {{ language.des }} [{{ language.key }}]
         </option>
       </select>
     </span>

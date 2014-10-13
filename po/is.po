@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: is\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "Staðfesta lykilorð"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "Tengjast með einn af félagslegur reikninga, eða skrá þig inn með þessum persónuskilríki :"
 
@@ -653,10 +652,6 @@ msgstr "villa"
 msgid "home page for non registered users."
 msgstr "heimasíða fyrir utan skráða notendur."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "heimasíða fyrir skráða notendur."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "opening"
@@ -692,6 +687,11 @@ msgstr "framfarir"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "heimasíða fyrir skráða notendur ."
 
 #: app/scripts/app.js
 msgid "updateready"

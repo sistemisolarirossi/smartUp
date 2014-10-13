@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
+"Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,7 +180,6 @@ msgid "Confirm password"
 msgstr "Kumpirmahin ang password"
 
 #: app/views/home.html
-#, 
 msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr "Kumonekta gamit ang isa sa iyong mga social na mga account, o mag-log in gamit ang mga kredensyal :"
 
@@ -653,10 +652,6 @@ msgstr "error"
 msgid "home page for non registered users."
 msgstr "home page para sa hindi rehistradong mga gumagamit."
 
-#: app/views/home.html
-msgid "home page for registered users."
-msgstr "home page para sa nakarehistrong mga gumagamit."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "sinisimulan"
@@ -692,6 +687,11 @@ msgstr "pag-unlad"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
 msgstr "servicereports"
+
+#: app/views/home.html
+#, 
+msgid "the home page for registered users."
+msgstr "sa home page para sa mga nakarehistrong user ."
 
 #: app/scripts/app.js
 msgid "updateready"
