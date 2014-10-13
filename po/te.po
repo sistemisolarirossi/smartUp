@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: te\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,8 +180,9 @@ msgid "Confirm password"
 msgstr "పాస్వర్డ్ను నిర్ధారించు"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "మీ\\\" సామాజిక\\\" ఖాతాల ఒకటి ఉపయోగించి కనెక్ట్, లేదా ఈ ఆధారాలతో లాగిన్:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "మీ సామాజిక ఖాతాలను ఒకటి ఉపయోగించి కనెక్ట్, లేదా ఈ ఆధారాలతో లాగిన్ :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"

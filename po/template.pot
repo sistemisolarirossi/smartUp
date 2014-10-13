@@ -176,7 +176,7 @@ msgid "Confirm password"
 msgstr ""
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
+msgid "Connect using one of your social accounts, or log in with these credentials:"
 msgstr ""
 
 #: app/views/home.html

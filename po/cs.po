@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,39 +17,39 @@ msgstr "(hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Je nutnÃ©Codice Fiscale neboP.IVA"
+msgstr "Je nutnéCodice Fiscale neboP.IVA"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Je vyÅ¾adovÃ¡nojmÃ©no zÃ¡kaznÃ­ka"
+msgstr "Je vyžadovánojméno zákazníka"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Je nutnÃ©datum zahÃ¡jenÃ­ sluÅ¾by"
+msgstr "Je nutnédatum zahájení služby"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "Doba musÃ­ bÃ½t ve formÄ\\\" HH\\\" nebo\\\" hh: mm\\\", a alespoÅ jedna minuta dlouho"
+msgstr "Doba musí být ve formě\\\" HH\\\" nebo\\\" hh: mm\\\", a alespoň jedna minuta dlouho"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Je poÅ¾adovÃ¡noumÃ­stÄnÃ­ sluÅ¾by"
+msgstr "Je požadovánoumístění služby"
 
 #: app/views/register.html
 msgid "A password is required"
-msgstr "Je vyÅ¾adovÃ¡noheslo"
+msgstr "Je vyžadovánoheslo"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Je nutnÃ©telefonnÃ­ ÄÃ­slo"
+msgstr "Je nutnételefonní číslo"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Je nutnÃ©ulice"
+msgstr "Je nutnéulice"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Je vyÅ¾adovÃ¡no uÅ¾ivatelskÃ© jmÃ©no"
+msgstr "Je vyžadováno uživatelské jméno"
 
 #: app/views/nav.html
 msgid "About"
@@ -57,11 +57,11 @@ msgstr "O"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "PÅidat novÃ½ zÃ¡kaznÃ­k"
+msgstr "Přidat nový zákazník"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "PÅidat novÃ©ho uÅ¾ivatele"
+msgstr "Přidat nového uživatele"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -69,7 +69,7 @@ msgstr "Adresa"
 
 #: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Je nutnÃ¡e-mailovÃ¡ adresa"
+msgstr "Je nutnáe-mailová adresa"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
@@ -77,27 +77,27 @@ msgstr "Je provozovatel"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Aktualizace je k dispozici: chcete naÄÃ­st teÄ?"
+msgstr "Aktualizace je k dispozici: chcete načíst teď?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "Aktualizace je pÅipraven"
+msgstr "Aktualizace je připraven"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Opravdu odstranit zprÃ¡vy sluÅ¾by"
+msgstr "Opravdu odstranit zprávy služby"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Opravdu odebrat uÅ¾ivatele"
+msgstr "Opravdu odebrat uživatele"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "OvÄÅovÃ¡nÃ­ id"
+msgstr "Ověřování id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "OvÄÅovÃ¡nÃ­ id uÅ¾ivatele"
+msgstr "Ověřování id uživatele"
 
 #: app/views/users.html
 msgid "Authentication id:"
@@ -105,11 +105,11 @@ msgstr "Autentifikace ID:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "ZprostÅedkovatel ovÄÅovÃ¡nÃ­"
+msgstr "Zprostředkovatel ověřování"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "ZprostÅedkovatel ovÄÅovÃ¡nÃ­ pro uÅ¾ivatele"
+msgstr "Zprostředkovatel ověřování pro uživatele"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -117,7 +117,7 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Avatar uÅ¾ivatele"
+msgstr "Avatar uživatele"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -125,23 +125,23 @@ msgstr "Srovnej/ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Cache je inicializovÃ¡n"
+msgstr "Cache je inicializován"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Cache je v neznÃ¡mÃ©m stavu"
+msgstr "Cache je v neznámém stavu"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Cache nenÃ­ aktualizovÃ¡n( asimanifest je nedostupnÃ½)"
+msgstr "Cache není aktualizován( asimanifest je nedostupný)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Cache nenÃ­ aktualizovÃ¡n proto, Å¾e jste v reÅ¾imu offline"
+msgstr "Cache není aktualizován proto, že jste v režimu offline"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cache je zastaralÃ¡"
+msgstr "Cache je zastaralá"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
@@ -153,7 +153,7 @@ msgstr "Stav Cache je"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Kontrola pÅÃ­tomnosti aktualizace"
+msgstr "Kontrola přítomnosti aktualizace"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -161,27 +161,28 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale obsahuje neplatnÃ½ znak(y)"
+msgstr "Codice Fiscale obsahuje neplatný znak(y)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale kontrolnÃ­ kÃ³d neodpovÃ­dÃ¡"
+msgstr "Codice Fiscale kontrolní kód neodpovídá"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale nebo P.IVA zÃ¡kaznÃ­ka"
+msgstr "Codice Fiscale nebo P.IVA zákazníka"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Logo spoleÄnosti"
+msgstr "Logo společnosti"
 
 #: app/views/register.html
 msgid "Confirm password"
-msgstr "PotvrzenÃ­ hesla"
+msgstr "Potvrzení hesla"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "PÅipojenÃ­ pomocÃ­ jednoho z vaÅ¡ich\\\"sociÃ¡lnÃ­\\\" ÃºÄty, nebo se pÅihlÃ¡sit pomocÃ­ tÄchto povÄÅenÃ­:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Připojení pomocí jednoho z vašich sociálních účtů , nebo se přihlásit pomocí těchto pověření :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -189,11 +190,11 @@ msgstr "Spojte se s Facebookem"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "NavÃ¡zat spojenÃ­ s Google+"
+msgstr "Navázat spojení s Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "NavÃ¡zat spojenÃ­ s Twitter"
+msgstr "Navázat spojení s Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
@@ -201,39 +202,39 @@ msgstr "Kontakty"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "AktuÃ¡lnÃ­ jazyk je"
+msgstr "Aktuální jazyk je"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "ZÃ¡kaznÃ­k"
+msgstr "Zákazník"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "ZÃ¡kaznickÃ¡ karta"
+msgstr "Zákaznická karta"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "ZÃ¡kaznÃ­k e-mailovou adresu"
+msgstr "Zákazník e-mailovou adresu"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "JmÃ©no zÃ¡kaznÃ­ka"
+msgstr "Jméno zákazníka"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "ZÃ¡kaznickÃ¡ ÄÃ­slo"
+msgstr "Zákaznická číslo"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "ZÃ¡kaznÃ­k ulice"
+msgstr "Zákazník ulice"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Podpis zÃ¡kaznÃ­ka"
+msgstr "Podpis zákazníka"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "ZÃ¡kaznÃ­ci"
+msgstr "Zákazníci"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -241,43 +242,43 @@ msgstr "Datum"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Datum zahÃ¡jenÃ­ sluÅ¾by"
+msgstr "Datum zahájení služby"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Smazat zÃ¡kaznÃ­ka"
+msgstr "Smazat zákazníka"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Smazat zprÃ¡vy sluÅ¾by"
+msgstr "Smazat zprávy služby"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Smazat uÅ¾ivatele"
+msgstr "Smazat uživatele"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "StaÅ¾enÃ­ aktualizace"
+msgstr "Stažení aktualizace"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Doba trvÃ¡nÃ­"
+msgstr "Doba trvání"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Doba trvÃ¡nÃ­ sluÅ¾by"
+msgstr "Doba trvání služby"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Edit zÃ¡kaznÃ­k"
+msgstr "Edit zákazník"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Edit report sluÅ¾ba"
+msgstr "Edit report služba"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Upravit uÅ¾ivatele"
+msgstr "Upravit uživatele"
 
 #: app/views/customers.html app/views/register.html
 #: app/views/serviceReports.html app/views/users.html
@@ -286,19 +287,19 @@ msgstr "E-mail"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "E-mailovÃ¡ adresa"
+msgstr "E-mailová adresa"
 
 #: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "E-mailovÃ¡ adresa nenÃ­ platnÃ¡"
+msgstr "E-mailová adresa není platná"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "E-mailovÃ¡ adresa uÅ¾ivatele"
+msgstr "E-mailová adresa uživatele"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "E-mail uÅ¾ivatele"
+msgstr "E-mail uživatele"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -306,23 +307,23 @@ msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Filtr zÃ¡kaznÃ­ky"
+msgstr "Filtr zákazníky"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "ZprÃ¡vy servisu filtru"
+msgstr "Zprávy servisu filtru"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "UÅ¾ivatelÃ© filtru"
+msgstr "Uživatelé filtru"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "DomÅ¯"
+msgstr "Domů"
 
 #: app/views/login.html
 msgid "I forgot my password"
-msgstr "ZapomnÄl jsem heslo"
+msgstr "Zapomněl jsem heslo"
 
 #: app/views/users.html
 msgid "Id"
@@ -330,27 +331,27 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "UmoÅ¾Åuje sprÃ¡vu zÃ¡kaznÃ­kÅ¯, zakÃ¡zek a zprÃ¡vy sluÅ¾by."
+msgstr "Umožňuje správu zákazníků, zakázek a zprávy služby."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Je to open-source, rychlÃ½, kompaktnÃ­, rozÅ¡iÅitelnÃ½, odolnÃ©, mezinÃ¡rodnÃ­ a mobilnÃ­ telefony."
+msgstr "Je to open-source, rychlý, kompaktní, rozšiřitelný, odolné, mezinárodní a mobilní telefony."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "MÃ­sto"
+msgstr "Místo"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "UmÃ­stÄnÃ­ sluÅ¾by"
+msgstr "Umístění služby"
 
 #: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "PÅihlÃ¡sit se"
+msgstr "Přihlásit se"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "OdhlÃ¡sit se"
+msgstr "Odhlásit se"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -358,35 +359,35 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "NÃ¡zev"
+msgstr "Název"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "JmÃ©no uÅ¾ivatele"
+msgstr "Jméno uživatele"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "NovÃ½ zÃ¡kaznÃ­k"
+msgstr "Nový zákazník"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "NovÃ¡ zprÃ¡va"
+msgstr "Nová zpráva"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "NovÃ½ uÅ¾ivatel"
+msgstr "Nový uživatel"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Å½Ã¡dnÃ¡ aktualizace nenÃ­ pÅÃ­tomen"
+msgstr "Žádná aktualizace není přítomen"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "PoznÃ¡mky"
+msgstr "Poznámky"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "ÄÃ­slo"
+msgstr "Číslo"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -394,7 +395,7 @@ msgstr "Provozovatel"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Provozovatel sluÅ¾by"
+msgstr "Provozovatel služby"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
@@ -402,7 +403,7 @@ msgstr "Podpis provozovatele"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "ObjednÃ¡vky"
+msgstr "Objednávky"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -410,11 +411,11 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA obsahuje neplatnÃ½ znak(y)"
+msgstr "P.IVA obsahuje neplatný znak(y)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "ÅÃ­zenÃ­ P.IVA kÃ³d neodpovÃ­dÃ¡"
+msgstr "Řízení P.IVA kód neodpovídá"
 
 #: app/views/login.html app/views/register.html
 msgid "Password"
@@ -422,15 +423,15 @@ msgstr "Heslo"
 
 #: app/views/register.html
 msgid "Password confirmation doesn't match"
-msgstr "PotvrzenÃ­ hesla se neshodujÃ­"
+msgstr "Potvrzení hesla se neshodují"
 
 #: app/views/register.html
 msgid "Password confirmation is required"
-msgstr "Je vyÅ¾adovÃ¡no potvrzenÃ­ hesla"
+msgstr "Je vyžadováno potvrzení hesla"
 
 #: app/views/register.html
 msgid "Password is not sufficiently strong"
-msgstr "Heslo nenÃ­ dostateÄnÄ silnÃ½"
+msgstr "Heslo není dostatečně silný"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
@@ -438,19 +439,19 @@ msgstr "Telefon"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "TelefonnÃ­ ÄÃ­slo"
+msgstr "Telefonní číslo"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "TelefonnÃ­ ÄÃ­slo nenÃ­ platnÃ©"
+msgstr "Telefonní číslo není platné"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "MÃ­sto"
+msgstr "Místo"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "PÅÃ­pravastahovÃ¡nÃ­ aktualizace"
+msgstr "Přípravastahování aktualizace"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -458,15 +459,15 @@ msgstr "Tisk"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Vytisknout zÃ¡kaznÃ­k"
+msgstr "Vytisknout zákazník"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "ServisnÃ­ zprÃ¡va Print"
+msgstr "Servisní zpráva Print"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Tisk uÅ¾ivatel"
+msgstr "Tisk uživatel"
 
 #: app/views/users.html
 msgid "Provider"
@@ -486,31 +487,31 @@ msgstr "Role"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Role pro uÅ¾ivatele; kliknÄte na snÃ­mek pÅes vÅ¡echny stavy( RW-\\u003e R-\\u003e W-\\u003e none)"
+msgstr "Role pro uživatele; klikněte na snímek přes všechny stavy( RW-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Role uÅ¾ivatele: zelenÃ¡ barva oznaÄuje oprÃ¡vnÄnÃ­ pro ÄtenÃ­ a zÃ¡pis, Å¾lutÃ¡ znamenÃ¡ pouze pro ÄtenÃ­, modrÃ¡ jen psÃ¡t, a ÄervenÃ¡ bez povolenÃ­. Sekce jsou:\\\"U\\\"(uÅ¾ivatelÅ¯),\\\"C\\\"( zÃ¡kaznÃ­ci),\\\"O\\\"(objednÃ¡vky),\\\"S\\\"(zprÃ¡vy sluÅ¾by)."
+msgstr "Role uživatele: zelená barva označuje oprávnění pro čtení a zápis, žlutá znamená pouze pro čtení, modrá jen psát, a červená bez povolení. Sekce jsou:\\\"U\\\"(uživatelů),\\\"C\\\"( zákazníci),\\\"O\\\"(objednávky),\\\"S\\\"(zprávy služby)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "UloÅ¾it"
+msgstr "Uložit"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "ZprÃ¡va Service"
+msgstr "Zpráva Service"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "ZprÃ¡va Service n"
+msgstr "Zpráva Service n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "ServisnÃ­ zprÃ¡vy"
+msgstr "Servisní zprávy"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "NastavenÃ­"
+msgstr "Nastavení"
 
 #: app/views/customers.html
 msgid "Street address"
@@ -518,11 +519,11 @@ msgstr "Ulice"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Tento nÃ¡zev zÃ¡kaznÃ­k je jiÅ¾ v provozu"
+msgstr "Tento název zákazník je již v provozu"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Toto jmÃ©no zÃ¡kaznÃ­ka nenÃ­ platnÃ½"
+msgstr "Toto jméno zákazníka není platný"
 
 #: app/views/home.html
 msgid "This is"
@@ -530,35 +531,35 @@ msgstr "Toto je"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Tento uÅ¾ivatel si ani ÄÃ­st ani psÃ¡t"
+msgstr "Tento uživatel si ani číst ani psát"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Tento uÅ¾ivatel mÅ¯Å¾e ÄÃ­st"
+msgstr "Tento uživatel může číst"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Tento uÅ¾ivatel mÅ¯Å¾e ÄÃ­st a psÃ¡t"
+msgstr "Tento uživatel může číst a psát"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Tento uÅ¾ivatel mÅ¯Å¾e psÃ¡t"
+msgstr "Tento uživatel může psát"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Tento uÅ¾ivatel nemÅ¯Å¾e zÃ­skat pÅÃ­stup"
+msgstr "Tento uživatel nemůže získat přístup"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Toto uÅ¾ivatelskÃ© jmÃ©no je jiÅ¾ pouÅ¾Ã­vÃ¡n"
+msgstr "Toto uživatelské jméno je již používán"
 
 #: app/views/register.html
 msgid "This user name is already taken"
-msgstr "Toto uÅ¾ivatelskÃ© jmÃ©no je jiÅ¾ obsazen"
+msgstr "Toto uživatelské jméno je již obsazen"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Toto uÅ¾ivatelskÃ© jmÃ©no nenÃ­ platnÃ©"
+msgstr "Toto uživatelské jméno není platné"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
@@ -566,35 +567,35 @@ msgstr "Tato hodnota je aniCodice Fiscale aniP.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Äas zahÃ¡jenÃ­ sluÅ¾by"
+msgstr "Čas zahájení služby"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "PÅepnout navigace"
+msgstr "Přepnout navigace"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "UÅ¾ivatel e-mailovou adresu"
+msgstr "Uživatel e-mailovou adresu"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "UÅ¾ivatelskÃ© jmÃ©no"
+msgstr "Uživatelské jméno"
 
 #: app/views/register.html
 msgid "User name is not valid"
-msgstr "UÅ¾ivatelskÃ© jmÃ©no nenÃ­ platnÃ©"
+msgstr "Uživatelské jméno není platné"
 
 #: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "UÅ¾ivatelskÃ© jmÃ©no"
+msgstr "Uživatelské jméno"
 
 #: app/views/login.html
 msgid "Username / Email"
-msgstr "UÅ¾ivatelskÃ© jmÃ©no/ Email"
+msgstr "Uživatelské jméno/ Email"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "UÅ¾ivatelÃ©"
+msgstr "Uživatelé"
 
 #: app/views/footer.html
 msgid "You are offline"
@@ -606,31 +607,31 @@ msgstr "Jste-line"
 
 #: app/views/register.html
 msgid "Your email"
-msgstr "VÃ¡Å¡ e-mail"
+msgstr "Váš e-mail"
 
 #: app/views/register.html
 msgid "Your password"
-msgstr "VaÅ¡e heslo"
+msgstr "Vaše heslo"
 
 #: app/views/register.html
 msgid "Your password, again"
-msgstr "VaÅ¡e heslo znovu"
+msgstr "Vaše heslo znovu"
 
 #: app/views/register.html
 msgid "Your user name"
-msgstr "VaÅ¡e uÅ¾ivatelskÃ© jmÃ©no"
+msgstr "Vaše uživatelské jméno"
 
 #: app/views/login.html
 msgid "Your username or email"
-msgstr "VaÅ¡e uÅ¾ivatelskÃ© jmÃ©no nebo e-mail"
+msgstr "Vaše uživatelské jméno nebo e-mail"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "mezipamÄti"
+msgstr "mezipaměti"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "zruÅ¡it"
+msgstr "zrušit"
 
 #: app/scripts/app.js
 msgid "checking"
@@ -638,11 +639,11 @@ msgstr "kontrola"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "zÃ¡kaznÃ­ci"
+msgstr "zákazníci"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "stahovÃ¡nÃ­"
+msgstr "stahování"
 
 #: app/scripts/app.js
 msgid "error"
@@ -650,10 +651,9 @@ msgstr "chyba"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "domÃ¡cÃ­ strÃ¡nka pro non registrovanÃ½m uÅ¾ivatelÅ¯m."
+msgstr "domácí stránka pro non registrovaným uživatelům."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "domácí stránka pro registrované uživatele."
 
@@ -663,23 +663,23 @@ msgstr "inicializace"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "jewebovÃ¡ aplikace pro(smart) zaklÃ¡dÃ¡nÃ­ novÃ½ch podnikÅ¯."
+msgstr "jewebová aplikace pro(smart) zakládání nových podniků."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "pÅihlÃ¡Å¡enÃ½ uÅ¾ivatel"
+msgstr "přihlášený uživatel"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "zastaralÃ©"
+msgstr "zastaralé"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "objednÃ¡vky"
+msgstr "objednávky"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "jinak registrovat novÃ½ accout a pÅihlaste se."
+msgstr "jinak registrovat nový accout a přihlaste se."
 
 #: app/views/home.html
 msgid "password:"
@@ -699,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "uÅ¾ivatelskÃ© jmÃ©no:"
+msgstr "uživatelské jméno:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "uÅ¾ivatelÃ©"
+msgstr "uživatelé"

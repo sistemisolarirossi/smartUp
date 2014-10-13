@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,8 +180,9 @@ msgid "Confirm password"
 msgstr "Konfirmu pasvorton"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Konekti per unu el viaj\\\" socia\\\" kontoj, aŭ ensalutu per tiuj credenciales:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Konekti per unu el viaj sociaj kontoj, aŭ ensalutu per tiuj credenciales :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -653,7 +654,6 @@ msgid "home page for non registered users."
 msgstr "ĉefpaĝon por ne registritaj uzantoj."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "ĉefpaĝon por registritaj uzantoj."
 

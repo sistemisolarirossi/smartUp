@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: so\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: so\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,8 +180,9 @@ msgid "Confirm password"
 msgstr "Confirm password"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Connect isticmaalaya mid ka mid ah aad xisaab\\\" bulsho\\\", ama gal in la aqoonsiga kuwan:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Connect isticmaalaya mid ka mid ah aad xisaab bulshada , ama gal in la aqoonsiga kuwan :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"

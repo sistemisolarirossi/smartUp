@@ -1,6 +1,6 @@
 <div id="footer" ng-controller="AuthCtrl" class="footer no-print">
-
   <!-- debug-only -->
+
   <span show-device-class ng-show="debug">
   </span>
   <span ng-show="debug">&nbsp;</span>
@@ -46,7 +46,23 @@
   <span>&nbsp;</span>
 
   <span class="i18n">
-    <img ng-src="{{ getCurrentLanguageFlag() }}" NOwidth="16" ng-attr-title="{{ 'Current language is' | translate }} {{ getCurrentLanguageName() }}" ng-click="setNextLanguage()" /></span>
+    <span ng-hide="selectingLanguageFlag">
+      <!--<img ng-src="{{ getCurrentLanguageFlag() }}" NOwidth="16" ng-attr-title="{{ 'Current language is' | translate }} {{ getCurrentLanguageName() }}" NOng-click="setNextLanguage()" />-->
+      <img ng-src="{{ getCurrentLanguageFlag() }}" ng-attr-title="{{ 'Current language is' | translate }} {{ getCurrentLanguageName() }}" ng-click="selectingLanguage()" />
+    </span>
+
+    <span ng-show="selectingLanguageFlag">
+      <select ng-model="selectedLanguage" class="btn btn-default btn-xxs" ng-change="languageSelected()" style="-webkit-appearance: none;">
+        <option
+          ng-repeat="language in supportedLanguagesSorted"
+          value="{{ language.key }}"
+          style="background-image: url('icons/flags/{{language.key}}.png'); background-repeat: no-repeat; padding-left: 2.4em; text-align: left"
+          ng-selected="selectedLanguage === language.key"
+        >
+          {{ language.des }} ({{ language.key }})
+        </option>
+      </select>
+    </span>
   </span>
 
   <span>&nbsp;</span>
@@ -61,7 +77,7 @@
 
   <!-- TODO: footer-icon in main.css (img width: 16) -->
   <span class="footer-icon">
-    <img src="icons/favicon.ico" NOwidth="16" ng-attr-title="{{'Company logo' | translate }}" /> &copy; 2014, Sistemi Solari Rossi
+    <img align="bottom" src="icons/logo-company-16x16.png" NOwidth="16" ng-attr-title="{{'Company logo' | translate }}" /> &copy; 2014, Sistemi Solari Rossi
   </span>
 
 </div>

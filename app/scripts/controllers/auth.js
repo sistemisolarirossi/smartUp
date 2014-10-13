@@ -225,12 +225,39 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.info = null;
   };
 
+  $scope.getSupportedLanguages = function () { return I18N.getSupportedLanguages(); }
+  $scope.getSupportedLanguagesSorted = function () {
+    var languages = I18N.getSupportedLanguages();
+    var sortable = [];
+    for (var language in languages) {
+      sortable.push({key: language, des: languages[language]});
+    }
+    sortable.sort(function(a, b) { return a.des > b.des; });
+    console.info('sortable:', sortable);
+    return sortable;
+  };
   $scope.getCurrentLanguage = function () { return I18N.getCurrentLanguage(); };
   $scope.getCurrentLanguageName = function () { return I18N.getCurrentLanguageName(); };
   $scope.getCurrentLanguageFlag = function () { return I18N.getCurrentLanguageFlag(); };
   $scope.getCurrentLanguageScript = function () { return I18N.getCurrentLanguageScript(); };
   $scope.setNextLanguage = function () { return I18N.setNextLanguage(); };
+  $scope.setCurrentLanguage = function (language) { return I18N.setCurrentLanguage(language); };
+  $scope.selectingLanguage = function () {
+    console.info(' !!! selectingLanguage()');
+    $scope.selectingLanguageFlag = true;
+  };
+  $scope.languageSelected = function () {
+    console.info(' *** selectedLanguage():', $scope.selectedLanguage);
+    $scope.selectingLanguageFlag = false;
+    return I18N.setCurrentLanguage($scope.selectedLanguage);
+  }
 
+  $scope.selectedLanguage = 'it'; //$scope.getCurrentLanguage;
+  console.log('$scope.getCurrentLanguage:', $scope.getCurrentLanguage());
+  $scope.selectingLanguageFlag = false;
+  $scope.supportedLanguages = $scope.getSupportedLanguages();
+  $scope.supportedLanguagesSorted = $scope.getSupportedLanguagesSorted();
+  
   $scope.reset();
 
 });

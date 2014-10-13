@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,35 +17,35 @@ msgstr "( kk: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "A Codice Fiscale eÃ°a P.IVA er krafist"
+msgstr "A Codice Fiscale eða P.IVA er krafist"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "A viÃ°skiptavinur nafn er krafist"
+msgstr "A viðskiptavinur nafn er krafist"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "A dagsetning Ã¾jÃ³nustu upphafi er krafist"
+msgstr "A dagsetning þjónustu upphafi er krafist"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "A tÃ­malengd verÃ°ur aÃ° vera Ã­ formi' HH' eÃ°a' HH: mm', og aÃ° minnsta kosti ein mÃ­nÃºta"
+msgstr "A tímalengd verður að vera í formi' HH' eða' HH: mm', og að minnsta kosti ein mínúta"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "A staÃ°setning Ã¾jÃ³nustu er krafist"
+msgstr "A staðsetning þjónustu er krafist"
 
 #: app/views/register.html
 msgid "A password is required"
-msgstr "A lykilorÃ° er nauÃ°synlegt"
+msgstr "A lykilorð er nauðsynlegt"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "A sÃ­manÃºmer er krafist"
+msgstr "A símanúmer er krafist"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "A gÃ¶tuheiti er krafist"
+msgstr "A götuheiti er krafist"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
@@ -57,11 +57,11 @@ msgstr "Um"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "BÃ¦ta viÃ° nÃ½jum viÃ°skiptavini"
+msgstr "Bæta við nýjum viðskiptavini"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "BÃ¦ta viÃ° nÃ½jum notanda"
+msgstr "Bæta við nýjum notanda"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -73,43 +73,43 @@ msgstr "Netfang er krafist"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "RekstraraÃ°ili er krafist"
+msgstr "Rekstraraðili er krafist"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "UppfÃ¦rslu er Ã­ boÃ°i: Ã¾Ãº vilt hlaÃ°a Ã¾aÃ° nÃºna?"
+msgstr "Uppfærslu er í boði: þú vilt hlaða það núna?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "UppfÃ¦rslu er tilbÃºinn"
+msgstr "Uppfærslu er tilbúinn"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ert Ã¾Ãº Ã­ raun viss um aÃ° fjarlÃ¦gja Ã¾jÃ³nustu skÃ½rslu"
+msgstr "Ert þú í raun viss um að fjarlægja þjónustu skýrslu"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ert Ã¾Ãº Ã­ raun viss um aÃ° fjarlÃ¦gja notanda"
+msgstr "Ert þú í raun viss um að fjarlægja notanda"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "AuÃ°kenning id"
+msgstr "Auðkenning id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "StaÃ°festing id notanda"
+msgstr "Staðfesting id notanda"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "AuÃ°kenning id:"
+msgstr "Auðkenning id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "AuÃ°kenning hendi"
+msgstr "Auðkenning hendi"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "StaÃ°festing hendi fyrir notandann"
+msgstr "Staðfesting hendi fyrir notandann"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -117,7 +117,7 @@ msgstr "Mynd"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "MeÃ°limur mynd af notanda"
+msgstr "Meðlimur mynd af notanda"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -129,19 +129,19 @@ msgstr "Skyndiminni er frumstilla"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "Skyndiminni er Ã­ unknown rÃ­ki"
+msgstr "Skyndiminni er í unknown ríki"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "Skyndiminni er ekki uppfÃ¦rÃ°( lÃ­klega augljÃ³st, er unreachable)"
+msgstr "Skyndiminni er ekki uppfærð( líklega augljóst, er unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Skyndiminni er ekki uppfÃ¦rÃ° vegna Ã¾ess aÃ° Ã¾Ãº ert ekki Ã¡ netinu"
+msgstr "Skyndiminni er ekki uppfærð vegna þess að þú ert ekki á netinu"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Skyndiminni er Ãºreltur"
+msgstr "Skyndiminni er úreltur"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
@@ -149,11 +149,11 @@ msgstr "Skyndiminni er upp- til- dagsetning"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Cache staÃ°an er"
+msgstr "Cache staðan er"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Athugun fyrir nÃ¦rveru af uppfÃ¦rslu"
+msgstr "Athugun fyrir nærveru af uppfærslu"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -161,79 +161,80 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale inniheldur Ã³gildra( s)"
+msgstr "Codice Fiscale inniheldur ógildra( s)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale stjÃ³rna nÃºmer passar ekki"
+msgstr "Codice Fiscale stjórna númer passar ekki"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale eÃ°a P.IVA viÃ°skiptamanns"
+msgstr "Codice Fiscale eða P.IVA viðskiptamanns"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "FyrirtÃ¦kiÃ° merki"
+msgstr "Fyrirtækið merki"
 
 #: app/views/register.html
 msgid "Confirm password"
-msgstr "StaÃ°festa lykilorÃ°"
+msgstr "Staðfesta lykilorð"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Tengjast meÃ° einn af Ã¾Ã­num\\\"fÃ©lagslega\\\" reikninga, eÃ°a skrÃ¡ Ã¾ig inn meÃ° Ã¾essum persÃ³nuskilrÃ­ki:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Tengjast með einn af félagslegur reikninga, eða skrá þig inn með þessum persónuskilríki :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Tengja viÃ° Facebook"
+msgstr "Tengja við Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Tengjast meÃ° Google+"
+msgstr "Tengjast með Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Tengjast meÃ° Twitter"
+msgstr "Tengjast með Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "TengiliÃ°ir"
+msgstr "Tengiliðir"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "NÃºverandi tungumÃ¡l er"
+msgstr "Núverandi tungumál er"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "ViÃ°skiptavinur"
+msgstr "Viðskiptavinur"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "ViÃ°skiptavinur Card"
+msgstr "Viðskiptavinur Card"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "ViÃ°skiptavinur Netfang"
+msgstr "Viðskiptavinur Netfang"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Nafn viÃ°skiptavinar"
+msgstr "Nafn viðskiptavinar"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "ViÃ°skiptavinur sÃ­manÃºmer"
+msgstr "Viðskiptavinur símanúmer"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "ViÃ°skiptavinur gÃ¶tuheiti"
+msgstr "Viðskiptavinur götuheiti"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Undirskrift viÃ°skiptavinar"
+msgstr "Undirskrift viðskiptavinar"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "ViÃ°skiptavinir"
+msgstr "Viðskiptavinir"
 
 #: app/views/serviceReports.html
 msgid "Date"
@@ -241,39 +242,39 @@ msgstr "Dagsetning"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Dagsetning Ã¾jÃ³nustu byrjun"
+msgstr "Dagsetning þjónustu byrjun"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "EyÃ°a viÃ°skiptavina"
+msgstr "Eyða viðskiptavina"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "EyÃ°a Ã¾jÃ³nustu skÃ½rslu"
+msgstr "Eyða þjónustu skýrslu"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "EyÃ°a notanda"
+msgstr "Eyða notanda"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "SÃ¦ki uppfÃ¦rslu"
+msgstr "Sæki uppfærslu"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "TÃ­malengd"
+msgstr "Tímalengd"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "TÃ­malengd Ã¾jÃ³nustu"
+msgstr "Tímalengd þjónustu"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Breyta viÃ°skiptavini"
+msgstr "Breyta viðskiptavini"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Breyta Ã¾jÃ³nusta skÃ½rsla"
+msgstr "Breyta þjónusta skýrsla"
 
 #: app/views/users.html
 msgid "Edit user"
@@ -306,51 +307,51 @@ msgstr "Fax"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "SÃ­a viÃ°skiptavinir"
+msgstr "Sía viðskiptavinir"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "SkÃ½rslur SÃ­a Ã¾jÃ³nusta"
+msgstr "Skýrslur Sía þjónusta"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "SÃ­a notendur"
+msgstr "Sía notendur"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "ForsÃ­Ã°a"
+msgstr "Forsíða"
 
 #: app/views/login.html
 msgid "I forgot my password"
-msgstr "Ãg gleymdi lykilorÃ°inu mÃ­nu"
+msgstr "Ég gleymdi lykilorðinu mínu"
 
 #: app/views/users.html
 msgid "Id"
-msgstr "AuÃ°kenni"
+msgstr "Auðkenni"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "ÃaÃ° gerir stjÃ³rnun viÃ°skiptavini, pantanir og skÃ½rslur Ã¾jÃ³nustu."
+msgstr "Það gerir stjórnun viðskiptavini, pantanir og skýrslur þjónustu."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "ÃaÃ° er opinn- uppspretta, fljÃ³tur, samningur, teygjanlegur, seigur, alÃ¾jÃ³Ã°leg og farsÃ­ma."
+msgstr "Það er opinn- uppspretta, fljótur, samningur, teygjanlegur, seigur, alþjóðleg og farsíma."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "StaÃ°setning"
+msgstr "Staðsetning"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "StaÃ°setning Ã¾jÃ³nustu"
+msgstr "Staðsetning þjónustu"
 
 #: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "SkrÃ¡Ã°u Ã¾ig inn Ã¡"
+msgstr "Skráðu þig inn á"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "SkrÃ¡Ã°u Ã¾ig inn Ã¡"
+msgstr "Skráðu þig inn á"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -362,39 +363,39 @@ msgstr "Nafn"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Nafn Ã¡ notanda"
+msgstr "Nafn á notanda"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "NÃ½r viÃ°skiptavinur"
+msgstr "Nýr viðskiptavinur"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "NÃ½ skÃ½rsla"
+msgstr "Ný skýrsla"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "NÃ½r notandi"
+msgstr "Nýr notandi"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "UppfÃ¦rsla er til staÃ°ar"
+msgstr "Uppfærsla er til staðar"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "SkÃ½ringar"
+msgstr "Skýringar"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "FjÃ¶ldi"
+msgstr "Fjöldi"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "RekstraraÃ°ila"
+msgstr "Rekstraraðila"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "RekstraraÃ°ila Ã¾jÃ³nustu"
+msgstr "Rekstraraðila þjónustu"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
@@ -410,47 +411,47 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA inniheldur Ã³gildra( s)"
+msgstr "P.IVA inniheldur ógildra( s)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA stjÃ³rna nÃºmer passar ekki"
+msgstr "P.IVA stjórna númer passar ekki"
 
 #: app/views/login.html app/views/register.html
 msgid "Password"
-msgstr "LykilorÃ°"
+msgstr "Lykilorð"
 
 #: app/views/register.html
 msgid "Password confirmation doesn't match"
-msgstr "StaÃ°festing lykilorÃ°iÃ° passar ekki"
+msgstr "Staðfesting lykilorðið passar ekki"
 
 #: app/views/register.html
 msgid "Password confirmation is required"
-msgstr "StaÃ°festing Ã¾arf lykilorÃ°iÃ°"
+msgstr "Staðfesting þarf lykilorðið"
 
 #: app/views/register.html
 msgid "Password is not sufficiently strong"
-msgstr "LykilorÃ° er ekki nÃ¦gilega sterkt"
+msgstr "Lykilorð er ekki nægilega sterkt"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "SÃ­mi"
+msgstr "Sími"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "SÃ­manÃºmer"
+msgstr "Símanúmer"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "SÃ­manÃºmeriÃ° er ekki gilt"
+msgstr "Símanúmerið er ekki gilt"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "StaÃ°ur"
+msgstr "Staður"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "UndirbÃºningur aÃ° sÃ¦kja uppfÃ¦rslu"
+msgstr "Undirbúningur að sækja uppfærslu"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
@@ -458,11 +459,11 @@ msgstr "Prenta"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Prenta viÃ°skiptavina"
+msgstr "Prenta viðskiptavina"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Prenta Ã¾jÃ³nusta skÃ½rsla"
+msgstr "Prenta þjónusta skýrsla"
 
 #: app/views/users.html
 msgid "Print user"
@@ -470,15 +471,15 @@ msgstr "Prenta notanda"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Ãtgefandi"
+msgstr "Útgefandi"
 
 #: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "NÃ½skrÃ¡ning"
+msgstr "Nýskráning"
 
 #: app/views/login.html
 msgid "Reset your password"
-msgstr "Endurstilla lykilorÃ°iÃ° Ã¾itt"
+msgstr "Endurstilla lykilorðið þitt"
 
 #: app/views/users.html
 msgid "Roles"
@@ -486,11 +487,11 @@ msgstr "Hlutverk"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Hlutverk fyrir Ã¾ennan notanda; smelltu til aÃ° renna Ã­ gegnum Ã¶ll rÃ­ki(RW-\\u003e R-\\u003e W-\\u003e ekkert)"
+msgstr "Hlutverk fyrir þennan notanda; smelltu til að renna í gegnum öll ríki(RW-\\u003e R-\\u003e W-\\u003e ekkert)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Hlutverk notanda: grÃ¦nn litur sÃ½nir leyfi til aÃ° lesa og skrifa, gulur Ã¾Ã½Ã°ir aÃ°eins aÃ° lesa, blÃ¡r aÃ°eins skrifaÃ°, og rautt ekkert leyfi. Kaflarnir eru:' u'( notendur),' c'( viÃ°skiptavinir),' o'( pantanir),' s'( Ã¾jÃ³nusta skÃ½rslur)."
+msgstr "Hlutverk notanda: grænn litur sýnir leyfi til að lesa og skrifa, gulur þýðir aðeins að lesa, blár aðeins skrifað, og rautt ekkert leyfi. Kaflarnir eru:' u'( notendur),' c'( viðskiptavinir),' o'( pantanir),' s'( þjónusta skýrslur)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -498,15 +499,15 @@ msgstr "Vista"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Ã¾jÃ³nusta skÃ½rsla"
+msgstr "Þjónusta skýrsla"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "ÃjÃ³nusta skÃ½rsla n"
+msgstr "Þjónusta skýrsla n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Ã¾jÃ³nustuveitendur skÃ½rslur"
+msgstr "Þjónustuveitendur skýrslur"
 
 #: app/views/nav.html
 msgid "Setup"
@@ -514,63 +515,63 @@ msgstr "Skipulag"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "GÃ¶tuheiti"
+msgstr "Götuheiti"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ãetta nafn viÃ°skiptavinur er nÃº Ã¾egar Ã­ notkun"
+msgstr "Þetta nafn viðskiptavinur er nú þegar í notkun"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ãetta nafn viÃ°skiptavinur er ekki gild"
+msgstr "Þetta nafn viðskiptavinur er ekki gild"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ãetta er"
+msgstr "Þetta er"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ãessi notandi getur nÃ© lesa nÃ© skrifa"
+msgstr "Þessi notandi getur né lesa né skrifa"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ãessi notandi getur lesiÃ°"
+msgstr "Þessi notandi getur lesið"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ãessi notandi getur lesiÃ° og skrifaÃ°"
+msgstr "Þessi notandi getur lesið og skrifað"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ãessi notandi getur skrifaÃ°"
+msgstr "Þessi notandi getur skrifað"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ãessi notandi getur ekki aÃ°gang"
+msgstr "Þessi notandi getur ekki aðgang"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ãetta notandanafn er Ã¾egar Ã­ notkun"
+msgstr "Þetta notandanafn er þegar í notkun"
 
 #: app/views/register.html
 msgid "This user name is already taken"
-msgstr "Ãetta notandanafn er Ã¾egar Ã­ notkun"
+msgstr "Þetta notandanafn er þegar í notkun"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ãetta notandanafn er ekki gilt"
+msgstr "Þetta notandanafn er ekki gilt"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ãetta gildi er nÃ© Codice Fiscale nÃ© P.IVA"
+msgstr "Þetta gildi er né Codice Fiscale né P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "TÃ­mi Ã¾jÃ³nustu byrjun"
+msgstr "Tími þjónustu byrjun"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "VÃ­xla flakk"
+msgstr "Víxla flakk"
 
 #: app/views/users.html
 msgid "User email address"
@@ -598,31 +599,31 @@ msgstr "Notendur"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "ÃÃº ert offline"
+msgstr "Þú ert offline"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "ÃÃº ert Ã¡ netinu"
+msgstr "Þú ert á netinu"
 
 #: app/views/register.html
 msgid "Your email"
-msgstr "NetfangiÃ° Ã¾itt"
+msgstr "Netfangið þitt"
 
 #: app/views/register.html
 msgid "Your password"
-msgstr "LykilorÃ°iÃ° Ã¾itt"
+msgstr "Lykilorðið þitt"
 
 #: app/views/register.html
 msgid "Your password, again"
-msgstr "LykilorÃ°iÃ° Ã¾itt, aftur"
+msgstr "Lykilorðið þitt, aftur"
 
 #: app/views/register.html
 msgid "Your user name"
-msgstr "Notandanafn Ã¾itt"
+msgstr "Notandanafn þitt"
 
 #: app/views/login.html
 msgid "Your username or email"
-msgstr "NotendanafniÃ° Ã¾itt eÃ°a netfang"
+msgstr "Notendanafnið þitt eða netfang"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -630,19 +631,19 @@ msgstr "afrit"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "hÃ¦tta"
+msgstr "hætta"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "stÃ¶Ã°va"
+msgstr "stöðva"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "viÃ°skiptavinir"
+msgstr "viðskiptavinir"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "niÃ°urhal"
+msgstr "niðurhal"
 
 #: app/scripts/app.js
 msgid "error"
@@ -650,10 +651,9 @@ msgstr "villa"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "heimasÃ­Ã°a fyrir utan skrÃ¡Ã°a notendur."
+msgstr "heimasíða fyrir utan skráða notendur."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "heimasíða fyrir skráða notendur."
 
@@ -663,15 +663,15 @@ msgstr "opening"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "er vefur umsÃ³kn fyrir(SMART) byrjun-ups."
+msgstr "er vefur umsókn fyrir(SMART) byrjun-ups."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "skrÃ¡Ã° notandi"
+msgstr "skráð notandi"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "Ãºreltur"
+msgstr "úreltur"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
@@ -679,11 +679,11 @@ msgstr "pantanir"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "annars skrÃ¡ nÃ½tt accout og skrÃ¡ Ã¾ig inn."
+msgstr "annars skrá nýtt accout og skrá þig inn."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "lykilorÃ°:"
+msgstr "lykilorð:"
 
 #: app/scripts/app.js
 msgid "progress"

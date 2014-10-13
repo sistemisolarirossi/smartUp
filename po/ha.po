@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: ha\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ha\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,8 +180,9 @@ msgid "Confirm password"
 msgstr "Tabbata kalmar shiga"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Haɗa ta amfani da daya daga your\\\" social\\\" asusun, ko shiga da wadannan takardun shaidarka:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Haɗa ta amfani da daya daga your social asusun , ko shiga da wadannan takardun shaidarka :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -653,7 +654,6 @@ msgid "home page for non registered users."
 msgstr "home page ga wadanda ba rajista masu amfani."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "home page for rajista masu amfani."
 

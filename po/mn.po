@@ -5,119 +5,119 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: mn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: mn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( Ó¨: Ð¼Ð¼)"
+msgstr "( Ө: мм)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Ð Codice Fiscale ÑÑÐ²ÑÐ» P.IVA ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "А Codice Fiscale эсвэл P.IVA шаардлагатай байна"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "ÐÑ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ Ð½Ñ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Нь хэрэглэгчийн нэр нь шаардлагатай байна"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑ ÑÑÐ»ÑÑ Ð½Ñ Ð¾Ð½ ÑÐ°Ñ Ó©Ð´Ó©Ñ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð´Ð°Ð³"
+msgstr "Үйлчилгээ эхлэх нь он сар өдөр шаардлагатай байдаг"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "Ð ÑÑÐ³Ð°ÑÐ°Ð°\\\" Ó¨ÑÑ\\\" ÑÑÐ»Ð±ÑÑÑÑÐ¹ Ð±Ð°Ð¹Ñ, ÑÑÐ²ÑÐ» Ð±Ð°Ð¹Ñ ÑÑÑÐ¾Ð¹\\\" HH: MM\\\", Ð½Ð°Ð°Ð´ Ð·Ð°Ñ Ð½Ñ Ð½ÑÐ³ Ð¼Ð¸Ð½ÑÑ Ð½Ñ ÑÑÑ"
+msgstr "А хугацаа\\\" Өрх\\\" хэлбэртэй байх, эсвэл байх ёстой\\\" HH: MM\\\", наад зах нь нэг минут нь урт"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑ Ð½Ñ Ð³Ð°Ð·Ð°Ñ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Үйлчилгээ нь газар шаардлагатай байна"
 
 #: app/views/register.html
 msgid "A password is required"
-msgstr "ÐÑÑÑ Ò¯Ð³ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹"
+msgstr "Нууц үг шаардлагатай"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Ð£ÑÐ°ÑÐ½Ñ Ð´ÑÐ³Ð°Ð°Ñ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Утасны дугаар шаардлагатай байна"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "ÐÑÐ´Ð°Ð¼Ð¶Ð½Ñ ÑÐ°ÑÐ³ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Гудамжны хаяг шаардлагатай байна"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Хэрэглэгчийн нэр шаардлагатай байна"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "Ð¢ÑÑÐ°Ð¹"
+msgstr "Тухай"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Ð¨Ð¸Ð½ÑÑÑ ÑÑÑÑÐ³Ð»ÑÐ³Ñ Ð½ÑÐ¼Ð½Ñ"
+msgstr "Шинээр хэрэглэгч нэмнэ"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Ð¨Ð¸Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ Ð½ÑÐ¼Ð½Ñ"
+msgstr "Шинэ хэрэглэгч нэмнэ"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "Ð¥Ð°ÑÐ³"
+msgstr "Хаяг"
 
 #: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "ÐÑ Ð¸-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Нь и-мэйл хаяг шаардлагатай байна"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "ÐÑÐ³ Ð¾Ð¿ÐµÑÐ°ÑÐ¾Ñ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Нэг оператор шаардлагатай байна"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "Ð¨Ð¸Ð½ÑÑÐ»ÑÐ» Ð±Ð¾Ð»Ð¾Ð¼Ð¶ÑÐ¾Ð¹: Ð¢Ð° Ð¾Ð´Ð¾Ð¾ ÑÒ¯Ò¯Ð½Ð¸Ð¹Ð³ Ð´ÑÑÐ´Ð½Ð° ÑÒ¯ÑÑÐ¶ Ð±Ð°Ð¹Ð½Ð° Ð²Ñ?"
+msgstr "Шинэчлэл боломжтой: Та одоо түүнийг дуудна хүсэж байна вэ?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "ÐÑ ÑÐ¸Ð½ÑÑÐ»ÑÐ» Ð±ÑÐ»ÑÐ½ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Нь шинэчлэл бэлэн байна"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "Ð¢Ð° Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½Ð³ ÑÑÑÐ³Ð°Ñ Ò¯Ð½ÑÑÑÑÑ Ð¸ÑÐ³ÑÐ»ÑÑÐ¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Та үйлчилгээний тайланг устгах үнэхээр итгэлтэй байна"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "Ð¥ÑÑÑÐ² ÑÐ° ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ ÑÑÑÐ³Ð°Ñ Ò¯Ð½ÑÑÑÑÑ Ð¸ÑÐ³ÑÐ»ÑÑÐ¹ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Хэрэв та хэрэглэгчийн устгах үнэхээр итгэлтэй байна"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "ÐÑÐ²ÑÑÑÐ»Ñ ÑÐ°Ð½Ð¸Ð»Ñ ID"
+msgstr "Нэвтрэлт танилт ID"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÐ²ÑÑÑÐ»Ñ ÑÐ°Ð½Ð¸Ð»Ñ ID"
+msgstr "Хэрэглэгчийн нэвтрэлт танилт ID"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "Ð¢Ð°Ð½Ð¸Ð½ ID:"
+msgstr "Танин ID:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "ÐÑÐ²ÑÑÑÐ»Ñ ÑÐ°Ð½Ð¸Ð»Ñ Ð½Ñ Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑ Ò¯Ð·Ò¯Ò¯Ð»ÑÐ³Ñ"
+msgstr "Нэвтрэлт танилт нь үйлчилгээ үзүүлэгч"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÐ²ÑÑÑÐ»Ñ ÑÐ°Ð½Ð¸Ð»Ñ Ð½Ñ Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑ Ò¯Ð·Ò¯Ò¯Ð»ÑÐ³Ñ"
+msgstr "Хэрэглэгчийн нэвтрэлт танилт нь үйлчилгээ үзүүлэгч"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Ð¥Ó©ÑÓ©Ð³"
+msgstr "Хөрөг"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð¼ÑÐ´ÑÑÐ»ÑÐ» Ð·ÑÑÐ°Ð³"
+msgstr "Хэрэглэгчийн мэдээлэл зураг"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -125,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "Cache ÑÑÑÐ»Ð¶ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Cache эхэлж байна"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "ÐÑÑ Ð½Ñ ÑÐ¾Ð´Ð¾ÑÑÐ¾Ð¹Ð³Ò¯Ð¹ Ð±Ð°Ð¹Ð´Ð°Ð»Ð´ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Кэш нь тодорхойгүй байдалд байна"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "ÐÑÑ ÑÐ¸Ð½ÑÑÐ»ÑÐ³Ð´ÑÐ¶ Ð±Ð°Ð¹Ð³Ð°Ð° Ð±Ð¾Ð»(Ð¼Ð°Ð³Ð°Ð´Ð³Ò¯Ð¹ Ð¸Ð»ÑÑÑÐ¸Ð¹Ð»ÑÐ³Ð´Ð´ÑÐ³ ÑÒ¯ÑÑ Ð±Ð¾Ð»ÑÐ³Ò¯Ð¹ ÑÐ¼)"
+msgstr "Кэш шинэчлэгдэж байгаа бол(магадгүй илэрхийлэгддэг хүрч болшгүй юм)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "Ð¢Ð° Ð¾ÑÐ»Ð°Ð¹Ð½ Ð±Ð°Ð¹Ð½Ð°, ÑÑÐ¸Ñ Ð½Ñ ÐÑÑ ÑÐ¸Ð½ÑÑÐ»ÑÐ³Ð´ÑÐ¶ Ð±Ð°Ð¹Ð³Ð°Ð° Ð±Ð¾Ð»"
+msgstr "Та офлайн байна, учир нь Кэш шинэчлэгдэж байгаа бол"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "ÐÑÑ ÑÐ¾ÑÑÐ¾Ð³Ð´ÑÐ¾Ð½ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Кэш хоцрогдсон байна"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "ÐÑÑ Ð½Ñ Ð´ÑÑÑ Ò¯ÐµÐ¸Ð¹Ð½"
+msgstr "Кэш нь дээр үеийн"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Cache Ð±Ð°Ð¹Ð´Ð°Ð» ÑÐ¼"
+msgstr "Cache байдал юм"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "Ð¨Ð¸Ð½ÑÑÐ»ÑÐ» Ð±Ð°Ð¹Ð³Ð°Ð° ÑÑÑÑÐ¸Ð¹Ð³ ÑÐ°Ð»Ð³Ð°Ñ"
+msgstr "Шинэчлэл байгаа эсэхийг шалгах"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -161,168 +161,169 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ÑÒ¯ÑÐ¸Ð½Ð³Ò¯Ð¹ ÑÑÐ¼Ð´ÑÐ³Ñ(ÑÑÐ´)"
+msgstr "Codice Fiscale хүчингүй тэмдэгт(ууд)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale ÑÑÐ½Ð°Ð»ÑÑÐ½ ÐºÐ¾Ð´ Ð½Ñ ÑÐ¾ÑÐ¸ÑÐ¾ÑÐ³Ò¯Ð¹ Ð±Ð°Ð¹Ð³Ð°Ð°"
+msgstr "Codice Fiscale хяналтын код нь тохирохгүй байгаа"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale ÑÑÐ²ÑÐ» ÑÐ°ÑÐ¸Ð»ÑÐ°Ð³ÑÐ¸Ð¹Ð½ P.IVA"
+msgstr "Codice Fiscale эсвэл харилцагчийн P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "ÐÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¹ Ð»Ð¾Ð³Ð¾"
+msgstr "Компаний лого"
 
 #: app/views/register.html
 msgid "Confirm password"
-msgstr "Ð½ÑÑÑ Ò¯Ð³ÑÑ Ð±Ð°ÑÐ°Ð»Ð³Ð°Ð°Ð¶ÑÑÐ»"
+msgstr "Нууц үгээ баталгаажуул"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Ð¢Ð°Ð½Ñ\\\"Ð½Ð¸Ð¹Ð³Ð¼Ð¸Ð¹Ð½\\\" Ð´Ð°Ð½ÑÐ½Ñ Ð°Ð»Ñ Ð½ÑÐ³Ð¸Ð¹Ð³ Ð°ÑÐ¸Ð³Ð»Ð°Ð½ ÑÐ¾Ð»Ð±Ð¾Ð½Ð¾, ÑÑÐ²ÑÐ» Ð­Ð´Ð³ÑÑÑ Ð¸ÑÐ³ÑÐ¼Ð¶Ð»ÑÐ»Ò¯Ò¯Ð´ Ð½Ñ Ð½ÑÐ²ÑÑÑÐ½:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Таны нийгмийн дансны аль нэгийг ашиглан холбоно , эсвэл Эдгээр итгэмжлэлүүд нь нэвтрэн :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "Facebook ÑÐ¾Ð»Ð±Ð¾Ð³Ð´"
+msgstr "Facebook холбогд"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "Google+ ÑÐ¾Ð»Ð±Ð¾Ð³Ð´"
+msgstr "Google+ холбогд"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "Twitter ÑÐ¾Ð»Ð±Ð¾Ð³Ð´"
+msgstr "Twitter холбогд"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "Ð¥Ð¾Ð»Ð±Ð¾Ð¾ Ð±Ð°ÑÐ¸Ñ"
+msgstr "Холбоо барих"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "ÐÐ´Ð¾Ð¾Ð³Ð¸Ð¹Ð½ ÑÑÐ»"
+msgstr "Одоогийн хэл"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Ð¥Ð°ÑÐ¸Ð»ÑÐ°Ð³ÑÐ¸Ð¹Ð½"
+msgstr "Харилцагчийн"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ ÐºÐ°ÑÑ"
+msgstr "Хэрэглэгчийн карт"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð¸-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³"
+msgstr "Хэрэглэгчийн и-мэйл хаяг"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ"
+msgstr "Хэрэглэгчийн нэр"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Ð¥Ð°ÑÐ¸Ð»ÑÐ°Ð³ÑÐ¸Ð¹Ð½ ÑÑÐ°ÑÐ½Ñ Ð´ÑÐ³Ð°Ð°Ñ"
+msgstr "Харилцагчийн утасны дугаар"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð³ÑÐ´Ð°Ð¼Ð¶Ð½Ñ ÑÐ°ÑÐ³"
+msgstr "Хэрэглэгчийн гудамжны хаяг"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "Ð¥Ð°ÑÐ¸Ð»ÑÐ°Ð³ÑÐ¸Ð¹Ð½ Ð³Ð°ÑÑÐ½ Ò¯ÑÑÐ³"
+msgstr "Харилцагчийн гарын үсэг"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "Ò®¯Ð¹Ð»ÑÐ»Ò¯Ò¯Ð»ÑÐ³ÑÐ¸Ð´"
+msgstr "Үйлчлүүлэгчид"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Ð¾Ð³Ð½Ð¾Ð¾"
+msgstr "Огноо"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑ ÑÑÐ»ÑÑ Ð¾Ð³Ð½Ð¾Ð¾"
+msgstr "Үйлчилгээ эхлэх огноо"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Ð¥Ð°ÑÐ¸Ð»ÑÐ°Ð³ÑÐ¸Ð¹Ð³ ÑÑÑÐ³Ð°Ñ"
+msgstr "Харилцагчийг устгах"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½Ð³ ÑÑÑÐ³Ð°Ñ"
+msgstr "Үйлчилгээний тайланг устгах"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³Ñ ÑÑÑÐ³Ð°Ñ"
+msgstr "Хэрэглэгч устгах"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Ð¨Ð¸Ð½ÑÑÐ»ÑÐ»Ñ ÑÐ°ÑÐ°Ð¶ Ð°Ð²Ð°Ñ"
+msgstr "Шинэчлэлт татаж авах"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Ò®¯ÑÐ³ÑÐ»Ð¶Ð»ÑÑ ÑÑÐ³Ð°ÑÐ°Ð°"
+msgstr "Үргэлжлэх хугацаа"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÑÐ³Ð°ÑÐ°Ð°"
+msgstr "Үйлчилгээний хугацаа"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "ÐÐ°ÑÐ²Ð°ÑÐ»Ð°Ñ ÑÐ°ÑÐ¸Ð»ÑÐ°Ð³ÑÐ¸Ð¹Ð½"
+msgstr "Засварлах харилцагчийн"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "ÐÐ°ÑÐ²Ð°ÑÐ»Ð°Ñ Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½"
+msgstr "Засварлах үйлчилгээний тайлан"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "ÐÐ°ÑÐ²Ð°ÑÐ»Ð°Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ"
+msgstr "Засварлах хэрэглэгч"
 
 #: app/views/customers.html app/views/register.html
 #: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "Ð-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³"
+msgstr "И-мэйл хаяг"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "Ð-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³"
+msgstr "И-мэйл хаяг"
 
 #: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "Ð-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³ Ð½Ñ ÑÒ¯ÑÐ¸Ð½ ÑÓ©Ð³Ó©Ð»Ð´Ó©Ñ Ð±Ð¸Ñ ÑÐ¼"
+msgstr "И-мэйл хаяг нь хүчин төгөлдөр биш юм"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð¸-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³"
+msgstr "Хэрэглэгчийн и-мэйл хаяг"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð¸-Ð¼ÑÐ¹Ð»"
+msgstr "Хэрэглэгчийн и-мэйл"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Ð¤Ð°ÐºÑ"
+msgstr "Факс"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Ð¨Ò¯Ò¯Ð»ÑÒ¯Ò¯Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð´"
+msgstr "Шүүлтүүр хэрэглэгчид"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Ð¨Ò¯Ò¯Ð»ÑÒ¯Ò¯Ñ Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½"
+msgstr "Шүүлтүүр үйлчилгээний тайлан"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "Ð¨Ò¯Ò¯Ð»ÑÒ¯Ò¯Ñ Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð´"
+msgstr "Шүүлтүүр нь хэрэглэгчид"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "ÐÒ¯Ò¯Ñ ÑÑÑÐ´Ð°Ñ"
+msgstr "Нүүр хуудас"
 
 #: app/views/login.html
 msgid "I forgot my password"
-msgstr "ÐÐ¸ Ð½ÑÑÑ Ò¯Ð³ÑÑ Ð¼Ð°ÑÑÑÐ°Ð½"
+msgstr "Би нууц үгээ мартсан"
 
 #: app/views/users.html
 msgid "Id"
@@ -330,27 +331,27 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "Ð­Ð½Ñ Ð½Ñ Ò¯Ð¹Ð»ÑÐ»Ò¯Ò¯Ð»ÑÐ³Ñ, Ð·Ð°ÑÐ¸Ð°Ð»Ð³Ð°, Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½ ÑÐ´Ð¸ÑÐ´Ð»Ð°Ð³ÑÐ³ Ð·Ó©Ð²ÑÓ©Ó©ÑÐ´Ó©Ð³."
+msgstr "Энэ нь үйлчлүүлэгч, захиалга, үйлчилгээний тайлан удирдлагыг зөвшөөрдөг."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "Ð­Ð½Ñ Ð½Ñ Ð½ÑÑÐ»ÑÑÑÐ¹ ÑÑ Ò¯Ò¯ÑÐ²ÑÑ, ÑÑÑÐ´Ð°Ð½, Ð°Ð²ÑÐ°Ð°ÑÑÐ°Ð½, Ó©ÑÐ³Ó©ÑÐ³Ó©Ñ, ÑÑÐ½ ÑÐ°ÑÐ°Ð½, Ð¾Ð»Ð¾Ð½ ÑÐ»ÑÑÐ½ Ð±Ð¾Ð»Ð¾Ð½ Ð³Ð°Ñ ÑÐ¼."
+msgstr "Энэ нь нээлттэй эх үүсвэр, хурдан, авсаархан, өргөтгөх, уян хатан, олон улсын болон гар юм."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "ÐÐ°Ð¹ÑÑÐ¸Ð»"
+msgstr "Байршил"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ Ð±Ð°Ð¹ÑÑÐ¸Ð»"
+msgstr "Үйлчилгээний байршил"
 
 #: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "ÐÑÐ²ÑÑÑÑ"
+msgstr "Нэвтрэх"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "Ð³Ð°ÑÑ ÐÑÐ²ÑÑÑÑ"
+msgstr "Гарч Нэвтрэх"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -358,51 +359,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "Ð½ÑÑ"
+msgstr "Нэр"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ"
+msgstr "Хэрэглэгчийн нэр"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Ð¨Ð¸Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½"
+msgstr "Шинэ хэрэглэгчийн"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Ð¨Ð¸Ð½Ñ ÑÐ°Ð¹Ð»Ð°Ð½"
+msgstr "Шинэ тайлан"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Ð¨Ð¸Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ"
+msgstr "Шинэ хэрэглэгч"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "Ð¯Ð¼Ð°Ñ Ñ ÑÐ¸Ð½ÑÑÐ»ÑÐ» Ð±Ð°Ð¹Ð³Ð°Ð°"
+msgstr "Ямар ч шинэчлэл байгаа"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "Ð¢ÑÐ¼Ð´ÑÐ³Ð»ÑÐ»"
+msgstr "Тэмдэглэл"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "Ð¢Ð¾Ð¾"
+msgstr "Тоо"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "ÐÐ¿ÐµÑÐ°ÑÐ¾Ñ"
+msgstr "Оператор"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÐÐ¿ÐµÑÐ°ÑÐ¾Ñ"
+msgstr "Үйлчилгээний Оператор"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "ÐÐ¿ÐµÑÐ°ÑÐ¾ÑÑÐ¸Ð¹Ð½ Ð³Ð°ÑÑÐ½ Ò¯ÑÑÐ³"
+msgstr "Операторчийн гарын үсэг"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Ð·Ð°ÑÐ¸Ð°Ð»Ð³Ð°"
+msgstr "Захиалга"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -410,87 +411,87 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ÑÒ¯ÑÐ¸Ð½Ð³Ò¯Ð¹ ÑÑÐ¼Ð´ÑÐ³Ñ(ÑÑÐ´)"
+msgstr "P.IVA хүчингүй тэмдэгт(ууд)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "P.IVA ÑÑÐ½Ð°Ð»ÑÑÐ½ ÐºÐ¾Ð´ Ð½Ñ ÑÐ¾ÑÐ¸ÑÐ¾ÑÐ³Ò¯Ð¹ Ð±Ð°Ð¹Ð³Ð°Ð°"
+msgstr "P.IVA хяналтын код нь тохирохгүй байгаа"
 
 #: app/views/login.html app/views/register.html
 msgid "Password"
-msgstr "Ð½ÑÑÑ Ò¯Ð³"
+msgstr "Нууц үг"
 
 #: app/views/register.html
 msgid "Password confirmation doesn't match"
-msgstr "ÐÑÑÑ Ò¯Ð³ Ð±Ð°ÑÐ°Ð»Ð³Ð°Ð°Ð¶ÑÑÐ»Ð°Ñ Ð´Ò¯ÑÐ¼ÑÐ½Ð´ ÑÐ¾ÑÐ¸ÑÐ¾ÑÐ³Ò¯Ð¹"
+msgstr "Нууц үг баталгаажуулах дүрмэнд тохирохгүй"
 
 #: app/views/register.html
 msgid "Password confirmation is required"
-msgstr "ÐÑÑÑ Ò¯Ð³ Ð±Ð°ÑÐ°Ð»Ð³Ð°Ð°Ð¶ÑÑÐ»Ð°Ñ ÑÐ°Ð°ÑÐ´Ð»Ð°Ð³Ð°ÑÐ°Ð¹"
+msgstr "Нууц үг баталгаажуулах шаардлагатай"
 
 #: app/views/register.html
 msgid "Password is not sufficiently strong"
-msgstr "ÐÑÑÑ Ò¯Ð³ ÑÐ°Ð½Ð³Ð°Ð»ÑÑÐ°Ð¹ ÑÒ¯ÑÑÑÐ¹ Ð±Ð¸Ñ ÑÐ¼"
+msgstr "Нууц үг хангалттай хүчтэй биш юм"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "ÐÐ°Ñ ÑÑÐ°Ñ"
+msgstr "Гар утас"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Ð£ÑÐ°ÑÐ½Ñ Ð´ÑÐ³Ð°Ð°Ñ"
+msgstr "Утасны дугаар"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "Ð£ÑÐ°ÑÐ½Ñ Ð´ÑÐ³Ð°Ð°Ñ ÑÒ¯ÑÐ¸Ð½ ÑÓ©Ð³Ó©Ð»Ð´Ó©Ñ Ð±Ð¸Ñ ÑÐ¼"
+msgstr "Утасны дугаар хүчин төгөлдөр биш юм"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ð³Ð°Ð·Ð°Ñ"
+msgstr "Газар"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "ÐÑÐ»ÑÐ³ÑÑ Ð½Ñ ÑÐ¸Ð½ÑÑÐ»ÑÐ»ÑÐ¸Ð¹Ð³ ÑÐ°ÑÐ°Ð¶ Ð°Ð²Ð°Ñ"
+msgstr "Бэлтгэх нь шинэчлэлтийг татаж авах"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "Ð¥ÑÐ²Ð»ÑÑ"
+msgstr "Хэвлэх"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Ð¥ÑÐ²Ð»ÑÑ ÑÐ°ÑÐ¸Ð»ÑÐ°Ð³ÑÐ¸Ð¹Ð½"
+msgstr "Хэвлэх харилцагчийн"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Ð¥ÑÐ²Ð»ÑÑ Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½"
+msgstr "Хэвлэх үйлчилгээний тайлан"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Ð¥ÑÐ²Ð»ÑÑ ÑÑÑÑÐ³Ð»ÑÐ³Ñ"
+msgstr "Хэвлэх хэрэглэгч"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Ò®¯Ð·Ò¯Ò¯Ð»ÑÐ³Ñ"
+msgstr "Үзүүлэгч"
 
 #: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "ÐÒ¯ÑÑÐ³Ò¯Ò¯Ð»ÑÑ"
+msgstr "Бүртгүүлэх"
 
 #: app/views/login.html
 msgid "Reset your password"
-msgstr "ÐÑÑÑ Ò¯Ð³ÑÑ Ð°Ð½ÑÐ½Ñ Ð±Ð°Ð¹Ð´Ð°Ð»Ð´ Ð½Ñ Ð¾ÑÑÑÐ»"
+msgstr "Нууц үгээ анхны байдалд нь оруул"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Ò®¯Ò¯ÑÑÐ³"
+msgstr "Үүрэг"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Ð­Ð½Ñ Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ò¯Ò¯ÑÑÐ³; Ð±Ò¯Ñ Ð¼ÑÐ¶ Ð´Ð°Ð¼Ð¶ÑÑÐ»Ð°Ð½ Ð³ÑÐ»ÑÑÑÐ»Ð¶ ÑÑÐ»Ð´ ÑÐ¾Ð²ÑÐ¸Ð½Ð¾ ÑÑ( RW-\\u003e R-\\u003e W-\\u003e Ð°Ð»Ñ Ð½Ñ Ñ)"
+msgstr "Энэ нь хэрэглэгчийн үүрэг; бүх муж дамжуулан гулсуулж тулд товшино уу( RW-\\u003e R-\\u003e W-\\u003e аль нь ч)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ò¯Ò¯ÑÑÐ³: Ð½Ð¾Ð³Ð¾Ð¾Ð½ Ó©Ð½Ð³Ó© ÑÐ½ÑÐ¸Ð³Ð´Ð°Ñ Ð·Ó©Ð²ÑÓ©Ó©ÑÓ©Ð» ÑÐ°ÑÑÑÐ»Ð¶, Ð±Ð¸ÑÐ¸Ñ, ÑÐ°Ñ, Ð°ÑÐ³Ð° ÑÑÑÑÐ³ÑÑÐ» Ð½Ñ Ð·Ó©Ð²ÑÓ©Ð½ ÑÐ½ÑÐ¸Ð¶, ÑÓ©Ñ Ð½Ñ Ð·Ó©Ð²ÑÓ©Ð½, Ð±Ð¸ÑÐ¸Ñ, ÑÐ¼Ð°Ñ Ñ Ð·Ó©Ð²ÑÓ©Ó©ÑÓ©Ð» Ð½Ñ ÑÐ»Ð°Ð°Ð½. Ð¥ÑÑÐ³Ò¯Ò¯Ð´ Ð½Ñ:\\\" Ñ\\\"( ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð´),\\\" Ð²\\\"( Ò¯Ð¹Ð»ÑÐ»Ò¯Ò¯Ð»ÑÐ³Ñ),\\\" Ð¾\\\"( Ð·Ð°ÑÐ¸Ð°Ð»Ð³Ð°),'S'(Ò¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½)."
+msgstr "Хэрэглэгчийн үүрэг: ногоон өнгө уншигдах зөвшөөрөл харуулж, бичих, шар, арга хэрэгсэл нь зөвхөн уншиж, хөх нь зөвхөн, бичих, ямар ч зөвшөөрөл нь улаан. Хэсгүүд нь:\\\" у\\\"( хэрэглэгчид),\\\" в\\\"( үйлчлүүлэгч),\\\" о\\\"( захиалга),'S'(үйлчилгээний тайлан)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
@@ -498,196 +499,195 @@ msgstr "Save"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Ò®¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½"
+msgstr "Үйлчилгээний тайлан"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½ N"
+msgstr "Үйлчилгээний тайлан N"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Ò®¯Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑÐ½Ð¸Ð¹ ÑÐ°Ð¹Ð»Ð°Ð½"
+msgstr "Үйлчилгээний тайлан"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Ð¢Ð¾ÑÐ¸ÑÐ³Ð¾Ð¾"
+msgstr "Тохиргоо"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Ð³ÑÐ´Ð°Ð¼Ð¶Ð½Ñ ÑÐ°ÑÐ³"
+msgstr "Гудамжны хаяг"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ Ð½Ñ Ð°ÑÐ¸Ð³Ð»Ð°Ð³Ð´Ð°Ð¶ Ð±Ð°Ð¹Ð³Ð°Ð°"
+msgstr "Энэ хэрэглэгчийн нэр нь ашиглагдаж байгаа"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ Ð½Ñ ÑÒ¯ÑÐ¸Ð½ ÑÓ©Ð³Ó©Ð»Ð´Ó©Ñ Ð±Ð¸Ñ ÑÐ¼"
+msgstr "Энэ хэрэглэгчийн нэр нь хүчин төгөлдөр биш юм"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ð­Ð½Ñ Ð½Ñ"
+msgstr "Энэ нь"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ Ð½Ñ Ñ ÑÐ½ÑÐ¸Ð¶ Ñ, Ð±Ð¸ÑÐ¸Ð¶ Ð±Ð¾Ð»Ð½Ð¾"
+msgstr "Энэ хэрэглэгч нь ч уншиж ч, бичиж болно"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ ÑÐ½ÑÐ¸Ð¶ Ð±Ð¾Ð»Ð½Ð¾"
+msgstr "Энэ хэрэглэгч уншиж болно"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ Ð½Ñ ÑÐ½ÑÐ¸Ð¶, Ð±Ð¸ÑÐ¸Ð¶ Ð±Ð¾Ð»Ð½Ð¾"
+msgstr "Энэ хэрэглэгч нь уншиж, бичиж болно"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ Ð±Ð¸ÑÐ¸Ð¶ Ð±Ð¾Ð»Ð½Ð¾"
+msgstr "Энэ хэрэглэгч бичиж болно"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³Ñ Ð½ÑÐ²ÑÑÑÑ ÑÐ°Ð´Ð°ÑÐ³Ò¯Ð¹"
+msgstr "Энэ хэрэглэгч нэвтэрч чадахгүй"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ Ð½Ñ Ð°ÑÐ¸Ð³Ð»Ð°Ð³Ð´Ð°Ð¶ Ð±Ð°Ð¹Ð³Ð°Ð°"
+msgstr "Энэ хэрэглэгчийн нэр нь ашиглагдаж байгаа"
 
 #: app/views/register.html
 msgid "This user name is already taken"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ Ð½Ñ Ð°Ð»Ñ ÑÑÐ´Ð¸Ð¹Ð½ Ð°Ð²ÑÐ°Ð½ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Энэ хэрэглэгчийн нэр нь аль хэдийн авсан байна"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "Ð­Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ Ð½Ñ ÑÒ¯ÑÐ¸Ð½ ÑÓ©Ð³Ó©Ð»Ð´Ó©Ñ Ð±Ð¸Ñ ÑÐ¼"
+msgstr "Энэ хэрэглэгчийн нэр нь хүчин төгөлдөр биш юм"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Ð­Ð½Ñ ÑÑÐ³Ð° Ð½Ñ Codice Fiscale Ñ Ð½ÑÐ³ P.IVA Ð±Ð°Ð¹Ð´Ð°Ð³ Ñ"
+msgstr "Энэ утга нь Codice Fiscale ч нэг P.IVA байдаг ч"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Ò®Ð¹Ð»ÑÐ¸Ð»Ð³ÑÑ ÑÑÐ»ÑÑ ÑÑÐ³Ð°ÑÐ°Ð°"
+msgstr "Үйлчилгээ эхлэх хугацаа"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Toggle Ð½Ð°Ð²Ð¸Ð³Ð°ÑÐ¸Ð¹Ð½"
+msgstr "Toggle навигацийн"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð¸-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³"
+msgstr "Хэрэглэгчийн и-мэйл хаяг"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ"
+msgstr "Хэрэглэгчийн нэр"
 
 #: app/views/register.html
 msgid "User name is not valid"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ Ð½Ñ ÑÒ¯ÑÐ¸Ð½ ÑÓ©Ð³Ó©Ð»Ð´Ó©Ñ Ð±Ð¸Ñ ÑÐ¼"
+msgstr "Хэрэглэгчийн нэр нь хүчин төгөлдөр биш юм"
 
 #: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ"
+msgstr "Хэрэглэгчийн нэр"
 
 #: app/views/login.html
 msgid "Username / Email"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ/ Ð-Ð¼ÑÐ¹Ð» ÑÐ°ÑÐ³"
+msgstr "Хэрэглэгчийн нэр/ И-мэйл хаяг"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "Ð¥ÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð´"
+msgstr "Хэрэглэгчид"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "Ð¢Ð° Ð¾ÑÐ»Ð°Ð¹Ð½ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Та офлайн байна"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "Ð¢Ð° Ð¾Ð½Ð»Ð°Ð¹Ð½ Ð±Ð°Ð¹Ð½Ð°"
+msgstr "Та онлайн байна"
 
 #: app/views/register.html
 msgid "Your email"
-msgstr "Ð¢Ð°Ð½Ñ Ð¸-Ð¼ÑÐ¹Ð»"
+msgstr "Таны и-мэйл"
 
 #: app/views/register.html
 msgid "Your password"
-msgstr "Ð¢Ð°Ð½Ñ Ð½ÑÑÑ Ò¯Ð³"
+msgstr "Таны нууц үг"
 
 #: app/views/register.html
 msgid "Your password, again"
-msgstr "Ð¢Ð°Ð½Ñ Ð½ÑÑÑ Ò¯Ð³ Ð´Ð°ÑÐ¸Ð½"
+msgstr "Таны нууц үг дахин"
 
 #: app/views/register.html
 msgid "Your user name"
-msgstr "Ð¢Ð°Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ"
+msgstr "Таны хэрэглэгчийн нэр"
 
 #: app/views/login.html
 msgid "Your username or email"
-msgstr "Ð¢Ð°Ð½Ñ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ ÑÑÐ²ÑÐ» Ð¸-Ð¼ÑÐ¹Ð»"
+msgstr "Таны хэрэглэгчийн нэр эсвэл и-мэйл"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "ÐºÑÑ ÑÐ¸Ð¹Ð³Ð´ÑÑÐ½"
+msgstr "кэш хийгдсэн"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "ÑÒ¯ÑÐ¸Ð½Ð³Ò¯Ð¹ Ð±Ð¾Ð»Ð³Ð¾Ñ"
+msgstr "хүчингүй болгох"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "ÑÐ°Ð»Ð³Ð°Ñ"
+msgstr "шалгах"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð´"
+msgstr "хэрэглэгчид"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "ÑÐ°ÑÐ°Ð¶ Ð°Ð²Ð°Ñ"
+msgstr "татаж авах"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Ð°Ð»Ð´Ð°Ð°"
+msgstr "алдаа"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Ð±ÑÑ Ð±Ò¯ÑÑÐ³ÑÐ³Ð´ÑÑÐ½ ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ´Ð¸Ð¹Ð½ Ð³ÑÑÐ¸Ð¹Ð½ ÑÑÑÐ´Ð°ÑÐ½Ð°Ð°Ñ Ò¯Ð·Ð½Ñ Ò¯Ò¯."
+msgstr "бус бүртгэгдсэн хэрэглэгчдийн гэрийн хуудаснаас үзнэ үү."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "бүртгэлтэй хэрэглэгчдийн гэрийн хуудаснаас үзнэ үү."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "ÑÑÐ»Ò¯Ò¯Ð»ÑÑ"
+msgstr "эхлүүлэх"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "( ÑÑÐ°Ð°Ð»Ð°Ð³) ÑÑÐ»ÑÑ Ð½Ñ Ð²ÑÐ± Ð¿ÑÐ¾Ð³ÑÐ°Ð¼ ÑÐ¼."
+msgstr "( ухаалаг) эхлэх нь вэб програм юм."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Ð±Ò¯ÑÑÐ³ÑÑ ÑÑÑÑÐ³Ð»ÑÐ³Ñ"
+msgstr "бүртгэх хэрэглэгч"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "ÑÑÑÑÐ¸ÑÑÐ°Ð½"
+msgstr "хуучирсан"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Ð·Ð°ÑÐ¸Ð°Ð»Ð³Ð°"
+msgstr "захиалга"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "ÑÑÐ²ÑÐ» ÑÐ¸Ð½Ñ accout Ð±Ò¯ÑÑÐ³ÑÐ¶, Ð½ÑÐ²ÑÑÑÐ½."
+msgstr "эсвэл шинэ accout бүртгэж, нэвтрэн."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Ð½ÑÑÑ Ò¯Ð³:"
+msgstr "нууц үг:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Ð°ÑÐ¸Ñ Ð´ÑÐ²ÑÐ¸Ð»"
+msgstr "ахиц дэвшил"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -699,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð¹Ð½ Ð½ÑÑ:"
+msgstr "хэрэглэгчийн нэр:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ÑÑÑÑÐ³Ð»ÑÐ³ÑÐ¸Ð´"
+msgstr "хэрэглэгчид"

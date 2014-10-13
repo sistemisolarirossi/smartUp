@@ -3,6 +3,7 @@
 /**
  * Auto translate .po (gettext) files with google translate page
  */
+exit;
 
   include "PoParser.php";
   
@@ -77,48 +78,42 @@
     */
     $entries = $poparser->parse($poFilePath);
     foreach ($entries as $entry) {
-      #for ($i = 0; isset($entry['msgid'][$i]); $i++) {
       // we use --no-wrap when msg-merging, so we only have one msgstr per msgid
-        $src = $entry['msgid'][0]; # [$i];
-        $dst = $entry['msgstr'][0]; # WAITING FOR AUTHOR ANSWER ABOUT MULTI-LINE ENTRIES...
-        $fuzzy = isset($entry['fuzzy']);
-        if ($src) {
-          if (!$dst or $fuzzy) {
-            // no translation, or fuzzy translation: translate it
-            $dst = translate($src, $sourceLanguage, $language);
+      $i = 0;
+      $src = $entry['msgid'][$i];
+      $dst = $entry['msgstr'][$i];
+      $fuzzy = isset($entry['fuzzy']);
+      if ($src) {
+        if (!$dst or $fuzzy) {
+          // no translation, or fuzzy translation: translate it
+          $dst = translate($src, $sourceLanguage, $language);
 
-            // remove zero-space blanks
-            $dst = mb_ereg_replace('\\u200B', '', $dst);
+          // remove zero-space blanks
+          $dst = mb_ereg_replace('\\u200B', '', $dst);
 
-            // keep capitalization
-            if (startsUppercase($src) and startsLowercase($dst)) {
-              $dst = mb_strtoupper(mb_substr($dst, 0, 1, "UTF-8"), "UTF-8") . mb_substr($dst, 1);
-            }
-            if (startsLowercase($src) and startsUppercase($dst)) {
-              $dst = mb_strtolower(mb_substr($dst, 0, 1, "UTF-8"), "UTF-8") . mb_substr($dst, 1);
-            }
-
-            // remove extra spaces before punctuation marks
-            $dst = preg_replace('/\s+([[:punct:]])/', '\\1', $dst);
-
-/*
-            if ($fuzzy) {
-              print "{$dst}" . " ";
-            } else {
-              print "[$dst]" . " ";
-            }
-*/
-            // update poParser entry with auto translated string
-            $poparser->updateEntry($src, $dst);
+          // keep capitalization
+          if (startsUppercase($src) and startsLowercase($dst)) {
+            $dst = mb_ucfirst($dst, "UTF-8");
           }
+          if (startsLowercase($src) and startsUppercase($dst)) {
+            $dst = mb_lcfirst($dst, "UTF-8");
+          }
+
+          $dst = preg_replace('/\s+([[,.:;]])/', '\\1', $dst); // remove extra spaces before punctuation marks
+          $dst = preg_replace('/\(\s+(.*?)\s+\)/', '(\\1)', $dst); // remove extra spaces inside round parentheses
+          $dst = preg_replace('/\[\s+(.*?)\s+\]/', '[\\1]', $dst); // remove extra spaces inside square parentheses
+
+          #print ($fuzzy ? "{" : "[") . $dst . ($fuzzy ? "}" : "]") . " ";
+
+          // update poParser entry with auto translated string
+          $poparser->updateEntry($src, $dst);
         }
-        #break; # waiting for author's explanation for multiline entries...
-      #}
+      }
     }
     // update poFile with poParser translated entries
     $poFilePathTranslated = tempnam("/tmp", $language . ".po-");
     $poparser->write($poFilePathTranslated);
-    /* Sepia PoParser writes iso-8859-1: convert to UTF8 */
+    /* Sepia PoParser does not write UTF8... */
     fileEncodeToUTF8($poFilePathTranslated);
     rename($poFilePathTranslated, $poFilePath);
   }
@@ -190,23 +185,10 @@ EOT;
     $data = file_get_contents($filename);
 
     # convert the contents, if not already UTF-8
-/*
-    if (
-      !mb_check_encoding($data, 'UTF-8') or
-      !($data ===
-        mb_convert_encoding(
-          mb_convert_encoding($data, 'UTF-32', 'UTF-8' ),
-          'UTF-8', 'UTF-32')
-        )
-      ) {
-*/
-#    if (!mb_check_encoding($data, 'UTF-8')) {
-print "check_utf8: " . (check_utf8($data) ? "1" : "0") . "\n";
-    if (!check_utf8($data)) {
-print "\n";
+    if (!mb_check_encoding($data, 'UTF-8')) {
+#print "\n";
 #system("file $filename");
-#print "mb_check_encoding: " . (mb_check_encoding($data, 'UTF-8') ? "1" : "0") . "\n";
-print "converting encoding of $filename to 'UTF-8'...\n";
+#print "converting encoding of $filename to 'UTF-8'...\n";
         $data = mb_convert_encoding($data, 'UTF-8'); 
         file_put_contents($filename, $data);
     }
@@ -274,25 +256,41 @@ print "converting encoding of $filename to 'UTF-8'...\n";
     return mb_strtoupper($chr, "UTF-8") != $chr;
   }
 
-function check_utf8($str) {
+  function mb_ucfirst($string, $encoding) {
+    $strlen = mb_strlen($string, $encoding);
+    $firstChar = mb_substr($string, 0, 1, $encoding);
+    $then = mb_substr($string, 1, $strlen - 1, $encoding);
+    return mb_strtoupper($firstChar, $encoding) . $then;
+  }
+
+  function mb_lcfirst($string, $encoding) {
+    $strlen = mb_strlen($string, $encoding);
+    $firstChar = mb_substr($string, 0, 1, $encoding);
+    $then = mb_substr($string, 1, $strlen - 1, $encoding);
+    return mb_strtolower($firstChar, $encoding) . $then;
+  }
+
+  /* TODO: REMOVE-ME
+  function check_utf8($str) {
     $len = strlen($str);
     for($i = 0; $i < $len; $i++){
-        $c = ord($str[$i]);
-        if ($c > 128) {
-            if (($c > 247)) return false;
-            elseif ($c > 239) $bytes = 4;
-            elseif ($c > 223) $bytes = 3;
-            elseif ($c > 191) $bytes = 2;
-            else return false;
-            if (($i + $bytes) > $len) return false;
-            while ($bytes > 1) {
-                $i++;
-                $b = ord($str[$i]);
-                if ($b < 128 || $b > 191) return false;
-                $bytes--;
-            }
+      $c = ord($str[$i]);
+      if ($c > 128) {
+        if (($c > 247)) return false;
+        elseif ($c > 239) $bytes = 4;
+        elseif ($c > 223) $bytes = 3;
+        elseif ($c > 191) $bytes = 2;
+        else return false;
+        if (($i + $bytes) > $len) return false;
+        while ($bytes > 1) {
+          $i++;
+          $b = ord($str[$i]);
+          if ($b < 128 || $b > 191) return false;
+          $bytes--;
         }
+      }
     }
     return true;
-}
+  }
+  */
 ?>

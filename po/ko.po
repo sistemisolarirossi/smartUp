@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,8 +180,9 @@ msgid "Confirm password"
 msgstr "비밀번호 확인"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "당신의\\\" 사회\\\" 계정 중 하나 를 사용하여 연결하거나 이러한 자격 증명 으로 로그인:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "소셜 계정 중 하나 를 사용하여 연결하거나 이러한 자격 증명 으로 로그인 :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -653,7 +654,6 @@ msgid "home page for non registered users."
 msgstr "비 등록 사용자를위한 홈 페이지."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "등록 된 사용자 에 대한 홈 페이지."
 

@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: smartUp\n"
+"Project-Id-Version: SmartUp\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -180,8 +180,9 @@ msgid "Confirm password"
 msgstr "パスワードの確認"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "あなたの「社会」のいずれかのアカウントを使用して接続するか、またはこれらの資格情報を使ってログイン："
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "ソーシャルアカウントのいずれかを使用して接続するか、またはこれらの資格情報を使ってログイン："
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -653,7 +654,6 @@ msgid "home page for non registered users."
 msgstr "非登録ユーザーのホーム·ページ。"
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "登録ユーザーのためのホームページです。"
 

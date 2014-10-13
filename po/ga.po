@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
@@ -17,39 +17,39 @@ msgstr "( hh: mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "A Codice Fiscale nÃ³ P.IVA ag teastÃ¡il"
+msgstr "A Codice Fiscale nó P.IVA ag teastáil"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "TÃ¡ an t-ainm do chustaimÃ©irÃ­ ag teastÃ¡il"
+msgstr "Tá an t-ainm do chustaiméirí ag teastáil"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "TÃ¡ dÃ¡ta tosaithe tseirbhÃ­s a chur"
+msgstr "Tá dáta tosaithe tseirbhís a chur"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "NÃ­ mÃ³r rÃ© a bheith i bhfoirm' hh' nÃ³' hh: mm', agus nÃ³imÃ©ad amhÃ¡in ar a laghad ar fad"
+msgstr "Ní mór ré a bheith i bhfoirm' hh' nó' hh: mm', agus nóiméad amháin ar a laghad ar fad"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "TÃ¡ suÃ­omh na seirbhÃ­se a theastaÃ­onn"
+msgstr "Tá suíomh na seirbhíse a theastaíonn"
 
 #: app/views/register.html
 msgid "A password is required"
-msgstr "TÃ¡ focal faire de dhÃ­th"
+msgstr "Tá focal faire de dhíth"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "TÃ¡ uimhir theileafÃ³in riachtanach"
+msgstr "Tá uimhir theileafóin riachtanach"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "TÃ¡ ainm na srÃ¡ide teastÃ¡il"
+msgstr "Tá ainm na sráide teastáil"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "TÃ¡ an t-ainm ÃºsÃ¡ideora ag teastÃ¡il"
+msgstr "Tá an t-ainm úsáideora ag teastáil"
 
 #: app/views/nav.html
 msgid "About"
@@ -57,11 +57,11 @@ msgstr "Maidir"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "Cuir do chustaimÃ©irÃ­ nua"
+msgstr "Cuir do chustaiméirí nua"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "Cuir ÃºsÃ¡ideoir nua"
+msgstr "Cuir úsáideoir nua"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
@@ -69,47 +69,47 @@ msgstr "Seoladh"
 
 #: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "TÃ¡ seoladh rÃ­omhphoist ag teastÃ¡il"
+msgstr "Tá seoladh ríomhphoist ag teastáil"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "TÃ¡ oibreoir ag teastÃ¡il"
+msgstr "Tá oibreoir ag teastáil"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "TÃ¡ nuashonrÃº ar fÃ¡il: ar mhaith leat a luchtÃº anois?"
+msgstr "Tá nuashonrú ar fáil: ar mhaith leat a luchtú anois?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "TÃ¡ nuashonrÃº rÃ©idh"
+msgstr "Tá nuashonrú réidh"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "An bhfuil tÃº i ndÃ¡irÃ­re cinnte tuarascÃ¡il seirbhÃ­se a bhaint"
+msgstr "An bhfuil tú i ndáiríre cinnte tuarascáil seirbhíse a bhaint"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "An bhfuil tÃº i ndÃ¡irÃ­re cinnte ÃºsÃ¡ideoir a bhaint"
+msgstr "An bhfuil tú i ndáiríre cinnte úsáideoir a bhaint"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "FÃ­ordheimhniÃº id"
+msgstr "Fíordheimhniú id"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "FÃ­ordheimhniÃº id an t-ÃºsÃ¡ideoir"
+msgstr "Fíordheimhniú id an t-úsáideoir"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "FÃ­ordheimhniÃº id:"
+msgstr "Fíordheimhniú id:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "SolÃ¡thraÃ­ FÃ­ordheimhniÃº"
+msgstr "Soláthraí Fíordheimhniú"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "SolÃ¡thraÃ­ fhÃ­ordheimhniÃº don ÃºsÃ¡ideoir"
+msgstr "Soláthraí fhíordheimhniú don úsáideoir"
 
 #: app/views/users.html
 msgid "Avatar"
@@ -117,7 +117,7 @@ msgstr "Avatar"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "ÃomhÃ¡ Avatar an t-ÃºsÃ¡ideoir"
+msgstr "Íomhá Avatar an t-úsáideoir"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -125,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "TÃ¡ Taisce Ã¡ initialized"
+msgstr "Tá Taisce á initialized"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "TÃ¡ Taisce i stÃ¡t anaithnid"
+msgstr "Tá Taisce i stát anaithnid"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "NÃ­l Taisce cothrom le dÃ¡ta(is dÃ³cha go bhfuil an lÃ©iriÃº unreachable)"
+msgstr "Níl Taisce cothrom le dáta(is dócha go bhfuil an léiriú unreachable)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "NÃ­l Taisce cothrom le dÃ¡ta mar go bhfuil tÃº as lÃ­ne"
+msgstr "Níl Taisce cothrom le dáta mar go bhfuil tú as líne"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "TÃ¡ Taisce as feidhm"
+msgstr "Tá Taisce as feidhm"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "TÃ¡ Taisce cothrom le dÃ¡ta"
+msgstr "Tá Taisce cothrom le dáta"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "TÃ¡ stÃ¡das Taisce"
+msgstr "Tá stádas Taisce"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "SeiceÃ¡il do lÃ¡ithreacht ar thabhairt cothrom le dÃ¡ta"
+msgstr "Seiceáil do láithreacht ar thabhairt cothrom le dáta"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -161,15 +161,15 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "TÃ¡ Codice Fiscale carachtar neamhbhailÃ­(Ã­)"
+msgstr "Tá Codice Fiscale carachtar neamhbhailí(í)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "NÃ­ cÃ³d rialÃº Codice Fiscale mheaitseÃ¡il"
+msgstr "Ní cód rialú Codice Fiscale mheaitseáil"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale nÃ³ P.IVA an chustaimÃ©ara"
+msgstr "Codice Fiscale nó P.IVA an chustaiméara"
 
 #: app/views/footer.html
 msgid "Company logo"
@@ -180,8 +180,9 @@ msgid "Confirm password"
 msgstr "Dearbhaigh an focal faire"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "Ceangail baint ÃºsÃ¡ide as ceann de do chuntais\\\"sÃ³isialta\\"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Ceangail baint úsáide as ceann de do chuntais sóisialta , nó logáil isteach leis na dintiúir :"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -197,7 +198,7 @@ msgstr "Ceangail le Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "TeagmhÃ¡lacha"
+msgstr "Teagmhálacha"
 
 #: app/views/footer.html
 msgid "Current language is"
@@ -205,59 +206,59 @@ msgstr "Is teanga reatha"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "CustaimÃ©irÃ­"
+msgstr "Custaiméirí"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "CÃ¡rta ChustaimÃ©irÃ­"
+msgstr "Cárta Chustaiméirí"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "Seoladh r-phoist do ChustaimÃ©irÃ­"
+msgstr "Seoladh r-phoist do Chustaiméirí"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "Ainm ChustaimÃ©irÃ­"
+msgstr "Ainm Chustaiméirí"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Uimhir theileafÃ³in ChustaimÃ©irÃ­"
+msgstr "Uimhir theileafóin Chustaiméirí"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "SuÃ­omh ainm ChustaimÃ©irÃ­"
+msgstr "Suíomh ainm Chustaiméirí"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "SÃ­niÃº ChustaimÃ©ara"
+msgstr "Síniú Chustaiméara"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "CustaimÃ©irÃ­"
+msgstr "Custaiméirí"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "DÃ¡ta"
+msgstr "Dáta"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "DÃ¡ta tosaithe na seirbhÃ­se"
+msgstr "Dáta tosaithe na seirbhíse"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Scrios do chustaimÃ©irÃ­"
+msgstr "Scrios do chustaiméirí"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "Scrios an tuarascÃ¡il seirbhÃ­se"
+msgstr "Scrios an tuarascáil seirbhíse"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Scrios ÃºsÃ¡ideoir"
+msgstr "Scrios úsáideoir"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Thabhairt cothrom le dÃ¡ta-Ã­osluchtÃº"
+msgstr "Thabhairt cothrom le dáta-íosluchtú"
 
 #: app/views/serviceReports.html
 msgid "Duration"
@@ -265,40 +266,40 @@ msgstr "Fad"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "Fad seirbhÃ­se"
+msgstr "Fad seirbhíse"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Cuir do chustaimÃ©irÃ­"
+msgstr "Cuir do chustaiméirí"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "TuarascÃ¡il SeirbhÃ­s in Eagar"
+msgstr "Tuarascáil Seirbhís in Eagar"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "ÃºsÃ¡ideoir Eagar"
+msgstr "Úsáideoir Eagar"
 
 #: app/views/customers.html app/views/register.html
 #: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "RÃ­omhphost"
+msgstr "Ríomhphost"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "Seoladh rÃ­omhphoist"
+msgstr "Seoladh ríomhphoist"
 
 #: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "NÃ­l an seoladh rÃ­omhphoist bailÃ­"
+msgstr "Níl an seoladh ríomhphoist bailí"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "Seoladh r-phoist an t-ÃºsÃ¡ideoir"
+msgstr "Seoladh r-phoist an t-úsáideoir"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "RÃ­omhphost t-ÃºsÃ¡ideoir"
+msgstr "Ríomhphost t-úsáideoir"
 
 #: app/views/serviceReports.html
 msgid "Fax"
@@ -306,15 +307,15 @@ msgstr "Facs"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "CustaimÃ©irÃ­ Scagaire"
+msgstr "Custaiméirí Scagaire"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "TuarascÃ¡lacha seirbhÃ­se Scagaire"
+msgstr "Tuarascálacha seirbhíse Scagaire"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ÃºsÃ¡ideoirÃ­ Scagaire"
+msgstr "Úsáideoirí Scagaire"
 
 #: app/views/nav.html
 msgid "Home"
@@ -322,7 +323,7 @@ msgstr "Baile"
 
 #: app/views/login.html
 msgid "I forgot my password"
-msgstr "Rinne mÃ© dearmad ar mo phasfhocal"
+msgstr "Rinne mé dearmad ar mo phasfhocal"
 
 #: app/views/users.html
 msgid "Id"
@@ -330,27 +331,27 @@ msgstr "Aitheantas"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "CeadaÃ­onn sÃ© bainistiÃº na gcustaimÃ©irÃ­, orduithe agus tuarascÃ¡lacha seirbhÃ­se."
+msgstr "Ceadaíonn sé bainistiú na gcustaiméirí, orduithe agus tuarascálacha seirbhíse."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "TÃ¡ sÃ© an- foinse oscailte, go tapa, dlÃºth, extensible, teacht aniar, idirnÃ¡isiÃºnta agus soghluaiste."
+msgstr "Tá sé an- foinse oscailte, go tapa, dlúth, extensible, teacht aniar, idirnáisiúnta agus soghluaiste."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "SuÃ­omh"
+msgstr "Suíomh"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "SuÃ­omh na seirbhÃ­se"
+msgstr "Suíomh na seirbhíse"
 
 #: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "LogÃ¡il isteach"
+msgstr "Logáil isteach"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "LogÃ¡il amach"
+msgstr "Logáil amach"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -362,31 +363,31 @@ msgstr "Ainm"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "Ainm an ÃºsÃ¡ideoir"
+msgstr "Ainm an úsáideoir"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Do chustaimÃ©irÃ­ nua"
+msgstr "Do chustaiméirí nua"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "TuarascÃ¡il nua"
+msgstr "Tuarascáil nua"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "ÃºsÃ¡ideoir nua"
+msgstr "Úsáideoir nua"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "NÃ­l aon nuashonrÃº i lÃ¡thair"
+msgstr "Níl aon nuashonrú i láthair"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "NÃ³taÃ­"
+msgstr "Nótaí"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "LÃ­on"
+msgstr "Líon"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -394,11 +395,11 @@ msgstr "Oibreoir"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "Oibreoir seirbhÃ­se"
+msgstr "Oibreoir seirbhíse"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "SÃ­niÃº oibreora"
+msgstr "Síniú oibreora"
 
 #: app/views/nav.html
 msgid "Orders"
@@ -410,11 +411,11 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "TÃ¡ P.IVA carachtar neamhbhailÃ­(Ã­)"
+msgstr "Tá P.IVA carachtar neamhbhailí(í)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "NÃ­ cÃ³d rialÃº P.IVA mheaitseÃ¡il"
+msgstr "Ní cód rialú P.IVA mheaitseáil"
 
 #: app/views/login.html app/views/register.html
 msgid "Password"
@@ -422,187 +423,187 @@ msgstr "Pasfhocal"
 
 #: app/views/register.html
 msgid "Password confirmation doesn't match"
-msgstr "NÃ­ Pasfhocal daingniÃº mheaitseÃ¡il"
+msgstr "Ní Pasfhocal daingniú mheaitseáil"
 
 #: app/views/register.html
 msgid "Password confirmation is required"
-msgstr "TÃ¡ Pasfhocal deimhniÃº ag teastÃ¡il"
+msgstr "Tá Pasfhocal deimhniú ag teastáil"
 
 #: app/views/register.html
 msgid "Password is not sufficiently strong"
-msgstr "NÃ­ Pasfhocal sÃ¡ch lÃ¡idir"
+msgstr "Ní Pasfhocal sách láidir"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "FÃ³n"
+msgstr "Fón"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Uimhir FÃ³n"
+msgstr "Uimhir Fón"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "NÃ­l an uimhir theileafÃ³in bailÃ­"
+msgstr "Níl an uimhir theileafóin bailí"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ãit"
+msgstr "Áit"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "UllmhÃº an Ã­oslÃ³dÃ¡il cothrom le dÃ¡ta"
+msgstr "Ullmhú an íoslódáil cothrom le dáta"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "PriontÃ¡il"
+msgstr "Priontáil"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "PriontÃ¡il do chustaimÃ©irÃ­"
+msgstr "Priontáil do chustaiméirí"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "TuarascÃ¡il SeirbhÃ­s PriontÃ¡il"
+msgstr "Tuarascáil Seirbhís Priontáil"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "ÃºsÃ¡ideoir PriontÃ¡il"
+msgstr "Úsáideoir Priontáil"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "SolÃ¡thraÃ­"
+msgstr "Soláthraí"
 
 #: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "ClÃ¡raigh"
+msgstr "Cláraigh"
 
 #: app/views/login.html
 msgid "Reset your password"
-msgstr "Do phasfhocal a athshocrÃº"
+msgstr "Do phasfhocal a athshocrú"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "RÃ³lanna"
+msgstr "Rólanna"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "RÃ³lanna don ÃºsÃ¡ideoir; cliceÃ¡il ag dul in olcas trÃ­ gach stÃ¡t( RW-\\u003e R-\\u003e W-\\u003e none)"
+msgstr "Rólanna don úsáideoir; cliceáil ag dul in olcas trí gach stát( RW-\\u003e R-\\u003e W-\\u003e none)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "RÃ³lanna an ÃºsÃ¡ideoir: glas dath LÃ©irÃ­onn cead do lÃ©amh agus a scrÃ­obh, modhanna buÃ­ a lÃ©amh amhÃ¡in, gorm scrÃ­obh ach, agus dearg aon chead. Is iad Ailt:' u'( ÃºsÃ¡ideoirÃ­),' c'(custaimÃ©irÃ­),' o'( orduithe),(tuarascÃ¡lacha seirbhÃ­se)'s'."
+msgstr "Rólanna an úsáideoir: glas dath Léiríonn cead do léamh agus a scríobh, modhanna buí a léamh amháin, gorm scríobh ach, agus dearg aon chead. Is iad Ailt:' u'( úsáideoirí),' c'(custaiméirí),' o'( orduithe),(tuarascálacha seirbhíse)'s'."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "SÃ¡bhÃ¡il"
+msgstr "Sábháil"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "TuarascÃ¡il na SeirbhÃ­se"
+msgstr "Tuarascáil na Seirbhíse"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "TuarascÃ¡il SeirbhÃ­s n"
+msgstr "Tuarascáil Seirbhís n"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "TuarascÃ¡lacha na SeirbhÃ­se"
+msgstr "Tuarascálacha na Seirbhíse"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "SocrÃº"
+msgstr "Socrú"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Seoladh SrÃ¡id"
+msgstr "Seoladh Sráid"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "Is Ã© seo an t-ainm do chustaimÃ©irÃ­ in ÃºsÃ¡id cheana"
+msgstr "Is é seo an t-ainm do chustaiméirí in úsáid cheana"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "NÃ­l an t-ainm do chustaimÃ©irÃ­ bailÃ­"
+msgstr "Níl an t-ainm do chustaiméirí bailí"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "TÃ¡ sÃ© seo"
+msgstr "Tá sé seo"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "Is fÃ©idir ÃºsÃ¡ideoir seo nÃ¡ lÃ©amh nÃ¡ scrÃ­obh"
+msgstr "Is féidir úsáideoir seo ná léamh ná scríobh"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "Is fÃ©idir an ÃºsÃ¡ideoir seo a lÃ©amh"
+msgstr "Is féidir an úsáideoir seo a léamh"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "Is fÃ©idir an ÃºsÃ¡ideoir seo a lÃ©amh agus a scrÃ­obh"
+msgstr "Is féidir an úsáideoir seo a léamh agus a scríobh"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "Is fÃ©idir an ÃºsÃ¡ideoir seo a scrÃ­obh"
+msgstr "Is féidir an úsáideoir seo a scríobh"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "NÃ­ fÃ©idir ÃºsÃ¡ideoir seo a rochtain"
+msgstr "Ní féidir úsáideoir seo a rochtain"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "Is Ã© seo an t-ainm ÃºsÃ¡ideora in ÃºsÃ¡id cheana"
+msgstr "Is é seo an t-ainm úsáideora in úsáid cheana"
 
 #: app/views/register.html
 msgid "This user name is already taken"
-msgstr "TÃ¡ an t-ainm ÃºsÃ¡ideora a glacadh cheana"
+msgstr "Tá an t-ainm úsáideora a glacadh cheana"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "NÃ­l an t-ainm ÃºsÃ¡ideora bailÃ­"
+msgstr "Níl an t-ainm úsáideora bailí"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "Is Ã© seo an luach nÃ¡ Fiscale Codice nÃ¡ P.IVA"
+msgstr "Is é seo an luach ná Fiscale Codice ná P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Am tosaithe seirbhÃ­se"
+msgstr "Am tosaithe seirbhíse"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "NascleanÃºint scorÃ¡naigh"
+msgstr "Nascleanúint scoránaigh"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "ÃsÃ¡ideoir seoladh rÃ­omhphoist"
+msgstr "Úsáideoir seoladh ríomhphoist"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "Ainm ÃºsÃ¡ideora"
+msgstr "Ainm úsáideora"
 
 #: app/views/register.html
 msgid "User name is not valid"
-msgstr "NÃ­l an t-ainm ÃºsÃ¡ideora bailÃ­"
+msgstr "Níl an t-ainm úsáideora bailí"
 
 #: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "Ainm ÃsÃ¡ideora"
+msgstr "Ainm Úsáideora"
 
 #: app/views/login.html
 msgid "Username / Email"
-msgstr "Ainm ÃsÃ¡ideora/ RÃ­omhphost"
+msgstr "Ainm Úsáideora/ Ríomhphost"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "ÃsÃ¡ideoirÃ­"
+msgstr "Úsáideoirí"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "TÃ¡ tÃº as lÃ­ne"
+msgstr "Tá tú as líne"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "TÃ¡ tÃº ar lÃ­ne"
+msgstr "Tá tú ar líne"
 
 #: app/views/register.html
 msgid "Your email"
@@ -614,15 +615,15 @@ msgstr "Do phasfhocal"
 
 #: app/views/register.html
 msgid "Your password, again"
-msgstr "Do phasfhocal, arÃ­s"
+msgstr "Do phasfhocal, arís"
 
 #: app/views/register.html
 msgid "Your user name"
-msgstr "D'ainm ÃºsÃ¡ideora"
+msgstr "D'ainm úsáideora"
 
 #: app/views/login.html
 msgid "Your username or email"
-msgstr "Do ainm ÃºsÃ¡ideora nÃ³ ar r-phost"
+msgstr "Do ainm úsáideora nó ar r-phost"
 
 #: app/scripts/app.js
 msgid "cached"
@@ -634,26 +635,25 @@ msgstr "chur ar ceal"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "seiceÃ¡il"
+msgstr "seiceáil"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "custaimÃ©irÃ­"
+msgstr "custaiméirí"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Ã­oslÃ³dÃ¡il"
+msgstr "íoslódáil"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "earrÃ¡id"
+msgstr "earráid"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "leathanach baile d'ÃºsÃ¡ideoirÃ­ nach bhfuil clÃ¡raithe."
+msgstr "leathanach baile d'úsáideoirí nach bhfuil cláraithe."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "leathanach baile d'úsáideoirí cláraithe."
 
@@ -663,11 +663,11 @@ msgstr "initializing"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "tÃ¡ iarratas grÃ©asÃ¡in( cliste) gnÃ³lachtaÃ­ nuathionscanta."
+msgstr "tá iarratas gréasáin( cliste) gnólachtaí nuathionscanta."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "ÃºsÃ¡ideoir ar-lÃ­ne"
+msgstr "úsáideoir ar-líne"
 
 #: app/scripts/app.js
 msgid "obsolete"
@@ -679,7 +679,7 @@ msgstr "orduithe"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "chlÃ¡rÃº ar shlÃ­ eile accout nua agus logÃ¡il isteach."
+msgstr "chlárú ar shlí eile accout nua agus logáil isteach."
 
 #: app/views/home.html
 msgid "password:"
@@ -699,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "ainm ÃºsÃ¡ideora:"
+msgstr "ainm úsáideora:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ÃºsÃ¡ideoirÃ­"
+msgstr "úsáideoirí"

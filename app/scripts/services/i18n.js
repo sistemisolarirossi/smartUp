@@ -6,6 +6,7 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
   $rootScope.$on('$localeChangeSuccess', function () { $route.reload(); });
 
   var I18N = {
+    // TODO: remove t() if unused...
     t: function(string) {
       //return gettextCatalog.getString(string, null);
       return gettext(string);

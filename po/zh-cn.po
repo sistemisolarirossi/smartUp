@@ -5,324 +5,325 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: zh-cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh-cn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "ï¼ HHï¼MM ï¼"
+msgstr "（ HH：MM ）"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Ã  Codice Fiscaleæèç¨å·æ¯å¿éç"
+msgstr "À Codice Fiscale或者税号是必需的"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "ä¸ä½é¡¾å®¢å§åä¸ºå¿å¡«é¡¹"
+msgstr "一位顾客姓名为必填项"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "æå¡å¼å§çæ¥æéè¦"
+msgstr "服务开始的日期需要"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "æç»­æ¶é´å¿é¡»æ¯å¨å½¢å¼' HH'æ' HHï¼MM â ï¼åè³å°ä¸åéé¿"
+msgstr "持续时间必须是在形式' HH'或' HH：MM “ ，和至少一分钟长"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "æå¡çä½ç½®æ¯å¿éç"
+msgstr "服务的位置是必需的"
 
 #: app/views/register.html
 msgid "A password is required"
-msgstr "éè¦å¯ç "
+msgstr "需要密码"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "çµè¯å·ç æ¯å¿éç"
+msgstr "电话号码是必需的"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "è¡éå°åæ¯å¿éç"
+msgstr "街道地址是必需的"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "ç¨æ·åæ¯å¿éç"
+msgstr "用户名是必需的"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "å³äº"
+msgstr "关于"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "æ·»å æ°å®¢æ·"
+msgstr "添加新客户"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "æ·»å æ°ç¨æ·"
+msgstr "添加新用户"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "å°å"
+msgstr "地址"
 
 #: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "çµå­é®ä»¶å°åæ¯å¿éç"
+msgstr "电子邮件地址是必需的"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "æä½èéè¦"
+msgstr "操作者需要"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "æå¯ç¨çæ´æ°ï¼ä½ ç°å¨è¦å è½½å®ï¼"
+msgstr "有可用的更新：你现在要加载它？"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "æ´æ°å·²åå¤å°±ç»ª"
+msgstr "更新已准备就绪"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "ä½ ççç¡®å®è¦å é¤æå¡æ¥å"
+msgstr "你真的确定要删除服务报告"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "ä½ ççç¡®å®è¦å é¤ç¨æ·"
+msgstr "你真的确定要删除用户"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "éªè¯ID"
+msgstr "验证ID"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "ç¨æ·çè®¤è¯ID"
+msgstr "用户的认证ID"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "è®¤è¯ç¼å·ï¼"
+msgstr "认证编号："
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "èº«ä»½éªè¯æä¾ç¨åº"
+msgstr "身份验证提供程序"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "ä¸ºç¨æ·èº«ä»½éªè¯æä¾ç¨åº"
+msgstr "为用户身份验证提供程序"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "é¿å¡è¾¾"
+msgstr "阿凡达"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "ç¨æ·å¤´åå¾ç"
+msgstr "用户头像图片"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
-msgstr "C.F./ç¨å·"
+msgstr "C.F./税号"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "ç¼å­è¢«åå§å"
+msgstr "缓存被初始化"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "é«éç¼å­æ¯æªç¥ç¶æ"
+msgstr "高速缓存是未知状态"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "ç¼å­ä¸æ´æ°ï¼å¯è½æ¯ææ¾çä¸å¯è¾¾ï¼"
+msgstr "缓存不更新（可能是明显的不可达）"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "ç¼å­æ²¡ææ´æ°ï¼å ä¸ºä½ æ¯ç¦»çº¿"
+msgstr "缓存没有更新，因为你是离线"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "Cacheæ¯ââè¿æ¶"
+msgstr "Cache是​​过时"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "é«éç¼å­æ¯ç±ææ°ç"
+msgstr "高速缓存是由最新的"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "ç¼å­ç¶æ"
+msgstr "缓存状态"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "æ£æ¥æ¯å¦ææ´æ°çå­å¨"
+msgstr "检查是否有更新的存在"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
-msgstr "Codice Fiscale/ç¨å·"
+msgstr "Codice Fiscale/税号"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscaleåå«æ æå­ç¬¦ï¼ Sï¼"
+msgstr "Codice Fiscale包含无效字符（ S）"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscaleæ§å¶ç ä¸å¹é"
+msgstr "Codice Fiscale控制码不匹配"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscaleæå®¢æ·çP.IVA"
+msgstr "Codice Fiscale或客户的P.IVA"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "å¬å¸æ å¿"
+msgstr "公司标志"
 
 #: app/views/register.html
 msgid "Confirm password"
-msgstr "ç¡®è®¤å¯ç "
+msgstr "确认密码"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "éè¿è¿æ¥ä½ çâç¤¾äº¤âçä¸ä¸ªå¸æ·ï¼æä¸è¿äºå­æ®ç»å½ï¼"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "连接使用你的社交帐户之一，或与这些凭据登录："
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "ä¸Facebookè¿æ¥"
+msgstr "与Facebook连接"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "è·è°·æ­+"
+msgstr "跟谷歌+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "è¿æ¥ä¸Twitter"
+msgstr "连接与Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "èç³»æ¹å¼"
+msgstr "联系方式"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "å½åè¯­è¨"
+msgstr "当前语言"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "å®¢æ·"
+msgstr "客户"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "å®¢æ·å¡"
+msgstr "客户卡"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "å®¢æ·ççµå­é®ä»¶å°å"
+msgstr "客户的电子邮件地址"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "å®¢æ·åç§°"
+msgstr "客户名称"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "å®¢æçµè¯å·ç "
+msgstr "客服电话号码"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "å®¢æ·çè¡éå°åã"
+msgstr "客户的街道地址。"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "å®¢æ·ç­¾å"
+msgstr "客户签名"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "å®¢æ·"
+msgstr "客户"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "æ¥æ"
+msgstr "日期"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "æå¡å¼å§æ¥æ"
+msgstr "服务开始日期"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "å é¤å®¢æ·"
+msgstr "删除客户"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "å é¤æå¡æ¥å"
+msgstr "删除服务报告"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "å é¤ç¨æ·"
+msgstr "删除用户"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "ä¸è½½æ´æ°"
+msgstr "下载更新"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "æ¶é´"
+msgstr "时间"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "æå¡æ¶é´"
+msgstr "服务时间"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "ç¼è¾å®¢æ·"
+msgstr "编辑客户"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "ç¼è¾æå¡æ¥å"
+msgstr "编辑服务报告"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "ç¼è¾ç¨æ·"
+msgstr "编辑用户"
 
 #: app/views/customers.html app/views/register.html
 #: app/views/serviceReports.html app/views/users.html
 msgid "Email"
-msgstr "çµå­é®ä»¶"
+msgstr "电子邮件"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "çµå­é®ä»¶å°å"
+msgstr "电子邮件地址"
 
 #: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "çµå­é®ä»¶å°åæ æ"
+msgstr "电子邮件地址无效"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "ç¨æ·ççµå­é®ä»¶å°å"
+msgstr "用户的电子邮件地址"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "çµå­é®ä»¶ç¨æ·"
+msgstr "电子邮件用户"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "ä¼ ç"
+msgstr "传真"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "ç­éå®¢æ·"
+msgstr "筛选客户"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "è¿æ»¤æå¡æ¥å"
+msgstr "过滤服务报告"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "è¿æ»¤å¨çç¨æ·"
+msgstr "过滤器的用户"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "é¦é¡µ"
+msgstr "首页"
 
 #: app/views/login.html
 msgid "I forgot my password"
-msgstr "æå¿è®°äºå¯ç "
+msgstr "我忘记了密码"
 
 #: app/views/users.html
 msgid "Id"
@@ -330,364 +331,363 @@ msgstr "ID"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "å®åè®¸å®¢æ·ï¼è®¢ååæå¡æ¥åçç®¡çã"
+msgstr "它允许客户，订单和服务报告的管理。"
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "å®æ¯å¼æºçï¼å¿«éï¼å°å·§ï¼å¯æ©å±çï¼å¼¹æ§çï¼å½éååç§»å¨ã"
+msgstr "它是开源的，快速，小巧，可扩展的，弹性的，国际化和移动。"
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "ä½ç½®"
+msgstr "位置"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "æå¡å°ç¹"
+msgstr "服务地点"
 
 #: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "ç»å½"
+msgstr "登录"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "æ³¨é"
+msgstr "注销"
 
 #: app/views/serviceReports.html
 msgid "N"
-msgstr "Ã±"
+msgstr "Ñ"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "äº§ååç§°"
+msgstr "产品名称"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "ç¨æ·å"
+msgstr "用户名"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "æ°å®¢æ·"
+msgstr "新客户"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "æ°æ¥å"
+msgstr "新报告"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "æ°ç¨æ·"
+msgstr "新用户"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "æ²¡ææ´æ°å­å¨"
+msgstr "没有更新存在"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "æ³¨æäºé¡¹"
+msgstr "注意事项"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "æ°"
+msgstr "数"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "è¿è¥å"
+msgstr "运营商"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "æå¡è¿è¥å"
+msgstr "服务运营商"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "å·¥ä½äººåçç­¾å"
+msgstr "工作人员的签名"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "è®¢å"
+msgstr "订单"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
-msgstr "ç¨å·"
+msgstr "税号"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "ç¨å·åå«æ æå­ç¬¦ï¼ Sï¼"
+msgstr "税号包含无效字符（ S）"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "ç¨å·æ§å¶ç ä¸å¹é"
+msgstr "税号控制码不匹配"
 
 #: app/views/login.html app/views/register.html
 msgid "Password"
-msgstr "å¯ç "
+msgstr "密码"
 
 #: app/views/register.html
 msgid "Password confirmation doesn't match"
-msgstr "ç¡®è®¤å¯ç ä¸å¹é"
+msgstr "确认密码不匹配"
 
 #: app/views/register.html
 msgid "Password confirmation is required"
-msgstr "ç¡®è®¤å¯ç æ¯å¿éç"
+msgstr "确认密码是必需的"
 
 #: app/views/register.html
 msgid "Password is not sufficiently strong"
-msgstr "å¯ç æ¯ä¸è¶³å¤å¼º"
+msgstr "密码是不足够强"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "çµè¯"
+msgstr "电话"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "çµè¯å·ç "
+msgstr "电话号码"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "çµè¯å·ç æ¯æ æç"
+msgstr "电话号码是无效的"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "å°ç¹"
+msgstr "地点"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "åå¤ä¸è½½æ´æ°"
+msgstr "准备下载更新"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "æå°"
+msgstr "打印"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "æå°å®¢æ·"
+msgstr "打印客户"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "æå°æå¡æ¥å"
+msgstr "打印服务报告"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "æå°ç¨æ·"
+msgstr "打印用户"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "ä¾åºå"
+msgstr "供应商"
 
 #: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "æ³¨å"
+msgstr "注册"
 
 #: app/views/login.html
 msgid "Reset your password"
-msgstr "éç½®å¯ç "
+msgstr "重置密码"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "è§è²"
+msgstr "角色"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "è§è²è¯¥ç¨æ·;ç¹å»æ»è¿ææç¶æï¼ RW-\\u003eç ç©¶-\\u003e W-\\u003eæ ï¼"
+msgstr "角色该用户;点击滑过所有状态（ RW-\\u003e研究-\\u003e W-\\u003e无）"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "ç¨æ·è§è²ï¼ç»¿è²è¡¨ç¤ºåè®¸è¿è¡è¯»åååå¥ï¼é»è²è¡¨ç¤ºåªè¯»ï¼èè²åªååçº¢è²æ²¡ææéãæ ç®æï¼ âUâ ï¼ç¨æ·ï¼ ï¼ âCâ ï¼å®¢æ·ï¼ ï¼'O' ï¼è®¢åï¼ ï¼ âSâ ï¼æå¡æ¥åï¼ ã"
+msgstr "用户角色：绿色表示允许进行读取和写入，黄色表示只读，蓝色只写和红色没有权限。栏目有： “U” （用户） ， “C” （客户） ，'O' （订单） ， “S” （服务报告） 。"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "ä¿å­"
+msgstr "保存"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "æå¡æ¥å"
+msgstr "服务报告"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "æå¡æ¥åN"
+msgstr "服务报告N"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "æå¡æ¥å"
+msgstr "服务报告"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "è®¾ç½®"
+msgstr "设置"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "è¡éå°å"
+msgstr "街道地址"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "è¯¥å®¢æ·åç§°å·²è¢«ä½¿ç¨"
+msgstr "该客户名称已被使用"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "è¿ä¸ªå®¢æ·åç§°æ æ"
+msgstr "这个客户名称无效"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "è¿æ¯"
+msgstr "这是"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "è¯¥ç¨æ·ä¹å¯ä»¥è¯»ä¹ä¸è½å"
+msgstr "该用户也可以读也不能写"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "æ­¤ç¨æ·å¯ä»¥éè¯»"
+msgstr "此用户可以阅读"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "è¿ä¸ªç¨æ·å¯ä»¥è¯»åååå¥"
+msgstr "这个用户可以读取和写入"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "æ­¤ç¨æ·å¯ä»¥å"
+msgstr "此用户可以写"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "æ­¤ç¨æ·ä¸è½è®¿é®"
+msgstr "此用户不能访问"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "æ­¤ç¨æ·åå·²è¢«ä½¿ç¨"
+msgstr "此用户名已被使用"
 
 #: app/views/register.html
 msgid "This user name is already taken"
-msgstr "æ­¤ç¨æ·åå·²è¢«ä½¿ç¨"
+msgstr "此用户名已被使用"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "è¯¥ç¨æ·åæ æ"
+msgstr "该用户名无效"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "è¿ä¸ªå¼æ¯ä¹ä¸æ¯Codice Fiscaleä¹ä¸æ¯ç¨å·"
+msgstr "这个值是也不是Codice Fiscale也不是税号"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "æå¡å¼å§æ¶é´"
+msgstr "服务开始时间"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "åæ¢å¯¼èª"
+msgstr "切换导航"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "ç¨æ·ççµå­é®ä»¶å°å"
+msgstr "用户的电子邮件地址"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "ç¨æ·å"
+msgstr "用户名"
 
 #: app/views/register.html
 msgid "User name is not valid"
-msgstr "ç¨æ·åæ æ"
+msgstr "用户名无效"
 
 #: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "ç¨æ·å"
+msgstr "用户名"
 
 #: app/views/login.html
 msgid "Username / Email"
-msgstr "ç¨æ·å/çµå­é®ä»¶"
+msgstr "用户名/电子邮件"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "ç¨æ·"
+msgstr "用户"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "æ¨æ¯ç¦»çº¿"
+msgstr "您是离线"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "æ¨æ¯å¨çº¿"
+msgstr "您是在线"
 
 #: app/views/register.html
 msgid "Your email"
-msgstr "æ¨ççµå­é®ä»¶"
+msgstr "您的电子邮件"
 
 #: app/views/register.html
 msgid "Your password"
-msgstr "ä½ çå¯ç "
+msgstr "你的密码"
 
 #: app/views/register.html
 msgid "Your password, again"
-msgstr "æ¨çå¯ç ï¼å"
+msgstr "您的密码，再"
 
 #: app/views/register.html
 msgid "Your user name"
-msgstr "æ¨çç¨æ·å"
+msgstr "您的用户名"
 
 #: app/views/login.html
 msgid "Your username or email"
-msgstr "æ¨çç¨æ·åæçµå­é®ä»¶"
+msgstr "您的用户名或电子邮件"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "ç¼å­"
+msgstr "缓存"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "åæ¶"
+msgstr "取消"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "æ£æ¥"
+msgstr "检查"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "å®¢æ·"
+msgstr "客户"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "ä¸è½½"
+msgstr "下载"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "éè¯¯"
+msgstr "错误"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "ä¸»é¡µéæ³¨åç¨æ·ã"
+msgstr "主页非注册用户。"
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "主页注册用户。"
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "åå§å"
+msgstr "初始化"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "æ¯ä¸ä¸ªWebåºç¨ç¨åºï¼æºè½ï¼åä¸ã"
+msgstr "是一个Web应用程序（智能）创业。"
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "ç»å½çç¨æ·"
+msgstr "登录的用户"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "è¿æ¶äº"
+msgstr "过时了"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "è®¢å"
+msgstr "订单"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "å¦å¤æ³¨åä¸ä¸ªæ°æ·å¤´ï¼ç¶åç»å½ã"
+msgstr "另外注册一个新户头，然后登录。"
 
 #: app/views/home.html
 msgid "password:"
-msgstr "å¯ç ï¼"
+msgstr "密码："
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "è¿åº¦"
+msgstr "进度"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -699,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "ç¨æ·åï¼"
+msgstr "用户名："
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ç¨æ·"
+msgstr "用户"

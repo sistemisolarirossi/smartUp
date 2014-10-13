@@ -5,119 +5,119 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: PoAutoTranslate\n"
 "Language-Team: \n"
-"Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: be\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
-msgstr "( ÐÐ: Ð¼Ð¼)"
+msgstr "( ГГ: мм)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Codice Fiscale Ð°Ð±Ð¾ P.IVA Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Codice Fiscale або P.IVA патрабуецца"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "ÐÐ¼Ñ ÐºÐ»ÑÐµÐ½ÑÐ° Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Імя кліента патрабуецца"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "ÐÐ°ÑÐ° Ð¿Ð°ÑÐ°ÑÐºÑ Ð°Ð±ÑÐ»ÑÐ³Ð¾ÑÐ²Ð°Ð½Ð½Ñ Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Дата пачатку абслугоўвання патрабуецца"
 
 #: app/views/serviceReports.html
 msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr "ÐÑÐ°ÑÑÐ³Ð»Ð°ÑÑÑ Ð¿Ð°Ð²ÑÐ½Ð½Ð° Ð±ÑÑÑ Ñ ÑÐ¾ÑÐ¼Ðµ' ÑÑ Â»Ð°Ð±Ð¾Â« Ð³Ð³: Ð¼Ð¼ Â», Ñ Ð¿Ð° ÐºÑÐ°Ð¹Ð½ÑÐ¹ Ð¼ÐµÑÑ Ð°Ð´Ð½Ñ ÑÐ²ÑÐ»ÑÐ½Ñ"
+msgstr "Працягласць павінна быць у форме' чч »або« гг: мм », і па крайняй меры адну хвіліну"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Ð Ð°Ð·Ð¼ÑÑÑÑÐ½Ð½Ðµ ÑÐ»ÑÐ¶Ð±Ñ Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Размяшчэнне службы патрабуецца"
 
 #: app/views/register.html
 msgid "A password is required"
-msgstr "ÐÐ°ÑÑÐ°Ð±ÑÐµÑÑÐ° Ð¿Ð°ÑÐ¾Ð»Ñ"
+msgstr "Патрабуецца пароль"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "ÐÐ°ÑÑÐ°Ð±ÑÐµÑÑÐ° Ð½ÑÐ¼Ð°Ñ ÑÑÐ»ÐµÑÐ¾Ð½Ð°"
+msgstr "Патрабуецца нумар тэлефона"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "ÐÐ°ÑÑÐ¾Ð²Ñ Ð°Ð´ÑÐ°Ñ Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Паштовы адрас патрабуецца"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "ÐÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ° Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Імя карыстальніка патрабуецца"
 
 #: app/views/nav.html
 msgid "About"
-msgstr "ÐÑÐ° Ð³ÑÑÐ°"
+msgstr "Пра гэта"
 
 #: app/views/customers.html
 msgid "Add new customer"
-msgstr "ÐÐ°Ð´Ð°ÑÑ Ð½Ð¾Ð²Ð°Ð³Ð° ÐºÐ»ÑÐµÐ½ÑÐ°"
+msgstr "Дадаць новага кліента"
 
 #: app/views/users.html
 msgid "Add new user"
-msgstr "ÐÐ°Ð´Ð°ÑÑ Ð½Ð¾Ð²Ð°Ð³Ð° ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Дадаць новага карыстальніка"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Address"
-msgstr "Ð°Ð´ÑÐ°Ñ"
+msgstr "Адрас"
 
 #: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "ÐÐ´ÑÐ°Ñ ÑÐ»ÐµÐºÑÑÐ¾Ð½Ð½Ð°Ð¹ Ð¿Ð¾ÑÑÑ Ð½Ðµ Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Адрас электроннай пошты не патрабуецца"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "ÐÐ°ÑÑÐ°Ð±ÑÐµÑÑÐ° Ð°Ð¿ÐµÑÐ°ÑÐ°Ñ"
+msgstr "Патрабуецца аператар"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
-msgstr "ÐÐ°ÑÑÑÐ¿Ð½Ð° Ð°Ð±Ð½Ð°ÑÐ»ÐµÐ½Ð½Ðµ: ÑÑ ÑÐ¾ÑÐ°Ñ, ÐºÐ°Ð± Ð·Ð°Ð³ÑÑÐ·ÑÑÑ ÑÐ³Ð¾ Ð·Ð°ÑÐ°Ð·?"
+msgstr "Даступна абнаўленне: ты хочаш, каб загрузіць яго зараз?"
 
 #: app/scripts/controllers/auth.js
 msgid "An update is ready"
-msgstr "ÐÐ±Ð½Ð°ÑÐ»ÐµÐ½Ð½Ðµ Ð³Ð°ÑÐ¾Ð²Ñ"
+msgstr "Абнаўленне гатовы"
 
 #: app/views/serviceReports.html
 msgid "Are you really sure to remove service report"
-msgstr "ÐÑ ÑÐ°Ð¿ÑÐ°ÑÐ´Ñ ÑÐ¿ÑÑÐ½ÐµÐ½ÑÑ, ÐºÐ°Ð± Ð²ÑÐ´Ð°Ð»ÑÑÑ ÑÐ¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÑ ÑÐ»ÑÐ¶Ð±Ñ"
+msgstr "Вы сапраўды ўпэўненыя, каб выдаліць справаздачу службы"
 
 #: app/views/users.html
 msgid "Are you really sure to remove user"
-msgstr "ÐÑ ÑÐ°Ð¿ÑÐ°ÑÐ´Ñ ÑÐ¿ÑÑÐ½ÐµÐ½ÑÑ, ÐºÐ°Ð± Ð²ÑÐ´Ð°Ð»ÑÑÑ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Вы сапраўды ўпэўненыя, каб выдаліць карыстальніка"
 
 #: app/views/users.html
 msgid "Authentication id"
-msgstr "ID Ð°ÑÑÑÐ½ÑÑÑÑÐºÐ°ÑÑÑ"
+msgstr "ID аўтэнтыфікацыі"
 
 #: app/views/users.html
 msgid "Authentication id of the user"
-msgstr "ÐÑÑÑÐ½ÑÑÑÑÐºÐ°ÑÑÑ ÑÐ´ÑÐ½ÑÑÑÑÐºÐ°ÑÐ°Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Аўтэнтыфікацыя ідэнтыфікатар карыстальніка"
 
 #: app/views/users.html
 msgid "Authentication id:"
-msgstr "ID Ð°ÑÑÑÐ½ÑÑÑÑÐºÐ°ÑÑÑ:"
+msgstr "ID аўтэнтыфікацыі:"
 
 #: app/views/users.html
 msgid "Authentication provider"
-msgstr "Ð¿Ð°ÑÑÐ°ÑÑÑÑÐº Ð°ÑÑÑÐ½ÑÑÑÑÐºÐ°ÑÑÑ"
+msgstr "Пастаўшчык аўтэнтыфікацыі"
 
 #: app/views/users.html
 msgid "Authentication provider for the user"
-msgstr "ÐÐ°ÑÑÐ°ÑÑÑÑÐº Ð°ÑÑÑÐ½ÑÑÑÑÐºÐ°ÑÑÑ Ð´Ð»Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Пастаўшчык аўтэнтыфікацыі для карыстальніка"
 
 #: app/views/users.html
 msgid "Avatar"
-msgstr "Ð°Ð²Ð°ÑÐ°Ñ"
+msgstr "Аватар"
 
 #: app/views/users.html
 msgid "Avatar image of the user"
-msgstr "ÐÐ²Ð°ÑÐ°Ñ Ð²Ð¾Ð±ÑÐ°Ð· ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°Ð¼"
+msgstr "Аватар вобраз карыстальнікам"
 
 #: app/views/customers.html
 msgid "C.F./P.IVA"
@@ -125,35 +125,35 @@ msgstr "C.F./ P.IVA"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is being initialized"
-msgstr "ÐÑÑ ÑÐ½ÑÑÑÑÐ»ÑÐ·ÑÐµÑÑÐ°"
+msgstr "Кэш ініцыялізуецца"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is in unknown state"
-msgstr "ÐÑÑ Ð·Ð½Ð°ÑÐ¾Ð´Ð·ÑÑÑÐ° Ñ Ð½ÐµÐ²ÑÐ´Ð¾Ð¼ÑÐ¼ ÑÑÐ°Ð½Ðµ"
+msgstr "Кэш знаходзіцца ў невядомым стане"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated (probably the manifest is unreachable)"
-msgstr "ÐÑÑ Ð½Ðµ Ð°Ð±Ð½Ð°ÑÐ»ÑÐµÑÑÐ°(Ð²ÐµÑÐ°Ð³Ð¾Ð´Ð½Ð°, Ð²ÑÑÑÐ»ÑÐµÑÑÐ° Ð½ÐµÐ´Ð°ÑÑÑÐ¿Ð½Ñ)"
+msgstr "Кэш не абнаўляецца(верагодна, выяўляецца недаступны)"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is not updated because you are offline"
-msgstr "ÐÑÑ Ð½Ðµ Ð°Ð±Ð½Ð°ÑÐ»ÑÐµÑÑÐ°, ÑÐ°Ð¼Ñ ÑÑÐ¾ Ð²Ñ Ð·Ð½Ð°ÑÐ¾Ð´Ð·ÑÑÐµÑÑ Ñ Ð°ÑÑÐ°Ð½Ð¾Ð¼Ð½ÑÐ¼ ÑÑÐ¶ÑÐ¼Ðµ"
+msgstr "Кэш не абнаўляецца, таму што вы знаходзіцеся ў аўтаномным рэжыме"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is obsolete"
-msgstr "ÐÑÑ Ð·'ÑÑÐ»ÑÐµÑÑÐ° ÑÐ°ÑÑÐ°ÑÑÐ»ÑÐ¼"
+msgstr "Кэш з'яўляецца састарэлым"
 
 #: app/scripts/controllers/auth.js
 msgid "Cache is up-to-date"
-msgstr "ÐÑÑ Ð´Ð° ÑÑÑÐ°ÑÐ½ÑÑ"
+msgstr "Кэш да сучасных"
 
 #: app/views/footer.html
 msgid "Cache status is"
-msgstr "Ð¡ÑÐ°ÑÑÑ ÐºÑÑ"
+msgstr "Статус кэш"
 
 #: app/scripts/controllers/auth.js
 msgid "Checking for the presence of an update"
-msgstr "ÐÑÐ°Ð²ÐµÑÐºÐ° Ð½Ð° Ð½Ð°ÑÑÐ½Ð°ÑÑÑ Ð°Ð±Ð½Ð°ÑÐ»ÐµÐ½Ð½Ñ"
+msgstr "Праверка на наяўнасць абнаўлення"
 
 #: app/views/customers.html
 msgid "Codice Fiscale / P.IVA"
@@ -161,123 +161,124 @@ msgstr "Codice Fiscale/ P.IVA"
 
 #: app/views/customers.html
 msgid "Codice Fiscale contains invalid character(s)"
-msgstr "Codice Fiscale ÑÑÑÑÐ¼Ð»ÑÐ²Ð°Ðµ Ð½ÐµÐ´Ð°Ð¿ÑÑÑÐ°Ð»ÑÐ½Ñ ÑÑÐ¼Ð±Ð°Ð»Ñ(Ñ)"
+msgstr "Codice Fiscale ўтрымлівае недапушчальны сымбаль(ы)"
 
 #: app/views/customers.html
 msgid "Codice Fiscale control code doesn't match"
-msgstr "Codice Fiscale ÐºÑÑÐ°Ð²Ð°Ð½Ð½Ñ ÐºÐ¾Ð´ Ð½Ðµ ÑÑÐ¿Ð°Ð´Ð°Ðµ"
+msgstr "Codice Fiscale кіравання код не супадае"
 
 #: app/views/customers.html
 msgid "Codice Fiscale or P.IVA of the customer"
-msgstr "Codice Fiscale Ð°Ð±Ð¾ P.IVA Ð·Ð°ÐºÐ°Ð·ÑÑÐºÐ°"
+msgstr "Codice Fiscale або P.IVA заказчыка"
 
 #: app/views/footer.html
 msgid "Company logo"
-msgstr "Ð»Ð°Ð³Ð°ÑÑÐ¿ ÐºÐ°Ð¼Ð¿Ð°Ð½ÑÑ"
+msgstr "Лагатып кампаніі"
 
 #: app/views/register.html
 msgid "Confirm password"
-msgstr "Ð¿Ð°ÑÐ²ÐµÑÐ´Ð·ÑÑÐµ ÐÐ°ÑÐ¾Ð»Ñ"
+msgstr "Пацвердзіце Пароль"
 
 #: app/views/home.html
-msgid "Connect using one of your \"social\" accounts, or log in with these credentials:"
-msgstr "ÐÐ°Ð´ÐºÐ»ÑÑÑÐ½Ð½Ðµ Ð· Ð´Ð°Ð¿Ð°Ð¼Ð¾Ð³Ð°Ð¹ Ð°Ð´Ð½Ð°Ð³Ð¾ Ð· Ð²Ð°ÑÑÑ Â«ÑÐ°ÑÑÑÐ»ÑÐ½ÑÑÂ» ÑÐ°ÑÑÐ½ÐºÐ°Ñ, Ð°Ð±Ð¾ ÑÐ²Ð°Ð¹ÑÑÑ Ð· Ð³ÑÑÑÐ¼Ñ ÑÐ»ÑÐºÐ¾Ð²ÑÐ¼Ñ Ð´Ð°Ð´Ð·ÐµÐ½ÑÐ¼Ñ:"
+#, 
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Падключэнне з дапамогай аднаго з вашых сацыяльных рахункаў, або ўвайсці з гэтымі ўліковымі дадзенымі:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
-msgstr "ÐÐ²ÑÐ·Ð°ÑÑÐ° Ð· Facebook"
+msgstr "Звязацца з Facebook"
 
 #: app/views/home.html
 msgid "Connect with Google+"
-msgstr "ÐÐ²ÑÐ·Ð°ÑÑÐ° Ð· Google+"
+msgstr "Звязацца з Google+"
 
 #: app/views/home.html
 msgid "Connect with Twitter"
-msgstr "ÐÐ²ÑÐ·Ð°ÑÑÐ° Ð· Twitter"
+msgstr "Звязацца з Twitter"
 
 #: app/views/nav.html
 msgid "Contacts"
-msgstr "ÐºÐ°Ð½ÑÐ°ÐºÑÑ"
+msgstr "Кантакты"
 
 #: app/views/footer.html
 msgid "Current language is"
-msgstr "ÐÑÐ³ÑÑÑ Ð¼Ð¾Ð²Ð°"
+msgstr "Бягучы мова"
 
 #: app/views/serviceReports.html
 msgid "Customer"
-msgstr "Ð·Ð°ÐºÐ°Ð·ÑÑÐº"
+msgstr "Заказчык"
 
 #: app/views/customers.html
 msgid "Customer Card"
-msgstr "ÐºÐ»ÑÐµÐ½Ñ ÐºÐ°ÑÑÑ"
+msgstr "Кліент карты"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer email address"
-msgstr "ÐÐ»ÑÐµÐ½Ñ ÑÐ»ÐµÐºÑÑÐ¾Ð½Ð½Ð°Ð¹ Ð¿Ð¾ÑÑÑ"
+msgstr "Кліент электроннай пошты"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer name"
-msgstr "ÐÐ¼Ñ ÐºÐ»ÑÐµÐ½ÑÐ°"
+msgstr "Імя кліента"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Customer phone number"
-msgstr "Ð¢ÑÐ»ÐµÑÐ¾Ð½ Ð½ÑÐ¼Ð°Ñ ÐºÐ»ÑÐµÐ½ÑÐ°"
+msgstr "Тэлефон нумар кліента"
 
 #: app/views/customers.html
 msgid "Customer street address"
-msgstr "ÐÑÐ»ÑÑÐ° ÐºÐ»ÑÐµÐ½ÑÐ°Ñ Ð°Ð´ÑÐ°Ñ"
+msgstr "Вуліца кліентаў адрас"
 
 #: app/views/serviceReports.html
 msgid "Customer's signature"
-msgstr "ÐÐ¾Ð´Ð¿ÑÑ Ð·Ð°ÐºÐ°Ð·ÑÑÐºÐ°"
+msgstr "Подпіс заказчыка"
 
 #: app/views/nav.html
 msgid "Customers"
-msgstr "ÐºÐ»ÑÐµÐ½ÑÑ"
+msgstr "Кліенты"
 
 #: app/views/serviceReports.html
 msgid "Date"
-msgstr "Ð´Ð°ÑÐ°"
+msgstr "Дата"
 
 #: app/views/serviceReports.html
 msgid "Date of service start"
-msgstr "ÐÐ°ÑÐ° Ð¿Ð°ÑÐ°ÑÐºÑ ÑÐ»ÑÐ¶Ð±Ñ"
+msgstr "Дата пачатку службы"
 
 #: app/views/customers.html
 msgid "Delete customer"
-msgstr "Ð²ÑÐ´Ð°Ð»ÑÑÑ ÐºÐ»ÑÐµÐ½ÑÐ°"
+msgstr "Выдаліць кліента"
 
 #: app/views/serviceReports.html
 msgid "Delete service report"
-msgstr "ÐÑÐ´Ð°Ð»ÑÑÑ ÑÐ¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÑ ÑÐ»ÑÐ¶Ð±Ñ"
+msgstr "Выдаліць справаздачу службы"
 
 #: app/views/users.html
 msgid "Delete user"
-msgstr "Ð²ÑÐ´Ð°Ð»ÑÑÑ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Выдаліць карыстальніка"
 
 #: app/scripts/controllers/auth.js
 msgid "Downloading an update"
-msgstr "Ð¡Ð¿Ð°Ð¼Ð¿Ð¾ÑÐ²Ð°ÑÑÑ Ð°Ð±Ð½Ð°ÑÐ»ÐµÐ½Ð½Ñ"
+msgstr "Спампоўваючы абнаўлення"
 
 #: app/views/serviceReports.html
 msgid "Duration"
-msgstr "Ð¿ÑÐ°ÑÑÐ³Ð»Ð°ÑÑÑ"
+msgstr "Працягласць"
 
 #: app/views/serviceReports.html
 msgid "Duration of service"
-msgstr "ÐÑÐ°ÑÑÐ³Ð»Ð°ÑÑÑ ÑÐ»ÑÐ¶Ð±Ñ"
+msgstr "Працягласць службы"
 
 #: app/views/customers.html
 msgid "Edit customer"
-msgstr "Ð ÑÐ´Ð°Ð³Ð°Ð²Ð°ÑÑ ÐºÐ»ÑÐµÐ½ÑÐ°Ñ"
+msgstr "Рэдагаваць кліентаў"
 
 #: app/views/serviceReports.html
 msgid "Edit service report"
-msgstr "Ð¡Ð¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÐ° Ð ÑÐ´Ð°Ð³Ð°Ð²Ð°ÑÑ ÑÐ»ÑÐ¶Ð±Ð°"
+msgstr "Справаздача Рэдагаваць служба"
 
 #: app/views/users.html
 msgid "Edit user"
-msgstr "Ð ÑÐ´Ð°Ð³Ð°Ð²Ð°Ð½Ð½Ðµ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Рэдагаванне карыстальніка"
 
 #: app/views/customers.html app/views/register.html
 #: app/views/serviceReports.html app/views/users.html
@@ -286,43 +287,43 @@ msgstr "E- mail"
 
 #: app/views/customers.html app/views/users.html
 msgid "Email address"
-msgstr "Ð°Ð´ÑÐ°Ñ ÑÐ»ÐµÐºÑÑÐ¾Ð½Ð½Ð°Ð¹ Ð¿Ð¾ÑÑÑ"
+msgstr "Адрас электроннай пошты"
 
 #: app/views/customers.html app/views/register.html
 msgid "Email address is not valid"
-msgstr "ÐÐ´ÑÐ°Ñ ÑÐ»ÐµÐºÑÑÐ¾Ð½Ð½Ð°Ð¹ Ð¿Ð¾ÑÑÑ Ð½Ðµ Ð·'ÑÑÐ»ÑÐµÑÑÐ° ÑÐ°Ð¿ÑÐ°ÑÐ´Ð½ÑÐ¼"
+msgstr "Адрас электроннай пошты не з'яўляецца сапраўдным"
 
 #: app/views/users.html
 msgid "Email address of the user"
-msgstr "E- mail Ð°Ð´ÑÐ°Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "E- mail адрас карыстальніка"
 
 #: app/views/users.html
 msgid "Email of the user"
-msgstr "E- mail ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "E- mail карыстальніка"
 
 #: app/views/serviceReports.html
 msgid "Fax"
-msgstr "Ð¤Ð°ÐºÑ"
+msgstr "Факс"
 
 #: app/views/customers.html
 msgid "Filter customers"
-msgstr "Ð¤ÑÐ»ÑÑÑ ÐºÐ»ÑÐµÐ½ÑÑ"
+msgstr "Фільтр кліенты"
 
 #: app/views/serviceReports.html
 msgid "Filter service reports"
-msgstr "Ð¡Ð¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÑ Ð¿Ð°ÑÐ»ÑÐ³ ÑÑÐ»ÑÑÑ"
+msgstr "Справаздачы паслуг фільтр"
 
 #: app/views/users.html
 msgid "Filter users"
-msgstr "ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÑ ÑÑÐ»ÑÑÑ"
+msgstr "Карыстальнікі фільтр"
 
 #: app/views/nav.html
 msgid "Home"
-msgstr "ÐÐ°Ð»Ð¾ÑÐ½Ð°Ñ"
+msgstr "Галоўная"
 
 #: app/views/login.html
 msgid "I forgot my password"
-msgstr "Ð¯ Ð·Ð°Ð±ÑÑ ÑÐ²Ð¾Ð¹ Ð¿Ð°ÑÐ¾Ð»Ñ"
+msgstr "Я забыў свой пароль"
 
 #: app/views/users.html
 msgid "Id"
@@ -330,27 +331,27 @@ msgstr "Id"
 
 #: app/views/about.html
 msgid "It allows the management of customers, orders and service reports."
-msgstr "ÐÑÑÐ° Ð´Ð°Ð·Ð²Ð°Ð»ÑÐµ ÐºÑÑÐ°Ð²Ð°ÑÑ ÐºÐ»ÑÐµÐ½ÑÐ°Ð¼Ñ, Ð·Ð°Ð¼Ð¾Ð²Ð°Ð¼Ñ Ñ ÑÑÑÐ²ÑÑÐ½ÑÑ ÑÐ¿ÑÐ°Ð²Ð°Ð·Ð´Ð°Ñ."
+msgstr "Гэта дазваляе кіраваць кліентамі, замовамі і сэрвісных справаздач."
 
 #: app/views/about.html
 msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
-msgstr "ÐÑÑÐ° Ð· Ð°Ð´ÐºÑÑÑÑÐ¼ Ð·ÑÑÐ¾Ð´Ð½ÑÐ¼ ÐºÐ¾Ð´Ð°Ð¼, ÑÑÑÐºÑ, ÐºÐ°Ð¼Ð¿Ð°ÐºÑÐ½Ñ, ÑÐºÑ Ð¿Ð°ÑÑÑÐ°ÐµÑÑÐ°, ÑÑÑÐ¾Ð¹Ð»ÑÐ²ÑÐ¼Ñ, Ð¼ÑÐ¶Ð½Ð°ÑÐ¾Ð´Ð½ÑÑ Ñ Ð¼Ð°Ð±ÑÐ»ÑÐ½ÑÑ."
+msgstr "Гэта з адкрытым зыходным кодам, хуткі, кампактны, які пашыраецца, устойлівымі, міжнародных і мабільных."
 
 #: app/views/serviceReports.html
 msgid "Location"
-msgstr "Ð Ð°Ð·Ð¼ÑÑÑÑÐ½Ð½Ðµ"
+msgstr "Размяшчэнне"
 
 #: app/views/serviceReports.html
 msgid "Location of service"
-msgstr "Ð Ð°Ð·Ð¼ÑÑÑÑÐ½Ð½Ðµ Ð°Ð±ÑÐ»ÑÐ³Ð¾ÑÐ²Ð°Ð½Ð½Ñ"
+msgstr "Размяшчэнне абслугоўвання"
 
 #: app/views/home.html app/views/login.html
 msgid "Log in"
-msgstr "Ð£Ð²Ð°Ð¹ÑÑÑ"
+msgstr "Увайсці"
 
 #: app/views/nav.html
 msgid "Log out"
-msgstr "Ð²ÑÐ¹ÑÑÑ"
+msgstr "Выйсці"
 
 #: app/views/serviceReports.html
 msgid "N"
@@ -358,51 +359,51 @@ msgstr "N"
 
 #: app/views/customers.html
 msgid "Name"
-msgstr "ÐÐ¼Ñ"
+msgstr "Імя"
 
 #: app/views/users.html
 msgid "Name of the user"
-msgstr "ÐÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Імя карыстальніка"
 
 #: app/views/customers.html
 msgid "New customer"
-msgstr "Ð½Ð¾Ð²Ñ ÐºÐ»ÑÐµÐ½Ñ"
+msgstr "Новы кліент"
 
 #: app/views/serviceReports.html
 msgid "New report"
-msgstr "Ð½Ð¾Ð²Ñ ÑÐ¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÑ"
+msgstr "Новы справаздачу"
 
 #: app/views/users.html
 msgid "New user"
-msgstr "Ð½Ð¾Ð²Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº"
+msgstr "Новы карыстальнік"
 
 #: app/scripts/controllers/auth.js
 msgid "No update is present"
-msgstr "ÐÑÑÐºÑÑ Ð·Ð¼ÐµÐ½Ð°Ñ Ð½Ðµ Ð¿ÑÑÑÑÑÐ½ÑÑÐ°Ðµ"
+msgstr "Ніякіх зменаў не прысутнічае"
 
 #: app/views/serviceReports.html
 msgid "Notes"
-msgstr "ÐÐ°ÑÐ²Ð°Ð³Ñ"
+msgstr "Заўвагі"
 
 #: app/views/serviceReports.html
 msgid "Number"
-msgstr "ÐºÐ¾Ð»ÑÐºÐ°ÑÑÑ"
+msgstr "Колькасць"
 
 #: app/views/serviceReports.html
 msgid "Operator"
-msgstr "Ð°Ð¿ÐµÑÐ°ÑÐ°Ñ"
+msgstr "Аператар"
 
 #: app/views/serviceReports.html
 msgid "Operator of service"
-msgstr "ÐÐ¿ÐµÑÐ°ÑÐ°Ñ ÑÐ»ÑÐ¶Ð±Ñ"
+msgstr "Аператар службы"
 
 #: app/views/serviceReports.html
 msgid "Operator's signature"
-msgstr "ÐÐ¾Ð´Ð¿ÑÑ Ð°Ð¿ÐµÑÐ°ÑÐ°ÑÐ°"
+msgstr "Подпіс аператара"
 
 #: app/views/nav.html
 msgid "Orders"
-msgstr "Ð·Ð°ÐºÐ°Ð·Ñ"
+msgstr "Заказы"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "P.IVA"
@@ -410,284 +411,283 @@ msgstr "P.IVA"
 
 #: app/views/customers.html
 msgid "P.IVA contains invalid character(s)"
-msgstr "P.IVA ÑÑÑÑÐ¼Ð»ÑÐ²Ð°Ðµ Ð½ÐµÐ´Ð°Ð¿ÑÑÑÐ°Ð»ÑÐ½Ñ ÑÑÐ¼Ð±Ð°Ð»Ñ(Ñ)"
+msgstr "P.IVA ўтрымлівае недапушчальны сымбаль(ы)"
 
 #: app/views/customers.html
 msgid "P.IVA control code doesn't match"
-msgstr "ÐÐ°Ð½ÑÑÐ¾Ð»Ñ P.IVA ÐºÐ¾Ð´ Ð½Ðµ ÑÑÐ¿Ð°Ð´Ð°Ðµ"
+msgstr "Кантроль P.IVA код не супадае"
 
 #: app/views/login.html app/views/register.html
 msgid "Password"
-msgstr "Ð¿Ð°ÑÐ¾Ð»Ñ"
+msgstr "Пароль"
 
 #: app/views/register.html
 msgid "Password confirmation doesn't match"
-msgstr "ÐÐ°ÑÐ²ÐµÑÐ´Ð¶Ð°Ð½Ð½Ðµ Ð¿Ð°ÑÐ¾Ð»Ñ Ð½Ðµ Ð°Ð´Ð¿Ð°Ð²ÑÐ´Ð°Ðµ"
+msgstr "Пацверджанне пароля не адпавядае"
 
 #: app/views/register.html
 msgid "Password confirmation is required"
-msgstr "ÐÐ°ÑÐ²ÐµÑÐ´Ð¶Ð°Ð½Ð½Ðµ Ð¿Ð°ÑÐ¾Ð»Ñ Ð¿Ð°ÑÑÐ°Ð±ÑÐµÑÑÐ°"
+msgstr "Пацверджанне пароля патрабуецца"
 
 #: app/views/register.html
 msgid "Password is not sufficiently strong"
-msgstr "ÐÐ°ÑÐ¾Ð»Ñ Ð½Ðµ Ð·'ÑÑÐ»ÑÐµÑÑÐ° Ð´Ð°ÑÑÐ°ÑÐºÐ¾Ð²Ð° Ð¼Ð¾ÑÐ½Ð°Ð¹"
+msgstr "Пароль не з'яўляецца дастаткова моцнай"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Phone"
-msgstr "Ð¢ÑÐ»ÐµÑÐ¾Ð½"
+msgstr "Тэлефон"
 
 #: app/views/customers.html
 msgid "Phone number"
-msgstr "Ð¢ÑÐ»ÐµÑÐ¾Ð½Ð½Ñ Ð½ÑÐ¼Ð°Ñ"
+msgstr "Тэлефонны нумар"
 
 #: app/views/customers.html
 msgid "Phone number is not valid"
-msgstr "ÐÑÐ¼Ð°Ñ ÑÑÐ»ÐµÑÐ¾Ð½Ð° Ð½Ðµ Ð´Ð·ÐµÐ¹Ð½ÑÑÐ°Ðµ"
+msgstr "Нумар тэлефона не дзейнічае"
 
 #: app/views/serviceReports.html
 msgid "Place"
-msgstr "Ð¼ÐµÑÑÐ°"
+msgstr "Месца"
 
 #: app/scripts/controllers/auth.js
 msgid "Preparing the downloading an update"
-msgstr "ÐÐ°Ð´ÑÑÑÑÐ¾ÑÐºÐ° Ð·Ð°Ð³ÑÑÐ·ÐºÑ Ð°Ð±Ð½Ð°ÑÐ»ÐµÐ½Ð½ÑÑ"
+msgstr "Падрыхтоўка загрузкі абнаўленняў"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "Print"
-msgstr "Ð Ð°Ð·Ð´ÑÑÐºÐ°Ð²Ð°ÑÑ"
+msgstr "Раздрукаваць"
 
 #: app/views/customers.html
 msgid "Print customer"
-msgstr "Ð Ð°Ð·Ð´ÑÑÐºÐ°Ð²Ð°ÑÑ"
+msgstr "Раздрукаваць"
 
 #: app/views/serviceReports.html
 msgid "Print service report"
-msgstr "Ð¡Ð¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÐ° ÑÐ»ÑÐ¶Ð±Ñ Ð´ÑÑÐºÑ"
+msgstr "Справаздача службы друку"
 
 #: app/views/users.html
 msgid "Print user"
-msgstr "Ð Ð°Ð·Ð´ÑÑÐºÐ°Ð²Ð°ÑÑ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº"
+msgstr "Раздрукаваць карыстальнік"
 
 #: app/views/users.html
 msgid "Provider"
-msgstr "Ð¿ÑÐ°Ð²Ð°Ð¹Ð´ÑÑ"
+msgstr "Правайдэр"
 
 #: app/views/home.html app/views/register.html
 msgid "Register"
-msgstr "Ð·Ð°ÑÑÐ³ÑÑÑÑÐ°Ð²Ð°ÑÑÐ°"
+msgstr "Зарэгістравацца"
 
 #: app/views/login.html
 msgid "Reset your password"
-msgstr "Ð¡ÐºÑÐ´ Ð¿Ð°ÑÐ¾Ð»Ñ"
+msgstr "Скід пароля"
 
 #: app/views/users.html
 msgid "Roles"
-msgstr "Ð Ð¾Ð»Ñ"
+msgstr "Ролі"
 
 #: app/views/users.html
 msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr "Ð Ð¾Ð»Ñ Ð´Ð»Ñ Ð³ÑÑÐ°Ð³Ð° ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°; Ð½Ð°ÑÑÑÐ½ÑÑÐµ ÐºÐ°Ð± ÑÐ»ÑÐ·Ð³Ð°ÑÑ Ð¿ÑÐ°Ð· ÑÑÑÑ Ð´Ð·ÑÑÐ¶Ð°Ñ( RW-\\u003e R-\\u003e W-\\u003e Ð½ÑÐ¼Ð°)"
+msgstr "Ролі для гэтага карыстальніка; націсніце каб слізгаць праз усіх дзяржаў( RW-\\u003e R-\\u003e W-\\u003e няма)"
 
 #: app/views/users.html
 msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr "Ð Ð¾Ð»Ñ ÐºÐ°ÑÑÑÑÐ°ÑÐºÐ°Ð³Ð°: Ð·ÑÐ»ÑÐ½Ñ ÐºÐ¾Ð»ÐµÑ Ð°Ð·Ð½Ð°ÑÐ°Ðµ Ð´Ð°Ð·Ð²Ð¾Ð» Ð½Ð° ÑÑÑÐ°Ð½Ð½Ðµ Ñ Ð·Ð°Ð¿ÑÑ, Ð¶Ð¾ÑÑÑ Ð·Ð½Ð°ÑÑÑÑ ÑÐ¾Ð»ÑÐºÑ Ð´Ð»Ñ ÑÑÑÐ°Ð½Ð½Ñ, ÑÑÐ½Ñ ÑÐ¾Ð»ÑÐºÑ Ð½Ð°Ð¿ÑÑÐ°ÑÑ, Ñ ÑÑÑÐ²Ð¾Ð½Ñ ÐÑÐ¼Ð° Ð´Ð¾ÑÑÑÐ¿Ñ. Ð Ð°Ð·Ð´Ð·ÐµÐ»Ñ Ð·'ÑÑÐ»ÑÑÑÑÐ°:'U'(ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÑ),' C'( ÐºÐ»ÑÐµÐ½ÑÐ°Ñ),' O'(Ð·Ð°Ð³Ð°Ð´Ñ),' S'(ÑÐ¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÑ Ð°Ð±ÑÐ»ÑÐ³Ð¾ÑÐ²Ð°Ð½Ð½Ñ)."
+msgstr "Ролі карыстацкага: зялёны колер азначае дазвол на чытанне і запіс, жоўты значыць толькі для чытання, сіні толькі напісаць, і чырвоны Няма доступу. Раздзелы з'яўляюцца:'U'(карыстальнікі),' C'( кліентаў),' O'(загады),' S'(справаздачы абслугоўвання)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"
-msgstr "Ð·Ð°ÑÐ°Ð²Ð°ÑÑ"
+msgstr "Захаваць"
 
 #: app/views/serviceReports.html
 msgid "Service report"
-msgstr "Ð¡Ð¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÐ° ÑÐ»ÑÐ¶Ð±Ð°"
+msgstr "Справаздача служба"
 
 #: app/views/serviceReports.html
 msgid "Service report n"
-msgstr "Ð¡Ð¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÐ° ÑÐ»ÑÐ¶Ð±Ð° Ð½"
+msgstr "Справаздача служба н"
 
 #: app/views/nav.html
 msgid "Service reports"
-msgstr "Ð¡Ð¿ÑÐ°Ð²Ð°Ð·Ð´Ð°ÑÑ Ð¡ÑÑÐ²ÑÑ"
+msgstr "Справаздачы Сэрвіс"
 
 #: app/views/nav.html
 msgid "Setup"
-msgstr "Ð½Ð°Ð»Ð°Ð´Ð°"
+msgstr "Налада"
 
 #: app/views/customers.html
 msgid "Street address"
-msgstr "Ð°Ð´ÑÐ°Ñ Ð²ÑÐ»ÑÑÑ"
+msgstr "Адрас вуліцы"
 
 #: app/views/customers.html
 msgid "This customer name is already in use"
-msgstr "ÐÑÑÐ°Ðµ ÑÐ¼Ñ ÐºÐ»ÑÐµÐ½ÑÐ° ÑÐ¶Ð¾ Ð²ÑÐºÐ°ÑÑÑÑÐ¾ÑÐ²Ð°ÐµÑÑÐ°"
+msgstr "Гэтае імя кліента ўжо выкарыстоўваецца"
 
 #: app/views/customers.html
 msgid "This customer name is not valid"
-msgstr "ÐÑÑÐ°Ðµ ÑÐ¼Ñ ÐºÐ»ÑÐµÐ½ÑÐ° Ð½Ðµ ÑÐ°Ð¿ÑÐ°ÑÐ´Ð½Ð°Ñ"
+msgstr "Гэтае імя кліента не сапраўдная"
 
 #: app/views/home.html
 msgid "This is"
-msgstr "Ð³ÑÑÐ°"
+msgstr "Гэта"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
-msgstr "ÐÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº Ð¼Ð¾Ð¶Ð° Ð½Ñ ÑÑÑÐ°ÑÑ, Ð½Ñ Ð¿ÑÑÐ°ÑÑ"
+msgstr "Карыстальнік можа ні чытаць, ні пісаць"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read"
-msgstr "ÐÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº Ð¼Ð¾Ð¶Ð° ÑÑÑÐ°ÑÑ"
+msgstr "Карыстальнік можа чытаць"
 
 #: app/scripts/controllers/users.js
 msgid "This user can read and write"
-msgstr "ÐÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº Ð¼Ð¾Ð¶Ð° ÑÑÑÐ°ÑÑ Ñ Ð¿ÑÑÐ°ÑÑ"
+msgstr "Карыстальнік можа чытаць і пісаць"
 
 #: app/scripts/controllers/users.js
 msgid "This user can write"
-msgstr "ÐÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº Ð¼Ð¾Ð¶Ð° Ð½Ð°Ð¿ÑÑÐ°ÑÑ"
+msgstr "Карыстальнік можа напісаць"
 
 #: app/scripts/controllers/users.js
 msgid "This user can't access"
-msgstr "ÐÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº Ð½Ðµ Ð¼Ð¾Ð¶Ð° Ð°ÑÑÑÐ¼Ð°ÑÑ Ð´Ð¾ÑÑÑÐ¿"
+msgstr "Карыстальнік не можа атрымаць доступ"
 
 #: app/views/users.html
 msgid "This user name is already in use"
-msgstr "ÐÑÑÐ° ÑÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ° ÑÐ¶Ð¾ Ð²ÑÐºÐ°ÑÑÑÑÐ¾ÑÐ²Ð°ÐµÑÑÐ°"
+msgstr "Гэта імя карыстальніка ўжо выкарыстоўваецца"
 
 #: app/views/register.html
 msgid "This user name is already taken"
-msgstr "ÐÑÑÐ° ÑÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ° ÑÐ¶Ð¾ ÑÑÐ½ÑÐµ"
+msgstr "Гэта імя карыстальніка ўжо існуе"
 
 #: app/views/users.html
 msgid "This user name is not valid"
-msgstr "ÐÑÑÐ° ÑÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ° Ð½Ðµ Ð´Ð·ÐµÐ¹Ð½ÑÑÐ°Ðµ"
+msgstr "Гэта імя карыстальніка не дзейнічае"
 
 #: app/views/customers.html
 msgid "This value is nor a Codice Fiscale nor a P.IVA"
-msgstr "ÐÑÑÐ° Ð·Ð½Ð°ÑÑÐ½Ð½Ðµ Ð·'ÑÑÐ»ÑÐµÑÑÐ° Ð½Ñ Codice Fiscale Ð½Ñ P.IVA"
+msgstr "Гэта значэнне з'яўляецца ні Codice Fiscale ні P.IVA"
 
 #: app/views/serviceReports.html
 msgid "Time of service start"
-msgstr "Ð§Ð°Ñ Ð¿Ð°ÑÐ°ÑÐºÑ Ð°Ð±ÑÐ»ÑÐ³Ð¾ÑÐ²Ð°Ð½Ð½Ñ"
+msgstr "Час пачатку абслугоўвання"
 
 #: app/views/nav.html
 msgid "Toggle navigation"
-msgstr "Ð¿ÐµÑÐ°ÐºÐ»ÑÑÑÑÑ Ð½Ð°Ð²ÑÐ³Ð°ÑÑÑ"
+msgstr "Пераключыць навігацыі"
 
 #: app/views/users.html
 msgid "User email address"
-msgstr "ÐÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº ÑÐ»ÐµÐºÑÑÐ¾Ð½Ð½Ð°Ð¹ Ð¿Ð¾ÑÑÑ"
+msgstr "Карыстальнік электроннай пошты"
 
 #: app/views/users.html
 msgid "User name"
-msgstr "ÐÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Імя карыстальніка"
 
 #: app/views/register.html
 msgid "User name is not valid"
-msgstr "ÐÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ° Ð½Ðµ Ð´Ð·ÐµÐ¹Ð½ÑÑÐ°Ðµ"
+msgstr "Імя карыстальніка не дзейнічае"
 
 #: app/views/register.html app/views/users.html
 msgid "Username"
-msgstr "ÐÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Імя карыстальніка"
 
 #: app/views/login.html
 msgid "Username / Email"
-msgstr "ÐÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°/ E- mail"
+msgstr "Імя карыстальніка/ E- mail"
 
 #: app/views/nav.html
 msgid "Users"
-msgstr "ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÑ"
+msgstr "Карыстальнікі"
 
 #: app/views/footer.html
 msgid "You are offline"
-msgstr "ÐÑ ÑÐ¾ÑÑÐ¼Ñ"
+msgstr "Вы форуму"
 
 #: app/views/footer.html
 msgid "You are online"
-msgstr "ÐÑ Ð½Ð° ÑÐ°Ð¹ÑÐµ"
+msgstr "Вы на сайце"
 
 #: app/views/register.html
 msgid "Your email"
-msgstr "Ð²Ð°Ñ Ð°Ð´ÑÐ°Ñ ÑÐ»ÐµÐºÑÑÐ¾Ð½Ð½Ð°Ð¹ Ð¿Ð¾ÑÑÑ"
+msgstr "Ваш адрас электроннай пошты"
 
 #: app/views/register.html
 msgid "Your password"
-msgstr "Ð²Ð°Ñ Ð¿Ð°ÑÐ¾Ð»Ñ"
+msgstr "Ваш пароль"
 
 #: app/views/register.html
 msgid "Your password, again"
-msgstr "ÐÐ°Ñ Ð¿Ð°ÑÐ¾Ð»Ñ, Ð·Ð½Ð¾Ñ"
+msgstr "Ваш пароль, зноў"
 
 #: app/views/register.html
 msgid "Your user name"
-msgstr "ÐÐ°ÑÐ° ÑÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°"
+msgstr "Ваша імя карыстальніка"
 
 #: app/views/login.html
 msgid "Your username or email"
-msgstr "ÐÐ°ÑÐ° ÑÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ° Ð°Ð±Ð¾ Ð°Ð´ÑÐ°Ñ ÑÐ»ÐµÐºÑÑÐ¾Ð½Ð½Ð°Ð¹ Ð¿Ð¾ÑÑÑ"
+msgstr "Ваша імя карыстальніка або адрас электроннай пошты"
 
 #: app/scripts/app.js
 msgid "cached"
-msgstr "ÐºÑÑÑÑÑÑÐ°"
+msgstr "кэшуюцца"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "Ð°Ð´Ð¼ÑÐ½ÑÑÑ"
+msgstr "адмяніць"
 
 #: app/scripts/app.js
 msgid "checking"
-msgstr "Ð¿ÑÐ°Ð²ÐµÑÐºÑ"
+msgstr "праверкі"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "customers"
-msgstr "ÐºÐ»ÑÐµÐ½ÑÑ"
+msgstr "кліенты"
 
 #: app/scripts/app.js
 msgid "downloading"
-msgstr "Ð·Ð°Ð³ÑÑÐ·ÐºÐ°"
+msgstr "загрузка"
 
 #: app/scripts/app.js
 msgid "error"
-msgstr "Ð¿Ð°Ð¼ÑÐ»ÐºÐ°"
+msgstr "памылка"
 
 #: app/views/home.html
 msgid "home page for non registered users."
-msgstr "Ð³Ð°Ð»Ð¾ÑÐ½Ð°Ñ Ð´Ð»Ñ ÑÐºÑÑ Ð½Ðµ Ð·Ð°ÑÑÐ³ÑÑÑÑÐ°Ð²Ð°Ð½ÑÑ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°Ñ."
+msgstr "галоўная для якія не зарэгістраваных карыстальнікаў."
 
 #: app/views/home.html
-#, 
 msgid "home page for registered users."
 msgstr "хатняя старонка для зарэгістраваных карыстальнікаў."
 
 #: app/scripts/app.js
 msgid "initializing"
-msgstr "ÑÐ½ÑÑÑÑÐ»ÑÐ·Ð°ÑÑÑ"
+msgstr "ініцыялізацыі"
 
 #: app/views/about.html
 msgid "is a web application for (smart) start-ups."
-msgstr "Ð³ÑÑÐ° Ð²ÑÐ±-Ð´Ð°Ð´Ð°ÑÐ°Ðº Ð´Ð»Ñ( SMART) ÑÑÐ°ÑÑÐ°Ð¿Ð¾Ð²."
+msgstr "гэта вэб-дадатак для( SMART) стартапов."
 
 #: app/views/nav.html
 msgid "logged user"
-msgstr "Ð°ÑÑÐ°ÑÑÐ·Ð°Ð²Ð°Ð½Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐº"
+msgstr "аўтарызаваны карыстальнік"
 
 #: app/scripts/app.js
 msgid "obsolete"
-msgstr "ÑÐ°ÑÑÐ°ÑÑÑ"
+msgstr "састарэў"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "orders"
-msgstr "Ð·Ð°ÐºÐ°Ð·Ñ"
+msgstr "заказы"
 
 #: app/views/home.html
 msgid "otherwise register a new accout and log in."
-msgstr "Ñ Ð°Ð´Ð²Ð°ÑÐ¾ÑÐ½ÑÐ¼ Ð²ÑÐ¿Ð°Ð´ÐºÑ Ð·Ð°ÑÑÐ³ÑÑÑÑÐ°Ð²Ð°ÑÑ Ð½Ð¾Ð²Ñ Ð²ÐµÐ´Ð°Ð¼Ð° Ñ ÑÐ²Ð°Ð¹ÑÑÑ."
+msgstr "у адваротным выпадку зарэгістраваць новы ведама і ўвайсці."
 
 #: app/views/home.html
 msgid "password:"
-msgstr "Ð¿Ð°ÑÐ¾Ð»Ñ:"
+msgstr "пароль:"
 
 #: app/scripts/app.js
 msgid "progress"
-msgstr "Ð¿ÑÐ°Ð³ÑÑÑ"
+msgstr "прагрэс"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "servicereports"
@@ -699,8 +699,8 @@ msgstr "updateready"
 
 #: app/views/home.html
 msgid "username:"
-msgstr "ÑÐ¼Ñ ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÐ°:"
+msgstr "імя карыстальніка:"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
-msgstr "ÐºÐ°ÑÑÑÑÐ°Ð»ÑÐ½ÑÐºÑ"
+msgstr "карыстальнікі"
