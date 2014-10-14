@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: defaultAppName\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Marco Solari <marcosolari@gmail.com>\n"
+"Last-Translator: Marco <marcosolari@gmail.com>\n"
 "Language-Team: \n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.9\n"
 
 #: app/views/serviceReports.html
 msgid "(hh:mm)"
@@ -18,41 +18,39 @@ msgstr "(hh:mm)"
 
 #: app/views/customers.html
 msgid "A Codice Fiscale or a P.IVA is required"
-msgstr "Un Codice Fiscale o P.IVA è necessario"
+msgstr "È necessario  un Codice Fiscale o P.IVA"
 
 #: app/views/customers.html app/views/serviceReports.html
 msgid "A customer name is required"
-msgstr "Un nome cliente è necessario"
+msgstr "È necessario un nome cliente"
 
 #: app/views/serviceReports.html
 msgid "A date of service start is required"
-msgstr "Una data di inizio del servizio è necessaria"
+msgstr "È necessaria una data di inizio del servizio"
 
 #: app/views/serviceReports.html
-msgid ""
-"A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
-msgstr ""
-"Una durata deve essere nella forma 'hh' o' hh:mm', e lunga almeno un minuto"
+msgid "A duration must be in the form 'hh' or 'hh:mm', and at least one minute long"
+msgstr "Una durata deve essere nella forma 'hh' o' hh:mm', e lunga almeno un minuto"
 
 #: app/views/serviceReports.html
 msgid "A location of service is required"
-msgstr "Una ubicazione del servizio è necessaria"
+msgstr "È necessario una ubicazione del servizio"
 
 #: app/views/register.html
 msgid "A password is required"
-msgstr "Una password è necessaria"
+msgstr "È necessaria una password"
 
 #: app/views/customers.html
 msgid "A phone number is required"
-msgstr "Un numero di telefono è necessario"
+msgstr "È necessario un numero di telefono"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "Un indirizzo stradale è necessario"
+msgstr "È necessario u indirizzo stradale"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
-msgstr "Un nome utente è necessario"
+msgstr "È necessario u nome utente"
 
 #: app/views/nav.html
 msgid "About"
@@ -72,11 +70,11 @@ msgstr "Indirizzo"
 
 #: app/views/customers.html app/views/register.html
 msgid "An email address is required"
-msgstr "Un indirizzo e-mail è necessario"
+msgstr "È necessario u indirizzo e-mail"
 
 #: app/views/serviceReports.html
 msgid "An operator is required"
-msgstr "Un operatore è necessario"
+msgstr "È necessario un operatore"
 
 #: app/views/footer.html
 msgid "An update is available: do you want to load it now?"
@@ -183,11 +181,8 @@ msgid "Confirm password"
 msgstr "Conferma password"
 
 #: app/views/home.html
-msgid ""
-"Connect using one of your social accounts, or log in with these credentials:"
-msgstr ""
-"Connettersi utilizzando uno dei propri account social oppure accedere con "
-"queste credenziali:"
+msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgstr "Connettiti utilizzando uno dei propri account social oppure accedere con queste credenziali:"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -339,12 +334,8 @@ msgid "It allows the management of customers, orders and service reports."
 msgstr "Permette la gestione dei clienti, ordini e rapporti di servizio."
 
 #: app/views/about.html
-msgid ""
-"It is open-source, fast, compact, extensible, resilient, international and "
-"mobile."
-msgstr ""
-"E' open-source, veloce, compatto, estensibile, resiliente, internazionale e "
-"mobile."
+msgid "It is open-source, fast, compact, extensible, resilient, international and mobile."
+msgstr "E' open-source, veloce, compatto, estensibile, resiliente, internazionale e mobile."
 
 #: app/views/serviceReports.html
 msgid "Location"
@@ -495,22 +486,12 @@ msgid "Roles"
 msgstr "Ruoli"
 
 #: app/views/users.html
-msgid ""
-"Roles for this user; click to slide through all states (RW -> R -> W -> none)"
-msgstr ""
-"Ruoli per questo utente; fai clic per scorrere attraverso tutti gli stati "
-"(RW -> R -> W -> nessuno)"
+msgid "Roles for this user; click to slide through all states (RW -> R -> W -> none)"
+msgstr "Ruoli per questo utente; fai clic per scorrere attraverso tutti gli stati (RW -> R -> W -> nessuno)"
 
 #: app/views/users.html
-msgid ""
-"Roles of the user: green color indicates permission for read and write, "
-"yellow means only read, blue only write, and red no permission. Sections "
-"are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
-msgstr ""
-"Ruoli degli utenti: il colore verde indica il permesso di lettura e "
-"scrittura, giallo sola lettura, blu solo scrittura, e rosso nessun permesso. "
-"Le sezioni sono: 'u' (utenti), 'c' (clienti), 'o' (ordini), 's' (rapporti di "
-"servizio)."
+msgid "Roles of the user: green color indicates permission for read and write, yellow means only read, blue only write, and red no permission. Sections are: 'u' (users), 'c' (customers), 'o' (orders), 's' (service reports)."
+msgstr "Ruoli degli utenti: il colore verde indica il permesso di lettura e scrittura, giallo sola lettura, blu solo scrittura, e rosso nessun permesso. Le sezioni sono: 'u' (utenti), 'c' (clienti), 'o' (ordini), 's' (rapporti di servizio)."
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "Save"

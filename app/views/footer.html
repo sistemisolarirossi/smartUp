@@ -1,13 +1,12 @@
 <div id="footer" ng-controller="AuthCtrl" class="footer no-print">
-  <!-- debug-only -->
 
-  <span show-device-class ng-show="debug">
-  </span>
-  <span ng-show="debug">&nbsp;</span>
+  <!-- debug-only -->
+  <span show-device-class ng-show="debug"> </span>
+  <span ng-show="debug"> </span>
   <!-- /debug-only -->
 
   <span class="debug" ng-show="debug">
-    last commit date: {{ lastBuildDate }}
+    last build date: {{ lastBuildDate }}
   </span>
 
   <span>&nbsp;</span>
@@ -45,13 +44,13 @@
 
   <span>&nbsp;</span>
 
-  <span class="i18n">
+  <span class="i18n" ng-controller="I18NCtrl">
     <span ng-hide="selectingLanguageFlag">
       <img ng-src="{{ getCurrentLanguageFlag() }}" ng-attr-title="{{ 'Current language is' | translate }} {{ getCurrentLanguageName() }}" ng-click="selectingLanguage()" />
     </span>
 
     <span ng-show="selectingLanguageFlag">
-      <select ng-model="selectedLanguage" class="btn btn-default btn-xxs" ng-change="languageSelected()" style="border-radius: 5px;">
+      <select ng-model="selectedLanguage" class="btn btn-default btn-xxs" ng-change="languageSelected()" ng-blur="languageSelected()">
         <option
           ng-repeat="language in supportedLanguagesSorted"
           value="{{ language.key }}"
@@ -66,17 +65,15 @@
 
   <span>&nbsp;</span>
 
-  <!-- TODO: is-online in main.css (img width: 16) -->
   <span class="is-online">
-    <span ng-show="online"><img src="icons/online.png" NOwidth="16" ng-attr-title="{{ 'You are online' | translate }}" /></span>
-    <span ng-hide="online"><img src="icons/offline.png" NOwidth="16" ng-attr-title="{{ 'You are offline' | translate }}" /></span>
+    <span ng-show="online"><img src="icons/online.png" ng-attr-title="{{ 'You are online' | translate }}" /></span>
+    <span ng-hide="online"><img src="icons/offline.png" ng-attr-title="{{ 'You are offline' | translate }}" /></span>
   </span>
 
   <span>&nbsp;</span>
 
-  <!-- TODO: footer-icon in main.css (img width: 16) -->
   <span class="footer-icon">
-    <img align="bottom" src="icons/logo-company-16x16.png" NOwidth="16" ng-attr-title="{{'Company logo' | translate }}" /> &copy; 2014, Sistemi Solari Rossi
+    <img align="bottom" src="icons/logo-company-16x16.png" ng-attr-title="{{'Company logo' | translate }}" /> &copy; 2014, Sistemi Solari Rossi
   </span>
 
 </div>

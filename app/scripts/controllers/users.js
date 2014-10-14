@@ -38,7 +38,7 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
   }
   */
   $scope.$watch('formAddEdit.$valid', function(value) {
-    console.info('form edit validity is', value);
+    //console.info('form edit validity is', value);
     $scope.formAddEditValid = value;
   });
 
@@ -70,7 +70,6 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
 
   $scope.submitUser = function () {
     console.info('sumbit User, form is valid?', $scope.formAddEditValid);
-    /* TODO: use custom validations server side (Firebase) */
     $scope.formAddEditSubmitted = true; // allow validation errors to be shown
     if (!$scope.formAddEditValid) {
       return;
@@ -87,7 +86,7 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
 
   $scope.cancelUser = function () {
     $scope.initUser();
-    console.log('CANCEL - user now is empty:', $scope.user);
+    //console.log('CANCEL - user now is empty:', $scope.user);
   };
 
   $scope.deleteUser = function (user) {

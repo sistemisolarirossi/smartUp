@@ -21,7 +21,7 @@ body[orient="landscape"] { min-height:400px; }
 /* ************************************************ */
 
 /* offlline style */
-.offline {
+.offline { /* TODO: use a different background-color for some element, instead... */
   background: url(../icons/noise.jpg);
 }
 

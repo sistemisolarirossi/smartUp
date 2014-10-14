@@ -78,11 +78,9 @@
     $entries = $poparser->parse($poFilePath);
     foreach ($entries as $entry) {
       // we use --no-wrap when msg-merging, so we only have one msgstr per msgid
-      $i = 0;
-      $src = $entry['msgid'][$i];
-      $dst = $entry['msgstr'][$i];
+      $src = $entry['msgid'][0];
+      $dst = $entry['msgstr'][0];
       $fuzzy = isset($entry['fuzzy']);
-      # TODO: test if "fuzzy" works as expected (set when changing an entry in sources)?
       if ($src) {
         if (!$dst or $fuzzy) {
           // no translation, or fuzzy translation: translate it
@@ -100,25 +98,20 @@
           }
 
           $dst = preg_replace('/\s+([[,.:;]])/', '\\1', $dst); // remove extra spaces before punctuation marks
-          $dst = preg_replace('/\(\s+(.*?)\s+\)/', '(\\1)', $dst); // remove extra spaces inside round parentheses
-          $dst = preg_replace('/\[\s+(.*?)\s+\]/', '[\\1]', $dst); // remove extra spaces inside square parentheses
+          $dst = preg_replace('/\(\s*(.*?)\s*\)/', '(\\1)', $dst); // remove extra spaces inside round parentheses
+          $dst = preg_replace('/\[\s*(.*?)\s*\]/', '[\\1]', $dst); // remove extra spaces inside square parentheses
 
           #print ($fuzzy ? "{" : "[") . $dst . ($fuzzy ? "}" : "]") . " ";
 
           // update poParser entry with auto translated string
           $poparser->updateEntry($src, $dst);
         } else {
-          # TODO: profile the slowness when no translation is needed...
+          // no translation is needed
         }
       }
     }
     // update poFile with poParser translated entries
-// TODO: try to delete this...
-    $poFilePathTranslated = tempnam("/tmp", $language . ".po-");
-    $poparser->write($poFilePathTranslated);
-    /* Sepia PoParser does not write UTF8... */
-    fileEncodeToUTF8($poFilePathTranslated);
-    rename($poFilePathTranslated, $poFilePath);
+    $poparser->write($poFilePath);
 
     // unlink - if present - any .mo language file (we do not use them)
     if (file_exists($moFilePath)) {

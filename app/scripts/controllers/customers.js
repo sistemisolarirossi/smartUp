@@ -40,7 +40,6 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
 
   $scope.submitCustomer = function () {
     console.info('sumbit customer');
-    /* TODO: use custom validations server side (Firebase) */
     $scope.formAddEditSubmitted = true; // allow validation errors to be shown
     if (!$scope.formAddEditValid) {
       return;
@@ -64,14 +63,6 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
     $scope.initCustomer();
     console.log('CANCEL - customer now is empty:', $scope.customer);
   };
-
-/*
-  $scope.deleteCustomerById = function (customerId) { // TODO: do we need this?
-    Customer.delete(customerId);
-    var id = customer.$id;
-    Customer.delete(id);
-  };
-*/
 
   $scope.deleteCustomer = function (customer) {
     console.info('deleteCustomer:', customer);

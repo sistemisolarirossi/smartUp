@@ -6,10 +6,13 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
   $rootScope.$on('$localeChangeSuccess', function () { $route.reload(); });
 
   var I18N = {
-    // TODO: remove t() if unused...
-    t: function(string) {
-      //return gettextCatalog.getString(string, null);
-      return gettext(string);
+    init: function() {
+      return {
+        selectedLanguage: this.setCurrentLanguage(),
+        supportedLanguages: this.getSupportedLanguages(),
+        supportedLanguagesSorted: this.getSupportedLanguagesSorted(),
+        selectingLanguageFlag: false,
+      };
     },
     getSupportedLanguages: function() {
       return { /* supported languages: these are main world cultures (those supported by Google *and* Angular) */
@@ -89,6 +92,15 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
         'zu': 'Zulu',
       };
     },
+    getSupportedLanguagesSorted: function () {
+      var languages = this.getSupportedLanguages();
+      var sortable = [];
+      for (var language in languages) {
+        sortable.push({key: language, des: languages[language]});
+      }
+      sortable.sort(function(a, b) { return (a.des < b.des) ? -1 : (a.des > b.des) ? 1 : 0; });
+      return sortable;
+    },
     getDefaultLanguage: function () {
       return defaultLanguage;
     },
@@ -99,15 +111,12 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
       return this.currentLanguage ? this.currentLanguage : this.getDefaultLanguage();
     },
     getCurrentLanguageName: function() {
-      //return this.getSupportedLanguages()[this.getCurrentLanguage()].name;
       return this.getSupportedLanguages()[this.getCurrentLanguage()];
     },
     getCurrentLanguageFlag: function() {
-      //return this.getSupportedLanguages()[this.getCurrentLanguage()].flag;
       return 'icons/flags/' + this.getCurrentLanguage() + '.png';
     },
     getCurrentLanguageScript: function() {
-      //return this.getSupportedLanguages()[this.getCurrentLanguage()].script;
       return 'scripts/i18n/angular-locale_' + this.getCurrentLanguage() + '.js';
     },
     setCurrentLanguage: function(language) {
@@ -144,41 +153,7 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
       }
       return this.currentLanguage;
     },
-    setNextLanguage: function () {
-      // scan supported languages associative array and find lexically next language
-      var languages = this.getSupportedLanguages();
-      var keys = [];
-      for (var key in languages) {
-        if (languages.hasOwnProperty(key)) {
-          keys.push(key);
-        }
-      }
-      keys.sort();
-      var nextLanguage; // = keys[0]; // the default, in case current language is default la
-//console.info(Object.keys(languages).length);
-      for (var i = 0; i < keys.length; i++) {
-        if (keys[i] === this.currentLanguage) {
-          nextLanguage = keys[++i >= keys.length ? 0 : i];
-          break;
-        }
-      }
-//console.info(this.setCurrentLanguage(nextLanguage));
-      return this.setCurrentLanguage(nextLanguage);
-    },
   };
 
   return I18N;
 });
-
-/*
-  Multilingual date formats are:
-
-  'medium': equivalent to 'MMM d, y h:mm:ss a' for en_US locale (e.g. Sep 3, 2010 12:05:08 pm)
-  'short': equivalent to 'M/d/yy h:mm a' for en_US locale (e.g. 9/3/10 12:05 pm)
-  'fullDate': equivalent to 'EEEE, MMMM d,y' for en_US locale (e.g. Friday, September 3, 2010)
-  'longDate': equivalent to 'MMMM d, y' for en_US locale (e.g. September 3, 2010)
-  'mediumDate': equivalent to 'MMM d, y' for en_US locale (e.g. Sep 3, 2010)
-  'shortDate': equivalent to 'M/d/yy' for en_US locale (e.g. 9/3/10)
-  'mediumTime': equivalent to 'h:mm:ss a' for en_US locale (e.g. 12:05:08 pm)
-  'shortTime': equivalent to 'h:mm a' for en_US locale (e.g. 12:05 pm)
-*/

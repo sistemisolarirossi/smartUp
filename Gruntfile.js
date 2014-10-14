@@ -60,12 +60,11 @@ module.exports = function (grunt) {
       nggettextExtract: {
         files: [
           '<%= yeoman.app %>/**/*.html',
-          '<%= yeoman.app %>/scripts/**/*.js',
-          '!<%= yeoman.app %>/scripts/translations.js' // TODO: REMOVE-ME when lazy-loading translations does work...
+          '<%= yeoman.app %>/scripts/**/*.js'
         ],
         tasks: [
           'nggettext_extract',
-          'exec:poAutoTranslate',
+          //'exec:poAutoTranslate', // TODO: enable this before production, disable to speed ut development...
         ]
       },
       nggettextCompile: {
@@ -522,20 +521,21 @@ module.exports = function (grunt) {
       }
     },
 
-    /* jshint camelcase: false */
+/*
+    / * jshint camelcase: false * /
     nggettext_compile: {
-    /* jshint camelcase: true */
+    / * jshint camelcase: true * /
       all: {
         files: {
           'app/scripts/translations.js': ['po/*.po']
         }
       }
     }
+*/
 
-/*
-    /* jshint camelcase: false * /
+    /* jshint camelcase: false */
     nggettext_compile: {
-    /* jshint camelcase: true * /
+    /* jshint camelcase: true */
       all: {
         options: {
           format: 'json'
@@ -543,16 +543,16 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            dot: true,
-            cwd: 'po',
-            dest:  '<%= yeoman.app %>/i18n',
-            src: [ 'po/*.po' ],
-            ext: '.json'
+            cwd: 'po/',
+            dest:  '<%= yeoman.app %>/i18n/',
+            src: [ '*.po' ],
+            ext: '.json',
+            extDot: 'last'
           }
         ]
       },
     },
-*/
+
   });
 
   grunt.loadNpmTasks('grunt-auto-install');

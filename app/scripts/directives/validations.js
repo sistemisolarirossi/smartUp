@@ -117,7 +117,6 @@ app.directive('checkCustomerName', function(Customer) {
       value: '=ngModel'
     },
     link: function(scope, elm, attrs, model) {
-      //var CUSTOMERNAME_REGEXP = /^[^\[\]\{\}\/#]+$/; // TODO: find a better regexp...
       var CUSTOMERNAME_REGEXP = /^([ \u00c0-\u01ffa-zA-Z0-9\'\.\,\-\/\&])+$/;
       var retval;
       model.$parsers.unshift(function(viewValue) {
@@ -194,7 +193,7 @@ app.directive('checkPassword', function() {
       var retval;
       model.$parsers.unshift(function(viewValue) {
         // TODO: better check password strength
-        if (viewValue.length >= 1/*8*/) { // TODO: reset to 8...
+        if (viewValue.length >= 8) {
           model.$setValidity('invalid', true);
           retval = viewValue;
         } else {

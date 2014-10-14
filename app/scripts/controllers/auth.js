@@ -1,7 +1,7 @@
 'use strict';
  
 app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettext, gettextCatalog, Auth, User) {
-  $rootScope.formLabel = '';
+  //$rootScope.formLabel = '';
 
 /* Commenting this check to allow registering new users for signed-in users...
    Should allow only administrators?
@@ -13,8 +13,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
 */
 
   $scope.params = $routeParams;
-  $scope.error = null;
-  $scope.info = null;
   $scope.debug = CFG.DEBUG;
   $scope.lastBuildDate = lastBuildDate;
 
@@ -71,7 +69,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
           msg = gettext('An update is ready');
           $window.applicationCache.swapCache();
           $window.location.reload();
-          $rootScope.appcache.status = 'initializing'; // TODO: FF needs this?... why?
+          $rootScope.appcache.status = 'initializing';
           break;
         default: // shouldn't happen
           msg = gettext('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
@@ -81,11 +79,19 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     };
   }
 
-  /* TODO: do we need this?
-  $scope.appcacheUpdate = function () {
-    console.info('appcacheUpdate()');
+  $scope.init = function () {
+    $scope.selectedLanguage = $scope.getCurrentLanguage();
+    $scope.supportedLanguages = $scope.getSupportedLanguages();
+    $scope.supportedLanguagesSorted = $scope.getSupportedLanguagesSorted();
+    $scope.selectingLanguageFlag = false;
+    $scope.error = null;
+    $scope.info = null;
   };
-  */
+
+  $scope.reset = function() {
+    $scope.error = null;
+    $scope.info = null;
+  };
 
   $scope.register = function (valid) {
     console.info('controller - register');
@@ -185,10 +191,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     }, function (error) {
       console.error = 'loginSocial('+provider+') failed (' + error.message + ')';
       toastr.error = 'loginSocial('+provider+') failed (' + error.message + ')';
-    })/*.catch(error) {
-      console.error = 'CATCHED loginSocial('+provider+') failed (' + error + ')';
-      toastr.error = 'CATCHED loginSocial('+provider+') failed (' + error.message + ')';      
-    }*/;
+    });
   };
 
   $scope.logout = function () {
@@ -220,23 +223,16 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     });
   };
 
-  $scope.reset = function() {
-    $scope.error = null;
-    $scope.info = null;
-  };
-
   $scope.getSupportedLanguages = function () {
     return I18N.getSupportedLanguages();
   };
   $scope.getSupportedLanguagesSorted = function () {
-    // TODO: why Chromium doesn't sort correctly???
     var languages = I18N.getSupportedLanguages();
     var sortable = [];
     for (var language in languages) {
       sortable.push({key: language, des: languages[language]});
     }
     sortable.sort(function(a, b) { return a.des > b.des; });
-    //console.info('sortable:', sortable);
     return sortable;
   };
   $scope.getCurrentLanguage = function () {
@@ -251,9 +247,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   $scope.getCurrentLanguageScript = function () {
     return I18N.getCurrentLanguageScript();
   };
-  $scope.setNextLanguage = function () {
-    return I18N.setNextLanguage();
-  };
   $scope.setCurrentLanguage = function (language) {
     return I18N.setCurrentLanguage(language);
   };
@@ -266,13 +259,5 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     return I18N.setCurrentLanguage($scope.selectedLanguage);
   };
 
-console.info('****************** AUTH CONTROLLER ******************');
-  $scope.selectedLanguage = $scope.getCurrentLanguage();
-  //console.log('$scope.getCurrentLanguage:', $scope.getCurrentLanguage());
-  $scope.selectingLanguageFlag = false;
-  $scope.supportedLanguages = $scope.getSupportedLanguages();
-  $scope.supportedLanguagesSorted = $scope.getSupportedLanguagesSorted();
-  
   $scope.reset();
-
 });

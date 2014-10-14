@@ -42,7 +42,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
       //return null;
     },
     login: function (user) {
-      // TODO: move this in controller //////////////////////
+      // TODO: move this to controller...
       /* decide if user did pass a username or an email */
       if (user.usernameOrEmail && user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
         //console.log('user inserted value looks like an email');
@@ -76,7 +76,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
       });
     },
     loginSocial: function (provider) {
-      return auth.$login(provider, { // TODO: test usage with wrong provider...
+      return auth.$login(provider, { // provider must be supported, otherwise we get a runtime error
         rememberMe: true,
         scope:
           (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
@@ -87,14 +87,14 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
           // twitter: 'user_friends,email' (see https://developers.facebook.com/docs/reference/login/#permissions)
         /* jshint camelcase: false */
         oauth_token: (provider === 'twitter') ? 'true' : null, // skip the OAuth popup-dialog and create a user session directly using an existing twitter session
-        preferRedirect: false // true redirects to google (doesn't work properly...), instead of using a popup
+        preferRedirect: true // true redirects to google, instead of using a popup
       });
     },
     logout: function () {
       auth.$logout();
     },
-    delete: function (user) { // TODO: test this
-      return auth.$removeUser(user.email, user.password, function(error) { // password is password_hash ?
+    delete: function (user) { // TODO: rethink use-case for this method: we must know user.password...
+      return auth.$removeUser(user.email, user.password, function(error) {
         if (error === null) {
           console.info('User removed successfully');
         } else {
@@ -104,8 +104,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
         return error;
       });
     },
-    sendPasswordResetEmail: function (email) { // TODO: test this
-      //console.info('auth:', auth, email);
+    sendPasswordResetEmail: function (email) {
       return auth.$sendPasswordResetEmail(email).then(
         null,
         function (error) {
