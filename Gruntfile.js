@@ -338,7 +338,7 @@ module.exports = function (grunt) {
             '*.appcache',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'icons/{,*/}*.{ico,png}',
+            'icons/**/*.{ico,png}',
             'i18n/{,*/}*.json',
           ]
         }, {
