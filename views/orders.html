@@ -1,0 +1,20 @@
+<div class="container orders-page"> <div ng-show="signedIn()" ng-controller="OrdersCtrl"> owner: {{owner}} <hr> <div class="order row" ng-repeat="(orderId, order) in orders"> <!--
+      <div class="col-xs-7">
+        <span class="info">
+          <a href="{{ order.url }}">{{ order.title }}
+            <span class="url">[{{ order.url | hostnameFromUrl }}]</span>
+          </a>
+        </span>
+      </div>
+      <div class="col-xs-3">
+        <span>by <a href="#/users/{{ order.owner }}">{{ order.owner }}</a></span>
+      </div>
+      <div class="col-xs-2" style="white-space: nowrap;" >
+        <a href="#/orders/{{ orderId }}"><span class="glyphicon glyphicon-list" title="order details"></span></a>
+        &nbsp;
+        <a href="#/orders" ng-click="deleteOrder(orderId)" ng-show="signedIn() && order.owner === currentUser.username"><span class="glyphicon glyphicon-trash" title="remove order"></span></a>
+      </div>
+--> <div ng-hide="order.hasOwnProperty('deleted')"> <div class="col-xs-3"> {{ order.customer }} </div> <div class="col-xs-2"> {{ order.date | date: 'yyyy-MM-dd HH:mm' }} </div> <div class="col-xs-3"> {{ order.title }} </div> <div class="col-xs-2"> {{ order.delivery }} </div> <div class="col-xs-2" style="white-space: nowrap"> <a href="#/orders/{{ orderId }}"><span class="glyphicon glyphicon-list" title="order details"></span></a> &nbsp; <a href="#/orders" ng-click="deleteOrder(orderId)"><span class="glyphicon glyphicon-trash" title="remove order"></span></a> </div> </div> </div> <hr> <input type="button" value="New order" ng-show="signedIn() && !adding" ng-click="adding = true"> <form ng-submit="submitOrder()" ng-show="signedIn() && adding"> <input type="text" ng-model="order.customer" placeholder="customer name"><br><br> <input type="text" ng-model="order.title" placeholder="title"><br><br> <input type="datetime" ng-model="order.date" p_laceholder="{{ order.date | date: 'yyyy-MM-dd' }}"><br><br> <input type="text" ng-model="order.delivery" placeholder="delivery"><br><br> <!--
+      <input type="text" ng-model="order.title" />
+      <input type="text" ng-model="order.url" />
+--> <button type="submit">Add order</button> <button type="reset" ng-click="adding = false">cancel</button> </form> </div> </div>
