@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(ಹೆಚ್ಹೆಚ್ : ಮಿಮೀ)"
 
@@ -353,10 +352,6 @@ msgstr "ಲಾಗ್ ಇನ್"
 msgid "Log out"
 msgstr "ಲಾಗ್ ಔಟ್"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "ಎನ್"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "ಹೆಸರು"
@@ -388,6 +383,10 @@ msgstr "ಟಿಪ್ಪಣಿಗಳು"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "ಸಂಖ್ಯೆ"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "ಎನ್ °"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -704,3 +703,6 @@ msgstr "ಬಳಕೆದಾರ ಹೆಸರು:"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "ಬಳಕೆದಾರರು"
+
+#~ msgid "N"
+#~ msgstr "ಎನ್"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "（ HH：MM ）"
 
@@ -353,10 +352,6 @@ msgstr "登錄"
 msgid "Log out"
 msgstr "註銷"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "Ñ"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "產品名稱"
@@ -388,6 +383,10 @@ msgstr "注意事項"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "數"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "車次"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -704,3 +703,6 @@ msgstr "用戶名："
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "用戶"
+
+#~ msgid "N"
+#~ msgstr "Ñ"

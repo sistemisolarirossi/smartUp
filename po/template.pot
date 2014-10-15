@@ -356,10 +356,6 @@ msgstr ""
 msgid "Log out"
 msgstr ""
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr ""
-
 #: app/views/customers.html
 msgid "Name"
 msgstr ""
@@ -390,6 +386,10 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Number"
+msgstr ""
+
+#: app/views/serviceReports.html
+msgid "N°"
 msgstr ""
 
 #: app/views/serviceReports.html

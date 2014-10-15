@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -353,10 +352,6 @@ msgstr "เข้าสู่ระบบ"
 msgid "Log out"
 msgstr "ออกจากระบบ"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "ยังไม่มีข้อความ"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "ชื่อ"
@@ -388,6 +383,10 @@ msgstr "หมายเหตุ"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "จำนวน"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "ยังไม่มี °"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -704,3 +703,6 @@ msgstr "ชื่อผู้ใช้:"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "ผู้ใช้"
+
+#~ msgid "N"
+#~ msgstr "ยังไม่มีข้อความ"

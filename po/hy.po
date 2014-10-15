@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : մմ)"
 
@@ -353,10 +352,6 @@ msgstr "Գեղեցկության մրցույթ"
 msgid "Log out"
 msgstr "Ելք"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "N"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "Անունը"
@@ -388,6 +383,10 @@ msgstr "Նշումներ"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "Քան"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "N °"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -704,3 +703,6 @@ msgstr "մականուն:"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "ալբոմներ"
+
+#~ msgid "N"
+#~ msgstr "N"

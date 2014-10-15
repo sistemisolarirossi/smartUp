@@ -353,10 +353,6 @@ msgstr "Login"
 msgid "Log out"
 msgstr "Esci"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "N"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "Nome"
@@ -388,6 +384,10 @@ msgstr "Note"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "Numero"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "N°"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -707,3 +707,6 @@ msgstr "utenti"
 
 #~ msgid "Dog"
 #~ msgstr "Cane"
+
+#~ msgid "N"
+#~ msgstr "N"

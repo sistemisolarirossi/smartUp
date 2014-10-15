@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(aa: mm)"
 
@@ -353,10 +352,6 @@ msgstr "Mewngofnodi"
 msgid "Log out"
 msgstr "Allgofnodi"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "N"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "Enw"
@@ -388,6 +383,10 @@ msgstr "Nodiadau"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "Rhif"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "N °"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -704,3 +703,6 @@ msgstr "enw defnyddiwr:"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "defnyddwyr"
+
+#~ msgid "N"
+#~ msgstr "N"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(ХХ : мм)"
 
@@ -353,10 +352,6 @@ msgstr "Лог ин"
 msgid "Log out"
 msgstr "Одјавите"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "Н"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "Назив"
@@ -388,6 +383,10 @@ msgstr "Нотес"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "Број"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "Н °"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -704,3 +703,6 @@ msgstr "корисничко име:"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "усерс"
+
+#~ msgid "N"
+#~ msgstr "Н"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh: mm)"
 
@@ -353,10 +352,6 @@ msgstr "Daxil ol"
 msgid "Log out"
 msgstr "Daxil"
 
-#: app/views/serviceReports.html
-msgid "N"
-msgstr "N"
-
 #: app/views/customers.html
 msgid "Name"
 msgstr "Adı"
@@ -388,6 +383,10 @@ msgstr "Qeydlər"
 #: app/views/serviceReports.html
 msgid "Number"
 msgstr "Sayı"
+
+#: app/views/serviceReports.html
+msgid "N°"
+msgstr "N °"
 
 #: app/views/serviceReports.html
 msgid "Operator"
@@ -704,3 +703,6 @@ msgstr "istifadəçi adı:"
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "istifadəçilər"
+
+#~ msgid "N"
+#~ msgstr "N"
