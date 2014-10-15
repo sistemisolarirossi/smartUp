@@ -1,8 +1,15 @@
 'use strict';
  
-app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, CFG, User) {
-  var ref = new Firebase(CFG.FIREBASE_URL);
-  var auth = $firebaseSimpleLogin(ref);
+app.factory('Auth', function ($rootScope, $firebase, /*$firebaseSimpleLogin, */ $location, $q, CFG, User) {
+  var refAuth = new Firebase(CFG.FIREBASE_URL);
+    //var auth = $firebaseSimpleLogin(refAuth);
+    // TODO: uninstall firebasesimplelogin ...!!!
+    /*
+    var syncAuth = $firebase(refAuth);
+    var auth = syncAuth.$asObject();
+    */
+    var auth = $firebase(refAuth);
+
   //var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
   //var users = $firebase(refUsers);
   //var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
@@ -42,6 +49,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
       //return null;
     },
     login: function (user) {
+      console.warn('login(user):', user);
       // TODO: move this to controller...
       /* decide if user did pass a username or an email */
       if (user.usernameOrEmail && user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
@@ -51,6 +59,7 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
         // try matching user value against user names
         //console.log('user inserted value looks like an username');
         var existingUser = User.findByUsername(user.usernameOrEmail); //users.$child(user.usernameOrEmail);
+      console.warn('login() - existingUser:', existingUser);
         if (existingUser && existingUser.email) { // user email is found as a user name
           user.email = existingUser.email; // set user email with found user email field
         } else { // check if user exists but is deleted
@@ -58,23 +67,67 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
           if (existingDeletedUser && existingDeletedUser.email) { // user email is found as a user name
            user.email = existingDeletedUser.email; // set user email with found user email field
           } else {
+/*
             //user.email = null; // no user.email set, auth.$login will fail...
-            console.warn('return defer error, existingUser undefined or without email:', existingUser);
+            console.warn('return defer error, existingUser undefined or without email:', user.usernameOrEmail);
             // return deferred null
             var deferred = $q.defer();
             deferred.resolve(null);
             return deferred.promise;
+*/
           }
         }
       }
       //////////////////////////////////////////////////////
+/*
+      console.log('auth:', auth);
       return auth.$login('password', {
         email: user.email,
         password: user.password,
         rememberMe: true,
         debug: CFG.DEBUG
       });
+*/
+      refAuth.authWithPassword({
+        email: 'sistemisolarirossi@gmail.com', //user.email,
+        password: '+piluxtutti' //user.password,
+      }, function(err, authData) {
+        if (err) {
+          console.error('Error during authentication:', err);
+          //$scope.error = 'Please specify an existing username/email';
+        } else {
+          console.info('Authentication success:', authData);
+          var user = User.find(authData.uid);
+          console.info('user:', user);
+          User.setCurrentUser(user);
+          //User.undelete(user); // restore user if it was deleted
+          $location.path('/');
+          $location.path('/');
+          console.info('location-path');
+        }
+      });
     },
+/*
+    loggedin: function (authData) {
+console.info('loggedin()');
+      if (authData) {
+        console.info('loggedin - authData:', authData);
+        if (authData) {
+          var user = User.find(authData.uid);
+          User.setCurrentUser(user);
+          User.undelete(user); // restore user if it was deleted
+          $location.path('/');
+        } else {
+          // TODO: handle offline status, here... (?)
+          //$scope.error = 'Please specify an existing username/email';
+        }
+      } else {
+        // TODO: handle offline status, here...
+console.log = '...loggedin with null authdata...';
+        //$scope.error = 'Please specify an existing username/email';
+      }
+    },
+*/
     loginSocial: function (provider) {
       return auth.$login(provider, { // provider must be supported, otherwise we get a runtime error
         rememberMe: true,
@@ -91,7 +144,8 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
       });
     },
     logout: function () {
-      auth.$logout();
+      //auth.$logout();
+      refAuth.unauth();
     },
     delete: function (user) { // TODO: rethink use-case for this method: we must know user.password...
       return auth.$removeUser(user.email, user.password, function(error) {
@@ -113,6 +167,18 @@ app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, C
       );
     }
   };
+
+/*
+  refAuth.onAuth(function(authData) {
+    if (authData) {
+      // user authenticated with Firebase
+      console.log(' *** onAuth(): User ID: ' + authData.uid + ', Provider: ' + authData.provider);
+      $location.path('/');
+    } else {
+      console.log(' *** onAuth(): LOGOUT');
+    }
+  });
+*/
 
   $rootScope.signedIn = function () {
     return Auth.signedIn();

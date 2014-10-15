@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, CFG, I18N, gettext, gettextCatalog, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $firebase,      $location, $window, CFG, I18N, gettext, gettextCatalog, Auth, User) {
   //$rootScope.formLabel = '';
 
 /* Commenting this check to allow registering new users for signed-in users...
@@ -11,6 +11,8 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $location.path('/');
   }
 */
+  var refAuth = new Firebase(CFG.FIREBASE_URL);
+  //var auth = $firebase(refAuth);
 
   $scope.params = $routeParams;
   $scope.debug = CFG.DEBUG;
@@ -141,22 +143,45 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   };
 
   $scope.login = function () {
+    console.log('scope.login()');
     $scope.$broadcast('autofillFix:update');
-    if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {
-      Auth.login($scope.user).then(function (authUser) {
-        console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
-        if (authUser) {
-          var user = User.find(authUser.uid);
-          User.setCurrentUser(user);
-          User.undelete(user); // restore user if it was deleted
-          $location.path('/');
-        } else {
-          // TODO: handle offline status, here...
-          $scope.error = 'Please specify an existing username/email';
+    if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {    
+      if ($scope.user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
+        //console.log('user inserted value looks like an email');
+        $scope.user.email = $scope.user.usernameOrEmail; // set user email with user inserted value
+      } else { // user value doesn't look like an email
+        // try matching user value against user names
+        //console.log('user inserted value looks like an username');
+        var existingUser = User.findByUsername($scope.user.usernameOrEmail); //users.$child(user.usernameOrEmail);
+        //console.warn('login() - existingUser:', existingUser);
+        if (existingUser && existingUser.email) { // user email is found as a user name
+          $scope.user.email = existingUser.email; // set user email with found user email field
+        } else { // check if user exists but is deleted
+          var existingDeletedUser = User.findByUsername('_' + $scope.user.usernameOrEmail); //users.$child(user.usernameOrEmail);
+          if (existingDeletedUser && existingDeletedUser.email) { // user email is found as a user name
+           $scope.user.email = existingDeletedUser.email; // set user email with found user email field
+          } else {
+            $scope.error = 'Username not existing';
+            return;
+          }
         }
-      }, function (error) {
-        console.warn('Auth.login($scope.user).then() RETURNED ERROR. user was', $scope.user);
-        $scope.error = 'Login failed (' + error.message + ')';
+      }
+      refAuth.authWithPassword({
+        email: $scope.user.email,
+        password: $scope.user.password,
+      }, function(err, authData) {
+        if (err) {
+          console.error('Error during authentication:', err);
+          $scope.error = err.message + ' ' + 'Please try again' + '.';
+        } else {
+          console.info('Authentication success:', authData);
+          var user = User.find(authData.uid);
+          User.setCurrentUser(user);
+            // TODO: rethink user deletion/undeletion
+            //User.undelete(user); // restore user if it was deleted
+          $location.path('/');
+          $scope.$apply(); // TODO: why picchè we need to apply scope?
+        }
       });
     } else {
       if (!$scope.user) {
@@ -174,11 +199,35 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
   };
 
   $scope.loginSocial = function (provider) {
+    console.log('provider:', provider);
+    if (provider) {
+      var x = refAuth.authWithOAuthRedirect(provider, function(err, authData) {
+        if (err) {
+          console.error('Error during social authentication:', err);
+          $scope.error = err.message + ' ' + 'Please try again' + '.';
+        } else {
+          console.info('Social authentication success:', authData);
+          var user = User.find(authData.uid);
+          User.setCurrentUser(user);
+            // TODO: rethink user deletion/undeletion
+            //User.undelete(user); // restore user if it was deleted
+          //$location.path('/');
+          //$scope.$apply(); // TODO: why picchè we need to apply scope?
+        }
+      }, {
+remember: true,
+scope: 'https://www.googleapis.com/auth/userinfo.profile'
+//remember: 'sessionOnly',
+//scope: 'https://www.googleapis.com/auth/plus.login'
+      }
+    );
+  console.log('x:', x);
+/*
     Auth.loginSocial(provider).then(function (authUser) {
       //console.warn('Auth.loginSocial(provider).then() RETURNED - authUser:', authUser);
       User.create(authUser).then(
         function () {
-          /* success */
+          // success
           //var user = User.findByUid(authUser.uid);
           var user = User.find(authUser.uid);
           User.setCurrentUser(user);
@@ -192,6 +241,25 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       console.error = 'loginSocial('+provider+') failed (' + error.message + ')';
       toastr.error = 'loginSocial('+provider+') failed (' + error.message + ')';
     });
+
+
+      auth.$login(provider, { // provider must be supported, otherwise we get a runtime error
+        rememberMe: true,
+        scope:
+          (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
+          (provider === 'facebook') ? 'email' :
+          null, // a comma-delimited list of requested extended permissions
+          // google: 'https://www.googleapis.com/auth/plus.login' (see https://developers.google.com/+/api/oauth)
+          // facebook: 'user_friends,email' (see https://developers.facebook.com/docs/reference/login/#permissions)
+          // twitter: 'user_friends,email' (see https://developers.facebook.com/docs/reference/login/#permissions)
+        / * jshint camelcase: false * /
+        oauth_token: (provider === 'twitter') ? 'true' : null, // skip the OAuth popup-dialog and create a user session directly using an existing twitter session
+        preferRedirect: true // true redirects to google, instead of using a popup
+      });
+*/
+    } else { // should not happen
+      $scope.error = 'Please specify an authentication provider';
+    }
   };
 
   $scope.logout = function () {
@@ -223,6 +291,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     });
   };
 
+/*
   $scope.getSupportedLanguages = function () {
     return I18N.getSupportedLanguages();
   };
@@ -258,6 +327,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.selectingLanguageFlag = false;
     return I18N.setCurrentLanguage($scope.selectedLanguage);
   };
-
+*/
   $scope.reset();
 });

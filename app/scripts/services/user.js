@@ -2,13 +2,25 @@
  
 app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
   var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
+        console.info('refUsers:', refUsers);
+/*
   var users = $firebase(refUsers);
+        console.info('users:', users);
+*/
+  var syncUsers = $firebase(refUsers);
+  //// create a synchronized array (read-only)
+  //var users = sync.$asArray();
+  // create a synchronized object
+  var users = syncUsers.$asObject();
+console.log(' --- users:', users);
+
   var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
-  var usersByName = $firebase(refUsersByName);
+  var syncUsersByName = $firebase(refUsersByName);
+  var usersByName = syncUsersByName.$asObject();
   var avatarsBaseUrl = 'http://www.gravatar.com/avatar/';
 
   var User = {
-    all: users,
+    //all: users,
     create: function (user, password) {
       console.info('User - create() - user:', user);
       if (!user.uid) { // TODO: defer error...
@@ -105,12 +117,19 @@ app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
       return users.$child(userId).$set(user);
     },
     findByUsername: function (username) { // DO NO HANDLE usersByName, to allow for common username among different users
+      console.info('findByUsername() - username:', username);
       if (username) {
+        //console.info('findByUsername() - usersByName:', usersByName);
+        //console.info('findByUsername() - users:', users);
+        //console.info(' === ', usersByName[username.toLowerCase()]);
+        //return refUsers.child(refUsersByName.child(username.toLowerCase()));
+        //console.info(' === ', users[usersByName[username.toLowerCase()]]);
         return users[usersByName[username.toLowerCase()]];
       }
     },
-    find: function (userId) {
-      return users.$child(userId);
+    find: function (uid) {
+      //return users.$child(userUid);
+      return users[uid];
     },
     getCurrent: function () {
       return $rootScope.currentUser;
@@ -136,14 +155,15 @@ app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
         }
       );
     },
-    undelete: function (user) {
-      if (!user.$id) {
-        console.error('USER WITHOUT $ID:', user);
+    undelete: function (user) { // TODO: rethink user deletion/undeletion...
+console.info('undelete() - USER:', user);
+      if (!user.uid) {
+        console.error('USER WITHOUT uid:', user);
         var deferred = $q.defer();
         deferred.resolve('No such user');
         return deferred.promise;
       }
-      return users.$child(user.$id).$remove('deleted').then(
+      return users[user.uid].$remove('deleted').then(
         function() {
           console.info('undelete - then - success', user);
           // we do not delete user by usersByName, we just put a '_' sign before it's name

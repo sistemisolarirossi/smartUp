@@ -64,7 +64,7 @@ module.exports = function (grunt) {
         ],
         tasks: [
           'nggettext_extract',
-          'exec:poAutoTranslate', // TODO: enable this before production, disable to speed ut development...
+          //'exec:poAutoTranslate', // TODO: enable this before production, disable to speed ut development...
         ]
       },
       nggettextCompile: {

@@ -24,8 +24,8 @@ app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $locatio
   } else {
     $scope.user = {};
   }
-  $scope.users = User.all;
-  console.info('users: ', $scope.users);
+//  $scope.users = User.all;
+//  console.info('users: ', $scope.users);
   /*
   if ($location.path() === '/users') { // to handle routes like "/users:$id"
     $scope.users = User.all;
