@@ -199,9 +199,9 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $fi
   };
 
   $scope.loginSocial = function (provider) {
-    console.log('provider:', provider);
     if (provider) {
-      var x = refAuth.authWithOAuthRedirect(provider, function(err, authData) {
+      //refAuth.authWithOAuthRedirect(provider, function(err, authData) { // TODO: why redirect doesn't work? (see SO question of mine...)
+      refAuth.authWithOAuthPopup(provider, function(err, authData) {
         if (err) {
           console.error('Error during social authentication:', err);
           $scope.error = err.message + ' ' + 'Please try again' + '.';
@@ -211,17 +211,17 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $fi
           User.setCurrentUser(user);
             // TODO: rethink user deletion/undeletion
             //User.undelete(user); // restore user if it was deleted
-          //$location.path('/');
-          //$scope.$apply(); // TODO: why picchè we need to apply scope?
+          $scope.$apply(); // TODO: why picchè we need to apply scope?
         }
       }, {
-remember: true,
-scope: 'https://www.googleapis.com/auth/userinfo.profile'
-//remember: 'sessionOnly',
-//scope: 'https://www.googleapis.com/auth/plus.login'
+        remember: true,
+        //remember: 'sessionOnly',
+        scope:
+          (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
+          (provider === 'facebook') ? 'email' :
+          null, // a comma-delimited list of requested extended permissions
       }
     );
-  console.log('x:', x);
 /*
     Auth.loginSocial(provider).then(function (authUser) {
       //console.warn('Auth.loginSocial(provider).then() RETURNED - authUser:', authUser);
