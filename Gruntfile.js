@@ -200,6 +200,7 @@ module.exports = function (grunt) {
       dist: {
         src: [
           '<%= yeoman.dist %>/scripts/{,*/}*.js',
+          '!<%= yeoman.dist %>/scripts/i18n/*.js',
           '<%= yeoman.dist %>/styles/{,*/}*.css',
           '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
           //,'<%= yeoman.dist %>/fonts/*'
@@ -339,7 +340,8 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
             'icons/**/*.{ico,png}',
-            'i18n/{,*/}*.json',
+            'scripts/i18n/{,*/}*.js', // angular-locale_XX.js, for L10N dynamic loading
+            'i18n/{,*/}*.json', // XX.json, for I18M dynamic loading
           ]
         }, {
           expand: true,
