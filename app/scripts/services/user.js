@@ -20,7 +20,7 @@ console.log(' --- users:', users);
   var avatarsBaseUrl = 'http://www.gravatar.com/avatar/';
 
   var User = {
-    //all: users,
+    all: users,
     create: function (user, password) {
       console.info('User - create() - user:', user);
       if (!user.uid) { // TODO: defer error...
@@ -128,7 +128,7 @@ console.log(' --- users:', users);
       }
     },
     find: function (uid) {
-      //return users.$child(userUid);
+      console.log('find() - uid:', uid);
       return users[uid];
     },
     getCurrent: function () {

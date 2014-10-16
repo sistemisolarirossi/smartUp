@@ -41,7 +41,7 @@ app.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'views/home.html',
-      controller: 'AuthCtrl'
+      //controller: 'AuthCtrl'
     })
     .when('/register', {
       templateUrl: 'views/register.html',

@@ -1,98 +1,72 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $firebase,      $location, $window, CFG, I18N, gettext, gettextCatalog, Auth, User) {
-  //$rootScope.formLabel = '';
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, $timeout, CFG, I18N, gettext, gettextCatalog, Auth, User) {
 
-/* Commenting this check to allow registering new users for signed-in users...
-   Should allow only administrators?
-*/
-/*   
-  if (Auth.signedIn()) {
-    $location.path('/');
-  }
-*/
-  var refAuth = new Firebase(CFG.FIREBASE_URL);
-  //var auth = $firebase(refAuth);
-
-  $scope.params = $routeParams;
-  $scope.debug = CFG.DEBUG;
-  $scope.lastBuildDate = lastBuildDate;
-
-  // watch rootScope online status variable
-  $scope.$watch(function() {
-    return $rootScope.online;
-  }, function() {
-    $scope.online = $rootScope.online;
-    //console.log('changed online status to ' + $scope.online);
-  }, true);
-
-  if (CFG.APPCACHE) {
-    // watch rootScope appcache status variable
-    $scope.$watch(function() {
-      return $rootScope.appcache;
-    }, function() {
-      $scope.appcache = $rootScope.appcache;
-      //console.log('changed appcache status to ' + $scope.appcache.status);
-    }, true);
-    
-    $scope.appcacheStatus = function () {
-      //console.info('appcacheStatus()');
-      var msg;
-      switch ($rootScope.appcache.status) {
-        case 'initializing':
-          msg = gettext('Cache is being initialized');
-          break;
-        case 'error':
-          if ($scope.online) {
-            msg = gettext('Cache is not updated (probably the manifest is unreachable)');
-          } else {
-            msg = gettext('Cache is not updated because you are offline');
-          }
-          break;
-        case 'cached':
-          msg = gettext('Cache is up-to-date');
-          break;
-        case 'checking':
-          msg = gettext('Checking for the presence of an update');
-          break;
-        case 'downloading':
-          msg = gettext('Preparing the downloading an update');
-          break;
-        case 'noupdate':
-          msg = gettext('No update is present');
-          break;
-        case 'obsolete':
-          msg = gettext('Cache is obsolete');
-          break;
-        case 'progress':
-          msg = gettext('Downloading an update');
-          break;
-        case 'updateready':
-          msg = gettext('An update is ready');
-          $window.applicationCache.swapCache();
-          $window.location.reload();
-          $rootScope.appcache.status = 'initializing';
-          break;
-        default: // shouldn't happen
-          msg = gettext('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
-          break;
-      }
-      toastr.info(gettextCatalog.getString(msg));
-    };
-  }
+  var refAuth = new Firebase(CFG.FIREBASE_URL); // TODO: move to Auth factory?
 
   $scope.init = function () {
-    $scope.selectedLanguage = $scope.getCurrentLanguage();
-    $scope.supportedLanguages = $scope.getSupportedLanguages();
-    $scope.supportedLanguagesSorted = $scope.getSupportedLanguagesSorted();
-    $scope.selectingLanguageFlag = false;
+    $scope.params = $routeParams;
+    $scope.debug = CFG.DEBUG;
+    $scope.lastBuildDate = lastBuildDate;
     $scope.error = null;
     $scope.info = null;
+
+    // watch rootScope online status variable
+    $scope.$watch(function() {
+      return $rootScope.online;
+    }, function() {
+      $scope.online = $rootScope.online;
+      //console.log('changed online status to ' + $scope.online);
+    }, true);
+  
+    // watch rootScope appcache status variable, if appcache is on in app config
+    if (CFG.APPCACHE) {
+      $scope.$watch(function() {
+        return $rootScope.appcache;
+      }, function() {
+        $scope.appcache = $rootScope.appcache;
+        //console.log('changed appcache status to ' + $scope.appcache.status);
+      }, true);
+    }
+
+    // watch authentication status
+    refAuth.onAuth(function(authData) {
+      $scope.auth(authData);
+    });
+
   };
 
-  $scope.reset = function() {
-    $scope.error = null;
-    $scope.info = null;
+  $scope.auth = function (authData) { // handle authentication events
+    console.info('-------------------------- auth --------------------------');
+    if (authData) {
+      console.info('Authentication success:', authData);
+      //var user = User.find(authData.uid);
+      var user = User.all[authData.uid];
+      if (user) { // WHY?
+        console.info('User.all:', User.all);
+        console.info('User found:', user);
+        User.setCurrentUser(user);
+          // TODO: rethink user deletion/undeletion
+          //User.undelete(user); // restore user if it was deleted
+        $location.path('/');
+        $scope.$apply(); // TODO: why picchè we need to apply scope?
+      } else {
+        console.log('TIMEOUT...');
+        // TODO: this happen when loading again an authenticated session (F5), and shoudnn't... See SO question 26406593
+        $timeout(function() { // TODO: with timeout 1000 it works...
+          var user = User.all[authData.uid];
+          console.info('User.all:', User.all);
+          console.info('User found:', user);
+          User.setCurrentUser(user);
+            // TODO: rethink user deletion/undeletion
+            //User.undelete(user); // restore user if it was deleted
+          $location.path('/');
+          $scope.$apply(); // TODO: why picchè we need to apply scope?
+        }, 1000);
+      }
+    } else {
+      console.info('Un-authentication (logout) success');
+    }
   };
 
   $scope.register = function (valid) {
@@ -169,11 +143,12 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $fi
       refAuth.authWithPassword({
         email: $scope.user.email,
         password: $scope.user.password,
-      }, function(err, authData) {
+      }, function(err/*, authData*/) {
         if (err) {
           console.error('Error during authentication:', err);
           $scope.error = err.message + ' ' + 'Please try again' + '.';
         } else {
+/*
           console.info('Authentication success:', authData);
           var user = User.find(authData.uid);
           User.setCurrentUser(user);
@@ -181,6 +156,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $fi
             //User.undelete(user); // restore user if it was deleted
           $location.path('/');
           $scope.$apply(); // TODO: why picchè we need to apply scope?
+*/
         }
       });
     } else {
@@ -199,64 +175,52 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $fi
   };
 
   $scope.loginSocial = function (provider) {
+    var mode = 'redirect';
     if (provider) {
-      //refAuth.authWithOAuthRedirect(provider, function(err, authData) { // TODO: why redirect doesn't work? (see SO question of mine...)
-      refAuth.authWithOAuthPopup(provider, function(err, authData) {
-        if (err) {
-          console.error('Error during social authentication:', err);
-          $scope.error = err.message + ' ' + 'Please try again' + '.';
-        } else {
-          console.info('Social authentication success:', authData);
-          var user = User.find(authData.uid);
-          User.setCurrentUser(user);
-            // TODO: rethink user deletion/undeletion
-            //User.undelete(user); // restore user if it was deleted
-          $scope.$apply(); // TODO: why picchè we need to apply scope?
-        }
-      }, {
-        remember: true,
-        //remember: 'sessionOnly',
-        scope:
-          (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
-          (provider === 'facebook') ? 'email' :
-          null, // a comma-delimited list of requested extended permissions
-      }
-    );
+      switch (mode) {
+        case 'popup':
+          refAuth.authWithOAuthPopup(provider, function(err/*, authData*/) {
+            if (err) {
+              console.error('Error during social authentication:', err);
+              $scope.error = err.message + ' ' + 'Please try again' + '.';
+            } else {
 /*
-    Auth.loginSocial(provider).then(function (authUser) {
-      //console.warn('Auth.loginSocial(provider).then() RETURNED - authUser:', authUser);
-      User.create(authUser).then(
-        function () {
-          // success
-          //var user = User.findByUid(authUser.uid);
-          var user = User.find(authUser.uid);
-          User.setCurrentUser(user);
-        },
-        function (error) {
-          toastr.error('Couldn\'t create user ' + authUser.username);
-          console.error('Couldn\'t create user ' + authUser + ':', error);
-        }
-      );
-    }, function (error) {
-      console.error = 'loginSocial('+provider+') failed (' + error.message + ')';
-      toastr.error = 'loginSocial('+provider+') failed (' + error.message + ')';
-    });
-
-
-      auth.$login(provider, { // provider must be supported, otherwise we get a runtime error
-        rememberMe: true,
-        scope:
-          (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
-          (provider === 'facebook') ? 'email' :
-          null, // a comma-delimited list of requested extended permissions
-          // google: 'https://www.googleapis.com/auth/plus.login' (see https://developers.google.com/+/api/oauth)
-          // facebook: 'user_friends,email' (see https://developers.facebook.com/docs/reference/login/#permissions)
-          // twitter: 'user_friends,email' (see https://developers.facebook.com/docs/reference/login/#permissions)
-        / * jshint camelcase: false * /
-        oauth_token: (provider === 'twitter') ? 'true' : null, // skip the OAuth popup-dialog and create a user session directly using an existing twitter session
-        preferRedirect: true // true redirects to google, instead of using a popup
-      });
+              console.info('Social authentication success:', authData);
+              var user = User.find(authData.uid);
+              User.setCurrentUser(user);
+                // TODO: rethink user deletion/undeletion
+                //User.undelete(user); // restore user if it was deleted
+              $scope.$apply(); // TODO: why picchè we need to apply scope?
 */
+            }
+          }, {
+            remember: true,
+            //remember: 'sessionOnly',
+            scope:
+              (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
+              (provider === 'facebook') ? 'email' :
+              null, // a comma-delimited list of requested extended permissions
+          });
+          break;
+        case 'redirect':
+          refAuth.authWithOAuthRedirect(provider, function(err) {
+            if (err) {
+              console.error('Error during social authentication:', err);
+              $scope.error = err.message + ' ' + 'Please try again' + '.';
+            }
+          }, {
+            remember: true,
+            //remember: 'sessionOnly',
+            scope:
+              (provider === 'google') ? 'https://www.googleapis.com/auth/userinfo.profile' : 
+              (provider === 'facebook') ? 'email' :
+              null, // a comma-delimited list of requested extended permissions
+          });
+          break;
+        default: // should not happen
+          console.error('Unforeseen social login mode: ', mode);
+          break;
+      }
     } else { // should not happen
       $scope.error = 'Please specify an authentication provider';
     }
@@ -291,42 +255,54 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams,       $fi
     });
   };
 
-/*
-  $scope.getSupportedLanguages = function () {
-    return I18N.getSupportedLanguages();
-  };
-  $scope.getSupportedLanguagesSorted = function () {
-    var languages = I18N.getSupportedLanguages();
-    var sortable = [];
-    for (var language in languages) {
-      sortable.push({key: language, des: languages[language]});
+  $scope.appcacheStatus = function () {
+    //console.info('appcacheStatus()');
+    var msg;
+    switch ($rootScope.appcache.status) {
+      case 'initializing':
+        msg = gettext('Cache is being initialized');
+        break;
+      case 'error':
+        if ($scope.online) {
+          msg = gettext('Cache is not updated (probably the manifest is unreachable)');
+        } else {
+          msg = gettext('Cache is not updated because you are offline');
+        }
+        break;
+      case 'cached':
+        msg = gettext('Cache is up-to-date');
+        break;
+      case 'checking':
+        msg = gettext('Checking for the presence of an update');
+        break;
+      case 'downloading':
+        msg = gettext('Preparing the downloading an update');
+        break;
+      case 'noupdate':
+        msg = gettext('No update is present');
+        break;
+      case 'obsolete':
+        msg = gettext('Cache is obsolete');
+        break;
+      case 'progress':
+        msg = gettext('Downloading an update');
+        break;
+      case 'updateready':
+        msg = gettext('An update is ready');
+        $window.applicationCache.swapCache();
+        $window.location.reload();
+        $rootScope.appcache.status = 'initializing';
+        break;
+      default: // shouldn't happen
+        msg = gettext('Cache is in unknown state') + ' "' + $rootScope.appcache.status + '"';
+        break;
     }
-    sortable.sort(function(a, b) { return a.des > b.des; });
-    return sortable;
+    toastr.info(gettextCatalog.getString(msg));
   };
-  $scope.getCurrentLanguage = function () {
-    return I18N.getCurrentLanguage();
+
+  $scope.reset = function() {
+    $scope.error = null;
+    $scope.info = null;
   };
-  $scope.getCurrentLanguageName = function () {
-    return I18N.getCurrentLanguageName();
-  };
-  $scope.getCurrentLanguageFlag = function () {
-    return I18N.getCurrentLanguageFlag();
-  };
-  $scope.getCurrentLanguageScript = function () {
-    return I18N.getCurrentLanguageScript();
-  };
-  $scope.setCurrentLanguage = function (language) {
-    return I18N.setCurrentLanguage(language);
-  };
-  $scope.selectingLanguage = function () {
-    $scope.selectingLanguageFlag = true;
-  };
-  $scope.languageSelected = function () {
-    //console.info(' *** selectedLanguage():', $scope.selectedLanguage);
-    $scope.selectingLanguageFlag = false;
-    return I18N.setCurrentLanguage($scope.selectedLanguage);
-  };
-*/
-  $scope.reset();
+
 });
