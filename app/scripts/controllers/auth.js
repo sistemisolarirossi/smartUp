@@ -11,6 +11,19 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.error = null;
     $scope.info = null;
 
+    $scope.users = [];
+
+    User.all.$bindTo($scope, 'users').then(function () {
+      //console.info('$scope.users bound:', $scope.users);
+      // watch authentication status
+      refAuth.onAuth(function(authData) {
+        $scope.auth(authData);
+      });
+    });
+    User.allByName.$bindTo($scope, 'usersByName').then(function () {
+      //console.info('$scope.usersByName bound:', $scope.usersByName);
+    });
+
     // watch rootScope online status variable
     $scope.$watch(function() {
       return $rootScope.online;
@@ -29,42 +42,37 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       }, true);
     }
 
-    // watch authentication status
-    refAuth.onAuth(function(authData) {
-      $scope.auth(authData);
-    });
-
   };
 
   $scope.auth = function (authData) { // handle authentication events
-    console.info('-------------------------- auth --------------------------');
     if (authData) {
-      console.info('Authentication success:', authData);
-      //var user = User.find(authData.uid);
-      var user = User.all[authData.uid];
-      if (user) { // WHY?
-        console.info('User.all:', User.all);
-        console.info('User found:', user);
+      //console.info('Authentication success:', authData);
+      ///var user = $scope.users[authData.uid];
+      var user = User.find(authData.uid);
+
+      if (user) {
+        User.undelete(user); // restore user if it was deleted - TODO: recheck user deletion/undeletion
         User.setCurrentUser(user);
-          // TODO: rethink user deletion/undeletion
-          //User.undelete(user); // restore user if it was deleted
-        $location.path('/');
-        $scope.$apply(); // TODO: why picchè we need to apply scope?
-      } else {
-        console.log('TIMEOUT...');
-        // TODO: this happen when loading again an authenticated session (F5), and shoudnn't... See SO question 26406593
-        $timeout(function() { // TODO: with timeout 1000 it works...
-          var user = User.all[authData.uid];
-          console.info('User.all:', User.all);
-          console.info('User found:', user);
-          User.setCurrentUser(user);
-            // TODO: rethink user deletion/undeletion
-            //User.undelete(user); // restore user if it was deleted
+        if ($location.path() !== '/') {
           $location.path('/');
-          $scope.$apply(); // TODO: why picchè we need to apply scope?
-        }, 1000);
-      }
+          $scope.$apply();
+        }
+      } else { /* TODO: test this code!!! */
+        // user not found: create social login user...
+console.info(' *********** user not found: create social login user... ******* ');
+        User.create(authData).then(
+          function () { // success
+            var user = User.find(authData.uid);
+            User.setCurrentUser(user);
+          },
+          function (error) { // error
+            toastr.error('Couldn\'t create user ' + authData.username);
+            console.error('Couldn\'t create user ' + authData + ':', error);
+         }
+        );
+      } /* ******************************* */
     } else {
+      User.resetCurrentUser();
       console.info('Un-authentication (logout) success');
     }
   };
@@ -79,19 +87,18 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     }
     console.info('controller - register - valid', $scope.user);
     if ($scope.user) {
-      Auth.register($scope.user).then(function (auth) {
-        console.info('registered user:', auth.user);
-        auth.user.username = $scope.user.username;
-        User.create(auth.user, $scope.user.password).then(
-          function () {
-            /* success */
+      //Auth.register($scope.user).then(function (auth) {
+        //auth.user.username = $scope.user.username;
+        User.create($scope.user/*, $scope.user.password*/).then(
+          function () { // success
             $location.path('/');
           },
-          function (error) {
-            toastr.error('Couldn\'t create user ' + auth.user.username);
-            console.error('Couldn\'t create user ', auth.user, ':', error);
+          function (error) { // error
+            toastr.error('Couldn\'t create user ' + $scope.user.username);
+            console.error('Couldn\'t create user ', $scope.user, ':', error);
           }
         );
+/*
       }, function (error) {
         if (error.message === 'FirebaseSimpleLogin: The specified email address is already in use.') {
           // email is already present in Firebase: check it's not a deleted account...
@@ -111,8 +118,9 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
           console.error('Register error:', error.message);
         }
       });
+*/
     } else {
-      $scope.error = 'Please specify user\'s data';
+      $scope.error = 'No user data'; // TODO: ...
     }
   };
 
@@ -121,13 +129,11 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.$broadcast('autofillFix:update');
     if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {    
       if ($scope.user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
-        //console.log('user inserted value looks like an email');
         $scope.user.email = $scope.user.usernameOrEmail; // set user email with user inserted value
       } else { // user value doesn't look like an email
         // try matching user value against user names
-        //console.log('user inserted value looks like an username');
-        var existingUser = User.findByUsername($scope.user.usernameOrEmail); //users.$child(user.usernameOrEmail);
-        //console.warn('login() - existingUser:', existingUser);
+        var existingUsername = $scope.usersByName[$scope.user.usernameOrEmail.toLowerCase()];
+        var existingUser = $scope.users[existingUsername];
         if (existingUser && existingUser.email) { // user email is found as a user name
           $scope.user.email = existingUser.email; // set user email with found user email field
         } else { // check if user exists but is deleted
@@ -135,7 +141,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
           if (existingDeletedUser && existingDeletedUser.email) { // user email is found as a user name
            $scope.user.email = existingDeletedUser.email; // set user email with found user email field
           } else {
-            $scope.error = 'Username not existing';
+            $scope.error = 'Username does not exist';
             return;
           }
         }
@@ -143,20 +149,10 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       refAuth.authWithPassword({
         email: $scope.user.email,
         password: $scope.user.password,
-      }, function(err/*, authData*/) {
+      }, function(err) {
         if (err) {
           console.error('Error during authentication:', err);
           $scope.error = err.message + ' ' + 'Please try again' + '.';
-        } else {
-/*
-          console.info('Authentication success:', authData);
-          var user = User.find(authData.uid);
-          User.setCurrentUser(user);
-            // TODO: rethink user deletion/undeletion
-            //User.undelete(user); // restore user if it was deleted
-          $location.path('/');
-          $scope.$apply(); // TODO: why picchè we need to apply scope?
-*/
         }
       });
     } else {
@@ -179,19 +175,10 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     if (provider) {
       switch (mode) {
         case 'popup':
-          refAuth.authWithOAuthPopup(provider, function(err/*, authData*/) {
+          refAuth.authWithOAuthPopup(provider, function(err) {
             if (err) {
               console.error('Error during social authentication:', err);
               $scope.error = err.message + ' ' + 'Please try again' + '.';
-            } else {
-/*
-              console.info('Social authentication success:', authData);
-              var user = User.find(authData.uid);
-              User.setCurrentUser(user);
-                // TODO: rethink user deletion/undeletion
-                //User.undelete(user); // restore user if it was deleted
-              $scope.$apply(); // TODO: why picchè we need to apply scope?
-*/
             }
           }, {
             remember: true,

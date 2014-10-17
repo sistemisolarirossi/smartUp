@@ -31,7 +31,7 @@ app.constant('CFG', {
   APP_NAME:        'smartUp',
   APP_FULLNAME:    'Sistemi Solari Rossi',
   APP_LOGO:        'icons/logo.png',
-  FIREBASE_URL:    'https://smartup.firebaseio.com/',
+  FIREBASE_URL:    'https://smartup.firebaseio.com/', // TODO: remove final slash from here, and put it where it's used
   SYSTEM_EMAIL:    'sistemisolarirossi@gmail.com',
   APPCACHE:        false,
   DEBUG:           true

@@ -1,34 +1,45 @@
 'use strict';
  
-app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
-  var users = $firebase(new Firebase(CFG.FIREBASE_URL + 'users')).$asObject();
-  var usersByName = $firebase(new Firebase(CFG.FIREBASE_URL + 'usersByName')).$asObject();
+app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
+  var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
+        console.info('refUsers:', refUsers);
+/*
+  var users = $firebase(refUsers);
+        console.info('users:', users);
+*/
+  var syncUsers = $firebase(refUsers);
+  //// create a synchronized array (read-only)
+  //var users = sync.$asArray();
+  // create a synchronized object
+  var syncUsersObject = syncUsers.$asObject();
 
+console.log(' --- syncUsersObject:', syncUsersObject);
+
+  var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
+  var syncUsersByName = $firebase(refUsersByName);
+  var usersByName = syncUsersByName.$asObject();
   var avatarsBaseUrl = 'http://www.gravatar.com/avatar/';
 
-  return {
-  	all: users,
-  	allByName: usersByName,
-    create: function (user/*, password*/) {
+  var User = {
+    sync: syncUsersObject,
+    //all: users,
+    create: function (user, password) {
       console.info('User - create() - user:', user);
-      if (!user.uid) { // should not happen...
-        console.error('Can\'t create a user without a user id');
-        var deferred = $q.defer();
-        deferred.resolve('Can\'t create a user withut a user id');
-        return deferred.promise;
+      if (!user.uid) { // TODO: defer error...
+        // ...
+        console.error('can\'t create a user without a uid!');
+        return false;
       }
       if (!user.username) { // TODO: can we use displayName for username (PROBABLY NOT!!!)
         user.username = user.displayName; // TODO: check if do we have displayName for all providers?
+        /* jshint camelcase: false */
       }
-      /* jshint camelcase: false */
       user.md5Hash = user.md5_hash; // we use only camelcase
-      /* jshint camelcase: true */
+      // TODO: do we have a provider field in user?
       // get email and user's image url for each provider
       if (user.provider === 'google') {
         user.email = user.email; // ...
-        if (user.thirdPartyUserData) {
-	      user.imageUrl = user.thirdPartyUserData.picture;
-	    }
+        user.imageUrl = user.thirdPartyUserData.picture;
       }
       if (user.provider === 'facebook') {
         user.email = user.thirdPartyUserData.email;
@@ -38,7 +49,6 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
         user.email = null; // twitter does not return email
         /* jshint camelcase: false */
         user.imageUrl = user.thirdPartyUserData.entities.profile_image_url/*_https*/;
-        /* jshint camelcase: true */
       }
       if (!user.imageUrl) { // we use gravatars for 'password' logins and for providers without imageUrl
         user.imageUrl = avatarsBaseUrl;
@@ -49,13 +59,13 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
           user.imageUrl += user.md5Hash;
         }
       }
-      //user.password = password; // save password to be able to allow administrators to remove user from firebase...
+      user.password = password; // save password to be able to allow administrators to remove user from firebase...
 
       var allow = false;
       if (user.email === CFG.SYSTEM_EMAIL) {
         allow = true;
       }
-      user.roles = {
+      var roles = {
         'users': {
           'read': allow,
           'write': allow
@@ -73,13 +83,13 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
           'write': allow
         }
       };
-/*
-      / * jshint camelcase: false * /
-      // see instruction after this comment...
+
+      // TODO: check if user already exists (social logins, for example) before overwriting...
+      /* jshint camelcase: false */
       users[user.uid] = {
         imageUrl: user.imageUrl,
         email: user.email,
-        //password: user.password,
+        password: user.password,
         username: user.username,
         provider: user.provider,
         id: user.id,
@@ -88,43 +98,57 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
         //firebaseAuthToken: user.firebaseAuthToken, // TODO: do we need this value?
         roles: roles
       };
-*/
-      users[user.uid] = user; // add user to users array
+      // TODO: use this, instead...:
+      // users[user.uid] = user;
 
+      //User.setCurrentUser(user); // set current user id done in $rootScope.$on()...
       if (user.username) {
-        // TODO: check if user already exists (social logins, for example) before overwriting...
         usersByName.$child(user.username.toLowerCase()).$set(user.uid); // add to usersByName
       }
-      return users.$save(user.uid); // save user // TODO: CHECK THIS CODE!
+      return users.$save(user.uid); // save user
     },
-    find: function (uid) {
-      console.log('find() - uid:', uid);
-      //return this.all[uid];
-      return users[uid];
+    set: function(userId, user) {
+      console.log('set user:', user);
+      /* DO NO HANDLE usersByName, to allow for common username among different users */
+      var oldusername = users.$child(userId).username;
+      if (user.username !== oldusername) {
+        usersByName.$remove(oldusername);
+      }
+      usersByName.$child(user.username.toLowerCase()).$set(userId);
+      delete user.$id; // you can't set an item with a property starting with '$'... TODO: deepen this fact...
+      return users.$child(userId).$set(user);
     },
     findByUsername: function (username) { // DO NO HANDLE usersByName, to allow for common username among different users
       console.info('findByUsername() - username:', username);
       if (username) {
-        return usersByName[username.toLowerCase()];
+        //console.info('findByUsername() - usersByName:', usersByName);
+        //console.info('findByUsername() - users:', users);
+        //console.info(' === ', usersByName[username.toLowerCase()]);
+        //return refUsers.child(refUsersByName.child(username.toLowerCase()));
+        //console.info(' === ', users[usersByName[username.toLowerCase()]]);
+        return users[usersByName[username.toLowerCase()]];
       }
+    },
+    find: function (uid) {
+      console.log('find() - uid:', uid);
+      return users[uid];
     },
     getCurrent: function () {
       return $rootScope.currentUser;
     },
     delete: function (user) {
-      if (!user.uid) {
-        console.error('Can\'t delete a user without a user id');
+      if (!user.$id) {
+        console.error('USER WITHOUT $ID:', user);
         var deferred = $q.defer();
-        deferred.resolve('Can\'t delete a user withut a user id');
+        deferred.resolve('No such user');
         return deferred.promise;
       }
-    //return users.$child(user.$id).$child('deleted').$set(true).then(
-      return users[user.uid].$child('deleted').$set(true).then(
+      return users.$child(user.$id).$child('deleted').$set(true).then(
         function() {
           console.info('remove - then - success', user);
           // we do not delete user by usersByName, we just put a '_' sign before it's name
           usersByName.$remove(user.username.toLowerCase());
-          usersByName['_' + user.username.toLowerCase()].$set(user.uid);
+          usersByName.$child('_' + user.username.toLowerCase()).$set(user.uid);
           return null;
         },
         function(error) {
@@ -134,14 +158,13 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
       );
     },
     undelete: function (user) { // TODO: rethink user deletion/undeletion...
-      //console.info('undelete() - USER:', user);
+console.info('undelete() - USER:', user);
       if (!user.uid) {
         console.error('USER WITHOUT uid:', user);
         var deferred = $q.defer();
         deferred.resolve('No such user');
         return deferred.promise;
       }
-/*
       return users[user.uid].$remove('deleted').then(
         function() {
           console.info('undelete - then - success', user);
@@ -155,7 +178,6 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
           return error.code;
         }
       );
-*/
     },
     signedIn: function () {
       return $rootScope.currentUser !== undefined;
@@ -166,5 +188,30 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
     resetCurrentUser: function () {
       delete $rootScope.currentUser;
     }
+
   };
+
+  $rootScope.$on('$firebaseSimpleLogin:login', function (event, authUser) {
+    //console.warn('$rootScope.$on($firebaseSimpleLogin:login) FIRED - authUser:', authUser);
+    if (!authUser.uid) {
+      toastr.error('Error logging in user');
+      console.error('login fired with an authorized user with no uid!', authUser);
+      return User.resetCurrentUser();
+    }
+
+    //var user = User.findByUid(authUser.uid);
+    var user = User.find(authUser.uid);
+    if (user) { 
+      User.setCurrentUser(user);
+    } else {
+      // first social login, user not yet created
+    }
+  });
+
+  $rootScope.$on('$firebaseSimpleLogin:logout', function() {
+    User.resetCurrentUser();
+  });
+
+  return User;
+
 });
