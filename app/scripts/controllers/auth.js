@@ -1,8 +1,9 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, $timeout, CFG, I18N, gettext, gettextCatalog, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, $firebase, CFG, I18N, gettext, gettextCatalog, Auth, User) {
 
   var refAuth = new Firebase(CFG.FIREBASE_URL); // TODO: move to Auth factory?
+  var auth = $firebase(refAuth);
 
   $scope.init = function () {
     $scope.params = $routeParams;
@@ -10,13 +11,13 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.lastBuildDate = lastBuildDate;
     $scope.error = null;
     $scope.info = null;
-
-    $scope.users = [];
+    //$scope.users = [];
 
     User.all.$bindTo($scope, 'users').then(function () {
       //console.info('$scope.users bound:', $scope.users);
-      // watch authentication status
+      // watch authentication events
       refAuth.onAuth(function(authData) {
+        console.log(' *** onAuth *** ');
         $scope.auth(authData);
       });
     });
@@ -66,8 +67,8 @@ console.info(' *********** user not found: create social login user... ******* '
             User.setCurrentUser(user);
           },
           function (error) { // error
-            toastr.error('Couldn\'t create user ' + authData.username);
-            console.error('Couldn\'t create user ' + authData + ':', error);
+            toastr.error(gettext('Couldn\'t create user') + ' ' + authData.username);
+            console.error(gettext('Couldn\'t create user') + ' ' + authData + ':', error);
          }
         );
       } /* ******************************* */
@@ -94,38 +95,17 @@ console.info(' *********** user not found: create social login user... ******* '
             $location.path('/');
           },
           function (error) { // error
-            toastr.error('Couldn\'t create user ' + $scope.user.username);
+            toastr.error(gettext('Couldn\'t create user') + ' ' + $scope.user.username);
             console.error('Couldn\'t create user ', $scope.user, ':', error);
           }
         );
-/*
-      }, function (error) {
-        if (error.message === 'FirebaseSimpleLogin: The specified email address is already in use.') {
-          // email is already present in Firebase: check it's not a deleted account...
-          // deleted users are kept in findByUsername table with a '_' sign before the name
-          var user = User.findByUsername('_' + $scope.user.username);
-          console.log('looked up user:', user);
-          if (user.email.toLowerCase() === $scope.user.email.toLowerCase()) {
-            // username and email overlap
-            if (user.deleted) {// it is a deleted account
-              toastr.error('This account was deleted. Just log-in and it will be restored...');
-              console.info('deleted account');
-              // restore account
-            }
-          }
-        } else {
-          $scope.error = 'Sorry, could not register user (' + error.message + ')';
-          console.error('Register error:', error.message);
-        }
-      });
-*/
     } else {
       $scope.error = 'No user data'; // TODO: ...
     }
   };
 
   $scope.login = function () {
-    console.log('scope.login()');
+    console.log('CONTROLLER scope.login()');
     $scope.$broadcast('autofillFix:update');
     if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {    
       if ($scope.user.usernameOrEmail.indexOf('@') !== -1) { // user email looks like an email
@@ -141,7 +121,7 @@ console.info(' *********** user not found: create social login user... ******* '
           if (existingDeletedUser && existingDeletedUser.email) { // user email is found as a user name
            $scope.user.email = existingDeletedUser.email; // set user email with found user email field
           } else {
-            $scope.error = 'Username does not exist';
+            $scope.error = gettext('Username does not exist');
             return;
           }
         }
@@ -152,18 +132,18 @@ console.info(' *********** user not found: create social login user... ******* '
       }, function(err) {
         if (err) {
           console.error('Error during authentication:', err);
-          $scope.error = err.message + ' ' + 'Please try again' + '.';
+          $scope.error = err.message + ' ' + gettext('Please try again') + '.';
         }
       });
     } else {
       if (!$scope.user) {
-        $scope.error = 'Please specify a username/email and password';
+        $scope.error = gettext('Please specify a username/email and password');
       } else {
         if (!$scope.user.usernameOrEmail) {
-          $scope.error = 'Please specify a username/email';
+          $scope.error = gettext('Please specify a username/email');
         } else {
           if (!$scope.user.password) {
-            $scope.error = 'Please specify a password';
+            $scope.error = gettext('Please specify a password');
           }
         }
       }
@@ -171,6 +151,7 @@ console.info(' *********** user not found: create social login user... ******* '
   };
 
   $scope.loginSocial = function (provider) {
+    console.warn('CONTROLLER loginSocial()');
     var mode = 'redirect';
     if (provider) {
       switch (mode) {
@@ -178,7 +159,7 @@ console.info(' *********** user not found: create social login user... ******* '
           refAuth.authWithOAuthPopup(provider, function(err) {
             if (err) {
               console.error('Error during social authentication:', err);
-              $scope.error = err.message + ' ' + 'Please try again' + '.';
+              $scope.error = err.message + ' ' + gettext('Please try again') + '.';
             }
           }, {
             remember: true,
@@ -193,7 +174,7 @@ console.info(' *********** user not found: create social login user... ******* '
           refAuth.authWithOAuthRedirect(provider, function(err) {
             if (err) {
               console.error('Error during social authentication:', err);
-              $scope.error = err.message + ' ' + 'Please try again' + '.';
+              $scope.error = err.message + ' ' + gettext('Please try again') + '.';
             }
           }, {
             remember: true,
@@ -209,33 +190,42 @@ console.info(' *********** user not found: create social login user... ******* '
           break;
       }
     } else { // should not happen
-      $scope.error = 'Please specify an authentication provider';
+      $scope.error = gettext('Please specify an authentication provider');
     }
   };
 
   $scope.logout = function () {
+    console.info('CONTROLLER logout()');
     User.resetCurrentUser();
-    Auth.logout();
+    //Auth.logout();
+    refAuth.unauth();
     $rootScope.formLabel = '';
     $location.path('/');
   };
 
   $scope.sendPasswordResetEmail = function (email) {
     $scope.reset();
-    Auth.sendPasswordResetEmail(email).then(function(error) {
-      if (typeof error === 'undefined') {
-        toastr.info('Password sent');
+    //Auth.sendPasswordResetEmail(email).then(function(error) {
+    auth.$sendPasswordResetEmail(email).then(function(error) {
+      if (typeof error === null) {
+        toastr.info(gettext('Password sent'));
         $scope.info =
-          'An email with a temporary password has been sent to your email: ' +
-          'use it to login and then change it.';
+          gettext(
+            'An email with a temporary password has been sent to your email: ' +
+            'use it to login and then change it.'
+          )
+        ;
       } else {
         if (error.code === 'INVALID_EMAIL') {
-          $scope.error = 'Please specify a valid email';
+          $scope.error = gettext('Please specify a valid email');
         } else {
           if (error.code === 'INVALID_USER') {
-            $scope.error = 'Sorry, this is not a registered email';
+            $scope.error = gettext('Sorry, this is not a registered email');
           } else {
-            $scope.error = 'Sorry, could not send password email (' + error.message + '). Please retry later.';
+            $scope.error = gettext('Sorry, could not send password email') +
+            ' (' + error.message + '). ' +
+            gettext('Please retry later') +
+            '.';
           }
         }
       }

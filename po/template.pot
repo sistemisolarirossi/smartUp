@@ -67,6 +67,10 @@ msgstr ""
 msgid "An email address is required"
 msgstr ""
 
+#: app/scripts/controllers/auth.js
+msgid "An email with a temporary password has been sent to your email: use it to login and then change it."
+msgstr ""
+
 #: app/views/serviceReports.html
 msgid "An operator is required"
 msgstr ""
@@ -193,6 +197,10 @@ msgstr ""
 
 #: app/views/nav.html
 msgid "Contacts"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Couldn't create user"
 msgstr ""
 
 #: app/views/footer.html
@@ -438,6 +446,10 @@ msgstr ""
 msgid "Password is not sufficiently strong"
 msgstr ""
 
+#: app/scripts/controllers/auth.js
+msgid "Password sent"
+msgstr ""
+
 #: app/views/customers.html
 #: app/views/serviceReports.html
 msgid "Phone"
@@ -453,6 +465,34 @@ msgstr ""
 
 #: app/views/serviceReports.html
 msgid "Place"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Please retry later"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Please specify a password"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Please specify a username/email"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Please specify a username/email and password"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Please specify a valid email"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Please specify an authentication provider"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Please try again"
 msgstr ""
 
 #: app/scripts/controllers/auth.js
@@ -521,6 +561,14 @@ msgstr ""
 
 #: app/views/nav.html
 msgid "Setup"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Sorry, could not send password email"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Sorry, this is not a registered email"
 msgstr ""
 
 #: app/views/customers.html
@@ -602,6 +650,10 @@ msgstr ""
 
 #: app/views/login.html
 msgid "Username / Email"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Username does not exist"
 msgstr ""
 
 #: app/views/nav.html
