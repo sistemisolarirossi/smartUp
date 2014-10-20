@@ -10,7 +10,7 @@
     "angular-sanitize": "1.2.16",
     "firebase": "~1.1.2",
     "angularfire": "~0.8.2",
-    "angular-bootstrap": "~0.11.0",
+    "angular-bootstrap": "~0.11.2",
     "toastr": "~2.0.3",
     "ngAutocomplete": "~1.0.0",
     "angular-md5": "~0.1.7",

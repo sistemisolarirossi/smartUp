@@ -11,12 +11,14 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
   	allByName: usersByName,
     create: function (user/*, password*/) {
       console.info('User - create() - user:', user);
+/*
       if (!user.uid) { // should not happen...
         console.error('Can\'t create a user without a user id');
         var deferred = $q.defer();
         deferred.resolve('Can\'t create a user withut a user id');
         return deferred.promise;
       }
+*/
       if (!user.username) { // TODO: can we use displayName for username (PROBABLY NOT!!!)
         user.username = user.displayName; // TODO: check if do we have displayName for all providers?
       }
@@ -89,16 +91,18 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
         roles: roles
       };
 */
+      console.info('user uid:', user.uid);
       users[user.uid] = user; // add user to users array
 
       if (user.username) {
         // TODO: check if user already exists (social logins, for example) before overwriting...
-        usersByName.$child(user.username.toLowerCase()).$set(user.uid); // add to usersByName
+      //usersByName.$child(user.username.toLowerCase()).$set(user.uid); // add to usersByName
+        usersByName[user.username.toLowerCase()] = user.uid; // add to usersByName
       }
+      console.info('saving users:', users);
       return users.$save(user.uid); // save user // TODO: CHECK THIS CODE!
     },
     find: function (uid) {
-      console.log('find() - uid:', uid);
       //return this.all[uid];
       return users[uid];
     },
@@ -161,7 +165,7 @@ app.factory('User', function ($rootScope, $firebase, $q, md5, CFG) {
       return $rootScope.currentUser !== undefined;
     },
     setCurrentUser: function (user) {
-      $rootScope.currentUser = user; //User.findByUsername(username);
+      $rootScope.currentUser = user;
     },
     resetCurrentUser: function () {
       delete $rootScope.currentUser;

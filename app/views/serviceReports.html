@@ -53,7 +53,7 @@
             <!-- command buttons -->
           </th>
         </tr>
-        <tr ng-repeat="(servicereportId, servicereport) in servicereports | orderByPriority | searchServiceReport:customersById:search | orderBy: orderby" ng-if="!servicereport.hasOwnProperty('deleted') && !servicereport.hasOwnProperty('serviceReportNumber')">
+        <tr ng-repeat="(servicereportId, servicereport) in servicereports | searchServiceReport:customersById:search | orderBy: orderby" ng-if="!servicereport.hasOwnProperty('deleted') && !servicereport.hasOwnProperty('serviceReportNumber')">
           <td ng-attr-title="{{ 'Number' | translate }}" sortable="'number'" class="condensed">
             {{ servicereport.number }}
           </td>
@@ -129,7 +129,7 @@
             }">
             <div class="input-group">
               <span class="input-group-addon"><span class="glyphicon glyphicon-credit-card"></span></span>
-              <input type="text" name="customername" class="form-control" ng-model="customer.name" autofocus="addMode || editMode" typeahead="customer.name for customer in getCustomers($viewValue) | orderByPriority | filter: $viewValue | limitTo:5" typeahead-editable="false" typeahead-on-select="onCustomerSelect($item, $model, $label)" autocomplete="off" placeholder="{{ 'Customer name' | translate }}" required key-escape="cancelServicereport()" />
+              <input type="text" name="customername" class="form-control" ng-model="customer.name" autofocus="addMode || editMode" typeahead="customer.name for customer in getCustomers() | filter: $viewValue | limitTo:5" typeahead-editable="false" typeahead-on-select="onCustomerSelect($item, $model, $label)" autocomplete="off" placeholder="{{ 'Customer name' | translate }}" required key-escape="cancelServicereport()" />
             </div>
             <div ng-messages="formAddEdit.customername.$error" ng-show="formAddEditSubmitted" class="help-block help-block-small">
               <div ng-message="required"><span translate>A customer name is required</span></div>

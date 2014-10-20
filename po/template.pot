@@ -307,6 +307,14 @@ msgstr ""
 msgid "Email address of the user"
 msgstr ""
 
+#: app/scripts/controllers/auth.js
+msgid "Email already in use"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Email is not valid"
+msgstr ""
+
 #: app/views/users.html
 msgid "Email of the user"
 msgstr ""
@@ -362,6 +370,10 @@ msgstr ""
 
 #: app/views/nav.html
 msgid "Log out"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Module is not valid"
 msgstr ""
 
 #: app/views/customers.html
@@ -629,6 +641,10 @@ msgstr ""
 
 #: app/views/nav.html
 msgid "Toggle navigation"
+msgstr ""
+
+#: app/scripts/controllers/auth.js
+msgid "Unforeseen error creating new user account"
 msgstr ""
 
 #: app/views/users.html

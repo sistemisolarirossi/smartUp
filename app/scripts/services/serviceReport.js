@@ -1,65 +1,94 @@
 'use strict';
      
-app.factory('Servicereport', function ($firebase, CFG, User) {
+app.factory('Servicereport', function ($firebase, CFG) {
+/*
   // N.B.: User injection is necessary to mantain current user across hard page loads...
   var ref = new Firebase(CFG.FIREBASE_URL + 'servicereports');
   var servicereports = $firebase(ref);
+*/
+//var servicereports = $firebase(new Firebase(CFG.FIREBASE_URL + 'servicereports')).$asObject();
+  var servicereports = $firebase(new Firebase(CFG.FIREBASE_URL + 'servicereports')).$asArray();
+servicereports.$loaded(function() {
+  console.info('servicereports:', servicereports);
+});
+
 
   var Servicereport = {
     all: servicereports,
     create: function (servicereport) {
-      var user = User.getCurrent();
+      console.info('servicereport:', servicereport);
+      console.info('servicereports:', servicereports);
+      //var user = User.getCurrent();
+      //servicereport.operator = user.username;
 
-      servicereport.operator = user.username;
-      
+      //servicereport.operator = $rootScope.currentUser.username;
+
+      return servicereports.$add(servicereport).then(function (ref) {
+        console.info('ref:', ref);
+        var servicereportId = ref.name();
+        return servicereportId;
+      });
+/*
       return servicereports.$add(servicereport).then(function (ref) {
         var servicereportId = ref.name(); 
         //user.$child('servicereports').$child(servicereportId).$set(true);
         return servicereportId;
       });
+*/
     },
     set: function(servicereportId, servicereport) {
-      delete servicereport.$id; // you can't set an item with a property starting with '$'... TODO: deepen this fact...
-      return servicereports.$child(servicereportId).$set(servicereport);
+      ///delete servicereport.$id; // you can't set an item with a property starting with '$'... TODO: deepen this fact...
+      //return servicereports.$child(servicereportId).$set(servicereport);
+      servicereports[servicereportId] = servicereport;
     },
     find: function (servicereportId) {
-      return servicereports.$child(servicereportId);
+      //return servicereports.$child(servicereportId);
+      return servicereports[servicereportId];
     },
     getNumberNext: function () {
-      var n = servicereports.$child('stash').serviceReportNumber;
+      //var n = servicereports.$child('stash').serviceReportNumber;
+      var n = servicereports.stash.serviceReportNumber;
       n = n ? n : 1;
       //console.info('getNumberNext() - serviceReportNumber is now', n);
       return n;
     },
     setNumberNext: function () {
-      var n = servicereports.$child('stash').serviceReportNumber;
+      //var n = servicereports.$child('stash').serviceReportNumber;
+      var n = servicereports.stash.serviceReportNumber;
       n = n ? n + 1 : 1;
       //console.info('setNumberNext() - serviceReportNumber will be', n);
-      servicereports.$child('stash').$set({ 'serviceReportNumber': n });
+      //servicereports.$child('stash').$set({ 'serviceReportNumber': n });
+      //servicereports.stash.$set({ 'serviceReportNumber': n });
+      servicereports.stash = { 'serviceReportNumber': n };
       return n;
     },
     resetNumberNext: function () {
-      var n = servicereports.$child('stash').serviceReportNumber;
+      //var n = servicereports.$child('stash').serviceReportNumber;
+      var n = servicereports.stash.serviceReportNumber;
       n = n && n > 1 ? n - 1 : 1;
-      servicereports.$child('stash').$set({ 'serviceReportNumber': n });
+      //servicereports.$child('stash').$set({ 'serviceReportNumber': n });
+      //servicereports.stash.$set({ 'serviceReportNumber': n });
+      servicereports.stash = { 'serviceReportNumber': n };
       return n;
     },
     delete: function (servicereport) {
       console.info('deleting servicereport', servicereport);
-      //var servicereport = Servicereport.find(servicereportId);
-      ///servicereport.$on('loaded', function () {
+      if (servicereport.$id) {
+        //var servicereport = Servicereport.find(servicereportId);
+        ///servicereport.$on('loaded', function () {
         console.info('set delete to true servicereport with id:', servicereport.$id);
         //servicereport.$on('loaded', function () {
-          return servicereports.$child(servicereport.$id).$child('deleted').$set(true).then(
-            function() {
-              return null;
-            },
-            function(error) {
-              return error.code;
-            }
-          );
+        //return servicereports.$child(servicereport.$id).$child('deleted').$set(true).then(
+        return servicereports[servicereport.$id].$child('deleted').$set(true).then(
+          function() {
+            return null;
+          },
+          function(error) {
+            return error.code;
+          }
+        );
         //});
-      ///};
+      }
     },
     /*
     delete: function (servicereportId) {

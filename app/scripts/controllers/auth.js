@@ -1,9 +1,9 @@
 'use strict';
  
-app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, $firebase, CFG, I18N, gettext, gettextCatalog, Auth, User) {
+app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location, $window, $firebase, CFG, I18N, gettext, gettextCatalog, User) {
 
-  var refAuth = new Firebase(CFG.FIREBASE_URL); // TODO: move to Auth factory?
-  var auth = $firebase(refAuth);
+  var ref = new Firebase(CFG.FIREBASE_URL);
+  var auth = $firebase(ref);
 
   $scope.init = function () {
     $scope.params = $routeParams;
@@ -11,13 +11,11 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.lastBuildDate = lastBuildDate;
     $scope.error = null;
     $scope.info = null;
-    //$scope.users = [];
 
     User.all.$bindTo($scope, 'users').then(function () {
       //console.info('$scope.users bound:', $scope.users);
       // watch authentication events
-      refAuth.onAuth(function(authData) {
-        console.log(' *** onAuth *** ');
+      ref.onAuth(function(authData) {
         $scope.auth(authData);
       });
     });
@@ -54,7 +52,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
       if (user) {
         User.undelete(user); // restore user if it was deleted - TODO: recheck user deletion/undeletion
         User.setCurrentUser(user);
-        if ($location.path() !== '/') {
+        if ($location.path() === '/login' || $location.path() === '/register') {
           $location.path('/');
           $scope.$apply();
         }
@@ -82,23 +80,47 @@ console.info(' *********** user not found: create social login user... ******* '
     console.info('controller - register');
     $scope.$broadcast('autofillFix:update');
     $scope.formRegisterSubmitted = true; // allow validation errors to be shown
-    if (!valid) {
+    if (!valid) { // should not happen
       console.error('not valid', valid);
-      return;
+      $scope.error = gettext('Module is not valid');
+      return false;
     }
     console.info('controller - register - valid', $scope.user);
     if ($scope.user) {
-      //Auth.register($scope.user).then(function (auth) {
-        //auth.user.username = $scope.user.username;
-        User.create($scope.user/*, $scope.user.password*/).then(
-          function () { // success
-            $location.path('/');
-          },
-          function (error) { // error
-            toastr.error(gettext('Couldn\'t create user') + ' ' + $scope.user.username);
-            console.error('Couldn\'t create user ', $scope.user, ':', error);
+      ref.createUser({
+        email: $scope.user.email,
+        password: $scope.user.password
+      }, function(err) {
+        $scope.$apply(function () {
+          if (err) {
+            switch (err.code) {
+              case 'EMAIL_TAKEN':
+                // the email is already in use
+                $scope.error = gettext('Email already in use');
+                break;
+              case 'INVALID_EMAIL':
+                // the specified email is not a valid email
+                $scope.error = gettext('Email is not valid');
+                break;
+              default:
+                // unforeseen error
+                $scope.error = gettext('Unforeseen error creating new user account');
+                break;
+            }
+          } else {
+            User.create($scope.user/*, $scope.user.password*/).then(
+              function () { // success
+                $location.path('/');
+              },
+              function (error) { // error
+                $scope.error = gettext('Couldn\'t create user') + ' ' + $scope.user.username + ' (' + error + ')';
+              }
+            );
+            //Auth.register($scope.user).then(function (auth) {
+            //auth.user.username = $scope.user.username;
           }
-        );
+        });
+      });
     } else {
       $scope.error = 'No user data'; // TODO: ...
     }
@@ -126,7 +148,7 @@ console.info(' *********** user not found: create social login user... ******* '
           }
         }
       }
-      refAuth.authWithPassword({
+      ref.authWithPassword({
         email: $scope.user.email,
         password: $scope.user.password,
       }, function(err) {
@@ -156,7 +178,7 @@ console.info(' *********** user not found: create social login user... ******* '
     if (provider) {
       switch (mode) {
         case 'popup':
-          refAuth.authWithOAuthPopup(provider, function(err) {
+          ref.authWithOAuthPopup(provider, function(err) {
             if (err) {
               console.error('Error during social authentication:', err);
               $scope.error = err.message + ' ' + gettext('Please try again') + '.';
@@ -171,7 +193,7 @@ console.info(' *********** user not found: create social login user... ******* '
           });
           break;
         case 'redirect':
-          refAuth.authWithOAuthRedirect(provider, function(err) {
+          ref.authWithOAuthRedirect(provider, function(err) {
             if (err) {
               console.error('Error during social authentication:', err);
               $scope.error = err.message + ' ' + gettext('Please try again') + '.';
@@ -198,7 +220,7 @@ console.info(' *********** user not found: create social login user... ******* '
     console.info('CONTROLLER logout()');
     User.resetCurrentUser();
     //Auth.logout();
-    refAuth.unauth();
+    ref.unauth();
     $rootScope.formLabel = '';
     $location.path('/');
   };
@@ -278,6 +300,7 @@ console.info(' *********** user not found: create social login user... ******* '
   };
 
   $scope.reset = function() {
+    console.log('scope.reset()');
     $scope.error = null;
     $scope.info = null;
   };

@@ -1,31 +1,30 @@
+// TODO: REMOVE-ME
+// TODO: uninstall firebasesimplelogin
+
 'use strict';
  
-app.factory('Auth', function ($rootScope, $firebase, CFG) {
-  // TODO: uninstall firebasesimplelogin ...!!!
+app.factory('Auth', function () {
+});
+
+/*
   var refAuth = new Firebase(CFG.FIREBASE_URL);
   var auth = $firebase(refAuth);
 
+  $rootScope.signedIn = function () {
+    return (auth.user !== null && $rootScope.currentUser);
+  };
+*/
+
+/*
   var Auth = {
-    register: function (user) {
-      //console.info('REGISTER:', user);
-      return auth.$createUser(user.email, user.password);
-    },
-    signedIn: function () {
-      if (auth.user !== null && $rootScope.currentUser) {
-        return true;
-      }
-      //return false;
-    },
     currentUser: function () {
       if (auth.user !== null) {
         return $rootScope.currentUser;
       }
     },
   };
+*/
 
-  $rootScope.signedIn = function () {
-    return Auth.signedIn();
-  };
  
 /*
   $rootScope.hasRole = function (role) {
@@ -33,9 +32,24 @@ app.factory('Auth', function ($rootScope, $firebase, CFG) {
   };
 */
 
+/*
   return Auth;
-});
+*/
 
+/*
+    signedIn: function () {
+      if (auth.user !== null && $rootScope.currentUser) {
+        return true;
+      }
+      //return false;
+    },
+*/
+/*
+    register: function (user) {
+      //console.info('REGISTER:', user);
+      return auth.$createUser(user.email, user.password);
+    },
+*/
 /*
     hasRole: function (roles) {
       //console.info('hasRole()', roles);

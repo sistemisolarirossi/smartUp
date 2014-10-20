@@ -46,7 +46,7 @@
             <!-- command buttons -->
           </th>
         </tr>
-        <tr ng-repeat="customer in customers | filter:toArray | filter:search | orderBy: orderby" ng-if="!customer.hasOwnProperty('deleted')">
+        <tr ng-repeat="customer in customers | filter:search | orderBy: orderby" ng-if="!customer.hasOwnProperty('deleted')">
           <td ng-attr-title="{{ 'Customer name' | translate }}" sortable="'name'" class="condensed">
             {{ customer.name }}
           </td>

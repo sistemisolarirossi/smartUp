@@ -1,15 +1,25 @@
 'use strict';
  
-app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CFG, Servicereport, Customer, Auth, DateTime) {
+app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CFG, Servicereport, Customer, DateTime) {
   $rootScope.formLabel = 'Service reports';
 
-  $scope.servicereport = {};
   $scope.servicereports = Servicereport.all;
 
-  $scope.CFG = CFG; // to access CFG from view
+/*
+Servicereport.all.$bindTo($scope, 'servicereports').then(function () {
+  console.info('$scope.servicereports bound:', $scope.servicereports);
+$scope.servicereport.number = Servicereport.getNumberNext();
+});
+*/
 
-  $scope.customersById = {};
+  //$scope.customersById = {};
   $scope.customers = Customer.all;
+$scope.customers.$loaded(function() {
+  console.info('customers:', $scope.customers);
+});
+
+  $scope.CFG = CFG; // to access CFG from view
+/*
   $scope.customers.$on('loaded', function() {
     angular.forEach($scope.customers, function(customer, id) {
       if (typeof customer === 'object') {
@@ -18,9 +28,12 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
     });
     //console.info($scope.customersById);
   });
+*/
+
+  $scope.servicereport = {};
 
   // initialize report operator if user is authenticated
-  $scope.$watch(Auth.currentUser, function(user) {
+  $scope.$watch($rootScope.currentUser, function(user) {
     if (user) {
       $scope.servicereport.operator = $scope.currentUser.username;
     }
@@ -30,7 +43,8 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
     $scope.formAddEditValid = true;
   });
 
-  $scope.servicereports.$on('loaded', function() {
+  //$scope.servicereports.$on('loaded', function() {
+  $scope.servicereports.$loaded(function() {
     $scope.servicereport.number = Servicereport.getNumberNext();
   });
 
@@ -80,9 +94,12 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
       });
     }
     if ($scope.addMode) {
-      Servicereport.create($scope.servicereport).then(function (/*servicereportId*/) {
+      Servicereport.create($scope.servicereport);
+/*
+      Servicereport.create($scope.servicereport).then(function (/ * servicereportId * /) {
         //$scope.servicereport.number = Servicereport.setNumberNext($scope.servicereport.number);
       });
+*/
     }
     $scope.addMode = $scope.editMode = false;
     $scope.formAddEditSubmitted = false; // forbid validation errors to be shown until next submission
@@ -238,11 +255,20 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
   };
 */
 
-  $scope.getCustomers = function (viewValue) {
-    console.info('getCustomers() - viewValue:', viewValue);
-    return Customer.all;
+  $scope.getCustomers = function () {
+    console.info('getCustomers()');
+    //return Customer.all;
+    return Customer.allAsArray();
   };
-
+/*
+  $scope.getCustomers1 = function () {
+    var customers = [
+      {'id': '1', 'name': 'Pippo'},
+      {'id': '2', 'name': 'Pluto'},
+    ];
+    return customers;    
+  };
+*/
   $scope.onCustomerSelect = function(item, model, label) {
     console.info('onCustomerSelect() - item, model, label:', item, model, label);
     //if (!$scope.servicereport.location)

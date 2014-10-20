@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, CFG, User, Auth, gettext) {
+app.controller('UsersCtrl', function ($scope, $rootScope, $routeParams, $location, CFG, User, gettext) {
 
   $rootScope.formLabel = 'Users';
 

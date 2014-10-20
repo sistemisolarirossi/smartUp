@@ -13,7 +13,7 @@ app.controller('CustomersCtrl', function ($scope, $rootScope, $location, CFG, Cu
   }
   */
   $scope.$watch('formAddEdit.$valid', function(value) {
-    console.info('form addedit validity is', value);
+    //console.info('form addedit validity is', value);
     $scope.formAddEditValid = value;
   });
 

@@ -1,15 +1,40 @@
 'use strict';
 
 /* jshint unused: false */
-app.factory('Customer', function ($firebase, CFG, User, $q) {
-  // N.B.: User injection is necessary to mantain current user across hard page loads...
-  var ref = new Firebase(CFG.FIREBASE_URL + 'customers');
-  var customers = $firebase(ref);
-  var refByName = new Firebase(CFG.FIREBASE_URL + 'customersByName');
-  var customersByName = $firebase(refByName);
+app.factory('Customer', function ($firebase, CFG) {
+  var customers = $firebase(new Firebase(CFG.FIREBASE_URL + 'customers')).$asObject();
+  var customersByName = $firebase(new Firebase(CFG.FIREBASE_URL + 'customersByName')).$asObject();
 
   var Customer = {
     all: customers,
+    allAsArray: function () {
+      console.info('allAsArray()');
+      var array = [];
+      angular.forEach(customers, function(customer) {
+        if (customer.deleted) {
+          return;
+        }
+        array.push(customer);
+      });
+      console.info('allAsArray:', array);
+      return array;
+    },
+/*
+    allSorted: function (field, reverse) {
+      return function(field, reverse) {
+        var array = [];
+        angular.forEach(customers, function(customer) {
+        array.push(customer);
+      });
+      array.sort(function (a, b) {
+        return (a[field] > b[field] ? 1 : -1);
+      });
+      if (reverse) {
+        array.reverse();
+      }
+      return array;
+    },
+*/
     create: function (customer) {
       return customers.$add(customer).then(function (ref) {
         var customerId = ref.name();
@@ -37,24 +62,27 @@ app.factory('Customer', function ($firebase, CFG, User, $q) {
     },
     delete: function (customer) {
       //console.info('deleting customer', customer);
+/*
       if (!customer.$id) {
         console.error('CUSTOMER WITHOUT $ID:', customer);
         var deferred = $q.defer();
         deferred.resolve('No such customer');
         return deferred.promise;
       }
-      //customer.deleted = true;
-      return customers.$child(customer.$id).$child('deleted').$set(true).then(
-        function() {
-          console.info('remove - then - success', customer);
-          customersByName.$remove(customer.name.toLowerCase());
-          return null;
-        },
-        function(error) {
-          console.info('remove - then - error:', error.code);
-          return error.code;
-        }
-      );
+*/
+      if (customer.$id) {
+        return customers.$child(customer.$id).$child('deleted').$set(true).then(
+          function() {
+            console.info('remove - then - success', customer);
+            customersByName.$remove(customer.name.toLowerCase());
+            return null;
+          },
+          function(error) {
+            console.info('remove - then - error:', error.code);
+            return error.code;
+          }
+        );
+      }
     }
   };
 

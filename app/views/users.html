@@ -53,7 +53,8 @@
             <!-- command buttons -->
           </th>
         </tr>
-        <tr ng-repeat="user in users | orderByPriority | filter:search | orderBy: orderby" ng-if="!user.hasOwnProperty('deleted')">
+    <!--<tr ng-repeat="user in users | orderByPriority | filter:search | orderBy: orderby" ng-if="!user.hasOwnProperty('deleted')">-->
+        <tr ng-repeat="user in users                   | filter:search | orderBy: orderby" ng-if="!user.hasOwnProperty('deleted')">
           <td ng-attr-title="{{ 'Name of the user' | translate }}" sortable="'username'" class="condensed">
             {{ user.username }}
           </td>

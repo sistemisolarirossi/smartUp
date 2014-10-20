@@ -46,7 +46,7 @@ msgstr "È necessario un numero di telefono"
 
 #: app/views/customers.html
 msgid "A street address is required"
-msgstr "È necessario u indirizzo stradale"
+msgstr "È necessario un indirizzo stradale"
 
 #: app/views/register.html app/views/users.html
 msgid "A user name is required"
@@ -631,7 +631,7 @@ msgstr "in cache"
 
 #: app/views/customers.html app/views/serviceReports.html app/views/users.html
 msgid "cancel"
-msgstr "annullare"
+msgstr "annulla"
 
 #: app/scripts/app.js
 msgid "checking"

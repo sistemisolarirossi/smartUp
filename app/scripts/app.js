@@ -110,14 +110,16 @@ app.config(function (tmhDynamicLocaleProvider) {
 });
 
 
-
 /**
- * Initialize app: rottscope, i18n, ...
+ * Initialize app: rootscope, i18n, ...
  */
 app.run(function ($rootScope, CFG, I18N) {
   $rootScope.appName = CFG.APP_NAME;
   $rootScope.appLogo = CFG.APP_LOGO;
   $rootScope.today = new Date();
+  $rootScope.signedIn = function () {
+    return $rootScope.currentUser !== undefined;
+  };
   I18N.setCurrentLanguage();
 });
 

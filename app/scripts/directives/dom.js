@@ -14,7 +14,7 @@ app.directive('spring', function ($window) {
       var window = angular.element($window);
       var bottomElementHeight = 0;
       var bottomElementPadding = 3;
-      if (typeof bottomElement !== 'undefined') {
+      if (bottomElement !== undefined) {
         bottomElementHeight = bottomElementPadding + bottomElement.clientHeight;
       }
   
