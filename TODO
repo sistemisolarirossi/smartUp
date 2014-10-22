@@ -1,5 +1,6 @@
 TODO:
 
+ - implement tests
  V on Firebase console: configure security features
     (https://www.firebase.com/docs/security/security-rules.html)
     to prevent users from being able to - for example - delete orders they do not own
@@ -14,6 +15,12 @@ TODO:
  - implement error handling as in services/customer/delete()
  V avoid filerev on all fonts to allow awesome fonts to be found (any problem with caching?)
  V autoFillSync => autofillFix
- - checkCustomerName directive: capitalize viewValue on blur but not model...
+ V checkCustomerName directive: capitalize viewValue on blur but not model...
  - handle password and social authentication when offline...
  - how to handle multiple users with the same username (caused by social logins)?
+ V setup Google oAuth:
+   on Google developers console, API & Auth - Credentials - REDIRECT URIS:
+   v2(?):
+     https://auth.firebase.com/v2/smartup/auth/google/callback 
+   v1:
+     https://auth.firebase.com/auth/google/callback

@@ -9,4 +9,5 @@
  */
 app.controller('AboutCtrl', function ($rootScope) {
   $rootScope.formLabel = 'About';
+  //$scope.author = author;
 });

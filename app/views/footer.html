@@ -5,12 +5,19 @@
   <span ng-show="debug"> </span>
   <!-- /debug-only -->
 
+  <span>&nbsp;</span>
+
+  <span class="debug" ng-show="debug">
+    version: {{ version }}
+  </span>
+
+  <span>&nbsp;</span>
+
   <span class="debug" ng-show="debug">
     last build date: {{ lastBuildDate }}
   </span>
 
   <span>&nbsp;</span>
-
   <!-- TODO: appcache in main.css (img width: 9) -->
   <span class="appcache">
     <span ng-show="appcache.status === 'initializing'">

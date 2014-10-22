@@ -23,10 +23,38 @@ module.exports = function (grunt) {
 
   // Define the configuration for all the tasks
   grunt.initConfig({
-
     // Project settings
     yeoman: appConfig,
-    appName: 'smartUp',
+    appName: 'smartUp', // REMOVE-ME, use name...
+
+    ngconstant: {
+      options: {
+        name: 'smartUpApp',
+        dest: '<%= yeoman.app %>/scripts/config.js',
+        constants: {
+          package: grunt.file.readJSON('package.json'),
+          //version, => package.version
+          //APP_NAME: 'smartUp', => package.name
+          //APP_FULLNAME:    'Sistemi Solari Rossi', => package.company
+          // TODO: names to lowercase...
+          APP_LOGO: 'icons/logo.png',
+          FIREBASE_URL: 'https://smartup.firebaseio.com/',
+          SYSTEM_EMAIL: 'sistemisolarirossi@gmail.com'
+        }
+      },
+      development: {
+        values: {
+          APPCACHE: false,
+          DEBUG: true
+        },
+      },
+      production: {
+        values: {
+          APPCACHE: false,
+          DEBUG: false
+        }
+      }
+    },
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -34,7 +62,7 @@ module.exports = function (grunt) {
         files: [
           '<%= yeoman.app %>/{,*/}*.html', '<%= yeoman.app %>/views/{,*/}*.html',
           '<%= yeoman.app %>/scrips/{,*/}*.js', '<%= yeoman.app %>/styles/{,*/}*.css',
-          '<%= yeoman.app %>/icons/{,*/}*', '<%= yeoman.app %>/fonts/{,*/}*.js',
+          '<%= yeoman.app %>/icons/{,*/}*', '<%= yeoman.app %>/fonts/{,*/}*.js'
         ],
         tasks: ['manifest:generate'],
       },
@@ -43,7 +71,9 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
+        files: [
+          '<%= yeoman.app %>/scripts/{,*/}*.js'
+        ],
         tasks: ['newer:jshint:all', 'manifest:generate'],
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -503,20 +533,21 @@ module.exports = function (grunt) {
     },
 
     exec: {
-      gitExportLastCommitVersion: {
-        cmd: '( /bin/echo "/* exported lastBuildDate */"; /bin/echo -n "var lastBuildDate = \'"; date +"%Y-%m-%d %H:%M:%S" | tr -d \'\\n\'; /bin/echo "\';" ) > "<%= yeoman.app %>/scripts/version.js"',
-      },
       poAutoTranslate: {
         cmd: 'php local/po-auto-translate/PoAutoTranslate.php "<%= appName %>" "<%= process.cwd() %>"',
       },
     },
+
 
     /* jshint camelcase: false */
     nggettext_extract: {
     /* jshint camelcase: true */
       pot: {
         files: {
-          'po/template.pot': [ '<%= yeoman.app %>/**/*.html', '<%= yeoman.app %>/scripts/**/*.js' ]
+          'po/template.pot': [
+            '<%= yeoman.app %>/**/*.html',
+            '<%= yeoman.app %>/scripts/**/*.js'
+          ]
         }
       }
     },
@@ -570,6 +601,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       //'manifest:generate',
       'clean:server',
+      //'ngconstant:development',
       'wiredep',
       'concurrent:server',
       'autoprefixer',
@@ -578,10 +610,12 @@ module.exports = function (grunt) {
     ]);
   });
 
+/*
   grunt.registerTask('server', 'DEPRECATED TASK. Use the "serve" task instead', function (target) {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
     grunt.task.run(['serve:' + target]);
   });
+*/
 
   grunt.registerTask('test', [
     'clean:server',
@@ -592,9 +626,9 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('build', [
-    'exec:gitExportLastCommitVersion',
     'auto_install',
     'clean:dist',
+    //'ngconstant:production',
     'favicons',
     'wiredep',
     'useminPrepare',

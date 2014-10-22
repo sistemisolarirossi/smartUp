@@ -27,6 +27,7 @@ var app = angular.module('smartUpApp', [
   'tmh.dynamicLocale'
 ]); 
 
+/*
 app.constant('CFG', {
   APP_NAME:        'smartUp',
   APP_FULLNAME:    'Sistemi Solari Rossi',
@@ -36,6 +37,7 @@ app.constant('CFG', {
   APPCACHE:        false,
   DEBUG:           true
 });
+*/
 
 app.config(function ($routeProvider) {
   $routeProvider
@@ -115,9 +117,16 @@ app.config(function (tmhDynamicLocaleProvider) {
  * Initialize app: rottscope, i18n, ...
  */
 app.run(function ($rootScope, CFG, I18N) {
-  $rootScope.appName = CFG.APP_NAME;
+/*
+  $rootScope.appName = CFG.package.name; //CFG.APP_NAME;
   $rootScope.appLogo = CFG.APP_LOGO;
-  $rootScope.today = new Date();
+  $rootScope.today = new Date(); // used in about view
+
+  $rootScope.debug = CFG.debug;
+  $rootScope.version = CFG.package.version; //CFG.version;
+  $rootScope.lastBuildDate = lastBuildDate;
+
+*/
   I18N.setCurrentLanguage();
 });
 

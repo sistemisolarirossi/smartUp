@@ -1,12 +1,15 @@
 {
-  "name": "smartup",
-  "version": "0.0.0",
+  "name": "smartUp",
+  "version": "0.0.4",
+  "company": "Sistemi Solari Rossi",
+  "author": "Marco Solari <marcosolari@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/sistemisolarirossi/smartUp.git"
   },
   "dependencies": {
-    "imagemin-gifsicle": "~1.0.0"
+    "imagemin-gifsicle": "~1.0.0",
+    "grunt-ng-constant": "~1.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
