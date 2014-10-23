@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Confirmă parola"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Conectează-te folosind unul din conturile tale sociale , sau conectați-vă cu aceste acreditări :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Conectează-te folosind unul din conturile tale sociale , sau conectați-vă cu aceste acreditări"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Acest nume client nu este valid"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Acest lucru este"
+msgid "This is the home page for non registered users"
+msgstr "Aceasta este pagina de start pentru utilizatorii care nu sunt inregistrati"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Aceasta este pagina de start pentru utilizatorii inregistrati"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Nume de utilizator/ e-mail"
 msgid "Users"
 msgstr "Utilizatori"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Bine ati venit la"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Ești conectat"
@@ -649,10 +656,6 @@ msgstr "descărcare"
 msgid "error"
 msgstr "eroare"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "pagina de start pentru utilizatorii care nu sunt inregistrati."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "inițializarea"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "comenzi"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "altfel înregistra un nou accout și conectați."
+msgid "otherwise register a new accout and log in"
+msgstr "altfel înregistra un nou accout și conectați"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "parola:"
+msgid "password"
+msgstr "parola"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "progres"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "pagina de pornire pentru utilizatorii inregistrati ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "nume de utilizator:"
+msgid "username"
+msgstr "numele de utilizator"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "utilizatori"
+
+#~ msgid "This is"
+#~ msgstr "Acest lucru este"

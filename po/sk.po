@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(Hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Potvrdenie hesla"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Pripojenie pomocou jedného z vašich sociálnych účtov , alebo sa prihlásiť pomocou týchto poverenia :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Pripojenie pomocou jedného z vašich sociálnych účtov , alebo sa prihlásiť pomocou týchto poverenia"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Toto meno zákazníka nie je platný"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Toto je"
+msgid "This is the home page for non registered users"
+msgstr "Toto je úvodná stránka neregistrovaným registrovaným užívateľom"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Toto je domovská stránka pre registrovaných užívateľov"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Užívateľské meno/ Email"
 msgid "Users"
 msgstr "Užívatelia"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Vitajte na stránkach"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Ste offline"
@@ -649,10 +656,6 @@ msgstr "sťahovanie"
 msgid "error"
 msgstr "chyba"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "domáce stránka pre non registrovaným užívateľom."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "inicializácia"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "objednávky"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "inak registrovať nový accout a prihláste sa."
+msgid "otherwise register a new accout and log in"
+msgstr "inak registrovať nový accout a prihlásenie"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "heslo:"
+msgid "password"
+msgstr "heslo"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "pokrok"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "domovská stránka pre registrovaných užívateľov ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "užívateľské meno:"
+msgid "username"
+msgstr "užívateľské meno"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "užívatelia"
+
+#~ msgid "This is"
+#~ msgstr "Toto je"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(HH : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Qinisekisa Iphasiwedi"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Xhuma usebenzisa omunye akhawunti akho emphakathini noma ngemvume kulezi iziqinisekiso :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Xhuma usebenzisa omunye akhawunti akho emphakathini noma ngemvume kulezi iziqinisekiso"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Leli gama yekhasimende ayivumelekile"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Lokhu"
+msgid "This is the home page for non registered users"
+msgstr "Lona ikhasi ekhaya for non abasebenzisi ezibhalisiwe"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Lona ikhasi ekhaya kubasebenzisi ebhalisiwe"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Igama lomsebenzisi/ imeyili"
 msgid "Users"
 msgstr "Abasebenzisi"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Siyakwamukela"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Wena okungaxhunyiwe"
@@ -649,10 +656,6 @@ msgstr "ukulandwa"
 msgid "error"
 msgstr "iphutha"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "ikhasi lasekhaya for non abasebenzisi ababhalisiwe."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "ekuqaliseni"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "oda"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "kungenjalo ubhalise accout entsha bese ungena."
+msgid "otherwise register a new accout and log in"
+msgstr "kungenjalo ubhalise accout entsha bese ungena"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "iphasiwedi:"
+msgid "password"
+msgstr "iphasiwedi"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "inqubekela"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "ikhasi ekhaya kubasebenzisi esibhalisiwe ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "lomsebenzisi:"
+msgid "username"
+msgstr "igama lomsebenzisi"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "abasebenzisi"
+
+#~ msgid "This is"
+#~ msgstr "Lokhu"

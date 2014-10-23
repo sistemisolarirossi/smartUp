@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh: mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "পাসওয়ার্ড নিশ্চিত করুন"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "আপনার সামাজিক অ্যাকাউন্ট ব্যবহার করে সংযোগ করুন, অথবা এই শংসাপত্রের সঙ্গে লগ ইন করুন :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "আপনার সামাজিক অ্যাকাউন্ট ব্যবহার করে সংযোগ করুন, অথবা এই শংসাপত্রের সঙ্গে লগ ইন করুন"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "এই গ্রাহকের নাম বৈধ নয়"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "এই"
+msgid "This is the home page for non registered users"
+msgstr "এই নন রেজিস্টার্ড ব্যবহারকারীদের জন্য বাড়িতে পাতা"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "এই নিবন্ধিত ব্যবহারকারীদের জন্য বাড়িতে পাতা"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "ব্যবহারকারীর নাম/ ইমেইল"
 msgid "Users"
 msgstr "ব্যবহারকারীরা"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "স্বাগতম"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "আপনি অফলাইনে"
@@ -649,10 +656,6 @@ msgstr "ডাউনলোড"
 msgid "error"
 msgstr "ত্রুটি"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "নন রেজিস্টার্ড ব্যবহারকারীদের জন্য হোম পৃষ্ঠা."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "আরম্ভ করা"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "আদেশ"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "অন্যথায় একটি নতুন Accout নিবন্ধন ও লগ ইন করুন."
+msgid "otherwise register a new accout and log in"
+msgstr "অন্যথায় একটি নতুন Accout নিবন্ধন ও লগ ইন"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "পাসওয়ার্ড:"
+msgid "password"
+msgstr "পাসওয়ার্ড"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "অগ্রগতি"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "নিবন্ধিত ব্যবহারকারীদের জন্য হোম পৃষ্ঠা ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "ব্যবহারকারীর নাম:"
+msgid "username"
+msgstr "ব্যবহারকারীর নাম"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "ব্যবহারকারী"
+
+#~ msgid "This is"
+#~ msgstr "এই"

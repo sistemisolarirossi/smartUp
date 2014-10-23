@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(Ө: мм)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Нууц үгээ баталгаажуул"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Таны нийгмийн дансны аль нэгийг ашиглан холбоно , эсвэл Эдгээр итгэмжлэлүүд нь нэвтрэн :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Таны нийгмийн дансны аль нэгийг ашиглан холбоно , эсвэл Эдгээр итгэмжлэлүүд нь нэвтрэн"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Энэ хэрэглэгчийн нэр нь хүчин төгөлдөр биш юм"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Энэ нь"
+msgid "This is the home page for non registered users"
+msgstr "Энэ нь төрийн бус бүртгэгдсэн хэрэглэгчдэд хуудас юм"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Энэ нь бүртгэлтэй хэрэглэгчдийн гэрийн хуудас"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Хэрэглэгчийн нэр/ И-мэйл хаяг"
 msgid "Users"
 msgstr "Хэрэглэгчид"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Тавтай морилно уу"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Та офлайн байна"
@@ -649,10 +656,6 @@ msgstr "татаж авах"
 msgid "error"
 msgstr "алдаа"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "бус бүртгэгдсэн хэрэглэгчдийн гэрийн хуудаснаас үзнэ үү."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "эхлүүлэх"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "захиалга"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "эсвэл шинэ accout бүртгэж, нэвтрэн."
+msgid "otherwise register a new accout and log in"
+msgstr "эсвэл шинэ accout бүртгэж, нэвтрэн"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "нууц үг:"
+msgid "password"
+msgstr "нууц үг"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "ахиц дэвшил"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "бүртгэлтэй хэрэглэгчдэд хуудас ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "хэрэглэгчийн нэр:"
+msgid "username"
+msgstr "хэрэглэгчийн нэр"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "хэрэглэгчид"
+
+#~ msgid "This is"
+#~ msgstr "Энэ нь"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Konfirmu pasvorton"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Konekti per unu el viaj sociaj kontoj, aŭ ensalutu per tiuj credenciales :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Konekti per unu el viaj sociaj kontoj, aŭ ensalutu per tiuj credenciales"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Ĉi kliento nomo ne estas valida"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Tio estas"
+msgid "This is the home page for non registered users"
+msgstr "Ĉi tiu estas la ĉefa paĝo de la ne registritaj uzantoj"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Ĉi tiu estas la ĉefa paĝo de registritaj uzantoj"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Uzulnomo/ Retpoŝto"
 msgid "Users"
 msgstr "Uzantoj"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Bonvenon al"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Vi estas offline"
@@ -649,10 +656,6 @@ msgstr "elŝutanta"
 msgid "error"
 msgstr "eraro"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "ĉefpaĝon por ne registritaj uzantoj."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "inicialización"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "ordonoj"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "alie registri novan accout kaj ensaluti."
+msgid "otherwise register a new accout and log in"
+msgstr "alie registri novan accout kaj ensaluti"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "pasvorto:"
+msgid "password"
+msgstr "pasvorto"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "progreso"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "la hejmpaĝo por registritaj uzantoj."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
+msgid "username"
 msgstr "uzantonomo"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "uzantoj"
+
+#~ msgid "This is"
+#~ msgstr "Tio estas"

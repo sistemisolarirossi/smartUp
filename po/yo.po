@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(HH : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "So ni pato orukoabawole re"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "So lilo ọkan ninu rẹ awujo àpamọ , tabi wọle pẹlu awọn ẹrí :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "So lilo ọkan ninu rẹ awujo àpamọ , tabi wọle pẹlu awọn ẹrí"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Yi alabara orukọ jẹ ko wulo"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Eleyi jẹ"
+msgid "This is the home page for non registered users"
+msgstr "Eleyi ni awọn ile iwe ti kii fun awọn aami- awọn olumulo"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Eleyi ni awọn ile -iwe fun awọn aami awọn olumulo"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Olumulo/ Imeeli"
 msgid "Users"
 msgstr "Awọn olumulo"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Ku to"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Ti o ba wa aisinipo"
@@ -649,10 +656,6 @@ msgstr "lati ayelujara"
 msgid "error"
 msgstr "aṣiṣe"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "ile-iwe fun awọn ti kii aami- olumulo."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "initializing"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "bibere"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "bibẹkọ ti forukọsilẹ titun kan ki o si accout wọle."
+msgid "otherwise register a new accout and log in"
+msgstr "bibẹkọ ti forukọsilẹ titun kan accout ati ki o wọle"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "ọrọigbaniwọle:"
+msgid "password"
+msgstr "ọrọigbaniwọle"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "ilọsiwaju"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "awọn ile -iwe fun awọn aami- olumulo ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "orúkọ oníṣe:"
+msgid "username"
+msgstr "olumulo"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "awọn olumulo"
+
+#~ msgid "This is"
+#~ msgstr "Eleyi jẹ"

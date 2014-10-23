@@ -30,35 +30,35 @@
     </div>
 
     <div class="jumbotron centered">
-      <span translate>This is</span>
-      <em>{{ appName }}</em>
-      <span translate>home page for non registered users.</span>
+      <span translate>Welcome to</span> <em>{{ package.name }}</em>.
+      <br />
+      <span translate>This is the home page for non registered users</span>.
       <br />
       <span translate>
-        Connect using one of your social accounts, or log in with these credentials:
-      </span>
+        Connect using one of your social accounts, or log in with these credentials
+      </span>:
       <br />
       <center><small>
         <table>
           <tr>
-            <td style="text-align:right"><span translate>username:</span></td>
+            <td style="text-align:right"><span translate>username</span>:</td>
             <td><i>demo</i></td>
           </tr>
           <tr>
-            <td style="text-align:right"><span translate>password:</span></td>
+            <td style="text-align:right"><span translate>password</span>:</td>
             <td><i>demo</i></td>
           </tr>
         </table>
       </small></center>
-      <span translate>otherwise register a new accout and log in.</span>
+      <span translate>otherwise register a new accout and log in</span>.
       <br />
     </div>
   </div>
   <div ng-show="signedIn()">
     <div class="jumbotron centered">
-      <span translate>This is</span>
-      <em>{{ appName }}</em>
-      , <span translate>the home page for registered users.</span>
+      <span translate>Welcome to</span> <em>{{ package.name }}</em>.
+      <br />
+      <span translate>This is the home page for registered users</span>.
       <br />
     </div>
   </div>

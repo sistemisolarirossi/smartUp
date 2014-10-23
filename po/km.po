@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(HH: MM)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "អះអាង ពាក្យសម្ងាត់"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "ការតភ្ជាប់ ដោយប្រើការ មួយនៃ សង្គម គណនី របស់អ្នកឬ ចូល ដោយមាន លិខិតសម្គាល់ ទាំងនេះ:"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "ការតភ្ជាប់ ដោយប្រើការ មួយនៃ សង្គម គណនី របស់អ្នកឬ ចូល ដោយមាន លិខិតសម្គាល់ ទាំងនេះ"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "ឈ្មោះ របស់អតិថិជន នេះគឺជាការ មិនត្រឹមត្រូវ"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "នេះគឺជាការ"
+msgid "This is the home page for non registered users"
+msgstr "នេះជា ទំព័រ ផ្ទះ សម្រាប់អ្នកប្រើ ដែលបានចុះឈ្មោះ មិនមែន"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "នេះជា ទំព័រ ផ្ទះ សម្រាប់អ្នកប្រើ ដែលបានចុះឈ្មោះ"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "ឈ្មោះអ្នកប្រើ/ អ៊ីម៉ែល"
 msgid "Users"
 msgstr "អ្នកប្រើ"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "សូមស្វាគមន៍មកកាន់"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "អ្នកគឺជាអ្នក ក្រៅបណ្តាញ"
@@ -649,10 +656,6 @@ msgstr "ទាញយក"
 msgid "error"
 msgstr "កំហុស"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "ទំព័រដើម សម្រាប់អ្នកប្រើ ដែលបានចុះឈ្មោះ មិនមែន ។"
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "ចាប់ផ្ដើម"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "ការបញ្ជាទិញ"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "បើមិនដូច្នេះទេ ចុះឈ្មោះ ជាមួយ accout ថ្មីនិង ចូល ។"
+msgid "otherwise register a new accout and log in"
+msgstr "បើមិនដូច្នេះទេ ចុះឈ្មោះ ជាមួយ accout ថ្មីនិង ចូល"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "ពាក្យសម្ងាត់:"
+msgid "password"
+msgstr "ពាក្យសម្ងាត់"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "ការរីកចំរើន"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "ទំព័រ ផ្ទះ សម្រាប់អ្នកប្រើ ដែលបានចុះឈ្មោះ ។"
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "ឈ្មោះអ្នកប្រើ:"
+msgid "username"
+msgstr "ឈ្មោះអ្នកប្រើ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "អ្នកប្រើប្រាស់"
+
+#~ msgid "This is"
+#~ msgstr "នេះគឺជាការ"

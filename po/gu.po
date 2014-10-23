@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(HH : એમએમ)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "પાસવર્ડ ખાતરી કરો"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "તમારા સામાજિક એકાઉન્ટ્સ એક મદદથી જોડાવા માટે , અથવા આ ઓળખાણપત્ર સાથે લૉગ ઇન :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "તમારા સામાજિક એકાઉન્ટ્સ એક મદદથી જોડાવા માટે , અથવા આ ઓળખાણપત્ર સાથે લોગ ઇન"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "આ ગ્રાહક નામ માન્ય નથી"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "આ છે"
+msgid "This is the home page for non registered users"
+msgstr "આ બિન રજીસ્ટર વપરાશકર્તાઓ માટે હોમ પેજ છે"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "આ રજીસ્ટર વપરાશકર્તાઓ માટે હોમ પેજ છે"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "વપરાશકર્તા નામ/ ઇમેઇલ"
 msgid "Users"
 msgstr "વપરાશકર્તાઓ"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "આપનું સ્વાગત છે"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "તમે ઑફલાઇન છે"
@@ -649,10 +656,6 @@ msgstr "ડાઉનલોડ"
 msgid "error"
 msgstr "ભૂલ"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "બિન રજીસ્ટર વપરાશકર્તાઓ માટે ઘર પાનું."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "પ્રારંભ"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "ઓર્ડર"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "અન્યથા નવી accout રજીસ્ટર અને પ્રવેશ."
+msgid "otherwise register a new accout and log in"
+msgstr "અન્યથા નવી accout રજીસ્ટર અને પ્રવેશ"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "પાસવર્ડ:"
+msgid "password"
+msgstr "પાસવર્ડ"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "પ્રગતિ"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "રજીસ્ટર વપરાશકર્તાઓ માટે હોમ પેજ ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "વપરાશકર્તા નામ:"
+msgid "username"
+msgstr "વપરાશકર્તા નામ"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "વપરાશકર્તાઓ"
+
+#~ msgid "This is"
+#~ msgstr "આ છે"

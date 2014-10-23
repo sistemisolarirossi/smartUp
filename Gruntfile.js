@@ -25,36 +25,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     // Project settings
     yeoman: appConfig,
-    appName: 'smartUp', // REMOVE-ME, use name...
-
-    ngconstant: {
-      options: {
-        name: 'smartUpApp',
-        dest: '<%= yeoman.app %>/scripts/config.js',
-        constants: {
-          package: grunt.file.readJSON('package.json'),
-          //version, => package.version
-          //APP_NAME: 'smartUp', => package.name
-          //APP_FULLNAME:    'Sistemi Solari Rossi', => package.company
-          // TODO: names to lowercase...
-          APP_LOGO: 'icons/logo.png',
-          FIREBASE_URL: 'https://smartup.firebaseio.com/',
-          SYSTEM_EMAIL: 'sistemisolarirossi@gmail.com'
-        }
-      },
-      development: {
-        values: {
-          APPCACHE: false,
-          DEBUG: true
-        },
-      },
-      production: {
-        values: {
-          APPCACHE: false,
-          DEBUG: false
-        }
-      }
-    },
+    //appName: 'smartUp', // REMOVE-ME, use name...
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -87,6 +58,10 @@ module.exports = function (grunt) {
         files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'autoprefixer']
       },
+      ngconstant: {
+        files: ['Grunfile.js', 'package.json'],
+        tasks: ['ngconstant:development']
+      },
       nggettextExtract: {
         files: [
           '<%= yeoman.app %>/**/*.html',
@@ -94,7 +69,7 @@ module.exports = function (grunt) {
         ],
         tasks: [
           'nggettext_extract',
-          //'exec:poAutoTranslate', // TODO: enable this before production, disable to speed ut development...
+          'exec:poAutoTranslate', // TODO: enable this before production, disable to speed ut development...
         ]
       },
       nggettextCompile: {
@@ -113,6 +88,41 @@ module.exports = function (grunt) {
           '.tmp/styles/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
+      }
+    },
+
+    ngconstant: {
+      options: {
+        name: 'config',
+        dest: '<%= yeoman.app %>/scripts/config.js',
+        constants: {
+          CFG: {
+            package: grunt.file.readJSON('package.json'),
+            env: 'development',
+            appLogo: 'icons/logo.png',
+            firebaseUrl: 'https://smartup.firebaseio.com/',
+            systemEmail: 'sistemisolarirossi@gmail.com',
+            lastBuildDate: Date.now()
+          }
+        }
+      },
+      development: {
+        constants: {
+          CFG: {
+            env: 'development',
+            appCache: false,
+            debug: true
+          }
+        }
+      },
+      production: {
+        constants: {
+          CFG: {
+            env: 'production',
+            appCache: false,
+            debug: false
+          }
+        }
       }
     },
 
@@ -534,7 +544,7 @@ module.exports = function (grunt) {
 
     exec: {
       poAutoTranslate: {
-        cmd: 'php local/po-auto-translate/PoAutoTranslate.php "<%= appName %>" "<%= process.cwd() %>"',
+        cmd: 'php local/po-auto-translate/PoAutoTranslate.php "<config:pkg.name>" "<%= process.cwd() %>"',
       },
     },
 
@@ -601,7 +611,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       //'manifest:generate',
       'clean:server',
-      //'ngconstant:development',
+      'ngconstant:development',
       'wiredep',
       'concurrent:server',
       'autoprefixer',
@@ -628,7 +638,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'auto_install',
     'clean:dist',
-    //'ngconstant:production',
+    'ngconstant:production',
     'favicons',
     'wiredep',
     'useminPrepare',

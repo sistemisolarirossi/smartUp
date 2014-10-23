@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(ГГ: мм)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Пацвердзіце Пароль"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Падключэнне з дапамогай аднаго з вашых сацыяльных рахункаў, або ўвайсці з гэтымі ўліковымі дадзенымі:"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Падключэнне з дапамогай аднаго з вашых сацыяльных рахункаў, або ўвайсці з гэтымі ўліковымі дадзенымі"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Гэтае імя кліента не сапраўдная"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Гэта"
+msgid "This is the home page for non registered users"
+msgstr "Гэта галоўная для якія не зарэгістраваных карыстальнікаў"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Гэта галоўная для зарэгістраваных карыстальнікаў"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Імя карыстальніка/ E- mail"
 msgid "Users"
 msgstr "Карыстальнікі"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Сардэчна запрашаем у"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Вы форуму"
@@ -649,10 +656,6 @@ msgstr "загрузка"
 msgid "error"
 msgstr "памылка"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "галоўная для якія не зарэгістраваных карыстальнікаў."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "ініцыялізацыі"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "заказы"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "у адваротным выпадку зарэгістраваць новы ведама і ўвайсці."
+msgid "otherwise register a new accout and log in"
+msgstr "у адваротным выпадку зарэгістраваць новы ведама і ўвайсці"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "пароль:"
+msgid "password"
+msgstr "пароль"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "прагрэс"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "хатняя старонка для зарэгістраваных карыстальнікаў ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "імя карыстальніка:"
+msgid "username"
+msgstr "імя карыстальніка"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "карыстальнікі"
+
+#~ msgid "This is"
+#~ msgstr "Гэта"

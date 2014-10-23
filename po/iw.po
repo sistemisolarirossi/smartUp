@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh: mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "אשר סיסמא"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "להתחבר באמצעות אחד מהחשבונות החברתיים שלך , או להתחבר עם אישורי הבאים:"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "להתחבר באמצעות אחד מהחשבונות החברתיים שלך , או להתחבר עם אישורי אלה"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "שם לקוח זה אינו חוקי"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "זה"
+msgid "This is the home page for non registered users"
+msgstr "זה בדף הביתלמשתמשים לא רשומים"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "זה בדף הביתלמשתמשים רשומים"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "שם משתמש/ דואר אלקטרוני"
 msgid "Users"
 msgstr "משתמשים"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "ברוכים הבאים ל"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "אתה במצב לא מקוון"
@@ -649,10 +656,6 @@ msgstr "הורדה"
 msgid "error"
 msgstr "שגיאה"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "דף הביתלמשתמשים רשומים שאינם."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "אתחול"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "הזמנות"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "אחרת לרשוםaccout חדשולהתחבר."
+msgid "otherwise register a new accout and log in"
+msgstr "אחרת לרשוםaccout חדש והיכנס"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "סיסמא:"
+msgid "password"
+msgstr "סיסמא"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "התקדמות"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "דף הבית עבור משתמשים רשומים ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "שם משתמש:"
+msgid "username"
+msgstr "שם משתמש"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "משתמשים"
+
+#~ msgid "This is"
+#~ msgstr "זה"

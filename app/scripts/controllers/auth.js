@@ -13,9 +13,6 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
 */
 
   $scope.params = $routeParams;
-  //$scope.debug = CFG.DEBUG;
-  //$scope.version = CFG.version;
-  //$scope.lastBuildDate = lastBuildDate;
 
   // watch rootScope online status variable
   $scope.$watch(function() {
@@ -25,7 +22,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     //console.log('changed online status to ' + $scope.online);
   }, true);
 
-  if (CFG.APPCACHE) {
+  if (CFG.appCache) {
     // watch rootScope appcache status variable
     $scope.$watch(function() {
       return $rootScope.appcache;

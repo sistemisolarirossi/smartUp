@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "（ HH：MM ）"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "確認密碼"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "連接使用你的社交帳戶之一，或與這些憑據登錄："
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "連接使用你的社交帳戶之一，或與這些憑據登錄"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "這個客戶名稱無效"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "這是"
+msgid "This is the home page for non registered users"
+msgstr "這是對非註冊用戶的主頁"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "這是註冊用戶的主頁"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "用戶名/電子郵件"
 msgid "Users"
 msgstr "用戶"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "歡迎光臨"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "您是離線"
@@ -649,10 +656,6 @@ msgstr "下載"
 msgid "error"
 msgstr "錯誤"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "主頁非註冊用戶。"
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "初始化"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "訂單"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "另外註冊一個新戶頭，然後登錄。"
+msgid "otherwise register a new accout and log in"
+msgstr "另外註冊一個新的戶頭並登錄"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "密碼："
+msgid "password"
+msgstr "密碼"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "進度"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "首頁註冊用戶。"
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "用戶名："
+msgid "username"
+msgstr "用戶名"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "用戶"
+
+#~ msgid "This is"
+#~ msgstr "這是"

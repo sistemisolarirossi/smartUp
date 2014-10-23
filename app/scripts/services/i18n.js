@@ -141,13 +141,15 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
           }
         }
       }
-      if (previousLanguage !== this.currentLanguage) {
-        // switch language translation strings
-        gettextCatalog.setCurrentLanguage(this.currentLanguage);
-        gettextCatalog.loadRemote('/i18n/' + this.currentLanguage + '.json');
+      if (this.currentLanguage !== previousLanguage) {
+        if (this.currentLanguage !== this.getDefaultLanguage()) {
+          // switch language translation strings
+          gettextCatalog.setCurrentLanguage(this.currentLanguage);
+          gettextCatalog.loadRemote('/i18n/' + this.currentLanguage + '.json');
+        }
 
         // switch locale
-        gettextCatalog.debug = CFG.DEBUG;
+        gettextCatalog.debug = CFG.debug;
         gettextCatalog.setCurrentLanguage(this.currentLanguage);
         tmhDynamicLocale.set(this.currentLanguage);
       }

@@ -16,6 +16,7 @@ var app = angular.module('smartUpApp', [
     'ngResource', // bower.json: "angular-animate": "1.2.16",
     'ngTouch', // bower.json: "angular-touch": "1.2.16",
   */
+  'config',
   'ngSanitize',
   'ngRoute',
   'ngAutocomplete',
@@ -26,18 +27,6 @@ var app = angular.module('smartUpApp', [
   'gettext',
   'tmh.dynamicLocale'
 ]); 
-
-/*
-app.constant('CFG', {
-  APP_NAME:        'smartUp',
-  APP_FULLNAME:    'Sistemi Solari Rossi',
-  APP_LOGO:        'icons/logo.png',
-  FIREBASE_URL:    'https://smartup.firebaseio.com/',
-  SYSTEM_EMAIL:    'sistemisolarirossi@gmail.com',
-  APPCACHE:        false,
-  DEBUG:           true
-});
-*/
 
 app.config(function ($routeProvider) {
   $routeProvider
@@ -117,16 +106,18 @@ app.config(function (tmhDynamicLocaleProvider) {
  * Initialize app: rottscope, i18n, ...
  */
 app.run(function ($rootScope, CFG, I18N) {
-/*
-  $rootScope.appName = CFG.package.name; //CFG.APP_NAME;
-  $rootScope.appLogo = CFG.APP_LOGO;
-  $rootScope.today = new Date(); // used in about view
 
+  $rootScope.package = {};
+  $rootScope.package.name = CFG.package.name;
+  $rootScope.package.version = CFG.package.version;
+  $rootScope.package.company = CFG.package.company;
+  $rootScope.package.copyrightDate = CFG.package.copyrightDate;
   $rootScope.debug = CFG.debug;
-  $rootScope.version = CFG.package.version; //CFG.version;
-  $rootScope.lastBuildDate = lastBuildDate;
+  $rootScope.appLogo = CFG.appLogo;
+  $rootScope.copyright = '©' + ' ' + CFG.package.copyrightDate + ',' + ' ' + CFG.package.company;
+  $rootScope.today = new Date();
+  $rootScope.lastBuildDate = CFG.lastBuildDate;
 
-*/
   I18N.setCurrentLanguage();
 });
 
@@ -176,7 +167,7 @@ app.run(function ($window, $rootScope) {
  * Watch for app-cache status 
  */
 app.run(function ($window, $rootScope, gettext, CFG) {
-  if (CFG.APPCACHE) {
+  if (CFG.appCache) {
     $rootScope.appcache = {};
     $rootScope.appcache.status = gettext('initializing');
   

@@ -1,24 +1,22 @@
 <div id="footer" ng-controller="AuthCtrl" class="footer no-print">
 
-  <!-- debug-only -->
-  <span show-device-class ng-show="debug"> </span>
-  <span ng-show="debug"> </span>
-  <!-- /debug-only -->
-
-  <span>&nbsp;</span>
-
   <span class="debug" ng-show="debug">
-    version: {{ version }}
+    <span show-device-class></span>
   </span>
 
   <span>&nbsp;</span>
 
   <span class="debug" ng-show="debug">
-    last build date: {{ lastBuildDate }}
+    version: {{ package.version }}
   </span>
 
   <span>&nbsp;</span>
-  <!-- TODO: appcache in main.css (img width: 9) -->
+
+  <span class="debug" ng-show="debug">
+    last build date: {{ lastBuildDate | date: 'yyyy-MM-d HH:mm:ss' }}
+  </span>
+
+  <span>&nbsp;</span>
   <span class="appcache">
     <span ng-show="appcache.status === 'initializing'">
       <button class="btn btn-default btn-xxs glyphicon glyphicon-cloud" style="color:black" ng-click="appcacheStatus()" ng-attr-title="{{ 'Cache status is' | translate }} '{{ appcache.status }}'"></button>
@@ -80,7 +78,7 @@
   <span>&nbsp;</span>
 
   <span class="footer-icon">
-    <img align="bottom" src="icons/logo-company-16x16.png" ng-attr-title="{{'Company logo' | translate }}" /> &copy; 2014, Sistemi Solari Rossi
+    <img align="bottom" src="icons/logo-company-16x16.png" ng-attr-title="{{'Company logo' | translate }}" /><span>{{ copyright }}</span>
   </span>
 
 </div>

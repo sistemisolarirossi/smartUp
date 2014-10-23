@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Apstiprināt paroli"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Savienot , izmantojot vienu no saviem sociālo kontu , vai pieteikties ar šiem akreditācijas :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Savienot , izmantojot vienu no saviem sociālo kontu , vai pieteikties ar šiem akreditācijas"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Šis klients nosaukums nav derīgs"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Tas ir"
+msgid "This is the home page for non registered users"
+msgstr "Tas irmājas lapa , kas nav reģistrētiem lietotājiem"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Tas irmājas lapā reģistrētiem lietotājiem"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Lietotājvārds/ E-pasts"
 msgid "Users"
 msgstr "Lietotāji"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Laipni lūdzam"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Bezsaistē"
@@ -649,10 +656,6 @@ msgstr "lejupielādi"
 msgid "error"
 msgstr "kļūda"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "mājas lapa nav reģistrētiem lietotājiem."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "inicializēšana"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "pasūtījumi"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "citādi reģistrēt jaunu accout un piesakieties."
+msgid "otherwise register a new accout and log in"
+msgstr "citādi reģistrēt jaunu accout un piesakieties"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "parole:"
+msgid "password"
+msgstr "parole"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "progress"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "mājas lapā reģistrētiem lietotājiem ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "lietotājvārds:"
+msgid "username"
+msgstr "lietotājvārds"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "lietotājiem"
+
+#~ msgid "This is"
+#~ msgstr "Tas ir"

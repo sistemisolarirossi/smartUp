@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh: mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Kumpirmahin ang password"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Kumonekta gamit ang isa sa iyong mga social na mga account, o mag-log in gamit ang mga kredensyal :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Kumonekta gamit ang isa sa iyong mga social na mga account, o mag-log in gamit ang mga kredensyal"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Ito ang pangalan ng customer ay hindi wasto"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Ito ay"
+msgid "This is the home page for non registered users"
+msgstr "Ito ang home page para sa hindi rehistradong mga gumagamit"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Ito ang home page para sa mga nakarehistrong user"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Username/ Email"
 msgid "Users"
 msgstr "Ang mga gumagamit"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Maligayang pagdating sa"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Naka-offline ka"
@@ -649,10 +656,6 @@ msgstr "sa pag-download"
 msgid "error"
 msgstr "error"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "home page para sa hindi rehistradong mga gumagamit."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "sinisimulan"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "order"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "kung hindi man magrehistro ng bagong accout at mag-log in."
+msgid "otherwise register a new accout and log in"
+msgstr "kung hindi man magrehistro ng bagong accout at mag-log in"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "password:"
+msgid "password"
+msgstr "password"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "pag-unlad"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "sa home page para sa mga nakarehistrong user ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "username:"
+msgid "username"
+msgstr "username"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "mga gumagamit"
+
+#~ msgid "This is"
+#~ msgstr "Ito ay"

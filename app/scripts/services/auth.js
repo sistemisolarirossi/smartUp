@@ -1,11 +1,11 @@
 'use strict';
  
 app.factory('Auth', function ($rootScope, $firebase, $firebaseSimpleLogin, $q, CFG, User) {
-  var ref = new Firebase(CFG.FIREBASE_URL);
+  var ref = new Firebase(CFG.firebaseUrl);
   var auth = $firebaseSimpleLogin(ref);
-  //var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
+  //var refUsers = new Firebase(CFG.firebaseUrl + 'users');
   //var users = $firebase(refUsers);
-  //var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
+  //var refUsersByName = new Firebase(CFG.firebaseUrl + 'usersByName');
   //var usersByName = $firebase(refUsersByName);
 
   var Auth = {

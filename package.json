@@ -1,8 +1,9 @@
 {
   "name": "smartUp",
   "version": "0.0.4",
-  "company": "Sistemi Solari Rossi",
   "author": "Marco Solari <marcosolari@gmail.com>",
+  "company": "Sistemi Solari Rossi",
+  "copyrightDate": "2014",
   "repository": {
     "type": "git",
     "url": "git://github.com/sistemisolarirossi/smartUp.git"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "გაიმეორეთ პაროლი"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "დაკავშირება გამოყენებით თქვენი სოციალური ანგარიშს , ან შეხვიდეთ ამ მიდგომებით :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "დაკავშირება გამოყენებით თქვენი სოციალური ანგარიშს , ან შეხვიდეთ ამ მიდგომებით"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "ამ მომხმარებლის სახელი არ არის სწორი"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "ეს არის"
+msgid "This is the home page for non registered users"
+msgstr "ეს არის მთავარი გვერდი არასამთავრობო დარეგისტრირებულ მომხმარებლებს"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "ეს არის მთავარი გვერდი დარეგისტრირებულ მომხმარებლებს"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "ნიკი/ Email"
 msgid "Users"
 msgstr "მომხმარებელი"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "მოგესალმებით"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "თქვენ ფორუმზე"
@@ -649,10 +656,6 @@ msgstr "გადმოწერა"
 msgid "error"
 msgstr "შეცდომა"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "მთავარი გვერდი არასამთავრობო დარეგისტრირებულ მომხმარებლებს."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "ინიციალიზაციისას"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "ბრძანებები"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "სხვაგვარად რეგისტრაცია ახალი accout და შედით."
+msgid "otherwise register a new accout and log in"
+msgstr "სხვაგვარად რეგისტრაცია ახალი accout და შესვლა"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "პაროლი:"
+msgid "password"
+msgstr "დაგავიწყდათ"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "პროგრესი"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "მთავარი გვერდი დარეგისტრირებულ მომხმარებლებს."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "სახელი:"
+msgid "username"
+msgstr "სახელი"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "მომხმარებლები"
+
+#~ msgid "This is"
+#~ msgstr "ეს არის"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Jelszó megerősítése"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Kapcsolódás az egyik társadalmi számlák , vagy jelentkezzen be ezeket a hitelesítő adatokat :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Kapcsolódás az egyik társadalmi számlák , vagy jelentkezzen be ezeket a hitelesítő adatokat"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Ez az ügyfél neve nem érvényes"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Ez"
+msgid "This is the home page for non registered users"
+msgstr "Ez a honlapján a nem regisztrált felhasználók számára"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Ez a honlapon regisztrált felhasználók számára"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Felhasználónév/ e-mail"
 msgid "Users"
 msgstr "Felhasználók"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Üdvözöljük a"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Ön az offline"
@@ -649,10 +656,6 @@ msgstr "letöltés"
 msgid "error"
 msgstr "hiba"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "kezdőlapját nem regisztrált felhasználók."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "inicializálás"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "megrendelések"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "egyébként regisztráljon egy új fiókot állíthat be, és jelentkezzen be."
+msgid "otherwise register a new accout and log in"
+msgstr "egyébként regisztráljon egy új fiókot állíthat be , és jelentkezzen be"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "jelszó:"
+msgid "password"
+msgstr "jelszó"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "haladás"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "a honlapon a regisztrált felhasználók számára ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "felhasználónév:"
+msgid "username"
+msgstr "felhasználónév"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "felhasználó"
+
+#~ msgid "This is"
+#~ msgstr "Ez"

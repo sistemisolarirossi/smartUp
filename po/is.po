@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(kk : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Staðfesta lykilorð"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Tengjast með einn af félagslegur reikninga, eða skrá þig inn með þessum persónuskilríki :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Tengjast með einn af félagslegur reikninga, eða skrá þig inn með þessum persónuskilríki"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Þetta nafn viðskiptavinur er ekki gild"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Þetta er"
+msgid "This is the home page for non registered users"
+msgstr "Þetta er heimasíða fyrir utan skráða notendur"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Þetta er heimasíða fyrir skráða notendur"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Notandanafn/ netfang"
 msgid "Users"
 msgstr "Notendur"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Velkomið að"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Þú ert offline"
@@ -649,10 +656,6 @@ msgstr "niðurhal"
 msgid "error"
 msgstr "villa"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "heimasíða fyrir utan skráða notendur."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "opening"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "pantanir"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "annars skrá nýtt accout og skrá þig inn."
+msgid "otherwise register a new accout and log in"
+msgstr "annars skrá nýtt accout og skráðu þig inn"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "lykilorð:"
+msgid "password"
+msgstr "lykilorð"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "framfarir"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "heimasíða fyrir skráða notendur ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "notandanafn:"
+msgid "username"
+msgstr "notandanafn"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "notendur"
+
+#~ msgid "This is"
+#~ msgstr "Þetta er"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Confirmez le mot de passe"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Se connecter en utilisant un de vos comptes sociaux , ou vous connecter avec ces identifiants:"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Se connecter en utilisant un de vos comptes sociaux , ou connectez-vous avec ces informations d'identification"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Ce nom de client n'est pas valide"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "C'est"
+msgid "This is the home page for non registered users"
+msgstr "Il s'agit de la page d'accueil pour les utilisateurs non enregistrés"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Il s'agit de la page d'accueil pour les utilisateurs enregistrés"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Nom d'utilisateur / Email"
 msgid "Users"
 msgstr "Utilisateurs"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Bienvenue à"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Vous n'êtes pas connecté"
@@ -649,10 +656,6 @@ msgstr "téléchargement"
 msgid "error"
 msgstr "erreur"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "page d'accueil pour les utilisateurs non enregistrés ."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "initialiser"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "ordres"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "sinon enregistrer une nouvelle accout et connectez-vous ."
+msgid "otherwise register a new accout and log in"
+msgstr "sinon enregistrer une nouvelle accout et connectez-vous"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "mot de passe:"
+msgid "password"
+msgstr "mot de passe"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "progrès"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "la page d'accueil pour les utilisateurs enregistrés ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "nom d'utilisateur :"
+msgid "username"
+msgstr "nom d'utilisateur"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "utilisateurs"
+
+#~ msgid "This is"
+#~ msgstr "C'est"

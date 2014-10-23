@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh: mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Xác nhận mật khẩu"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Kết nối sử dụng một trong các tài khoản xã hội của bạn, hoặc đăng nhập với các thông tin :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Kết nối sử dụng một trong các tài khoản xã hội của bạn, hoặc đăng nhập với các thông tin quan trọng"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Tên khách hàng này không hợp lệ"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Đây là"
+msgid "This is the home page for non registered users"
+msgstr "Đây là trang chủ cho người sử dụng không đăng ký"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Đây là trang chủ cho người dùng đăng ký"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Tên đăng nhập/ Email"
 msgid "Users"
 msgstr "Người sử dụng"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Chào mừng bạn đến"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Bạn đang ẩn"
@@ -649,10 +656,6 @@ msgstr "tải"
 msgid "error"
 msgstr "lỗi"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "trang chủ cho người dùng không đăng ký."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "khởi tạo"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "đơn đặt hàng"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "nếu không đăng ký một accout và đăng nhập."
+msgid "otherwise register a new accout and log in"
+msgstr "nếu không đăng ký một accout và đăng nhập"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "mật khẩu:"
+msgid "password"
+msgstr "mật khẩu"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "tiến độ"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "trang chủ cho người sử dụng đã đăng ký."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "tên người dùng:"
+msgid "username"
+msgstr "tên truy nhập"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "người sử dụng"
+
+#~ msgid "This is"
+#~ msgstr "Đây là"

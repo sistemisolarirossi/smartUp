@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Vahvista salasana"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Yhdistä käyttäen joku sosiaalisia tilejä tai kirjaudu sisään näiden valtakirjojen :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Yhdistä käyttäen joku sosiaalisia tilejä tai kirjaudu sisään näiden valtakirjojen"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Tämä asiakas nimi ei kelpaa"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Tämä on"
+msgid "This is the home page for non registered users"
+msgstr "Tämä onkotisivu ei rekisteröitynyttä käyttäjää"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Tämä onkotisivun rekisteröityneille käyttäjille"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Käyttäjänimi/ Sähköposti"
 msgid "Users"
 msgstr "Käyttäjät"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Tervetuloa"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Olet offline-tilassa"
@@ -649,10 +656,6 @@ msgstr "lataaminen"
 msgid "error"
 msgstr "virhe"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "etusivu ei rekisteröitynyttä käyttäjää."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "alustetaan"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "tilaukset"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "muuten rekisteröidä uuden accout ja kirjaudu sisään."
+msgid "otherwise register a new accout and log in"
+msgstr "muuten rekisteröidä uuden accout ja kirjaudu sisään"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "salasana:"
+msgid "password"
+msgstr "salasana"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "edistystä"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "etusivu rekisteröityneille käyttäjille ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "käyttäjätunnus:"
+msgid "username"
+msgstr "käyttäjätunnus"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "käyttäjät"
+
+#~ msgid "This is"
+#~ msgstr "Tämä on"

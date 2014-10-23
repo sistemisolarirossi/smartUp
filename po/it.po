@@ -181,8 +181,8 @@ msgid "Confirm password"
 msgstr "Conferma password"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Connettiti utilizzando uno dei propri account social oppure accedere con queste credenziali:"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Connettiti utilizzando uno dei tuoi account social oppure accedere con queste credenziali"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +526,12 @@ msgid "This customer name is not valid"
 msgstr "Questo nome del cliente non è valido"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Questo è"
+msgid "This is the home page for non registered users"
+msgstr "Questa è la home page per gli utenti non registrati"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Questa è la home page per gli utenti registrati"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +601,10 @@ msgstr "Nome utente / Email"
 msgid "Users"
 msgstr "Utenti"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Benvenuti in"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Sei offline"
@@ -649,10 +657,6 @@ msgstr "download in corso"
 msgid "error"
 msgstr "errore"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "home page per gli utenti non registrati."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "inizializzazione in corso"
@@ -674,12 +678,12 @@ msgid "orders"
 msgstr "ordini"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "altrimenti registrare un nuovo account ed effettuare il login."
+msgid "otherwise register a new accout and log in"
+msgstr "altrimenti registra un nuovo account ed accedi"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "password:"
+msgid "password"
+msgstr "password"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,17 +693,13 @@ msgstr "progresso"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "la home page per gli utenti registrati."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "username:"
+msgid "username"
+msgstr "utente"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
@@ -707,3 +707,6 @@ msgstr "utenti"
 
 #~ msgid "Dog"
 #~ msgstr "Cane"
+
+#~ msgid "This is"
+#~ msgstr "Questo è"

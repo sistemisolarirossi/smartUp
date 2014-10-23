@@ -176,7 +176,7 @@ msgid "Confirm password"
 msgstr ""
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
+msgid "Connect using one of your social accounts, or log in with these credentials"
 msgstr ""
 
 #: app/views/home.html
@@ -536,7 +536,11 @@ msgid "This customer name is not valid"
 msgstr ""
 
 #: app/views/home.html
-msgid "This is"
+msgid "This is the home page for non registered users"
+msgstr ""
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
 msgstr ""
 
 #: app/scripts/controllers/users.js
@@ -608,6 +612,10 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr ""
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr ""
@@ -663,10 +671,6 @@ msgstr ""
 msgid "error"
 msgstr ""
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr ""
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr ""
@@ -689,11 +693,11 @@ msgid "orders"
 msgstr ""
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
+msgid "otherwise register a new accout and log in"
 msgstr ""
 
 #: app/views/home.html
-msgid "password:"
+msgid "password"
 msgstr ""
 
 #: app/scripts/app.js
@@ -705,16 +709,12 @@ msgstr ""
 msgid "servicereports"
 msgstr ""
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr ""
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr ""
 
 #: app/views/home.html
-msgid "username:"
+msgid "username"
 msgstr ""
 
 #: app/views/users.html

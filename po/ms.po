@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Sahkan kata laluan"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Sambung dengan salah satu akaun sosial anda, atau log masuk dengan kelayakan ini:"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Sambung dengan salah satu akaun sosial anda, atau log masuk dengan kelayakan ini"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Ini nama pelanggan tidak sah"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Ini"
+msgid "This is the home page for non registered users"
+msgstr "Ini adalah laman utama untuk pengguna tidak berdaftar"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Ini adalah laman utama untuk pengguna berdaftar"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Nama pengguna/ E-mel"
 msgid "Users"
 msgstr "Pengguna"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Selamat datang ke"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Anda berada di luar talian"
@@ -649,10 +656,6 @@ msgstr "muat turun"
 msgid "error"
 msgstr "ralat"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "laman utama untuk pengguna tidak berdaftar."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "memulakan"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "pesanan"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "jika tidak mendaftar accout baru dan log masuk."
+msgid "otherwise register a new accout and log in"
+msgstr "jika tidak mendaftar accout baru dan log masuk"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "kata laluan:"
+msgid "password"
+msgstr "kata laluan"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "kemajuan"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "laman utama untuk pengguna berdaftar."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "nama pengguna:"
+msgid "username"
+msgstr "nama pengguna"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "pengguna"
+
+#~ msgid "This is"
+#~ msgstr "Ini"

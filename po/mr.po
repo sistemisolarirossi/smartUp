@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(एच : मिमी)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "पासवर्ड पुष्टी"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "आपल्या सामाजिक खाती वापरून , किंवा हे श्रेय लॉग इन :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "आपल्या सामाजिक खाती वापरून , किंवा हे श्रेय लॉग इन"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "हे ग्राहक नाव वैध नाही"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "हा आहे"
+msgid "This is the home page for non registered users"
+msgstr "या नोंदणी नसलेल्या वापरकर्त्यांना होम पेज आहे"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "या नोंदणीकृत सदस्यांना होम पेज आहे"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "वापरकर्तानाव/ ईमेल"
 msgid "Users"
 msgstr "वापरकर्ते"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "आपले स्वागत आहे"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "आपण ऑफलाइन आहात"
@@ -649,10 +656,6 @@ msgstr "डाउनलोड"
 msgid "error"
 msgstr "त्रुटी"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "नोंदणी नसलेल्या वापरकर्त्यांसाठी होम पेज."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "सुरू"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "आदेश"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "अन्यथा एक नवीन accout नोंदणी आणि प्रवेश करा."
+msgid "otherwise register a new accout and log in"
+msgstr "अन्यथा एक नवीन accout नोंदणी आणि लॉग इन"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "पासवर्ड:"
+msgid "password"
+msgstr "पासवर्ड"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "प्रगती"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "नोंदणीकृत सदस्यांना होम पेज ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "वापरकर्तानाव:"
+msgid "username"
+msgstr "वापरकर्तानाव"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "वापरकर्ते"
+
+#~ msgid "This is"
+#~ msgstr "हा आहे"

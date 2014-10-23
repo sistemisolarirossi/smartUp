@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(aa: mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Cadarnhau cyfrinair"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Cysylltu gan ddefnyddio un o'ch cyfrifon cymdeithasol , neu logio i mewn gyda cymwysterau hyn :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Cysylltu gan ddefnyddio un o'ch cyfrifon cymdeithasol , neu logio i mewn gyda cymwysterau hyn"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Nid yw'r enw cwsmer yn ddilys"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Mae hyn yn"
+msgid "This is the home page for non registered users"
+msgstr "Mae hyn yn y dudalen gartref ar gyfer defnyddwyr nad ydynt wedi'u cofrestru"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Mae hyn yn y dudalen gartref ar gyfer defnyddwyr cofrestredig"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Enw defnyddiwr/ E-bost"
 msgid "Users"
 msgstr "Defnyddwyr"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Croeso i"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Yr ydych yn all-lein"
@@ -649,10 +656,6 @@ msgstr "lawrlwytho"
 msgid "error"
 msgstr "gwall"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "dudalen gartref ar gyfer defnyddwyr nad ydynt wedi'u cofrestru."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "ymgychwyn"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "gorchmynion"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "fel arall cofrestru accout newydd a mewngofnodi."
+msgid "otherwise register a new accout and log in"
+msgstr "fel arall cofrestru accout newydd a mewngofnodi"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "cyfrinair:"
+msgid "password"
+msgstr "cyfrinair"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "cynnydd"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "y dudalen gartref ar gyfer defnyddwyr cofrestredig ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "enw defnyddiwr:"
+msgid "username"
+msgstr "enw defnyddiwr"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "defnyddwyr"
+
+#~ msgid "This is"
+#~ msgstr "Mae hyn yn"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(чч: мм)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Потвърдете паролата"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Свържете се използва един от вашите социални сметки , или влезте в тези пълномощия :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Свържете се използва един от вашите социални сметки , или влезте в тези пълномощия"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Това име на клиент, който не е валиден"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Това е"
+msgid "This is the home page for non registered users"
+msgstr "Това е началната страница за нерегистрирани потребители"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Това е началната страница за регистрирани потребители"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Потребител/ Е-мейл"
 msgid "Users"
 msgstr "Потребители"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Добре дошли в"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Вие сте офлайн"
@@ -649,10 +656,6 @@ msgstr "изтегляне"
 msgid "error"
 msgstr "грешка"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "начална страница за нерегистрирани потребители."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "инициализиране"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "поръчки"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "иначе регистрирате нова разчетна и влезете."
+msgid "otherwise register a new accout and log in"
+msgstr "иначе регистрирате нова разчетна и влезте в"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "парола:"
+msgid "password"
+msgstr "парола"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "напредък"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "на началната страница за регистрирани потребители."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "потребителско име:"
+msgid "username"
+msgstr "потребителско име"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "потребители"
+
+#~ msgid "This is"
+#~ msgstr "Това е"

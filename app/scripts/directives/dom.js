@@ -69,11 +69,9 @@ app.directive('showDeviceClass', function ($window) {
           deviceClass = 'custom';
         }
         element.html(
-          '<span class="debug">' +
           'width: ' + windowWidth + 'px' +
           '&nbsp;' +
-          'device: ' + deviceClass +
-          '</span>'
+          'device: ' + deviceClass
         );
       }, true);
   

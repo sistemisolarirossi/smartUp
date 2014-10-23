@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(HH : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "비밀번호 확인"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "소셜 계정 중 하나 를 사용하여 연결하거나 이러한 자격 증명 으로 로그인 :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "소셜 계정 중 하나 를 사용하여 연결하거나 이러한 자격 증명 으로 로그인"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "이 고객 이름 이 유효하지 않습니다"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "이다"
+msgid "This is the home page for non registered users"
+msgstr "이것은 비 등록 사용자를위한홈페이지 인"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "이것은 등록 된 사용자 를위한홈페이지 인"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "아이디/ 이메일"
 msgid "Users"
 msgstr "사용자"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "에 오신 것을 환영합니다"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "당신은 오프라인"
@@ -649,10 +656,6 @@ msgstr "다운로드"
 msgid "error"
 msgstr "오류"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "비 등록 사용자를위한 홈 페이지."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "초기화"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "주문"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "그렇지 않으면 새로운 accout 을 등록하고 로그인합니다."
+msgid "otherwise register a new accout and log in"
+msgstr "그렇지 않으면 새로운 accout 을 등록하고 로그인"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "비밀번호:"
+msgid "password"
+msgstr "암호"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "진행"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "등록 된 사용자 의 홈 페이지 ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "사용자 이름:"
+msgid "username"
+msgstr "사용자 이름"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "사용자"
+
+#~ msgid "This is"
+#~ msgstr "이다"

@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh : mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Potvrdi lozinku"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Povezivanje pomoću jednog od svojih društvenih računa ili se prijaviti s ovim vjerodajnice :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Povezivanje pomoću jednog od svojih društvenih računa ili se prijaviti s ovim vjerodajnice"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Ovo ime kupca nije valjan"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "To"
+msgid "This is the home page for non registered users"
+msgstr "Ovo jepočetna stranica za ne registrirane korisnike"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Ovo jepočetna stranica za registrirane korisnike"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "Username/ E-mail"
 msgid "Users"
 msgstr "Korisnici"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Dobro došli u"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Vi ste offline"
@@ -649,10 +656,6 @@ msgstr "skidanje"
 msgid "error"
 msgstr "pogreška"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "početna stranica za ne registrirane korisnike."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "resetiranja"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "nalozi"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "inače registrirati novi accout i prijavite se."
+msgid "otherwise register a new accout and log in"
+msgstr "inače registrirati novi accout i prijavite se"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "lozinka:"
+msgid "password"
+msgstr "lozinka"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "napredak"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "početna stranica registriranim korisnicima."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "korisničko ime:"
+msgid "username"
+msgstr "korisničko ime"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "korisnici"
+
+#~ msgid "This is"
+#~ msgstr "To"

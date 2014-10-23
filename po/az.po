@@ -12,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: app/views/serviceReports.html
-#, 
 msgid "(hh:mm)"
 msgstr "(hh: mm)"
 
@@ -181,8 +180,8 @@ msgid "Confirm password"
 msgstr "Şifrəni təsdiq"
 
 #: app/views/home.html
-msgid "Connect using one of your social accounts, or log in with these credentials:"
-msgstr "Sosial hesablarına biri istifadə edərək, qoşun , və ya bu etimadnaməsini ilə daxil :"
+msgid "Connect using one of your social accounts, or log in with these credentials"
+msgstr "Sosial hesablarına biri istifadə edərək, qoşun , və ya bu etimadnaməsini ilə daxil"
 
 #: app/views/home.html
 msgid "Connect with Facebook"
@@ -526,8 +525,12 @@ msgid "This customer name is not valid"
 msgstr "Bu müştəri adı düzgün deyil"
 
 #: app/views/home.html
-msgid "This is"
-msgstr "Bu"
+msgid "This is the home page for non registered users"
+msgstr "Bu qeyri qeydiyyatdan keçmiş istifadəçilər üçün ana səhifə"
+
+#: app/views/home.html
+msgid "This is the home page for registered users"
+msgstr "Bu qeydiyyatdan keçmiş istifadəçilər üçün ana səhifə"
 
 #: app/scripts/controllers/users.js
 msgid "This user can nor read nor write"
@@ -597,6 +600,10 @@ msgstr "İstifadəçi adı/ E-poçt"
 msgid "Users"
 msgstr "İstifadəçilər"
 
+#: app/views/home.html
+msgid "Welcome to"
+msgstr "Xoş gəlmisiniz"
+
 #: app/views/footer.html
 msgid "You are offline"
 msgstr "Siz offline"
@@ -649,10 +656,6 @@ msgstr "downloading"
 msgid "error"
 msgstr "səhv"
 
-#: app/views/home.html
-msgid "home page for non registered users."
-msgstr "qeyri qeydiyyatdan keçmiş istifadəçilər üçün ev səhifə."
-
 #: app/scripts/app.js
 msgid "initializing"
 msgstr "başlatılıyor"
@@ -674,12 +677,12 @@ msgid "orders"
 msgstr "sifarişlər"
 
 #: app/views/home.html
-msgid "otherwise register a new accout and log in."
-msgstr "başqa bir yeni accout qeydiyyatdan daxil olun."
+msgid "otherwise register a new accout and log in"
+msgstr "başqa bir yeni accout qeydiyyatdan daxil"
 
 #: app/views/home.html
-msgid "password:"
-msgstr "parol:"
+msgid "password"
+msgstr "parol"
 
 #: app/scripts/app.js
 msgid "progress"
@@ -689,18 +692,17 @@ msgstr "tərəqqi"
 msgid "servicereports"
 msgstr "servicereports"
 
-#: app/views/home.html
-msgid "the home page for registered users."
-msgstr "qeydiyyatdan keçmiş istifadəçilər üçün ev səhifə ."
-
 #: app/scripts/app.js
 msgid "updateready"
 msgstr "updateready"
 
 #: app/views/home.html
-msgid "username:"
-msgstr "istifadəçi adı:"
+msgid "username"
+msgstr "istifadəçi adı"
 
 #: app/views/users.html app/scripts/controllers/users.js
 msgid "users"
 msgstr "istifadəçilər"
+
+#~ msgid "This is"
+#~ msgstr "Bu"

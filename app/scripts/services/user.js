@@ -1,9 +1,9 @@
 'use strict';
  
 app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
-  var refUsers = new Firebase(CFG.FIREBASE_URL + 'users');
+  var refUsers = new Firebase(CFG.firebaseUrl + 'users');
   var users = $firebase(refUsers);
-  var refUsersByName = new Firebase(CFG.FIREBASE_URL + 'usersByName');
+  var refUsersByName = new Firebase(CFG.firebaseUrl + 'usersByName');
   var usersByName = $firebase(refUsersByName);
   var avatarsBaseUrl = 'http://www.gravatar.com/avatar/';
 
@@ -48,7 +48,7 @@ app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
       user.password = password; // save password to be able to allow administrators to remove user from firebase...
 
       var allow = false;
-      if (user.email === CFG.SYSTEM_EMAIL) {
+      if (user.email === CFG.systemEmail) {
         allow = true;
       }
       var roles = {
@@ -145,7 +145,7 @@ app.factory('User', function ($rootScope, $firebase, $q, CFG, md5) {
       }
       return users.$child(user.$id).$remove('deleted').then(
         function() {
-          console.info('undelete - then - success', user);
+          //console.info('undelete - then - success', user);
           // we do not delete user by usersByName, we just put a '_' sign before it's name
           usersByName.$remove('_' + user.username.toLowerCase());
           usersByName.$child(user.username.toLowerCase()).$set(user.uid);

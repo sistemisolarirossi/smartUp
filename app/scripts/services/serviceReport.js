@@ -1,8 +1,7 @@
 'use strict';
      
 app.factory('Servicereport', function ($firebase, CFG, User) {
-  // N.B.: User injection is necessary to mantain current user across hard page loads...
-  var ref = new Firebase(CFG.FIREBASE_URL + 'servicereports');
+  var ref = new Firebase(CFG.firebaseUrl + 'servicereports');
   var servicereports = $firebase(ref);
 
   var Servicereport = {
