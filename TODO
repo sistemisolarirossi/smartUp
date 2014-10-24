@@ -24,3 +24,4 @@ TODO:
      https://auth.firebase.com/v2/smartup/auth/google/callback 
    v1:
      https://auth.firebase.com/auth/google/callback
+ - deploy to dist i18n files wuthout uglify (see on 0.4.1)...
