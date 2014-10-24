@@ -145,7 +145,7 @@ app.factory('I18N', function ($rootScope, $window, $route, $http, CFG, gettext, 
         if (this.currentLanguage !== this.getDefaultLanguage()) {
           // switch language translation strings
           gettextCatalog.setCurrentLanguage(this.currentLanguage);
-          gettextCatalog.loadRemote('/i18n/' + this.currentLanguage + '.json');
+          gettextCatalog.loadRemote('i18n/' + this.currentLanguage + '.json');
         }
 
         // switch locale
