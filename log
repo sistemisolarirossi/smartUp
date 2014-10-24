@@ -1,0 +1,638 @@
+[4mRunning "newer:jshint" (newer) task[24m
+
+[4mRunning "newer:jshint:all" (newer) task[24m
+
+[4mRunning "jshint:all" (jshint) task[24m
+
+✔ No problems
+
+
+[4mRunning "newer-postrun:jshint:all:1:/var/www/html/smartUp/node_modules/grunt-newer/.cache" (newer-postrun) task[24m
+
+[4mRunning "newer:jshint:test" (newer) task[24m
+No newer files to process.
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "concurrent:test" (concurrent) task[24m
+[4mRunning "copy:styles" (copy) task[24m
+Copied [36m2[39m files
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2014-10-24 09:44:41 UTC)
+loading tasks  21ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 68%
+copy:styles    10ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 32%
+Total 31ms
+
+    
+    
+    
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+File .tmp/styles/bootstrap-navbar-custom.css created.
+File .tmp/styles/main.css created.
+
+[4mRunning "connect:test" (connect) task[24m
+Started connect web server on http://0.0.0.0:9001
+
+[4mRunning "karma:unit" (karma) task[24m
+[32mINFO [karma]: [39mKarma v0.12.23 server started at http://localhost:8080/
+[32mINFO [launcher]: [39mStarting browser PhantomJS
+[32mINFO [PhantomJS 1.9.7 (Linux)]: [39mConnected on socket UPVdq-0V9dZ5Z8ThizBg with id 32466228
+PhantomJS 1.9.7 (Linux): Executed 0 of 2[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KPhantomJS 1.9.7 (Linux): Executed 1 of 2[32m SUCCESS[39m (0 secs / 0.005 secs)
+[1A[2KPhantomJS 1.9.7 (Linux): Executed 2 of 2[32m SUCCESS[39m (0 secs / 0.005 secs)
+[1A[2KPhantomJS 1.9.7 (Linux): Executed 2 of 2[32m SUCCESS[39m (0.039 secs / 0.005 secs)
+
+[4mRunning "auto_install" task[24m
+running "npm install"...
+done.
+running "bower install"...
+done.
+
+[4mRunning "removelogging:dist" (removelogging) task[24m
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_af.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ar.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_az.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_be.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_bg.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_bn.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_bs.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ca.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_cs.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_cy.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_da.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_de.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_el.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_en.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_eo.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_es.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_et.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_eu.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_fa.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_fi.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_fr.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ga.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_gl.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_gu.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ha.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_hi.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_hr.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_hu.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_hy.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_id.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ig.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_is.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_it.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_iw.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ja.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ka.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_km.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_kn.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ko.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_lo.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_lt.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_lv.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_mk.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_mn.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_mr.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ms.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_mt.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ne.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_nl.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_no.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_pa.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_pl.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_pt.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ro.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ru.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_sk.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_sl.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_so.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_sq.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_sr.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_sv.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_sw.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ta.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_te.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_th.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_tl.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_tr.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_uk.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_ur.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_vi.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_yo.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_zh-cn.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_zh-tw.js
+Removed 0 logging statements from dist/scripts/i18n/angular-locale_zu.js
+Removed 0 logging statements from dist/scripts/oldieshim.ff90b0fb.js
+Removed 16 logging statements from dist/scripts/scripts.2bd65940.js
+Removed 9 logging statements from dist/scripts/vendor.14fc3f06.js
+
+[4mRunning "clean:dist" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+Cleaning dist/.htaccess...[32mOK[39m
+Cleaning dist/404.html...[32mOK[39m
+Cleaning dist/fonts...[32mOK[39m
+Cleaning dist/i18n...[32mOK[39m
+Cleaning dist/icons...[32mOK[39m
+Cleaning dist/index.html...[32mOK[39m
+Cleaning dist/manifest.appcache...[32mOK[39m
+Cleaning dist/offline.html...[32mOK[39m
+Cleaning dist/scripts...[32mOK[39m
+Cleaning dist/styles...[32mOK[39m
+Cleaning dist/views...[32mOK[39m
+
+[4mRunning "ngconstant:production" (ngconstant) task[24m
+Creating module config at app/scripts/config.js...[32mOK[39m
+
+[4mRunning "favicons:icons" (favicons) task[24m
+Resizing images for "local/logo.png"... [32mOK[39m
+favicon.ico... [32mOK[39m
+favicon.png... [32mOK[39m
+apple-touch-icon.png... [32mOK[39m
+apple-touch-icon-60x60-precomposed.png... [32mOK[39m
+apple-touch-icon-72x72.png... [32mOK[39m
+apple-touch-icon-76x76-precomposed.png... [32mOK[39m
+apple-touch-icon-114x114.png... [32mOK[39m
+apple-touch-icon-120x120-precomposed.png... [32mOK[39m
+apple-touch-icon-144x144.png... [32mOK[39m
+apple-touch-icon-152x152-precomposed.png... [32mOK[39m
+homescreen-196x196.png... [32mOK[39m
+windows-tile-144x144.png... [32mOK[39m
+Updating HTML... [32mOK[39m
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "useminPrepare:html" (useminPrepare) task[24m
+Going through [36mapp/index.html[39m to update the config
+Looking for build script HTML comment blocks
+
+[1mConfiguration is now:[22m
+
+[1m  concat:[22m
+  { generated: 
+   { files: 
+      [ { dest: [32m'.tmp/concat/scripts/oldieshim.js'[39m,
+          src: 
+           [ [32m'bower_components/es5-shim/es5-shim.js'[39m,
+             [32m'bower_components/json3/lib/json3.min.js'[39m ] },
+        { dest: [32m'.tmp/concat/scripts/vendor.js'[39m,
+          src: 
+           [ [32m'bower_components/jquery/dist/jquery.js'[39m,
+             [32m'bower_components/angular/angular.js'[39m,
+             [32m'bower_components/json3/lib/json3.js'[39m,
+             [32m'bower_components/bootstrap/dist/js/bootstrap.js'[39m,
+             [32m'bower_components/angular-route/angular-route.js'[39m,
+             [32m'bower_components/angular-sanitize/angular-sanitize.js'[39m,
+             [32m'bower_components/firebase/firebase.js'[39m,
+             [32m'bower_components/firebase-simple-login/firebase-simple-login.js'[39m,
+             [32m'bower_components/angularfire/angularfire.js'[39m,
+             [32m'bower_components/angular-bootstrap/ui-bootstrap-tpls.js'[39m,
+             [32m'bower_components/toastr/toastr.js'[39m,
+             [32m'bower_components/ngAutocomplete/src/ngAutocomplete.js'[39m,
+             [32m'bower_components/angular-md5/angular-md5.js'[39m,
+             [32m'bower_components/angular-messages/angular-messages.js'[39m,
+             [32m'bower_components/angular-gettext/dist/angular-gettext.js'[39m,
+             [32m'bower_components/angular-dynamic-locale/src/tmhDynamicLocale.js'[39m ] },
+        { dest: [32m'.tmp/concat/scripts/scripts.js'[39m,
+          src: 
+           [ [32m'{.tmp,app}/scripts/app.js'[39m,
+             [32m'{.tmp,app}/scripts/config.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/home.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/auth.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/i18n.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/orders.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/customers.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/serviceReports.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/contacts.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/about.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/orderview.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/users.js'[39m,
+             [32m'{.tmp,app}/scripts/controllers/modalInstance.js'[39m,
+             [32m'{.tmp,app}/scripts/services/auth.js'[39m,
+             [32m'{.tmp,app}/scripts/services/order.js'[39m,
+             [32m'{.tmp,app}/scripts/services/customer.js'[39m,
+             [32m'{.tmp,app}/scripts/services/serviceReport.js'[39m,
+             [32m'{.tmp,app}/scripts/services/user.js'[39m,
+             [32m'{.tmp,app}/scripts/services/toaster.js'[39m,
+             [32m'{.tmp,app}/scripts/services/dateTime.js'[39m,
+             [32m'{.tmp,app}/scripts/services/i18n.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/navCollapse.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/autoFillFix.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/autoFocus.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/equals.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/reallyClick.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/validations.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/keypresses.js'[39m,
+             [32m'{.tmp,app}/scripts/directives/dom.js'[39m,
+             [32m'{.tmp,app}/scripts/filters/url.js'[39m,
+             [32m'{.tmp,app}/scripts/filters/searchServiceReport.js'[39m ] } ] } }
+
+[1m  uglify:[22m
+  { generated: 
+   { files: 
+      [ { dest: [32m'dist/scripts/oldieshim.js'[39m,
+          src: [ [32m'.tmp/concat/scripts/oldieshim.js'[39m ] },
+        { dest: [32m'dist/scripts/vendor.js'[39m,
+          src: [ [32m'.tmp/concat/scripts/vendor.js'[39m ] },
+        { dest: [32m'dist/scripts/scripts.js'[39m,
+          src: [ [32m'.tmp/concat/scripts/scripts.js'[39m ] } ] } }
+
+[1m  cssmin:[22m
+  { generated: 
+   { files: 
+      [ { dest: [32m'dist/styles/vendor.css'[39m,
+          src: 
+           [ [32m'bower_components/bootstrap/dist/css/bootstrap.css'[39m,
+             [32m'bower_components/toastr/toastr.css'[39m,
+             [32m'bower_components/font-awesome/css/font-awesome.css'[39m,
+             [32m'bower_components/bootstrap-social/bootstrap-social.css'[39m,
+             [32m'bower_components/open-sans-fontface/open-sans.css'[39m ] },
+        { dest: [32m'dist/styles/main.css'[39m,
+          src: 
+           [ [32m'.tmp/styles/main.css'[39m,
+             [32m'.tmp/styles/bootstrap-navbar-custom.css'[39m,
+             [32m'.tmp/styles/fonts/OpenSans.css'[39m ] } ] } }
+
+[4mRunning "concurrent:dist" (concurrent) task[24m
+[4mRunning "copy:styles" (copy) task[24m
+Copied [36m2[39m files
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2014-10-24 09:44:50 UTC)
+loading tasks  53ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+copy:styles    20ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+Total 73ms
+
+    
+    
+    [4mRunning "svgmin:dist" (svgmin) task[24m
+Total saved: 0 B
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2014-10-24 09:44:50 UTC)
+loading tasks  30ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 37%
+svgmin:dist    51ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 63%
+Total 81ms
+
+    
+    
+    [4mRunning "imagemin:dist" (imagemin) task[24m
+Minified 0 images (saved 0 B)
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2014-10-24 09:44:51 UTC)
+loading tasks  23ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 68%
+imagemin:dist  10ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 29%
+Total 34ms
+
+    
+    
+    
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+File .tmp/styles/bootstrap-navbar-custom.css created.
+File .tmp/styles/main.css created.
+
+[4mRunning "concat:generated" (concat) task[24m
+File .tmp/concat/scripts/oldieshim.js created.
+File .tmp/concat/scripts/vendor.js created.
+File .tmp/concat/scripts/scripts.js created.
+
+[4mRunning "ngmin:dist" (ngmin) task[24m
+ngminifying [36m.tmp/concat/scripts/oldieshim.js[39m, [36m.tmp/concat/scripts/scripts.js[39m, [36m.tmp/concat/scripts/vendor.js[39m
+
+[4mRunning "copy:dist" (copy) task[24m
+Created [36m10[39m directories, copied [36m322[39m files
+
+[4mRunning "cdnify:dist" (cdnify) task[24m
+Going through [36mdist/404.html[39m, [36mdist/index.html[39m, [36mdist/offline.html[39m to update script refs
+
+[4mRunning "cssmin:generated" (cssmin) task[24m
+File dist/styles/vendor.css created: 190.47 kB → 158.92 kB
+File dist/styles/main.css created: 12.7 kB → 7.63 kB
+
+[4mRunning "uglify:generated" (uglify) task[24m
+File dist/scripts/oldieshim.js created: 61.55 kB → 21.25 kB
+File dist/scripts/vendor.js created: 1.69 MB → 503.73 kB
+File dist/scripts/scripts.js created: 93.83 kB → 41.53 kB
+
+[4mRunning "filerev:dist" (filerev) task[24m
+✔ dist/scripts/oldieshim.js changed to oldieshim.ff90b0fb.js
+✔ dist/scripts/scripts.js changed to scripts.ff1c11c5.js
+✔ dist/scripts/vendor.js changed to vendor.14fc3f06.js
+✔ dist/styles/main.css changed to main.79a4a4f1.css
+✔ dist/styles/vendor.css changed to vendor.f0ec4be2.css
+
+[4mRunning "usemin:html" (usemin) task[24m
+
+[1mProcessing as HTML - dist/404.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/index.html[22m
+Update the HTML to reference our concat/min/revved script files
+<script src="scripts/oldieshim.js" changed to <script src="scripts/oldieshim.ff90b0fb.js"
+<script src="scripts/vendor.js" changed to <script src="scripts/vendor.14fc3f06.js"
+<script src="scripts/scripts.js" changed to <script src="scripts/scripts.ff1c11c5.js"
+Update the HTML with the new css filenames
+<link rel="stylesheet" href="styles/vendor.css" changed to <link rel="stylesheet" href="styles/vendor.f0ec4be2.css"
+<link rel="stylesheet" href="styles/main.css" changed to <link rel="stylesheet" href="styles/main.79a4a4f1.css"
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/offline.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/about.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/contacts.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/customers.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/footer.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/home.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/login.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/nav.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/orders.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/register.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/serviceReports.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/showorder.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[1mProcessing as HTML - dist/views/users.html[22m
+Update the HTML to reference our concat/min/revved script files
+Update the HTML with the new css filenames
+Update the HTML with the new img filenames
+Update the HTML with the new video filenames
+Update the HTML with the new poster filenames
+Update the HTML with the new source filenames
+Update the HTML with data-main tags
+Update the HTML with data-* tags
+Update the HTML with background imgs, case there is some inline style
+Update the HTML with anchors images
+Update the HTML with reference in input
+Update the HTML with the new img filenames in meta tags
+Update the HTML with the new object filenames
+Update the HTML with the new image filenames for svg xlink:href links
+Update the HTML with the new image filenames for src links
+
+[4mRunning "usemin:css" (usemin) task[24m
+
+[1mProcessing as CSS - dist/styles/main.79a4a4f1.css[22m
+Update the CSS to reference our revved images
+
+[1mProcessing as CSS - dist/styles/vendor.f0ec4be2.css[22m
+Update the CSS to reference our revved images
+
+[4mRunning "htmlmin:dist" (htmlmin) task[24m
+Minified dist/404.html 3.53 kB → 3.39 kB
+Minified dist/index.html 3.53 kB → 3.33 kB
+Minified dist/offline.html 17 B → 17 B
+Minified dist/views/about.html 515 B → 445 B
+Minified dist/views/contacts.html 230 B → 179 B
+Minified dist/views/customers.html 12.88 kB → 10.31 kB
+Minified dist/views/footer.html 4.39 kB → 4.07 kB
+Minified dist/views/home.html 2.42 kB → 1.95 kB
+Minified dist/views/login.html 1.66 kB → 1.46 kB
+Minified dist/views/nav.html 3.41 kB → 3.05 kB
+Minified dist/views/orders.html 2.51 kB → 2.25 kB
+Minified dist/views/register.html 3.95 kB → 3.52 kB
+Minified dist/views/serviceReports.html 17.66 kB → 14.11 kB
+Minified dist/views/showorder.html 1.76 kB → 1.59 kB
+Minified dist/views/users.html 14.95 kB → 12.62 kB
+
+[4mRunning "manifest:dist" (manifest) task[24m
+File "dist/manifest.appcache" created.
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2014-10-24 09:44:38 UTC)
+concurrent:test    2.1s  ▇▇ 4%
+karma:unit         1.1s  ▇ 2%
+auto_install       3.9s  ▇▇▇▇ 8%
+favicons:icons    688ms  ▇ 1%
+concurrent:dist    3.8s  ▇▇▇▇ 7%
+ngmin:dist          29s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 57%
+cdnify:dist        2.3s  ▇▇ 5%
+uglify:generated   7.1s  ▇▇▇▇▇▇▇ 14%
+Total 51.3s
+

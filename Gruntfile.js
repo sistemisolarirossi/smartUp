@@ -459,17 +459,17 @@ module.exports = function (grunt) {
       }
     },
 
-/*
     // remove logging from production code
     removelogging: {
       dist: {
-        src: '<%= yeoman.dist %>/scripts/{,*   /}*.js',
+        src: '<%= yeoman.dist %>/scripts/{,*/}*.js',
         options: {
-          replaceWith: '0;'
+          //replaceWith: '0;'
+          //methods: ['debug', 'log', 'info'],
+          verbose: true
         }
       }
     },
-*/
 
     // auto-install
     autoInstall: {
@@ -483,21 +483,6 @@ module.exports = function (grunt) {
         }
       }
     },
-
-/*
-    // remove logging (log and info) for production
-    removelogging: {
-      dist: {
-        //src: 'js/application.js',
-        //dest: 'js/application-clean.js',
-        src: 'dist/**XXX/*.js', // each file will be overwritten with the output
-        options: {
-          methods: [ 'log', 'info' ] // keep 'warn' and 'error'
-          verbose: true
-        }
-      }
-    }
-*/
 
     manifest: {
       generate: {
@@ -564,18 +549,6 @@ module.exports = function (grunt) {
       }
     },
 
-/*
-    / * jshint camelcase: false * /
-    nggettext_compile: {
-    / * jshint camelcase: true * /
-      all: {
-        files: {
-          'app/scripts/translations.js': ['po/*.po']
-        }
-      }
-    }
-*/
-
     /* jshint camelcase: false */
     nggettext_compile: {
     /* jshint camelcase: true */
@@ -600,7 +573,7 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-auto-install');
   grunt.loadNpmTasks('grunt-favicons');
-//grunt.loadNpmTasks("grunt-remove-logging");
+  grunt.loadNpmTasks('grunt-remove-logging');
   grunt.loadNpmTasks('grunt-manifest');
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-angular-gettext');
@@ -611,7 +584,6 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
-      //'manifest:generate',
       'clean:server',
       'ngconstant:development',
       'wiredep',
@@ -639,16 +611,23 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'auto_install',
+     'removelogging',
     'clean:dist',
     'ngconstant:production',
+// 'removelogging' not here
     'favicons',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
+// 'removelogging' not here
     'autoprefixer',
+// 'removelogging' not here
     'concat',
+// 'removelogging' not here
     'ngmin',
+// 'removelogging' not here
     'copy:dist',
+// 'removelogging' not here
     'cdnify',
     'cssmin',
     'uglify',

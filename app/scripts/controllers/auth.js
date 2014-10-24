@@ -142,7 +142,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     $scope.$broadcast('autofillFix:update');
     if ($scope.user && $scope.user.usernameOrEmail && $scope.user.password) {
       Auth.login($scope.user).then(function (authUser) {
-        console.warn('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
+        console.log('Auth.login($scope.user).then() RETURNED - authUser:', authUser);
         if (authUser) {
           var user = User.find(authUser.uid);
           User.setCurrentUser(user);
