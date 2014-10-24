@@ -1,6 +1,6 @@
 'use strict';
  
-app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CFG, Servicereport, Customer, Auth, DateTime) {
+app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, $filter, CFG, Servicereport, Customer, Auth, DateTime) {
   $rootScope.formLabel = 'Service reports';
 
   $scope.servicereport = {};
@@ -45,13 +45,12 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
   $scope.initServicereport = function () {
     //$scope.servicereport.number = null;
     $scope.servicereport.operator = $scope.currentUser ? $scope.currentUser.username : null;
-    $scope.servicereport.dateIn = new Date(); // put this in dateInit() ?
-    $scope.servicereport.dateOut = $scope.servicereport.dateIn; // put this in dateInit() ?
+    //$scope.servicereport.dateIn = new Date(); // put this in dateInit() ?
+    //$scope.servicereport.dateOut = $scope.servicereport.dateIn; // put this in dateInit() ?
     $scope.servicereport.duration = null;
     $scope.servicereport.location = null;
     $scope.servicereport.notes = null;
     $scope.servicereport.dateCreation = null;
-  
     $scope.customer = null;
     $scope.formAddEditValid = false;
     $scope.formAddEditSubmitted = false;
@@ -193,6 +192,7 @@ app.controller('ServicereportsCtrl', function ($scope, $rootScope, $location, CF
     $scope.minuteStep = 1;
     $scope.showMeridian = false;
 
+    //$scope.servicereport.dateIn = $filter('date')(new Date(), $scope.dateFormat);
     $scope.servicereport.dateIn = new Date(); // put this here?
     $scope.servicereport.dateOut = $scope.servicereport.dateIn; // put this here?
     $scope.timeIn = $scope.servicereport.dateIn; // why timeIn and not servicereport.timeIn?
