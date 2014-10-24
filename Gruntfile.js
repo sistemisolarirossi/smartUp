@@ -611,29 +611,31 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'auto_install',
-     'removelogging',
+// 'removelogging' not here (works on old scripts)
     'clean:dist',
+// 'removelogging' not here (no methods found)
     'ngconstant:production',
-// 'removelogging' not here
+// 'removelogging' not here (?)
     'favicons',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
-// 'removelogging' not here
+// 'removelogging' not here (no methods found)
     'autoprefixer',
-// 'removelogging' not here
+// 'removelogging' not here (no methods found)
     'concat',
-// 'removelogging' not here
+// 'removelogging' not here (no methods found)
     'ngmin',
-// 'removelogging' not here
+// 'removelogging' not here (no methods found)
     'copy:dist',
-// 'removelogging' not here
+// 'removelogging' not here (no methods found)
     'cdnify',
     'cssmin',
     'uglify',
     'filerev',
     'usemin',
     'htmlmin',
+     'removelogging',
     'manifest:dist'
   ]);
 
