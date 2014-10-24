@@ -69,7 +69,7 @@ module.exports = function (grunt) {
         ],
         tasks: [
           'nggettext_extract',
-          'exec:poAutoTranslate', // TODO: enable this before production, disable to speed ut development...
+          //'exec:poAutoTranslate', // TODO: enable this before production, disable to speed ut development...
         ]
       },
       nggettextCompile: {
@@ -91,6 +91,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // Setup constants
     ngconstant: {
       options: {
         name: 'config',
@@ -272,7 +273,7 @@ module.exports = function (grunt) {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
       options: {
-        assetsDirs: ['<%= yeoman.dist %>','<%= yeoman.dist %>/images']
+        assetsDirs: ['<%= yeoman.dist %>','<%= yeoman.dist %>/icons']
       }
     },
 
@@ -302,6 +303,7 @@ module.exports = function (grunt) {
     //   dist: {}
     // },
 
+    // Minimize images
     imagemin: {
       dist: {
         files: [{
@@ -313,6 +315,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // Minimize SVG
     svgmin: {
       dist: {
         files: [{
@@ -324,6 +327,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // Minimize HTML
     htmlmin: {
       dist: {
         options: {
@@ -342,7 +346,8 @@ module.exports = function (grunt) {
       }
     },
 
-    // ngmin tries to make the code safe for minification automatically by
+    // Make the code safe for minification
+    // Note: ngmin tries to make the code safe for minification automatically by
     // using the Angular long form for dependency injection. It doesn't work on
     // things like resolve or inject so those have to be done manually.
     ngmin: {
@@ -440,7 +445,7 @@ module.exports = function (grunt) {
       }
     },
 
-    // favicons settings
+    // Favicons settings
     favicons: {
       options: {
         trueColor: true,
@@ -459,19 +464,19 @@ module.exports = function (grunt) {
       }
     },
 
-    // remove logging from production code
+
+    // Remove logging from production code
     removelogging: {
       dist: {
-        src: '<%= yeoman.dist %>/scripts/{,*/}*.js',
+        src: '.tmp/concat/scripts/scripts.js', // and 'vendor.js'?
         options: {
-          //replaceWith: '0;'
-          //methods: ['debug', 'log', 'info'],
+          methods: ['debug', 'log', 'info'],
           verbose: true
         }
       }
     },
 
-    // auto-install
+    // Auto-install
     autoInstall: {
       local: {},
       subdir: {
@@ -484,6 +489,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // Build appcache manifest
     manifest: {
       generate: {
         options: {
@@ -529,13 +535,14 @@ module.exports = function (grunt) {
       },
     },
 
+    // External execution commands: poAutoTranslate
     exec: {
       poAutoTranslate: {
         cmd: 'php local/po-auto-translate/PoAutoTranslate.php "<config:pkg.name>" "<%= process.cwd() %>"',
       },
     },
 
-
+    // I18N: extract strings to be translated
     /* jshint camelcase: false */
     nggettext_extract: {
     /* jshint camelcase: true */
@@ -549,6 +556,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // I18N: compile strings to be translated
     /* jshint camelcase: false */
     nggettext_compile: {
     /* jshint camelcase: true */
@@ -570,6 +578,7 @@ module.exports = function (grunt) {
     },
 
   });
+
 
   grunt.loadNpmTasks('grunt-auto-install');
   grunt.loadNpmTasks('grunt-favicons');
@@ -611,31 +620,23 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'auto_install',
-// 'removelogging' not here (works on old scripts)
     'clean:dist',
-// 'removelogging' not here (no methods found)
-    'ngconstant:production',
-// 'removelogging' not here (?)
+    'ngconstant:development',
     'favicons',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
-// 'removelogging' not here (no methods found)
     'autoprefixer',
-// 'removelogging' not here (no methods found)
     'concat',
-// 'removelogging' not here (no methods found)
+    'removelogging',
     'ngmin',
-// 'removelogging' not here (no methods found)
     'copy:dist',
-// 'removelogging' not here (no methods found)
     'cdnify',
     'cssmin',
     'uglify',
     'filerev',
     'usemin',
     'htmlmin',
-     'removelogging',
     'manifest:dist'
   ]);
 
@@ -645,4 +646,3 @@ module.exports = function (grunt) {
     'build',
   ]);
 };
-
