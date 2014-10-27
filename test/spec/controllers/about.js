@@ -5,23 +5,23 @@ describe('Controller: AboutCtrl', function () {
   // load the controller's module
   beforeEach(module('smartUpApp'));
 
-  it('one is one', function () {
-    expect(1).toBe(1);
-  });
-/*
-  var AboutCtrl,
-    scope;
-
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
+  var ctrl, scope;
+  // inject the $controller and $rootScope services in the beforeEach block
+  beforeEach(inject(function($controller, $rootScope) {
+    // create a new scope that's a child of the $rootScope
     scope = $rootScope.$new();
-    AboutCtrl = $controller('AboutCtrl', {
+    // create the controller
+    ctrl = $controller('AboutController', {
       $scope: scope
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
+  it('one is one', function () {
+    expect(1).toBe(1);
   });
-*/
+
+  it('formLabel is set', function () {
+    //expect(rootScope.formLabel).toBeUndefined();
+    expect(rootScope.formLabel).toBe('About');
+  });
 });
