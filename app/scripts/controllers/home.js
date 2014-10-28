@@ -7,6 +7,11 @@
  * # HomeCtrl
  * Controller of the smartUpApp
  */
-app.controller('HomeCtrl', function ($rootScope) {
+app.controller('HomeCtrl', function ($rootScope, $scope, $location) {
   $rootScope.formLabel = '';
+
+  $scope.isActive = function(route) {
+    return route === $location.path();
+  };
+
 });

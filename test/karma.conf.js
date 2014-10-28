@@ -21,12 +21,19 @@ module.exports = function(config) {
       //'bower_components/angular-animate/angular-animate.js',
       //'bower_components/angular-cookies/angular-cookies.js',
       //'bower_components/angular-resource/angular-resource.js',
+      //'bower_components/angular-touch/angular-touch.js',
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-sanitize/angular-sanitize.js',
-      //'bower_components/angular-touch/angular-touch.js',
       'bower_components/angular-gettext/dist/angular-gettext.js',
+      'bower_components/ngAutocomplete/src/ngAutocomplete.js',
+      'bower_components/angular-messages/angular-messages.js',
+      'bower_components/firebase/firebase.js',
+      'bower_components/firebase-simple-login/firebase-simple-login.js',
+      'bower_components/angularfire/angularfire.js',
+      'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+      'bower_components/angular-md5/angular-md5.js',
+      'bower_components/angular-dynamic-locale/tmhDynamicLocale.min.js',
       'app/scripts/**/*.js',
-      //'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],
 
@@ -45,7 +52,7 @@ module.exports = function(config) {
     // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      'PhantomJS'
+      'Chrome'
     ],
 
     // Which plugins to enable
