@@ -9,6 +9,7 @@ app.directive('autofocus', function ($timeout) {
           if (value) {
             $timeout(function () {
               element[0].focus();
+              console.log(' *** focus called');
             });
           }
         }

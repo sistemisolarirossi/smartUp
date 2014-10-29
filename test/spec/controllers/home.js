@@ -12,7 +12,7 @@ describe('HomeCtrl', function () {
 
     $location = _$location_;
 
-    $templateCache.put('i18n/it.json', {"it":{"english text":"italian text"}});
+    $templateCache.put('i18n/it.json', {'it':{'original text':'italian text'}});
 
     $templateCache.put('views/about.html', '<div>about</div>');
     $templateCache.put('views/contacts.html', '<div>contacts</div>');
