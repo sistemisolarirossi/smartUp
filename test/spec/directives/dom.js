@@ -1,5 +1,5 @@
 'use strict';
 
-describe('Dom directive', function() {
+describe('Dom directives', function() {
    // TODO: test 'spring' and 'showDeviceClass' directives (?)
 });
