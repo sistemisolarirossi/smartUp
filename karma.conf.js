@@ -4,12 +4,12 @@
 // generator-karma 0.8.2
 
 module.exports = function(config) {
-  config.set({
+  config.set({  
     // enable / disable watching file and executing tests whenever any file changes
     autoWatch: true,
 
     // base path, that will be used to resolve files and exclude
-    basePath: '../',
+    basePath: '.',
 
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
@@ -59,7 +59,8 @@ module.exports = function(config) {
     // Which plugins to enable
     plugins: [
       'karma-phantomjs-launcher',
-      'karma-jasmine'
+      'karma-jasmine',
+      'karma-coverage'
     ],
 
     // Continuous Integration mode
@@ -76,7 +77,28 @@ module.exports = function(config) {
     // proxies: {
     //   '/': 'http://localhost:9000/'
     // },
+    // To avoid 404 in karma... (TODO: booh...)
+    proxies: {
+      '/scripts/i18n/': 'http://localhost/smartUp/app/scripts/i18n/'
+    },
+
     // URL root prevent conflicts with the site root
     // urlRoot: '_karma_'
+
+    // here we specify which of the files we want to appear in the coverage report
+    preprocessors: {
+      'app/scripts/**/*.js': ['coverage']
+    },
+
+    // add coverage to reporters
+    reporters: ['progress'], // 'coverage'],
+
+    // tell karma how you want the coverage results
+    coverageReporter: {
+      type : 'html',
+      // where to store the report
+      dir : 'app/coverage/'
+    }
+
   });
 };

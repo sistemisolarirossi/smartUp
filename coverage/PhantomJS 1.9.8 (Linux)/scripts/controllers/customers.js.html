@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for scripts/controllers/customers.js</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../../prettify.css">
+
+    <style>
+        body, html {
+            margin:0; padding: 0;
+        }
+        body {
+            font-family: Helvetica Neue, Helvetica,Arial;
+            font-size: 10pt;
+        }
+        div.header, div.footer {
+            background: #eee;
+            padding: 1em;
+        }
+        div.header {
+            z-index: 100;
+            position: fixed;
+            top: 0;
+            border-bottom: 1px solid #666;
+            width: 100%;
+        }
+        div.footer {
+            border-top: 1px solid #666;
+        }
+        div.body {
+            margin-top: 10em;
+        }
+        div.meta {
+            font-size: 90%;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 12pt;
+        }
+        h2 {
+            font-size: 10pt;
+        }
+        pre {
+            font-family: Consolas, Menlo, Monaco, monospace;
+            margin: 0;
+            padding: 0;
+            line-height: 14px;
+            font-size: 14px;
+            -moz-tab-size: 2;
+            -o-tab-size:  2;
+            tab-size: 2;
+        }
+
+        div.path { font-size: 110%; }
+        div.path a:link, div.path a:visited { color: #000; }
+        table.coverage { border-collapse: collapse; margin:0; padding: 0 }
+
+        table.coverage td {
+            margin: 0;
+            padding: 0;
+            color: #111;
+            vertical-align: top;
+        }
+        table.coverage td.line-count {
+            width: 50px;
+            text-align: right;
+            padding-right: 5px;
+        }
+        table.coverage td.line-coverage {
+            color: #777 !important;
+            text-align: right;
+            border-left: 1px solid #666;
+            border-right: 1px solid #666;
+        }
+
+        table.coverage td.text {
+        }
+
+        table.coverage td span.cline-any {
+            display: inline-block;
+            padding: 0 5px;
+            width: 40px;
+        }
+        table.coverage td span.cline-neutral {
+            background: #eee;
+        }
+        table.coverage td span.cline-yes {
+            background: #b5d592;
+            color: #999;
+        }
+        table.coverage td span.cline-no {
+            background: #fc8c84;
+        }
+
+        .cstat-yes { color: #111; }
+        .cstat-no { background: #fc8c84; color: #111; }
+        .fstat-no { background: #ffc520; color: #111 !important; }
+        .cbranch-no { background:  yellow !important; color: #111; }
+
+        .cstat-skip { background: #ddd; color: #111; }
+        .fstat-skip { background: #ddd; color: #111 !important; }
+        .cbranch-skip { background: #ddd !important; color: #111; }
+
+        .missing-if-branch {
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+            padding: 0 4px;
+            background: black;
+            color: yellow;
+        }
+
+        .skip-if-branch {
+            display: none;
+            margin-right: 10px;
+            position: relative;
+            padding: 0 4px;
+            background: #ccc;
+            color: white;
+        }
+
+        .missing-if-branch .typ, .skip-if-branch .typ {
+            color: inherit !important;
+        }
+
+        .entity, .metric { font-weight: bold; }
+        .metric { display: inline-block; border: 1px solid #333; padding: 0.3em; background: white; }
+        .metric small { font-size: 80%; font-weight: normal; color: #666; }
+
+        div.coverage-summary table { border-collapse: collapse; margin: 3em; font-size: 110%; }
+        div.coverage-summary td, div.coverage-summary table  th { margin: 0; padding: 0.25em 1em; border-top: 1px solid #666; border-bottom: 1px solid #666; }
+        div.coverage-summary th { text-align: left; border: 1px solid #666; background: #eee; font-weight: normal; }
+        div.coverage-summary th.file { border-right: none !important; }
+        div.coverage-summary th.pic { border-left: none !important; text-align: right; }
+        div.coverage-summary th.pct { border-right: none !important; }
+        div.coverage-summary th.abs { border-left: none !important; text-align: right; }
+        div.coverage-summary td.pct { text-align: right; border-left: 1px solid #666; }
+        div.coverage-summary td.abs { text-align: right; font-size: 90%; color: #444; border-right: 1px solid #666; }
+        div.coverage-summary td.file { text-align: right; border-left: 1px solid #666; white-space: nowrap;  }
+        div.coverage-summary td.pic { min-width: 120px !important;  }
+        div.coverage-summary a:link { text-decoration: none; color: #000; }
+        div.coverage-summary a:visited { text-decoration: none; color: #333; }
+        div.coverage-summary a:hover { text-decoration: underline; }
+        div.coverage-summary tfoot td { border-top: 1px solid #666; }
+
+        div.coverage-summary .yui3-datatable-sort-indicator, div.coverage-summary .dummy-sort-indicator {
+            height: 10px;
+            width: 7px;
+            display: inline-block;
+            margin-left: 0.5em;
+        }
+        div.coverage-summary .yui3-datatable-sort-indicator {
+            background: url("https://yui-s.yahooapis.com/3.6.0/build/datatable-sort/assets/skins/sam/sort-arrow-sprite.png") no-repeat scroll 0 0 transparent;
+        }
+        div.coverage-summary .yui3-datatable-sorted .yui3-datatable-sort-indicator {
+            background-position: 0 -20px;
+        }
+        div.coverage-summary .yui3-datatable-sorted-desc .yui3-datatable-sort-indicator {
+            background-position: 0 -10px;
+        }
+
+        .high { background: #b5d592 !important; }
+        .medium { background: #ffe87c !important; }
+        .low { background: #fc8c84 !important; }
+
+        span.cover-fill, span.cover-empty {
+            display:inline-block;
+            border:1px solid #444;
+            background: white;
+            height: 12px;
+        }
+        span.cover-fill {
+            background: #ccc;
+            border-right: 1px solid #444;
+        }
+        span.cover-empty {
+            background: white;
+            border-left: none;
+        }
+        span.cover-full {
+            border-right: none !important;
+        }
+        pre.prettyprint {
+            border: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+        .com { color: #999 !important; }
+        .ignore-none { color: #999; font-weight: normal; }
+
+    </style>
+</head>
+<body>
+<div class="header low">
+    <h1>Code coverage report for <span class="entity">scripts/controllers/customers.js</span></h1>
+    <h2>
+        
+        Statements: <span class="metric">1.15% <small>(1 / 87)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+        Branches: <span class="metric">0% <small>(0 / 26)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+        Functions: <span class="metric">0% <small>(0 / 18)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+        Lines: <span class="metric">1.15% <small>(1 / 87)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
+    </h2>
+    <div class="path"><a href="../../index.html">All files</a> &#187; <a href="index.html">scripts/controllers/</a> &#187; customers.js</div>
+</div>
+<div class="body">
+<pre><table class="coverage">
+<tr><td class="line-count">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict';
+ 
+app.controller('CustomersCtrl', <span class="fstat-no" title="function not covered" >function ($scope, $rootScope, $location, CFG, Customer) {</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $rootScope.formLabel = 'Customers';</span>
+<span class="cstat-no" title="statement not covered" >  $scope.customer = {};</span>
+<span class="cstat-no" title="statement not covered" >  $scope.customers = Customer.all;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.CFG = CFG; </span>// to access CFG from view
+  /*
+  if ($location.path() === '/customers') { // to handle routes like "/customers:$id"
+    $scope.customers = Customer.all;
+  }
+  */
+<span class="cstat-no" title="statement not covered" >  $scope.$watch('formAddEdit.$valid', <span class="fstat-no" title="function not covered" >function(value) {</span></span>
+    //console.info('form addedit validity is', value);
+<span class="cstat-no" title="statement not covered" >    $scope.formAddEditValid = value;</span>
+  });
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.initCustomer = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >    $scope.customer.name = null;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.customer.cfpiva = null;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.customer.address = null;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.customer.phone = null;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.customer.email = null;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.customer.dateCreation = null;</span>
+  
+<span class="cstat-no" title="statement not covered" >    $scope.formAddEditValid = false;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.formAddEditSubmitted = false;</span>
+    //$scope.currentId = null;
+<span class="cstat-no" title="statement not covered" >    $scope.addMode = false;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.editMode = false;  </span>
+<span class="cstat-no" title="statement not covered" >    $scope.printMode = false;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.orderby = 'name';</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    $scope.autocompleteAddressResult = '';</span>
+<span class="cstat-no" title="statement not covered" >    $scope.autocompleteAddressOptions = null;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.autocompleteAddressDetails = { types : 'establishments' };</span>
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.submitCustomer = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >    console.info('sumbit customer');</span>
+<span class="cstat-no" title="statement not covered" >    $scope.formAddEditSubmitted = true; </span>// allow validation errors to be shown
+<span class="cstat-no" title="statement not covered" >    if (!$scope.formAddEditValid) {</span>
+<span class="cstat-no" title="statement not covered" >      return;</span>
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if ($scope.editMode) {</span>
+<span class="cstat-no" title="statement not covered" >      $scope.customer.lastModify = new Date(); </span>// set customer modify date
+      //console.info('sumbit customer in edit mode:', $scope.customer.$id, $scope.customer);
+<span class="cstat-no" title="statement not covered" >      Customer.set($scope.customer.$id, $scope.customer).then(<span class="fstat-no" title="function not covered" >function () {</span>});</span>
+    }
+<span class="cstat-no" title="statement not covered" >    if ($scope.addMode) {</span>
+<span class="cstat-no" title="statement not covered" >      $scope.customer.dateCreation = new Date(); </span>// set customer creation date
+      //console.info('sumbit customer in add mode:', $scope.customer);
+<span class="cstat-no" title="statement not covered" >      Customer.create($scope.customer).then(<span class="fstat-no" title="function not covered" >function () {</span>});</span>
+    }
+<span class="cstat-no" title="statement not covered" >    $scope.addMode = $scope.editMode = false;</span>
+<span class="cstat-no" title="statement not covered" >    $scope.formAddEditSubmitted = false; </span>// forbid validation errors to be shown until next submission
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.cancelCustomer = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >    $scope.initCustomer();</span>
+<span class="cstat-no" title="statement not covered" >    console.log('CANCEL - customer now is empty:', $scope.customer);</span>
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.deleteCustomer = <span class="fstat-no" title="function not covered" >function (customer) {</span></span>
+<span class="cstat-no" title="statement not covered" >    console.info('deleteCustomer:', customer);</span>
+<span class="cstat-no" title="statement not covered" >    Customer.delete(customer).then(</span>
+<span class="fstat-no" title="function not covered" >      function(error) {</span>
+<span class="cstat-no" title="statement not covered" >        if (!error) {</span>
+<span class="cstat-no" title="statement not covered" >          console.info('deleteCustomer - success');</span>
+<span class="cstat-no" title="statement not covered" >          toastr.info('Customer deleted');</span>
+        } else {
+<span class="cstat-no" title="statement not covered" >          console.info('deleteCustomer - error', error.replace(/_/, ' '));</span>
+<span class="cstat-no" title="statement not covered" >          toastr.error('Customer not deleted: ' + error.replace(/_/, ' '));</span>
+        }
+      }
+    );
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.addCustomer = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >    $scope.initCustomer();</span>
+<span class="cstat-no" title="statement not covered" >    $scope.addMode = true;</span>
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.currentUserCanRead = <span class="fstat-no" title="function not covered" >function () {</span></span>
+    //console.info('currentUserCanRead - $rootScope.currentUser:', $rootScope.currentUser);
+<span class="cstat-no" title="statement not covered" >    if ($rootScope.currentUser) {</span>
+      //console.info('currentUserCanRead - currentUser is set');
+      //console.info('currentUserCanRead - currentUser:', $rootScope.currentUser);
+<span class="cstat-no" title="statement not covered" >      if ($rootScope.currentUser.roles &amp;&amp; $rootScope.currentUser.roles.customers) {</span>
+        //console.info('currentUserCanRead - currentUser.roles.read.customers:', $rootScope.currentUser.roles.customers.read);
+        //console.info('currentUserCanRead - retval:', $rootScope.currentUser.roles.customers.read);
+<span class="cstat-no" title="statement not covered" >        return $rootScope.currentUser.roles.customers.read;</span>
+      } else {
+        //console.info('currentUserCanRead - returning FALSE - no customer roles on user', $rootScope.currentUser);
+<span class="cstat-no" title="statement not covered" >        return false;</span>
+      }
+    }
+    //console.info('currentUserCanRead - returning FALSE');
+<span class="cstat-no" title="statement not covered" >    return false;</span>
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.currentUserCanWrite = <span class="fstat-no" title="function not covered" >function () {</span></span>
+    //console.info('currentUserCanWrite');
+<span class="cstat-no" title="statement not covered" >    if ($rootScope.currentUser) {</span>
+      //console.info('currentUserCanWrite - currentUser is set');
+      //console.info('currentUserCanWrite - currentUser:', $rootScope.currentUser);
+<span class="cstat-no" title="statement not covered" >      if ($rootScope.currentUser.roles &amp;&amp; $rootScope.currentUser.roles.customers) {</span>
+        //console.info('currentUserCanWrite - currentUser.roles.write.customers:', $rootScope.currentUser.roles.customers.write);
+        //console.info('currentUserCanWrite - retval:', $rootScope.currentUser.roles.customers.write);
+<span class="cstat-no" title="statement not covered" >        return $rootScope.currentUser.roles.customers.write;</span>
+      } else {
+        //console.info('currentUserCanWrite - returning FALSE (no customers roles on user)', $rootScope.currentUser);
+<span class="cstat-no" title="statement not covered" >        return false;</span>
+      }
+    }
+    //console.info('currentUserCanWrite - returning FALSE');
+<span class="cstat-no" title="statement not covered" >    return false;</span>
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.editCustomer = <span class="fstat-no" title="function not covered" >function (customer) {</span></span>
+<span class="cstat-no" title="statement not covered" >    console.log('EDITCUSTOMER', customer);</span>
+<span class="cstat-no" title="statement not covered" >    if (!$scope.editMode) {</span>
+<span class="cstat-no" title="statement not covered" >      var id = customer.$id;</span>
+      //$scope.currentId = id;
+<span class="cstat-no" title="statement not covered" >      $scope.customer = Customer.find(id);</span>
+<span class="cstat-no" title="statement not covered" >      $scope.editMode = true;</span>
+    } else {
+<span class="cstat-no" title="statement not covered" >      $scope.editMode = false;</span>
+    }
+  };
+&nbsp;
+/*
+  $scope.findCustomerName = function (name) {
+    if ($scope.customersByName[name]) {
+      return $scope.customersByName[name]; // return customer's id
+    }
+  };
+*/
+<span class="cstat-no" title="statement not covered" >  $scope.preprintCustomer = <span class="fstat-no" title="function not covered" >function (customer) {</span></span>
+<span class="cstat-no" title="statement not covered" >    var id = customer.$id;</span>
+<span class="cstat-no" title="statement not covered" >    if (!$scope.printMode) {</span>
+      //$scope.currentId = id;
+<span class="cstat-no" title="statement not covered" >      $scope.customer = Customer.find(id);</span>
+<span class="cstat-no" title="statement not covered" >      console.info('Preprint $scope.customer:', id, $scope.customer);</span>
+<span class="cstat-no" title="statement not covered" >      $scope.printMode = true;</span>
+    } else {
+<span class="cstat-no" title="statement not covered" >      $scope.printMode = false;</span>
+    }
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.printCustomer = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >    if ($scope.printMode) {</span>
+<span class="cstat-no" title="statement not covered" >      $scope.print();</span>
+<span class="cstat-no" title="statement not covered" >      window.onafterprint = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >        console.log('Printing dialog closed...');</span>
+<span class="cstat-no" title="statement not covered" >        $scope.printMode = false;</span>
+<span class="cstat-no" title="statement not covered" >        $scope.$apply();</span>
+      };
+    }
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.print = <span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >    setTimeout(<span class="fstat-no" title="function not covered" >function () {</span></span>
+<span class="cstat-no" title="statement not covered" >      window.print();</span>
+    }, 0);
+  };
+&nbsp;
+  /*
+  $scope.resetCustomerSelected = function () {
+    $scope.customerSelected = '';
+  };
+  */
+&nbsp;
+  /*
+  $scope.match = function (str, pattern) {
+    var regex = new RegExp(pattern, 'g');
+    return str.match(regex);
+  };
+  */
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  $scope.initCustomer();</span>
+});</pre></td></tr>
+</table></pre>
+
+</div>
+<div class="footer">
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Oct 31 2014 14:17:13 GMT+0100 (CET)</div>
+</div>
+
+<script src="../../prettify.js"></script>
+
+<script src="https://yui-s.yahooapis.com/3.6.0/build/yui/yui-min.js"></script>
+<script>
+
+    YUI().use('datatable', function (Y) {
+
+        var formatters = {
+          pct: function (o) {
+              o.className += o.record.get('classes')[o.column.key];
+              try {
+                  return o.value.toFixed(2) + '%';
+              } catch (ex) { return o.value + '%'; }
+          },
+          html: function (o) {
+              o.className += o.record.get('classes')[o.column.key];
+              return o.record.get(o.column.key + '_html');
+          }
+        },
+          defaultFormatter = function (o) {
+              o.className += o.record.get('classes')[o.column.key];
+              return o.value;
+          };
+
+        function getColumns(theadNode) {
+            var colNodes = theadNode.all('tr th'),
+                cols = [],
+                col;
+            colNodes.each(function (colNode) {
+                col = {
+                    key: colNode.getAttribute('data-col'),
+                    label: colNode.get('innerHTML') || ' ',
+                    sortable: !colNode.getAttribute('data-nosort'),
+                    className: colNode.getAttribute('class'),
+                    type: colNode.getAttribute('data-type'),
+                    allowHTML: colNode.getAttribute('data-html') === 'true' || colNode.getAttribute('data-fmt') === 'html'
+                };
+                col.formatter = formatters[colNode.getAttribute('data-fmt')] || defaultFormatter;
+                cols.push(col);
+            });
+            return cols;
+        }
+
+        function getRowData(trNode, cols) {
+            var tdNodes = trNode.all('td'),
+                    i,
+                    row = { classes: {} },
+                    node,
+                    name;
+            for (i = 0; i < cols.length; i += 1) {
+                name = cols[i].key;
+                node = tdNodes.item(i);
+                row[name] = node.getAttribute('data-value') || node.get('innerHTML');
+                row[name + '_html'] = node.get('innerHTML');
+                row.classes[name] = node.getAttribute('class');
+                //Y.log('Name: ' + name + '; Value: ' + row[name]);
+                if (cols[i].type === 'number') { row[name] = row[name] * 1; }
+            }
+            //Y.log(row);
+            return row;
+        }
+
+        function getData(tbodyNode, cols) {
+            var data = [];
+            tbodyNode.all('tr').each(function (trNode) {
+                data.push(getRowData(trNode, cols));
+            });
+            return data;
+        }
+
+        function replaceTable(node) {
+            if (!node) { return; }
+            var cols = getColumns(node.one('thead')),
+                data = getData(node.one('tbody'), cols),
+                table,
+                parent = node.get('parentNode');
+
+            table = new Y.DataTable({
+                columns: cols,
+                data: data,
+                sortBy: 'file'
+            });
+            parent.set('innerHTML', '');
+            table.render(parent);
+        }
+
+        Y.on('domready', function () {
+            replaceTable(Y.one('div.coverage-summary table'));
+            if (typeof prettyPrint === 'function') {
+                prettyPrint();
+            }
+        });
+    });
+</script>
+</body>
+</html>

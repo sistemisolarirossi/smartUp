@@ -1,0 +1,1299 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for scripts/i18n/</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../../prettify.css">
+
+    <style>
+        body, html {
+            margin:0; padding: 0;
+        }
+        body {
+            font-family: Helvetica Neue, Helvetica,Arial;
+            font-size: 10pt;
+        }
+        div.header, div.footer {
+            background: #eee;
+            padding: 1em;
+        }
+        div.header {
+            z-index: 100;
+            position: fixed;
+            top: 0;
+            border-bottom: 1px solid #666;
+            width: 100%;
+        }
+        div.footer {
+            border-top: 1px solid #666;
+        }
+        div.body {
+            margin-top: 10em;
+        }
+        div.meta {
+            font-size: 90%;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 12pt;
+        }
+        h2 {
+            font-size: 10pt;
+        }
+        pre {
+            font-family: Consolas, Menlo, Monaco, monospace;
+            margin: 0;
+            padding: 0;
+            line-height: 14px;
+            font-size: 14px;
+            -moz-tab-size: 2;
+            -o-tab-size:  2;
+            tab-size: 2;
+        }
+
+        div.path { font-size: 110%; }
+        div.path a:link, div.path a:visited { color: #000; }
+        table.coverage { border-collapse: collapse; margin:0; padding: 0 }
+
+        table.coverage td {
+            margin: 0;
+            padding: 0;
+            color: #111;
+            vertical-align: top;
+        }
+        table.coverage td.line-count {
+            width: 50px;
+            text-align: right;
+            padding-right: 5px;
+        }
+        table.coverage td.line-coverage {
+            color: #777 !important;
+            text-align: right;
+            border-left: 1px solid #666;
+            border-right: 1px solid #666;
+        }
+
+        table.coverage td.text {
+        }
+
+        table.coverage td span.cline-any {
+            display: inline-block;
+            padding: 0 5px;
+            width: 40px;
+        }
+        table.coverage td span.cline-neutral {
+            background: #eee;
+        }
+        table.coverage td span.cline-yes {
+            background: #b5d592;
+            color: #999;
+        }
+        table.coverage td span.cline-no {
+            background: #fc8c84;
+        }
+
+        .cstat-yes { color: #111; }
+        .cstat-no { background: #fc8c84; color: #111; }
+        .fstat-no { background: #ffc520; color: #111 !important; }
+        .cbranch-no { background:  yellow !important; color: #111; }
+
+        .cstat-skip { background: #ddd; color: #111; }
+        .fstat-skip { background: #ddd; color: #111 !important; }
+        .cbranch-skip { background: #ddd !important; color: #111; }
+
+        .missing-if-branch {
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+            padding: 0 4px;
+            background: black;
+            color: yellow;
+        }
+
+        .skip-if-branch {
+            display: none;
+            margin-right: 10px;
+            position: relative;
+            padding: 0 4px;
+            background: #ccc;
+            color: white;
+        }
+
+        .missing-if-branch .typ, .skip-if-branch .typ {
+            color: inherit !important;
+        }
+
+        .entity, .metric { font-weight: bold; }
+        .metric { display: inline-block; border: 1px solid #333; padding: 0.3em; background: white; }
+        .metric small { font-size: 80%; font-weight: normal; color: #666; }
+
+        div.coverage-summary table { border-collapse: collapse; margin: 3em; font-size: 110%; }
+        div.coverage-summary td, div.coverage-summary table  th { margin: 0; padding: 0.25em 1em; border-top: 1px solid #666; border-bottom: 1px solid #666; }
+        div.coverage-summary th { text-align: left; border: 1px solid #666; background: #eee; font-weight: normal; }
+        div.coverage-summary th.file { border-right: none !important; }
+        div.coverage-summary th.pic { border-left: none !important; text-align: right; }
+        div.coverage-summary th.pct { border-right: none !important; }
+        div.coverage-summary th.abs { border-left: none !important; text-align: right; }
+        div.coverage-summary td.pct { text-align: right; border-left: 1px solid #666; }
+        div.coverage-summary td.abs { text-align: right; font-size: 90%; color: #444; border-right: 1px solid #666; }
+        div.coverage-summary td.file { text-align: right; border-left: 1px solid #666; white-space: nowrap;  }
+        div.coverage-summary td.pic { min-width: 120px !important;  }
+        div.coverage-summary a:link { text-decoration: none; color: #000; }
+        div.coverage-summary a:visited { text-decoration: none; color: #333; }
+        div.coverage-summary a:hover { text-decoration: underline; }
+        div.coverage-summary tfoot td { border-top: 1px solid #666; }
+
+        div.coverage-summary .yui3-datatable-sort-indicator, div.coverage-summary .dummy-sort-indicator {
+            height: 10px;
+            width: 7px;
+            display: inline-block;
+            margin-left: 0.5em;
+        }
+        div.coverage-summary .yui3-datatable-sort-indicator {
+            background: url("https://yui-s.yahooapis.com/3.6.0/build/datatable-sort/assets/skins/sam/sort-arrow-sprite.png") no-repeat scroll 0 0 transparent;
+        }
+        div.coverage-summary .yui3-datatable-sorted .yui3-datatable-sort-indicator {
+            background-position: 0 -20px;
+        }
+        div.coverage-summary .yui3-datatable-sorted-desc .yui3-datatable-sort-indicator {
+            background-position: 0 -10px;
+        }
+
+        .high { background: #b5d592 !important; }
+        .medium { background: #ffe87c !important; }
+        .low { background: #fc8c84 !important; }
+
+        span.cover-fill, span.cover-empty {
+            display:inline-block;
+            border:1px solid #444;
+            background: white;
+            height: 12px;
+        }
+        span.cover-fill {
+            background: #ccc;
+            border-right: 1px solid #444;
+        }
+        span.cover-empty {
+            background: white;
+            border-left: none;
+        }
+        span.cover-full {
+            border-right: none !important;
+        }
+        pre.prettyprint {
+            border: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+        .com { color: #999 !important; }
+        .ignore-none { color: #999; font-weight: normal; }
+
+    </style>
+</head>
+<body>
+<div class="header low">
+    <h1>Code coverage report for <span class="entity">scripts/i18n/</span></h1>
+    <h2>
+        
+        Statements: <span class="metric">15.27% <small>(149 / 976)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+        Branches: <span class="metric">0% <small>(0 / 566)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+        Functions: <span class="metric">0.45% <small>(1 / 221)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        
+        Lines: <span class="metric">21.23% <small>(149 / 702)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+        Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
+    </h2>
+    <div class="path"><a href="../../index.html">All files</a> &#187; scripts/i18n/</div>
+</div>
+<div class="body">
+<div class="coverage-summary">
+<table>
+<thead>
+<tr>
+   <th data-col="file" data-fmt="html" data-html="true" class="file">File</th>
+   <th data-col="pic" data-type="number" data-fmt="html" data-html="true" class="pic"></th>
+   <th data-col="statements" data-type="number" data-fmt="pct" class="pct">Statements</th>
+   <th data-col="statements_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="branches" data-type="number" data-fmt="pct" class="pct">Branches</th>
+   <th data-col="branches_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="functions" data-type="number" data-fmt="pct" class="pct">Functions</th>
+   <th data-col="functions_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="lines" data-type="number" data-fmt="pct" class="pct">Lines</th>
+   <th data-col="lines_raw" data-type="number" data-fmt="html" class="abs"></th>
+</tr>
+</thead>
+<tbody><tr>
+	<td class="file low" data-value="angular-locale_af.js"><a href="angular-locale_af.js.html">angular-locale_af.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ar.js"><a href="angular-locale_ar.js.html">angular-locale_ar.js</a></td>
+	<td data-value="7.14" class="pic low"><span class="cover-fill" style="width: 7px;"></span><span class="cover-empty" style="width:93px;"></span></td>
+	<td data-value="7.14" class="pct low">7.14%</td>
+	<td data-value="14" class="abs low">(1&nbsp;/&nbsp;14)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="14" class="abs low">(0&nbsp;/&nbsp;14)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_az.js"><a href="angular-locale_az.js.html">angular-locale_az.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_be.js"><a href="angular-locale_be.js.html">angular-locale_be.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_bg.js"><a href="angular-locale_bg.js.html">angular-locale_bg.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_bn.js"><a href="angular-locale_bn.js.html">angular-locale_bn.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_bs.js"><a href="angular-locale_bs.js.html">angular-locale_bs.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ca.js"><a href="angular-locale_ca.js.html">angular-locale_ca.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_cs.js"><a href="angular-locale_cs.js.html">angular-locale_cs.js</a></td>
+	<td data-value="13.04" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.04" class="pct low">13.04%</td>
+	<td data-value="23" class="abs low">(3&nbsp;/&nbsp;23)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="15" class="abs low">(0&nbsp;/&nbsp;15)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_cy.js"><a href="angular-locale_cy.js.html">angular-locale_cy.js</a></td>
+	<td data-value="7.14" class="pic low"><span class="cover-fill" style="width: 7px;"></span><span class="cover-empty" style="width:93px;"></span></td>
+	<td data-value="7.14" class="pct low">7.14%</td>
+	<td data-value="14" class="abs low">(1&nbsp;/&nbsp;14)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="10" class="abs low">(0&nbsp;/&nbsp;10)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_da.js"><a href="angular-locale_da.js.html">angular-locale_da.js</a></td>
+	<td data-value="14.81" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.81" class="pct low">14.81%</td>
+	<td data-value="27" class="abs low">(4&nbsp;/&nbsp;27)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">(0&nbsp;/&nbsp;12)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="5" class="abs low">(0&nbsp;/&nbsp;5)</td>
+	<td data-value="18.18" class="pct low">18.18%</td>
+	<td data-value="22" class="abs low">(4&nbsp;/&nbsp;22)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_de.js"><a href="angular-locale_de.js.html">angular-locale_de.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_el.js"><a href="angular-locale_el.js.html">angular-locale_el.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_en.js"><a href="angular-locale_en.js.html">angular-locale_en.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_eo.js"><a href="angular-locale_eo.js.html">angular-locale_eo.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_es.js"><a href="angular-locale_es.js.html">angular-locale_es.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_et.js"><a href="angular-locale_et.js.html">angular-locale_et.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_eu.js"><a href="angular-locale_eu.js.html">angular-locale_eu.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_fa.js"><a href="angular-locale_fa.js.html">angular-locale_fa.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_fi.js"><a href="angular-locale_fi.js.html">angular-locale_fi.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_fr.js"><a href="angular-locale_fr.js.html">angular-locale_fr.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ga.js"><a href="angular-locale_ga.js.html">angular-locale_ga.js</a></td>
+	<td data-value="8.33" class="pic low"><span class="cover-fill" style="width: 8px;"></span><span class="cover-empty" style="width:92px;"></span></td>
+	<td data-value="8.33" class="pct low">8.33%</td>
+	<td data-value="12" class="abs low">(1&nbsp;/&nbsp;12)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">(0&nbsp;/&nbsp;12)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_gl.js"><a href="angular-locale_gl.js.html">angular-locale_gl.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_gu.js"><a href="angular-locale_gu.js.html">angular-locale_gu.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ha.js"><a href="angular-locale_ha.js.html">angular-locale_ha.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_hi.js"><a href="angular-locale_hi.js.html">angular-locale_hi.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_hr.js"><a href="angular-locale_hr.js.html">angular-locale_hr.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="21" class="abs low">(3&nbsp;/&nbsp;21)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="22" class="abs low">(0&nbsp;/&nbsp;22)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_hu.js"><a href="angular-locale_hu.js.html">angular-locale_hu.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_hy.js"><a href="angular-locale_hy.js.html">angular-locale_hy.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_id.js"><a href="angular-locale_id.js.html">angular-locale_id.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ig.js"><a href="angular-locale_ig.js.html">angular-locale_ig.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_is.js"><a href="angular-locale_is.js.html">angular-locale_is.js</a></td>
+	<td data-value="14.81" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.81" class="pct low">14.81%</td>
+	<td data-value="27" class="abs low">(4&nbsp;/&nbsp;27)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">(0&nbsp;/&nbsp;12)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="5" class="abs low">(0&nbsp;/&nbsp;5)</td>
+	<td data-value="18.18" class="pct low">18.18%</td>
+	<td data-value="22" class="abs low">(4&nbsp;/&nbsp;22)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_it.js"><a href="angular-locale_it.js.html">angular-locale_it.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_iw.js"><a href="angular-locale_iw.js.html">angular-locale_iw.js</a></td>
+	<td data-value="13.04" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.04" class="pct low">13.04%</td>
+	<td data-value="23" class="abs low">(3&nbsp;/&nbsp;23)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="18" class="abs low">(0&nbsp;/&nbsp;18)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ja.js"><a href="angular-locale_ja.js.html">angular-locale_ja.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ka.js"><a href="angular-locale_ka.js.html">angular-locale_ka.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_km.js"><a href="angular-locale_km.js.html">angular-locale_km.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_kn.js"><a href="angular-locale_kn.js.html">angular-locale_kn.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ko.js"><a href="angular-locale_ko.js.html">angular-locale_ko.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_lo.js"><a href="angular-locale_lo.js.html">angular-locale_lo.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_lt.js"><a href="angular-locale_lt.js.html">angular-locale_lt.js</a></td>
+	<td data-value="13.64" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.64" class="pct low">13.64%</td>
+	<td data-value="22" class="abs low">(3&nbsp;/&nbsp;22)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="17" class="abs low">(0&nbsp;/&nbsp;17)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_lv.js"><a href="angular-locale_lv.js.html">angular-locale_lv.js</a></td>
+	<td data-value="15" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15" class="pct low">15%</td>
+	<td data-value="20" class="abs low">(3&nbsp;/&nbsp;20)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="21" class="abs low">(0&nbsp;/&nbsp;21)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_mk.js"><a href="angular-locale_mk.js.html">angular-locale_mk.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="9" class="abs low">(0&nbsp;/&nbsp;9)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_mn.js"><a href="angular-locale_mn.js.html">angular-locale_mn.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_mr.js"><a href="angular-locale_mr.js.html">angular-locale_mr.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="7" class="abs low">(1&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ms.js"><a href="angular-locale_ms.js.html">angular-locale_ms.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_mt.js"><a href="angular-locale_mt.js.html">angular-locale_mt.js</a></td>
+	<td data-value="10" class="pic low"><span class="cover-fill" style="width: 10px;"></span><span class="cover-empty" style="width:90px;"></span></td>
+	<td data-value="10" class="pct low">10%</td>
+	<td data-value="10" class="abs low">(1&nbsp;/&nbsp;10)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="11" class="abs low">(0&nbsp;/&nbsp;11)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ne.js"><a href="angular-locale_ne.js.html">angular-locale_ne.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_nl.js"><a href="angular-locale_nl.js.html">angular-locale_nl.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_no.js"><a href="angular-locale_no.js.html">angular-locale_no.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_pa.js"><a href="angular-locale_pa.js.html">angular-locale_pa.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_pl.js"><a href="angular-locale_pl.js.html">angular-locale_pl.js</a></td>
+	<td data-value="13.04" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.04" class="pct low">13.04%</td>
+	<td data-value="23" class="abs low">(3&nbsp;/&nbsp;23)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="27" class="abs low">(0&nbsp;/&nbsp;27)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_pt.js"><a href="angular-locale_pt.js.html">angular-locale_pt.js</a></td>
+	<td data-value="14.81" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.81" class="pct low">14.81%</td>
+	<td data-value="27" class="abs low">(4&nbsp;/&nbsp;27)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">(0&nbsp;/&nbsp;12)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="5" class="abs low">(0&nbsp;/&nbsp;5)</td>
+	<td data-value="18.18" class="pct low">18.18%</td>
+	<td data-value="22" class="abs low">(4&nbsp;/&nbsp;22)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ro.js"><a href="angular-locale_ro.js.html">angular-locale_ro.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="21" class="abs low">(3&nbsp;/&nbsp;21)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="15" class="abs low">(0&nbsp;/&nbsp;15)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ru.js"><a href="angular-locale_ru.js.html">angular-locale_ru.js</a></td>
+	<td data-value="13.04" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.04" class="pct low">13.04%</td>
+	<td data-value="23" class="abs low">(3&nbsp;/&nbsp;23)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="26" class="abs low">(0&nbsp;/&nbsp;26)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_sk.js"><a href="angular-locale_sk.js.html">angular-locale_sk.js</a></td>
+	<td data-value="13.04" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.04" class="pct low">13.04%</td>
+	<td data-value="23" class="abs low">(3&nbsp;/&nbsp;23)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="15" class="abs low">(0&nbsp;/&nbsp;15)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_sl.js"><a href="angular-locale_sl.js.html">angular-locale_sl.js</a></td>
+	<td data-value="13.04" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.04" class="pct low">13.04%</td>
+	<td data-value="23" class="abs low">(3&nbsp;/&nbsp;23)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="18" class="abs low">(0&nbsp;/&nbsp;18)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_so.js"><a href="angular-locale_so.js.html">angular-locale_so.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_sq.js"><a href="angular-locale_sq.js.html">angular-locale_sq.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_sr.js"><a href="angular-locale_sr.js.html">angular-locale_sr.js</a></td>
+	<td data-value="14.29" class="pic low"><span class="cover-fill" style="width: 14px;"></span><span class="cover-empty" style="width:86px;"></span></td>
+	<td data-value="14.29" class="pct low">14.29%</td>
+	<td data-value="21" class="abs low">(3&nbsp;/&nbsp;21)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="22" class="abs low">(0&nbsp;/&nbsp;22)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_sv.js"><a href="angular-locale_sv.js.html">angular-locale_sv.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_sw.js"><a href="angular-locale_sw.js.html">angular-locale_sw.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ta.js"><a href="angular-locale_ta.js.html">angular-locale_ta.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_te.js"><a href="angular-locale_te.js.html">angular-locale_te.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_th.js"><a href="angular-locale_th.js.html">angular-locale_th.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_tl.js"><a href="angular-locale_tl.js.html">angular-locale_tl.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="18" class="abs low">(0&nbsp;/&nbsp;18)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_tr.js"><a href="angular-locale_tr.js.html">angular-locale_tr.js</a></td>
+	<td data-value="16.67" class="pic low"><span class="cover-fill" style="width: 16px;"></span><span class="cover-empty" style="width:84px;"></span></td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">(1&nbsp;/&nbsp;6)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_uk.js"><a href="angular-locale_uk.js.html">angular-locale_uk.js</a></td>
+	<td data-value="13.04" class="pic low"><span class="cover-fill" style="width: 13px;"></span><span class="cover-empty" style="width:87px;"></span></td>
+	<td data-value="13.04" class="pct low">13.04%</td>
+	<td data-value="23" class="abs low">(3&nbsp;/&nbsp;23)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="26" class="abs low">(0&nbsp;/&nbsp;26)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_ur.js"><a href="angular-locale_ur.js.html">angular-locale_ur.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_vi.js"><a href="angular-locale_vi.js.html">angular-locale_vi.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_yo.js"><a href="angular-locale_yo.js.html">angular-locale_yo.js</a></td>
+	<td data-value="15.79" class="pic low"><span class="cover-fill" style="width: 15px;"></span><span class="cover-empty" style="width:85px;"></span></td>
+	<td data-value="15.79" class="pct low">15.79%</td>
+	<td data-value="19" class="abs low">(3&nbsp;/&nbsp;19)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">(0&nbsp;/&nbsp;8)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="15" class="abs low">(3&nbsp;/&nbsp;15)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_zh-cn.js"><a href="angular-locale_zh-cn.js.html">angular-locale_zh-cn.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_zh-tw.js"><a href="angular-locale_zh-tw.js.html">angular-locale_zh-tw.js</a></td>
+	<td data-value="25" class="pic low"><span class="cover-fill" style="width: 25px;"></span><span class="cover-empty" style="width:75px;"></span></td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">(0&nbsp;/&nbsp;0)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">(1&nbsp;/&nbsp;4)</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="angular-locale_zu.js"><a href="angular-locale_zu.js.html">angular-locale_zu.js</a></td>
+	<td data-value="42.86" class="pic low"><span class="cover-fill" style="width: 42px;"></span><span class="cover-empty" style="width:58px;"></span></td>
+	<td data-value="42.86" class="pct low">42.86%</td>
+	<td data-value="7" class="abs low">(3&nbsp;/&nbsp;7)</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">(0&nbsp;/&nbsp;4)</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="2" class="abs medium">(1&nbsp;/&nbsp;2)</td>
+	<td data-value="75" class="pct medium">75%</td>
+	<td data-value="4" class="abs medium">(3&nbsp;/&nbsp;4)</td>
+	</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+<div class="footer">
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Oct 31 2014 16:05:11 GMT+0100 (CET)</div>
+</div>
+
+<script src="../../prettify.js"></script>
+
+<script src="https://yui-s.yahooapis.com/3.6.0/build/yui/yui-min.js"></script>
+<script>
+
+    YUI().use('datatable', function (Y) {
+
+        var formatters = {
+          pct: function (o) {
+              o.className += o.record.get('classes')[o.column.key];
+              try {
+                  return o.value.toFixed(2) + '%';
+              } catch (ex) { return o.value + '%'; }
+          },
+          html: function (o) {
+              o.className += o.record.get('classes')[o.column.key];
+              return o.record.get(o.column.key + '_html');
+          }
+        },
+          defaultFormatter = function (o) {
+              o.className += o.record.get('classes')[o.column.key];
+              return o.value;
+          };
+
+        function getColumns(theadNode) {
+            var colNodes = theadNode.all('tr th'),
+                cols = [],
+                col;
+            colNodes.each(function (colNode) {
+                col = {
+                    key: colNode.getAttribute('data-col'),
+                    label: colNode.get('innerHTML') || ' ',
+                    sortable: !colNode.getAttribute('data-nosort'),
+                    className: colNode.getAttribute('class'),
+                    type: colNode.getAttribute('data-type'),
+                    allowHTML: colNode.getAttribute('data-html') === 'true' || colNode.getAttribute('data-fmt') === 'html'
+                };
+                col.formatter = formatters[colNode.getAttribute('data-fmt')] || defaultFormatter;
+                cols.push(col);
+            });
+            return cols;
+        }
+
+        function getRowData(trNode, cols) {
+            var tdNodes = trNode.all('td'),
+                    i,
+                    row = { classes: {} },
+                    node,
+                    name;
+            for (i = 0; i < cols.length; i += 1) {
+                name = cols[i].key;
+                node = tdNodes.item(i);
+                row[name] = node.getAttribute('data-value') || node.get('innerHTML');
+                row[name + '_html'] = node.get('innerHTML');
+                row.classes[name] = node.getAttribute('class');
+                //Y.log('Name: ' + name + '; Value: ' + row[name]);
+                if (cols[i].type === 'number') { row[name] = row[name] * 1; }
+            }
+            //Y.log(row);
+            return row;
+        }
+
+        function getData(tbodyNode, cols) {
+            var data = [];
+            tbodyNode.all('tr').each(function (trNode) {
+                data.push(getRowData(trNode, cols));
+            });
+            return data;
+        }
+
+        function replaceTable(node) {
+            if (!node) { return; }
+            var cols = getColumns(node.one('thead')),
+                data = getData(node.one('tbody'), cols),
+                table,
+                parent = node.get('parentNode');
+
+            table = new Y.DataTable({
+                columns: cols,
+                data: data,
+                sortBy: 'file'
+            });
+            parent.set('innerHTML', '');
+            table.render(parent);
+        }
+
+        Y.on('domready', function () {
+            replaceTable(Y.one('div.coverage-summary table'));
+            if (typeof prettyPrint === 'function') {
+                prettyPrint();
+            }
+        });
+    });
+</script>
+</body>
+</html>

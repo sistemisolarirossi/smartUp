@@ -51,6 +51,7 @@ app.directive('checkUserName', function(/*User*/) {
         } else {
           model.$setValidity('taken', true);
           model.$setValidity('invalid', viewValue === '');
+          retval = viewValue;
         }
         return retval;
       });
