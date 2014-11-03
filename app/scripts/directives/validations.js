@@ -17,6 +17,24 @@ function formatDuration(text) {
   return value;
 }
 
+app.directive('renderOn', function() {
+  return {
+    require: 'ngModel',
+    restrict: 'A',
+    link: function(scope, elm, attrs, ctrl) {
+      var event = attrs.renderOn;
+      elm.bind(event, function() {
+        var viewValue = ctrl.$modelValue;
+        for (var i in ctrl.$formatters) {
+          viewValue = ctrl.$formatters[i](viewValue);
+        }
+        ctrl.$viewValue = viewValue;
+        ctrl.$render();
+      });
+    }
+  };  
+});
+
 app.directive('checkUserName', function(/*User*/) {
   return {
     require: 'ngModel',
@@ -55,11 +73,19 @@ app.directive('checkUserName', function(/*User*/) {
         }
         return retval;
       });
+/*
       elm.bind('blur', function() {
         if (model.$viewValue) { // capitalize value
           model.$viewValue = capitalize(model.$viewValue);
           model.$render();
         }
+      });
+*/
+      model.$formatters.push(function(modelValue) {
+        if (modelValue) {
+          modelValue = capitalize(modelValue); // capitalize value
+        }
+        return modelValue;
       });
     }
   };

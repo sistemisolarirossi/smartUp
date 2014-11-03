@@ -1,25 +1,34 @@
 'use strict';
 
 describe('The autofocus directive', function () {
-  var timeout;
-  beforeEach(module('smartUpApp'));
-  beforeEach(inject(function($templateCache) {
-    $templateCache.put('views/home.html', '<div>home</div>');
-  }));
-
-  beforeEach(inject(function($timeout) {
-    timeout = $timeout;
-  }));
+  var element, scope, timeout;
+  beforeEach(function () {
+    module('smartUpApp');
+    inject(function ($rootScope, $compile, $timeout, $templateCache) {
+      scope = $rootScope.$new();
+      timeout = $timeout;
+      $templateCache.put('views/home.html', '');
+      element = angular.element(
+        '<form>' +
+        '  <input type="text" name="0" />' +
+        '  <input type="text" name="1" autofocus="true" />' +
+        '</form>'
+      );
+      $compile(element)(scope);
+      scope.$digest();
+    });
+  });
 
   it('should set focus to first autofocus element', function () {
-    var form = angular.element('<form />');
-    var input1 = angular.element('<input type="text" name="first" />');
-    var input2 = angular.element('<input type="text" name="second" autofocus="true" />');
-    form.append(input1);
-    form.append(input2);
-    spyOn(input2[0], 'focus');
-    input2[0].focus(); // TODO: REMOVE-ME, to test autofocus directive (waiting for answer to http://stackoverflow.com/questions/26633684/ ...)
+    var input = element.find('input');
+    spyOn(input[1], 'focus');
     timeout.flush();
-    expect(input2[0].focus).toHaveBeenCalled();
+    expect(input[1].focus).toHaveBeenCalled();
+  });
+  it('should not set focus to first element (without autofocus)', function () {
+    var input = element.find('input');
+    spyOn(input[0], 'focus');
+    timeout.flush();
+    expect(input[0].focus).not.toHaveBeenCalled();
   });
 });
