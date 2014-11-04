@@ -9,8 +9,8 @@ describe('AuthCtrl', function () {
   // mock the controller for the same reason and include $rootScope and $controller
   beforeEach(angular.mock.inject(function($rootScope, $controller, $templateCache) {
 
-    $templateCache.put('i18n/it.json', {'it':{'original text':'italian text'}});
-    $templateCache.put('views/home.html', '<div>home</div>');
+    $templateCache.put('i18n/it.json', {});
+    $templateCache.put('views/home.html', '');
 
     // create an empty scope
     scope = $rootScope.$new();

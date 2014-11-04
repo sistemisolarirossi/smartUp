@@ -5,10 +5,6 @@ app.directive('equals', function() {
     restrict: 'A', // only activate on element attribute
     require: '?ngModel', // get a hold of NgModelController
     link: function(scope, elem, attrs, ngModel) {
-      if (!ngModel) {
-        return; // do nothing if no ng-model
-      }
-
       // watch own value and re-validate on change
       scope.$watch(attrs.ngModel, function() {
         validate();
@@ -21,7 +17,7 @@ app.directive('equals', function() {
 
       var validate = function() {
         // values
-        var val1 = ngModel.$viewValue;
+        var val1 = ngModel ? ngModel.$viewValue : undefined;
         var val2 = attrs.equals;
 
         // set validity

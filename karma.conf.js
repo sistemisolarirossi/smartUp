@@ -87,11 +87,14 @@ module.exports = function(config) {
 
     // here we specify which of the files we want to appear in the coverage report
     preprocessors: {
-      'app/scripts/**/*.js': ['coverage']
+      'app/scripts/controllers/*.js': ['coverage'],
+      'app/scripts/directives/*.js': ['coverage'],
+      'app/scripts/filters/*.js': ['coverage'],
+      'app/scripts/services/*.js': ['coverage']
     },
 
     // add coverage to reporters
-    reporters: ['progress'], // 'coverage'],
+    reporters: ['progress'], //, 'coverage'], // add coverage reporter after development is finished
 
     // tell karma how you want the coverage results
     coverageReporter: {

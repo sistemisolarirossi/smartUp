@@ -25,7 +25,6 @@ module.exports = function (grunt) {
   grunt.initConfig({
     // Project settings
     yeoman: appConfig,
-    //appName: 'smartUp', // REMOVE-ME, use name...
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -440,7 +439,7 @@ module.exports = function (grunt) {
     // Test settings
     karma: {
       unit: {
-        configFile: 'karma.conf.js',
+        configFile: 'test/karma.conf.js',
         singleRun: true
       }
     },

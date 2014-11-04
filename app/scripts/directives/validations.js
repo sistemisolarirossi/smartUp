@@ -144,7 +144,7 @@ app.directive('checkCustomerName', function(Customer) {
       value: '=ngModel'
     },
     link: function(scope, elm, attrs, model) {
-      var CUSTOMERNAME_REGEXP = /^([ \u00c0-\u01ffa-zA-Z0-9\'\.\,\-\/\&])+$/;
+      var CUSTOMERNAME_REGEXP = /^([ \u00c0-\u01ffa-zA-Z0-9\'\.\,\-\/\&\(\)\@])+$/;
       var retval;
       model.$parsers.unshift(function(viewValue) {
         if (CUSTOMERNAME_REGEXP.test(viewValue)) {
