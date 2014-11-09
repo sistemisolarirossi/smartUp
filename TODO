@@ -27,3 +27,4 @@ TODO:
  V deploy to dist i18n files wuthout uglify (see on 0.4.1)...
  - bower_components/angular-mocks/angular-mocks.js:1206 +    if (definitions.length > 0) {
  - bower_components/angular-mocks/angular-mocks.js:1223 +    }
+
