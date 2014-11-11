@@ -6,8 +6,9 @@ describe('The autoFillFix directive', function () {
   beforeEach(inject(function($templateCache) {
     $templateCache.put('views/home.html', '<div>home</div>');
   }));
-  beforeEach(inject(function($compile, $rootScope) {
+  beforeEach(inject(function($compile, $rootScope, $httpBackend) {
     $scope = $rootScope;
+    $httpBackend.expectGET('i18n/it.json').respond();
     var element = angular.element(
       '<form name="formLogin">' +
       '<input type="text" name="usernameOrEmail" ng-model="user.usernameOrEmail" autocomplete="on" autofocus="true" autofill-fix check-not-empty tabindex="1" />' +

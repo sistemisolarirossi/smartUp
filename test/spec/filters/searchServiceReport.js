@@ -120,8 +120,9 @@ describe('The searchServiceReport filter', function () {
     });
   });
 
-  beforeEach(angular.mock.inject(function($templateCache) {
-    $templateCache.put('views/home.html', '<div>home</div>');
+  beforeEach(angular.mock.inject(function($templateCache, $httpBackend) {
+    $templateCache.put('views/home.html', '');
+    $httpBackend.expectGET('i18n/it.json').respond();
   }));
 
   it('should return service reports matching specified query string (note, existing, with regexp)', function () {

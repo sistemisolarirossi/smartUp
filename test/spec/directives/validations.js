@@ -5,9 +5,10 @@ describe('Validation directives checkUserName', function() {
 
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $templateCache) {
-      scope = $rootScope.$new();
+    inject(function ($rootScope, $compile, $templateCache, $httpBackend) {
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
+      scope = $rootScope.$new();
       element = angular.element(
         '<form name="form">' +
         '  <input type="text" ng-model="model.username" name="username" check-user-name />' +
@@ -63,9 +64,10 @@ describe('Validation directive checkDuration', function() {
 
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $templateCache) {
-      scope = $rootScope.$new();
+    inject(function ($rootScope, $compile, $templateCache, $httpBackend) {
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
+      scope = $rootScope.$new();
       element = angular.element(
         '<form name="form">' +
         '  <input type="text" ng-model="model.duration" name="duration" check-duration>' +
@@ -126,9 +128,10 @@ describe('Validation directive checkCustomerName', function() {
 
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $templateCache) {
-      scope = $rootScope.$new();
+    inject(function ($rootScope, $compile, $templateCache, $httpBackend) {
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
+      scope = $rootScope.$new();
       element = angular.element(
         '<form name="form">' +
         '  <input type="text" ng-model="model.customername" name="customername" check-customer-name />' +
@@ -171,9 +174,10 @@ describe('Validation directive checkEmail', function() {
 
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $templateCache) {
-      scope = $rootScope.$new();
+    inject(function ($rootScope, $compile, $templateCache, $httpBackend) {
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
+      scope = $rootScope.$new();
       element = angular.element(
         '<form name="form">' +
         '  <input type="text" ng-model="model.email" name="email" check-email />' +
@@ -216,9 +220,10 @@ describe('Validation directive checkPassword', function() {
 
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $templateCache) {
-      scope = $rootScope.$new();
+    inject(function ($rootScope, $compile, $templateCache, $httpBackend) {
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
+      scope = $rootScope.$new();
       element = angular.element(
         '<form name="form">' +
         '  <input type="text" ng-model="model.password" name="password" check-password />' +
@@ -261,9 +266,10 @@ describe('Validation directive checkPhone', function() {
 
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $templateCache) {
-      scope = $rootScope.$new();
+    inject(function ($rootScope, $compile, $templateCache, $httpBackend) {
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
+      scope = $rootScope.$new();
       element = angular.element(
         '<form name="form">' +
         '  <input type="text" ng-model="model.phone" name="phone" check-phone />' +
@@ -329,9 +335,10 @@ describe('Validation directive checkCfOrPiva', function() {
 
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $templateCache) {
-      scope = $rootScope.$new();
+    inject(function ($rootScope, $compile, $templateCache, $httpBackend) {
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
+      scope = $rootScope.$new();
       element = angular.element(
         '<form name="form">' +
         '  <input type="text" ng-model="model.cforpiva" name="cforpiva" check-cf-or-piva />' +

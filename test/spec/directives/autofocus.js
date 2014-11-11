@@ -4,10 +4,11 @@ describe('The autofocus directive', function () {
   var element, scope, timeout;
   beforeEach(function () {
     module('smartUpApp');
-    inject(function ($rootScope, $compile, $timeout, $templateCache) {
+    inject(function ($rootScope, $compile, $timeout, $templateCache, $httpBackend) {
       scope = $rootScope.$new();
       timeout = $timeout;
       $templateCache.put('views/home.html', '');
+      $httpBackend.expectGET('i18n/it.json').respond();
       element = angular.element(
         '<form>' +
         '  <input type="text" name="0" />' +

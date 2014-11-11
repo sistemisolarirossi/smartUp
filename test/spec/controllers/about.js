@@ -12,10 +12,9 @@ describe('AboutCtrl', function () {
   beforeEach(angular.mock.module('smartUpApp'));
   
   // mock the controller for the same reason and include $rootScope and $controller
-  beforeEach(angular.mock.inject(function($rootScope, $controller, $templateCache) {
-
-    $templateCache.put('views/home.html', '<div>home</div>');
-    $templateCache.put('i18n/it.json', {'it':{'original text':'italian text'}});
+  beforeEach(angular.mock.inject(function($rootScope, $controller, $templateCache, $httpBackend) {
+    $templateCache.put('views/home.html', '');
+    $httpBackend.expectGET('i18n/it.json').respond();
 
     // create an empty scope
     scope = $rootScope.$new();

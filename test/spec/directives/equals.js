@@ -3,11 +3,9 @@
 describe('Equals directive', function() {
   var $scope, form;
   beforeEach(module('smartUpApp'));
-  beforeEach(inject(function($templateCache) {
+  beforeEach(inject(function($templateCache, $httpBackend, $compile, $rootScope) {
     $templateCache.put('views/home.html', '<div>home</div>');
-  }));
-
-  beforeEach(inject(function($compile, $rootScope) {
+    $httpBackend.expectGET('i18n/it.json').respond();
     $scope = $rootScope;
     var element = angular.element(
       '<form name="form">' +

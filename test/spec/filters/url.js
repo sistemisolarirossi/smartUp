@@ -12,8 +12,9 @@ describe('The url filter', function () {
     });
   });
 
-  beforeEach(angular.mock.inject(function($templateCache) {
-    $templateCache.put('views/home.html', '<div>home</div>');
+  beforeEach(angular.mock.inject(function($templateCache, $httpBackend) {
+    $templateCache.put('views/home.html', '');
+    $httpBackend.expectGET('i18n/it.json').respond();
   }));
 
   describe('hostnameFromUrl', function () {

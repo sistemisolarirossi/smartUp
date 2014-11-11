@@ -8,11 +8,9 @@ describe('Keypresses directive', function() {
   var KEYCODE_FUNCTION_KEY_F1 = 112;
 
   beforeEach(module('smartUpApp'));
-  beforeEach(inject(function($templateCache) {
-    $templateCache.put('views/home.html', '<div>home</div>');
-  }));
-
-  beforeEach(inject(function($compile, $rootScope) {
+  beforeEach(inject(function($templateCache, $compile, $rootScope, $httpBackend) {
+    $templateCache.put('views/home.html', '');
+    $httpBackend.expectGET('i18n/it.json').respond();
     scope = $rootScope.$new();
     scope.enter = false;
     scope.escape = false;
